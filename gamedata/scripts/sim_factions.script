@@ -1,0 +1,101 @@
+--' Онлайн-оффлайн симуляция EOC
+--' version : 1.7.6
+--' author : xrSanya
+
+--' Расширенная симуляция на базе ЕоС
+--' for Lost Path v2.2.9
+--' author : b4d1k
+--' date : 06.09.2017
+
+faction_information = {}
+faction_timers = {}
+
+-- lostpath_options.ini
+config = ini_file_ex("lostpath_options.ltx",true)
+
+function update()
+	for i,faction in pairs(sim_tables.factions) do
+		if faction ~= "monster" then
+			update_faction(faction)
+		end
+	end
+end
+
+local stalker_pop_factor = (axr_main.config:r_value("mm_options","alife_stalker_pop",2) or 1)
+local monster_pop_factor = (axr_main.config:r_value("mm_options","alife_mutant_pop",2) or 1)
+
+local passive_npc_const = config:r_value("war_options","passive_npc_const",2)
+local active_npc_const  = config:r_value("war_options","active_npc_const",2)
+local defend_min        = config:r_value("war_options","defend_min",2)
+local defend_max   	 	= config:r_value("war_options","defend_max",2)
+local attack_min   		= config:r_value("war_options","attack_min",2)
+local attack_max   		= config:r_value("war_options","attack_max",2)
+local patrol_min   		= config:r_value("war_options","patrol_min",2)
+local patrol_max   		= config:r_value("war_options","patrol_max",2)
+local res_coeff    		= config:r_value("war_options","res_coeff",2)
+local base_coeff   		= config:r_value("war_options","base_coeff",2)
+local limit_attack 		= config:r_value("war_options","limit_attack",2)
+local limit_defend 		= config:r_value("war_options","limit_defend",2)
+
+function update_faction(faction)
+	if not (faction_information[faction]) then
+		faction_information[faction] = {}
+		faction_information[faction].base_count = 0
+		faction_information[faction].resource_count = 0
+		faction_information[faction].total_power = 1		
+		faction_information[faction].passive_npc = 0
+		faction_information[faction].active_npc = 0
+		faction_information[faction].faction_passive_npc_limit = 0
+		faction_information[faction].faction_active_npc_limit = 0 
+		faction_information[faction].respawn_defend = 0
+		faction_information[faction].respawn_attack = 0
+		faction_information[faction].respawn_patrol = 0
+	end
+
+	if (not faction_information[faction].timer or game.get_game_time():diffSec(faction_information[faction].timer) >= (faction_information[faction].next_update*60)) then	
+		faction_information[faction] = {}
+        faction_information[faction].timer = game.get_game_time()
+		faction_information[faction].next_update = math.random(5, 10)		
+		faction_information[faction].base_count = 0
+		faction_information[faction].resource_count = 0
+		faction_information[faction].total_power = 1		
+		faction_information[faction].passive_npc = 0
+		faction_information[faction].active_npc = 0
+		faction_information[faction].faction_passive_npc_limit = 0
+		faction_information[faction].faction_active_npc_limit = 0 
+		faction_information[faction].respawn_defend = 0
+		faction_information[faction].respawn_attack = 0
+		faction_information[faction].respawn_patrol = 0
+
+		for i,lvl in pairs(sim_tables.active_levels) do
+			local info = sim_levels.level_information[lvl]
+			
+			
+			if (info.faction_stats and info.faction_stats[faction]) then
+				local num_active = sim_offline_control.calc_active_npc_on_level(lvl, faction)
+				local num_inactive = sim_offline_control.calc_passive_npc_on_level(lvl, faction)
+
+				faction_information[faction].base_count = faction_information[faction].base_count + info.faction_stats[faction].base_count
+				faction_information[faction].resource_count = faction_information[faction].resource_count + info.faction_stats[faction].resource_count
+				faction_information[faction].active_npc = faction_information[faction].active_npc + num_active
+				faction_information[faction].passive_npc = faction_information[faction].passive_npc + num_inactive
+				--faction_information[faction].total_power = faction_information[faction].total_power  + info.faction_stats[faction].total_power 
+			end
+		end
+ 
+		faction_information[faction].faction_passive_npc_limit = utils.round(passive_npc_const + faction_information[faction].base_count * (10 * stalker_pop_factor))
+        faction_information[faction].faction_active_npc_limit = utils.round(active_npc_const + ((faction_information[faction].base_count * res_coeff) + (faction_information[faction].resource_count)) * stalker_pop_factor)
+		faction_information[faction].respawn_patrol = utils.round(math.random(patrol_min, patrol_max) - (faction_information[faction].resource_count * res_coeff))
+		
+		--printf("--- " .. faction .. " Respawn defense: " ..  faction_information[faction].respawn_defend .. " ---")
+		--printf("--- " .. faction .. " Respawn attack: " ..  faction_information[faction].respawn_attack .. " ---")
+		--printf("--- " .. faction .. " Respawn patrol: " ..  faction_information[faction].respawn_patrol .. " ---")
+	    --printf("--- " .. faction .. " Passive NPC: " ..  faction_information[faction].passive_npc .. " ---")
+		--printf("--- " .. faction .. " Passive NPC limit: " ..  faction_information[faction].faction_passive_npc_limit .. " ---")
+	    --printf("--- " .. faction .. " Active NPC: " ..  faction_information[faction].active_npc .. " ---")
+	    --printf("--- " .. faction .. " Active NPC limit: " ..  faction_information[faction].faction_active_npc_limit .. " ---")
+		--printf("--- " .. faction .. " Number of bases: " .. faction_information[faction].base_count .. " ---")
+		--printf("--- " .. faction .. " Number of resources: " .. faction_information[faction].resource_count .. " ---")
+		--printf("--- " .. faction .. " Faction strength: " .. utils.round(faction_information[faction].total_power * (faction_information[faction].base_count + faction_information[faction].resource_count)) .. " ---")
+	end
+end

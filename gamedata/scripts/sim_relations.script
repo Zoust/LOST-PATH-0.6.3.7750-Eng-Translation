@@ -1,0 +1,238 @@
+--[[ -----------------------------------
+ #  Модуль динамических отношений
+ #  for Lost Path
+ #  author : b4d1k
+ #  author : xrSanya (на его базе)
+ #  date   : 20.12.2017
+ #  file   : sim_relations.script 
+]]-- -----------------------------------
+
+function on_game_start()
+	RegisterScriptCallback("npc_on_death_callback", npc_on_death)
+end
+
+local dynamic_relations = (lostpath_main.config:r_value("scripts","enable_dynamic_relations",1))
+
+allowed_relation_change = {
+	stalker = {
+		'dolg',
+		'freedom',
+		'csky',
+		'killer',
+		'isg',
+		'ecolog',
+	},
+	dolg = {
+		'stalker',
+		'csky',
+		'killer',
+		'army',
+		'isg',
+		'ecolog',
+	},
+	freedom = {
+		'stalker',
+		'csky',
+		'army',
+		'killer',
+		'bandit',
+		'isg',
+		'ecolog',
+	},
+	csky = {
+		'stalker',
+		'dolg',
+		'freedom',
+		'killer',
+		'bandit',
+		'ecolog',
+	},
+	killer = {
+		'stalker',
+		'dolg',
+		'freedom',
+		'csky',
+		'bandit',
+		'isg',
+		'army',
+	},
+	army = {
+		'dolg',
+		'freedom',
+		'isg',
+		'killer',
+	},
+	bandit = {
+		'freedom',
+		'killer',
+		'csky',
+		'dolg',
+		'isg',
+	},
+	isg = {
+		'stalker',
+		'dolg',
+		'freedom',
+		'bandit',
+		'army',
+		'killer',
+	},
+	ecolog = {
+		'freedom',
+		'stalker',
+		'dolg',
+		'csky',
+	},
+}
+
+tbl_change_relation = {
+	[1] = {
+		sender_icon = 'ui_inGame2_PD_Lider',
+		text = 'Factions %s and %s started a war'
+	},
+	[2] = {
+		sender_icon = 'ui_inGame2_PD_Drug_Stalkerov',
+		text = 'Factions %s and %s have formed an alliance'
+		},
+	[3] = {
+		sender_icon = 'ui_inGame2_PD_Avtoritet',
+		text = 'Relations between factions %s and %s are deteriorating'
+	},
+	[4] = {
+		sender_icon = 'ui_inGame2_PD_Avtoritet',
+		text = 'Factions %s and %s have ceased hostility'
+	}
+}
+
+faction_names_standart = {
+	['stalker'] = 'Loners',
+	['bandit'] = 'Bandits',
+	['csky'] = 'Clear Sky',
+	['army'] = 'Military',
+	['freedom'] = 'Freedom',
+	['dolg'] = 'Duty',
+	['ecolog'] = 'Ecologists',
+	['killer'] = 'Mercenaries',
+	['monolith'] = 'Monolith',
+	['zombied'] = 'Zombies',
+	['monster'] = 'Mutants',
+	['darkstalker'] = 'Darkstalkers',
+	['isg'] = 'Researchers',
+	['none'] = '[no data]',
+}
+
+function send_news(sender, news_text, sender_icon)
+	db.actor:give_game_news(sender, news_text, sender_icon, 0, 15000)
+	xr_sound.set_sound_play(0, 'pda_tips')
+end
+
+function npc_on_death(dead, killer)
+	if dynamic_relations == false then return end
+	local dead_faction =  get_object_community(dead)
+	local killer_faction =  get_object_community(killer)
+	local not_actor = killer_faction
+	
+	if string.find(killer_faction, "actor_") then
+		not_actor = string.gsub(killer_faction, "actor_", "")
+		--printf("%s %s", not_actor, killer_faction)
+	end
+	
+	local value = math.random(1,5)
+	if not allowed_relation_change[not_actor] then return end
+	for _, faction in pairs(allowed_relation_change[not_actor]) do
+		if game_relations.is_factions_friends(faction, dead_faction) then
+			set_faction_relations(faction, not_actor, -value)
+			--printf("%s %s", faction, not_actor)
+		elseif game_relations.is_factions_enemies(faction, dead_faction) then
+			set_faction_relations(faction, not_actor, value)
+			--printf("%s %s", faction, not_actor)
+		else
+			set_faction_relations(faction, not_actor, -value)
+			--printf("%s %s", faction, not_actor)
+		end
+	end
+	
+	--printf("%s %s %s", faction, killer_faction, value)
+end
+
+function sim_death(dead_faction, killer_faction)	
+	if dynamic_relations == false then return end
+	local value = math.random(1,5)
+	if not allowed_relation_change[killer_faction] then return end
+	for _, faction in pairs(allowed_relation_change[killer_faction]) do
+		if game_relations.is_factions_friends(faction, dead_faction) then
+			set_faction_relations(faction, killer_faction, -value)
+			--printf("%s %s", faction, killer_faction)
+		elseif game_relations.is_factions_enemies(faction, dead_faction) then
+			set_faction_relations(faction, killer_faction, value)
+			--printf("%s %s", faction, killer_faction)
+		else
+			set_faction_relations(faction, killer_faction, -value)
+			--printf("%s %s", faction, killer_faction)
+		end
+	end
+	
+	--printf("%s %s %s", faction, killer_faction, value)
+end
+
+function set_faction_relations(faction_1, faction_2, delta)
+	local function math_abs(param1, param2)
+		if math.abs(param1) > math.abs(param2) then
+			return param1
+		else
+			return param2
+		end
+	end
+	local old_faction_relation = math_abs(game_relations.get_factions_community(faction_2, faction_1), game_relations.get_factions_community(faction_1, faction_2))
+	local relation = old_faction_relation + delta
+	local param
+	
+	if (old_faction_relation > -1000 and old_faction_relation < 1000) and (relation <= -1000) then -- были нейтралами, стали врагами
+		param = 1
+		relation = -5000
+	elseif (old_faction_relation > -1000 and old_faction_relation < 1000) and (relation >= 1000) and (old_faction_relation >= 0) then -- были нейтралами, стали друзьями
+		param = 2
+		relation = 1100
+	elseif (old_faction_relation >= 1000) and (relation < 1000 and relation > -1000) then -- были друзьями, отношения ухудшились
+		param = 3
+		relation = relation - 500
+	elseif (old_faction_relation <= -1000) and (relation > -999) then -- были врагами, стали нейтралами
+		param = 4
+		relation = 0
+	end
+	
+	if relation > 5000 then
+		relation = 5000
+	elseif relation < -5000 then
+		relation = -5000
+	end
+	
+	game_relations.set_factions_community_num(faction_1, faction_2, relation)
+	game_relations.set_factions_community_num(faction_1, 'actor_'..faction_2, relation)
+	game_relations.set_factions_community_num('actor_'..faction_1, faction_2, relation)
+	game_relations.set_factions_community_num(faction_2, faction_1, relation)
+	game_relations.set_factions_community_num(faction_2, 'actor_'..faction_1, relation)
+	game_relations.set_factions_community_num('actor_'..faction_2, faction_1, relation)
+	
+	--[[
+	game_relations.change_factions_community_num(faction_1, faction_2, relation)
+	game_relations.change_factions_community_num(faction_1, 'actor_'..faction_2, relation)
+	game_relations.change_factions_community_num('actor_'..faction_1, faction_2, relation)
+	game_relations.change_factions_community_num(faction_2, faction_1, relation)
+	game_relations.change_factions_community_num(faction_2, 'actor_'..faction_1, relation)
+	game_relations.change_factions_community_num('actor_'..faction_2, faction_1, relation)
+	]]--
+	
+	local actor_comm = get_object_community(db.actor)
+	if actor_comm == faction_1 or actor_comm == 'actor_'..faction_1 then
+		relation_registry.set_community_goodwill(faction_2, 0, relation)
+	elseif actor_comm == faction_2 or actor_comm == 'actor_'..faction_2 then
+		relation_registry.set_community_goodwill(faction_1, 0, relation)
+	end
+	
+	if param and faction_1 and faction_2 and alife():actor():community():sub(7) ~= 'zombied' then
+		send_news('Changing Relationships', string.format(tbl_change_relation[param].text, faction_names_standart[faction_1], faction_names_standart[faction_2]), tbl_change_relation[param].sender_icon)
+	end
+	
+	--printf("faction_1 : %s faction_2 : %s value : %s", faction_1, faction_2, delta)
+end

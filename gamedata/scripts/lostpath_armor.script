@@ -1,0 +1,69 @@
+--[[ -----------------------------------
+ #  Модуль тяжелого оружия
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_armor.script 
+]]-- -----------------------------------
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+end
+
+function actor_on_update()
+	local actor = db.actor
+	local armor = db.actor:item_in_slot(7)
+	local rifleone = db.actor:item_in_slot(2)
+	local rifletwo = db.actor:item_in_slot(3)
+	local energy = db.actor:item_in_slot(15)
+	
+	local flag_RO = false
+	local flag_RT = false
+	
+	if not rifleone and not rifletwo then return end
+	
+    local armor_section, rifleone_section, rifletwo_section = "", "", ""
+	
+	if armor then armor_section = armor:section() end
+	if rifleone then rifleone_section = rifleone:section() end
+	if rifletwo then rifletwo_section = rifletwo:section() end
+	
+	if system_ini():r_string_ex(rifleone_section,"use_with_exo","") == "false"
+	and system_ini():r_string_ex(rifletwo_section,"use_with_exo","") == "false"
+	then return end
+	
+	if system_ini():r_string_ex(armor_section,"can_serv","") == "installed" then 
+		flag_RO = false
+		flag_RT = false
+		return
+	end   
+	
+	if not (system_ini():r_string_ex(armor_section,"can_serv","") == "installed") then
+		if system_ini():r_string_ex(rifleone_section,"use_with_exo","") == "true" then
+			flag_RO = true
+		else 
+			flag_RO = false
+		end
+
+		if system_ini():r_string_ex(rifletwo_section,"use_with_exo","") == "true" then
+			flag_RT = true
+		else 
+			flag_RT = false
+		end
+	end
+	
+	if flag_RO == true then
+		drop(rifleone)
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
+	elseif flag_RT == true then
+		drop(rifletwo)
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
+	end
+end
+
+function drop(obj)
+	db.actor:drop_item(obj)
+	local tmpw =  alife():create(obj:section(), db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id())
+	db.actor:transfer_item(obj,db.actor)
+	alife():release(tmpw)
+end

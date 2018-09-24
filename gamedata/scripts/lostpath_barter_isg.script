@@ -1,0 +1,289 @@
+--[[ -----------------------------------
+ #  Модуль бартера репутации
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.02.2018
+ #  file   : lostpath_barter_*.script 
+]]-- -----------------------------------
+
+function run_gui()
+	_g.run_gui(Reputation_isg(), false)
+end
+
+class "Reputation_isg" (CUIScriptWnd)
+
+function Reputation_isg:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function Reputation_isg:__finalize()
+end
+
+local credit, hst
+local str = ""
+local text = "Purchase history:\\n"
+lostpath.string_isg = text
+lostpath.operations_isg = 0
+
+function Reputation_isg:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	self:Enable					(true)
+	xml:ParseFile("Reputation.xml")
+	self.background = xml:InitStatic("background", self)
+	xml:InitFrame("background:frame", self.background)
+	xml:InitFrame("background:history", self.background)
+	
+	self.button1 = xml:Init3tButton("background:button1", self.background)
+	self:Register(self.button1, "button1")
+	self.button1:TextControl():SetText(text("wpn_gauss"))
+	self.button2 = xml:Init3tButton("background:button2", self.background)
+	self:Register(self.button2, "button2")
+	self.button2:TextControl():SetText(text("wpn_val"))
+	self.button3 = xml:Init3tButton("background:button3", self.background)
+	self:Register(self.button3, "button3")
+	self.button3:TextControl():SetText(text("wpn_groza"))
+	self.button4 = xml:Init3tButton("background:button4", self.background)
+	self:Register(self.button4, "button4")
+	self.button4:TextControl():SetText(text("wpn_vintorez"))
+	self.button5 = xml:Init3tButton("background:button5", self.background)
+	self:Register(self.button5, "button5")
+	self.button5:TextControl():SetText(text("wpn_svu"))
+	self.button6 = xml:Init3tButton("background:button6", self.background)
+	self:Register(self.button6, "button6")
+	self.button6:TextControl():SetText(text("wpn_svd"))
+	self.button7 = xml:Init3tButton("background:button7", self.background)
+	self:Register(self.button7, "button7")
+	self.button7:TextControl():SetText(text("ammo_5.45x39_fmj"))
+	self.button8 = xml:Init3tButton("background:button8", self.background)
+	self:Register(self.button8, "button8")
+	self.button8:TextControl():SetText(text("ammo_5.45x39_ap"))
+	self.button9 = xml:Init3tButton("background:button9", self.background)
+	self:Register(self.button9, "button9")
+	self.button9:TextControl():SetText(text("ammo_5.56x45_ss190"))
+	self.button10 = xml:Init3tButton("background:button10", self.background)
+	self:Register(self.button10, "button10")
+	self.button10:TextControl():SetText(text("ammo_5.56x45_ap"))
+	self.button11 = xml:Init3tButton("background:button11", self.background)
+	self:Register(self.button11, "button11")
+	self.button11:TextControl():SetText(text("ammo_9x39_pab9"))
+	self.button12 = xml:Init3tButton("background:button12", self.background)
+	self:Register(self.button12, "button12")
+	self.button12:TextControl():SetText(text("ammo_9x39_ap"))
+	self.button13 = xml:Init3tButton("background:button13", self.background)
+	self:Register(self.button13, "button13")
+	self.button13:TextControl():SetText(text("isg_outfit"))
+	self.button14 = xml:Init3tButton("background:button14", self.background)
+	self:Register(self.button14, "button14")
+	self.button14:TextControl():SetText(text("isg_scientific_outfit"))
+	self.button15 = xml:Init3tButton("background:button15", self.background)
+	self:Register(self.button15, "button15")
+	self.button15:TextControl():SetText(text("isg_radiation_outfit"))
+	self.button16 = xml:Init3tButton("background:button16", self.background)
+	self:Register(self.button16, "button16")
+	self.button16:TextControl():SetText(text("isg_heavy_outfit"))
+	self.button17 = xml:Init3tButton("background:button17", self.background)
+	self:Register(self.button17, "button17")
+	self.button17:TextControl():SetText(text("itm_servoprivod"))
+	self.button18 = xml:Init3tButton("background:button18", self.background)
+	self:Register(self.button18, "button18")
+	self.button18:TextControl():SetText(text("itm_rem_serv"))
+	
+	self:Register(xml:Init3tButton("background:exit", self.background), "exit")
+	self.info = xml:InitTextWnd("background:info", self.background)
+	self.money = xml:InitTextWnd("background:money", self.background)
+	self.history = xml:InitTextWnd("background:historytxt", self.background)
+	credit = self.money
+	hst = self.history
+	hst:SetText(text)
+	Reputation_isg:UpdBalance()
+end
+
+function Reputation_isg:InitCallBacks()
+	self:AddCallback("button1", ui_events.BUTTON_CLICKED, self.button1_button_clicked, self)
+	self:AddCallback("button2", ui_events.BUTTON_CLICKED, self.button2_button_clicked, self)
+	self:AddCallback("button3", ui_events.BUTTON_CLICKED, self.button3_button_clicked, self)
+	self:AddCallback("button4", ui_events.BUTTON_CLICKED, self.button4_button_clicked, self)
+	self:AddCallback("button5", ui_events.BUTTON_CLICKED, self.button5_button_clicked, self)
+	self:AddCallback("button6", ui_events.BUTTON_CLICKED, self.button6_button_clicked, self)
+	self:AddCallback("button7", ui_events.BUTTON_CLICKED, self.button7_button_clicked, self)
+	self:AddCallback("button8", ui_events.BUTTON_CLICKED, self.button8_button_clicked, self)
+	self:AddCallback("button9", ui_events.BUTTON_CLICKED, self.button9_button_clicked, self)
+	self:AddCallback("button10", ui_events.BUTTON_CLICKED, self.button10_button_clicked, self)
+	self:AddCallback("button11", ui_events.BUTTON_CLICKED, self.button11_button_clicked, self)
+	self:AddCallback("button12", ui_events.BUTTON_CLICKED, self.button12_button_clicked, self)
+	self:AddCallback("button13", ui_events.BUTTON_CLICKED, self.button13_button_clicked, self)
+	self:AddCallback("button14", ui_events.BUTTON_CLICKED, self.button14_button_clicked, self)
+	self:AddCallback("button15", ui_events.BUTTON_CLICKED, self.button15_button_clicked, self)
+	self:AddCallback("button16", ui_events.BUTTON_CLICKED, self.button16_button_clicked, self)
+	self:AddCallback("button17", ui_events.BUTTON_CLICKED, self.button17_button_clicked, self)
+	self:AddCallback("button18", ui_events.BUTTON_CLICKED, self.button18_button_clicked, self)
+	self:AddCallback("exit", ui_events.BUTTON_CLICKED, self.exit_button_clicked, self)
+end
+
+function prec(value)
+	if (db.actor:community_goodwill("isg") >= value) then
+		return true
+	else
+		return false
+	end
+end
+
+function text(item)
+	local inv_name = alun_utils.get_inv_name(item)
+	return game.translate_string(inv_name)
+end
+
+function barter(count, item)
+	if prec(count) == true then 
+		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -count}) 
+		local t = db.actor:community_goodwill("isg")
+		local inv_name = alun_utils.get_inv_name(item)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
+		xr_sound.set_sound_play(db.actor:id(), "pda_news")
+		dialogs.relocate_item_section(second_speaker, item, "in") 
+		
+		--printf("%s", lostpath.operations_isg)
+		
+		if lostpath.operations_isg >= 25 then
+			lostpath.string_isg = "Purchase history: \\n"
+			lostpath.operations_isg = 0
+		end
+		
+		str = "Obtained item: "..game.translate_string(inv_name).." | -"..tostring(count)..".\\n"
+		lostpath.string_isg = lostpath.string_isg .. str
+		lostpath.operations_isg = lostpath.operations_isg + 1
+		
+		hst:SetText(lostpath.string_isg)
+	else
+		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (db.actor:community_goodwill("isg") - count)..".")
+	end
+	Reputation_isg:UpdBalance()
+end
+
+function Reputation_isg:UpdBalance()
+	local balance = 0
+	
+	if db.actor then balance = db.actor:community_goodwill("isg") end
+	
+	local string = "Current balance: "..balance..".\\n"
+	
+	credit:SetText(string)
+end
+
+function Reputation_isg:button1_button_clicked()
+	local count = 5000
+	local item = "wpn_gauss"
+	barter(count, item)
+end
+
+function Reputation_isg:button2_button_clicked()
+	local count = 1000
+	local item = "wpn_val"
+	barter(count, item)
+end
+
+function Reputation_isg:button3_button_clicked()
+	local count = 950
+	local item = "wpn_groza"
+	barter(count, item)
+end
+
+function Reputation_isg:button4_button_clicked()
+	local count = 1200
+	local item = "wpn_vintorez"
+	barter(count, item)
+end
+
+function Reputation_isg:button5_button_clicked()
+	local count = 1400
+	local item = "wpn_svu"
+	barter(count, item)
+end
+
+function Reputation_isg:button6_button_clicked()
+	local count = 1350
+	local item = "wpn_svd"
+	barter(count, item)
+end
+
+function Reputation_isg:button7_button_clicked()
+	local count = 30
+	local item = "ammo_5.45x39_fmj"
+	barter(count, item)
+end
+
+function Reputation_isg:button8_button_clicked()
+	local count = 40
+	local item = "ammo_5.45x39_ap"
+	barter(count, item)
+end
+
+function Reputation_isg:button9_button_clicked()
+	local count = 30
+	local item = "ammo_5.56x45_ss190"
+	barter(count, item)
+end
+
+function Reputation_isg:button10_button_clicked()
+	local count = 40
+	local item = "ammo_5.56x45_ap"
+	barter(count, item)
+end
+
+function Reputation_isg:button11_button_clicked()
+	local count = 50
+	local item = "ammo_9x39_pab9"
+	barter(count, item)
+end
+
+function Reputation_isg:button12_button_clicked()
+	local count = 60
+	local item = "ammo_9x39_ap"
+	barter(count, item)
+end
+
+function Reputation_isg:button13_button_clicked()
+	local count = 600
+	local item = "isg_outfit"
+	barter(count, item)
+end
+
+function Reputation_isg:button14_button_clicked()
+	local count = 1800
+	local item = "isg_scientific_outfit"
+	barter(count, item)
+end
+
+function Reputation_isg:button15_button_clicked()
+	local count = 1600
+	local item = "isg_radiation_outfit"
+	barter(count, item)
+end
+
+function Reputation_isg:button16_button_clicked()
+	local count = 1500
+	local item = "isg_heavy_outfit"
+	barter(count, item)
+end
+
+function Reputation_isg:button17_button_clicked()
+	local count = 200
+	local item = "itm_servoprivod"
+	barter(count, item)
+end
+
+function Reputation_isg:button18_button_clicked()
+	local count = 200
+	local item = "itm_rem_serv"
+	barter(count, item)
+end
+
+function Reputation_isg:exit_button_clicked()
+	self:HideDialog()
+end
+
+function Reputation_isg:Hide()
+	self:HideDialog()
+end

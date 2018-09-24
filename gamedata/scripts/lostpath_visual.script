@@ -1,0 +1,86 @@
+--[[ -----------------------------------
+ #  ÕÂËÁ‚ÂÒÚÌ˚È ÒÍËÔÚ
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 27.11.2017
+ #  file   : lostpath_*.script 
+]]-- -----------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- ¿ “Œ– ¿œƒ≈…“ Õ¿’
+
+local new_visual, last_helmet
+local ini = ini_file("settings\\exo_seva.ltx")
+
+local act = false
+local deact = false
+
+function actor_on_update()
+	local armor  = db.actor:item_in_slot(7)
+	local helmet = db.actor:item_in_slot(12)
+	
+	local armor_section  = ""
+	local helmet_section = ""
+	
+	if armor then armor_section = armor:section() end	
+	if helmet then helmet_section = helmet:section() end
+	
+	if not string.find(armor_section, "exo") or not armor or not helmet then
+		if act == true or deact == true then
+			if not armor then
+				new_visual = "actors\\stalker_neutral\\stalker_neutral_1"
+				--db.actor:set_visual_name(new_visual)
+				--return
+			elseif not system_ini():r_string_ex(armor_section,"use_serv","") == "true" and armor then
+				new_visual = system_ini():r_string_ex(armor_section,"actor_visual","")
+				--db.actor:set_visual_name(new_visual)
+				--return
+			elseif not string.find(helmet_section, "helm_protective") or not helmet then
+				new_visual = ini:r_string_ex(armor_section,"def_visual")
+				--db.actor:set_visual_name(new_visual)
+				--return
+			end
+		end
+		
+		if new_visual then
+			db.actor:set_visual_name(new_visual)
+		end
+		return
+	else
+		return
+	end
+	
+	local curent_vis = db.actor:get_visual_name()
+	
+	if not last_helmet then last_helmet = helmet_section end
+	
+	if string.find(helmet_section, "helm_protective") then
+		new_visual = ini:r_string_ex(armor_section,"new_visual")
+		act = true
+	elseif not string.find(helmet_section, "helm_protective") or not helmet then
+		new_visual = ini:r_string_ex(armor_section,"def_visual")
+		deact = true
+	end
+	
+	local snd
+	
+	if new_visual ~= curent_vis then
+		db.actor:set_visual_name(new_visual)
+		if act == true then
+			snd = [[actor\gas_breath_1_1]]
+			news_manager.send_tip(db.actor, "%c[0,255,255,30]A closed breathing system is installed", nil, nil, nil, nil)
+		elseif deact == true then
+			snd = [[actor\gas_breath_1_2]]
+		end
+		lostpath.play_sound(snd)
+		act = false
+		deact = false
+	end
+	
+	last_helmet = helmet_section
+	--printf("NEW VISUAL: %s", new_visual)
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+end

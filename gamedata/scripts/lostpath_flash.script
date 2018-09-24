@@ -1,0 +1,110 @@
+--[[ -----------------------------------
+ #  Модуль использования флешек
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_flash.script 
+]]-- -----------------------------------
+--[[
+function error()
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Новой информации не обнаружено:\\n%c[255,160,160,160]На флешке ничего нового", nil, nil, nil, nil)
+end
+]]--
+-- ---------------------------------------------------------------------------------
+-- Установка сервопривода 
+-- ---------------------------------------------------------------------------------
+--[[
+function montage_dolg()
+	db.actor:give_info_portion("proto_montage_dolg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Duty body armor", nil, nil, nil, nil)
+end
+
+function montage_stalker()
+	db.actor:give_info_portion("proto_montage_stalker")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Loners body armor", nil, nil, nil, nil)
+end
+
+function montage_free()
+	db.actor:give_info_portion("proto_montage_free")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Freedom body armor", nil, nil, nil, nil)
+end
+
+function montage_merc()
+	db.actor:give_info_portion("proto_montage_merc")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Mercenary body armor", nil, nil, nil, nil)
+end
+
+function montage_mono()
+	db.actor:give_info_portion("proto_montage_mono")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Monolith body armor", nil, nil, nil, nil)
+end
+
+function montage_army()
+	db.actor:give_info_portion("proto_montage_army")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Military body armor", nil, nil, nil, nil)
+end
+
+function montage_ecolog()
+	db.actor:give_info_portion("proto_montage_ecolog")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Ecologists body armor", nil, nil, nil, nil)
+end
+
+function montage_bandit()
+	db.actor:give_info_portion("proto_montage_bandit")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Bandits body armor", nil, nil, nil, nil)
+end
+
+function montage_csky()
+	db.actor:give_info_portion("proto_montage_csky")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Installing servo drive on Clear Sky body armor", nil, nil, nil, nil)
+end
+]]--
+-- ---------------------------------------------------------------------------------
+-- Демонтаж сервопривода
+-- ---------------------------------------------------------------------------------
+--[[
+function demontage_dolg()
+	db.actor:give_info_portion("proto_demontage_dolg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Duty body armor", nil, nil, nil, nil)
+end
+
+function demontage_stalker()
+	db.actor:give_info_portion("proto_demontage_stalker")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Loners body armor", nil, nil, nil, nil)
+end
+
+function demontage_free()
+	db.actor:give_info_portion("proto_demontage_free")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Freedom body armor", nil, nil, nil, nil)
+end
+
+function demontage_merc()
+	db.actor:give_info_portion("proto_demontage_merc")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Mercenary body armor", nil, nil, nil, nil)
+end
+
+function demontage_mono()
+	db.actor:give_info_portion("proto_demontage_mono")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Monolith body armor", nil, nil, nil, nil)
+end
+
+function demontage_army()
+	db.actor:give_info_portion("proto_demontage_army")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Military body armor", nil, nil, nil, nil)
+end
+
+function demontage_ecolog()
+	db.actor:give_info_portion("proto_demontage_ecolog")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Ecologists body armor", nil, nil, nil, nil)
+end
+
+function demontage_bandit()
+	db.actor:give_info_portion("proto_demontage_bandit")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Bandits body armor", nil, nil, nil, nil)
+end
+
+function demontage_csky()
+	db.actor:give_info_portion("proto_demontage_csky")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Information received:\\n%c[255,160,160,160]Removing servo drive from Clear Sky body armor", nil, nil, nil, nil)
+end
+]]--

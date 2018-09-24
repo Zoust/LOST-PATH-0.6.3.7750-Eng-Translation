@@ -1,0 +1,58 @@
+--[[ ----------------------------------------------
+ #  Модуль изгнания из группировки
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 07.12.2017
+ #  file   : lostpath_faction_change.script 
+]]-- ----------------------------------------------
+
+local last_update
+
+function actor_on_update()
+	local actor = db.actor
+	local actor_faction = character_community(actor)
+	local actor_reputation = actor:character_reputation()
+	local tg = time_global()
+	
+	if not last_update then last_update = tg + 1000 end
+	
+	if tg < last_update then return end 
+	
+	last_update = tg + 1000
+	
+	if(actor_faction == "actor_stalker" and actor_reputation <= -2000) then
+		actor:set_character_community("actor_bandit", 0, 0)	-- сменить группировку на бандита
+		news_manager.send_tip(db.actor, "%c[0,255,0,0]You are no more in the Loners faction!", nil, nil, nil, nil)
+		xr_sound.set_sound_play(db.actor:id(), "pda_news")
+		game_relations.set_community_goodwill_for_faction("actor_bandit")
+	end
+	
+	if(actor_faction == "actor_bandit") and (actor:community_goodwill("bandit") <= 0) then
+		actor:set_character_reputation(0) 
+		actor:set_character_community("actor_stalker", 0, 0)	-- сменить группировку на сталкера
+		news_manager.send_tip(db.actor, "%c[0,255,64,0]You are no more in the Bandits faction!", nil, nil, nil, nil)
+		xr_sound.set_sound_play(db.actor:id(), "pda_news")
+		game_relations.set_community_goodwill_for_faction("actor_stalker")
+	end
+	
+	if(actor.psy_health < 0.25 and actor_faction ~= "actor_zombied" and actor_faction ~= "actor_monolith") then
+        level.add_pp_effector ("agr_u_fade.ppe", 3333, false)
+		actor:set_character_community("actor_monolith", 0, 0)	-- сменить группировку на монолит
+        actor.psy_health = 1
+		game_relations.set_community_goodwill_for_faction("actor_monolith")
+		
+		local snd = [[actor\die4]]
+		play_sound(snd)
+	end
+end
+
+function play_sound(snd)
+	if snd then
+		local snd_obj = xr_sound.get_safe_sound_object(snd)
+		snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	end
+end
+
+function on_game_start() 
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+end

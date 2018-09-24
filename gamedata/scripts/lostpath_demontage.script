@@ -1,0 +1,37 @@
+--[[ -----------------------------------
+ #  Демонтаж сервоприводов
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 06.12.2017
+ #  file   : lostpath_demontage.script 
+]]-- -----------------------------------
+
+function error()
+	_g.give_object_to_actor("itm_rem_serv")
+	sim_relations.send_news("Can not remove:", "This armor is not equipped with a servo", "ui_inGame2_Instrumenti")
+end
+
+function start(str_outfit_old, str_outfit_new, itm2)
+	ActorMenu.get_actor_menu():refresh_current_cell_item()
+	local actor = db.actor
+	local armor_old = itm2
+    local armor_old_section = armor_old:section()
+    local armor_old_id = armor_old:id()
+    local armor_old_crc = stpk_utils.get_item_data(alife_object(armor_old_id))
+	if(armor_old_section == str_outfit_old) then
+		lostpath.remove_item_from_inventory(armor_old, nil)
+		local armor_new = alife():create(str_outfit_new,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id(), false)
+		local armor_new_crc = stpk_utils.get_item_data(armor_new)
+		armor_new_crc.upgrades = armor_old_crc.upgrades
+		armor_new_crc.condition = armor_old_crc.condition
+		stpk_utils.set_item_data(armor_new_crc, armor_new)
+		alife():register(armor_new)
+		sim_relations.send_news("Removed modification:", "The servo has been removed from this armor»", "ui_inGame2_gear")
+		_g.give_object_to_actor("itm_servoprivod")  -- спавним предмет itm_servoprivod
+	
+	elseif(armor_old_section == str_outfit_new) then
+		sim_relations.send_news("Can not remove:", "The servo has already been removed from this armor»", "ui_inGame2_Instrumenti")
+		_g.give_object_to_actor("itm_rem_serv")  -- спавним предмет itm_rem_serv
+	end
+	ActorMenu.get_actor_menu():refresh_current_cell_item()
+end

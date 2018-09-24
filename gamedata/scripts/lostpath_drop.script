@@ -1,0 +1,44 @@
+--[[ -----------------------------------
+ #  Модуль дропа с рюкзаков [disabled]
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_drop.script 
+]]-- -----------------------------------
+
+function stalker()
+	--[[
+	local t = math.random(1, 100)
+	local actor = db.actor
+	
+	if t > 49 then -- типо 1% спавна
+		give_object_to_actor("itm_servoprivod")  -- спавним сервопривод
+		give_object_to_actor("flash_montage_stalker")  -- спавним флешку для установки привода
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Good backpack:\\n%c[255,160,160,160]This backpack is suitable for stowing a cache due to its very decent condition", nil, nil, nil, nil)
+	elseif t > 48 then -- типо 2% спавна
+		give_object_to_actor("inv_backpack")  -- спавним рюкзак для тайника
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Good backpack:\\n%c[255,160,160,160]This backpack is suitable for stowing a cache due to its very decent condition", nil, nil, nil, nil)
+		give_object_to_actor("detector_elite")  -- спавним элитный детектор
+		give_object_to_actor("medkit_scientic", 5)  -- спавним научные аптечки 5 шт
+		give_object_to_actor("flash_demontage_stalker")  -- спавним флешку для снятия привода
+	elseif t > 45 then -- 5% спавна
+		give_object_to_actor("inv_backpack")  -- спавним рюкзак для тайника
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Good backpack:\\n%c[255,160,160,160]This backpack is suitable for stowing a cache due to its very decent condition", nil, nil, nil, nil)
+		give_object_to_actor("detector_elite")  -- спавним элитный детектор
+		give_object_to_actor("medkit_scientic", 2)  -- спавним научные аптечки 5 шт
+	elseif t > 40 then -- 10% спавн
+		give_object_to_actor("inv_backpack")  -- спавним рюкзак для тайника
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Good backpack:\\n%c[255,160,160,160]This backpack is suitable for stowing a cache due to its very decent condition", nil, nil, nil, nil)
+		give_object_to_actor("detector_advanced")  -- спавним элитный детектор
+		give_object_to_actor("medkit_army", 5)  -- спавним научные аптечки 5 шт
+	else -- 90% спавна
+		give_object_to_actor("backpack_bad")  -- спавним рюкзак для тайника
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Bad backpack:\\n%c[255,160,160,160]This backpack is not suitable for stowing a cache due to its very bad condition", nil, nil, nil, nil)
+	end
+	]]--
+end
+
+
+
+
+

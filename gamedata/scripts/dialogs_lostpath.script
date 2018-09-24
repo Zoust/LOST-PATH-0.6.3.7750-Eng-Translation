@@ -1,0 +1,450 @@
+-- ---------------------------------------------------------------------------------
+-- Метки на карте для новых НПС
+-- by b4d1k (СкайДрагон)
+-- Lost Path v2.0a beta
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Новые квесты
+-- ---------------------------------------------------------------------------------
+-- Темная Лощина
+-- by b4d1k (СкайДрагон)
+-- Lost Path v2.0a beta
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача ГГ денег от НПС
+function give_money_3000(actor, npc)
+   dialogs.relocate_money(npc,3000,"out")   
+end
+-- ---------------------------------------------------------------------------------
+
+--[[
+ Покупка фильтров
+ Проверка на наличие денег на покупку
+ TODO: сделать для "СЕВ" отдельные баллоны
+]]--
+
+function buy_filter(actor, npc)
+	dialogs.relocate_money(npc,25000,"out")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Filter for gas mask", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+function prec_filter(actor, npc)
+	return actor:money() >= 25000
+end
+
+function no_prec_filter(actor, npc)
+	return actor:money() < 25000
+end
+
+function take_filter(actor, npc)
+	dialogs.relocate_item_section(second_speaker, "filter", "in") 
+end
+
+--[[
+ Аккамуляторы для экзоскелетов
+ TODO: 
+]]--
+
+function buy_batt(actor, npc)
+	dialogs.relocate_money(npc,40000,"out")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Battery for exoskeleton", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+function prec_batt(actor, npc)
+	return actor:money() >= 40000
+end
+
+function no_prec_batt(actor, npc)
+	return actor:money() < 40000
+end
+
+function take_batt(actor, npc)
+	dialogs.relocate_item_section(second_speaker, "battery", "in") 
+end
+
+--[[
+ Аккамуляторы для экзоскелетов
+ TODO: 
+]]--
+
+function buy_batteries(actor, npc)
+	dialogs.relocate_money(npc,10000,"out")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Batteries «ААА»", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+function prec_batteries(actor, npc)
+	return actor:money() >= 10000
+end
+
+function no_prec_batteries(actor, npc)
+	return actor:money() < 10000
+end
+
+function take_batteries(actor, npc)
+	dialogs.relocate_item_section(second_speaker, "batteries_cell", "in") 
+end
+
+function buy_rep(actor, npc)
+	local group = character_community(npc)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {group, 100}) 
+	dialogs.relocate_money(npc,100000,"out")
+	sim_factions.faction_information[group].total_power = sim_factions.faction_information[group].total_power + 50
+	group = game.translate_string(group)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]System:\\n%c[255,160,160,160]The faction " .. group .. " have received 50 resources for development.", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+function buy_prec(actor, npc)
+	return actor:money() >= 100000
+end
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на АКС-74У трофейный
+function give_ds_ak74_quest()
+   task_manager.get_task_manager():give_task("quest_ds_ak74_give")
+   dxr_encyclopedia.unlock_article(encyclopedia_matis_weapon_info)
+end
+-- ---------------------------------------------------------------------------------
+
+
+
+-- ---------------------------------------------------------------------------------
+-- Начало спавна трофейного АКС-74У
+function spawn_ds_ak74u_q(first_speaker, second_speaker)
+	alife(alife_pripyat):create("wpn_ak74u_q",vector():set(228.36373901367,-0.80728155374527,-145.27102661133),645208,1240)
+end
+-- ---------------------------------------------------------------------------------
+
+
+
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия трофейного АКС-74У
+function has_ds_ak74u_q()
+    if db.actor:object("wpn_ak74u_q") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+
+
+-- ---------------------------------------------------------------------------------
+-- Передача трофейного АКС-74У
+function transfer_ds_ak74u_q(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "wpn_ak74u_q")
+end
+-- ---------------------------------------------------------------------------------
+
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на уничтожение отряда Дикобраза
+function give_ds_dikobraz_quest()
+   task_manager.get_task_manager():give_task("quest_ds_dikobraz_give")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на уничтожение собак
+function give_ds_dogs_quest()
+   task_manager.get_task_manager():give_task("quest_ds_dogs_give")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача ГГ трофейного АКС-74У для первого квеста
+function give_stvol (first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_ak74u_q", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap", "in") 
+	dialogs.relocate_item_section(second_speaker, "medkit", "in") 
+	dialogs.relocate_item_section(second_speaker, "bandage", "in", 2) 
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача ГГ обреза и патронов для второго квеста
+function give_shotgun (first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_toz34", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_12x70_buck", "in") 
+	dialogs.relocate_item_section(second_speaker, "medkit", "in") 
+	dialogs.relocate_item_section(second_speaker, "bandage", "in", 2) 
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на уничтожение кабанов
+function give_ds_boar_quest()
+   task_manager.get_task_manager():give_task("quest_ds_boar_give")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на уничтожение кабанов
+function give_ds_search_clesh()
+   task_manager.get_task_manager():give_task("quest_ds_search_clesh")
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Спавн документов
+function spawn_ds_documents(first_speaker, second_speaker)
+local i = math.random(1, 3)
+	if i == 1 then
+		alife(alife_pripyat):create("ds_documents",vector():set(368.80972290039,20.120876312256,291.96661376953),815598,1398)
+	elseif i == 2 then
+		alife(alife_pripyat):create("ds_documents",vector():set(364.54257202148,17.937278747559,286.451171875),806625,1398)
+	elseif i == 3 then
+		alife(alife_pripyat):create("ds_documents",vector():set(389.78021240234,29.265607833862,291.75115966797),848254,1408)
+	end
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Спавн ноутбука 
+function spawn_ds_notebook(first_speaker, second_speaker)
+	alife(alife_pripyat):create("ds_notebook",vector():set(389.78021240234,29.265607833862,291.75115966797),848254,1408)
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Спавн кейса
+function spawn_ds_safe_container(first_speaker, second_speaker)
+	alife(alife_pripyat):create("ds_safe_container",vector():set(364.54257202148,17.937278747559,286.451171875),806625,1398)
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Спавн мертвого диггера возле машины
+function spawn_death_digger()
+	alife(alife_pripyat):create("stalker",vector():set(382.50827026367,-2.7111361026764,456.44024658203),836969,1098):on_death()
+	alife(alife_pripyat):create("stalker",vector():set(390.2880859375,-2.5548715591431,460.39031982422),850859,1098):on_death()
+	alife(alife_pripyat):create("stalker",vector():set(391.58181762695,-2.8284003734589,447.94128417969),852022,1098):on_death()
+	alife(alife_pripyat):create("stalker",vector():set(379.91757202148,-3.195948600769,442.32336425781),833573,1099):on_death()
+	alife(alife_pripyat):create("stalker",vector():set(385.20623779297,-2.7026257514954,455.63571166992),841460,1098):on_death()
+	alife(alife_pripyat):create("ds_pda_digger",vector():set(385.20623779297,-2.7026257514954,455.63571166992),841460,1098)
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на PDA
+function give_ds_pda_quest()
+   task_manager.get_task_manager():give_task("quest_ds_pda_give")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия ПДА Диггера
+function has_ds_pda_digger()
+    if db.actor:object("ds_pda_digger") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Передача ПДА Диггера
+function transfer_ds_pda_digger(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ds_pda_digger")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача ГГ ПДА Диггера
+function give_ds_pda_digger (first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ds_pda_digger", "in")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача ГГ ПДА Диггера (unlocked)
+function give_ds_pda_digger_unlock (first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ds_pda_digger_unlock", "in")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия ПДА Диггера (unlocked)
+function has_ds_pda_digger_unlock()
+    if db.actor:object("ds_pda_digger_unlock") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Передача ПДА Диггера (unlocked)
+function transfer_ds_pda_digger_unlock(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ds_pda_digger_unlock")
+	dxr_encyclopedia.unlock_article(encyclopedia_matis_documents_info)
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на передачу КПК Шульцу
+function give_ds_pda_shulc_quest()
+   task_manager.get_task_manager():give_task("quest_ds_pda_shulc")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на передачу КПК (unlocked) Клещу
+function give_ds_pda_clesh_quest()
+   task_manager.get_task_manager():give_task("quest_ds_pda_clesh")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на поиск документов диггеров
+function give_ds_documents_quest()
+   task_manager.get_task_manager():give_task("quest_ds_documents_give")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия документов
+function has_ds_documents()
+    if db.actor:object("ds_documents") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Передача документов
+function transfer_ds_documents(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ds_documents")
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Выдача снайперского комплекта
+function give_sniper_pack (first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_vintorez", "in") 
+	dialogs.relocate_item_section(second_speaker, "scientific_outfit", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x39_ap", "in", 6) 
+	dialogs.relocate_item_section(second_speaker, "medkit", "in", 6) 
+	dialogs.relocate_item_section(second_speaker, "bandage", "in", 12) 
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- При старте игры
+function on_game_start()
+    RegisterScriptCallback("on_game_load", stalker_quest) 
+end
+-- ---------------------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------------------
+-- Бар
+-- by b4d1k (СкайДрагон)
+-- Lost Path v2.0a beta
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста "Помощь Зулусу"
+function companion_quest_zulus()
+   task_manager.get_task_manager():give_task("companion_quest_zulus_give")
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия нужного количества боеприпасов
+function check_ammo_zulus(first_speaker, second_speaker)
+	local item_sections = {"ammo_pkm_100"} 
+	local needed = 3
+	local count = 0 
+	local item_section 
+	local function calc(temp, item) 
+	
+	if item:section() == item_section then 
+		count = count + 1 
+	end 
+	
+	end 
+	
+	for k,v in pairs(item_sections) do 
+		item_section = v 
+		get_story_object("actor"):iterate_inventory(calc, actor) 
+	end 
+	
+	return count >= needed 
+end 
+
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Передача этих боеприпасов
+function transfer_ammo_zulus(first_speaker, second_speaker) 
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ammo_pkm_100", 3)
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Системное удаление нескольких предметов
+function delete_count_item() 
+	local cnt = db.actor:object_count() 
+	local ch=0 
+	for i=0, cnt-1 do 
+		local item = db.actor:object(i) 
+		if item:section() == "ammo_pkm_100" then 
+			local sobj = alife():object(item:id()) 
+			if sobj then 
+				alife():release(sobj,true) 
+				ch = ch+1 
+				if ch == 3 then
+				break end 
+			end 
+		end 
+	end 
+end
+-- ---------------------------------------------------------------------------------
+
+-- ---------------------------------------------------------------------------------
+-- Выдача квеста на поиск Матиса, если это Лощина и ГГ Сталкер
+function stalker_quest()
+	local levels = level.name() 
+	local actor = db.actor
+	local actor_faction = character_community(actor)
+	
+	if levels == "k01_darkscape" and actor_faction == "actor_stalker" and not has_alife_info ("ds_matis_about_give") and has_alife_info ("esc_girl_matis") then
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Matis:\\n%c[255,160,160,160]Stalker, move back to camp we need your help. We are near the sawmill.", nil, nil, nil, nil)
+		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+		actor:give_info_portion("ds_matis_about_give") 
+		task_manager.get_task_manager():give_task("quest_ds_matis")
+	end
+	
+	if levels == "l05_bar" and has_alife_info("matis_end") and not has_alife_info ("bar_barman_done") then
+		lostpath_quest.isg_bar_sms()
+	end
+end
+-- ---------------------------------------------------------------------------------

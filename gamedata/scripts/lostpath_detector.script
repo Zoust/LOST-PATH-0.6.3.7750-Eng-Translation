@@ -1,0 +1,96 @@
+--[[ -----------------------------------
+ #  Ìîäóëü ïîëîìêè äåòåêòîğîâ
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 12.12.2017
+ #  file   : lostpath_detector.script 
+]]-- -----------------------------------
+
+function actor_on_update()	
+	local actor = db.actor
+	local item = actor:item_in_slot(9)
+	if not item then return end
+	local energy = actor:item_in_slot(16)
+	if not energy then return end
+	local lost = tonumber(system_ini():r_string_ex(item:section(),"cond_loss",""))*100
+
+	if item and db.actor:active_detector() and energy then
+		--item:set_condition(item:condition() - lost)
+		--printf("%s %s", item:condition(), lost)
+	end
+end
+
+function on_game_start()
+	--RegisterScriptCallback("actor_on_update",actor_on_update) 
+end
+
+function disassembly(obj)
+	local c = tonumber(system_ini():r_string_ex(obj:section(),"af_vis_radius","")) - 2
+	local name = system_ini():r_string_ex(obj:section(),"inv_name","")
+	give_object_to_actor("batteries_cell", c)
+	alife():release(alife_object(obj:id()), true)
+	
+	local count = "pieces"
+	if c == 1 then count = "piece"
+	elseif c >1 and c < 5 then count = "pieces" end
+	
+	local str = "Disassembled item: "..game.translate_string(name).."\\n"
+	str = str .. "Received when disassembling:\\n"..game.translate_string("batteries_cell").." "..c.." "..count.."."
+	local f = 3^c
+	
+	count = "pieces"
+	if f == 1 then count = "piece"
+	elseif f >1 and f < 5 then count = "pieces" end
+	give_object_to_actor("materials_up", f)
+	str = str.."\\n"..game.translate_string("materials_up_name").." "..f.." "..count.."."
+	
+	news_manager.send_tip(db.actor, str, nil, "awr", 6000) 
+end
+
+function disassembly_text(obj)
+	return "Disassemble"
+end
+
+function use(obj)
+	if not obj then return end
+	local sec = obj:section() or ""
+	
+	if obj:condition() ~= 0.0 then
+		local cond = obj:condition()
+		obj:set_condition(0.0)
+		b4d1k_utils.give_object_to_actor_condition("batteries_cell", cond)
+	elseif obj:condition() == 0.0 then
+		local t = {}
+		local function iterate(actor, obj)
+			if obj:section() == "batteries_cell" then
+				table.insert(t, obj:id())
+			end
+		end
+		
+		db.actor:iterate_inventory(iterate,db.actor)
+		
+		if not t then return end 
+		
+		table.sort(t)
+		store_table(t)
+		
+		local se = alife_object(t[1])
+		printf("%s %s", se, t[1])
+		local j_crc = stpk_utils.get_item_data(se)
+		local cond = j_crc.condition
+		printf("%s", cond)
+				
+		obj:set_condition(cond)
+		alife():release(se, true)
+	end
+end
+
+function use_text(obj)
+	if not obj then return end
+	
+	if obj:condition() ~= 0.0 then
+		return game.translate_string("st_deactivate_battery")
+	elseif obj:condition() == 0.0 then
+		return game.translate_string("st_activate_battery")	
+	end
+end

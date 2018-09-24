@@ -1,0 +1,98 @@
+--[[ -----------------------------------
+ #  Модуль выдачи шмоток группировками
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_faction_resource.script 
+]]-- -----------------------------------
+
+-- param1
+-- количество вклада
+-- param2
+-- уровень вклада
+
+
+local res = {
+	stalker = {0, 1},
+	bandit = {0, 1},
+	csky = {0, 1},
+	army = {0, 1},
+	freedom = {0, 1},
+	dolg = {0, 1},
+	ecolog = {0, 1},
+	killer = {0, 1},
+	monolith = {0, 1},
+	isg = {0, 1},
+	darkstalker = {0, 1},
+}
+local upd1
+local levels = {-1, 5, 10, 25, 100, 250, 500, 1000, 5000, 10000}
+
+function actor_on_update()
+	if timer_10000() == true then 
+		update_level() 
+		local af = sim_brain.actor_faction 
+		local str = string.gsub(af, "actor_", "")
+	end
+end
+
+function save_state(m_data)
+	if not m_data.res then
+		m_data.res = res
+	end	
+	m_data.res = res
+end
+
+function load_state(m_data)
+
+	if not m_data.res then
+		return
+	end
+	
+	res = m_data.res
+	m_data.res = nil
+end
+
+function on_game_start()
+	--RegisterScriptCallback("actor_on_update", actor_on_update)
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("load_state", load_state)
+end
+
+-- таймер на 10 секунд
+function timer_10000()
+	local tg = time_global()
+	if not upd1 then upd1 = tg + 10000 end
+	if tg < upd1 then return false end
+	upd1 = tg + 10000
+	return true
+end
+
+-- апдейт уровней вкладов
+function update_level()
+	printf("\n #Update the levels of contribution to factions")
+	--store_table(res)
+	for count, level in pairs(res) do
+		if res[count][1] >= levels[res[count][2]+1] then
+			res[count][2] = res[count][2] + 1
+			res[count][1] = 0
+		end
+	end
+	--store_table(res)
+end
+
+-- апдейт уровня определенного клана
+function update_faction(faction)
+	printf("\n #Update the contribution level to faction %s", faction)
+	--store_table(res)
+	if res[faction][1] >= levels[res[faction][2]+1] then
+		res[faction][2] = res[faction][2] + 1
+		res[faction][1] = res[faction][1] - levels[res[faction][2]]
+	end
+	--store_table(res)
+end
+
+function add_count(faction, value)
+	res[faction][1] = res[faction][1] + value
+	update_faction(faction)
+end

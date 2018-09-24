@@ -1,0 +1,103 @@
+--[[ -----------------------------------
+ #' Модуль динамической смены имени ГГ
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_name.script 
+]]-- -----------------------------------
+
+local i = ""
+local upd
+local old_name = ""
+local t
+
+function actor_on_update()
+	if lostpath_main.config:r_value("scripts","enable_rename",1,true) == false then return end
+
+	local _tmp = time_global()
+	
+	if not upd then upd = _tmp + 1000 end
+	if _tmp < upd then return end
+	
+	upd = upd + 1000
+	
+	local actor = db.actor
+	local sim = alife()
+	local se_actor = sim:actor()
+	local rank = actor:character_rank()
+	local af = character_community(actor)
+	local new_name = ""
+	if not t and old_name == "" then 
+		old_name = se_actor:character_name()
+	end
+	
+	if not string.find(af, "dolg") and not string.find(af, "army") then
+		return 
+	end
+	
+	--rank = rank + 100
+	--actor:set_character_rank(rank)
+	
+	if rank <= 250 then i = "Private"
+	elseif rank <= 500 then i = "Corporal"
+	elseif rank <= 1000 then i = "Sergeant"
+	elseif rank <= 1500 then i = "Staff Sergeant"
+	elseif rank <= 2250 then i = "Sergeant First Class"
+	elseif rank <= 3000 then i = "Master Sergeant"
+	elseif rank <= 4500 then i = "Chief Master Sergeant"
+	elseif rank <= 6000 then i = "Second Lieutenant"
+	elseif rank <= 8000 then i = "Lieutenant"
+	elseif rank <= 10000 then i = "First Lieutenant"
+	elseif rank <= 12000 then i = "Captain"
+	elseif rank <= 14000 then i = "Major"
+	elseif rank <= 16000 then i = "Lieutenant colonel"
+	elseif rank <= 18000 then i = "Colonel"
+	elseif rank <= 23000 then i = "Brigadier"
+	elseif rank <= 28000 then i = "Major General"
+	elseif rank <= 35000 then i = "Lieutenant-General"
+	elseif rank <= 45000 then i = "Colonel-General"
+	end
+	
+	if t == i then return end
+	
+	if not t then 
+		t = i 
+	end
+		
+	new_name = (""..i.." "..old_name.."")
+	
+	se_actor:set_character_name(new_name)
+	
+	
+	if t ~= i then
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]New rank obtained: "..i.."\\nCommand has promoted you for your service: "..rank..".", nil, nil, nil, nil)
+		xr_sound.set_sound_play(db.actor:id(), "pda_news")
+		db.actor:give_money(rank)
+		t = i
+	end
+end
+
+function save_state(m_data)
+
+	if not m_data.old_name then
+		m_data.old_name = old_name
+	end	
+
+	m_data.old_name = old_name
+end
+
+function load_state(m_data)
+
+	if not m_data.old_name then
+		return
+	end
+	
+	old_name = m_data.old_name
+	m_data.old_name = nil
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("load_state", load_state)
+end

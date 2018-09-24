@@ -1,0 +1,24 @@
+local config = ini_file("rpg.ltx")
+function lootmoney(npc)
+	if not db.actor:has_perk_101() or npc:money() <= 0 or npc:money() > 50000 then return end 	
+	printf("loot")
+			local news_caption = "Dead stalker: "..npc:character_name()
+	local luck_bonus = config:r_float_ex("luck_bonus", db.actor:get_level_luck())
+	local money = math.ceil((npc:money() * 0.25) * (1 + (luck_bonus/50)))
+	local news_text = "Found money: %c[255,255,0,0]"..game.translate_string(money).."%c[default] Ru."
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+	db.actor:give_game_news(news_caption, news_text, "ui_iconsTotal_found_money", 0, 10000)
+	db.actor:give_money(npc:money())
+	npc:set_money(0)
+end
+
+function lootmoney_effect(npc,corpse_npc)
+	if not db.actor:has_perk_101() or npc:money() <= 0 or npc:money() > 50000 then return end
+	printf("eff")
+	local luck_bonus = config:r_float_ex("luck_bonus", db.actor:get_level_luck())
+	local money = math.ceil((corpse_npc:money() * 0.25) * (1 + (luck_bonus/50)))
+	npc:give_money(money) 
+			-- game_stats.money_quest_update(deadmoney) 
+	corpse_npc:set_money(0)
+			-- game_stats.money_quest_update(-num) 
+end
