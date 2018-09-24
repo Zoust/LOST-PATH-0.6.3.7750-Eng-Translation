@@ -1,0 +1,1842 @@
+﻿<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="ammo-12x70-buck">
+		<text>12x70 shot rounds</text>
+  </string> 
+<string id="ammo-12x70-buck_s">
+    <text>12x70 Shot</text> 
+</string> 
+  <string id="ammo-12x70-buck_descr">
+		<text>Standard 12-calibre round filled with 6 mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons.</text>
+  </string>
+ 	<string id="ammo-12.7x55-fmj">
+		<text>Ïàòðîíû 12,7x55 ìì ÑÖ-130</text>
+	</string>
+	<string id="ammo-12.7x55-fmj_s">
+		<text>ÑÖ-130</text>
+	</string>
+	<string id="ammo-12.7x55-fmj_descr">
+		<text>12,7x55 ìì ÑÖ-130 - ðîññèéñêèé âèíòîâî÷íûé áîåïðèïàñ ñ äîçâóêîâîé ñêîðîñòüþ ïóëè, ñîçäàííûé â ÖÊÈÁ ÑÎÎ äëÿ ìàëîøóìíîãî è áåñïëàìåííîãî ïîðàæåíèÿ çàùèù¸ííûõ öåëåé è æèâîé ñèëû â òÿæ¸ëûõ áðîíåæèëåòàõ íà äàëüíîñòÿõ äî 600 ìåòðîâ.</text>
+	</string>
+	<string id="ammo-50-bmg">
+		<text>Ïàòðîíû 12,7x99 ìì NATO</text>
+	</string>
+	<string id="ammo-50-bmg_s">
+		<text>BMG</text>
+	</string>
+	<string id="ammo-50-bmg_descr">
+		<text>12,7x99 ìì (èçâåñòåí ïîä îáîçíà÷åíèÿìè «.50 BMG», «12,7x99 mm NATO»)  - êðóïíîêàëèáåðíûé ïàòðîí àðìèé ÍÀÒÎ. Îí áûë ñîçäàí â 1920-õ ãîäàõ â êà÷åñòâå áîåïðèïàñà äëÿ êðóïíîêàëèáåðíîãî ïóëåì¸òà Browning M1921. Ïîñëå Âòîðîé ìèðîâîé âîéíû ïàòðîí ñòàíäàðòèçîâàí â ÍÀÒÎ è âûïóñêàåòñÿ ðàçëè÷íûìè ñòðàíàìè-ó÷àñòíèöàìè ÍÀÒÎ ïî åäèíûì òåõíè÷åñêèì óñëîâèÿì.</text>
+  </string>
+  <string id="ammo-12x76-zhekan">
+		<text>12x76 slug rounds</text>
+  </string>
+  <string id="ammo-12x76-zhekan_s">
+    <text>12x76 Slug</text>
+  </string>
+   <string id="ammo-12x76-zhekan_descr">
+		<text>This heavy 12 calibre slug round is normally used for hunting big game, but is also good for other purposes. Instead of piercing, this hefty slug simply crushes through armour. </text>
+  </string>
+	<string id="ammo-12x76-dart">
+		<text>Ïàòðîíû 12/76 (äðîòèê)</text>
+	</string>
+	<string id="ammo-12x76-dart_s">
+		<text>12/76 äðîòèê</text>
+	</string>
+	<string id="ammo-12x76-dart_descr">
+		<text>Ïóëÿ-äðîòèê. Îïåðåíèå ñòàáèëèçèðóåò ïóëþ, ÷òî óâåëè÷èâàåò òî÷íîñòü áîÿ. Ìàññèâíîå ñòàëüíîå òåëî ïóëè ñïîñîáíî ïðîáèòü ëþáîé áðîíåæèëåò.</text>
+	</string>
+  <string id="ammo-9x18-fmj">
+		<text>9x18 mm rounds</text>
+  </string>
+ <string id="ammo-9x18-fmj_s">
+    <text>9x18</text>
+  </string>
+  <string id="ammo-9x18-fmj_descr">
+		<text>A full metal jacket round with a steel penetrator and a lead core under a metal jacket. Provides good stopping power but is ineffective against body armour.</text>
+  </string>
+   <string id="ammo-9x18-pmm">
+		<text>9x18 mm +P+ rounds</text>
+  </string>
+  <string id="ammo-9x18-pmm_s">
+    <text>9x18 +P+</text>
+  </string>
+  <string id="ammo-9x18-pmm_descr">
+		<text>This round contains a bullet with enhanced stopping power, while its European +P+ designation indicates "overpressure ammunition" with a 30% increase in muzzle velocity. Ineffective against body armour.</text>
+  </string>
+  <string id="ammo-9x19-fmj">
+		<text>9x19 mm FMJ rounds</text>
+  </string>
+ <string id="ammo-9x19-fmj_s">
+    <text>9x19 FMJ</text>
+  </string>
+  <string id="ammo-9x19-fmj_descr">
+		<text>This basic 9x19 calibre round with a jacketed bullet has good characteristics while being simple to produce. The round is popular due to the fact that international conventions prohibit the use of expanding ammunition in combat. Ineffective against body armour.</text>
+  </string>
+  <string id="ammo-9x19-pbp">
+		<text>9x19 mm JHP rounds</text>
+  </string>
+  <string id="ammo-9x19-pbp_s">
+    <text>9x19 JHP</text>
+  </string>
+  <string id="ammo-9x19-pbp_descr">
+		<text>This 9x19 calibre jacketed hollow point bullet with an expanding hollow provides high stopping power and low ricochet propensity. Used by police and for self-defence. Ineffective against body armour due to its low penetration potential.</text>
+  </string>
+	<string id="ammo-5.7x28-fmj">
+		<text>Ïàòðîíû 5,7x28 ìì SS190</text>
+	</string>
+	<string id="ammo-5.7x28-fmj_s">
+		<text>SS190</text>
+	</string>
+	<string id="ammo-5.7x28-fmj_descr">
+		<text>5,7x28 ìì SS190 - ïèñòîëåòíûé ïàòðîí, ñîçäàííûé â 1986 ãîäó äëÿ çàìåíû 9x19 ìì Ïàðàáåëëóì. Ïî ñðàâíåíèþ ñ ïàòðîíîì 9x19 ìì îí îáåñïå÷èâàåò áîëüøóþ íàñòèëüíîñòü ñòðåëüáû, ìåíüøóþ îòäà÷ó, áîëüøóþ ýôôåêòèâíóþ äàëüíîñòü ñòðåëüáû, áðîíåïðîáèâàåìîñòü, à òàêæå îòëè÷àåòñÿ ñíèæåííîé ñòåïåíüþ ðèêîøåòèðîâàíèÿ. Ýòîò ïàòðîí çàíÿë íèøó ìåæäó ïèñòîëåòíûìè è ïðîìåæóòî÷íûìè (àâòîìàòíûìè) ïàòðîíàìè. Ïàòðîí 5,7x28 ìì èñïîëüçóåòñÿ â ïèñòîëåòå-ïóëåì¸òå (Personal defense weapon) FN P90 è ïèñòîëåòå FN Five-seveN.</text>
+	</string>
+	<string id="ammo-5.7x28-ap">
+		<text>Ïàòðîíû 5,7x28 ìì SS195 JHP</text>
+	</string>
+	<string id="ammo-5.7x28-ap_s">
+		<text>SS195</text>
+	</string>
+	<string id="ammo-5.7x28-ap_descr">
+		<text>5,7x28 SS195 JHP - ïàòðîí ñ ýêñïàíñèâíîé ïóëåé, îáëàäàåò ìåíüøåé ïðîáèâíîé ñïîñîáíîñòüþ, ÷åì SS190, íî áîëüøèì îñòàíàâëèâàþùèì äåéñòâèåì è óáîéíîé ñèëîé.</text>
+	</string>
+	<string id="ammo-50-ae">
+		<text>Ïàòðîíû .50 Action Express</text>
+	</string>
+	<string id="ammo-50-ae_s">
+		<text>.50 AE</text>
+	</string>
+	<string id="ammo-50-ae_descr">
+        <text>.50 Action Express (òàêæå .50 AE, 12.7 x 33, 12,7x32,6 ìì) - ïàòðîí, ðàçðàáîòàííûé â 1988 ãîäó äëÿ èçðàèëüñêîãî ïèñòîëåòà Desert Eagle. Îäèí èç ñàìûõ ìîùíûõ óíèòàðíûõ ïèñòîëåòíûõ ïàòðîíîâ â ìèðå. Èìååò òóïîêîíå÷íóþ ïóëþ, êîòîðàÿ îáóñëàâëèâàåò îãðîìíîå îñòàíàâëèâàþùåå äåéñòâèå äàííîãî ïàòðîíà.</text>
+	</string>
+	<string id="ammo-357">
+		<text>Ïàòðîíû .357 Magnum</text>
+	</string>
+	<string id="ammo-357_s">
+		<text>Ïàòðîíû .357 Magnum</text>
+	</string>
+	<string id="ammo-357_descr">
+        <text>Ìàãíóì (ëàò. Magnum, îò magnus - áîëüøîé, âåëèêèé) - ïàòðîí ïîâûøåííîé ìîùíîñòè, ïî ñðàâíåíèþ ñ îáû÷íûì ïàòðîíîì òîãî æå êàëèáðà. Òàê æå îðóæèå, ïðåäíàçíà÷åííîå ïîä ïàòðîí äàííîãî òèïà.</text>
+	</string>
+ <string id="ammo-11.43x23-fmj">
+		<text>.45 ACP rounds</text>
+  </string>
+  <string id="ammo-11.43x23-fmj_s">
+    <text>.45 ACP</text>
+  </string>
+  <string id="ammo-11.43x23-fmj_descr">
+		<text>The .45 calibre full metal jacket round has enjoyed popularity for more than a hundred years thanks to its heavy bullet and a relatively small propelling charge. As a result, the bullet in this round is relatively slow but highly accurate and provides considerable stopping power.</text>
+  </string>
+  <string id="ammo-11.43x23-hydro">
+		<text>.45 ACP Hydrashock rounds</text>
+  </string>
+  <string id="ammo-11.43x23-hydro_s">
+    <text>.45 Hydro</text>
+  </string>
+  <string id="ammo-11.43x23-hydro_descr">
+		<text>This unusual .45 ACP calibre round is comprised of a jacketed soft point bullet with an expanding hollow and a steel core.  It is a combination of jacketed expanding soft point and armour piercing bullets, benefiting, from the advantages of both and, suffering from their downsides.</text>
+  </string>
+  <string id="ammo-5.45x39-fmj">
+		<text>5.45x39 mm rounds</text>
+  </string>
+  <string id="ammo-5.45x39-fmj_s">
+    <text>5.45x39</text>
+  </string>
+  <string id="ammo-5.45x39-fmj_descr">
+		<text>Military 5.45x39 7H10 calibre improved piercing round for automatic rifles of Warsaw Pact countries. Provides better accuracy than the 7.62 calibre round thanks to reduced recoil and a 100 meter increase in range.</text>
+  </string>
+  <string id="ammo-5.45x39-ap">
+		<text>5.45x39 mm AP rounds</text>
+  </string>
+  <string id="ammo-5.45x39-ap_s">
+		<text>5.45x39 AP</text>
+  </string>
+  <string id="ammo-5.45x39-ap_descr">
+		<text>Military 5.45x39 7H22 calibre armour-piercing round for automatic rifles of Warsaw Pact countries. The bullet contains a hard-alloy armour piercing penetrator. Effective against body armour.</text>
+  </string>
+ <string id="ammo-5.56x45-ss190">
+		<text>5.56x45 mm rounds</text>
+  </string>
+  <string id="ammo-5.56x45-ss190_s">
+    <text>5.56x45</text>
+  </string>
+ <string id="ammo-5.56x45-ss190_descr">
+		<text>A standard issue NATO 5.56x45 calibre round specially designed for accurate automatic fire. Provides good ballistic characteristics, having been designed on the basis of a hunting round. Widely known under its SS109 index.</text>
+  </string>
+  <string id="ammo-5.56x45-ap">
+		<text>5.56x45 mm AP rounds</text>
+  </string>
+  <string id="ammo-5.56x45-ap_s">
+		<text>5.56x45 mm AP</text>
+  </string>
+  <string id="ammo-5.56x45-ap_descr">
+		<text>A common NATO military 5.56x45 calibre armour piercing round, known under its SS190/M855 index, widely used by Western security agencies and special services. Effective against body armour.</text>
+  </string>
+	<string id="ammo-9x39-sp5">
+		<text>Ïàòðîíû 9x39 ìì ÑÏ-5</text>
+	</string>
+	<string id="ammo-9x39-sp5_s">
+		<text>ÑÏ-5</text>
+	</string>
+	<string id="ammo-9x39-sp5_descr">
+		<text>Ñïåöèàëüíûé ñíàéïåðñêèé ïàòðîí ñ èíäåêñîì 7Í8. Èìååò äîçâóêîâóþ ñêîðîñòü ïîëåòà, ÷òî ïîçâîëÿåò ïðèìåíÿòü åãî â áåñøóìíîì îðóæèè ïðè ñïåöîïåðàöèÿõ. Áëàãîäàðÿ êàëèáðó îòëè÷àåòñÿ âûñîêèì îñòàíàâëèâàþùèì äåéñòâèåì, à çà ñ÷¸ò òÿæ¸ëîé ïóëè îñîáîé êîíñòðóêöèè ïðîáèâàåò áîëüøèíñòâî áðîíåæèëåòîâ íà äàëüíîñòÿõ äî 200 ìåòðîâ.</text>
+	</string>
+ <string id="ammo-9x39-pab9">
+		<text>9x39 mm SP-5 rounds</text>
+  </string>
+ <string id="ammo-9x39-pab9_s">
+		<text>9x39 mm SP-5</text>
+  </string>
+  <string id="ammo-9x39-pab9_descr">
+		<text>The SP-5 is a subsonic sniper round with a bimetallic casing. The round contains a steel core with a gap behind it that is filled with lead. Requires a silencer for stealth firing. Used by special services of Warsaw Pact countries.</text>
+  </string>
+ <string id="ammo-9x39-ap">
+		<text>9x39 mm SP-6 rounds</text>
+  </string>
+ <string id="ammo-9x39-ap_s">
+    <text>9x39 SP-6</text>
+  </string>
+   <string id="ammo-9x39-ap_descr">
+		<text>The SP-6 is a subsonic assault rifle round with a jacketed soft point bullet with a hard steel core that protrudes from the casing. Requires a silencer for stealth firing. Used by special services of Warsaw Pact countries. Effective against body armour.</text>
+  </string>
+	<string id="ammo-7.62x25-p">
+		<text>7,62x25 ìì Ï</text>
+	</string>
+	<string id="ammo-7.62x25-p_s">
+		<text>Ïñò ãæ</text>
+	</string>
+	<string id="ammo-7.62x25-p_descr">
+		<text>Ñîâåòñêèé ïèñòîëåòíûé ïàòðîí êàëèáðà 7,62ìì. Ïðîñòàÿ öåëüíîîáîëî÷å÷íàÿ ïóëÿ ñî ñâèíöîâûì ñåðäå÷íèêîì.</text>
+	</string>
+	<string id="ammo-7.62x25-ps">
+		<text>7,62x25 ìì Ïñò</text>
+	</string>
+	<string id="ammo-7.62x25-ps_s">
+		<text>ÏÏ ãæ</text>
+	</string>
+	<string id="ammo-7.62x25-ps_descr">
+		<text>Ñîâåòñêèé ïèñòîëåòíûé ïàòðîí êàëèáðà 7,62ìì. Ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	</string>
+	<string id="ammo-7.62x39-fmj">
+		<text>7,62x39 ìì ÏÑ</text>
+	</string>
+	<string id="ammo-7.62x39-fmj_s">
+		<text>ÏÑ</text>
+	</string>
+	<string id="ammo-7.62x39-fmj_descr">
+		<text>Ñîâåòñêèé àâòîìàòíûé ïàòðîí êàëèáðà 7,62ìì (èíäåêñ 57-Í-231). Ïðîñòàÿ îáîëî÷å÷íàÿ ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì.</text>
+	</string>
+	<string id="ammo-7.62x39-ap">
+		<text>7,62x39 ìì ÁÏ 7Í23</text>
+	</string>
+	<string id="ammo-7.62x39-ap_s">
+		<text>ÁÏ</text>
+	</string>
+	<string id="ammo-7.62x39-ap_descr">
+		<text>Ñîâåòñêèé áðîíåáîéíûé àâòîìàòíûé ïàòðîí êàëèáðà 7,62ìì (èíäåêñ 7Í23). Ïóëÿ ñ òåðìîóïðî÷í¸ííûì ñåðäå÷íèêîì èç èíñòðóìåíòàëüíîé ñòàëè, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	</string>
+	<string id="ammo-7.62x51-fmj">
+		<text>7,62x51 ìì NATO SS77</text>
+	</string>
+	<string id="ammo-7.62x51-fmj_s">
+		<text>M80</text>
+	</string>
+	<string id="ammo-7.62x51-fmj_descr">
+		<text>Âèíòîâî÷íûé áîåïðèïàñ ñòàíäàðòà ÍÀÒÎ. Êàëèáð - 7,62ìì. Ïðîñòàÿ îáîëî÷å÷íàÿ ïóëÿ ñî ñâèíöîâûì ñåðäå÷íèêîì.</text>
+	</string>
+	<string id="ammo-7.62x51-ap">
+		<text>7,62x51 ìì NATO M61 AP</text>
+	</string>
+	<string id="ammo-7.62x51-ap_s">
+		<text>M61</text>
+	</string>
+	<string id="ammo-7.62x51-ap_descr">
+		<text>Âèíòîâî÷íûé áðîíåáîéíûé áîåïðèïàñ ñòàíäàðòà ÍÀÒÎ. Êàëèáð - 7,62ìì. Ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	</string>
+	<string id="ammo-7.62x54-7h1">
+		<text>7,62x54 ìì 7H1</text>
+	</string>
+	<string id="ammo-7.62x54-7h1_s">
+		<text>ÏÑ</text>
+	</string>
+	<string id="ammo-7.62x54-7h1_descr">
+		<text>Øòàòíûé àðìåéñêèé ïàòðîí 7,62x54 ìì ÏÑ ñ îáûêíîâåííîé ïóëåé (èíäåêñ 7Í1). Ïóëÿ ïàòðîíà èìååò òóïîêîíå÷íûé ñòàëüíîé ñåðäå÷íèê. Äåø¸âàÿ â èçãîòîâëåíèè ìîäèôèêàöèÿ ñíàéïåðñêîãî ïàòðîíà äëÿ ñíàéïåðñêèõ âèíòîâîê.</text>
+	</string>
+  <string id="ammo-7.62x54-7h14">
+		<text>7.62x54 mm 7H14 rounds</text>
+  </string>
+  <string id="ammo-7.62x54-7h14_descr">
+		<text>A 7.62 calibre sniper round with a steel penetrator specially designed for the SVD. Unlike the machine gun round, the 7H14 provides tight groupings and excellent penetration characteristics.</text>
+  </string>
+  <string id="ammo-7.62x54-7h14_s">
+    <text>7.62x54 7H1</text>
+  </string>
+  <string id="ammo-7.62x54-ap">
+		<text>7.62x54 mm PP rounds</text>
+  </string>
+  <string id="ammo-7.62x54-ap_s">
+    <text>7.62x54 PP</text>
+  </string>
+  <string id="ammo-7.62x54-ap_descr">
+	<text>Cheap 7.62 calibre machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the RP-74 machine gun.</text>
+  </string>
+	<string id="ammo-8,6x70-fmj">
+		<text>Ïàòðîíû .338 Lapua Magnum</text>
+	</string>
+	<string id="ammo-8,6x70-fmj_s">
+		<text>.338</text>
+	</string>
+	<string id="ammo-8,6x70-fmj_descr">
+		<text>Ñîçäàâàëñÿ êàê ñïåöèàëüíûé ñíàéïåðñêèé ïàòðîí äëÿ ñòðåëüáû íà áîëüøèå äèñòàíöèè, íî íà ñåãîäíÿøíèé ìîìåíò øèðîêî èñïîëüçóåòñÿ òàêæå îõîòíèêàìè è ñòðåëêàìè ñïîðòñìåíàìè.</text>
+	</string>
+  <string id="ammo-gauss">
+		<text>Batteries</text>
+  </string>
+	<string id="ammo-gauss_short">
+		<text>Batteries</text>
+	</string>
+  <string id="ammo-gauss_descr">
+		<text>Batteries that use a encapsulated fragment of the Flash artefact as their power source. Manufactured using hi-tech equipment.</text>
+  </string>
+  <string id="ammo-gauss_cardan">
+		<text>Homemade batteries</text>
+  </string>
+  <string id="ammo-gauss_cardan_descr">
+		<text>These lower-capacity cells use encapsulated fragments of the Flash artefact as their power source. Their lower capacity is due to makeshift production conditions and lack of specialized equipment.</text>
+  </string>
+	<string id="ammo-7.62x54-pkm">
+		<text>Ïàòðîíû 7,62õ54 ÁÏ (ëåíòà)</text>
+	</string>
+	<string id="ammo-7.62x54-pkm_s">
+		<text>ÁÏ</text>
+	</string>
+	<string id="ammo-7.62x54-pkm_descr">
+		<text>Ïàòðîí ñ ïóëåé ïîâûøåííîãî ïðîáèâíîãî äåéñòâèÿ. Â êîíñòðóêöèè ïóëè èìååò áðîíåáîéíûé ñåðäå÷íèê èç çàêàë¸ííîé èíñòðóìåíòàëüíîé ñòàëè. Ïðåäíàçíà÷åíà äëÿ ïîðàæåíèÿ æèâîé ñèëû, íàõîäÿùåéñÿ çà ë¸ãêèìè áðîíåâûìè óêðûòèÿìè, íà äàëüíîñòÿõ äî 500 ì.</text>
+	</string>
+ <string id="ammo-og-7b">
+		<text>OG-7V warhead</text>
+  </string>
+  <string id="ammo-og-7b_s">
+		<text>OG-7V</text>
+  </string>
+  <string id="ammo-og-7b_descr">
+		<text>Fragmentation warhead for anti-personnel warfare used with the RPG-7u grenade launcher. The main purpose of the warhead is to kill enemies in cover outside the range of hand grenades using the RPG-7u launcher.</text>
+  </string>
+  <string id="st_grenade_f1">
+    <text>F1 Grenade</text>
+  </string>
+  <string id="st_grenade_f1_descr">
+		<text>A defensive hand grenade, with fragments capable of piercing medium level body armour. The grenade has a 7 meter kill radius. Stalkers get F1 grenades from trading with the military, who write them off as having been used for fighting mutants.</text>
+  </string>
+  <string id="st_grenade_rgd5">
+		<text>RGD-5 grenade</text>
+  </string>
+  <string id="st_grenade_rgd5_descr">
+		<text>An offensive hand grenade with a small kill zone of 5 meters. Often used by stalkers to "smoke out" mutants due to its relatively low cost.</text>
+  </string>
+  <string id="st_grenade_smoke">
+    <text>Smoke Grenade</text>
+  </string>
+  <string id="st_grenade_smoke_descr">
+		<text>A hand smoke grenade. Used to put up smoke screens. Once the grenade is thrown it takes 10 seconds for the smoke screen to expand.</text>
+  </string>
+	<string id="st_grenade_light_descr">
+		<text>Õèìè÷åñêàÿ îñâåòèòåëüíàÿ ãðàíàòà. Ïðåäíàçíà÷åíà äëÿ îñâåùåíèÿ ó÷àñòêîâ ìåñòíîñòè âî âðåìÿ íî÷íîãî áîÿ, à òàêæå äëÿ îñëåïëåíèÿ è äåçîðèåíòàöèè ïðîòèâíèêà. Âðåìÿ äåéñòâèÿ ìåíüøå ìèíóòû.</text>
+	</string>
+	<string id="st_grenade_light">
+		<text>Ãðàíàòà GL-1</text>
+	</string>
+  <string id="ammo-vog-25">
+		<text>VOG-25 grenade</text>
+  </string>
+  <string id="ammo-vog-25_s">
+    <text>VOG-25</text>
+  </string>
+  <string id="ammo-vog-25_descr">
+		<text>Regular fragmentation grenade for the GP-25 Koster under-barrel grenade launcher. This round has a 5 meter kill zone. The VOG-25 grenade is also used in the Tunder S14 complex and Bulldog 6 revolver-type grenade launcher.</text>
+  </string>
+	<string id="ammo-vog-25p">
+		<text>Âûñòðåë ÂÎÃ-25Ï</text>
+	</string>
+	<string id="ammo-vog-25p_s">
+		<text>ÂÎÃ-25Ï</text>
+	</string>
+	<string id="ammo-vog-25p_descr">
+		<text>40ìì âûñòðåë ÂÎÃ-25Ï èëè «Ïîäêèäûø» (7Ï24) - îñêîëî÷íàÿ ãðàíàòà äëÿ ãðàíàòîìåòîâ, ó êîòîðîé ãëàâíîå è îñíîâíîå îòëè÷èå çàêëþ÷àåòñÿ â ãîëîâíîì âçðûâàòåëå, îáåñïå÷èâàþùèì «ïîäïðûãèâàíèå» ãðàíàòû ïîñëå óäàðà î ãðóíò è å¸ ðàçðûâ â âîçäóõå, ÷òî óâåëè÷èâàåò å¸ ïîðàæàþùåå äåéñòâèå.</text>
+	</string>
+  <string id="ammo-m209">
+		<text>M203 grenade</text>
+  </string>
+  <string id="ammo-m209_s">
+    <text>M203</text>
+  </string>
+  <string id="ammo-m209_descr">
+		<text>40 mm grenade for the M203 under-barrel grenade launcher. This round has a 5 meter kill zone. Also suitable for use in the FT-200M integrated grenade launcher.</text>
+  </string>
+ 	<string id="st_addon_scope_galil">
+		<text>Ïðèöåë äëÿ Galil</text>
+	</string>
+	<string id="st_addon_scope_galil_descr">
+		<text>Îïòè÷åñêèé ïðèöåë äëÿ èçðàèëüñêîãî àâòîìàòà IMI Galil.</text>
+	</string>
+	<string id="st_addon_scope_4x34">
+		<text>ÏÎ 4x34</text>
+	</string>
+	<string id="st_addon_scope_4x34_descr">
+		<text>Ïðèöåëû îïòè÷åñêèå ïîñòîÿííîãî è ïåðåìåííîãî óâåëè÷åíèÿ óñòàíàâëèâàþòñÿ íà îõîòíè÷üå íàðåçíîå îðóæèå è ïðåäíàçíà÷åíû äëÿ ïðèöåëüíîé íàâîäêè åãî ïðè ñòðåëüáå. Íà îðóæèå ïðèöåëû ìîíòèðóþòñÿ ïðè ïîìîùè ñïåöèàëüíûõ êðîíøòåéíîâ.</text>
+	</string>
+	<string id="st_addon_scope_1p29">
+		<text>Ïðèöåë ÓÑÏ-1 «Òþëüïàí»</text>
+	</string>
+	<string id="st_addon_scope_1p29s">
+		<text>ÓÑÏ-1</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>Óíèôèöèðîâàííûé ñòðåëêîâûé ïðèöåë ÓÑÏ-1 ïðåäíàçíà÷åí äëÿ âåäåíèÿ ïðèöåëüíîé ñòðåëüáû èç àâòîìàòà ÀÊ-74Í, ÀÊ-74Ì, ÀÍ-94 è ïóëåìåòîâ ÐÏÊ-74Í è ÏÊÌÍ â ñâåòëîå âðåìÿ ñóòîê è íî÷üþ ïî ñâåòÿùèìñÿ è ïîäñâå÷èâàåìûì öåëÿì. 1Ï29 - èíäåêñ ïðèöåëà ÓÑÏ-1 Ãëàâíîãî àðòèëëåðèéñêîãî óïðàâëåíèÿ ÌÎ ÑÑÑÐ. Ñîçäàí â ðàìêàõ ÎÊÐ «Òþëüïàí», îòêóäà è ïîëó÷èë ñâî¸ íàçâàíèå.</text>
+	</string>
+	<string id="st_addon_scope_1pn93">
+		<text>Ïðèöåë 1ÏÍ93-4</text>
+	</string>
+	<string id="st_addon_scope_1pn93s">
+		<text>1ÏÍ93-4</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+		<text>1ÏÍ93 «Ìàëûø» - ñåðèÿ ðîññèéñêèõ íî÷íûõ ïðèöåëîâ, ïðåäíàçíà÷åííûõ äëÿ íàáëþäåíèÿ çà ïîëåì áîÿ è âåäåíèÿ ïðèöåëüíîé ñòðåëüáû â óñëîâèÿõ ïëîõîé âèäèìîñòè. Ñåðèÿ ðàçðàáîòàíà â 1990-õ ãîäàõ â ÖÊÁ «Òî÷ïðèáîð», ïðîèçâîäèòåëü ÎÀÎ «Íîâîñèáèðñêèé ïðèáîðîñòðîèòåëüíûé çàâîä» (ã. Íîâîñèáèðñê). Êîíñòðóêòèâíîé îñîáåííîñòüþ ïðèáîðîâ ÿâëÿåòñÿ ìîäóëüíàÿ ñõåìà, êîòîðàÿ ïîçâîëèëà ñ ìèíèìóìîì çàòðàò ðàçâåðíóòü ïðîèçâîäñòâî ðàçíîãî âèäà ïðèöåëîâ äëÿ øèðîêîé íîìåíêëàòóðû ñòðåëêîâîãî îðóæèÿ.</text>
+	</string>
+	<string id="st_addon_scope_kobra-ekp-1s-03">
+		<text>Ïðèöåë «Êîáðà» ÝÊÏ-1Ñ-03</text>
+	</string>
+	<string id="st_addon_scope_kobra-ekp-1s-03s">
+		<text>ÝÊÏ</text>
+	</string>
+	<string id="st_addon_scope_kobra_descr">
+		<text>Ïðèöåë Êîáðà îáåñïå÷èâàåò óâåðåííîå ïðèöåëèâàíèå â óñëîâèÿõ åñòåñòâåííîé îñâåù¸ííîñòè (ÿðêèé ñîëíå÷íûé äåíü, ãëóáîêèå ñóìåðêè è ëóííàÿ íî÷ü) áëàãîäàðÿ íàëè÷èþ 16 óðîâíåé ðó÷íîé ðåãóëèðîâêè ÿðêîñòè ïðèöåëüíîé ìàðêè. Ðàñïîëîæåíèå ïðèöåëüíîé ìàðêè è öåëè â îäíîé ïëîñêîñòè ïîçâîëÿåò îñóùåñòâëÿòü ïðèöåëèâàíèå êàê îäíèì, òàê è äâóìÿ ãëàçàìè, ÷òî ñîçäà¸ò äëÿ ñòðåëêà íè÷åì íå îãðàíè÷åííîå ïîëå çðåíèÿ, è âåñòè ýôôåêòèâíóþ ñêîðîñòíóþ ñòðåëüáó ïî áûñòðî ïåðåìåùàþùèìñÿ, ìàëîðàçìåðíûì è âíåçàïíî ïîÿâëÿþùèìñÿ íà êîðîòêîå âðåìÿ öåëÿì. </text>
+	</string>
+    <string id="st_addon-ekp-8-02">
+        <text>Ïðèöåë «Êîáðà» ÝÊÏ-8-02</text>
+    </string>
+    <string id="st_addon-ekp-8-02s">
+        <text>ÝÊÏ</text>
+    </string>
+    <string id="st_addon-ekp-8-02_descr">
+        <text>ÝÊÏ-8-02 Êîáðà ÿâëÿåòñÿ îòêðûòûì êîëëèìàòîðíûì ïðèöåëîì òèïà «êðàñíàÿ òî÷êà». Ïðåäíàçíà÷åí äëÿ ïîðàæåíèÿ áûñòðî äâèæóùèõñÿ öåëåé è ðåøåíèÿ ñêîðîòå÷íûõ çàäà÷ íà áëèçêîì ðàññòîÿíèè â ãîðîäñêèõ óñëîâèÿõ ïðè ðàçëè÷íîì îñâåùåíèè. Îáåñïå÷èâàåò ÷¸òêîå ïðèöåëèâàíèå ïðè îñâåù¸ííîñòè îò 104ëê äî 2-10ëê (äíåâíîé ñâåò, ñóìåðêè è ëóííûé ñâåò) ñ îäíîãî èëè äâóõ ãëàç, î÷åíü ýôôåêòèâåí ïðè ñòðåëüáå èç äâèæóùèõñÿ òðàíñïîðòíûõ ñðåäñòâ, à òàêæå èäåàëåí äëÿ ïîðàæåíèÿ áûñòðî äâèæóùèõñÿ, ìàëûõ è ñïîíòàííî ïîÿâëÿþùèõñÿ öåëåé.</text>
+    </string>
+	<string id="st_addon_scope_eotech">
+		<text>Ïðèöåë EOTech</text>
+	</string>
+	<string id="st_addon_scope_eotechs">
+		<text>EOTech</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>EO Tech - ýòî ìèðîâîé ëèäåð è ýêñêëþçèâíûé ïðîèçâîäèòåëü ãîëîãðàôè÷åñêèõ ïðèöåëüíûõ ñèñòåì äëÿ ñòðåëêîâîãî îðóæèÿ.</text>
+	</string>
+	<string id="st_addon_scope_c-more">
+		<text>Ïðèöåë C-more Railway Tactical</text>
+	</string>
+	<string id="st_addon_scope_c-mores">
+		<text>C-More</text>
+	</string>
+	<string id="st_addon_scope_c-more_descr">
+		<text>Êîëëèìàòîðíûé ïðèöåë îòêðûòîãî òèïà «C-More Railway» ìîæíî ìãíîâåííî óñòàíîâèòü íà êðåïëåíèå «Weaver» èëè «Picatinny». Ïîýòîìó òàêîé ïðèöåë ìîæíî èñïîëüçîâàòü ïðàêòè÷åñêè ñ ëþáûì îðóæèåì - äðîáîâèêîì, âèíòîâêîé, ðåâîëüâåðîì, àðáàëåòîì, ïåéíòáîëüíûì è ñòðàéêáîëüíûì ðóæüåì. Êîðïóñ ïðèöåëà èçãîòîâëåí èç àëþìèíèÿ.</text>
+	</string>
+	<string id="st_addon_scope_docter_sight">
+		<text>Ïðèöåë DOCTER Sight </text>
+	</string>
+	<string id="st_addon_scope_docter_sights">
+		<text>DS</text>
+	</string>
+	<string id="st_addon_scope_docter_sight_descr">
+		<text>Êîëëèìàòîðíûå ïðèöåëû DOCTER ïðåäñòàâëÿþò ñîáîé îòëè÷íûå îïòè÷åñêèå ïðèöåëüíûå óñòðîéñòâà ñîâðåìåííîé êîíñòðóêöèè. Áëàãîäàðÿ ñâîåìó ìàëîìó ðàçìåðó è ìàññå, à òàêæå êîìïàêòíîé áåñòðóáíîé êîíñòðóêöèè, ýòè ïðèöåëû ïðåäîñòàâëÿþò áîãàòûå âîçìîæíîñòè ïðèìåíåíèÿ êàê äëÿ îõîòû, òàê è äëÿ ñïîðòà. Íàä¸æíîå èñïîëíåíèå, âûñîêàÿ îïòè÷åñêàÿ ìîùíîñòü, ïðèâëåêàòåëüíûé äèçàéí è áåçîòêàçíîñòü ðàáîòû äàæå ïðè ýêñòðåìàëüíûõ ïîãîäíûõ óñëîâèÿõ äåëàþò ïðèöåë DOCTER Sight íåçàìåíèìûì.</text>
+	</string>
+	<string id="st_addon_scope_pk-a">
+		<text>Ïðèöåë ÏÊ-À</text>
+	</string>
+	<string id="st_addon_scope_pk-a_descr">
+		<text>Êîëëèìàòîðíûé ïðèöåë ÏÊ-À - ñîâðåìåííûé ë¸ãêèé, ãåðìåòè÷íûé, ïðîñòîé â îñâîåíèè ïðèöåë äëÿ îõîòíè÷üèõ êàðàáèíîâ «Òèãð», èìåþùèõ áîêîâóþ ïëàíêó äëÿ óñòàíîâêè îïòè÷åñêèõ ïðèöåëîâ. Ïðèöåë ïðåäíàçíà÷åí äëÿ òî÷íîãî íàâåäåíèÿ íà öåëü îðóæèÿ ÀÊ74Í, ÐÏÊ74Í, ÀÊÌÍ-1, ÐÏÊÍ-1 ïðè ñòðåëüáå â ðàçëè÷íûõ óñëîâèÿõ îñâåù¸ííîñòè - â äíåâíîå âðåìÿ, â ñóìåðêàõ, â óñëîâèÿõ ïëîõîé âèäèìîñòè è áûñòðîìåíÿþùåéñÿ îñâåù¸ííîñòè. Ïðèöåë ãåðìåòè÷åí è íàïîëíåí ñóõèì àçîòîì âî èçáåæàíèå çàïîòåâàíèÿ âíóòðåííèõ îïòè÷åñêèõ ïîâåðõíîñòåé.</text>
+	</string>
+	<string id="st_addon_scope_acog">
+		<text>Ïðèöåë ACOG</text>
+	</string>
+	<string id="st_addon_scope_acogs">
+		<text>ACOG</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>4-õ êðàòíûé îïòè÷åñêèé ïðèöåë äëÿ âèíòîâîê ÍÀÒÎ.</text>
+	</string>
+	<string id="st_addon_scope_ac10632">
+		<text>Ïðèöåë Barska ELECTRO SIGHT AC10632</text>
+	</string>
+	<string id="st_addon_scope_ac10632s">
+		<text>AC10632</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
+		<text>Êîëëèìàòîðíûé ïðèöåë ELECTRO SIGHT 1x22x33 äëÿ áûñòðîãî ïðèöåëèâàíèÿ. Óäàðîïðî÷íûé, ïîäõîäèò ïîä âñå âèäû îðóæèÿ ñ ïëàíêîé Ïèêàòèííè. Âûáîð óðîâíÿ ÿðêîñòè ïîäñâåòêè ïðèöåëüíîé ìàðêè (7 ñòóïåíåé) ïîçâîëÿåò èñïîëüçîâàòü ïðèöåë ïðè ðàçëè÷íûõ óðîâíÿõ îñâåù¸ííîñòè.</text>
+	</string>
+	<string id="st_addon_scope_ac11090">
+		<text>Ïðèöåë Barska RED DOT AC11090</text>
+	</string>
+	<string id="st_addon_scope_ac11090s">
+		<text>AC11090</text>
+	</string>
+	<string id="st_addon_scope_ac11090_descr">
+		<text>Çàêðûòûé êîëëèìàòîðíûé ïðèöåë Barska RED DOT 2õ30ìì. Ìíîãîñëîéíîå ïðîñâåòëåíèå îïòèêè, 100% âîäîíåïðîíèöàåì, óñòîé÷èâ ê çàïîòåâàíèþ. Ïîäõîäèò äëÿ âñåõ âèäîâ îðóæèÿ, èìåþùèõ ïëàíêó Ïèêàòèííè.</text>
+	</string>
+  <string id="st_addon_scope">
+		<text>PSO-1m scope</text>
+	</string>
+	<string id="st_addon_scopes">
+		<text>ÏÑÎ-1</text>
+  </string>
+  <string id="st_addon_scope_descr">
+		<text>A common Soviet-made 4x fixed zoom optical scope with a range scale. Attached to weapons by means of a dovetail mount, which is standard in Warsaw Pact countries.</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>Ïðèöåë ÏÑÎ-1Ì2-01</text>
+  </string>
+	<string id="st_addon_scope_pso-1m2-01s">
+		<text>ÏÑÎ-1Ì2-01</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>ÏÑÎ-1Ì2-01 - ïðèöåë äëÿ ïðèöåëüíîé ñòðåëüáû èç ñïåöèàëüíîé ñíàéïåðñêîé âèíòîâêè (íàðåçíîé) ÂÑÑ êàëèáðà 9 ìì è ñïåöèàëüíîãî àâòîìàòà ÀÑ êàëèáðà 9 ìì. Ïðèöåëüíûå øêàëû ðàññ÷èòàíû äëÿ ñòðåëüáû îò 100 ì äî 400 ìåòðîâ (øàã 50 ìåòðîâ). Äëÿ ñòðåëüáû â ñóìåðêàõ â ïðèöåëàõ ïðåäóñìîòðåíà ïîäñâåòêà ñåòêè. Â êà÷åñòâå èñòî÷íèêà ïèòàíèÿ â íàñòîÿùåå âðåìÿ âçàìåí àêêóìóëÿòîðà 2ÐÖ63 ïðèìåíÿåòñÿ ñòàíäàðòíàÿ áàòàðåÿ òèïà ÀÀ.</text>
+	</string>
+	<string id="st_addon_scope_x2.7">
+		<text>Ïðèöåë ÏÑÓ-1</text>
+	</string>
+	<string id="st_addon_scope_x2.7s">
+		<text>ÏÑÓ-1</text>
+	</string>
+	<string id="st_addon_scope_x2.7_descr">
+		<text>Îïòè÷åñêèé ïðèöåë ôèêñèðîâàííîé êðàòíîñòè (2,7 äèîïòðèè). Îïòèìèçèðîâàí äëÿ áîÿ íà ñðåäíèõ äèñòàíöèÿõ, à òàêæå äëÿ èñïîëüçîâàíèÿ â óñëîâèÿõ ãîðîäñêîé çàñòðîéêè. Äëÿ óñòàíîâêè íà îðóæèå èñïîëüçóåòñÿ êðåïëåíèå òèïà «ëàñòî÷êèí õâîñò».</text>
+	</string>
+  <string id="st_addon_scope_night_vision">
+		<text>NSPU-3 scope</text>
+  </string>
+ 	<string id="st_addon_scope_night_visions">
+		<text>1ÏÍ58</text>
+	</string>
+ <string id="st_addon_scope_night_vision_descr">
+		<text>An image intensifier night vision 4x fixed zoom scope for combat in darkness. Attached to weapons by means of a dovetail mount.</text>
+  </string>
+
+  <string id="st_addon_scope_susat">
+		<text>SUSAT 4x scope</text>
+  </string>
+  <string id="st_addon_scope_susat_descr">
+		<text>A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range.</text>
+  </string>
+  <string id="st_addon_scope_susat_x1.6">
+		<text>SUSAT 1.6x scope</text>
+  </string>
+  <string id="st_addon_scope_susat_x1.6_descr">
+		<text>An optical SUSAT 1.6x scope for combat at short to medium range. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
+  </string>
+  <string id="st_addon_scope_susat_dusk">
+		<text>SUSAT Twilight x1.6 scope</text>
+  </string>
+  <string id="st_addon_scope_susat_dusk_descr">
+		<text>An optical SUSAT 1.6x higher contrast scope for combat in reduced lighting conditions. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
+  </string>
+  <string id="st_addon_scope_susat_night_vision">
+		<text>SUSAT Night x4 scope</text>
+  </string>
+  <string id="st_addon_scope_susat_night_vision_descr">
+		<text>A 4.0x fixed zoom scope with a night vision device for long range combat in darkness. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
+  </string>
+  <string id="st_addon_scope_susat_custom">
+		<text>SUSAT Mera scope</text>
+  </string>
+  <string id="st_addon_scope_susat_custom_descr">
+		<text>An adjustable long-range 1.6-4x zoom scope that can use automatic adjustment to provide greater fire effectiveness. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
+  </string>
+ <string id="st_addon_silencer">
+		<text>Silencer</text>
+  </string>
+	<string id="st_addon_silencers">
+		<text>9ìì</text>
+	</string>
+  <string id="st_addon_silencer_descr">
+		<text>An effective silencer which can be modified on the go as required. The body of the silencer around the barrel contains a roll of fine brass mesh, while the front comprises a set of metal diaphragms with holes for the bullet to pass through. The set includes adaptors and sealants for most weapons. Normally used to thin out enemy ranks without drawing attention.</text>
+  </string>
+ 	<string id="st_addon_sil_6p9">
+		<text>Ãëóøèòåëü 6Ï9</text>
+	</string>
+	<string id="st_addon_sil_6p9s">
+		<text>6Ï9</text>
+	</string>
+	<string id="st_addon_sil_6p9_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòà ÏÁ (6Ï9).</text>
+	</string>
+	<string id="st_addon_sil_57">
+		<text>Ãëóøèòåëü 5,7x28ìì</text>
+	</string>
+	<string id="st_addon_sil_57">
+		<text>57x28</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòà-ïóëåì¸òà FN P90.</text>
+	</string>
+	<string id="st_addon_sil_9a91">
+		<text>Ãëóøèòåëü äëÿ 9A-91/ÂÑÊ-94</text>
+	</string>
+	<string id="st_addon_sil_9a91s">
+		<text>9A-91/ÂÑÊ-94</text>
+	</string>
+	<string id="st_addon_sil_9a91_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ àâòîìàòîâ 9A-91 è ÂÑÊ-94.</text>
+	</string>
+	<string id="st_addon_sil_gemtech">
+		<text>Ãëóøèòåëü GemTech</text>
+	</string>
+	<string id="st_addon_sil_gemtechs">
+		<text>GemTech</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòîâ Glock è FN FNP.</text>
+	</string>
+	<string id="st_addon_sil_vihr">
+		<text>Ãëóøèòåëü äëÿ ÑÐ-3Ì</text>
+	</string>
+	<string id="st_addon_sil_vihr">
+		<text>ÑÐ-3Ì</text>
+	</string>
+	<string id="st_addon_sil_vihr_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ àâòîìàòà ÑÐ-3Ì.</text>
+	</string>
+	<string id="st_addon_sil_45">
+		<text>Ãëóøèòåëü .45ACP</text>
+	</string>
+	<string id="st_addon_sil_45s">
+		<text>.45ACP</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
+		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòîâ 45-ãî êàëèáðà.</text>
+	</string>
+	<string id="st_addon_sil_atg">
+		<text>Ãëóøèòåëü ÀÒÃ</text>
+	</string>
+	<string id="st_addon_sil_atgs">
+		<text>ÀÒÃ</text>
+	</string>
+	<string id="st_addon_sil_atg_descr">
+		<text>Ãëóøèòåëü òàêòè÷åñêèé àâòîìàòíûé (äàëåå ïî òåêñòó - ãëóøèòåëü ÀÒÃ) ïðåäíàçíà÷åí äëÿ ñíèæåíèÿ çâóêà è ïëàìåííîñòè âûñòðåëà ïðè ñòðåëüáå èç 5,56-ìì àâòîìàòîâ Êàëàøíèêîâà ÀÊ101 è ÀÊ102, à òàêæå 7,62-ìì àâòîìàòîâ Êàëàøíèêîâà ÀÊ103 è ÀÊ104.</text>
+	</string>
+	<string id="st_addon_sil_tgp-a">
+		<text>Ãëóøèòåëü ÒÃÏ-À</text>
+	</string>
+	<string id="st_addon_sil_tgp-as">
+		<text>ÒÃÏ-À</text>
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>Ãëóøèòåëü-ïëàìåãàñèòåëü òàêòè÷åñêèé «ÒÃÏ-À-5,45» äëÿ 5,45-ìì àâòîìàòîâ ñåðèè ÀÊ è ïóëåì¸òîâ ÐÏÊ-74. Â êîíñòðóêöèè ãëóøèòåëÿ îòñóòñòâóåò ðåçèíîâûé îáòþðàòîð è íåò íåîáõîäèìîñòè ïðèìåíÿòü ïàòðîíû ñ äîçâóêîâîé ñêîðîñòüþ ïóëè. Îäíàêî òî÷íîñòü ñòðåëüáû ïðè åãî óñòàíîâêå íåñêîëüêî óõóäøàåòñÿ.</text>
+	</string>
+	<string id="st_addon_sil_pbs-1">
+		<text>Ãëóøèòåëü ÏÁÑ-1</text>
+	</string>
+	<string id="st_addon_sil_pbs-1s">
+		<text>ÏÁÑ-1</text>
+	</string>
+	<string id="st_addon_sil_pbs-1_descr">
+		<text>ÏÁÑ-1. Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç àâòîìàòà Êàëàøíèêîâà êàëèáðà 7,62 ìì. Ïðè óñòàíîâêå ãëóøèòåëÿ ñòðåëüáà âåä¸òñÿ ïàòðîíàìè ÓÑ ñ äîçâóêîâîé ñêîðîñòüþ ïóëè.</text>
+	</string>
+	<string id="st_addon_sil_pbs-4">
+		<text>Ãëóøèòåëü ÏÁÑ-4</text>
+	</string>
+	<string id="st_addon_sil_pbs-4s">
+		<text>ÏÁÑ-4</text>
+	</string>
+	<string id="st_addon_sil_pbs-4_descr">
+		<text>ÏÁÑ-4. Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç 5,45-ìì àâòîìàòà Êàëàøíèêîâà óêîðî÷åííîãî (ÀÊÑ-74Ó).</text>
+	</string>
+	<string id="st_addon_sil_kzrzp">
+		<text>Ãëóøèòåëü ÊÇÐÇÏ</text>
+	</string>
+	<string id="st_addon_sil_kzrzps">
+		<text>ÊÇÐÇÏ</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç ÑÂÄ.</text>
+	</string>
+	<string id="st_addon_sil_nato">
+		<text>Ãëóøèòåëü ÍÀÒÎ</text>
+	</string>
+	<string id="st_addon_sil_natos">
+		<text>Ðîòîð 43</text>
+	</string>
+	<string id="st_addon_sil_nato_descr">
+		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû äëÿ øòóðìîâûõ âèíòîâîê ñòàíäàðòà ÍÀÒÎ êàëèáðà 5,56õ45, à òàê æå äëÿ ïèñòîëåòîâ è ïèñòîëåòîâ-ïóëåì¸òîâ êàëèáðà 11,43x23.</text>
+	</string>
+	<string id="st_addon_sil_sr25">
+		<text>SR-25 Silencer</text>
+	</string>
+	<string id="st_addon_sil_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
+		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç ñàìîçàðÿäíîé ñíàéïåðñêîé âèíòîâêè SR-25.</text>
+	</string>
+  <string id="st_grenade_launcher">
+		<text>GP-25 Koster</text>
+  </string>
+  <string id="st_grenade_launcher_descr">
+		<text>A single shot, front loaded, rifled under-barrel grenade launcher for assault rifles made in Warsaw Pact countries. The firing mechanism is self-cocking, with a manual safety catch and automatic shot prevention if incorrectly installed onto a rifle. Uses VOG-25 grenades.</text>
+  </string>
+  <string id="st_grenade_launcher_m203">
+    <text>M203</text>
+  </string>
+  <string id="st_grenade_launcher_m203_descr">
+		<text>A modified M203 grenade launcher that has been shortened by three inches, attached to weapons by means of a Picatinny Rail. Thanks to a changed mount, this grenade launcher is widely used around the world.</text>
+  </string>
+	<string id="st_grenade_launcher_ag36">
+		<text>AG36</text>
+	</string>
+	<string id="st_grenade_launcher_ag36_descr">
+		<text>\n%c[255,1,255,255]•%c[default] âûñòðåë M209\n \nÏîäñòâîëüíûé ãðàíàòîì¸ò, ðàçðàáîòàííûé íåìåöêèì îðóæåéíûì êîíöåðíîì Heckler &amp; Koch äëÿ çàìåíû HK 79. Îñíîâíîé ïëàòôîðìîé äëÿ íåãî ÿâëÿåòñÿ âèíòîâêà HK G36.</text>
+	</string>
+	<!-- 9A-91 -->
+	<string id="st_wpn_9a91">
+		<text>9A-91</text>
+	</string>
+	<string id="st_wpn_9a91_descr">
+		<text>Àâòîìàòèêà 9À-91 îñíîâàíà íà îòâîäå ïîðîõîâûõ ãàçîâ èç êàíàëà ñòâîëà. Çàïèðàíèå îñóùåñòâëÿåòñÿ ïîâîðîòîì çàòâîðà, íà 4 áîåâûõ óïîðà. ÓÑÌ - êóðêîâîãî òèïà, ïîçâîëÿåò âåñòè îãîíü îäèíî÷íûìè è íåïðåðûâíûìè î÷åðåäÿìè.</text>
+	</string>
+<!-- ÀÍ-94 -->
+  <string id="st_wpn_abakan">
+		<text>AC-96/2</text>
+  </string>
+ <string id="st_wpn_abakan_descr">
+		<text>A modern assault rifle developed as a replacement for the ageing AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armour piercing capability.</text>
+  </string>
+ <!-- ÀÅÊ-971 -->
+	<string id="st_wpn_aek971">
+		<text>ÀÅÊ-971</text>
+	</string>
+	<string id="st_wpn_aek971_descr">
+		<text>Àâòîìàò âûïîëíåí ïî òðàäèöèîííîé êîìïîíîâî÷íîé ñõåìå (ïåðåäíåå ïîëîæåíèå ìàãàçèíà) è êîíñòðóêòèâíî â çíà÷èòåëüíîé ìåðå ïîâòîðÿåò àâòîìàò Êàëàøíèêîâà - èñïîëüçóåòñÿ ïîâîðîòíûé çàòâîð è àâòîìàòèêà ïåðåçàðÿäêè íà îñíîâå ãàçîâîãî äâèãàòåëÿ. Àâòîìàò ñïðîåêòèðîâàí ïîä ïàòðîíû êàëèáðîì 5,45x39 ìì, èìåþòñÿ òàêæå âàðèàíòû äàííîãî àâòîìàòà ïîä ïàòðîí 5,56 ìì ÍÀÒÎ (ÀÅÊ-972) è 7,62x39 ìì (ÀÅÊ-973).</text>
+	</string>
+	<string id="st_wpn_ak12">
+		<text>ÀÊ-12</text>
+	</string>
+	<string id="st_wpn_ak12_descr">
+		<text>ÀÊ-12 - àâòîìàò Êàëàøíèêîâà îáðàçöà 2012 ãîäà, ïåðñïåêòèâíàÿ ðàçðàáîòêà êîíöåðíà «Êàëàøíèêîâ». Ðàçðàáîòêà íîâîãî àâòîìàòà îñóùåñòâëÿëàñü â èíèöèàòèâíîì ïîðÿäêå ñ èþíÿ 2011 ãîäà ïîä ðóêîâîäñòâîì ãëàâíîãî êîíñòðóêòîðà «Èæìàøà» Âëàäèìèðà Âèêòîðîâè÷à Çëîáèíà íà îñíîâå íàðàáîòîê çà ïðåäûäóùèå 10 ëåò. Â 2011 ãîäó çàâåðøåíà ñáîðêà è íà÷àòû èñïûòàíèÿ ïåðâîãî îïûòíîãî îáðàçöà àâòîìàòà Êàëàøíèêîâà ïÿòîãî ïîêîëåíèÿ ñ ðàáî÷èì íàçâàíèåì ÀÊ-12.</text>
+	</string>
+<!-- ÀÊ -->
+	<string id="st_wpn_ak">
+		<text>ÀÊ</text>
+	</string>
+	<string id="st_wpn_ak_descr">
+		<text>7,62-ìì àâòîìàò Êàëàøíèêîâà (ÀÊ) - àâòîìàò, ïðèíÿòûé íà âîîðóæåíèå â ÑÑÑÐ â 1949 ãîäó. ÀÊ è åãî ìîäèôèêàöèè ÿâëÿþòñÿ ñàìûì ðàñïðîñòðàí¸ííûì ñòðåëêîâûì îðóæèåì â ìèðå. Ïî èìåþùèìñÿ îöåíêàì, ê ýòîìó òèïó (âêëþ÷àÿ ëèöåíçèîííûå è íåëèöåíçèîííûå êîïèè, à òàêæå ñòîðîííèå ðàçðàáîòêè íà áàçå ÀÊ) ïðèíàäëåæèò äî 1/5 âñåãî èìåþùåãîñÿ íà Çåìëå ñòðåëêîâîãî îãíåñòðåëüíîãî îðóæèÿ.</text>
+	</string>
+<!-- ÀÊÑ -->
+	<string id="st_wpn_aks">
+		<text>ÀÊÑ</text>
+	</string>
+	<string id="st_wpn_aks_descr">
+		<text>ÀÊÑ (Èíäåêñ ÃÐÀÓ — 56-À-212Ì) - âàðèàíò ÀÊ ñ îòêèäíûì ìåòàëëè÷åñêèì ïðèêëàäîì, ïðåäíàçíà÷àâøèéñÿ äëÿ âîçäóøíî-äåñàíòíûõ âîéñê. Áûë ïðèíÿò îäíîâðåìåííî ñ ÀÊ. Ïåðâîíà÷àëüíî âûïóñêàëñÿ ñî øòàìïîâàííîé ñòâîëüíîé êîðîáêîé, à ñ 1951 ãîäà - ôðåçåðîâàííîé èç-çà âûñîêîãî ïðîöåíòà áðàêà ïðè øòàìïîâêå.</text>
+	</string>
+<!-- ÀÊ-74 -->
+  <string id="st_wpn_ak74">
+    <text>AKM-74/2</text>
+  </string>
+  <string id="st_wpn_ak74_descr">
+		<text>This weapon, designed in 1974, signalled the adoption of small calibre and low impulse rounds by Warsaw Pact countries. A descendant of the most popular assault rifle in the world, the AKM-74/2 has an even bigger muzzle brake, resulting in a reduction of what was already manageable recoil. This facilitates better accuracy and groupings, especially when fired in fast single shots or bursts. As before, the rifle is very simple and reliable.</text>
+  </string>
+<!-- ÀÊ-74Ì -->
+	<string id="st_wpn_ak74m">
+		<text>ÀÊ-74Ì</text>
+	</string>
+	<string id="st_wpn_ak74m_camo">
+		<text>ÀÊ-74Ì (êàìóôëÿæ)</text>
+	</string>
+	<string id="st_wpn_ak74m_descr">
+		<text>ÀÊ-74Ì - ÀÊ-74 ìîäåðíèçèðîâàííûé. Îñíàù¸í ñêëàäûâàþùèìñÿ âáîê ïëàñòèêîâûì ïðèêëàäîì è óíèâåðñàëüíûì êðåïëåíèåì (ïëàíêà «ëàñòî÷êèí õâîñò») äëÿ êðåïëåíèÿ ïðèöåëîâ, êàê îïòè÷åñêèõ òàê è íî÷íûõ, íà ëåâîé ñòîðîíå ñòâîëüíîé êîðîáêè. Òàêèì îáðàçîì ÀÊ-74Ì çàìåíèë ñðàçó ÷åòûðå ìîäåëè: ÀÊ-74, ÀÊÑ-74, ÀÊ-74Í è ÀÊÑ-74Í.</text>
+	</string>
+	<string id="st_wpn_ak101">
+		<text>ÀÊ-101</text>
+	</string>
+	<string id="st_wpn_ak101_descr">
+		<text>Äëÿ ïðîäàæè íà Çàïàäå è â ñòðàíû òðåòüåãî ìèðà ïîä íàèáîëåå ðàñïðîñòðàíåííûé 5,56-ìì ÍÀÒÎ ìàëîèìïóëüñíûé ïàòðîí SS 109 áûëè ðàçðàáîòàíû äâå ìîäåëè íîâîãî àâòîìàòà Êàëàøíèêîâà ÀÊ-101 (ñòàíäàðòíûé) è ÀÊ-102 (ìàëîãàáàðèòíûé). Ñàìûì çàìåòíûì âíåøíèì îòëè÷èåì ýòèõ àâòîìàòîâ ÿâëÿåòñÿ ôîðìà ïëàñòìàññîâîãî ìàãàçèíà, ãîðàçäî áîëåå ïðÿìîãî, ÷åì ìàãàçèíû ïîä ñîâåòñêèå ïàòðîíû êàëèáðà 5,45 èëè 7,62-ìì.</text>
+	</string>
+	<string id="st_wpn_ak102">
+		<text>ÀÊ-102</text>
+	</string>
+	<string id="st_wpn_ak102_descr">
+		<text>Äëÿ ïðîäàæè íà Çàïàäå è â ñòðàíû òðåòüåãî ìèðà ïîä íàèáîëåå ðàñïðîñòðàíåííûé 5,56-ìì ÍÀÒÎ ìàëîèìïóëüñíûé ïàòðîí SS 109 áûëè ðàçðàáîòàíû äâå ìîäåëè íîâîãî àâòîìàòà Êàëàøíèêîâà ÀÊ-101 (ñòàíäàðòíûé) è ÀÊ-102 (ìàëîãàáàðèòíûé). Ñàìûì çàìåòíûì âíåøíèì îòëè÷èåì ýòèõ àâòîìàòîâ ÿâëÿåòñÿ ôîðìà ïëàñòìàññîâîãî ìàãàçèíà, ãîðàçäî áîëåå ïðÿìîãî, ÷åì ìàãàçèíû ïîä ñîâåòñêèå ïàòðîíû êàëèáðà 5,45 èëè 7,62-ìì.</text>
+	</string>
+	<string id="st_wpn_ak103">
+		<text>ÀÊ-103</text>
+	</string>
+	<string id="st_wpn_ak103_descr">
+		<text>ÀÊ103 - ýêñïîðòíàÿ âåðñèÿ àâòîìàòà ÀÊ-74Ì, îòëè÷àþùàÿñÿ èñïîëüçîâàíèåì ïàòðîíîâ 5,56x45 ìì (ñòàíäàðò ÍÀÒÎ SS109) è 7,62x39 ìì (ñîâåòñêèé ïàòðîí îáðàçöà 1943 ã.) ñîîòâåòñòâåííî. ÀÊ103 ìîæåò èñïîëüçîâàòü ìàãàçèíû àâòîìàòîâ ÀÊ/ÀÊÌ.</text>
+	</string>
+	<string id="st_wpn_ak104">
+		<text>ÀÊ-104</text>
+	</string>
+	<string id="st_wpn_ak104_descr">
+		<text>ÀÊ104/ÀÊ105 - ýòî ìîäèôèêàöèè ÀÊ-103 è ÀÊ74Ì ñîîòâåòñòâåííî, ñ óêîðî÷åííûì íà 101 ìì ñòâîëîì. Ïðîìåæóòî÷íàÿ (ìåæäó ÀÊ74Ì è ÀÊÑ-74Ó) äëèíà ñòâîëà ïîçâîëèëà óìåíüøèòü ãàáàðèòû îðóæèÿ, îñòàâèâ ãàçîâóþ êàìåðó íà òîì æå ìåñòå îòíîñèòåëüíî êàçåííîãî ñðåçà ñòâîëà, ÷òî è â ÀÊ74Ì, à íå ïåðåíîñèòü å¸ íàçàä (êàê â ÀÊÑ-74Ó). Ýòî ïîâûñèëî óíèôèêàöèþ âñåãî "ñîòîãî" ñåìåéñòâà.</text>
+	</string>
+	<string id="st_wpn_ak105">
+		<text>ÀÊ-105</text>
+	</string>
+	<string id="st_wpn_ak105_descr">
+		<text>ÀÊ104/ÀÊ105 - ýòî ìîäèôèêàöèè ÀÊ-103 è ÀÊ74Ì ñîîòâåòñòâåííî, ñ óêîðî÷åííûì íà 101 ìì ñòâîëîì. Ïðîìåæóòî÷íàÿ (ìåæäó ÀÊ74Ì è ÀÊÑ-74Ó) äëèíà ñòâîëà ïîçâîëèëà óìåíüøèòü ãàáàðèòû îðóæèÿ, îñòàâèâ ãàçîâóþ êàìåðó íà òîì æå ìåñòå îòíîñèòåëüíî êàçåííîãî ñðåçà ñòâîëà, ÷òî è â ÀÊ74Ì, à íå ïåðåíîñèòü å¸ íàçàä (êàê â ÀÊÑ-74Ó). Ýòî ïîâûñèëî óíèôèêàöèþ âñåãî "ñîòîãî" ñåìåéñòâà.</text>
+	</string>
+	<!-- ÀÊÌ -->
+	<string id="st_wpn_akm">
+		<text>ÀÊÌ</text>
+	</string>
+	<string id="st_wpn_akm_raider">
+		<text>ÀÊÌ (ïîòð¸ïàííûé)</text>
+	</string>
+	<string id="st_wpn_akm_descr">
+		<text>Àâòîìàò, çàìåíèâøèé â 1959 ãîäó íà âîîðóæåíèè ñîâåòñêîé àðìèè ÀÊ è ÿâëÿþùèéñÿ åãî äàëüíåéøèì ðàçâèòèåì.</text>
+	</string>
+<!-- ÀÊÌÑ -->
+	<string id="st_wpn_akms">
+		<text>ÀÊÌÑ</text>
+	</string>
+	<string id="st_wpn_akms_descr">
+		<text>Âàðèàíò ÀÊÌ ñî ñêëàäíûì ïðèêëàäîì. Ñèñòåìà êðåïëåíèÿ ïðèêëàäà áûëà èçìåíåíà îòíîñèòåëüíî ÀÊÑ (ñêëàäûâàëñÿ âíèç-âïåðåä, ïîä ñòâîëüíóþ êîðîáêó). Ìîäèôèêàöèÿ ðàçðàáîòàíà ñïåöèàëüíî äëÿ äåñàíòíèêîâ.</text>
+	</string>
+<!-- ÀÊÑ-74 -->
+	<string id="st_wpn_aks74">
+		<text>ÀÊÑ-74</text>
+	</string>
+	<string id="st_wpn_aks74_descr">
+		<text>ÀÊÑ-74 - âàðèàíò ÀÊ-74 ñî ñêëàäûâàþùèìñÿ âáîê ìåòàëëè÷åñêèì ïðèêëàäîì òðåóãîëüíîé ôîðìû. Ñîçäàí äëÿ èñïîëüçîâàíèÿ â âîçäóøíî-äåñàíòíûõ âîéñêàõ (àâòîìàò ñ íåñêëàäûâàþùèìñÿ ïðèêëàäîì íåâîçìîæíî óäîáíî è áåçîïàñíî ðàñïîëîæèòü â ïîäâåñíîé ñèñòåìå ïàðàøþòà).</text>
+	</string>
+<!-- ÀÊÑ-74Ó -->
+  <string id="st_wpn_ak74u">
+    <text>AKM-74/2U</text>
+  </string>
+ <string id="st_wpn_ak74u_descr">
+		<text>Despite being similar to submachine guns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AKM 74/2. The weapon is notable for its mobility in close quarters and high armour-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity.</text>
+  </string>
+<!-- ÀÊÑ-74Ó -->
+	<string id="st_wpn_ak74u_snag">
+		<text>ÀÊÑ-74Ó Êîðÿãè</text>
+	</string>
+	<string id="st_wpn_ak74u_snag_descr">
+		<text>Ìîäåðíèçèðîâàííûé âàðèàíò ÀÊÑ-74Ó ñ êîëëèìàòîðíûì ïðèöåëîì Êîáðà ÝÊÏ-1Ñ-03, ãëóøèòåëåì ÏÁÑ-4 è ìàãàçèíîì íà 45 ïàòðîíîâ.</text>
+	</string>
+<!-- Steyr AUG A1 -->
+	<string id="st_wpn_aug">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_descr">
+		<text>Steyr AUG (Armee Universal Gewehr - àðìåéñêàÿ óíèâåðñàëüíàÿ âèíòîâêà) - êîìïëåêñ ñòðåëêîâîãî îðóæèÿ, âûïóùåííûé â 1977 ãîäó àâñòðèéñêîé êîìïàíèåé Steyr-Daimler-Puch. Â äàííîé âèíòîâêå ïðèìåíåíà ñõåìà êîìïîíîâêè «Áóëë-ïàï», ïðè êîòîðîé ìàãàçèí è çàòâîðíûé óçåë ðàñïîëîæåíû ïîçàäè ðóêîÿòêè óïðàâëåíèÿ îãí¸ì è ñïóñêîâîãî êðþ÷êà.</text>
+	</string>
+<!-- L96A1 -->
+	<string id="st_wpn_l96a1">
+		<text>L96A1</text>
+	</string>
+	<string id="st_wpn_l96a1_descr">
+		<text>Ñíàéïåðñêàÿ âèíòîâêà àíãëèéñêîãî ïðîèçâîäñòâà, ðàçðàáîòàííàÿ â êîìïàíèè Accuracy International.</text>
+	</string>
+<!-- Barrett M98B -->
+	<string id="st_wpn_m98b">
+		<text>Barrett M98B</text>
+	</string>
+	<string id="st_wpn_m98b_descr">
+		<text>Àìåðèêàíñêàÿ ñíàéïåðñêàÿ âèíòîâêà ïðîèçâîäñòâà êîìïàíèè Barrett Firearms. Êàê è ïðåäøåñòâåííèê - Barrett M98 (òàê è íå ïðîøåäøàÿ â ñåðèþ âèíòîâêà), ìîäåëü Bravo ðàçðàáîòàíà ïîä ïàòðîí .338 Lapua Magnum (ðàçìåðîì 8,6x70 ìì èëè 8,58x70 ìì), â Çîíå æå íåèçâåñòíûì îáðàçîì áûëà ïåðåäåëàíà ïîä ïàòðîí 7.62õ51.</text>
+	</string>
+<!-- Cz-52 -->
+	<string id="st_wpn_cz52">
+		<text>Cz-52</text>
+	</string>
+	<string id="st_wpn_cz52_descr">
+		<text>CZ vz.52 - ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé â íà÷àëå 1950-õ ãîäîâ äëÿ ÷åõîñëîâàöêîé àðìèè. Ïèñòîëåò Cz52 ðàçðàáîòàë êîíñòðóêòîð ßí Êðàòîõâèë âìåñòå ñ áðàòîì ßðîñëàâîì, ñîòðóäíèêàìè çàâîäà Ceska Zbrojovka â ãîðîäå Ñòðàêîíèöå.</text>
+	</string>
+<!-- Cz-75 -->
+	<string id="st_wpn_cz75">
+		<text>Cz-75</text>
+	</string>
+	<string id="st_wpn_cz75_descr">
+		<text>Cz-75 - ïèñòîëåò, ðàçðàáîòàííûé â ×åõîñëîâàêèè â 1975 ãîäó. Ïîëó÷èë øèðîêîå ðàñïðîñòðàíåíèå âî âñ¸ì ìèðå. Â ñàìîé ×åõèè åãî èñïîëüçóåò â îñíîâíîì ïîëèöèÿ (àðìèÿ ïðèìåíÿåò CZ 83).</text>
+	</string>
+	<string id="st_wpn_g3">
+		<text>HK G3</text>
+	</string>
+	<string id="st_wpn_g3_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nHK G3 - íåìåöêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå àðìèåé ÔÐÃ â 1959 ãîäó. Â 1995 ãîäó åé íà ñìåíó ïðèø¸ë àâòîìàò êàëèáðà 5,56 ìì ÍÀÒÎ HK G36.</text>
+	</string>
+<!-- HK G3A3 -->
+	<string id="st_wpn_g3a3">
+		<text>HK G3A3</text>
+	</string>
+	<string id="st_wpn_g3a3_descr">
+		<text>HK G3 - íåìåöêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå àðìèåé ÔÐÃ â 1959 ãîäó. Â 1995 ãîäó åé íà ñìåíó ïðèø¸ë àâòîìàò êàëèáðà 5,56 ìì ÍÀÒÎ HK G36. G3A3 - âàðèàíò ñ ôèêñèðîâàííûì ïðèêëàäîì è äâóìÿ âàðèàíòàìè öåâüÿ (öåëüíîå è ïåðôîðèðîâàííîå).</text>
+	</string>
+<!-- HK G3SG1 -->
+	<string id="st_wpn_g3sg1">
+		<text>HK G3SG1</text>
+	</string>
+	<string id="st_wpn_g3sg1_descr">
+		<text>G3SG1 - ñíàéïåðñêèé âàðèàíò äëÿ ãðàæäàíñêîãî è ïîëèöåéñêîãî ñåêòîðà, â íåêîòîðûõ ìîäåëÿõ èìååò: ïðèêëàä ñ ðåãóëèðóåìîé ùåêîé, ñêëàäûâàþùèåñÿ ñîøêè è ñïóñêîâîé ìåõàíèçì ñ âîçìîæíîñòüþ ðåãóëèðîâêè òÿãîâîãî óñèëèÿ.</text>
+	</string>
+<!-- FN Five-seveN -->
+	<string id="st_wpn_fn57">
+		<text>FN-57</text>
+	</string>
+	<string id="st_wpn_fn57_descr">
+		<text>Ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé è ïðîèçâîäèìûé áåëüãèéñêîé ôèðìîé Fabrique Nationale of Herstal. Íàçâàíèå ïðåäñòàâëÿåò ñîáîé êîìáèíàöèþ, ñ îäíîé ñòîðîíû Five-seveN ýòî «5-7» (5,7 - êàëèáð îðóæèÿ, êîòîðûé ðàâåí .224), à ñ äðóãîé ïåðâàÿ è ïîñëåäíÿÿ áóêâà íàçâàíèÿ, ïèøóùèåñÿ çàãëàâíûìè - ýòî àááðåâèàòóðà ôèðìû Fabrique Nationale.</text>
+	</string>
+<!-- FN FNP -->
+	<string id="st_wpn_fnp45">
+		<text>FN FNP-45</text>
+	</string>
+	<string id="st_wpn_fnp45s">
+		<text>FNP</text>
+	</string>
+	<string id="st_wpn_fnp45_descr">
+		<text>FN FNP - ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé êîìïàíèåé FNH-USA (àìåðèêàíñêèì ïîäðàçäåëåíèåì áåëüãèéñêîé êîìïàíèè FN Herstal). Âûïóñêàåòñÿ ñ íà÷àëà 2006 ãîäà.</text>
+	</string>
+	<string id="st_wpn_fnx45">
+		<text>FN FNX-45</text>
+	</string>
+	<string id="st_wpn_fnx45s">
+		<text>FNX</text>
+	</string>
+	<string id="st_wpn_fnx45_descr">
+		<text>Ïèñòîëåòû ñåìåéñòâà FNX âûïóñêàþòñÿ â ÑØÀ êîìïàíèåé FNH USA, ìåñòíûì ïîäðàçäåëåíèåì èçâåñòíîé áåëüãèéñêîé êîìïàíèè FN Herstal. Ïèñòîëåòû FN FNX áûëè ðàçðàáîòàíû â 2007-2009 ãîäàõ ïîä òðåáîâàíèÿ ïðîãðàììû US Joint Combat Pistol Program ïî ðàçðàáîòêå íîâîãî ïèñòîëåòà äëÿ Âîîðóæåííûõ Ñèë ÑØÀ. Ïðîãðàììà ýòà óñïåõà íå èìåëà, îäíàêî ñîçäàííûå ïîä åå òðåáîâàíèÿ ïèñòîëåòû áûëè çàïóùåíû â ñåðèþ äëÿ ïðîäàæè íà ðûíêàõ ïîëèöåéñêîãî è ãðàæäàíñêîãî îðóæèÿ â ÑØÀ è çà ðóáåæîì.</text>
+	</string>
+<!-- ÌÏ-443 «Ãðà÷» -->
+	<string id="st_wpn_mp443">
+		<text>ÌÏ-443 «Ãðà÷»</text>
+	</string>
+	<string id="st_wpn_mp443_descr">
+		<text>Ñàìîçàðÿäíûé ïèñòîëåò ðîññèéñêîãî ïðîèçâîäñòâà. Ðàçðàáîòàí êîëëåêòèâîì êîíñòðóêòîðîâ ïîä ðóêîâîäñòâîì Â. À. ßðûãèíà, ñåðèéíî ïðîèçâîäèòñÿ íà Èæåâñêîì ìåõàíè÷åñêîì çàâîäå.</text>
+	</string>
+<!-- ÒÒ-33 -->
+	<string id="st_wpn_tt33">
+		<text>ÒÒ-33</text>
+	</string>
+	<string id="st_wpn_tt33_descr">
+		<text>Ïèñòîëåò îáð. 1933 ã. (ÒÒ, Òóëüñêèé, Òîêàðåâà, Èíäåêñ ÃÐÀÓ - 56-À-132) - ïåðâûé àðìåéñêèé ñàìîçàðÿäíûé ïèñòîëåò ÑÑÑÐ, ðàçðàáîòàííûé â 1930 ãîäó ñîâåòñêèì êîíñòðóêòîðîì Ô¸äîðîì Âàñèëüåâè÷åì Òîêàðåâûì.</text>
+	</string>
+<!-- ÎÖ-33 -->
+	<string id="st_wpn_oc33">
+		<text>ÎÖ-33 «Ïåðíà÷»</text>
+	</string>
+	<string id="st_wpn_oc33_descr">
+		<text>ÎÖ-33 «Ïåðíà÷» - ðîññèéñêèé àâòîìàòè÷åñêèé ïèñòîëåò, ðàçðàáîòàííûé â ñåðåäèíå 1990-õ ãîäîâ êîëëåêòèâîì êîíñòðóêòîðîâ ÖÊÈÁ ÑÎÎ ïîä ðóêîâîäñòâîì È. ß. Ñòå÷êèíà äëÿ çàìåíû ïèñòîëåòà ÀÏÑ. Íà ýòàïå ðàçðàáîòêè îðóæèå èìåëî íàèìåíîâàíèå ÀÏ ÑÁÇ-2 («àâòîìàòè÷åñêèé ïèñòîëåò êîíñòðóêöèè È.ß. Ñòå÷êèíà, À.Â. Áàëüöåðà, À.Â. Çèí÷åíêî»).</text>
+	</string>
+<!-- ÃØ-18 -->
+	<string id="st_wpn_gsh18">
+		<text>ÃØ-18</text>
+	</string>
+	<string id="st_wpn_gsh18_descr">
+		<text>ÃØ-18 - ðîññèéñêèé ïèñòîëåò, ðàçðàáîòàííûé â êîíöå 1990-õ ãîäîâ â òóëüñêîì Êîíñòðóêòîðñêîì áþðî ïðèáîðîñòðîåíèÿ. Íàçâàíèå ïîëó÷èë ïî ïåðâûì áóêâàì ôàìèëèé êîíñòðóêòîðîâ, ïîä ðóêîâîäñòâîì êîòîðûõ ïðîåêòèðîâàëñÿ (Ãðÿçåâà Âàñèëèÿ Ïåòðîâè÷à è Øèïóíîâà Àðêàäèÿ Ãåîðãèåâè÷à) è ÷èñëà «18», îçíà÷àþùåãî ¸ìêîñòü ìàãàçèíà.</text>
+	</string>
+<!-- Glock 17 -->
+	<string id="st_wpn_glock17">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_descr">
+		<text>Glock 17 - àâñòðèéñêèé ïèñòîëåò, ðàçðàáîòàííûé ôèðìîé Glock äëÿ íóæä àâñòðèéñêîé àðìèè. Îí ñòàë ïåðâûì îáðàçöîì âîîðóæåíèÿ, ðàçðàáîòàííûì ýòîé ôèðìîé. Ïîëó÷èâøèéñÿ â ðåçóëüòàòå îáðàçåö îêàçàëñÿ äîâîëüíî óäà÷íûì è óäîáíûì äëÿ ïðèìåíåíèÿ, áëàãîäàðÿ ÷åìó ïîçäíåå îí áûë ïðèíÿò íà âîîðóæåíèå àðìèè Àâñòðèè ïîä îáîçíà÷åíèåì Ð80. Áëàãîäàðÿ ñâîèì áîåâûì êà÷åñòâàì è íàä¸æíîñòè ïîëó÷èë øèðîêîå ðàñïðîñòðàíåíèå â êà÷åñòâå ãðàæäàíñêîãî îðóæèÿ ñàìîîáîðîíû.</text>
+	</string>
+<!-- Glock 19-->
+	<string id="st_wpn_glock19">
+		<text>Glock 19</text>
+	</string>
+	<string id="st_wpn_glock19_descr">
+		<text>Â 1988 ãîäó áûë ïðåäñòàâëåí êîìïàêòíûé âàðèàíò ìîäåëè 17 - Glock 19, ñîçäàííûé äëÿ ãðàæäàíñêîãî ðûíêà îðóæèÿ, à òàê æå äëÿ âîîðóæåíèÿ ðàçëè÷íûõ ñïåöñëóæá è àðìåéñêèõ îôèöåðîâ. Êîíå÷íî æå êîìïàêòíûé âàðèàíò óæå î÷åíü óñïåøíîé ïîëíîðàçìåðíîé ìîäåëè äîëæåí áûë ñòàòü íå ìåíåå âîñòðåáîâàííûì íà ðûíêå îðóæèÿ. Òàê è ïðîèçîøëî, Glock 19 î÷åíü áûñòðî ñòàë ïîëüçîâàòüñÿ îãðîìíîé ïîïóëÿðíîñòüþ è â ïîëèöèè è ó ðÿäîâûõ ãðàæäàí, ïîêóïàþùèõ êîìïàêòíûå ïèñòîëåòû äëÿ ñêðûòîãî íîøåíèÿ â öåëÿõ ñàìîîáîðîíû è ñïîðòèâíîé ñòðåëüáû.</text>
+	</string>
+<!-- Ñàéãà-12Ê -->
+	<string id="st_wpn_saiga">
+		<text>Ñàéãà-12Ê</text>
+	</string>
+	<string id="st_wpn_saiga_descr">
+		<text>«Ñàéãà-12Ê», óêîðî÷åííîå ñàìîçàðÿäíîå ðóæüå - «ãëàäêîñòâîëüíûé êàðàáèí». Ïðèêëàä è ïèñòîëåòíàÿ ðóêîÿòêà (à â íåêîòîðûõ èñïîëíåíèÿõ è öåâüå) ïîçàèìñòâîâàíû ó àâòîìàòà Êàëàøíèêîâà. Â êîíñòðóêöèþ ââåä¸í ìåõàíèçì áëîêèðîâêè, êîòîðûé íå ïîçâîëÿåò ñíÿòü îðóæèå ñ ïðåäîõðàíèòåëÿ äî òåõ ïîð, ïîêà íå áóäåò îòêèíóò ïðèêëàä.</text>
+	</string>
+
+<!-- ÐÏÊ -->
+	<string id="st_wpn_rpk">
+		<text>ÐÏÊ</text>
+  </string>
+	<string id="st_wpn_rpk_descr">
+		<text>ÐÏÊ (Ðó÷íîé Ïóëåìåò Êàëàøíèêîâà) - ñîçäàí êàê îðóæèå ïîääåðæêè óðîâíÿ còðåëêîâîãî âçâîäà íà îñíîâå àâòîìàòà ÀÊÌ, è ñîñòîÿë íà âîîðóæåíèè ÂÑ ÑÑÑÐ è åùå ìíîãèõ ñòðàí. Äî íàñòîÿùåãî âðåìåíè âñòðå÷àåòñÿ â ÂÑ Ðîññèè è â ÌÂÄ. Â Ñîâåòñêîé Àðìèè êàæäîìó ñòðåëêîâîìó âçâîäó (10 ÷åëîâåê) ïîëàãàëñÿ ïî øòàòó îäèí ÐÏÊ. Â îñíîâíîì â âîéñêàõ ÐÔ ÐÏÊ áûë çàìåíåí íà ÐÏÊ-74. </text>
+	</string>
+<!-- ÐÏÊ-74 -->
+	<string id="st_wpn_rpk74">
+		<text>ÐÏÊ-74</text>
+	</string>
+	<string id="st_wpn_rpk74_descr">
+		<text>Ðó÷íîé ïóëåì¸ò, ðàçðàáîòàííûé äëÿ çàìåíû â âîéñêàõ ïóëåìåòà ÐÏÊ ïîä ïàòðîí 7,62x39 ìì â ðàìêàõ ñèñòåìû ñòðåëêîâîãî îðóæèÿ ïîä ìàëîèìïóëüñíûé ïàòðîí 5,45x39 ìì. Ïðèíÿò íà âîîðóæåíèå â 1974 ãîäó âìåñòå ñ àâòîìàòîì ÀÊ-74.</text>
+	</string>
+<!-- Beretta M92 -->
+  <string id="st_wpn_beretta">
+		<text>Martha</text>
+  </string>
+ <string id="st_wpn_beretta_descr">
+		<text>Martha pistols enjoy the reputation of a relatively reliable, albeit somewhat cumbersome weapon, around the world. In service with armed forces and police across the ocean, as well as various military and law enforcement organisations worldwide.  The pistol is equally popular with members of the underworld, thanks to its powerful round and magazine capacity. Marthas found in the Zone are usually dated, probably from retired stock.</text>
+  </string>
+	<!-- Beretta 92SB -->
+	<string id="st_wpn_m9">
+		<text>M9</text>
+	</string>
+	<string id="st_wpn_m9_descr">
+		<text>M9 - êîäîâîå íàçâàíèå Beretta 92SB íà âîîðóæåíèè àðìèè ÑØÀ. Ïîïóëÿðåí è ó ïðåñòóïíèêîâ áëàãîäàðÿ ìîùíîìó ïàòðîíó è ¸ìêîìó ìàãàçèíó. Êàê ïðàâèëî, â Çîíó ïîïàäàþò íå ñàìûå íîâûå ìîäåëè äàííîãî îðóæèÿ.</text>
+	</string>
+<!-- ÁÌ-16 -->
+  <string id="st_wpn_bm16">
+		<text>Sawed-off Shotgun</text>
+  </string>
+  <string id="st_wpn_bm16_descr">
+		<text>A sawed-off hunting shotgun with two side-by-side barrels, making it lighter and more compact than a full shotgun. One of the most popular weapons among bandits due to its combination of ease of concealment and extreme effectiveness in close combat.</text>
+  </string>
+<!-- Colt M1911A1 -->
+  <string id="st_wpn_colt1911">
+		<text>Kora-919</text>
+  </string>
+   <string id="st_wpn_colt1911_descr">
+		<text>An improved version of a classic automatic pistol, which passed all the major armed conflicts of the 20th century with flying colours and entered the new millennium with confidence. Produced by dozens if not hundreds of arms manufacturers around the world in both standard and modified configurations. The weapon's only drawback, its mediocre magazine capacity, is largely compensated by the hard-hitting ammo it uses.</text>
+  </string>
+<!-- Desert Eagle -->
+  <string id="st_wpn_eagle">
+		<text>Black Kite</text>
+  </string>
+  <string id="st_wpn_eagle_descr">
+		<text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols.</text>
+  </string>
+	<string id="st_wpn_eagle_nimble_descr">
+		<text>Âàðèàíò ïèñòîëåòà Desert Eagle ñ êîëëèìàòîðíûì ïðèöåëîì Docter Sight, óíèêàëüíîé ðàñêðàñêîé è  êîìïåíñàòîðîì ñíèæàþùèì îòäà÷ó.</text>
+	</string>
+	<string id="st_wpn_famas">
+		<text>FAMAS F1</text>
+	</string>
+	<string id="st_wpn_famas_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nFAMAS - (øòóðìîâàÿ âèíòîâêà ðàçðàáîòêè îðóæåéíîãî ïðåäïðèÿòèÿ MAS â Ñåíò-Ýòüåíå) - ôðàíöóçñêèé àâòîìàò êàëèáðà 5,56 ìì, èìåþùèé êîìïîíîâêó «áóëë-ïàï». Íåîôèöèàëüíîå íàçâàíèå - «êëåðîí».</text>
+	</string>
+	<!-- FN-2000 -->
+  <string id="st_wpn_fn2000">
+		<text>FT-200M</text>
+  </string>
+ <string id="st_wpn_fn2000_descr">
+		<text>This futuristic-looking weapon with a bullpup layout is actually a mass produced modular system, comprising a rifle & grenade complex with a computerized fire control system and a 40-mm grenade launcher. Despite its bulky appearance, the weapon is highly ergonomic, easy to use and benefits from good technical characteristics.</text>
+  </string>
+	<!-- ÏÏ-19 «Áèçîí» -->
+	<string id="st_wpn_bizon">
+		<text>ÏÏ-19 «Áèçîí»</text>
+	</string>
+	<string id="st_wpn_bizon_descr">
+		<text>ÏÏ-19 «Áèçîí» - ïèñòîëåò-ïóëåì¸ò 19 ìîäåëü, ðàçðàáîòàííûé â 1993 ãîäó Â. Ì. Êàëàøíèêîâûì (ñûíîì êîíñòðóêòîðà Ì. Ò. Êàëàøíèêîâà) è Àëåêñååì Äðàãóíîâûì (ñûíîì Å. Ô. Äðàãóíîâà) ïî çàêàçó Ìèíèñòåðñòâà âíóòðåííèõ äåë Ðîññèéñêîé Ôåäåðàöèè (ÌÂÄ Ðîññèè).</text>
+	</string>
+	<!-- FN P90 -->
+	<string id="st_wpn_p90">
+		<text>FN P90</text>
+	</string>
+	<string id="st_wpn_p90_descr">
+		<text>FN P90 - áåëüãèéñêèé ïèñòîëåò-ïóëåì¸ò (ïåðñîíàëüíîå îðóæèå ñàìîîáîðîíû), ðàçðàáîòàííûé â 1986 - 1987 ãîäàõ ôèðìîé FN Herstal. Áûë ðàçðàáîòàí, â ïåðâóþ î÷åðåäü, äëÿ òàíêèñòîâ è âîäèòåëåé áîåâûõ àâòîìîáèëåé è ìàøèí. Èìååò ïðîãðåññèâíûé è óäîáíûé ýðãîíîìè÷íûé äèçàéí. Ñïåöèàëüíî äëÿ P90 áûë ðàçðàáîòàí ïàòðîí òèïà 5,7x28 ìì SS190, îáëàäàþùèé âûñîêîé ïðîáèâíîé ìîùíîñòüþ è íèçêîé ñòåïåíüþ ðèêîøåòèðîâàíèÿ.</text>
+	</string>
+	<!-- Ôîðò-12 -->
+  <string id="st_wpn_fort">
+		<text>Fora-12</text>
+  </string>
+  <string id="st_wpn_fort_descr">
+		<text>A Ukrainian-made pistol predominantly used by law enforcement organisations. Provides higher accuracy, better ergonomics and has a larger magazine than the PMm.  These pistols make it into the Zone in large numbers thanks to the sale of defective weapons, which suffer from technical miscalculations in early design models. Despite this, the pistol is in demand among stalkers thanks to its good combat characteristics.</text>
+  </string>
+<!-- HK G36 -->
+  <string id="st_wpn_g36">
+		<text>GP37</text>
+  </string>
+  <string id="st_wpn_g36_descr">
+		<text>A new addition to the Western-made assault rifle family, which differs significantly from previous models in the series built on an automatic foundation with a semi-open bolt assembly, this weapon is more like American automatic gas-operated assault rifles with a short-stroke gas piston system. These changes ensure that the rifle is a first-rate example of a modern weapon - lightweight, reliable and ergonomic.</text>
+  </string>
+<!-- HK G36C -->
+	<string id="st_wpn_g36c">
+		<text>HK G36C</text>
+	</string>
+	<string id="st_wpn_g36c_descr">
+		<text>Ýêñòðåìàëüíî óêîðî÷åííûé âàðèàíò Íåìåöêîé âèíòîâêè G36. Âèíòîâêà áûëà ðàçðàáîòàíà â 1996 ãîäó íåìåöêîé îðóæåéíîé êîìïàíèåé Heckler & Koch.</text>
+	</string>
+<!-- HK G36K -->
+	<string id="st_wpn_g36k">
+		<text>HK G36K</text>
+	</string>
+	<string id="st_wpn_g36k_descr">
+		<text>G36K (Kurz) - óêîðî÷åííûé âàðèàíò âèíòîâêè G36, àâòîìàò ñî ñòâîëîì äëèíîé 318 ìì.</text>
+	</string>
+<!-- Ãàóññ -->
+  <string id="st_wpn_gauss">
+		<text>Gauss rifle</text>
+  </string>
+ <string id="st_wpn_gauss_descr">
+		<text>A super-accurate hi-tech weapon known as item 62, this rifle was developed in secret laboratories located inside the Zone. The weapon operates by accelerating bullets to extremely high speeds using a system of electromagnets, which provides incredible stopping power with virtually no recoil.  The weapon is powered by using encapsulated artefact fragments in the batteries.</text>
+  </string>
+<!-- ÎÖ-14 «Ãðîçà» -->
+  <string id="st_wpn_groza">
+		<text>Tunder S14</text>
+  </string>
+  <string id="st_wpn_groza_descr">
+		<text>This assault rifle combined with a grenade launcher, which is similar to the AKM series, was specially developed for rapid response units. The main differences are its 9x39 calibre ammunition, bullpup layout and extensive configuration options. This weapon is highly valued by military stalkers due to its ability to kill enemies wearing body armour behind improvised cover at a distance during urban combat, as well as its excellent stopping power.</text>
+  </string>
+<!-- Browning HP-SA -->
+  <string id="st_wpn_hpsa">
+		<text>HPSS-1m</text>
+  </string>
+  <string id="st_wpn_hpsa_descr">
+		<text>A modified model of a pistol from the first half of the 20th century, which is as reliable, powerful and accurate as the original. Pistols of this series deserve their reputation as one of the best handguns of the 20th century and are in great demand in the Zone.</text>
+  </string>
+	<string id="st_wpn_hk416">
+		<text>HK-416</text>
+	</string>
+	<string id="st_wpn_hk416_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ïîäñòâîëüíûé ãðàíàòîì¸ò M203\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nHK416 - àâòîìàò, ñîçäàííûé íåìåöêîé ôèðìîé Heckler &amp; Koch íà îñíîâå êàðàáèíà Ì4. Ïåðâîíà÷àëüíî íîâîå îðóæèå äîëæíî áûëî ñòàòü ñìåííûì ìîäóëåì äëÿ óñòàíîâêè íà ëþáóþ íèæíþþ ÷àñòü ñòâîëüíîé êîðîáêè îò âèíòîâîê M4 èëè M16, îäíàêî ïîçæå ïîÿâèëèñü è ïîëíîêîìïëåêòíûå àâòîìàòû. Íàçâàíèå HK416 ñèìâîëèçèðóåò ïðååìñòâåííîñòü îò M4 è M16.</text>
+	</string>
+	<!-- L85A2 -->
+  <string id="st_wpn_l85">
+		<text>IL 86</text>
+  </string>
+  <string id="st_wpn_l85_descr">
+		<text>This rifle's considerable number of drawbacks caused most of these weapons to be modernized, with the retired stock making its way to the Zone via the black market. The rifle's main advantages are its built-in 4x scope, high single-shot accuracy and reliable upgrade technology. When the weapon is fired in bursts, its accuracy decreases significantly and the rifle's basic internal mechanisms become somewhat unreliable.</text>
+  </string>
+<!-- Z-M LR-300ML -->
+  <string id="st_wpn_lr300">
+		<text>TRs 301</text>
+  </string>
+  <string id="st_wpn_lr300_descr">
+		<text>A new step in the development of this famous weapon family. The changes were made to the upper half of the steel construction comprising the barrel, gas tube and bolt assembly, reducing the weapon's weight, improving ergonomics and its gas system. The weapon is highly accurate, although its propensity to catch dirt makes it a poor choice for the Zone's difficult conditions.</text>
+  </string>
+<!-- M590A1 -->
+	<string id="st_wpn_m590a1">
+		<text>Mossberg M590A1</text>
+	</string>
+	<string id="st_wpn_m590a1_descr">
+		<text>Îäíî èç ñàìûõ ðàñïðîñòðàí¸ííûõ ìíîãîçàðÿäíûõ ðóæåé ñ ïåðåçàðÿäêîé ïîäâèæíûì öåâü¸ì (ïîìïîâûõ ðóæåé). Âïåðâûå âûïóùåíî â 1962-ì ãîäó. Ñåé÷àñ âûïóñêàåòñÿ â ðàçëè÷íûõ ìîäèôèêàöèÿõ, ïðåäíàçíà÷åíûõ êàê äëÿ îõîòû, òàê è äëÿ ïîëèöèè, îõðàííèêîâ è ñàìîîáîðîíû.</text>
+	</string>
+<!-- M4 -->
+	<string id="st_wpn_m4">
+		<text>M4</text>
+	</string>
+	<string id="st_wpn_m4_descr">
+		<text>Àâòîìàò, ñîçäàííûé â ÑØÀ íà îñíîâå Ì16À2 èçíà÷àëüíî äëÿ âîîðóæåíèÿ ýêèïàæåé áîåâûõ ìàøèí è ðàñ÷åòîâ òåõíèêè. Â íàñòîÿùåå âðåìÿ íà íåãî ïåðåõîäèò è âñÿ Àðìèÿ ÑØÀ, òàê êàê áîëüøåå óäîáñòâî óêîðî÷åííîãî êàðàáèíà â ñîâðåìåííûõ óñëîâèÿõ, êîãäà áîëüøóþ ÷àñòü àðìèè ñîñòàâëÿþò ìîòîïåõîòà, ýêèïàæè áîåâûõ ìàøèí è âñïîìîãàòåëüíûå âîéñêà, áîëåå ÷åì êîìïåíñèðóåò äîñòàòî÷íî íåçíà÷èòåëüíîå ñíèæåíèå åãî õàðàêòåðèñòèê â ñðàâíåíèè ñ âèíòîâêîé.</text>
+	</string>
+<!-- M4A1 -->
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
+		<text>Â 1996 ãîäó ïî çàêàçó ñèë ñïåöèàëüíûõ îïåðàöèé íà îñíîâå âèíòîâêè Ì16À3 áûë ðàçðàáîòàí êàðàáèí Ì4À1, îòëè÷àâøèéñÿ âîçâðàòîì ê ïîëíîñòüþ àâòîìàòè÷åñêîìó îãíþ âìåñòî ðåæèìà îãíÿ ñ îòñå÷êîé ïî 3 âûñòðåëà.</text>
+	</string>
+<!-- M16 -->
+	<string id="st_wpn_m16">
+		<text>M16</text>
+	</string>
+	<string id="st_wpn_m16_descr">
+		<text>M16 (îôèöèàëüíîå îáîçíà÷åíèå - Rifle, Caliber 5.56 mm, M16) - àìåðèêàíñêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà êàëèáðà 5,56 ìì, ðàçðàáîòàííàÿ íà áàçå âèíòîâêè AR-15 è ïðèíÿòàÿ íà âîîðóæåíèå â 1960-õ ãîäàõ. M16 è å¸ âàðèàíòû äî íàñòîÿùåãî âðåìåíè îñòàþòñÿ îñíîâíûì âîîðóæåíèåì àìåðèêàíñêîé ïåõîòû. Ýòî îäíà èç íàèáîëåå ðàñïðîñòðàí¸ííûõ ìîäåëåé ñòðåëêîâîãî îðóæèÿ â ìèðå - áûëî âûïóùåíî áîëåå 8 ìèëëèîíîâ ýêçåìïëÿðîâ.</text>
+	</string>
+<!-- M16A1 -->
+	<string id="st_wpn_m16a1">
+		<text>M16A1</text>
+	</string>
+	<string id="st_wpn_m16a1_descr">
+		<text>M16A1 - óñîâåðøåíñòâîâàííûé âàðèàíò M16. Îñíîâíûå îòëè÷èÿ: ïîÿâëåíèå ìåõàíèçìà äîñûëàíèÿ çàòâîðà è óñîâåðøåíñòâîâàííûé áóôåð ñòåáëÿ çàòâîðà (ñíèçèë òåìï ñòðåëüáû äî 750-850 âûñòðåëîâ â ìèíóòó è èñêëþ÷èë îòñêîê çàòâîðà è îñå÷êè), áîëåå íàä¸æíûé ïëàìåãàñèòåëü ñ çàìêíóòûìè ùåëÿìè, õðîìèðîâàííîå ïîêðûòèå çàòâîðà (äëÿ èñêëþ÷åíèÿ åãî êîððîçèè), óìåíüøåíèå øàãà íàðåçîâ ñ 356 äî 305 ìì (óëó÷øèëî óñòîé÷èâîñòü ïóëè, íî óâåëè÷èëî ðàññåèâàíèå íà äèñòàíöèÿõ ñâûøå 400 ì), ïðèëèâ äëÿ óñòàíîâêè øòûê-íîæà. Òàêæå ñïåöèàëüíî äëÿ íîâîé âèíòîâêè áûë ñîçäàí 30-çàðÿäíûé ìàãàçèí è ãëóøèòåëü, ðàññ÷èòàííûé äëÿ ñòðåëüáû îáû÷íûìè (à íå äîçâóêîâûìè) ïàòðîíàìè. Ñòîÿëà íà âîîðóæåíèè àðìèè ÑØÀ ñ 1967 ïî 1985 ãîä.</text>
+	</string>
+<!-- M16A2 -->
+	<string id="st_wpn_m16a2">
+		<text>M16A2</text>
+	</string>
+	<string id="st_wpn_m16a2_descr">
+		<text>M16A2 - âàðèàíò âèíòîâêè M16A1, àäàïòèðîâàííûé ïîä ïàòðîí SS109/Ì855. Îòëè÷èÿ îò M16A1: óïðî÷í¸ííûé ñòâîë, óëó÷øåííûå ïðèöåëüíûå ïðèñïîñîáëåíèÿ, ðàçìå÷åííûå äî 800 ì, íîâûå öåâü¸ è ïðèêëàä èç óäàðîïðî÷íîãî ïîëèàìèäà, çàìåíîé ðåæèìà íåïðåðûâíîãî îãíÿ íà ðåæèì ñ îòñå÷êîé î÷åðåäè ïîñëå 3-õ âûñòðåëîâ, íîâûé ïëàìåãàñèòåëü ñ ïðîðåçÿìè òîëüêî â âåðõíåé ÷àñòè (áëàãîäàðÿ ÷åìó êîìïåíñèðîâàëñÿ óâîä îðóæèÿ ââåðõ). Íîâàÿ âèíòîâêà ñòàëà êîìïëåêòîâàòüñÿ ë¸ãêèìè ïëàñòèêîâûìè ìàãàçèíàìè íà 30 ïàòðîíîâ.</text>
+	</string>
+<!-- M16A3 -->
+	<string id="st_wpn_m16a3">
+		<text>M16A3</text>
+	</string>
+	<string id="st_wpn_m16a3_descr">
+		<text>M16A3 - âàðèàíò âèíòîâêè M16A2 ñ ðåæèìîì íåïðåðûâíîãî îãíÿ, ñîñòîèò íà âîîðóæåíèè âî ôëîòå. Ðóêîÿòêà äëÿ ïåðåíîñêè è ïðèöåëüíûå ïðèñïîñîáëåíèÿ èäåíòè÷íû M16A2. Ïîÿâèëàñü â 1992 ãîäó ïîä èíäåêñîì M16A2E3.</text>
+	</string>
+<!-- M16A4 -->
+	<string id="st_wpn_m16a4">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16a4_descr">
+		<text>M16A4 - âàðèàíò âèíòîâêè M16A2. Ñâåðõó ñòâîëüíîé êîðîáêè âìåñòî ðó÷êè äëÿ ïåðåíîñêè (êîòîðàÿ ñòàëà ñú¸ìíîé) óñòàíîâëåíà íàïðàâëÿþùàÿ òèïà Ïèêàòèííè. Âîçìîæíà óñòàíîâêà äîïîëíèòåëüíûõ íàïðàâëÿþùèõ òèïà Ïèêàòèííè íà öåâüå.</text>
+	</string>
+	<string id="st_wpn_m16a4_camo">
+		<text>M16A4 (êàìóôëÿæ)</text>
+	</string>
+	<string id="st_wpn_m16a4_camo_descr">
+		<text>Âàðèàíò M16A4 ñ ïóñòûííûì êàìóôëÿæåì è ïðèöåëîì Leupold Mark4.</text>
+	</string>
+<!-- HK MP5 -->
+ <string id="st_wpn_mp5">
+		<text>Viper 5</text>
+  </string>
+  <string id="st_wpn_mp5_descr">
+		<text>This submachine gun has gained popularity around the world thanks to its reliability, ease of use and accuracy. Over the last few decades the Viper 5 was in service with special armed forces and police units worldwide. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.</text>
+  </string>
+<!-- HK UMP -->
+	<string id="st_wpn_ump45">
+		<text>UMP45</text>
+	</string>
+	<string id="st_wpn_ump45_descr">
+		<text>HK UMP (íåì. Universale Maschinenpistole - óíèâåðñàëüíûé ïèñòîëåò-ïóëåì¸ò) - ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé íåìåöêîé êîìïàíèåé Heckler & Koch â 1990-õ ãîäàõ â êà÷åñòâå äîïîëíåíèÿ ê ñåìåéñòâó ïèñòîëåòîâ-ïóëåì¸òîâ HK MP5.</text>
+	</string>
+<!-- HK MP5SD -->
+	<string id="st_wpn_mp5sd">
+		<text>MP5SD</text>
+	</string>
+	<string id="st_wpn_mp5sd_descr">
+		<text>MP5SD - áåñøóìíûé âàðèàíò MP5 îáðàçöà 1974 ãîäà ñ èíòåãðèðîâàííûì ÏÁÑ.</text>
+	</string>
+	<!-- ÏÏ-2000 -->
+	<string id="st_wpn_pp2000">
+		<text>ÏÏ-2000</text>
+	</string>
+	<string id="st_wpn_pp2000_descr">
+		<text>ÏÏ-2000 - ðîññèéñêèé 9-ìì ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé êîëëåêòèâîì êîíñòðóêòîðîâ òóëüñêîãî ÊÁ Ïðèáîðîñòðîåíèÿ (àêàä. Â. Ï. Ãðÿçåâ, ñïåöèàëèñòû Á. È. Êóçíåöîâ è À. È. Ðàññêàçîâ). ÏÏ-2000 ïîçèöèîíèðóåòñÿ êàê îðóæèå äëÿ ïîäðàçäåëåíèé ïðàâîîõðàíèòåëüíûõ îðãàíîâ, äåéñòâóþùèõ â ãîðîäñêèõ óñëîâèÿõ, à òàêæå êàê ëè÷íîå îðóæèå ñàìîîáîðîíû äëÿ îòäåëüíûõ êàòåãîðèé âîåííîñëóæàùèõ.</text>
+	</string>
+	<!-- ÏÁ -->
+  <string id="st_wpn_pb">
+		<text>PB-1s</text>
+  </string>
+  <string id="st_wpn_pb_descr">
+		<text>This pistol was developed in the second half of the 20th century on the basis of the PMm for use by special forces and scouting units. The front of the pistol's barrel is covered with an integrated silencer, while the bolt mechanism is short, which prevents a back-moving spring from being located inside it, and it is therefore situated in the weapon's handle. Morally obsolete, the weapon is still effective in the right hands.</text>
+  </string>
+ <!-- ÏÌ -->
+  <string id="st_wpn_pm">
+		<text>PMm</text>
+  </string>
+  <string id="st_wpn_pm_descr">
+		<text>This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size.</text>
+  </string>
+<!-- ÏÌÌ -->
+	<string id="st_wpn_pmm">
+		<text>ÏÌÌ</text>
+	</string>
+	<string id="st_wpn_pmm_descr">
+		<text>9-ìì ïèñòîëåò Ìàêàðîâà ìîäåðíèçèðîâàííûé ÏÌÌ (Èíäåêñ ÃÐÀÓ - 56-À-125Ì) - ýòî ðîññèéñêèé ïèñòîëåò, ðàçðàáîòàííûé â íà÷àëå 1990õ ãîäîâ â ðàìêàõ òåìû ÍÈÎÊÐ «Ãðà÷». Ïðèíÿë ó÷àñòèå â êîíêóðñå íà íîâûé àðìåéñêèé ïèñòîëåò ïîä îáîçíà÷åíèåì «Ãðà÷-3».</text>
+	</string>
+	<!-- Protecta -->
+  <string id="st_wpn_protecta">
+    <text>Eliminator</text>
+  </string>
+  <string id="st_wpn_protecta_descr">
+		<text>A smoothbore combat revolver-type shotgun intended to provide extreme firepower for militarized units. The weapon benefits from a large magazine and a high effective rate of fire, but its bulkiness and considerable weight, combined with a long reload time, are the price to be paid for these advantages. Rare in the Zone and is used primarily to clear closed spaces of mutants.</text>
+  </string>
+<!-- Remington 870 -->
+	<string id="st_wpn_remington870">
+		<text>Remington 870</text>
+	</string>
+	<string id="st_wpn_remington870s">
+		<text>M870</text>
+	</string>
+	
+	<string id="st_wpn_remington870_descr">
+		<text>Remington 870 - àìåðèêàíñêîå ðóæü¸, âïåðâûå ïðåäñòàâëåííîå â 1950 ãîäó êîìïàíèåé Remington Arms. Áëàãîäàðÿ ñâîåé õàðàêòåðíîé ïåðåçàðÿäêå ÿâëÿåòñÿ îäíèì èç ñàìûõ çíàìåíèòûõ ïîìïîâûõ ðóæåé â ìèðå. Âûïóñêàëñÿ â ðàçëè÷íûõ ìîäèôèêàöèÿõ, îí ïîäõîäèò êàê äëÿ âîåííûõ è ïîëèöèè, òàê äëÿ îõîòíèêîâ è ñïîðòñìåíîâ, à òàêæå äëÿ ñàìîîáîðîíû.</text>
+	</string>
+  <string id="st_wpn_rg6">
+		<text>Bulldog-6</text>
+  </string>
+  <string id="st_wpn_rg6_descr">
+		<text>This revolver-type grenade launcher uses six rifled front-loading barrels, identical to under-barrel launcher attachments. The drum is also front-loading. Widely used for rapid suppression of enemy firing positions and, when in the open, attacking defended fixed targets or fighting particularly tough monsters.</text>
+  </string>
+	<!-- ÏÊÌ -->
+	<string id="st_wpn_pkm">
+		<text>ÏÊÌ</text>
+	</string>
+	<string id="st_wpn_pkm_descr">
+		<text>Ðó÷íàÿ ìîäèôèêàöèÿ àðìåéñêîãî ïóëåì¸òà ñ ëåíòî÷íûì ïèòàíèåì. Íåñìîòðÿ íà âûñîêóþ ìàññó è íåóäîâëåòâîðèòåëüíóþ òî÷íîñòü áîÿ, íàø¸ë ñåáå äîñòàòî÷íî øèðîêîå ïðèìåíåíèå â Çîíå. Â îñíîâíîì èñïîëüçóåòñÿ äëÿ ïîäàâëåíèÿ ïðåâîñõîäÿùåãî ïî ÷èñëåííîñòè ïðîòèâíèêà è ïðè çà÷èñòêàõ ëîãîâ ìóòàíòîâ.</text>
+	</string>
+<!-- ÐÏÃ-7 -->
+ <string id="st_wpn_rpg7">
+    <text>RPG-7U</text>
+  </string>
+  <string id="st_wpn_rpg7_descr">
+		<text>This grenade launcher from the 1960s made its way into the Zone from army depots. The weapon is a smoothbore single-shot recoilless launch system with an open-rear tube. Comes with a PGO-7 x2.7 optical scope. Although its huge size and weight make it an unlikely choice for stalkers, given its huge destructive power and ease of use, it has found admirers in the Zone.</text>
+  </string>
+<!-- SIG-P220 -->
+  <string id="st_wpn_sig220">
+		<text>SIP-t M200</text>
+  </string>
+ <!-- SIG-P226 -->
+	<string id="st_wpn_sig226">
+		<text>SIG-Sauer P226</text>
+	</string>
+  <string id="st_wpn_sig220_descr">
+		<text>The only remaining mass produced model of a globally renowned pistol, this weapon has earned a reputation for its excellent ergonomics and accuracy, and while its magazine is relatively small, it benefits from powerful ammo and a mechanism that functions like a Swiss watch. Some believe the SIP-t M200 to be the best mass produced .45ACP calibre handgun there is and it has certainly got a following among experienced stalkers and mercenaries.</text>
+  </string>
+<!-- SIG SG-550 -->
+  <string id="st_wpn_sig550">
+		<text>SGI-5k</text>
+  </string>
+  <string id="st_wpn_sig550_descr">
+		<text>A relatively new assault rifle that has quickly found admirers around the world, despite lacking a "trendy" design. Weapons of this series are one of the best in their class, renowned for their reliability, accuracy and ease of use.  Despite being relatively difficult to obtain in the Zone, this assault rifle is often ordered by experienced stalkers at considerable expense.</text>
+  </string>
+<!-- SIG "Ñòðåëîê" -->
+  <string id="st_wpn_sig550_strelok">
+		<text>Strelok's SGI-5k</text>
+  </string>
+  <string id="st_wpn_sig550_strelok_descr">
+		<text>A Swiss-made SGI-5k assault rifle. Although it is hardly new, it is clear that the previous owner took good care of it: the weapon has been taken apart and put back together, with every component fine-tuned for optimum performance, increasing stopping power. The letter "S" has been carved into the stock, along with 16 small notches.</text>
+  </string>
+<!-- SIG SG-551 -->
+	<string id="st_wpn_sig551">
+		<text>SIG SG-551</text>
+	</string>
+	<string id="st_wpn_sig550-551_descr">
+		<text>Ïðåäñòàâèòåëü îòíîñèòåëüíî íîâîãî ñåìåéñòâà øòóðìîâûõ âèíòîâîê. Áëàãîäàðÿ âûñîêîé íàä¸æíîñòè, òî÷íîñòè áîÿ è óäîáñòâó â îáðàùåíèè ÿâëÿåòñÿ îäíèì èç ëó÷øèõ îáðàçöîâ âîîðóæåíèÿ ýòîãî êëàññà. Â Çîíå âñòðå÷àåòñÿ íå÷àñòî è ñòîèò íåìàëûõ äåíåã; îáû÷íî å¸ ñïåöèàëüíî çàêàçûâàþò äëÿ ñåáÿ áûâàëûå ñòàëêåðû.</text>
+	</string>
+<!-- SIG SG-552 -->
+	<string id="st_wpn_sig552">
+		<text>SIG SG-552</text>
+	</string>
+	<string id="st_wpn_sig552_descr">
+		<text>SG-552 Commando - åù¸ áîëåå êîìïàêòíûé àâòîìàò ñî ñòâîëîì 226 ìì, ïðåäíàçíà÷åííûé äëÿ ñïåöèàëüíûõ ïîëèöåéñêèõ ïîäðàçäåëåíèé. Â îòëè÷èå îò SG 550 âîçâðàòíàÿ ïðóæèíà ïîçàäè çàòâîðíîé ðàìû è äåéñòâóåò íåïîñðåäñòâåííî íà íå¸, à íå íà øòîê ãàçîâîãî ïîðøíÿ. Àâòîìàò èìååò èçìåí¸ííûé ïëàìåãàñèòåëü è ìîæåò îñíàùàòüñÿ ïëàíêàìè Ïèêàòèííè äëÿ óñòàíîâêè äîïîëíèòåëüíûõ àêñåññóàðîâ.</text>
+	</string>
+<!-- FN SCAR-L -->
+	<string id="st_wpn_scar_light">
+		<text>FN SCAR-L</text>
+	</string>
+<!-- FN SCAR-H -->
+	<string id="st_wpn_scar_heavy">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="st_wpn_scar_descr">
+		<text>FN SCAR (àíãë. Special Operations Forces Combat Assault Rifle - áîåâàÿ øòóðìîâàÿ âèíòîâêà äëÿ ñèë ñïåöèàëüíûõ îïåðàöèé) - îðóæåéíàÿ ñèñòåìà, ðàçðàáîòàííàÿ àìåðèêàíñêèì ïîäðàçäåëåíèåì áåëüãèéñêîé êîìïàíèè FN Herstal äëÿ ó÷àñòèÿ â êîíêóðñå íà ñîçäàíèå íîâîãî àâòîìàòà äëÿ áîéöîâ USSOCOM â 2004 ãîäó.</text>
+	</string>
+	<!-- SPAS-12 -->
+  <string id="st_wpn_spas12">
+		<text>SPSA-14 </text>
+	</string>
+  <string id="st_wpn_spas12_descr">
+		<text>This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants.</text>
+  </string>
+	<!-- SR-25 -->
+	<string id="st_wpn_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_wpn_sr25_descr">
+		<text>SR-25 - ñàìîçàðÿäíàÿ ñíàéïåðñêàÿ âèíòîâêà, ðàçðàáîòàííàÿ Þäæèíîì Ñòîíåðîì â 1990-å ãîäû íà îñíîâå êîíñòðóêöèè âèíòîâêè AR-15.</text>
+	</string>
+	<string id="st_wpn_sv98">
+		<text>ÑÂ-98</text>
+	</string>
+	<string id="st_wpn_sv98_descr">
+		<text>Ðîññèéñêàÿ ìàãàçèííàÿ ñíàéïåðñêàÿ âèíòîâêà, ñîçäàííàÿ â 1998-2000 ãã. êîëëåêòèâîì êîíñòðóêòîðîâ ïîä ðóêîâîäñòâîì Âëàäèìèðà Ñòðîíñêîãî è ñåðèéíî âûïóñêàåìàÿ êîíöåðíîì «Èæìàø». ÑÂ-98 ïðåäíàçíà÷åíà äëÿ ïîðàæåíèÿ ïîÿâëÿþùåéñÿ, äâèæóùåéñÿ, îòêðûòîé è äåìàñêèðîâàííîé, íåçàùèù¸ííîé è ñíàáæ¸ííûìè ñðåäñòâàìè èíäèâèäóàëüíîé áðîíåçàùèòû æèâîé ñèëû ïðîòèâíèêà íà äàëüíîñòè äî 1000 ì.</text>
+	</string>
+	<!-- ÑÂÄ -->
+  <string id="st_wpn_svd">
+    <text>SVDm-2</text>
+  </string>
+  <string id="st_wpn_svd_descr">
+		<text>An army sniper rifle that has been on the market for more than fifty years and has earned its reputation for exceptional reliability and ease of use. The SVDm-2 is normally used by the army to improve the effective range of its units, but stalkers respect this weapon for its armour-piercing properties, which allow it to penetrate mutant hide and army body armour.</text>
+  </string>
+<!-- ÑÂÓ -->
+ <string id="st_wpn_svu">
+    <text>SVUmk-2</text>
+  </string>
+  <string id="st_wpn_svu_descr">
+		<text>A modernized version of the SVDm-2 sniper rifle in a compact bullpup design made on the order of rapid response forces. It allows faster precision fire and is considerably lighter, while its single shot firing accuracy at short and medium range is similar to that of its predecessor. These qualities have earned it the admiration of countless stalkers.</text>
+  </string>
+	<string id="st_wpn_toz194">
+		<text>ÒÎÇ-194</text>
+	</string>
+	<string id="st_wpn_toz194_descr">
+		<text>ÒÎÇ-194 - ðîññèéñêîå ïîìïîâîå ðóæü¸, ðàçðàáîòàííîå â ñåðåäèíå 1990-õ ãîäîâ íà îñíîâå êîíñòðóêöèè ðóæüÿ ÒÎÇ-94. Ïðîèçâîäèòñÿ íà Òóëüñêîì îðóæåéíîì çàâîäå.</text>
+	</string>
+	<!-- ÒÎÇ-34 -->
+  <string id="st_wpn_toz34">
+		<text>Hunting shotgun</text>
+  </string>
+  <string id="st_wpn_toz34_descr">
+		<text>This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone.</text>
+  </string>
+<!-- ÒÎÇ-66 -->
+	<string id="st_wpn_toz66">
+		<text>ÒÎÇ-66 (îáðåç)</text>
+	</string>
+	<string id="st_wpn_toz66_descr">
+		<text>Îõîòíè÷üå äâóñòâîëüíîå ðóæüå ÒÎÇ-66 âûïóñêàëîñü ñ 1967 ïî 1978ã., ïðåäíàçíà÷åíî äëÿ ïðîìûñëîâîé è ëþáèòåëüñêîé îõîòû. Ðàçðàáîòàíî íà áàçå ðóæüÿ ÒÎÇ-63 è îòëè÷àåòñÿ óñèëåííîé ñòâîëüíîé êîðîáêîé.</text>
+	</string>
+	<string id="st_wpn_toz66_full">
+		<text>ÒÎÇ-66</text>
+	</string>
+	<string id="st_wpn_toz66_full_descr">
+		<text>Îõîòíè÷üå äâóñòâîëüíîå ðóæüå ÒÎÇ-66 âûïóñêàëîñü ñ 1967 ïî 1978ã., ïðåäíàçíà÷åíî äëÿ ïðîìûñëîâîé è ëþáèòåëüñêîé îõîòû. Ðàçðàáîòàíî íà áàçå ðóæüÿ ÒÎÇ-63 è îòëè÷àåòñÿ óñèëåííîé ñòâîëüíîé êîðîáêîé.</text>
+	</string>
+	<!-- Íåèçâåñòíîå îðóæèå -->
+  <string id="st_wpn_umirotvoritel">
+		<text>Unidentified weapon</text>
+  </string>
+  <string id="st_wpn_umirotvoritel_descr">
+		<text>An unknown weapon, the firing mechanism of which has not been established. The weapon appears faulty - squeezing the trigger doesn't do anything.</text>
+  </string>
+	<string id="st_wpn_vssk">
+		<text>ÂÑÑÊ «Âûõëîï»</text>
+	</string>
+	<string id="st_wpn_vssk_descr">
+		<text>«Âûõëîï» (Âèíòîâêà Ñíàéïåðñêàÿ Ñïåöèàëüíàÿ Êðóïíîêàëèáåðíàÿ) - áåñøóìíàÿ êðóïíîêàëèáåðíàÿ ñíàéïåðñêàÿ âèíòîâêà, âûïîëíåííàÿ ïî êîìïîíîâêå áóëë-ïàï. Îñíîâíûì íàçíà÷åíèåì ÂÑÑÊ ÿâëÿåòñÿ ìàëîøóìíîå è áåñïëàìåííîå ïîðàæåíèå ëåãêîáðîíèðîâàííîé è íåáðîíèðîâàííîé òåõíèêè, à òàêæå æèâîé ñèëû â èíäèâèäóàëüíûõ ñðåäñòâàõ çàùèòû (â òîì ÷èñëå è òÿæ¸ëûõ áðîíåæèëåòàõ) íà äàëüíîñòè äî 600 ìåòðîâ.</text>
+	</string>
+	<string id="st_wpn_vsk94">
+		<text>ÂÑÊ-94</text>
+	</string>
+	<string id="st_wpn_vsk94_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1Ì2-01\n \n\n%c[255,1,255,255]•%c[default] Ãëóøèòåëü äëÿ 9À-91/ÂÑÊ-94\n \nÂÑÊ-94 (Âîéñêîâîé Ñíàéïåðñêèé Êîìïëåêñ, Èíäåêñ ÃÐÀÓ - 6Â8) - ðîññèéñêàÿ ñíàéïåðñêàÿ âèíòîâêà, ñîçäàííàÿ íà áàçå ìàëîãàáàðèòíîãî àâòîìàòà 9À-91 äëÿ âåäåíèÿ ñíàéïåðñêîãî áåñøóìíîãî è áåñïëàìåííîãî îãíÿ.</text>
+	</string>
+	<string id="st_wpn_vepr">
+		<text>Âåïðü-12 Ìîëîò</text>
+	</string>
+	<string id="st_wpn_vepr_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÏÁÑ-1\n \n«Âåïðü-12» Ìîëîò - ðîññèéñêèé ãëàäêîñòâîëüíûé ñàìîçàðÿäíûé êàðàáèí, ðàçðàáîòàííûé íà îñíîâå êîíñòðóêöèè ðó÷íîãî ïóëåì¸òà Êàëàøíèêîâà. Ïðåäíàçíà÷åí äëÿ îõîòû, ñïîðòèâíûõ ñîðåâíîâàíèé (êàê ïðàâèëî, ïî ïðàêòè÷åñêîé ñòðåëüáå â îòêðûòîì êëàññå), ñàìîîáîðîíû, à òàêæå èñïîëüçîâàíèÿ â êà÷åñòâå ñëóæåáíîãî îðóæèÿ. ßâëÿåòñÿ ïðÿìûì êîíêóðåíòîì ðóæüÿì ñåðèè «Ñàéãà-12».</text>
+	</string>
+	<string id="st_wpn_svt40">
+		<text>ÑÂÒ-40</text>
+	</string>
+	<string id="st_wpn_svt40_descr">
+		<text>7,62-ìì ñàìîçàðÿäíàÿ âèíòîâêà ñèñòåìû Òîêàðåâà îáðàçöà 1940 ãîäà (ÑÂÒ-40), à òàêæå àâòîìàòè÷åñêàÿ âèíòîâêà Òîêàðåâà îáðàçöà 1940 ãîäà - ìîäèôèêàöèè ñîâåòñêîé ñàìîçàðÿäíîé âèíòîâêè, ðàçðàáîòàííîé Ô. Â. Òîêàðåâûì. ÑÂÒ-38 áûëà ðàçðàáîòàíà â êà÷åñòâå çàìåíû àâòîìàòè÷åñêîé âèíòîâêè Ñèìîíîâà è 26 ôåâðàëÿ 1939 ïðèíÿòà íà âîîðóæåíèå Êðàñíîé àðìèè. Ïåðâàÿ ÑÂÒ îáð. 1938 ãîäà áûëà âûïóùåíà 16 èþëÿ 1939 ãîäà. Ñ 1 îêòÿáðÿ 1939 ãîäà íà÷àëñÿ âàëîâûé âûïóñê íà Òóëüñêîì, à ñ 1940 ãîäà - íà Èæåâñêîì îðóæåéíîì çàâîäå.</text>
+	</string>
+	<string id="st_wpn_pkp">
+		<text>ÏÊÏ «Ïå÷åíåã»</text>
+	</string>
+	<string id="st_wpn_pkp_descr">
+		<text>7,62-ìì ïóëåì¸ò ÏÊÏ «Ïå÷åíåã» (Èíäåêñ ÃÐÀÓ - 6Ï41) - ðîññèéñêèé åäèíûé ïóëåì¸ò, ðàçðàáîòàííûé íà îñíîâå ÏÊÌ. Ïðåäíàçíà÷åí äëÿ ïîðàæåíèÿ æèâîé ñèëû ïðîòèâíèêà, îãíåâûõ è òðàíñïîðòíûõ ñðåäñòâ, âîçäóøíûõ öåëåé. Ðàçðàáîòàí ÖÍÈÈòî÷ìàø.</text>
+	</string>
+	<string id="st_wpn_m249">
+		<text>M249</text>
+	</string>
+	<string id="st_wpn_m249_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \nÐó÷íîé ïóëåì¸ò êàëèáðà 5,56x45 ìì ïðîèçâîäñòâà Fabrique Nationale (Áåëüãèÿ), ñåðèéíîå ïðîèçâîäñòâî íà÷àëîñü â 1980-õ. Ðàçðàáîòêó ýòîãî îðóæèÿ îòäàëè ïåðñïåêòèâíîìó êîíñòðóêòîðó Ýðíåñòó Âåðâèåðó, ñîçäàòåëþ ïóëåìåòà FN MAG.</text>
+	</string>
+	<string id="st_wpn_m79">
+		<text>M79</text>
+	</string>
+	<string id="st_wpn_m79_descr">
+		<text>M79  - îäíîçàðÿäíûé 40-ìì ãðàíàòîì¸ò, ïðèíÿòûé íà âîîðóæåíèå â 1961 ãîäó àðìèåé ÑØÀ. Ðàçðàáîòàí â ïåðèîä 1951-1961 ãîäîâ àìåðèêàíñêîé êîðïîðàöèåé Ñïðèíãôèëäñêèé àðñåíàë (àíãë. Springfield Armory). Íåîôèöèàëüíîå íàçâàíèå  - «ñëîíîâîå ðóæüå».</text>
+        </string>
+	<!-- HK USP -->
+  <string id="st_wpn_usp">
+		<text>UDP Compact</text>
+  </string>
+<!-- HK USP Match -->
+	<string id="st_wpn_usp_match">
+		<text>HK USP Match</text>
+	</string>
+  <string id="st_wpn_usp_descr">
+		<text>Impeccable reliability and durability combined with excellent accuracy are the main noteworthy features of this weapon. Its minor drawbacks include its considerable size, relatively high center of gravity and massive bolt, which make it difficult to conceal but do not outweigh the weapon's positive features. The weapon is especially popular with the Zone's veterans.</text>
+  </string>
+	<!-- ÀÑ «Âàë» -->
+  <string id="st_wpn_val">
+		<text>SA Avalanche</text>
+  </string>
+  <string id="st_wpn_val_descr">
+		<text>A modified version of the silent Vintar BC sniper rifle, this assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39 calibre round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum.</text>
+  </string>
+	<!-- ÑÐ-3 «Âèõðü» -->
+	<string id="st_wpn_vihr">
+		<text>ÑÐ-3 «Âèõðü»</text>
+	</string>
+	<string id="st_wpn_vihr_descr">
+		<text>ÑÐ-3 «Âèõðü» - êîìïàêòíûé ðîññèéñêèé àâòîìàò, ðàçðàáîòàííûé â êëèìîâñêîì ÖÍÈÈòî÷ìàø êîíñòðóêòîðàìè À. Ä. Áîðèñîâûì è Â. Í. Ëåâ÷åíêî â 1994 ãîäó. Äîâîäèëñÿ äî âûïóñêà êîíñòðóêòîðîì À. È. Òàøëûêîâûì è áûë çàïóùåí â ñåðèéíîå ïðîèçâîäñòâî â 1996 ãîäó. Ñîçäàí íà îñíîâå áåñøóìíîãî àâòîìàòà ÀÑ «Âàë», ñ êîòîðûì óíèôèöèðîâàí ïî îñíîâíûì äåòàëÿì, ÷òî ïîëîæèòåëüíî ñêàçûâàåòñÿ íà ïðîèçâîäñòâå è ýêñïëóàòàöèè îðóæèÿ.</text>
+	</string>
+	<!-- ÂÑÑ «Âèíòîðåç» -->
+ <string id="st_wpn_vintorez">
+		<text>Vintar BC </text>
+  </string>
+  <string id="st_wpn_vintorez_descr">
+		<text>A special military sniper rifle purpose-built for silent, flashless sniping during special operations where early detection of the shooter may be critical. The Vintar BC provides high armour-piercing capability and stopping power, as well as being equipped with an integrated sniper and optical scope. Highly rated by many stalkers despite its small magazine.</text>
+  </string>
+	<!-- Walther P-99 -->
+  <string id="st_wpn_walther">
+		<text>Walker P9m</text>
+  </string>
+  <string id="st_wpn_walther_descr">
+		<text>An excellent Western pistol known for its reliability, high capacity magazine and good accuracy, as well as being among the most ergonomic handguns in its class. One of the most widely used pistols in the Zone, both among professionals and rookies who can afford it.</text>
+  </string>
+	<string id="st_wpn_usas12">
+		<text>USAS-12</text>
+	</string>
+	<string id="st_wpn_usas12_descr">
+		<text>USAS-12 - àâòîìàòè÷åñêîå ðóæü¸, ðàçðàáîòàííîå Äæîíîì Òðåâîðîì â êîíöå 1980-õ ãîäîâ íà îñíîâå èäåé äðóãîãî àìåðèêàíñêîãî êîíñòðóêòîðà Ìàêñâåëëà Àò÷èññîíà, ñîçäàâøåãî Atchisson Assault Shotgun.</text>
+	</string>
+	<string id="st_wpn_rpd">
+		<text>ÐÏÄ</text>
+	</string>
+	<string id="st_wpn_rpd_descr">
+		<text>Â 1944 ãîäó íà êîíêóðñíûõ èñïûòàíèÿõ âïåð¸ä âûøåë îáðàçåö êîíñòðóêöèè Äåãòÿð¸âà, èçâåñòíûé êàê ÐÄ-44. Ïóëåì¸òû ÐÄ-44 äî êîíöà âîéíû áûëè èçãîòîâëåíû ìàëîé ñåðèåé è ïðîõîäèëè èñïûòàíèÿ â âîéñêàõ. Âñêîðå ïîñëå âîéíû ìîäåðíèçèðîâàííûé âàðèàíò ýòîãî ïóëåì¸òà, àäàïòèðîâàííûé ïîä ñòàâøèé ñòàíäàðòíûì ïàòðîí 7,62x39 ìì, áûë ïðèíÿò íà âîîðóæåíèå Ñîâåòñêîé àðìèè êàê «Ðó÷íîé ïóëåì¸ò ñèñòåìû Äåãòÿð¸âà (ÐÏÄ)».</text>
+	</string>
+  <string id="st_wpn_wincheaster1300">
+		<text>Chaser 13</text>
+  </string>
+  <string id="st_wpn_wincheaster1300_descr">
+		<text>A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anti-corrosion compound.</text>
+  </string>
+ <string id="st_wpn_mine_name">
+    <text>Butterfly mine</text>
+  </string>
+  <string id="st_wpn_mine_descr">
+		<text>The PFM-1 is an anti-personnel mine which became infamous for causing large numbers of civilian casualties. Often referred to as a butterfly mine due to its unusual shape.</text>
+  </string>
+	<string id="st_addons_box">
+		<text>Èíñòðóìåíò «Ñíÿòü ïðèöåë»</text>
+	</string>
+	<string id="st_addons_box_descr">
+		<text>Ñíèìàåò ñ îðóæèÿ íàäåòûé íà íåãî ïðèöåë.</text>
+    </string>
+    <!-- Walther WA 2000 -->
+	<string id="st_wpn_wa2000">
+		<text>Walther WA 2000</text>
+	</string>
+	<string id="st_wpn_wa2000_descr">
+		<text>WA2000 (Walther Automat 2000) - ñíàéïåðñêàÿ âèíòîâêà êîìïîíîâêè áóëë-ïàï,ðàçðàáîòàíà îðóæåéíûì êîíöåðíîì «Walther». Âñåãî áûëî âûïóùåíî 176 âèíòîâîê (îòêóäà Øóñòðûé å¸ äîñòàë - òîò åù¸ âîïðîñ).</text>
+	</string>
+   <string id="st_knife_survival">
+        <text>Íîæ âûæèâàíèÿ</text>
+    </string>
+    <string id="st_knife_survival_descr">
+        <text>Êîðîòêèé íåñêëàäíîé íîæ âûæèâàíèÿ. Åãî ëåãêî ñêðûòü èç-çà íåáîëüøîãî ðàçìåðà. Ðåçèíîâàÿ ðóêîÿòü ïîçâîëÿåò óëó÷øèòü óïðàâëÿåìîñòü.</text>
+    </string>
+    <string id="st_knife_spetsnaz">
+        <text>ÍÐ-2</text>
+    </string>
+    <string id="st_knife_spetsnaz_descr">
+        <text>Íîæ âîåííîãî ïðîèçâîäñòâà åù¸ ñîâåòñêèõ âðåì¸í. Íð-2 ïðåäñòàâëÿåò ñîáîé âàðèàíò ÍÐÑ-2, íî áåç ìåõàíèçìà ñòðåëüáû.</text>
+    </string>
+    <string id="st_knife_tanto">
+        <text>Òàíòî</text>
+    </string>
+    <string id="st_knife_tanto_descr">
+        <text>Ñîâðåìåííûé áîåâîé íîæ â ñòèëå «òàíòî». «Òàíòî» áóêâàëüíî îçíà÷àåò «êîðîòêèé íîæ», ïîÿâèëèñü îíè â ßïîíèè â ôåîäàëüíóþ ýïîõó. Ïðîèñõîæäåíèå ýòîãî íîæà íåèçâåñòíî, êàê è ñòîÿùåå íà í¸ì êëåéìî.</text>
+    </string>
+    <string id="st_knife_colt">
+        <text>Colt 62316</text>
+    </string>
+    <string id="st_knife_colt_descr">
+        <text>Colt 62316 - ýòî àìåðèêàíñêèé âîåííûé øòûê Ì7, ïðåäíàçíà÷åííûé äëÿ êðåïëåíèÿ ê âèíòîâêå èëè äðîáîâèêó. Ïðèíÿòûé íà âîîðóæåíèå â 1964 ãîäó, îí âïåðâûå íà÷àë ñëóæáó â âîéíå âî Âüåòíàìå.</text>
+    </string>
+    <string id="st_knife_extrema">
+        <text>Extrema Ratio MK 2.1</text>
+    </string>
+    <string id="st_knife_extrema_descr">
+        <text>Extrema Ratio MK 2.1 ïðåäñòàâëÿåò ñîáîé ñòàëüíîé íîæ íà áàçå èñòîðè÷åñêîãî USMC Ka-Bar. Ðàçðàáîòàí è ïðîèçâåä¸í äëÿ èòàëüÿíñêèõ âîåííûõ è ñèë ñïåöèàëüíîãî íàçíà÷åíèÿ.</text>
+    </string>
+    <string id="st_knife_hunting">
+        <text>Îõîòíè÷èé íîæ</text>
+    </string>
+    <string id="st_knife_hunting_descr">
+        <text>Ñîâðåìåííûé êàìóôëèðîâàííûé îõîòíè÷èé íîæ. Ïðèìåðíî ïîëäþæèíû çóáöîâ âäîëü âåðõíåé ÷àñòè ëåçâèÿ äåëàåò åãî óäàëåíèå èç ðàíû âåñüìà çàòðóäíèòåëüíûì.</text>
+    </string>
+	<string id="st_addon_scope_1p29_detector">
+		<text>Ïðèöåë ÓÑÏ-1 «Òþëüïàí» (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	</string>
+	<string id="st_addon_scope_1p29_detector_descr">
+		<text>Óíèôèöèðîâàííûé ñòðåëêîâûé ïðèöåë ÓÑÏ-1 ïðåäíàçíà÷åí äëÿ âåäåíèÿ ïðèöåëüíîé ñòðåëüáû èç àâòîìàòà ÀÊ-74Í, ÀÊ-74Ì, ÀÍ-94 è ïóëåìåòîâ ÐÏÊ-74Í è ÏÊÌÍ â ñâåòëîå âðåìÿ ñóòîê è íî÷üþ ïî ñâåòÿùèìñÿ è ïîäñâå÷èâàåìûì öåëÿì. 1Ï29 - èíäåêñ ïðèöåëà ÓÑÏ-1 Ãëàâíîãî àðòèëëåðèéñêîãî óïðàâëåíèÿ ÌÎ ÑÑÑÐ. Ñîçäàí â ðàìêàõ ÎÊÐ «Òþëüïàí», îòêóäà è ïîëó÷èë ñâî¸ íàçâàíèå. (îäíà óñòàíîâêà)</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_detector">
+		<text>Ïðèöåë ÏÑÎ-1Ì2-01 (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_detector_descr">
+		<text>ÏÑÎ-1Ì2-01 - ïðèöåë äëÿ ïðèöåëüíîé ñòðåëüáû èç ñïåöèàëüíîé ñíàéïåðñêîé âèíòîâêè (íàðåçíîé) ÂÑÑ êàëèáðà 9 ìì è ñïåöèàëüíîãî àâòîìàòà ÀÑ êàëèáðà 9 ìì. Ïðèöåëüíûå øêàëû ðàññ÷èòàíû äëÿ ñòðåëüáû îò 100 ì äî 400 ìåòðîâ (øàã 50 ìåòðîâ). Äëÿ ñòðåëüáû â ñóìåðêàõ â ïðèöåëàõ ïðåäóñìîòðåíà ïîäñâåòêà ñåòêè. Â êà÷åñòâå èñòî÷íèêà ïèòàíèÿ â íàñòîÿùåå âðåìÿ âçàìåí àêêóìóëÿòîðà 2ÐÖ63 ïðèìåíÿåòñÿ ñòàíäàðòíàÿ áàòàðåÿ òèïà ÀÀ. (îäíà óñòàíîâêà)</text>
+	</string>
+	<string id="st_addon_scope_acog_detector">
+		<text>Ïðèöåë ACOG (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	</string>
+	<string id="st_addon_scope_acog_detector_descr">
+		<text>4-õ êðàòíûé îïòè÷åñêèé ïðèöåë äëÿ âèíòîâîê ÍÀÒÎ. (îäíà óñòàíîâêà)</text>
+	</string>
+	<string id="st_wpn_m4a1-s">
+		<text>M4A1 "Ñàéðåêñ"</text>
+	</string>
+	<string id="st_wpn_m4a1-s_descr">
+		<text>Ì4À1 ñ èíòåãðèðîâàííûì ãëóøèòåëåì è óíèêàëüíîé ðàñêðàñêîé ïîä íàçâàíèåì "Ñàéðåêñ".</text>
+	</string>
+	<string id="st_wpn_mn91">
+		<text>Âèíòîâêà Ìîñèíà</text>
+	</string>
+	<string id="st_wpn_mn91_descr">
+		<text>Âèíòîâêà Ìîñèíà-Íàãàíà îáð. 1891/30 ãã.- ìàãàçèííàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå Ðîññèéñêîé Èìïåðàòîðñêîé Àðìèè â 1891 ãîäó è èñïîëüçóåìàÿ âîîðóæåííûìè ñèëàìè Ðîññèéñêîé Èìïåðèè, ÑÑÑÐ è ìíîãèõ äðóãèõ ñòðàí. Òåõíèêè íå çàèíòåðåñîâàíû â àïãðåéäå ýòîãî îðóæèÿ.</text>
+        </string>
+	<string id="st_wpn_m4a4_howl">
+		<text>M4A4 "Âîé"</text>
+	</string>
+	<string id="st_wpn_m4a4_howl_descr">
+		<text>Óíèêàëüíàÿ âèíòîâêà Ì4 ñ âðó÷íóþ íàíåñ¸ííûì èçîáðàæåíèåì ñêàëÿùåãîñÿ âîëêà.</text>
+	</string>
+	<string id="st_wpn_trg22">
+		<text>TRG-22</text>
+	</string>
+	<string id="st_wpn_trg22_descr">
+		<text>Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí 7.62õ51, ðàçðàáîòàííàÿ ôèíñêîé êîìïàíèåé SAKO â ã. Ðèéõèìÿêè. Âèíòîâêè ñåðèè Sako TRG îòëè÷àþòñÿ âûñîêîé òî÷íîñòüþ ñòðåëüáû è æèâó÷åñòüþ, è øèðîêî èñïîëüçóþòñÿ ñèëîâûìè ñòðóêòóðàìè åâðîïåéñêèõ ñòðàí.</text>
+	</string>
+  <string id="st_wpn_svd_nimble">
+    <text>Lynx</text>
+  </string>
+
+  <string id="st_wpn_svd_nimble_descr">
+		<text>A hand-assembled version of the SVDm-2 sniper rifle. No different in appearance, it nonetheless provides an ideal combination of accuracy and stopping power.</text>
+  </string>
+	<string id="st_wpn_stg58">
+		<text>StG 58</text>
+	</string>
+
+	<string id="st_wpn_stg58_descr">
+		<text>Sturmgewehr 58 (StG 58) - øòóðìîâàÿ âèíòîâêà FAL, âûïóñêàåìàÿ ïî ëèöåíçèè êîìïàíèåé Steyr-Daimler-Puch è ðàíåå ÿâëÿëàñü ñòàíäàðòíîé âèíòîâêîé àâñòðèéñêîé àðìèè. ßâëÿåòñÿ àäàïòèðîâàííîé ïîä ñòàíäàðòû ÍÀÒÎ âèíòîâêîé FAL è äî ñèõ ïîð èñïîëüçóåòñÿ ÂÑ Àâñòðèè. Âèíòîâêà áûëà âûáðàíà ïî ðåçóëüòàòàì êîíêóðñà 1958 ãîäà, ïîáåäèâ èñïàíñêèé CETME è àìåðèêàíñêèé AR-10.</text>
+	</string>
+	<string id="st_wpn_m60">
+		<text>M60</text>
+	</string>
+
+	<string id="st_wpn_m60_descr">
+		<text>Ðó÷íîé ïóëåì¸ò êàëèáðà 7.62 ñ ëåíòî÷íûì ïèòàíèåì, ðàçðàáîòàííûé â 1975 ãîäó. Ïðèíÿòûé íà âîîðóæåíèå êàæäîãî ïîäðàçäåëåíèÿ àðìèè ÑØÀ, îí ïîÿâèëñÿ è íà ÷¸ðíîì ðûíêå, òàêèì îáðàçîì äîáðàâøèñü è äî Çîíû.</text>
+	</string>
+  <string id="st_wpn_groza_nimble">
+    <text>Storm</text>
+  </string>
+
+  <string id="st_wpn_groza_nimble_descr">
+		<text>An experimental version of an assault rifle and grenade launcher system, a Russian modification of the standard Tunder S14, this weapon was specially designed for units operating in the Zone. Notable for its increased magazine capacity.</text>
+  </string>
+	<string id="st_wpn_groza1_descr">
+		<text>Âàðèàíò ñòðåëêîâî-ãðàíàòîì¸òíîãî êîìïëåêñà ïîä ïàòðîí 7,62x39ìì. Ðàçðàáîòàí äëÿ âîîðóæåíèÿ ïîäðàçäåëåíèé áûñòðîãî ðåàãèðîâàíèÿ. Î÷åíü öåíèì âîåííûìè è ñòàëêåðàìè çà ñïîñîáíîñòü íàä¸æíî ïîðàæàòü çàùèù¸ííîãî áðîíåæèëåòîì èëè ðàñïîëîæåííîãî â óêðûòèè ïðîòèâíèêà.</text>
+	</string>
+	<string id="st_wpn_groza1">
+		<text>ÎÖ-14-1À «Ãðîçà-1»</text>
+	</string>
+	<string id="st_wpn_m14">
+		<text>M14 EBR</text>
+	</string>
+
+	<string id="st_wpn_m14_descr">
+		<text> Mark 14 EBR (Mk 14 Enhanced Battle Rifle, «óëó÷øåííàÿ áîåâàÿ âèíòîâêà») — àìåðèêàíñêàÿ ìàðêñìàíñêàÿ âèíòîâêà, ñîçäàííàÿ ñèëàìè ñïåöèàëüíûõ îïåðàöèé ÂÌÔ ÑØÀ íà îñíîâå âèíòîâêè Ì14. Èñïîëüçóåòñÿ ðÿäîì ñïåöïîäðàçäåëåíèé ÂÌÔ, â òîì ÷èñëå SEAL.Îñíîâíûå îòëè÷èÿ îò M14: íîâàÿ ëîæà (ðàçðàáîòêà êîìïàíèè Smith Enterprises), òåëåñêîïè÷åñêèé ïðèêëàä, ïèñòîëåòíàÿ ðóêîÿòêà, íåñêîëüêî ïëàíîê Ïèêàòèííè è íåêîòîðûå «êîììåð÷åñêèå» êîìïîíåíòû, íàïðèìåð, íîâûé ïðåöèçèîííûé ñòâîë è ãàçîâûé öèëèíäð..</text>
+	</string>
+	<string id="st_wpn_hk417">
+		<text>H&K HK417</text>
+	</string>
+
+	<string id="st_wpn_hk417_descr">
+		<text>HK417 — àâòîìàòè÷åñêàÿ âèíòîâêà êàëèáðà 7,62 ìì, ñîçäàííàÿ íà îñíîâå HK416. Îñîáåííîñòü âèíòîâêè — ìîäóëüíàÿ êîíñòðóêöèÿ, ñõîæàÿ ñ òàêîâîé ó àâòîìàòè÷åñêîé âèíòîâêè M16, íî îòëè÷àþùàÿñÿ ñèñòåìîé ãàçîîòâîäíîé àâòîìàòèêè ñ êîðîòêèì õîäîì ãàçîâîãî ïîðøíÿ, êàê ó HK G36.</text>
+	</string>
+  <string id="st_wpn_vintorez_nimble">
+    <text>Tide</text>
+  </string>
+
+  <string id="st_wpn_vintorez_nimble_descr">
+		<text>A weapon made for military units on the basis of the silent sniper rifle. The rifle has higher stopping power than the Vintar BC, its predecessor, at the expense of its rate of fire, which allows the shooter to eliminate enemy forces one by one without revealing his position.</text>
+  </string>
+	<string id="st_wpn_sks">
+		<text>ÑÊÑ</text>
+	</string>
+	<string id="st_wpn_sks_descr">
+		<text>7,62-ìì ñàìîçàðÿäíûé êàðàáèí Ñèìîíîâà (ÑÊÑ, Èíäåêñ ÃÐÀÓ - 56-À-231, çà ðóáåæîì òàêæå èçâåñòåí êàê ÑÊÑ-45) - ñîâåòñêèé ñàìîçàðÿäíûé êàðàáèí êîíñòðóêöèè Ñåðãåÿ Ñèìîíîâà, ïðèíÿò íà âîîðóæåíèå â 1949 ãîäó.</text>
+	</string>
+	<string id="st_wpn_ak12_762">
+		<text>AK-12 M43</text>
+	</string>
+
+	<string id="st_wpn_ak12_556">
+		<text>AK-12 M44</text>
+	</string>
+
+	<string id="st_wpn_m134">
+		<text>Ìèíèãàí M134</text>
+	</string>
+
+	<string id="st_wpn_m134_descr">
+		<text>Ìíîãîñòâîëüíûé ïóëåì¸ò, ïîëó÷èâøèé èíäåêñ Ì134, ïðîèçâîäèëñÿ êîìïàíèåé Äæåíåðàë Ýëåêòðèê. Âïåðâûå ïðèìåí¸í âî âðåìÿ Âüåòíàìñêîé âîéíû è ïîêàçàë ñâîþ ýôôåêòèâíîñòü. Èñïîëüçóåìûé áîåïðèïàñ — ïàòðîí 7,62 ÍÀÒÎ. Ïðèâîä ïîâîðîòà áëîêà ñòâîëîâ — ýëåêòðè÷åñêèé. Ñêîðîñòðåëüíîñòü ðåãóëèðóåòñÿ ðåîñòàòîì ýëåêòðîïðèâîäà è âàðüèðóåòñÿ îò 3000 äî 6000 âûñòðåëîâ â ìèíóòó.</text>
+	</string>
+	<string id="st_wpn_ace21">
+		<text>Galil ACE-21</text>
+	</string>
+	<string id="st_wpn_ace21_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nGalil ACE - èçðàèëüñêîå ñåìåéñòâî àâòîìàòè÷åñêîãî îðóæèÿ, äàëüíåéøåå ðàçâèòèå àâòîìàòà Galil (â ñâîþ î÷åðåäü ÿâëÿþùåãîñÿ «ïîòîìêîì» àâòîìàòà Êàëàøíèêîâà).</text>
+	</string>
+	<string id="st_wpn_vityaz">
+		<text>ÏÏ-19-01 "Âèòÿçü"</text>
+	</string>
+	<string id="st_wpn_vityaz_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÏÁÑ-1\n \nÂàðèàíò ÏÏ-19 ñ 30-çàðÿäíûì ñåêòîðíûì ìàãàçèíîì ïîä ïàòðîí 9x19 ìì, ðàçðàáîòàí â 2004 ãîäó. Ïðèìåíÿåòñÿ äëÿ âîîðóæåíèÿ ïàòðóëüíî-ïîñòîâûõ ñëóæá, ÃÈÁÄÄ, âíóòðèâåäîìñòâåííîé îõðàíû, è ïîäðàçäåëåíèé ÌÂÄ ÐÔ.</text>
+	</string>
+	<string id="st_wpn_mp412">
+		<text>MP-412 REX</text>
+	</string>
+
+	<string id="st_wpn_mp412_descr">
+		<text>Ðåâîëüâåð ðîññèéñêîãî ïðîèçâîäñòâà ïîä ïàòðîí 0.45 ACP ñ øåñòèçàðÿäíûì áàðàáàíîì è àâòîìàòè÷åñêèì ýæåêòîðîì. Ïðåäíàçíà÷àëñÿ äëÿ ýêñïîðòà (REX – Revolver for Export), îäíàêî â ìàññîâîå ïðîèçâîäñòâî òàê è íå ïîø¸ë. Ðåâîëüâåð áûë ðàçðàáîòàí  â êîíöå 1990-õ íà Èæåâñêîì ìåõàíè÷åñêîì çàâîäå, ðîññèéñêîì îðóæåéíîì ïðåäïðèÿòèè, íà êîòîðîì òàêæå áûë ðàçðàáîòàí è ïðîèçâîäèëñÿ èçâåñòíûé ÏÌ.</text>
+	</string>
+	<string id="st_wpn_fnc">
+		<text>FN FNC</text>
+	</string>
+	<string id="st_wpn_fnc_descr">
+		<text>FN FNC (Fabrique Nationale Carabine - êàðàáèí ôèðìû FN) - áåëüãèéñêèé àâòîìàò, ñîçäàííûé îðóæåéíîé ôèðìîé Fabrique Nationale de Herstal äëÿ çàìåíû óñòàðåâøåé FN FAL, ïîñëå íåóäà÷è ñ ïåðâûì âàðèàíòîì îðóæèÿ ïîä ìàëîèìïóëüñíûé ïàòðîí êàëèáðà 5,56 ìì ÍÀÒÎ FN CAL.</text>
+	</string>
+	<string id="st_wpn_mtar21">
+		<text>MTAR-21</text>
+	</string>
+	<string id="st_wpn_mtar21_descr">
+		<text>MTAR-21 - êàðàáèí ñ êîìïîíîâêîé "áóëë-ïàï" ÿâëÿåòñÿ óëüòðà-êîìïàêòíîé âåðñèåé ñòàíäàðòíîé âèíòîâêè èçðàèëüñêîé àðìèè TAR-21. Îáëàäàåò âåëèêîëåïíîé ýðãîíîìèêîé è ëåãîê â îáðàùåíèè, áëàãîäàðÿ äëèíå âñåãî â 590 ìì. Ïðåäíàçíà÷åí äëÿ èñïîëüçîâàíèÿ â óñëîâèÿõ ãîðîäñêîãî áîÿ, êîãäà ñòàíäàðòíàÿ âèíòîâêà ñëèøêîì ãðîìîçäêà.</text>
+	</string>
+	<string id="st_wpn_ppsh41">
+		<text>ÏÏØ-41</text>
+	</string>
+	<string id="st_wpn_ppsh41_descr">
+		<text>7,62-ìì ïèñòîëåò-ïóëåì¸ò îáðàçöà 1941 ãîäà ñèñòåìû Øïàãèíà (ÏÏØ) - ñîâåòñêèé ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé â 1940 ãîäó êîíñòðóêòîðîì Ã. Ñ. Øïàãèíûì ïîä ïàòðîí 7,62x25 ìì ÒÒ è ïðèíÿòûé íà âîîðóæåíèå Êðàñíîé Àðìèè 21 äåêàáðÿ 1940 ãîäà. ÏÏØ íàðÿäó ñ ÏÏÑ-43 ÿâëÿëñÿ îñíîâíûì ïèñòîëåòîì-ïóëåì¸òîì ñîâåòñêèõ âîîðóæ¸ííûõ ñèë â Âåëèêîé Îòå÷åñòâåííîé âîéíå.</text>
+	</string>
+	<string id="st_wpn_toz34_nimble">
+		<text>ÒÎÇ-34 "Îõîòíèê" </text>
+	</string>
+	<string id="st_wpn_toz34_nimble_descr">
+		<text>Óíèêàëüíûé ÒÎÇ-34 Ãîíòû ñ ïðèöåëîì Leupold Mark äëÿ ñòðåëüáû íà äàëüíèõ ðàññòîÿíèÿõ.</text>
+	</string>
+	<string id="st_wpn_trg42">
+		<text>TRG-42</text>
+	</string>
+
+	<string id="st_wpn_trg42_descr">
+		<text> Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí .338 Lapua, ðàçðàáîòàííàÿ ôèíñêîé êîìïàíèåé SAKO â ã. Ðèéõèìÿêè. Âèíòîâêè ñåðèè Sako TRG îòëè÷àþòñÿ âûñîêîé òî÷íîñòüþ ñòðåëüáû è æèâó÷åñòüþ, è øèðîêî èñïîëüçóþòñÿ ñèëîâûìè ñòðóêòóðàìè åâðîïåéñêèõ ñòðàí.</text>
+	</string>
+	<string id="st_wpn_l115a3">
+		<text>L115A3</text>
+	</string>
+
+    <string id="st_wpn_l115a3_descr">
+       <text> Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí .338 Lapua. Ïåðâûå ýêçåìïëÿðû ñíàéïåðñêîé âèíòîâêè L115 íà÷àëè ïîñòóïàòü â áðèòàíñêóþ àðìèþ â íà÷àëå 2008 ã. Òèõèé, ïðàêòè÷åñêè íåñëûøíûé âûñòðåë è îãðîìíàÿ äàëüíîñòü ïðèöåëüíîãî âûñòðåëà äåëàþò ýòó âèíòîâêó ïî÷òè èäåàëüíûì ñíàéïåðñêèì îðóæèåì. Ýôôåêòèâíàÿ äàëüíîñòü L115A3 ñîñòàâëÿåò 1400 ìåòðîâ. Òàêîé ïðèðîñò äàëüíîñòè ñòðåëüáû îáîñíîâàë âûáîð 25-êðàòíîãî îïòè÷åñêîãî ïðèöåëà "Schmidt & Bender" âìåñòî 12-êðàòíîãî ïðèöåëà, óñòàíàâëèâàåìîãî íà âèíòîâêàõ L96. Â äàííîé êîíôèãóðàöèè ñïîñîáíà óíè÷òîæèòü öåëü îäíèì âûñòðåëîì â ëþáóþ òåìïåðàòóðó è äàæå ñ çàãðÿçíåííûì ñòâîëîì.</text>
+                </string>
+	<string id="st_wpn_mp7">
+		<text>H&K MP-7</text>
+	</string>
+
+	<string id="st_wpn_mp7_descr">
+		<text>Ïèñòîëåò-ïóëåìåò ÌÐ-7 PDW (Ïåðñîíàëüíîå Îðóæèå Ñàìîîáîðîíû), ðàçðàáîòàí ôèðìîé «Heckler & Koch» äëÿ âîîðóæåíèÿ âîåííîñëóæàùèõ, êîòîðûì ïî øòàòó íå ïîëîæåí ïîëíîöåííûé àâòîìàò. Ïî ñòàòèñòèêå, ïðèâîäèìîé ôèðìîé H&K, ýôôåêòèâíîñòü MP7 â äâà ñ ïîëîâèíîé ðàçà âûøå, ÷åì ó MP5K êàëèáðà 9õ19 ìì ïî öåëÿì â áðîíåæèëåòàõ, ïðè âäâîå ìåíüøåé îòäà÷å. </text>
+	</string>
+	<string id="st_addon_scope_pu">
+		<text>Ïðèöåë ÏÓ</text>
+	</string>
+	<string id="st_addon_scope_pus">
+		<text>ÏÓ</text>
+	</string>
+	<string id="st_addon_scope_pu_descr">
+		<text>ÏÓ (îò Ïðèöåë Óêîðî÷åííûé) - ñîâåòñêèé îïòè÷åñêèé ïðèöåë, èçíà÷àëüíî ñîçäàííûé â 1940 ãîäó.</text>
+	</string>
+	<string id="st_wpn_aek973">
+		<text>ÀÅÊ-973</text>
+	</string>
+	<string id="st_wpn_aek973_descr">
+		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1\n \n\n%c[255,1,255,255]•%c[default] ïîäñòâîëüíûé ãðàíàòîì¸ò ÃÏ-25\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÒÃÏ-À\n \nÀâòîìàò âûïîëíåí ïî òðàäèöèîííîé êîìïîíîâî÷íîé ñõåìå (ïåðåäíåå ïîëîæåíèå ìàãàçèíà) è êîíñòðóêòèâíî â çíà÷èòåëüíîé ìåðå ïîâòîðÿåò àâòîìàò Êàëàøíèêîâà - èñïîëüçóåòñÿ ïîâîðîòíûé çàòâîð è àâòîìàòèêà ïåðåçàðÿäêè íà îñíîâå ãàçîâîãî äâèãàòåëÿ. Àâòîìàò ñïðîåêòèðîâàí ïîä ïàòðîíû êàëèáðîì 7,62x39 ìì, èìåþòñÿ òàêæå âàðèàíòû äàííîãî àâòîìàòà ïîä ïàòðîí 5,56 ìì ÍÀÒÎ (ÀÅÊ-972) è 5,45x39 ìì (ÀÅÊ-971).</text>
+	</string>
+	
+	<!-- Îòîáðàæåíèå êàëèáðà îðóæèÿ -->
+	
+	<string id="st_9x39">
+		<text>9x39</text>
+	</string>
+	<string id="st_5x45">
+		<text>545x39</text>
+	</string>
+	<string id="st_5x56">
+		<text>556x45 NATO</text>
+	</string>
+	<string id="st_12g">
+		<text>12g</text>
+	</string>
+	<string id="st_762x51">
+		<text>762x51</text>
+	</string>
+	<string id="st_762x54">
+		<text>762x54R</text>
+	</string>
+	<string id="st_9x19">
+		<text>9x19 PARA</text>
+	</string>
+	<string id="st_9x18">
+		<text>9x18 PM</text>
+	</string>
+	<string id="st_762x39">
+		<text>762x39</text>
+	</string>
+	<string id="st_762x25">
+		<text>762x25</text>
+	</string>
+	<string id="st_43x23">
+		<text>43x23 HYDRA</text>
+	</string>
+  <string id="st_addon_scope_detector_descr">
+		<text>A 4x fixed zoom optical scope with a built-in heat visor used to identify heat sources typical of the human body. Designed for use by special forces. Attached to weapons by means of a dovetail mount.</text>
+  </string>
+ <string id="st_addon_scope_x2.7">
+		<text>PSU-1 scope</text>
+  </string>
+  <string id="st_addon_scope_x2.7_descr">
+		<text>A 2.7x optical scope for urban combat at medium range. Attached to weapons by means of a dovetail mount.</text>
+  </string>
+ 
+  <string id="st_wpn_desert_eagle_nimble">
+		<text>Steppe Eagle</text>
+  </string>
+  <string id="st_wpn_desert_eagle_nimble_descr">
+		<text>A hand-made pistol based on the Black Kite design. The components are finely tuned to achieve incredible accuracy for a handgun of this type.</text>
+  </string>
+  <string id="st_wpn_eagle">
+		<text>Black Kite</text>
+  </string>
+
+   <string id="st_wpn_mp5_nimble">
+		<text>Frasier</text>
+  </string>
+  <string id="st_wpn_mp5_nimble_descr">
+		<text>A submachine gun prototype based on the excellent Viper 5 model. Designed as a next generation close quarter combat weapon, it benefits from a higher calibre, rate of fire and accuracy.</text>
+  </string>
+ <string id="st_wpn_pkm_zulus">
+		<text>Zulu's RP-74</text>
+  </string>
+  <string id="st_wpn_pkm_zulus_descr">
+		<text>This weapon was previously owned by Zulu. Its special features include an enlarged ammo box and a particularly reliable retracting mechanism design. The modifications meant an increase in the weapon's weight, but that wasn't a problem for the last owner.</text>
+  </string>
+  <string id="st_wpn_pm_actor">
+		<text>Honorary PMm</text>
+  </string>
+  <string id="st_wpn_pm_actor_descr">
+		<text>An ancient PMm received by Degtyarev as a reward for "Successful execution of highly dangerous state orders, as well as valour and courage shown in the line of duty."</text>
+  </string>
+
+  <string id="st_wpn_rp">
+		<text>RP-74</text>
+  </string>
+  <string id="st_wpn_rp_descr">
+		<text>This belt-fed machine gun is a portable modification with a complex two-stage feeding system. Despite its weight and low precision, this LMG has found admirers in the Zone. Used primarily to fight off outnumbering enemy forces during faction conflicts and clear out mutant lairs.</text>
+  </string>
+ <string id="st_wpn_sig220_nimble">
+		<text>Alpine</text>
+  </string>
+  <string id="st_wpn_sig220_nimble_descr">
+		<text>A unique model of the SIP-t M200 handgun. Part of a small limited edition made for an unidentified special forces unit. The model benefits from an increased magazine capacity, a high durability steel barrel and an ultra-durable polymer receiver.</text>
+  </string>
+
+
+	<string id="st_wpn_spas12_m2">
+		<text>SPSA-AUT</text>
+	</string>
+	<string id="st_wpn_spas12_m2_descr">
+		<text>The SPSA-AUT self-cocking shotgun is made only in Duty workshops. This weapon is intended for fighting large groups of mutants. Its improved feeding mechanism ensures a high rate of fire and the magazine capacity has been increased to 10 rounds. Uses 12x70 calibre rounds.</text>
+  </string>
+  <string id="st_wpn_spas12_nimble">
+    <text>Carabineer</text>
+  </string>
+  <string id="st_wpn_spas12_nimble_descr">
+		<text>An army shotgun designed specifically for assault units on the basis of the SPSA-14. Capable of automatic fire like its predecessor, but provides better recoil compensation thanks to a balanced shock free system.</text>
+  </string>
+
+  <string id="st_wpn_svu_nimble">
+    <text>SVU2-A</text>
+  </string>
+  <string id="st_wpn_svu_nimble_descr">
+		<text>This shortened sniper rifle with an increase rate of fire is the next step in the evolution of the SVUmk-2 sniper rifle. This weapon used to belong to Max, the legendary guardian of Freedom.</text>
+  </string>
+  <string id="st_wpn_usp_nimble">
+    <text>March</text>
+  </string>
+  <string id="st_wpn_usp_nimble_descr">
+		<text>A compact, large calibre pistol with short bolt movement and lightweight bolt assembly. Used to belong to a mercenary called Wolfhound. Appears to be a modified UDP Compact pistol.</text>
+  </string>
+  <string id="st_wpn_wincheaster1300_trapper">
+    <text>Predator</text>
+  </string>
+  <string id="st_wpn_wincheaster1300_trapper_descr">
+		<text>A tailor-made pump-action shotgun which used to belong to Trapper. The hunter's only requirement in respect of his weapon was that it needed to kill predators in one shot. This philosophy was based on the belief that no matter how many people an animal had killed, it was still just an animal, and thus should not suffer.</text>
+  </string>
+ <string id="st_wpn_abakan_descr">
+		<text>A modern assault rifle developed as a replacement for the ageing AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armour piercing capability.</text>
+  </string>
+ <string id="st_addon_scope_detector">
+		<text>PSS-2x scope</text>
+	</string>
+</string_table>

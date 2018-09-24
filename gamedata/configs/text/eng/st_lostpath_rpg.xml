@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="lp_no_strong_and_vospr">
+		<text>Ваших знаний и силы недостаточно для ношения данного костюма.</text>
+	</string>
+	
+	<string id="lp_no_repair_weapon">
+		<text>Для использования необходим навык "Оружейник I"</text>
+	</string>
+	
+	<string id="lp_no_repair_outfit">
+		<text>Для использования необходим навык "Кузнец I"</text>
+	</string>
+	
+	<string id="lp_no_perk_21">
+		<text>Для использования необходим навык "Фанат больших пушек I"</text>
+	</string>
+	
+	<string id="lp_no_perk_22">
+		<text>Для использования необходим навык "Фанат больших пушек II"</text>
+	</string>
+	
+	<string id="lp_no_perk_23">
+		<text>Для использования необходим навык "Снайпер"</text>
+	</string>
+	
+	<string id="lp_no_perk_24">
+		<text>Для использования необходим навык "Хладнокровный убийца"</text>
+	</string>
+	
+	<string id="lp_no_perk_25">
+		<text>Для использования необходим навык "Силовая подготовка"</text>
+	</string>
+</string_table>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_about_actor_no_sleep_text">
+		<text>К сожалению сейчас уснуть невозможно. Обычное время сна: с 21:00 до 6:00</text>
+	</string>
+	<string id="st_sleeping_bag_title">
+		<text>«Спальной мешок»</text>
+	</string>
+	<string id="st_sleeping_bag_descr">
+		<text>Непромокаемый, хорошо утепленный спальный мешок. Обработан специальным составом, отпугивающим мутантов.</text>
+	</string>
+	<string id="st_repair_arms_box_descr">
+		<text>Специальный набор инструментов и материалов предназначенный для ремонта оружия.</text>
+	</string>
+	<string id="st_repair_arms_box_title">
+		<text>Ремкомплект для оружия</text>
+	</string>
+	<string id="st_repair_arms_box_used_descr">
+		<text>Однажды уже использованный набор с инструментами. Предназначен для ремонта оружия, однако тех деталей, что в нем есть, недостаточно для полноценного ремонта. Применяется лишь для ремонта оружия с помощью оружия-донора.</text>
+	</string>
+	<string id="st_repair_arms_box_used_title">
+		<text>Ремкомплект для оружия (использ.)</text>
+	</string>
+	<string id="st_repair_outfit_box_descr">
+		<text>Специальный набор инструментов и материалов предназначенный для ремонта бронекостюма.</text>
+	</string>
+	<string id="st_repair_outfit_box_title">
+		<text>Ремкомплект для брони</text>
+	</string>
+	<string id="st_repair_outfit_box_used_descr">
+		<text>Однажды уже использованный набор с инструментами. Предназначен для ремонта бронекостюмов, однако тех деталей, что в нем есть, не достаточно для полноценного ремонта. Применяется лишь для ремонта бронекостюмов с помощью брони-донора.</text>
+	</string>
+	<string id="st_repair_outfit_box_used_title">
+		<text>Ремкомплект для бронекостюмов (использ.)</text>
+	</string>
+	<string id="st_player_descr">
+		<text>Обычная модель mp-3 плеера специально модифицирована для условий Зоны, с поддержкой загрузки музыки через сталкерскую сеть. Работает на встроенной частице артефакта "Батарейка". Широкой популярности у сталкеров не приобрёл, но когда нет гитары, сойдёт и он.</text>
+	</string>
+	<string id="st_player">
+		<text>Плеер</text>
+	</string>
+	
+	<!--Окно МП-3 плеера-->
+	<string id="st_mp3_new_content_descr">
+		<text>В МП-3 плеер был загружен новый трек.</text>
+	</string>
+	<string id="st_mp3_new_content_title">
+		<text>Получен бонус-трек:</text>
+	</string>
+	<string id="st_mp3_player_merry">
+		<text>Веселая</text>
+	</string>
+	<string id="st_mp3_player_dance">
+		<text>Клубная</text>
+	</string>
+	<string id="st_mp3_player_themes">
+		<text>Саундтреки</text>
+	</string>
+	<string id="st_mp3_player_stalker">
+		<text>Другая</text>
+	</string>
+	<string id="st_mp3_player_bonuses">
+		<text>Бонусы</text>
+	</string>
+	<string id="st_mp3_player_set_play">
+		<text>Воспроизвести</text>
+	</string>
+	<string id="st_mp3_player_set_stop">
+		<text>Остановить</text>
+	</string>
+	<string id="st_minus_volume_hint">
+		<text>Уменьшить громкость</text>
+	</string>
+	<string id="st_plus_volume_hint">
+		<text>Увеличить громкость</text>
+	</string>
+	<string id="st_repeat_track_hint">
+		<text>Повторять один трек</text>
+	</string>
+	<string id="st_queue_track_hint">
+		<text>Воспроизводить каждый трек по очереди</text>
+	</string>
+	
+	<!--Окно ремкомплектов-->
+	<string id="st_no_donor_repair">
+		<text>Предмет не удалось отремонировать,\n потому как у вас нет соответствующего донора.</text>
+	</string>
+	<string id="st_no_repair_title">
+		<text>Сбой ремонта:</text>
+	</string>
+	<string id="st_no_repair">
+		<text>Предмет не удалось отремонировать,\n потому как его нет в слоте.</text>
+	</string>
+	<string id="st_repair_items">
+		<text>Отремонтировать</text>
+	</string>
+	<string id="st_menu_close">
+		<text>Закрыть</text>
+	</string>
+	<string id="st_choose_weapon_repair_text">
+		<text>Как произвести ремонт: Отремонтировать оружие в слоте, использовав детали оружия такого же типа? Отремонтировать оружие, используя только ремкомплект?</text>
+	</string>
+	<string id="st_choose_weapon_repair_button1">
+		<text>Используя детали.</text>
+	</string>
+	<string id="st_choose_weapon_repair_button2">
+		<text>Только ремкомплект.</text>
+	</string>
+	<string id="st_choose_outfit_repair_text">
+		<text>Как произвести ремонт: Отремонтировать надетую броню, использовав детали брони такого же типа? Использовать только ремкомплект?</text>
+	</string>
+	<string id="st_choose_outfit_repair_button1">
+		<text>Используя детали.</text>
+	</string>
+	<string id="st_choose_outfit_repair_button2">
+		<text>Только ремкомплект.</text>
+	</string>
+	<string id="st_only_weapon_donor_repair_text">
+		<text>Данный ремкомплект может ремонтировать лишь с помощью деталей оружия-донора, если таковое у вас есть. Что вы хотите сделать?</text>
+	</string>
+	<string id="st_only_weapon_donor_repair_button1">
+		<text>Используя детали.</text>
+	</string>
+	<string id="st_only_weapon_donor_repair_button2">
+		<text>Не ремонтировать.</text>
+	</string>
+	<string id="st_only_outfit_donor_repair_text">
+		<text>Данный ремкомплект может ремонтировать лишь с помощью бронекостюма-донора, если таковой у вас есть. Что вы хотите сделать?</text>
+	</string>
+	<string id="st_only_outfit_donor_repair_button1">
+		<text>Использовать донора.</text>
+	</string>
+	<string id="st_only_outfit_donor_repair_button2">
+		<text>Не ремонтировать.</text>
+	</string>
+	<string id="st_repair_title">
+		<text>Отремонтирован предмет:</text>
+	</string>
+	<string id="st_repair_cond">
+		<text>НП=</text>
+	</string>
+	<string id="st_about_actor_no_explosive_charge_text">
+		<text>Невозможно установть заряд взрывчатки без неактивированного пульта дистанционного взрыва или установить более одного заряда вследствии технических ограничений.</text>
+	</string>
+	<string id="st_about_actor_no_explosive_control_text">
+		<text>Невозможно взорвать установленный заряд без батареи питания.</text>
+	</string>
+	<string id="st_voda">
+		<text>Минеральная вода</text>
+	</string>
+	<string id="st_voda_descr">
+		<text>Минеральная вода - отличный способ вывести радионуклиды без вреда здоровью, но сталкеры обычно пьют водку.</text>
+	</string>
+	<string id="st_remote_explosive_charge">
+		<text>Заряд взрывчатки</text>
+	</string>
+	<string id="st_remote_explosive_charge_descr">
+		<text>Заряд взрывчатки, для установки нужен неактивированный пульт дистанционного взрыва. В момент установки ДУ и заряд настраиваются на одну частоту. Установить два заряда используя один пулть невозможно, также нерекомендуется устанавливать два заряда одновременно.</text>
+	</string>
+	<string id="st_ammo_remote_explosive_charge">
+		<text>ДУ неактивированное</text>
+	</string>
+	<string id="st_ammo_remote_explosive_charge_descr">
+		<text>Устройство дистанционного взрыва - неактивированное. Используйте при установке заряда взрывчатки.</text>
+	</string>
+	<string id="st_remote_explosive_control">
+		<text>ДУ активированное</text>
+	</string>
+	<string id="st_remote_explosive_control_descr">
+		<text>Устройство дистанционного взрыва - активированное. Уже настроено на установленное взрывное устройство, просто нажмите кнопку для подрыва. Для работы требуется батарея.</text>
+	</string>
+	<string id="st_ammo_remote_explosive_control">
+		<text>Батарея для ДУ</text>
+	</string>
+	<string id="st_ammo_remote_explosive_control_descr">
+		<text>Специалая батарея для устройства дистанционного взрыва.</text>
+	</string>
+	
+	
+</string_table>

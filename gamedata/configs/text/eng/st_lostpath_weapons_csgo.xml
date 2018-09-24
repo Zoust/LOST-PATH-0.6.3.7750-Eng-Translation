@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_wpn_awp_asiimov">
+		<text>AWP «Азимов»</text>
+	</string>
+	<string id="st_wpn_awp_asiimov_descr">
+		<text>Рисунок в стиле хай-тек под названием «Азимов»</text>
+	</string>
+	<string id="st_wpn_awp_dragon_lore">
+		<text>AWP «История о Драконе»</text>
+	</string>
+	<string id="st_wpn_awp_dragon_lore_descr">
+		<text>Рисунок в стиле древне китайского дракона под названием «Dragon Lore»</text>
+	</string>
+	<string id="st_wpn_awp_hyper_beast">
+		<text>AWP «Скоростной зверь»</text>
+	</string>
+	<string id="st_wpn_awp_hyper_beast_descr">
+		<text>Рисунок чудовища под названием «Скоростной зверь»</text>
+	</string>
+	<string id="st_wpn_awp_lightning_strike">
+		<text>AWP «Удар молнии»</text>
+	</string>
+	<string id="st_wpn_awp_lightning_strike_descr">
+		<text>Рисунок молнии вдоль всего корпуса под названием «Удар молнии»</text>
+	</string>
+	<string id="st_wpn_awp_medusa">
+		<text>AWP «Медуза»</text>
+	</string>
+	<string id="st_wpn_awp_medusa_descr">
+		<text>Рисунок медузы, похожей на логотип «Versace»</text>
+	</string>
+	<string id="st_wpn_ak127">
+		<text>АК 47</text>
+	</string>
+	<string id="st_wpn_ak127_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Старый потертый АК-47\n Встречается в Зоне с обновленным внешним видом и техническими доработками: \n \n\n%c[255,1,255,255]•%c[default] Аквамариновая Месть (Сталкеры): Увеличенный магазин на 5 патрон, увеличенный урон и калибр: 5.56х45\n \n\n%c[255,1,255,255]•%c[default] Картель (Бандиты): Смена калибра на 5.45х39 \n \n\n%c[255,1,255,255]•%c[default] Элитное снаряжение (Долг): Смена калибра на 9х39, увеличенный урон  \n \n\n%c[255,1,255,255]•%c[default] Изумрудные завитки (Бандиты) \n \n\n%c[255,1,255,255]•%c[default] Огненный змей (Чистое небо): увеличенный магазин на 15 патрон, увеличенный урон, смена калибра на 5.45х39 \n \n\n%c[255,1,255,255]•%c[default] Снежный вихрь (Чистое небо):  увеличенный магазин на 10 патрон, увеличенный урон, смена калибра на 9х39\n \n\n%c[255,1,255,255]•%c[default] Ягуар (Монолит): увеличенный урон, увеличенный магазин на 15 патрон \n \n\n%c[255,1,255,255]•%c[default] Красная линия (Долг): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 9х39 \n \n\n%c[255,1,255,255]•%c[default] Вулкан (Свобода): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 5.56х45  \n \n\n%c[255,1,255,255]•%c[default] Пустынный повстанец (Наемники): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 9х39</text>
+	</string>
+	<string id="st_wpn_ak127_aquamarinerevenge">
+		<text>АК 47 «Аквамариновая месть»</text>
+	</string>
+	<string id="st_wpn_ak127_aquamarinerevenge_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Аквамариновая месть»\n%c[255,1,255,255]•%c[default] Увеличен магазин на 5 патрон  \n%c[255,1,255,255]•%c[default] увеличенный урон на 6,66%  \n%c[255,1,255,255]•%c[default] Смена калибра на 5.56х45</text>
+	</string>
+	<string id="st_wpn_ak127_cartel">
+		<text>АК 47 «Картель»</text>
+	</string>
+	<string id="st_wpn_ak127_cartel_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Картель»\n%c[255,1,255,255]•%c[default] Смена калибра на 5.45х39</text>
+	</string>
+	<string id="st_wpn_ak127_elitebuild">
+		<text>АК 47 «Элитное снаряжение»</text>
+	</string>
+	<string id="st_wpn_ak127_elitebuild_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Элитное снаряжение»\n \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39 \n%c[255,1,255,255]•%c[default] Увеличенный урон на 10%</text>
+	</string>
+	<string id="st_wpn_ak127_emeraldpinstripe">
+		<text>АК 47 «Изумрудные завитки»</text>
+	</string>
+	<string id="st_wpn_ak127_emeraldpinstripe_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Еще дед с этим оружием воевал. У сталкеров получил кличку «Изумрудные завитки» за рисунок на прикладе\n</text>
+	</string>
+	<string id="st_wpn_ak127_fireserpent">
+		<text>АК 47 «Огненный змей»</text>
+	</string>
+	<string id="st_wpn_ak127_fireserpent_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Огненный змей»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 5% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 5.45х39</text>
+	</string>
+	<string id="st_wpn_ak127_frontsidemisty">
+		<text>АК 47 «Снежный вихрь»</text>
+	</string>
+	<string id="st_wpn_ak127_frontsidemisty_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Снежный вихрь»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 10 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+	</string>
+	<string id="st_wpn_ak127_jaguar">
+		<text>АК 47 «Ягуар»</text>
+	</string>
+	<string id="st_wpn_ak127_jaguar_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Ягуар»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон</text>
+	</string>
+	<string id="st_wpn_ak127_redline">
+		<text>АК 47 «Красная линия»</text>
+	</string>
+	<string id="st_wpn_ak127_redline_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Красная линия»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 20% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+	</string>
+	<string id="st_wpn_ak127_vulcan">
+		<text>АК 47 «Вулкан»</text>
+	</string>
+	<string id="st_wpn_ak127_vulcan_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Вулкан»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+	</string>
+	<string id="st_wpn_ak127_wastelandrebel">
+		<text>АК 47 «Пустынный повстанец»</text>
+	</string>
+	<string id="st_wpn_ak127_wastelandrebel_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Пустынный повстанец»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 20% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+	</string>
+	<string id="st_wpn_m4a4_asiimov">
+		<text>M4A4 "Азимов"</text>
+	</string>
+	<string id="st_wpn_m4a4_asiimov_descr">
+		<text>Уникальная винтовка М4 с вручную нанесённым изображением в стиле hi-tech под названием "Азимов".</text>
+	</string>
+	<string id="st_wpn_m4a4_desert_strike">
+		<text>M4A4 "Пустынная атака"</text>
+	</string>
+	<string id="st_wpn_m4a4_desert_strike_descr">
+		<text>Редкая винтовка М4 с вручную нанесённым изображением под названием "Пустынная атака". Используется специальными отрядами наемников и свободы.</text>
+	</string>
+	<string id="st_wpn_m4a4_dragonking">
+		<text>M4A4 "Король драконов"</text>
+	</string>
+	<string id="st_wpn_m4a4_dragonking_descr">
+		<text>Уникальная винтовка М4 с вручную нанесённым изображением китайского дракона.</text>
+	</string>
+	<string id="st_wpn_m4a4_griffin">
+		<text>M4A4 "Гриффин"</text>
+	</string>
+	<string id="st_wpn_m4a4_griffin_descr">
+		<text>Редкая винтовка М4 с вручную нанесённым изображением под названием "Пустынная атака". Используется специальными отрядами наемников и свободы.</text>
+	</string>
+</string_table>	

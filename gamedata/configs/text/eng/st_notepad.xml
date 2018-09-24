@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+<!-- Кнопки -->
+<string id="pda_btn_rpg">
+	<text>Прокачка</text>
+</string>
+<string id="pda_btn_1">
+	<text>Ещё вкладка</text>
+</string>
+<string id="pda_btn_2">
+	<text>И ещё вкладка</text>
+</string>
+<string id="ui_pda_ostalos">
+	<text>Оставшиеся очки умений:</text>
+</string>
+
+<string id="ui_pda_name_1">
+	<text>Умение 1:</text>
+</string>
+<string id="ui_pda_name_2">
+	<text>Умение 2:</text>
+</string>
+<string id="ui_pda_name_3">
+	<text>Умение 3:</text>
+</string>
+<string id="ui_pda_name_4">
+	<text>Умение 4:</text>
+</string>
+<string id="ui_pda_name_5">
+	<text>Умение 5:</text>
+</string>
+
+<string id="ui_pda_desc_1">
+	<text>Описание 1:</text>
+</string>
+<string id="ui_pda_desc_2">
+	<text>Описание 2:</text>
+</string>
+<string id="ui_pda_desc_3">
+	<text>Описание 3:</text>
+</string>
+<string id="ui_pda_desc_4">
+	<text>Описание 4:</text>
+</string>
+<string id="ui_pda_desc_5">
+	<text>Описание 5:</text>
+</string>
+
+
+<string id="pda_btn_factions">
+<text>Grouping</text>
+</string>
+<string id="pda_btn_factions_hint">
+<text>Statistics groups.</text>
+</string>
+
+<string id="Next">
+<text>Forward</text>
+</string>
+<string id="Back">
+<text>Ago</text>
+</string>
+
+
+
+<string id="pda_mesto">
+<text>Location:</text>
+</string>
+<string id="pda_points">
+<text>the Power of groups:</text>
+</string>
+<string id="pda_base">
+<text>Number of databases:</text>
+</string>
+<string id="pda_res">
+<text>resource Points:</text>
+</string>
+<string id="pda_last">
+<text>clan Members</text>
+</string>
+<string id="pda_friend">
+<text>Attitude:</text>
+</string>
+<string id="pda_friend_1">
+<text>Friends</text>
+</string>
+<string id="pda_friend_2">
+<text>Enemies</text>
+</string>
+<string id="pda_friend_3">
+<text>Neutral</text>
+</string>
+
+
+</string_table>

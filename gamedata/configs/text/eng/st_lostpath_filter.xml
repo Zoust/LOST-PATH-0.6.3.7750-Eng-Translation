@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	
+	
+	
+<string id="filter_descr">
+<text>In many emergency situations require masks because they allow you to clean your air. Does this function filter. As over time it can not efficiently clear the air, it needs to be replaced. Devices help in emergency situations. One filter lasts about 5 minutes.</text>
+</string>
+
+<string id="filter_name">
+<text>a filter for the gas mask</text>
+</string>
+
+<string id="battery">
+<text>the Accumulator to servo</text>
+</string>
+
+<string id="battery_descr">
+ <text>This source is used to operate the servo. Is a battery with a high energy level. Completely discharging the batteries need to be replaced.</text>
+</string>
+
+<string id="batteries_cell">
+<text>Batteries "AAA"</text>
+</string>
+<string id="batteries_cell_descr">
+<text>Small batteries type "AAA" or in use three. Necessary for the operation of electronic devices in the Area. Also they can be used to charge a depleted PDA.</text>
+</string>
+
+<string id="st_helm_battle_filter">
+<text>a Helmet "Sphere M12" (filter)</text>
+</string>
+
+ <string id="st_helm_battle_dolg_filter">
+<text>a Helmet "Sphere M12 Debt-M" (filter)</text>
+</string>
+
+<string id="st_helm_protective_filter">
+<text>Helmet "Barrier" (with filter)</text>
+</string>
+
+<string id="st_helm_respirator_filter">
+<text>a gas Mask EO-20 PBF (with filter)</text>
+</string>
+
+<string id="st_helm_tactic_filter">
+<text>Tactical helmet "Sphere 08" (filter)</text>
+</string>
+
+<string id="st_helm_m40_filter">
+<text>the M40 gas Mask (with filter)</text>
+</string>
+
+<string id="st_helm_tactic_2_filter">
+<text>Helmet M12 Tactical (with filter)</text>
+</string>
+
+<string id="st_helm_respirator_half_filter">
+<text>dust mask (with filter)</text>
+</string>
+
+<string id="st_helm_respirator_gp5_filter">
+<text>GP-5 (filter)</text>
+</string>
+
+<string id="st_helm_exo_filter">
+<text>Heavy battle helmet (with filter)</text>
+</string>
+</string_table>

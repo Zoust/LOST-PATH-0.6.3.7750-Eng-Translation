@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< TEXT  STRINGS FOR TASKS ON PRIPYAT MAP
+<	CoC 1.3.11
+<
+<	Modified by: DoctorX
+<	March 17, 2016
+<
+<===========================================================-->
+
+<string_table>
+
+
+	<!-- ASSAULT TERRITORY FOR MONOLITH TASK -->
+<string id="pri_monolith_monolith_trader_stalker_task_1_name">
+<text>to Destroy the enemies of the Monolith</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_1_text">
+<text>Necessary to suppress the territorial threat in this zone.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_1_about">
+<text>I Have important mission for you, brother. You must destroy the camp of the infidels, so that our brothers could have a better foothold in this place. Are you ready?</text>
+</string>
+ <string id="pri_monolith_monolith_trader_stalker_task_1_finish">
+<text>Task is completed? Well. Monolith appreciate good work.</text>
+</string>
+
+
+
+<!-- ASSASSINATION FOR MONOLITH TASK -->
+<string id="pri_monolith_monolith_trader_stalker_task_2_name">
+<text>to Kill the infidel</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_2_text">
+<text>Stalker, want to turn off the Brain Burner. Kill him.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_2_about">
+ <text>Brother, did you hear that recently got some bad antennas? They wanted to turn off the Burner. The monolith has sent us brothers and in time they noticed. Now they're dead. The monolith is wise and omniscient. I recently learned about another Stalker who craves to disable Vyzhigatel. Find and kill this infidel.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_2_finish">
+<text>You did good. The brothers are proud of you.</text>
+</string>
+
+
+<!-- FIND WEAPON FOR MONOLITH TASK -->
+<string id="pri_monolith_monolith_trader_stalker_task_3_name">
+ <text>to Find a weapon: %s</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_3_text">
+<text>the Preacher is looking for a new weapon.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_3_about">
+<text>We are increasing the power every day. We need more weapons to achieve our goals. You have to find new weapons for us.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_3_fetch_about">
+<text> %s is what we need right now. Bring, when you find it.</text>
+</string>
+ <string id="pri_monolith_monolith_trader_stalker_task_3_fetch_finish">
+<text>That's good. The brothers are proud of you.</text>
+</string>
+
+
+<!-- FIND MUTANT MEAT FOR MONOLITH TASK -->
+<string id="pri_monolith_monolith_trader_stalker_task_4_name">
+<text>Meat</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_4_text">
+<text>to Get the hunting %s. To give the meat to the Preacher - he can cook it.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_4_about">
+<text>Our supplies run out. You have to go into the Area and hunt.</text>
+</string>
+ <string id="pri_monolith_monolith_trader_stalker_task_4_fetch_about">
+<text>Here, %s is what we need. Remember that these beings are the gift Area. Kill them swiftly and with thanksgiving. </text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_4_fetch_finish">
+<text>You've succeeded. Well done.</text>
+</string>
+
+
+<!-- FIND SUPPLIES FOR MONOLITH TASK -->
+<string id="pri_monolith_monolith_trader_stalker_task_5_name">
+<text>Find %s</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_5_text">
+ <text>Find %s . Back to the Preacher.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_5_about">
+<text>You need to provide more supplies for us, so we can continue our great work.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_about">
+<text>the purpose of the search - %s . Get back.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_finish">
+<text>Monolith appreciate good work.</text>
+</string>
+
+
+	<!-- FIND ARTEFACT FOR MONOLITH TASK -->
+ <string id="pri_monolith_monolith_trader_stalker_task_6_name">
+<text>Find artifact %s </text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_6_text">
+<text>Find artifact %s and bring the Preacher so he could prepare it as a sacrifice.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_6_about">
+<text>We need an artifact to sacrifice. If you're ready to serve the Monolith and find it?</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_about">
+ <text>Here, %s is what we need. Bring it to me so we could hold the ceremony.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_finish">
+<text>well You serve the Monolith . Join us today in the ceremonial room. There will be singing.</text>
+</string>
+
+
+<!-- FIND LEVEL 1 TOOLKIT FOR DIODORUS TASK -->
+<string id="pri_monolith_monolith_mechanic_stalker_task_1_name">
+<text>Find Dad Diodoro %s</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_1_text">
+ <text>Need to bring the Father Diodoro %s, so he could spend more improvements.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_1_about">
+<text>I need you to help me, brother. I need special tools to repair our weapons.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_1_fetch_about">
+<text>Good. I need %s. Go.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_1_fetch_finish">
+<text>You did great.</text>
+</string>
+
+
+
+ <string id="pri_monolith_monolith_mechanic_stalker_task_2_name">
+<text>Find Dad Diodoro %s</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_2_text">
+<text>Need to bring the Father Diodoro %s. He needs the best tools to be able to spend even more improvements.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_2_about">
+<text>I need more tools, better. Do me a favour again?</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_2_fetch_about">
+ <text>Okay, I need a set of tools. It must be the best tools needed to operate the weapon.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_2_fetch_finish">
+<text>Excellent. You brought them.</text>
+</string>
+
+
+
+<string id="pri_monolith_monolith_mechanic_stalker_task_3_name">
+<text>Find Dad Diodoro %s</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_3_text">
+<text>Father Diodoro need %s to conduct elite upgrades. Find them.</text>
+</string>
+ <string id="pri_monolith_monolith_mechanic_stalker_task_3_about">
+<text>I need more tools, the better. Do me a favour again?</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_3_fetch_about">
+<text>I need the best tools. Find them, brother. Then I can make it so that your weapon will strike the infidels without a miss.</text>
+</string>
+<string id="pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
+<text>Excellent. You brought them. Monolith helped you.</text>
+</string>
+
+
+</string_table>

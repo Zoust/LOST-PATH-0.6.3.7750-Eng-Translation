@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_pda_good_descr">
+	<text>A loaded PDA. You can try to pull from him information about improvements, caches, notes, or money.</text>
+	</string>
+
+	<string id="st_pda_bad_descr">
+	<text>the Broken PDA. Such can only throw it, because it is useless.</text>
+	</string>
+
+	<string id="st_pda_low_descr">
+	<text>Intact, but a depleted PDA. If to charge it, you can try to remove information from it.</text>
+	</string>
+
+
+	<string id="st_backpack_default_descr">
+	 <text>Backpack with the dead body of the Stalker. Perhaps it has something valuable. We ought to inspect it. If the backpack is in very good condition, it is possible to make a cache.</text>
+	</string>
+	<string id="st_backpack_default_name">
+	<text>a Worn backpack</text>
+	</string>
+
+	<string id="st_backpack_bad_descr">
+	<text>an Empty backpack, once it wore someone else's clothes. Due to the very poor condition not suitable for the dead drop.</text>
+	</string>
+	<string id="st_backpack_bad_name">
+	<text>Empty-worn backpack</text>
+	</string>
+</string_table>

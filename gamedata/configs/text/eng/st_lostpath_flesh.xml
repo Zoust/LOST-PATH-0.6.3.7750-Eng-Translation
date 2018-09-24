@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_flash_montage_stalker_name">
+<text>the flash Drive with data on installing the servo on the costumes of Stalkers</text>
+</string>
+<string id="st_flash_montage_dolg_name">
+<text>the flash Drive with data on installing the servo on the costumes of Debt</text>
+</string>
+<string id="st_flash_montage_mono_name">
+<text>the flash Drive with data on installing the servo on the costumes of the Monolith</text>
+</string>
+<string id="st_flash_montage_free_name">
+<text>the flash Drive with data on installing the servo on the costumes of Freedom</text>
+</string>
+<string id="st_flash_montage_army_name">
+ <text>the flash Drive with data on installing the servo on the costumes of Military</text>
+</string>
+<string id="st_flash_montage_ecolog_name">
+<text>the flash Drive with data on installing the servo on the suits the Scientists</text>
+</string>
+<string id="st_flash_montage_bandit_name">
+<text>the flash Drive with data on installing the servo on the costumes of the Bandits</text>
+</string>
+<string id="st_flash_montage_csky_name">
+<text>the flash Drive with data on installing the servo on the costumes of clear Sky</text>
+</string>
+<string id="st_flash_montage_merc_name">
+ <text>the flash Drive with data on installing the servo on the costumes Nenkov</text>
+</string>
+
+<string id="st_flash_demontage_stalker_name">
+<text>the flash Drive with data on removal of the servo with costumes of Stalkers</text>
+</string>
+<string id="st_flash_demontage_dolg_name">
+<text>the flash Drive with data on removal of the servo with suits of Debt</text>
+</string>
+<string id="st_flash_demontage_mono_name">
+<text>the flash Drive with data on removal of the servo with the costumes of the Monolith</text>
+</string>
+<string id="st_flash_demontage_free_name">
+<text>the flash Drive with data on removal of the servo with suits of Freedom</text>
+</string>
+<string id="st_flash_demontage_army_name">
+<text>the flash Drive with data on removal of the servo with costumes Military</text>
+</string>
+<string id="st_flash_demontage_ecolog_name">
+<text>the flash Drive with data on removal of the servo with suits Scientists</text>
+</string>
+<string id="st_flash_demontage_bandit_name">
+<text>the flash Drive with data on removal of the servo with the costumes of the Bandits</text>
+</string>
+<string id="st_flash_demontage_csky_name">
+<text>the flash Drive with data on removal of the servo with suits clear Sky</text>
+</string>
+<string id="st_flash_demontage_merc_name">
+ <text>the flash Drive with data on removal of the servo with suits Nenkov</text>
+</string>
+
+<string id="flesh_up_a_novice_outfit_name">
+<text>the flash Drive with data on superlight Kevlar body armor</text>
+</string>
+<string id="flesh_up_ab_pkm_name">
+<text>the flash Drive with data on balancing automatic machine gun</text>
+</string>
+<string id="flesh_up_ab_svu_name">
+<text>the flash Drive with data on guns for sniper rifles</text>
+</string>
+<string id="flesh_up_abcd_pkm_name">
+<text>the flash Drive with data on modifying the gas outlet for the machine gun</text>
+</string>
+<string id="flesh_up_abcd_svu_name">
+ <text>the flash Drive with data on an electronic stabilizer for sniper rifles</text>
+</string>
+<string id="flesh_up_ac_ak74u_name">
+<text>the flash Drive with data on balancing automation</text>
+</string>
+<string id="flesh_up_ac_desert_eagle_name">
+<text>the flash Drive with data on a muzzle brake for a gun</text>
+</string>
+<string id="flesh_up_ac_mp5_name">
+<text>the flash Drive with data on muzzle brake for machine pistols</text>
+</string>
+<string id="flesh_up_ac_spas12_name">
+<text>the flash Drive with data on pump mechanisms for combat shotguns</text>
+</string>
+ <string id="flesh_up_ac_wincheaster1300_name">
+<text>the flash Drive with data on pump mechanisms for shotguns</text>
+</string>
+<string id="flesh_up_aceg_scientific_outfit_name">
+<text>the flash Drive with data on reinforced army body armor</text>
+</string>
+<string id="flesh_up_bd_desert_eagle_name">
+<text>the flash Drive with data on modifying the barrel for pistols</text>
+</string>
+<string id="flesh_up_bd_mp5_name">
+<text>the flash Drive with data on modifying the barrel for pistols-machine guns</text>
+</string>
+<string id="flesh_up_bd_wincheaster1300_name">
+ <text>the flash Drive with data on electronic stabilization system for shotguns</text>
+</string>
+<string id="flesh_up_bdfh_scientific_outfit_name">
+<text>the flash Drive with data on the protection system of psy-radiation</text>
+</string>
+<string id="flesh_up_cd_pkm_name">
+<text>the flash Drive with data on muzzle brake for machine gun</text>
+</string>
+<string id="flesh_up_cd_svu_name">
+<text>the flash Drive with data on muzzle brake for sniper rifles</text>
+</string>
+<string id="flesh_up_fh_scientific_outfit_name">
+<text>the flash Drive with data on a closed system of respiration</text>
+</string>
+</string_table>

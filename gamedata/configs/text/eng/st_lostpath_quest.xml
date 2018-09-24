@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="wolf_about_girl_title">
+		<text>Встретиться с незнакомкой</text>
+	</string>
+	<string id="wolf_about_girl_descr">
+		<text>Волк сказал, что в лагерь пришла девушка. Возможно ей нужна помощь. Надо найти ее и узнать кто она.</text>
+	</string>
+	<string id="wolf_search_eat_title">
+		<text>Найти еду</text>
+	</string>
+	<string id="wolf_search_eat_descr">
+		<text>Как и ожидалось у девушки совсем ничего нет. Нужно ее накормить. Вообще вся эта история очень мутная. Возможно она заслана кем-то сюда или просто такой же новичок как и я. Не знаю, время рассудит. Все-таки я думаю она обычный новичок и ей стоит помочь, просто нужно время от времени поглядывать за ней. Необходимо найти консерву.</text>
+	</string>
+	<string id="wolf_search_eat_done_title">
+		<text>Накормить Алису</text>
+	</string>
+	<string id="wolf_search_eat_done_descr">
+		<text>Нужно отдать Алисе еду. Я сам себе найду поесть, а она такая хрупкая и беспомощная... Хм.. Что-то я не о том задумался..</text>
+	</string>
+	<string id="matis_search_title">
+<text>Find Mathis</text>
+</string>
+<string id="matis_search_descr">
+<text>on the Basis of the received message on the PDA I need the Stalker is in the area of the Sawmill. Need to meet and talk to him.</text>
+	</string>
+
+	<string id="esc_girl_sidor_title">
+		<text>Работа на сидоровича : Встретиться с Сидоровичем</text>
+	</string>
+	<string id="esc_girl_sidor_descr">
+		<text>В лагере есть торговец Сидорович. Надо бы к нему сходить про работу спросить, авось чего-нибудь подкинет.</text>
+	</string>
+	
+	<string id="esc_girl_take_wpn_done_title">
+		<text>Работа на Сидоровича : Передать Алисе оружие</text>
+	</string>
+	<string id="esc_girl_take_wpn_done_descr">
+		<text>Местный торговец Сидорович выдал снаряжение для меня и Алисы. Это новенькие MP5 с глушителем и пара десятков патрон к ним. Я думаю с этим оружием нам будет достаточно легко вынести лагерь военных. Хотя... кто знает..</text>
+	</string>
+	
+	<string id="esc_girl_take_wpn_title">
+		<text>Работа на Сидоровича : Найти Алисе оружие</text>
+	</string>
+	<string id="esc_girl_take_wpn_descr">
+		<text>Где-то я проебал оружие, что выдал Сидорович.. Надо бы найти такое же и отдать его Алисе.</text>
+	</string>
+	
+	<string id="esc_girl_kpp_title">
+		<text>Работа на Сидоровича : Зачистить КПП военных</text>
+	</string>
+	<string id="esc_girl_kpp_descr">
+		<text>Сидорович попросил зачистить КПП военных на Юге Кордона. Хорошо, что оружие выдал, а то совсем не вытянули бы.</text>
+	</string>
+	
+	<string id="esc_girl_kpp_done_title">
+		<text>Работа на Сидоровича : Вернуться к Сидоровичу</text>
+	</string>
+	<string id="esc_girl_kpp_done_descr">
+		<text>КПП зачищен, теперь нужно вернуться к Сидоровичу.</text>
+	</string>
+	
+	<string id="esc_girl_detector_title">
+		<text>Помощь Алисе : Найти Отклик</text>
+	</string>
+	<string id="esc_girl_detector_descr">
+		<text>Алисе нужен детектор. Я ей предложил поискать хотя бы самый простенький. Пускай будет Отклик, чем вообще ничего не будет. Может быть она сможет найти артефакты и с ним.</text>
+	</string>
+	
+	<string id="esc_girl_take_money_1_done_title">
+		<text>Работа на Сидоровича : Отдать Алисе ее долю</text>
+	</string>
+	<string id="esc_girl_take_money_1_done_descr">
+		<text>Сидорович неплохо нам заплатит. Нужно отдай ей её долю.</text>
+	</string>
+	
+	<string id="esc_girl_take_money_1_title">
+		<text>Работа на Сидоровича : Доля Алисы</text>
+	</string>
+	<string id="esc_girl_take_money_1_descr">
+		<text>Нужно отдать долю Алисе. Нужно срочно найти денег и вещей, чтобы отдай ей её долю, иначе это добром не кончится... Раз нам оплатили совместную работу, то я обязан с ней поделиться.</text>
+	</string>
+	
+	<string id="esc_girl_smart_title">
+		<text>Работа на Сидоровича : Вернуться за наградой</text>
+	</string>
+	<string id="esc_girl_smart_descr">
+		<text>Территория захвачена, необходимо забрать свою награду.</text>
+	</string>
+	
+	<string id="esc_girl_smart_1_title">
+		<text>Работа на Сидоровича : Южный хутор</text>
+	</string>
+	<string id="esc_girl_smart_1_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_2_title">
+		<text>Работа на Сидоровича : Заправка</text>
+	</string>
+	<string id="esc_girl_smart_2_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_3_title">
+		<text>Работа на Сидоровича : Депо</text>
+	</string>
+	<string id="esc_girl_smart_3_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_4_title">
+		<text>Работа на Сидоровича : Брошенный хутор</text>
+	</string>
+	<string id="esc_girl_smart_4_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_sidor_smarts_title">
+		<text>Работа на Сидоровича : Осваивание территорий</text>
+	</string>
+	<string id="esc_sidor_smarts_descr">
+		<text>Сидорович дал задание на захват основных точек. Ему нужно, чтобы эти точки захватили сталкеры.</text>
+	</string>
+		
+	<string id="esc_girl_matis_about_title">
+		<text>Нежданный гость : Матис</text>
+	</string>
+	<string id="esc_girl_matis_about_descr">
+		<text>Алисе на КПК в общий чат отправил сообщение какой-то сталкер Матис. Мне известно, что его зовут Леха и он друг Алисы. Он попросил поскорее добраться до него и помочь ему.</text>
+</string>
+
+<string id="ds_matis_title">
+<text>Find Mathis</text>
+</string>
+<string id="ds_matis_descr">
+<text>Necessary to find and to meet with Mathis</text>
+</string>
+
+<string id="ds_ak74_deliver">
+<text>to Bring the AKS-74U Mathis</text>
+</string>
+<string id="ds_ak74_search">
+<text>Find the AKS-74U Mathis</text>
+</string>
+ <string id="quest_ds_ak74_descr">
+<text>Mathis was asked to find them a AKS-74U</text>
+</string>
+
+<string id="kill_bandit_ds_name">
+<text>to Destroy the detachment of the bandits</text>
+</string>
+<string id="kill_bandit_ds_descr">
+<text>Mathis was asked to destroy a squad of bandits at the gas station</text>
+</string>
+
+<string id="quest_ds_matis_dogs_title">
+<text>to Destroy a squad of dogs,</text>
+</string>
+<string id="quest_ds_matis_dogs_descr">
+<text>Mathis gave me my first combat mission. You need to check your shooting skill on dogs.</text>
+</string>
+
+<string id="quest_ds_matis_boar_title">
+ <text>Destroy the boar squad</text>
+</string>
+<string id="quest_ds_matis_boar_descr">
+<text>Mathis gave me second combat mission. You have to fight with a group of wild boars nearby.</text>
+</string>
+
+<string id="ds_back_name">
+<text>to return to camp</text>
+</string>
+<string id="ds_back_descr">
+<text>the Job is done. Need to get back to camp.</text>
+</string>
+
+<string id="ds_pda_back">
+<text>to return to camp</text>
+</string>
+<string id="ds_pda_back_descr">
+<text>Found the PDA Digger. Now it needs to show the Tick. I will not be unblocked.</text>
+</string>
+
+ <string id="ds_pda_search">
+<text>PDA of a group of diggers</text>
+</string>
+<string id="ds_pda_search_descr">
+<text>Tick instructed to find the missing PDA group of diggers in a Dark Hollow. Landmark - destroyed bridge to the North.</text>
+</string>
+
+<string id="ds_pda_shulc_title">
+<text>Meet with Shultz</text>
+</string>
+<string id="ds_pda_shulc_descr">
+<text>you Need to show PDA Schulz. Tick said he understands.</text>
+</string>
+
+<string id="ds_pda_clesh_unlock_title">
+<text>Show PDA Tick</text>
+</string>
+<string id="ds_pda_clesh_unlock_descr">
+ <text>Schultz unlock my PDA diggers. Now you need to give it to the Mite and to tell about information that gave Schultz.</text>
+</string>
+<string id="ds_clesh_start_title">
+<text>Find the Tick</text>
+</string> 
+<string id="ds_clesh_start_descr">
+<text>Mathis referred me to a Tick. He goes somewhere in the camp.</text>
+</string> 
+
+<string id="ds_documents_search">
+<text>search for documents</text>
+</string> 
+<string id="ds_documents_search_descr">
+<text>the PDA has been said that the documents under a bridge. Need to find these documents and bring them to the Tick.</text>
+</string>
+
+ <string id="ds_documents_back">
+<text>back to the Tick</text>
+</string> 
+<string id="ds_documents_back_descr">
+<text>Documents found, you need to go back to camp and give the documents to the Tick.</text>
+	</string>
+	
+	<string id="ds_zapravka_title">
+		<text>Местные разборки : Зачистить АЗС</text>
+	</string>	
+	<string id="ds_zapravka_descr">
+		<text>Клещ попросил захватить АЗС. По ночам бандиты нападают на лагерь и поэтому Лощина для сталкеров не спокойное место. Нужно помочь сталкерам.</text>
+	</string>
+	
+	<string id="ds_zapravka_done_title">
+		<text>Местные разборки : Вернуться за наградой</text>
+	</string>	
+	<string id="ds_zapravka_done_descr">
+		<text>Задание Клеща выполнено. Нужно вернуться за наградой.</text>
+</string>
+
+<string id="companion_quest_zulus_title">
+<text>the Request of the Zulus</text>
+</string>
+<string id="companion_quest_zulus_descr">
+<text>Zulu has asked me to find him three boxes for a PKM</text>
+</string>
+	
+	<string id="bar_barman_title">
+		<text>Бар 100 рентген : Барман</text>
+	</string>
+	<string id="bar_barman_descr">
+		<text>Мне пришло сообщение на КПК от Бармена. Он известен в зоне своим баром и продажей различного оружия. Надо бы сходить к нему, да разузнать что там и как.</text>
+	</string>
+	
+	<string id="bar_gyfi_title">
+		<text>Бар 100 рентген : Гуфи</text>
+	</string>
+	<string id="bar_gyfi_descr">
+		<text>Сталкер Гуфи хочет меня видеть. Не знаю кто это и что за исследователи. Нужно сходить разузнать.</text>
+	</string>
+	
+	<string id="bar_valerian_title">
+		<text>Бар 100 рентген : Валерьян</text>
+	</string>
+	<string id="bar_valerian_descr">
+		<text>Отец Валерьян хочет меня видеть. Не знаю что ему нужно, но я чувствую не к добру это..</text>
+	</string>
+	
+	<string id="bar_valerian_freedom_title">
+		<text>Ложь во спасение : Шпион</text>
+	</string>
+	<string id="bar_valerian_freedom_descr">
+		<text>Мне необходимо пробраться на базу свободы и узнать у них информацию, необходимую для исследователей. Они готовят штурм базы.. Хм.. Ложь во спасение или спасение во лжи? Ведь я могу просто сдать их лидеру свободы, а могу сделать как хотят исследователи. Нужно обсудить с Алисой.</text>
+	</string>
+	
+	<string id="clans_title">
+		<text>Кланы Зоны : сбор информации</text>
+	</string>
+	<string id="clans_descr">
+		<text>В Зоне много кланов. Надо бы собрать информацию о кланах и вступить бы в какой-нибудь из них вместе с Алисой.</text>
+	</string>
+	
+	<string id="safes_title">
+		<text>Работа на Бармена : собрать оборудование</text>
+	</string>
+	<string id="safes_descr">
+		<text>Поставщик раскидал оборудование для Бармена по всем Армейским складам. Там очень любят гулять военные, надо быть аккуратнее.</text>
+	</string>
+	
+	<string id="safes_done_title">
+		<text>Работа на Бармена : вернуть имущество</text>
+	</string>
+	<string id="safes_done_descr">
+		<text>Все оборудование на месте, необходимо его вернуть Бармену.</text>
+	</string>	
+	
+	<string id="pda_crack_1">
+		<text>Устройство для взлома</text>
+	</string>
+	<string id="pda_crack_1_descr">
+		<text>Специальный КПК, предназначенный для взлома и удаленного считывания с КПК, что находятся поблизости. Для использования понадобится интеллект.</text>
+	</string>
+	<string id="st_turn_on">
+		<text>Включить</text>
+	</string>
+	
+	<string id="val_freedom_work_title">
+		<text>Ложь во спасение : Разведка</text>
+	</string>
+	<string id="val_freedom_work_descr">
+		<text>Валерьяну требуется информация о текущем состоянии Свободы. Имена важных лиц он огласит по закрытому каналу связи. Необходимо отвлечь их всех и устроить штурм.</text>
+	</string>
+	
+	<string id="val_freedom_work_1_title">
+		<text>Ложь во спасение : Чех</text>
+	</string>
+	<string id="val_freedom_work_1_descr">
+		<text>Моя первая цель это Чех. Необходимо тайком считать у него информацию.</text>
+	</string>
+	
+	<string id="val_freedom_work_2_title">
+		<text>Ложь во спасение : Скряга</text>
+	</string>
+	<string id="val_freedom_work_2_descr">
+		<text>Теперь мне нужен Скряга. Это местный торговец.</text>
+	</string>
+	
+	<string id="val_freedom_work_3_title">
+		<text>Ложь во спасение : Яр</text>
+	</string>
+	<string id="val_freedom_work_3_descr">
+		<text>Механик свободы обитает в Ангаре. Стоит наведаться к нему, штурм уже близко.</text>
+	</string>
+	
+	<string id="val_freedom_work_4_title">
+		<text>Ложь во спасение : Штурм</text>
+	</string>
+	<string id="val_freedom_work_4_descr">
+		<text>Захватить базу "Свободы"</text>
+	</string>
+	
+	<string id="val_freedom_work_4_title">
+		<text>Ложь во спасение : Штурм</text>
+	</string>
+	<string id="val_freedom_work_4_descr">
+		<text>Захватить базу "Свободы"</text>
+	</string>
+	
+	<string id="agr_voronin_title">
+		<text>Знакомство с "Долгом" : Воронин</text>
+	</string>
+	<string id="agr_voronin_descr">
+		<text>Некий Воронин попросил зайти к нему после штурма. Мне известно, что их база находится на НИИ "Агропром". Нужно будет наведаться туда.</text>
+	</string>
+	<string id="bar_valerian2_title">
+		<text>Ложь во спасение : Возвращение</text>
+	</string>
+	<string id="bar_valerian2_descr">
+		<text>Штурм успешно окончен. Теперь нужно вернуться к Валерьяну и обсудить с ним дальнейшие планы.</text>
+	</string>
+	
+	
+	<string id="gar_diggers_info_title_1">
+		<text>Диггерская вылазка : Поиск документов</text>
+	</string>
+	<string id="gar_diggers_info_title_2">
+		<text>Диггерская вылазка : Вернуться к Воронину</text>
+	</string>
+	<string id="gar_diggers_info_descr">
+		<text>Необходимо забрать документы по подземелью Агропрома у группы диггеров. С документами надо наведаться к Воронину  и получить все вводные для начала разведывательной операции по исследованию подземелья.</text>
+	</string>
+	<string id="gar_diggers_doc_name">
+		<text>Папка с документами</text>
+	</string>
+	<string id="gar_diggers_doc_descr">
+		<text>В данной папке содержится информация о сталкере Стрелке и неком докторе. Очень мало что можно понять из текста, ведь страницы уже явно не новые. Где-то имеются потертости, где-то они порваны, но общую суть понять можно. Вот некоторые из отрывков : \n"Стрелок, в подземельях агропрома я кое-что оставил для тебя..."\n"Попасть в подземелья можно через западный вход на НИИ..."\n"Доктор тебя ждет, поторопись.."</text>
+	</string>
+	
+	
+</string_table>
