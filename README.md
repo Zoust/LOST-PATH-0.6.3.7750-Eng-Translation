@@ -1,6 +1,8 @@
 # LOST-PATH-0.5.9.4330-Eng-Translation
 
 
+Mod link : https://www.moddb.com/mods/lost-path
+
 
 !! 			Put ALL content from archive in game ROOT folder, not in gamedata 		 !!
 
