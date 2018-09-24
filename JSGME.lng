@@ -1,0 +1,112 @@
+[Info]
+Language=English
+Translator=Zoust, demer (www.sacred.net.ru)
+Version=2.6.0z
+
+[frmMFNm]
+frmMFNm.Caption=Mods folder...
+frmMFNm.Label1.Caption=Welcome to  JoneSoft Generic Mod Enabler (JSGME)!
+frmMFNm.Label2.Caption=By default, JSGME looks for modifications of the game in a folder named "MODS". However, this can cause the program to conflict if you already have a folder with that name.
+frmMFNm.Label3.Caption=If you want to place mods in a folder with a different name, please enter a new folder name and click OK, otherwise just click OK.
+frmMFNm.cmdOK.Caption=OK
+
+[frmMainForm]
+frmMainForm.Label1.Caption=Available mods:
+frmMainForm.Label2.Caption=Already installed mods:
+frmMainForm.lblHelp.Caption=Help
+frmMainForm.lblHelp.Hint=Show help section
+frmMainForm.lblAbout.Caption=About
+frmMainForm.lblAbout.Hint=About Generic Mod Enabler
+frmMainForm.lblUpdates.Caption=Updates
+frmMainForm.lblUpdates.Hint=Check the program updates via the Internet
+frmMainForm.lblTasks.Caption=Tasks...
+frmMainForm.lblTasks.Hint=Show available tasks
+frmMainForm.cmdEnable.Caption=&-->
+frmMainForm.cmdEnable.Hint=Enable the selected mod
+frmMainForm.cmdDisable.Caption=&<--
+frmMainForm.cmdDisable.Hint=Disable the selected mod
+frmMainForm.cmdClose.Caption=Close
+frmMainForm.cmdDisableAll.Caption=<<<<<
+frmMainForm.cmdDisableAll.Hint=Disable all mods
+frmMainForm.pumLoadProfile.Caption=Download mod Profile ...
+frmMainForm.pumSaveProfile.Caption=Save current mod profile ...
+frmMainForm.pumImportMod.Caption=Import mods...
+frmMainForm.pumImportMod.Hint=Import a mod from a folder in another location
+frmMainForm.pumFind.Caption=Find a mod...
+frmMainForm.pumFind.Hint=Search for a specific mod among available and already installed mods
+frmMainForm.pumRefresh.Caption=Refresh list
+frmMainForm.pumRefresh.Hint=Update the list of available and installed mods
+frmMainForm.pumSnapshot.Caption=Store the current structure of game files
+frmMainForm.pumSnapshot.Hint=Save informations about the current installed version
+frmMainForm.pumCompare.Caption=Compare stored and current files structure of the game
+frmMainForm.pumCompare.Hint=Compare the previously saved informations with current informations about the structure of game files
+frmMainForm.pumExport.Caption=Export of the list of activated mods
+frmMainForm.pumExport.Hint=Export a list of already activated mods to a text file
+frmMainForm.pumsToClpbrd.Caption=Clipboard
+frmMainForm.pumsToFile.Caption=Text file
+frmMainForm.pumExplore.Caption=&Open
+frmMainForm.pumDelete.Caption=&Delete
+frmMainForm.pumRename.Caption=&Rename
+
+[frmFilesAltered]
+frmFilesAltered.Label2.Caption=Activation of this mod can negatively affect game stability
+frmFilesAltered.Label3.Caption=Are you sure you want to activate this mod?
+frmFilesAltered.cmdYes.Caption=&Yes
+frmFilesAltered.cmdNo.Caption=&No
+
+[frmFind]
+frmFind.Caption=Find Mod
+frmFind.Label1.Caption=Enter full or partial name of the mod:
+frmFind.Label2.Caption=Results (double click to view):
+frmFind.lvFound.Columns[0].Caption=Mod
+frmFind.lvFound.Columns[1].Caption=Status
+frmFind.cmdFind.Caption=Search
+frmFind.cmdClose.Caption=Close
+frmFind.pnlNoFind.Caption=No mod was found!
+
+[frmCompare]
+frmCompare.Caption=Compare
+frmCompare.lvCompare.Columns[0].Caption=Name
+frmCompare.lvCompare.Columns[1].Caption=Details
+frmCompare.cmdSave.Caption=Save
+frmCompare.cmdClose.Caption=Close
+
+[frmAbout]
+frmAbout.Caption=About Generic Mod Enabler
+frmAbout.imgPayPal.Hint=If you want to help developing and improving this program, you can donate funds using PayPal
+frmAbout.lblLicense.Caption=Please read the license agreement, which you can find in the file 'JoneSoft.txt'.
+frmAbout.lblHomePage.Caption=Go to the program home page
+frmAbout.cmdOK.Caption=OK
+
+[Messages]
+strCheckForUpdates=Check for updates
+strHasLatestVersion=You are using the latest version.
+strDownloadNow=What do you want to download?
+strCouldNotRetrieve=Unable to retrieve informations from the JoneSoft server. Make sure you are connected to internet and try again.
+strWarningEnabling=Warning: Activation of "%s"!
+strEnablingMod=Activation %s...
+strDisablingMod=Disconnecting %s...
+strCannotBeDisabledTitle=Mod can not be turned off!
+strCannotBeDisabled="%0:s" can not be disabled, because when mod %1:s was installed, the files were overwritten. Mod %1:s must be disabled first.
+strNoInstLogTitle=Problem with disabling the mod
+strNoInstLog=Can not find the installation log for the mod "%s". Files can not be deleted from the game folder! Do you want to delete this mod from the active list?
+strAlreadyAltered="%0:s" has already been changed by the mod "%1:s".
+strAlreadyAdded=Папка "%0:s" has already been added by mod "%1:s".
+strDisableAllMods=Are you sure you want to disable all active mods?
+strReplaceSnapshotTitle=Generate informations about the files structure
+strReplaceSnapshot=Informations about the file structure already exists. Are you sure you want to replace them?
+strGeneratingSnapshot=Generating informations about the structure of game files...
+strSnapshotGenerated=Informations about all the game files have been successfully saved. Use the "Compare stored and current files structure of the game task for comparison in the future.
+strCompareDetails=Checking the game files from %0:s with %1:s.
+strIsSame=EQUIVALENT
+strHasChanged=CHANGED
+strIsNew=NEW
+strNoLongerExists=REMOVED
+strModList=The list of all your active mods has been saved to the mod files folder. Click "OK" to view.
+strNewFldrNm=New mods folder (%d)
+strModSummary=%0:d mods found (%1:d active)
+strBrowseMsg=Please select a mod to import
+strErrorLoadingProfileTitle=Error loading profile
+strErrorLoadingProfile=The following mods were not found: %s Download failed.
+strAvail=Available
+strActiv=Activated
