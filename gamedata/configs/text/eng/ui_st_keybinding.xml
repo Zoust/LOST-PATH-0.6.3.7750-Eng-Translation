@@ -271,16 +271,16 @@
 		<text>Контакты</text>
 	</string>
 	<string id="kb_custom9">
-		<text>Статистика</text>
+		<text>Statistics</text>
 	</string>
 	<string id="kb_custom10">
-		<text>Сообщения</text>
+		<text>Infos</text>
 	</string>
 	<string id="kb_custom11">
-		<text>Сменить HUD</text>
+		<text>Change HUD</text>
 	</string>
 	<string id="kb_custom12">
-		<text>Сменить режим апгрейдов</text>
+		<text>Change upgrades mode</text>
 	</string>
 	<string id="kb_pda_tab1">
 		<text>PDA Map</text>

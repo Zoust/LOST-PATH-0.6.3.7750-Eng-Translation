@@ -17,10 +17,6 @@
 		<text>Brain Scorcher (Radar)</text>
 	</string>
 
-	<string id="ui_st_cultural_center">
-		<text>Cultural Center (Pripyat)</text>
-	</string>
-
 	<string id="ui_st_construction_site">
 		<text>Construction Site (Wild Territory)</text>
 	</string>
@@ -28,6 +24,10 @@
 	<string id="ui_st_container_warehouse">
 		<text>Container Warehouse (Jupiter)</text>
 	</string>
+	<string id="ui_st_cultural_center">
+		<text>Cultural Center (Pripyat)</text>
+	</string>
+
 
 	<string id="ui_st_eastern_checkpoint">
 		<text>Кладбище Техники</text>
@@ -46,7 +46,7 @@
 	</string>
 
 	<string id="ui_st_hidden_base">
-		<text>Hidden Base (Great Swamp)</text>
+		<text>Hidden Base (Great Swamps)</text>
 	</string>
 
 	<string id="ui_st_kopachy_village">
@@ -58,7 +58,7 @@
 	</string>
 
 	<string id="ui_st_machine_yard">
-		<text>Механизаторский двор</text>
+		<text>Machine Yard</text>
 	</string>
 
 	<string id="ui_st_makeshift_barracks">
@@ -93,6 +93,10 @@
 		<text>River Port (Outskirts)</text>
 	</string>
 
+	<string id="ui_st_rookie_village">
+		<text>Rookie Village (Cordon)</text>
+	</string>	
+
 	<string id="ui_st_research_institute">
 		<text>Research Institute (Agroprom)</text>
 	</string>
@@ -126,7 +130,7 @@
 	</string>
 
 	<string id="ui_st_tuzla_outpost">
-		<text>Tuzla Outpost (Great Swamp)</text>
+		<text>Tuzla Outpost (Great Swamps)</text>
 	</string>
 
 	<string id="ui_st_village_ruins">
@@ -144,9 +148,5 @@
 	<string id="ui_st_car_park">
 		<text>Car Park (Cordon)</text>
 	</string>
-
-	<string id="ui_st_rookie_village">
-		<text>Rookie Village (Cordon)</text>
-	</string>	
 
 </string_table>

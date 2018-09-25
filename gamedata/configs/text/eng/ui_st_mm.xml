@@ -147,7 +147,7 @@
 		<text>Alternative</text>
 	</string>
 	<string id="ui_mm_anisotropic">
-		<text>Anisotropic</text>
+		<text>Anisotropic filtering</text>
 	</string>
 	<string id="ui_mm_apply">
 		<text>Apply</text>
@@ -192,7 +192,7 @@
 	    <text>Grass rendering distance</text>
    	</string>
     <string id="ui_mm_detail_height">
-	    <text>Grass height</text>
+		<text>Grass size</text>
     </string>
 	<string id="ui_mm_difficulty">
 		<text>Difficulty</text>
@@ -336,7 +336,7 @@
 		<text>Sunshaft intensity</text>
 	</string>
 	<string id="ui_mm_r2_gloss_factor">
-		<text>Gloss factor</text>
+		<text>Specular (gloss factor)</text>
 	</string>
     <string id="ui_mm_r__actor_shadow">
     <text>Actor shadow</text>
@@ -348,7 +348,7 @@
 		<text>Use DirectX 10.1</text>
 	</string>
 	<string id="ui_mm_r3_MSAA">
-		<text>Full screen smoothing</text>
+		<text>Full screen anti-aliasing</text>
 	</string>
 	<string id="ui_mm_r3_dynamic_wet_surfaces">
 		<text>Wet surfaces</text>
@@ -538,37 +538,37 @@
 		<text>Sleep deprivation</text>
 	</string>
 	<string id="ui_mm_food_irradiate">
-		<text>Облучение продуктов</text>
+		<text>Irradiated food</text>
 	</string>
 	<string id="ui_mm_mask_hud">
-		<text>Динамический HUD</text>
+		<text>Helmet and mask effects</text>
 	</string>
 	<string id="ui_mm_shot_effects">
-		<text>Эффект отдачи оружия</text>
+		<text>Shoot effects</text>
 	</string>
 	<string id="ui_mm_item_animation">
-		<text>Анимации:</text>
+		<text>Animations</text>
 	</string>
 	<string id="ui_mm_enhanced_animation">
-		<text>Улучшенные анимации</text>
+		<text>Enhanced animations</text>
 	</string>
 	<string id="ui_mm_consumable_animation">
-		<text>Тип анимаций</text>
+		<text>Consumable animations</text>
 	</string>
 	<string id="ui_mm_slot_hud">
 		<text>Extended HUD</text>
 	</string>
 	<string id="ui_mm_weapon_hide">
-		<text>Скрыть инфу об оружии</text>
+		<text>Hide weapon</text>
 	</string>
 	<string id="ui_mm_weapon_heat">
-		<text>Перегрев оружия</text>
+		<text>Weapon overheating</text>
 	</string>
 	<string id="ui_mm_weapon_heat_ui">
-		<text>Индикатор перегрева</text>
+		<text>Weapon overheating ui</text>
 	</string>
 	<string id="ui_mm_weapon_mags">
-		<text>Патроны и магазины</text>
+		<text>Weapon magazines</text>
 	</string>
     <string id="ui_mm_excl_dist">
         <text>Online exclusion radius</text>

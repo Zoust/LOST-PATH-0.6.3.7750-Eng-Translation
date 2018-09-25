@@ -58,10 +58,10 @@
 		<text>Show message history</text>
 	</string>
 	<string id="pda_btn_quests">
-		<text>Map</text>
+		<text>Area map</text>
 	</string>
 	<string id="pda_btn_quests_hint">
-		<text>Show the map and task list</text>
+		<text>Show the Zone map and task list</text>
 	</string>
 	<string id="pda_btn_ranking">
 		<text>Statistics</text>
@@ -226,7 +226,7 @@
 		<text>Zoom -</text>
 	</string>
 	<string id="st_ui_pda_legend_mechanic">
-		<text>Mechanic</text>
+		<text>Technician</text>
 	</string>
 	<string id="st_ui_pda_legend_medic">
 		<text>Medic</text>

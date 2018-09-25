@@ -91,7 +91,7 @@
 		<text>sell item</text>
 	</string>
 	<string id="st_ui_armor_static">
-		<text>Armour condition</text>
+		<text>Armor condition</text>
 	</string>
 	<string id="st_ui_main_sensor">
 		<text>Radioactive contamination</text>
@@ -187,22 +187,22 @@
 		<text>Weight carried</text>
 	</string>
 	<string id="ui_inv_outfit_burn_protection">
-		<text>Thermal</text>
+		<text>Thermal / acid</text>
 	</string>
 	<string id="ui_inv_outfit_chemical_burn_protection">
-		<text>Chemical</text>
+		<text>Toxicity res.</text>
 	</string>
 	<string id="ui_inv_outfit_fire_wound_protection">
-		<text>Armour</text>
+		<text>Armor</text>
 	</string>
 	<string id="ui_inv_outfit_radiation_protection">
-		<text>Radiation</text>
+		<text>Ext. radiation res.</text>
 	</string>
 	<string id="ui_inv_outfit_shock_protection">
-		<text>Shock</text>
+		<text>Electricity res.</text>
 	</string>
 	<string id="ui_inv_outfit_telepatic_protection">
-		<text>Psionic</text>
+		<text>Psy protection</text>
 	</string>
 	<string id="ui_inv_outfit_strike_protection">
 		<text>Impact</text>
@@ -241,7 +241,7 @@
 		<text>Assault rifles</text>
 	</string>
 	<string id="ui_inv_satiety">
-		<text>Hunger elimination</text>
+		<text>Satiety level</text>
 	</string>
 	<string id="ui_inv_scope_rifle">
 		<text>Buy optical scope for rifle (S)</text>
@@ -283,7 +283,7 @@
 		<text>Purchased loadout saved as</text>
 	</string>
 	<string id="ui_total_weight">
-		<text>Total weight:</text>
+		<text>Weight:</text>
 	</string>
 	<string id="st_drink">
 		<text>drink</text>
@@ -310,7 +310,7 @@
 		<text>sec</text>
 	</string>
 	<string id="ui_inv_survive_surge">
-		<text>Protects you from an emission or psi-storm</text>
+		<text>Allows you to survive an emission or a psi-storm</text>
 	</string>
 	<string id="st_dress_helmet">
 		<text>wear helmet</text>

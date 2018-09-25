@@ -7,7 +7,7 @@
 		<text>No</text>
 	</string>
 	<string id="Btn_OK">
-		<text>Okay</text>
+		<text>OK</text>
 	</string>
 	<string id="Btn_Yes">
 		<text>Yes</text>
@@ -34,7 +34,7 @@
 		<text>Loading AI objects</text>
 	</string>
 	<string id="st_loading_alife_simulator">
-		<text>Server: Loading A-Life simulator</text>
+		<text>Server: Loading alife simulator</text>
 	</string>
 	<string id="st_loading_cform">
 		<text>Loading CFORM</text>
@@ -49,7 +49,7 @@
 		<text>Loading saved game</text>
 	</string>
 	<string id="st_loading_sectors_portals">
-		<text>Loading sectors and portals</text>
+		<text>Loading sectors & portals</text>
 	</string>
 	<string id="st_loading_shaders">
 		<text>Loading shaders</text>
@@ -79,7 +79,7 @@
 		<text>Prefetching objects</text>
 	</string>
 	<string id="st_rubles">
-		<text>rubles.</text>
+		<text>roubles.</text>
 	</string>
 	<string id="st_server_connecting">
 		<text>SERVER: Connecting</text>
@@ -184,10 +184,10 @@
 		<text>Price</text>
 	</string>
 	<string id="ui_st_secs">
-		<text>seconds</text>
+		<text>sec</text>
 	</string>
 	<string id="mp_si_sec">
-		<text>seconds</text>
+		<text>sec</text>
 	</string>
 	<string id="ui_st_select_one_map">
 		<text>Please select at least one map</text>
@@ -247,10 +247,10 @@
 		<text>moving from Pripyat to Yanov</text>
 	</string>
 	<string id="st_save_uni_pri_to_labx8">
-		<text>moving from Pripyat to Lab X-8</text>
+		<text>moving from Pripyat to X8</text>
 	</string>
 	<string id="st_save_uni_labx8_to_pri">
-		<text>moving from Lab X-8 to Pripyat</text>
+		<text>moving from X8 to Pripyat</text>
 	</string>
 	<string id="st_save_uni_surge_start">
 		<text>emission</text>
@@ -289,7 +289,7 @@
 		<text>Zulu joins the squad</text>
 	</string>
 	<string id="st_save_jup_a10_gonna_return_debt">
-		<text>Vano's debt repaid</text>
+		<text>Vano’s debt repaid</text>
 	</string>
 	<string id="st_save_jup_b218_vano_in_squad">
 		<text>Vano joins the squad</text>
@@ -325,7 +325,7 @@
 		<text>reinforcements arrived</text>
 	</string>
 	<string id="st_save_pri_a18_searched_antenna">
-		<text>"antenna" examined</text>
+		<text>‘antenna’ examined</text>
 	</string>
 	<string id="st_save_pri_a21_approached_mad_sentry">
 		<text>missing sentry found</text>
@@ -400,7 +400,7 @@
 		<text>Operation One Shot initiated</text>
 	</string>
 	<string id="st_save_jup_b1_entered_railroad_tunnel">
-		<text>search for the psi-emission source</text>
+		<text>search for the psy-emission source</text>
 	</string>
 	<string id="st_save_jup_b47_got_admin_docs">
 		<text>administrative documents</text>
@@ -424,7 +424,7 @@
 		<text>dangerous cave</text>
 	</string>
 	<string id="ui_st_upgrade">
-		<text>Repair/Modify</text>
+		<text>Repair/modifications</text>
 	</string>
 	<string id="ui_st_buy">
 		<text>Buy</text>
@@ -488,19 +488,19 @@
 		<text>Looting disabled</text>
 	</string>	
 	<string id="st_set_companion_to_loot_corpse_state">
-		<text>Can loot corpses</text>
+		<text>Loot corpses</text>
 	</string>
 	<string id="st_set_companion_to_loot_items_state">
-		<text>Can pickup items</text>
+		<text>Loot items</text>
 	</string>
 	<string id="st_companion_state_stealth_enabled">
-		<text>Companion stealth mode disabled</text>
+		<text>Begin stealth mode</text>
 	</string>
 	<string id="st_companion_state_stealth_disabled">
-		<text>Companion stealth mode enabled</text>
+		<text>End stealth mode</text>
 	</string>
 	<string id="st_set_companion_to_stealth_state">
-		<text>Stealth mode</text>
+		<text>Stealth</text>
 	</string>
 	<!-- Sleep deprivation -->
 	<string id="st_sleep_awake">
@@ -542,20 +542,79 @@
 		<text>Stash cannot be placed here</text>
 	</string>
 	
+	
+	<!--     game.translate_string("")      -->
+	
 	<!-- Miscellaneous -->
+	<string id="st_ui_selected">
+		<text>Selected</text>
+	</string>
+	<string id="st_ui_arts">
+		<text>Artefacts</text>
+	</string>
+	<string id="st_ui_containers">
+		<text>Container</text>
+	</string>
+	<string id="st_ui_remove_art">
+		<text>Get artefact</text>
+	</string>
+	<string id="st_ui_place_art">
+		<text>Put artefact</text>
+	</string>
+	<string id="st_body_loot">
+		<text>Chop body</text>
+	</string>
 	<string id="st_body_decayed">
-		<text>Body is badly decayed</text>
+		<text>The body is too decayed</text>
+	</string>
+	<string id="st_body_useless">
+		<text>The body has nothing useful</text>
+	</string>
+	<string id="st_body_knife_needed">
+		<text>Need a knife</text>
+	</string>
+	<string id="st_body_knife_bad">
+		<text>The knife is in very bad condition</text>
+	</string>
+	<string id="st_body_knife_weak">
+		<text>Need a stronger knife for this mutant</text>
+	</string>
+	<string id="st_body_kick">
+		<text>Kick</text>
 	</string>
 	<string id="st_invalid_position">
 		<text>Position not on AI Map</text>
 	</string>
 	<string id="st_lamp_disconnected">
-		<text>Head lamp disconnected from UPD</text>
+		<text>Head lamp disconnected from the UPD</text>
 	</string>
 	<string id="st_lamp_equipped">
 		<text>Head lamp equipped</text>
 	</string>
-	
+	<string id="st_upd_disconnected">
+		<text>You don't have a Universal Power Device (UPD)</text>
+	</string>
+	<string id="st_upd_low">
+		<text>Low battery power</text>
+	</string>
+	<string id="st_cfm">
+		<text>Use of mess kit only possible near a lit campfire</text>
+	</string>
+	<string id="st_camp_help">
+		<text>Campfire lighting successful</text>
+	</string>
+	<string id="st_fail">
+		<text>Campfire lighting unsuccessful</text>
+	</string>
+	<string id="st_full_charge">
+		<text>Battery fully charged</text>
+	</string>
+	<string id="st_charging">
+		<text>Current charge:</text>
+	</string>
+	<string id="st_rad_level">
+		<text>Radiation level</text>
+	</string>
 	<string id="st_travel_event">
 		<text>It would be unsafe to travel with enemies nearby</text>
 	</string>
@@ -565,10 +624,78 @@
 	<string id="st_travel_already_here">
 		<text>You are already at your destination</text>
 	</string>
+	<string id="st_only_campfire_save">
+		<text>Manual saving is disabled (campfires only)</text>
+	</string>
 	<string id="st_wish_granted">
 		<text>WISH GRANTED!</text>
 	</string>
+	<string id="st_only_campfire_load">
+		<text>Reloading while alive is disabled</text>
+	</string>
+	<string id="st_only_campfire_quit">
+		<text>Quitting while alive is disabled</text>
+	</string>
+	<string id="st_swsh">
+		<text>You need something sharp to open the can</text>
+	</string>
+	<string id="st_camp_m">
+		<text>You need a lighter to start a fire</text>
+	</string>
+	<string id="st_cant_sleep_find_shelter_mlr">
+		<text>A safer place is needed to sleep</text> 
+	</string>
+	<string id="st_cant_sleep_outside_tent_mlr">
+		<text>You have to go inside your tent to sleep</text> 
+	</string>
+
+	<!-- IMM -->
+	<string id="st_imm_smoke_fail">
+		<text>You need matches to light up your smoke</text>
+	</string>
+	<string id="st_imm_smoke_already_used">
+		<text>You already have a similar effect with greater efficiency</text>
+	</string>
+	<string id="st_imm_befor_swiss">
+		<text>You need something sharp to open the can</text>
+	</string>
+	<string id="st_imm_need_swiss">
+		<text>To open the can, you need a Swiss knife</text>
+	</string>
+	<string id="st_imm_swiss_broken">
+		<text>Your Swiss knife broke</text>
+	</string>
 	<string id="ui_inv_download">
 		<text>download</text>
+	</string>
+	<string id="st_imm_swiss_open">
+		<text>Open can</text>
+	</string>
+	
+	<string id="st_recipe_is_known">
+		<text>You read this before</text>
+	</string>
+	<string id="st_letter_is_known">
+		<text>You read this before</text>
+	</string>
+	
+	<!-- bad turn -->
+	<string id="st_bad_turn_into_bandit">
+		<text>You are expelled from the group!</text>
+	</string>
+	<string id="st_bad_turn_into_bandit_news">
+		<text>%c[0,255,0,0]You are expelled from the group!</text>
+	</string>
+	<string id="st_bad_turn_into_zombie">
+		<text>The Psi-radiation level is critical and you have been zombified!</text>
+	</string>
+	<string id="st_bad_turn_into_zombie_news">
+		<text>%c[0,255,64,0]The Psi-radiation level is critical and you have been zombified!</text>
+	</string>
+	<string id="st_bad_turn_dezombification">
+		<text>Dezombification finished succesfully!</text>
+	</string>
+	<string id="st_bad_turn_dezombification_news">
+		<text>%c[0,255,64,0]Dezombification finished succesfully!</text>
 	</string>
 </string_table>
