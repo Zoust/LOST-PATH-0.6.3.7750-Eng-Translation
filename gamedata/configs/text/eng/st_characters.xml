@@ -340,7 +340,7 @@
 		<text>Ivan Trodnik</text>
   </string>
    <string id="marsh_doctor_name">
-		<text>Doc</text>
+		<text>Doctor</text>
   </string>
   <string id="mar_smart_terrain_base_stalker_leader_marsh_name">
 		<text>Cold</text>
@@ -400,10 +400,10 @@
 		<text>Research assistant at the mobile lab. No details available.</text>
 	</string>
 	<string id="yan_semenov_name">
-		<text>Assistant Semenov</text>
+		<text>Professor Semenov</text>
 	</string>
 	<string id="yan_vasilyev_name">
-		<text>Vasiliev</text>
+		<text>Professor Vasiliev</text>
 	</string>
 	<string id="yan_vasilyev_bio">
 		<text>Research assistant at the mobile lab. No details available.</text>
@@ -487,7 +487,7 @@
 		<text>Beast</text>
 	</string>
 	<string id="sar2_bandit_leader_name">
-		<text>Vasya "Boar"</text>
+		<text>Vasya 'Boar'</text>
 	</string>
 	<string id="sar2_bio">
 		<text>A psychomaterial form created by the Monolith.</text>
@@ -505,7 +505,7 @@
 		<text>Security Chief</text>
 	</string>
 	<string id="sar2_dolg_skull_name">
-		<text>"Skull"</text>
+		<text>'Skull'</text>
 	</string>
 	<string id="sar2_dolg_zastava_commander_name">
 		<text>Outpost commander</text>
@@ -514,13 +514,13 @@
 		<text>Yurik</text>
 	</string>
 	<string id="sar2_explorer_name">
-		<text>Zheka "Doublet"</text>
+		<text>Zheka 'Doublet'</text>
 	</string>
 	<string id="sar2_fanat_name">
-		<text>"Fanatic"</text>
+		<text>'Fanatic'</text>
 	</string>
 	<string id="sar2_fox_name">
-		<text>"Fox"</text>
+		<text>'Fox'</text>
 	</string>
 	<string id="sar2_gordon_name">
 		<text>Gordon</text>
@@ -562,34 +562,34 @@
 		<text>Spotty</text>
 	</string>
 	<string id="sar2_seryi_name">
-		<text>"Seriy"</text>
+		<text>'Seriy'</text>
 	</string>
 	<string id="sar2_svoboda_blockpost_leader_name">
-		<text>"Cap"</text>
+		<text>'Cap'</text>
 	</string>
 	<string id="sar2_svoboda_bodyguard_name">
-		<text>"Kaput"</text>
+		<text>'Kaput'</text>
 	</string>
 	<string id="sar2_svoboda_cook_name">
-		<text>"Chef"</text>
+		<text>'Chef'</text>
 	</string>
 	<string id="sar2_svoboda_engeneer_name">
 		<text>Screw</text>
 	</string>
 	<string id="sar2_svoboda_leader_name">
-		<text>"Lukash"</text>
+		<text>'Lukash'</text>
 	</string>
 	<string id="sar2_svoboda_max_name">
-		<text>"Max"</text>
+		<text>'Max'</text>
 	</string>
 	<string id="sar2_svoboda_stukach_name">
 		<text>Pavlik</text>
 	</string>
 	<string id="sar2_svoboda_trader_name">
-		<text>"Skinflint"</text>
+		<text>'Skinflint'</text>
 	</string>
 	<string id="sar2_svoboda_ugrumyi_name">
-		<text>"Murk"</text>
+		<text>'Murk'</text>
 	</string>
 	<string id="sar2_tiran_name">
 		<text>Tyran</text>
@@ -604,7 +604,7 @@
 		<text>General Voronin</text>
 	</string>
 	<string id="sar2_wolf_name">
-		<text>"Wolf"</text>
+		<text>'Wolf'</text>
 	</string>
 	<string id="dar_kalugin_name">
 	    <text>Piotr Kalugin</text> 

@@ -193,7 +193,7 @@
 		<text>By walking, buddy. Walk on over towards Jupiter and ask your questions there, 'cause there's no direct route from Zaton to Pripyat and that's a scientific fact.</text>
 	</string>
 	<string id="about_quests_dialog_bandit_43">
-		<text>Hey buddy, do I look like a guide or what? I mean, is there a tattoo on my forehead that says "Ask stupid questions here"  or something? Go ask Pilot, he's paid to answer questions about that shit.</text>
+		<text>Hey buddy, do I look like a guide or what? I mean, is there a tattoo on my forehead that says 'Ask stupid questions here' or something? Go ask Pilot, he's paid to answer questions about that shit.</text>
 	</string>
 	<string id="about_quests_dialog_bandit_44">
 		<text>No... What would I do there anyways? There ain't no stalkers to rip off there!</text>
@@ -597,7 +597,7 @@
 		<text>Freedom, us in other words. We work with the scientists all the time, so guarding them would be piece of cake for us. Talk to our boss Loki over at Yanov - he'll agree for sure.</text>
 	</string>
 	<string id="about_quests_dialog_freedom_402">
-		<text>I ain't sure, friend, 'cause from what I've been hearing the eggheads hired a Duty squad to work for them... We'd love to guard the scientists, but staring at those constipated Duty faces every day just ain't worth it.</text>
+		<text>I ain't sure, friend, 'cause from what I've been hearing, the eggheads hired a Duty squad to work for them... We'd love to guard the scientists, but staring at those constipated Duty faces every day just ain't worth it.</text>
 	</string>
 	<string id="about_quests_dialog_freedom_42">
 		<text>They say you can get there from Jupiter... I mean the plant, not the planet... Hah! That's a good one, you gotta admit!</text>
@@ -793,7 +793,7 @@
 		<text>I saw one myself... It didn't look like it crashed but it wasn't flying good either. It was swinging from side to side until it landed on a plateau in the south of Zaton... It'd be interesting to see whether anyone survived... If we only knew a way to get up there. Actually, I heard Noah from the psycho barge might know...</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_22">
-		<text>I heard about a few military choppers crashing not far from here... People say different things, but there's one I remember clearly. They said it landed on the reserve helipad that jar-heads themselves mined back in the day. Can you believe the irony in that shit? My old man used to say: "Don't dig a hole for another, 'cause you'll be the one that falls in it." True, ain't it?</text>
+		<text>I heard about a few military choppers crashing not far from here... People say different things, but there's one I remember clearly. They said it landed on the reserve helipad that jar-heads themselves mined back in the day. Can you believe the irony in that shit? My old man used to say: 'Don't dig a hole for another, 'cause you'll be the one that falls in it.' True, ain't it?</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_23">
 		<text>A buddy of mine told me this story... He went to the Iron Forest to get some artefacts and as soon as he got there he heard this crash behind him. He turned to see what it was and saw a chopper coming towards him at full speed, taking down pylons and shit on its way. He bolted the hell outta there... I'm surprised he made it out without landing in an anomaly. You won't have much trouble finding the Iron Forest - you can see it from miles off. It's full of friggin' poltergeists, too, so keep your wits about ya.</text>
@@ -841,7 +841,7 @@
 		<text>No, but I heard that a jar-head was spotted by the Volkhov AA complex. I don't really believe it though... They could be lying or maybe they just can't tell a zombie from a soldier.</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_38">
-		<text>Military? Well, I heard people saying that "a whole military unit lead by a stalker" was making its way past the Jupiter plant, but I didn't pay much attention to that gossip.</text>
+		<text>Military? Well, I heard people saying that 'a whole military unit lead by a stalker' was making its way past the Jupiter plant, but I didn't pay much attention to that gossip.</text>
 	</string>
 	<string id="about_quests_dialog_stalkers_4">
 		<text>Do you know how to get to Pripyat?</text>
@@ -952,7 +952,7 @@
 		<text>Man, I've got other shit to worry about without your choppers... I mean, I bet crashing a heli hurts like hell, but other than that I don't know what to say.</text>
 	</string>
 	<string id="about_quests_dialog_bandit_27">
-		<text>What are you talking about, punk? You have to smoke some real hardcore shit to see a chopper around here, cause real ones don't got nothin to do in this place.</text>
+		<text>What are you talking about, punk? You have to smoke some real hardcore shit to see a chopper around here, cause real ones don't got nothin' to do in this place.</text>
 	</string>
 	<string id="about_quests_dialog_freedom_27">
 		<text>Huh? Nah, man, I don't concern myself with shit like that. It don't help with my mission of disseminating knowledge one bit, you know what I mean?</text>
@@ -1018,7 +1018,7 @@
 		<text>I'll help you out.</text>
 	</string>
 	<string id="axr_phrase_actor_dont_has_medkit">
-		<text>Sorry, I can't help you.</text>
+		<text>Sorry. I can't help you.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_trade">
 		<text>I would like to exchange equipment.</text>
@@ -1039,7 +1039,7 @@
 		<text>Interesting...</text>
 	</string>
 	<string id="dm_dialog_actor_answer_2">
-		<text>Uh...sorry to cut it short but I gotta go.</text>
+		<text>Uh... Sorry to cut it short, but I gotta go.</text>
 	</string>
 	<string id="dm_dialog_companion_can_i_come_with_1">
 		<text>Let's travel together. What do you say?</text>
@@ -1051,7 +1051,7 @@
 		<text>Let's continue together as a team. What do you say?</text>
 	</string>
 	<string id="dm_dialog_companion_actor_reply_to_join_1">
-		<text>Just focus on where you aim with those guns then.</text>
+		<text>Just focus on where you aim with those guns, then.</text>
 	</string>
 	<string id="dm_dialog_companion_actor_reply_to_join_2">
 		<text>Fine. But If you die, I'm taking your shit.</text>
@@ -1066,25 +1066,25 @@
 		<text>Thanks, buddy. I promise I won't get in the way.</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_alone_2">
-		<text>Great, I really need someone's help.</text>
+		<text>Great. I really need someone's help.</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_alone_3">
-		<text>Bad ass man. Thanks.</text>
+		<text>Bad-ass, man. Thanks.</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_bad_alone_1">
 		<text>Okay. Thanks anyway...</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_bad_alone_2">
-		<text>Woah, man! What the hell is your problem...</text>
+		<text>Woah, man! What the hell is your problem?</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_1">
-		<text>That's great to hear! Come on guys!</text>
+		<text>That's great to hear! Come on, guys!</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_2">
-		<text>Alright. Hey guys, this stalker will get us there. Follow him.</text>
+		<text>Alright. Hey, guys, this stalker will get us there. Follow him.</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_good_3">
-		<text>Let's get a move on. We have some traveling ahead of us.</text>
+		<text>Let's get a move on. We have some travelling ahead of us.</text>
 	</string>
 	<string id="dm_dialog_companion_final_words_bad_1">
 		<text>Whatever.</text>
@@ -1120,13 +1120,13 @@
 		<text>Shhh... Get down and keep quiet.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_stop_stealth">
-		<text>Alright, let's continue as normal.</text>
+		<text>Alright. Let's continue as normal.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_relax">
 		<text>Relax a bit. I'll tell you when it's time to go.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_relax_over">
-		<text>Alright it's time to go.</text>
+		<text>Alright. It's time to go.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_leave">
 		<text>I need to travel on my own from here.</text>
@@ -1150,7 +1150,7 @@
 		<text>Attack enemies only on sight.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_ignore_combat_but_help_actor">
-		<text>Don't attack anyone unless I'm attacked.</text>
+		<text>Don't attack anyone unless they attack me first.</text>
 	</string>
 	<string id="axr_phrase_companion_acknowledge_1">
 		<text>You got it.</text>
@@ -1168,7 +1168,7 @@
 		<text>Nevermind.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_hide_in_cover">
-		<text>Quick, find some cover!</text>
+		<text>Quick! Find some cover!</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_patrol_menu">
 		<text>I want you to patrol an area.</text>
@@ -1186,7 +1186,7 @@
 		<text>Add this spot to your current patrol.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_gather_items">
-		<text>Pick up any equipment you come across, it may be useful.</text>
+		<text>Pick up any equipment you come across; it may be useful.</text>
 	</string>
 	<string id="axr_phrase_actor_give_command_loot_corpses">
 		<text>Scavenge bodies for anything useful.</text>
