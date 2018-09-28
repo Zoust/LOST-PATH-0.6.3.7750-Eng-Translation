@@ -13,7 +13,7 @@
 <string_table>
 
     <string id="st_sim_ordered_task_query">
-<text>how may I help you?</text>
+<text>How may I help you ?</text>
 </string>
 <string id="st_sim_ordered_task_query_finished">
 <text>I did all what you asked for.</text>
@@ -23,10 +23,10 @@
 <text>Security camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_6_text">
-<text>to Destroy the group "Monolith", which represents a threat to the mercenary camp</text>
+<text>Destroy a group of "Monolith", which represents a threat for the mercenary camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_6_about">
- <text>On one of our camps preparing an attack "Monolith". Go and crush a threat, I'll give you the data on the handheld.</text>
+ <text>The "Monolith" is preparing an attack on one of our camp. Go there and crush the threat, I'll give you the data on the handheld.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_6_finish">
 <text>Good job! Here's the reward.</text>
@@ -36,10 +36,10 @@
 <text>Security camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_7_text">
-<text>to Protect the camp of the mercenaries, from the attack of the mutant</text>
+<text>Protect the mercenaries camp from a mutant attack</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_7_about">
- <text>we Have on-site mutants divorced, the mud, attack our positions, it is necessary to clean the sector from a congestion of monsters.</text>
+ <text>we have spotted mutants near our positions, it is necessary to clean the sector from these monsters.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_7_finish">
 <text>Good job! Here's the reward.</text>
@@ -49,10 +49,10 @@
 <text>Extermination camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_8_text">
-<text>to Strip the Outpost of "Debt"</text>
+<text>Destroy the "Duty" outpost</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_8_about">
- <text>we Have received an order from one group, they want us destroyed one of the outposts of "Debt", paid good money, so you do the work.</text>
+ <text>We have received new orders, we have to destroy one of the outposts of "Duty", we can pay paid good money if you do the work.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_8_finish">
 <text>Good job! Here's the reward.</text>
@@ -62,10 +62,10 @@
 <text>Security camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_9_text">
-<text>to Protect the camp of the mercenaries</text>
+<text>Protect the camp of the mercenaries</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_9_about">
- <text>the Enemy attacked one of our camps here in the Dead City! Our help to repel the attack!</text>
+ <text>Enemy attacked one of our camps here in Dead City! We need your help to repel the attack!</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_9_finish">
 <text>Good job! Here's the reward.</text>
@@ -75,10 +75,10 @@
 <text>Extermination camp</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_10_text">
-<text>to Destroy the mutants</text>
+<text>Destroy the mutants</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_10_about">
- <text>Our customers, this time scientists have provided a list of logs of mutants which must be destroyed, whether the carcass of them will learn, or will dig in the area, their measurements do or something, but generally it does not matter, your task is to come to the place and reduce the population of living creatures in the area, pay seems good, take?</text>
+ <text>Our customers, this time scientists, have provided a list of mutants which must be destroyed, maybe they need the carcass for experiments, or they want to dig in the area, for their measurements or something, but whatever their reason is, it does not really matter, your task is to get there and reduce the population of living creatures in the area, pay seems good, you take ?</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_10_finish">
 <text>Good job! Here's the reward.</text>
@@ -88,42 +88,42 @@
 <text>Extermination camp</text>
 </string>
  <string id="cit_killers_merc_trader_stalker_task_11_text">
-<text>to Destroy the camp of "Liberty"</text>
+<text>Destroy the camp of "Freedom"</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_11_about">
-<text>"Freedom" again the buzz began to attack our troops, to disrupt us operations, I need to stop doing this, arrange a demonstration of the sweep - to destroy one of their camps.</text>
+<text>"Freedom" again the buzz began to attack our troops, to disrupt us operations, I need this to stop. Arrange a demonstration and go destroy one of their camps.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_11_finish">
 <text>Good job! Here's the reward.</text>
 </string>
 
 <string id="cit_killers_merc_trader_stalker_task_12_name">
-<text>to Get the artifact %s</text>
+<text>Get the %s artifact</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_12_text">
-<text>to Get the artifact %s and take it to the Swede, customers have to pay well</text>
+<text>Get the %s artifact and take it to the Swede, customers have to pay well</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_12_about">
-<text>Our customers are asking for them to get a certain artifact... take the order? If you agree tell all the details.</text>
+<text>Our customers are asking to get a certain artifact for them... Can you take the order ? If you agree, I'll tell you all the details.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_12_fetch_about">
-<text>They are asking to get the artifact %s. Don't know where you'll get it, but if you find - bring, promise to pay very well.</text>
+<text>They are asking to get a %s artifact. Don't know where you'll get it, but if you find - bring, promise to pay very well.</text>
 </string>
  <string id="cit_killers_merc_trader_stalker_task_12_fetch_finish">
 <text>Excellent work, customers will be happy, here, take my share.</text>
 </string>
 
 <string id="cit_killers_merc_trader_stalker_task_13_name">
-<text>to Extract the part of the body of the monster %s</text>
+<text>Bring back a bodypart of %s</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_13_text">
-<text>to Produce some mutant %s and take it to the Swedish</text>
+<text>Find some %s, and take back its bodypart to the Swedish</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_13_about">
-<text>Scientists are ordered to produce them a part of the body of the mutant for their studies, promised to pay well.</text>
+<text>Scientists have ordered to bring them a bodypart of some mutant for their studies, and promised to pay well.</text>
 </string>
  <string id="cit_killers_merc_trader_stalker_task_13_fetch_about">
-<text>They are asked to produce some mutant %s. Don't know where you'll get it, but if you find - bring, promise to pay very well.</text>
+<text>They are asked to find some %s mutant. Don't know where you'll get it, but if you find - bring some samples back, promise to pay very well.</text>
 </string>
 <string id="cit_killers_merc_trader_stalker_task_13_fetch_finish">
 <text>Excellent work, egghead will be happy, here, take my share.</text>

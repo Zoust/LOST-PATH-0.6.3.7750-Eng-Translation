@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="pda_btn_rpg_hint">
-		<text>Прокачка персонажа</text>
+		<text>Bleed the character</text>
 	</string>
 	<string id="pda_btn_rpg">
-		<text>Прокачка</text>
+		<text>Prorolling</text>
 	</string>
 	<string id="st_deactivate_battery">
-		<text>вынуть батарейку</text>
+		<text>remove the battery</text>
 	</string>
 	<string id="st_activate_battery">
-		<text>вставить батарейку</text>
+		<text>insert battery</text>
 	</string>
 	<string id="st_create_stash">
-		<text>создать тайник</text>
+		<text>create a cache</text>
 	</string>
 	<string id="ui_mm_show_smart">
 <text>the Old display card</text>
@@ -25,7 +25,7 @@
 <text>Random place</text>
 	</string>
 	<string id="ui_st_jupiter_village">
-		<text>«Янов»</text>
+		<text>Yanov</text>
 </string>
 <string id="st_ui_pda_legend_sniper">
 <text>Sniper</text>

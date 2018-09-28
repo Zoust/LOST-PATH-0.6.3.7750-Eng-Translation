@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_wpn_abakan_magma">
-<text>an-94 "Abakan" Anomaly</text>
+<text>An-94 "Abakan" Anomaly</text>
 </string>
 <string id="st_wpn_abakan_magma_descr">
 <text>a Machine of unknown origin. Legend has it that the machine was in the anomaly Roasting and because of this gained an interesting property. Some mechanisms of the machine can "regenerate" to a state. A very interesting instance.</text>
@@ -67,13 +67,13 @@
  <text>This shotgun belonged to his Father Valerian. From the normal version only differs by a larger store and slightly increased rate of fire.</text>
 </string>
 <string id="st_wpn_abakan_dolg">
-<text>an-94 "Dolgovtsa"</text>
+<text>An-94 "Dolgovtsa"</text>
 </string>
 <string id="st_wpn_abakan_dolg_descr">
 <text>a Unique example of an-94 assault rifle with an integrated underbarrel grenade launcher GP-25 and sniper sight PSO-1M high multiplicity. Belonged to Dolgova from the group of the Skull. The modification of this machine has allowed to reduce recoil and slightly increase the damage.</text>
 </string>
 <string id="st_wpn_abakan_m">
- <text>an-94 "Assault"</text>
+ <text>An-94 "Assault"</text>
 </string>
 <string id="st_wpn_abakan_m_descr">
 <text>modification of the an-94 assault rifle with an integrated underbarrel grenade launcher GP-25.</text>
@@ -82,7 +82,7 @@
 <text>Storm</text>
 </string>
 <string id="st_wpn_groza_545_descr">
-<text>prototype-automatic grenade launcher, a Russian modification of the standard "Thunder-C14", specially created for operating in the Area of special forces. Characterized by increased size of the store.</text>
+<text>Prototype-automatic grenade launcher, a Russian modification of the standard "Thunder-C14", specially created for operating in the Area of special forces. Characterized by increased size of the store.</text>
 </string>
 <string id="st_wpn_svu_maks">
 <text>СВУ2-AND "max"</text>
@@ -94,7 +94,7 @@
 <text>SIG SG-550</text>
 </string>
 <string id="st_wpn_sig550_545_descr">
-<text>craftsmen have redesigned the barrel of the SIG SG-550 is more common in the area of the cartridge: now for equipment used ammunition caliber 5,45 x39 mm</text>
+<text>Craftsmen have redesigned the barrel of the SIG SG-550 is more common in the area of the cartridge: now for equipment used ammunition caliber 5,45 x39 mm</text>
 </string>
 
  <string id="st_binocular_name">

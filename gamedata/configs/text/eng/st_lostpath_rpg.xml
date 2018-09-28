@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="lp_no_strong_and_vospr">
-		<text>Ваших знаний и силы недостаточно для ношения данного костюма.</text>
+		<text>Your knowledge and strength is not enough to wear this costume.</text>
 	</string>
 	
 	<string id="lp_no_repair_weapon">
-		<text>Для использования необходим навык "Оружейник I"</text>
+		<text>To use the skill "Weaponer I"</text>
 	</string>
 	
 	<string id="lp_no_repair_outfit">
-		<text>Для использования необходим навык "Кузнец I"</text>
+		<text>To use the skill "Blacksmith I"</text>
 	</string>
 	
 	<string id="lp_no_perk_21">
-		<text>Для использования необходим навык "Фанат больших пушек I"</text>
+		<text>To use the skill "Fan of large guns I"</text>
 	</string>
 	
 	<string id="lp_no_perk_22">
-		<text>Для использования необходим навык "Фанат больших пушек II"</text>
+		<text>To use the skill "Fan of large guns II"</text>
 	</string>
 	
 	<string id="lp_no_perk_23">
-		<text>Для использования необходим навык "Снайпер"</text>
+		<text>To use the skill "Sniper"</text>
 	</string>
 	
 	<string id="lp_no_perk_24">
-		<text>Для использования необходим навык "Хладнокровный убийца"</text>
+		<text>To use the skill "Cold-blooded killer"</text>
 	</string>
 	
 	<string id="lp_no_perk_25">
-		<text>Для использования необходим навык "Силовая подготовка"</text>
+		<text>To use the skill "Strength training"</text>
 	</string>
 </string_table>

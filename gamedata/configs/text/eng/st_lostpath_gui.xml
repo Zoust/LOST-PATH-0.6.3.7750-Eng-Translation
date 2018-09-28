@@ -4,13 +4,12 @@
 <text>Personal account</text>
 </string>
 <string id="ui_treasure">
-<text>the cache</text>
+<text>Cache</text>
 </string>
 <string id="ui_transition">
 <text>Itinerary</text>
-	</string>
-	
+	</string>	
 	<string id="st_lostpath_barter">
-		<text>ƒополнительна€ информаци€ по бартеру с группировками:\n\n%c[0,153,255,255] Х %c[default]ќбмен репутации с группировкой доступен всем нейтральным группировкам.\n\n%c[0,153,255,255] Х %c[default]ƒл€ обмена необходимо подойти к торговцу данной группировки и предложить ему обмен€ть вклад группировки на товары, предлагаемые самим торговцем.\n\n%c[0,153,255,255] Х %c[default]„ем больше вы сделаете вклад дл€ группировки - тем больше будет уровень снар€жени€, что вы сможете обмен€ть у торговцев.\n\n%c[0,153,255,255] Х %c[default]ƒл€ доступа к новому уровню бартера необходимо совершить суммарный обмен на определенную сумму.</text>
+		<text>Additional information on barter with factions :\n\n%c[0,153,255,255] Х %c[default]Exchange reputation with grouping is available to all neutral groupings.\n\n%c[0,153,255,255] Х %c[default]For the exchange, it is necessary to approach the merchant of this group and invite him to exchange the group's contribution to the goods offered by the merchant himself.\n\n%c[0,153,255,255] Х %c[default]The more you contribute to the grouping - the more will be the level of equipment that you can exchange from the traders.\n\n%c[0,153,255,255] Х %c[default]To access a new level of barter, you must make a total exchange for a certain amount.</text>
 </string>
 </string_table>

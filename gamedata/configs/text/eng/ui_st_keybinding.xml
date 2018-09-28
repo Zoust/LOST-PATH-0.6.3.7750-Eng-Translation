@@ -196,10 +196,10 @@
 		<text>Weapon 6</text>
 	</string>
 	<string id="kb_weapon8">
-		<text>Пистолет</text>
+		<text>Pistol</text>
 	</string>
 	<string id="kb_weapon9">
-		<text>Топор</text>
+		<text>Axe</text>
 	</string>
 	<string id="kb_wpn_next">
 		<text>Change ammo type</text>

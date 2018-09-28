@@ -13,17 +13,16 @@
 	<text>PSO-1 x16</text>
 	</string>
 	<string id="st_addon_scope_fn">
-	    <text>ѕрицел дл€ FN F2000</text>
+	    <text>A sight for FN F2000</text>
 	</string>
 	<string id="st_addon_scope_fns">
 	    <text>FN F2000</text>
 	</string>
 	<string id="st_addon_scope_fn_descr">
-	    <text>ѕрицельный модуль дл€ винтовки FN F2000. ”станавливаетс€ на планку пикатини и закрываетс€ защитным корпусом. “ак же модуль имеет динамически настраиваемую кратность дл€ более точного ведени€ бо€. ƒовольно редкий модуль дл€ весьма редкой и дорогой винтовки.</text>
+	    <text>Sight module for the FN F2000 rifle. It is installed on the picatini bar and closed with a protective casing. Also, the module has a dynamically adjustable multiplicity for more accurate combat. A fairly rare module for a very rare and expensive rifle.</text>
 	</string>
 	<string id="st_attach_addon_scope">
-	    <text>присоединить прицел</text>
+	    <text>attach sight</text>
 	</string>
-	
 	
 </string_table>

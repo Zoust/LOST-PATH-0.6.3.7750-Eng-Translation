@@ -30,7 +30,7 @@
 
 
 	<string id="ui_st_eastern_checkpoint">
-		<text>Кладбище Техники</text>
+		<text>Cemetery Techniques</text>
 	</string>
 
 	<string id="ui_st_eastern_factory">
@@ -74,11 +74,11 @@
 	</string>
 
 	<string id="ui_st_hideout">
-		<text>Окраины Припяти</text>
+		<text>Outskirts of Pripyat</text>
 	</string>
 
 	<string id="ui_st_power_station">
-		<text>ЧАЭС</text>
+		<text>CNPP</text>
 	</string>
 
 	<string id="ui_st_processing_station">
@@ -134,7 +134,7 @@
 	</string>
 
 	<string id="ui_st_village_ruins">
-		<text>Болота. Руины деревни</text>
+		<text>The swamps. Ruins of the village</text>
 	</string>
 
 	<string id="ui_st_yanov_station">

@@ -2,180 +2,178 @@
 <string_table>
 
 	<string id="st_about_actor_no_sleep_text">
-		<text>К сожалению сейчас уснуть невозможно. Обычное время сна: с 21:00 до 6:00</text>
+		<text>Unfortunately now it is impossible to fall asleep. Normal sleep time: from 21:00 to 6:00</text>
 	</string>
 	<string id="st_sleeping_bag_title">
-		<text>«Спальной мешок»</text>
+		<text>"Sleeping bag"</text>
 	</string>
 	<string id="st_sleeping_bag_descr">
-		<text>Непромокаемый, хорошо утепленный спальный мешок. Обработан специальным составом, отпугивающим мутантов.</text>
+		<text>Rainproof, well insulated sleeping bag. Treated with a special composition that repels mutants.</text>
 	</string>
 	<string id="st_repair_arms_box_descr">
-		<text>Специальный набор инструментов и материалов предназначенный для ремонта оружия.</text>
+		<text>A special set of tools and materials designed to repair weapons.</text>
 	</string>
 	<string id="st_repair_arms_box_title">
-		<text>Ремкомплект для оружия</text>
+		<text>Repair kit for weapons</text>
 	</string>
 	<string id="st_repair_arms_box_used_descr">
-		<text>Однажды уже использованный набор с инструментами. Предназначен для ремонта оружия, однако тех деталей, что в нем есть, недостаточно для полноценного ремонта. Применяется лишь для ремонта оружия с помощью оружия-донора.</text>
+		<text>Once already used a set with tools. It is designed to repair weapons, but those parts that it contains are not enough for a full repair. It is used only for repairing weapons with the help of a donor weapon.</text>
 	</string>
 	<string id="st_repair_arms_box_used_title">
-		<text>Ремкомплект для оружия (использ.)</text>
+		<text>Repair kit for weapons (used)</text>
 	</string>
 	<string id="st_repair_outfit_box_descr">
-		<text>Специальный набор инструментов и материалов предназначенный для ремонта бронекостюма.</text>
+		<text>A special set of tools and materials designed to repair an armored suit.</text>
 	</string>
 	<string id="st_repair_outfit_box_title">
-		<text>Ремкомплект для брони</text>
+		<text>Repair kit for armor</text>
 	</string>
 	<string id="st_repair_outfit_box_used_descr">
-		<text>Однажды уже использованный набор с инструментами. Предназначен для ремонта бронекостюмов, однако тех деталей, что в нем есть, не достаточно для полноценного ремонта. Применяется лишь для ремонта бронекостюмов с помощью брони-донора.</text>
+		<text>Once already used a set with tools. It is intended for repair of armored suits, however those details that it contains are not enough for a full repair. It is used only for repairing armored suits using a donor armor.</text>
 	</string>
 	<string id="st_repair_outfit_box_used_title">
-		<text>Ремкомплект для бронекостюмов (использ.)</text>
+		<text>Repair kit for armored suits (used)</text>
 	</string>
 	<string id="st_player_descr">
-		<text>Обычная модель mp-3 плеера специально модифицирована для условий Зоны, с поддержкой загрузки музыки через сталкерскую сеть. Работает на встроенной частице артефакта "Батарейка". Широкой популярности у сталкеров не приобрёл, но когда нет гитары, сойдёт и он.</text>
+		<text>The usual model of the mp-3 player is specially modified for Zone conditions, with support for downloading music via the stalker network. Works on the built-in particle of the "Battery" artifact. Widely popular with stalkers is not acquired, but when there is no guitar, it will come down.</text>
 	</string>
 	<string id="st_player">
-		<text>Плеер</text>
+		<text>Player</text>
 	</string>
 	
 	<!--Окно МП-3 плеера-->
 	<string id="st_mp3_new_content_descr">
-		<text>В МП-3 плеер был загружен новый трек.</text>
+		<text>A new track was uploaded in MP-3 player.</text>
 	</string>
 	<string id="st_mp3_new_content_title">
-		<text>Получен бонус-трек:</text>
+		<text>Bonus track received:</text>
 	</string>
 	<string id="st_mp3_player_merry">
-		<text>Веселая</text>
+		<text>Lilt</text>
 	</string>
 	<string id="st_mp3_player_dance">
-		<text>Клубная</text>
+		<text>Clubhouse</text>
 	</string>
 	<string id="st_mp3_player_themes">
-		<text>Саундтреки</text>
+		<text>Soundtracks</text>
 	</string>
 	<string id="st_mp3_player_stalker">
-		<text>Другая</text>
+		<text>Other</text>
 	</string>
 	<string id="st_mp3_player_bonuses">
-		<text>Бонусы</text>
+		<text>Bonus</text>
 	</string>
 	<string id="st_mp3_player_set_play">
-		<text>Воспроизвести</text>
+		<text>Play now</text>
 	</string>
 	<string id="st_mp3_player_set_stop">
-		<text>Остановить</text>
+		<text>Stop</text>
 	</string>
 	<string id="st_minus_volume_hint">
-		<text>Уменьшить громкость</text>
+		<text>Decrease volume</text>
 	</string>
 	<string id="st_plus_volume_hint">
-		<text>Увеличить громкость</text>
+		<text>Increase volume</text>
 	</string>
 	<string id="st_repeat_track_hint">
-		<text>Повторять один трек</text>
+		<text>Repeat one track</text>
 	</string>
 	<string id="st_queue_track_hint">
-		<text>Воспроизводить каждый трек по очереди</text>
+		<text>Play each track one by one</text>
 	</string>
 	
 	<!--Окно ремкомплектов-->
 	<string id="st_no_donor_repair">
-		<text>Предмет не удалось отремонировать,\n потому как у вас нет соответствующего донора.</text>
+		<text>The item could not be repaired, \ n because you do not have a matching donor.</text>
 	</string>
 	<string id="st_no_repair_title">
-		<text>Сбой ремонта:</text>
+		<text>Repair failure:</text>
 	</string>
 	<string id="st_no_repair">
-		<text>Предмет не удалось отремонировать,\n потому как его нет в слоте.</text>
+		<text>The item could not be repaired, \ n because it's not in the slot.</text>
 	</string>
 	<string id="st_repair_items">
-		<text>Отремонтировать</text>
+		<text>Repair</text>
 	</string>
 	<string id="st_menu_close">
-		<text>Закрыть</text>
+		<text>Close</text>
 	</string>
 	<string id="st_choose_weapon_repair_text">
-		<text>Как произвести ремонт: Отремонтировать оружие в слоте, использовав детали оружия такого же типа? Отремонтировать оружие, используя только ремкомплект?</text>
+		<text>How to repair: Repair the weapons in the slot using weapons of the same type? Repair the weapon using only the repair kit?</text>
 	</string>
 	<string id="st_choose_weapon_repair_button1">
-		<text>Используя детали.</text>
+		<text>Using the details.</text>
 	</string>
 	<string id="st_choose_weapon_repair_button2">
-		<text>Только ремкомплект.</text>
+		<text>Only repair kit.</text>
 	</string>
 	<string id="st_choose_outfit_repair_text">
-		<text>Как произвести ремонт: Отремонтировать надетую броню, использовав детали брони такого же типа? Использовать только ремкомплект?</text>
+		<text>How to repair: Repair the armor, using the same type of armor details? Use only the repair kit?</text>
 	</string>
 	<string id="st_choose_outfit_repair_button1">
-		<text>Используя детали.</text>
+		<text>Using the details.</text>
 	</string>
 	<string id="st_choose_outfit_repair_button2">
-		<text>Только ремкомплект.</text>
+		<text>Only repair kit.</text>
 	</string>
 	<string id="st_only_weapon_donor_repair_text">
-		<text>Данный ремкомплект может ремонтировать лишь с помощью деталей оружия-донора, если таковое у вас есть. Что вы хотите сделать?</text>
+		<text>This repair kit can be repaired only with the help of weapons-donor parts, if you have one. What do you want to do?</text>
 	</string>
 	<string id="st_only_weapon_donor_repair_button1">
-		<text>Используя детали.</text>
+		<text>Using the details.</text>
 	</string>
 	<string id="st_only_weapon_donor_repair_button2">
-		<text>Не ремонтировать.</text>
+		<text>Do not repair.</text>
 	</string>
 	<string id="st_only_outfit_donor_repair_text">
-		<text>Данный ремкомплект может ремонтировать лишь с помощью бронекостюма-донора, если таковой у вас есть. Что вы хотите сделать?</text>
+		<text>This repair kit can be repaired only with the help of a donor armored suit, if you have one. What do you want to do?</text>
 	</string>
 	<string id="st_only_outfit_donor_repair_button1">
-		<text>Использовать донора.</text>
+		<text>Use the donor.</text>
 	</string>
 	<string id="st_only_outfit_donor_repair_button2">
-		<text>Не ремонтировать.</text>
+		<text>Do not repair.</text>
 	</string>
 	<string id="st_repair_title">
-		<text>Отремонтирован предмет:</text>
+		<text>The object is repaired:</text>
 	</string>
 	<string id="st_repair_cond">
-		<text>НП=</text>
+		<text>IR =</text>
 	</string>
 	<string id="st_about_actor_no_explosive_charge_text">
-		<text>Невозможно установть заряд взрывчатки без неактивированного пульта дистанционного взрыва или установить более одного заряда вследствии технических ограничений.</text>
+		<text>It is not possible to install an explosive charge without an unactivated remote explosion or install more than one charge due to technical limitations.</text>
 	</string>
 	<string id="st_about_actor_no_explosive_control_text">
-		<text>Невозможно взорвать установленный заряд без батареи питания.</text>
+		<text>It is not possible to detonate an installed charge without a battery.</text>
 	</string>
 	<string id="st_voda">
-		<text>Минеральная вода</text>
+		<text>Mineral water</text>
 	</string>
 	<string id="st_voda_descr">
-		<text>Минеральная вода - отличный способ вывести радионуклиды без вреда здоровью, но сталкеры обычно пьют водку.</text>
+		<text>Mineral water is a great way to remove radionuclides without harm to health, but stalkers usually drink vodka.</text>
 	</string>
 	<string id="st_remote_explosive_charge">
-		<text>Заряд взрывчатки</text>
+		<text>Charge of explosives</text>
 	</string>
 	<string id="st_remote_explosive_charge_descr">
-		<text>Заряд взрывчатки, для установки нужен неактивированный пульт дистанционного взрыва. В момент установки ДУ и заряд настраиваются на одну частоту. Установить два заряда используя один пулть невозможно, также нерекомендуется устанавливать два заряда одновременно.</text>
+		<text>An explosive charge, an unactivated remote control unit is needed to install. At the time of installation, the remote control and charge are tuned to one frequency. It is not possible to install two charges using one bullet, it is also not recommended to install two charges simultaneously.</text>
 	</string>
 	<string id="st_ammo_remote_explosive_charge">
-		<text>ДУ неактивированное</text>
+		<text>DU non-activated</text>
 	</string>
 	<string id="st_ammo_remote_explosive_charge_descr">
-		<text>Устройство дистанционного взрыва - неактивированное. Используйте при установке заряда взрывчатки.</text>
+		<text>Remote explosion device - not activated. Use when installing an explosive charge.</text>
 	</string>
 	<string id="st_remote_explosive_control">
-		<text>ДУ активированное</text>
+		<text>Remote control activated</text>
 	</string>
 	<string id="st_remote_explosive_control_descr">
-		<text>Устройство дистанционного взрыва - активированное. Уже настроено на установленное взрывное устройство, просто нажмите кнопку для подрыва. Для работы требуется батарея.</text>
+		<text>Remote explosion device - activated. Already configured for an installed explosive device, just press the button to undermine. A battery is required for operation.</text>
 	</string>
 	<string id="st_ammo_remote_explosive_control">
-		<text>Батарея для ДУ</text>
+		<text>Battery for remote control</text>
 	</string>
 	<string id="st_ammo_remote_explosive_control_descr">
-		<text>Специалая батарея для устройства дистанционного взрыва.</text>
+		<text>Special battery for remote explosion device.</text>
 	</string>
-	
-	
 </string_table>

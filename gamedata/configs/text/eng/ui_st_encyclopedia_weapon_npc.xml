@@ -25,7 +25,7 @@
 0: Shotguns, weak PP\n
 1: Shortened AK series, AK series, AKM series, the average shotguns, SMG\n
 2: the standard AK series, AKM series, the average shotguns\n
-3: Abakan, 5У56-series, basic shotguns, ло5яд\n
+3: Abakan, 5У56-series, basic shotguns, MP5SD\n
 4: 9h39-series, FN SCAR-H, Galil, WA2000, RPD</text>
 </string>
 
@@ -37,7 +37,7 @@
 0: Weak PP, shotguns\n
 1: the standard AK series, AKM series, the average shotguns\n
 2: Abakan, 5У56-series, a weak rifle\n
-3: 5У56-series, basic shotguns, ло5яд, VSS "Vintorez"\n
+3: 5У56-series, basic shotguns, MP5SD, VSS "Vintorez"\n
 4: 9h39-series, FN SCAR-H, Galil, WA2000, RPD, RPG-7</text>
 </string>
 
@@ -64,7 +64,7 @@
 2: the standard AK series, AKM series, the average shotguns\n
 3: 5У56-series, AK-12, strong shotguns\n
 \singing the chance to get "Svarog" (very tiny)
- \pwesto conventional kits fall research, enhanced nutrition, enhanced first aid kits.</text>
+ \npwesto conventional kits fall research, enhanced nutrition, enhanced first aid kits.</text>
 </string>
 
 <string id="encyclopedia_weapon_npc_freedom">
@@ -84,7 +84,7 @@
 </string>
  <string id="encyclopedia_weapon_npc_mercenary_text">
 <text>Mercenaries:
-0: 5У56 series, VSK-94, SR25, ло5яд\n
+0: 5У56 series, VSK-94, SR25, MP5SD\n
 1: AEK-series, weak PP, 5У56 series, AK12, 9Ю91\n
 2: FAMAS, M-series, AK-12, Storm C14\n
 3: MTAR21, FAMAS, 5У56 series, AK-12, SR25, Storm C14\n
@@ -114,7 +114,7 @@ ss: Gauss</text>
 0: Weak PP, shotguns\n
 1: shortened AK-a series strong shotguns\n
 2: AK series, AKM series, Remington 870, Abakan, 5x56 series\n
-3: Abakan, 5У56 series, powerful shotguns, ло5яд, M-series, G36 series, Storm C14\n
+3: Abakan, 5У56 series, powerful shotguns, MP5SD, M-series, G36 series, Storm C14\n
 4: 9h39 series, FN SCAR-H, RPD, and WA2000, Galil, G36 series, HK416, FN F2000, SVD\n</text>
 </string>
 	

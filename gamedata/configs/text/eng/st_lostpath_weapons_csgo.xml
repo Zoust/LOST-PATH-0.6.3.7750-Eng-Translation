@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_wpn_awp_asiimov">
-		<text>AWP «Азимов»</text>
+		<text>AWP "Azimov"</text>
 	</string>
 	<string id="st_wpn_awp_asiimov_descr">
-		<text>Рисунок в стиле хай-тек под названием «Азимов»</text>
+		<text>A hi-tech design called "Azimov"</text>
 	</string>
 	<string id="st_wpn_awp_dragon_lore">
-		<text>AWP «История о Драконе»</text>
+		<text>AWP "Dragon Lore"</text>
 	</string>
 	<string id="st_wpn_awp_dragon_lore_descr">
-		<text>Рисунок в стиле древне китайского дракона под названием «Dragon Lore»</text>
+		<text>A drawing in the style of an ancient Chinese dragon called «Dragon Lore»</text>
 	</string>
 	<string id="st_wpn_awp_hyper_beast">
-		<text>AWP «Скоростной зверь»</text>
+		<text>AWP "Speed Beast"</text>
 	</string>
 	<string id="st_wpn_awp_hyper_beast_descr">
-		<text>Рисунок чудовища под названием «Скоростной зверь»</text>
+		<text>The image of a monster called "Speed Beast"</text>
 	</string>
 	<string id="st_wpn_awp_lightning_strike">
-		<text>AWP «Удар молнии»</text>
+		<text>AWP "Lightning Strike"</text>
 	</string>
 	<string id="st_wpn_awp_lightning_strike_descr">
-		<text>Рисунок молнии вдоль всего корпуса под названием «Удар молнии»</text>
+		<text>Figure a lightning along the whole body called "Lightning Strike"</text>
 	</string>
 	<string id="st_wpn_awp_medusa">
-		<text>AWP «Медуза»</text>
+		<text>AWP "Medusa"</text>
 	</string>
 	<string id="st_wpn_awp_medusa_descr">
-		<text>Рисунок медузы, похожей на логотип «Versace»</text>
+		<text>Figure jellyfish, similar to the logo "Versace"</text>
 	</string>
 	<string id="st_wpn_ak127">
-		<text>АК 47</text>
+		<text>AK 47</text>
 	</string>
 	<string id="st_wpn_ak127_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Старый потертый АК-47\n Встречается в Зоне с обновленным внешним видом и техническими доработками: \n \n\n%c[255,1,255,255]•%c[default] Аквамариновая Месть (Сталкеры): Увеличенный магазин на 5 патрон, увеличенный урон и калибр: 5.56х45\n \n\n%c[255,1,255,255]•%c[default] Картель (Бандиты): Смена калибра на 5.45х39 \n \n\n%c[255,1,255,255]•%c[default] Элитное снаряжение (Долг): Смена калибра на 9х39, увеличенный урон  \n \n\n%c[255,1,255,255]•%c[default] Изумрудные завитки (Бандиты) \n \n\n%c[255,1,255,255]•%c[default] Огненный змей (Чистое небо): увеличенный магазин на 15 патрон, увеличенный урон, смена калибра на 5.45х39 \n \n\n%c[255,1,255,255]•%c[default] Снежный вихрь (Чистое небо):  увеличенный магазин на 10 патрон, увеличенный урон, смена калибра на 9х39\n \n\n%c[255,1,255,255]•%c[default] Ягуар (Монолит): увеличенный урон, увеличенный магазин на 15 патрон \n \n\n%c[255,1,255,255]•%c[default] Красная линия (Долг): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 9х39 \n \n\n%c[255,1,255,255]•%c[default] Вулкан (Свобода): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 5.56х45  \n \n\n%c[255,1,255,255]•%c[default] Пустынный повстанец (Наемники): увеличенный урон, увеличенный магазин на 15 патрон, смена калибра на 9х39</text>
+		<text>\n%c[255,1,255,255] •% c[default] Old shabby AK-47 \n Occurs in the Zone with updated appearance and technical improvements: \n \n \n%c[255,1,255,255] •%c[ default] Aquamarine Revenge (Stalkers): Increased 5-round magazine, increased damage and caliber: 5.56x45 \n \n \n%c[255,1,255,255] •%c[default] Cartel (Bandits): Changing the caliber to 5.45x39 \n \n \n%c[255,1,255,255] •%c[default] Elite equipment (Duty): Changing the caliber to 9x39, increased damage \n \n \n%c[255,1,255,255] •%c[default ] Emerald Swirls (Bandits) \n \n \n%c[255,1,255,255] •%c[default] Fire Serpent (Clear Sky): Increased the 15-round magazine, increased damage, caliber change 5.45х39 \n \n \n%c [255,1,255,255] •%c[default] Snow Vortex (Clear Sky): increased store for 10 rounds, increased damage, 9x39 caliber change \n \n \n%c[255,255,255] •%c[default] Jaguar (Monolith): Increased damage, enlarged store by 15 bullets \n \n \n%c[255,1,255,255] •%c[default] Red Line (Duty): Increased damage, enlarged magazine for 15 cartridges, change of caliber to 9x39 \n \n \n%c[255,1,255,255] •%c[default] Volcano (Freedom): increased damage, increased store by 15 bullets, change of caliber to 5.56x45 \n \n \n%c[255,1,255,255] •%c[default] Deserted rebel (Mercenaries): increased damage, increased store by 15 rounds, shifts but the caliber of 9x39</text>
 	</string>
 	<string id="st_wpn_ak127_aquamarinerevenge">
-		<text>АК 47 «Аквамариновая месть»</text>
+		<text>AK 47 "Aquamarine revenge"</text>
 	</string>
 	<string id="st_wpn_ak127_aquamarinerevenge_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Аквамариновая месть»\n%c[255,1,255,255]•%c[default] Увеличен магазин на 5 патрон  \n%c[255,1,255,255]•%c[default] увеличенный урон на 6,66%  \n%c[255,1,255,255]•%c[default] Смена калибра на 5.56х45</text>
+		<text>\n%c[255,1,255,255] •%c[default] Camouflage "Aquamarine Revenge" \n%c[255,1,255,255] •%c[default] Increased the store by 5 cartridges \n%c[255,1,255,255] •%c[default] Increased damage by 6.66% \n%c[255,1,255,255] •%c[default] Changing the caliber to 5.56x45</text>
 	</string>
 	<string id="st_wpn_ak127_cartel">
-		<text>АК 47 «Картель»</text>
+		<text>AK 47 "Cartel"</text>
 	</string>
 	<string id="st_wpn_ak127_cartel_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Картель»\n%c[255,1,255,255]•%c[default] Смена калибра на 5.45х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Cartel"\n%c[255,1,255,255]•%c[default] Changing the caliber to 5.45х39</text>
 	</string>
 	<string id="st_wpn_ak127_elitebuild">
-		<text>АК 47 «Элитное снаряжение»</text>
+		<text>AK 47 "Elite outfit"</text>
 	</string>
 	<string id="st_wpn_ak127_elitebuild_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Элитное снаряжение»\n \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39 \n%c[255,1,255,255]•%c[default] Увеличенный урон на 10%</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Elite outfit"\n \n%c[255,1,255,255]•%c[default] Changing the caliber to 9х39 \n%c[255,1,255,255]•%c[default] Increased damage by 10%</text>
 	</string>
 	<string id="st_wpn_ak127_emeraldpinstripe">
-		<text>АК 47 «Изумрудные завитки»</text>
+		<text>AK 47 "Emerald curls"</text>
 	</string>
 	<string id="st_wpn_ak127_emeraldpinstripe_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Еще дед с этим оружием воевал. У сталкеров получил кличку «Изумрудные завитки» за рисунок на прикладе\n</text>
+		<text>\n%c[255,1,255,255]•%c[default] Even my grandfather fought with this weapon. The stalkers received the nickname "Emerald curls" for drawing on the butt\n</text>
 	</string>
 	<string id="st_wpn_ak127_fireserpent">
-		<text>АК 47 «Огненный змей»</text>
+		<text>AK 47 "The Fiery Serpent"</text>
 	</string>
 	<string id="st_wpn_ak127_fireserpent_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Огненный змей»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 5% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 5.45х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "The Fire Serpent"\n%c[255,1,255,255]•%c[default] Increased damage by 5% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 5.45х39</text>
 	</string>
 	<string id="st_wpn_ak127_frontsidemisty">
-		<text>АК 47 «Снежный вихрь»</text>
+		<text>AK 47 "Snow whirlwind"</text>
 	</string>
 	<string id="st_wpn_ak127_frontsidemisty_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Снежный вихрь»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 10 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Snow whirlwind"\n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 10 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9х39</text>
 	</string>
 	<string id="st_wpn_ak127_jaguar">
-		<text>АК 47 «Ягуар»</text>
+		<text>AK 47 "Jaguar"</text>
 	</string>
 	<string id="st_wpn_ak127_jaguar_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Ягуар»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Jaguar" \n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges</text>
 	</string>
 	<string id="st_wpn_ak127_redline">
-		<text>АК 47 «Красная линия»</text>
+		<text>AK 47 "Red line"</text>
 	</string>
 	<string id="st_wpn_ak127_redline_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Красная линия»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 20% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage Red Line\n%c[255,1,255,255]•%c[default] Increased damage by 20% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9х39</text>
 	</string>
 	<string id="st_wpn_ak127_vulcan">
-		<text>АК 47 «Вулкан»</text>
+		<text>AK 47 "Valcano"</text>
 	</string>
 	<string id="st_wpn_ak127_vulcan_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Вулкан»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 10% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Volcano"\n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9х39</text>
 	</string>
 	<string id="st_wpn_ak127_wastelandrebel">
-		<text>АК 47 «Пустынный повстанец»</text>
+		<text>AK 47 "The Deserted Rebel"</text>
 	</string>
 	<string id="st_wpn_ak127_wastelandrebel_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Камуфляж «Пустынный повстанец»\n%c[255,1,255,255]•%c[default] Увеличенный урон на 20% \n%c[255,1,255,255]•%c[default] Увеличенный магазин на 15 патрон \n%c[255,1,255,255]•%c[default] Смена калибра на 9х39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Deserted Rebel"\n%c[255,1,255,255]•%c[default] Increased damage by 20% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9х39</text>
 	</string>
 	<string id="st_wpn_m4a4_asiimov">
-		<text>M4A4 "Азимов"</text>
+		<text>M4A4 "Azimov"</text>
 	</string>
 	<string id="st_wpn_m4a4_asiimov_descr">
-		<text>Уникальная винтовка М4 с вручную нанесённым изображением в стиле hi-tech под названием "Азимов".</text>
+		<text>A unique rifle M4 with a manually applied image in the style of hi-tech called "Azimov".</text>
 	</string>
 	<string id="st_wpn_m4a4_desert_strike">
-		<text>M4A4 "Пустынная атака"</text>
+		<text>M4A4 "The Deserted Attack"</text>
 	</string>
 	<string id="st_wpn_m4a4_desert_strike_descr">
-		<text>Редкая винтовка М4 с вручную нанесённым изображением под названием "Пустынная атака". Используется специальными отрядами наемников и свободы.</text>
+		<text>A rare M4 rifle with a hand-painted image called "The Deserted Attack". Used by special squads of mercenaries and freedom.</text>
 	</string>
 	<string id="st_wpn_m4a4_dragonking">
-		<text>M4A4 "Король драконов"</text>
+		<text>M4A4 "King of the Dragons"</text>
 	</string>
 	<string id="st_wpn_m4a4_dragonking_descr">
-		<text>Уникальная винтовка М4 с вручную нанесённым изображением китайского дракона.</text>
+		<text>A unique rifle M4 with a hand-painted image of a Chinese dragon.</text>
 	</string>
 	<string id="st_wpn_m4a4_griffin">
-		<text>M4A4 "Гриффин"</text>
+		<text>M4A4 "Griffin"</text>
 	</string>
 	<string id="st_wpn_m4a4_griffin_descr">
-		<text>Редкая винтовка М4 с вручную нанесённым изображением под названием "Пустынная атака". Используется специальными отрядами наемников и свободы.</text>
+		<text>A rare M4 rifle with a hand-painted image called "The Deserted Attack". Used by special squads of mercenaries and freedom.</text>
 	</string>
 </string_table>	
