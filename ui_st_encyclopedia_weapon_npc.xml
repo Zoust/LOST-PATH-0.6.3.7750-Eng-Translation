@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="encyclopedia_weapon_npc">
+<text>Armed OPS</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_army">
+<text>Regular army</text>
+</string>
+<string id="encyclopedia_weapon_npc_army_text">
+<text>Army: \n
+0: a Shortened AK-series, weak PP, weak rifles, shotguns\n
+1: the standard AK series, AKM series, the average shotguns\n
+2: Series AK-100, AEK-series, Protecta, Abakan; increased the number of guns\n
+3: the AK-12, 9h39-series, RPK-series, Abakan; increased the number of guns\n
+4: AK-12, 9h39-series, PKM, SVD, SVU; the most powerful guns\n
+ \pwesto conventional army kits fall, enhanced nutrition, enhanced first aid kits.</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_bandit">
+<text>Bandits</text>
+</string>
+<string id="encyclopedia_weapon_npc_bandit_text">
+<text>Bandits:\n
+0: Shotguns, weak PP\n
+1: Shortened AK series, AK series, AKM series, the average shotguns, SMG\n
+2: the standard AK series, AKM series, the average shotguns\n
+3: Abakan, 5х56-series, basic shotguns, MP5SD\n
+4: 9h39-series, FN SCAR-H, Galil, WA2000, RPD</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_csky">
+<text>clear Sky</text>
+</string>
+<string id="encyclopedia_weapon_npc_csky_text">
+<text>clear Sky:\n
+0: Weak PP, shotguns\n
+1: the standard AK series, AKM series, the average shotguns\n
+2: Abakan, 5х56-series, a weak rifle\n
+3: 5х56-series, basic shotguns, MP5SD, VSS "Vintorez"\n
+4: 9h39-series, FN SCAR-H, Galil, WA2000, RPD, RPG-7</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_dolg">
+<text>Duty</text>
+</string>
+<string id="encyclopedia_weapon_npc_dolg_text">
+<text>Debt: \n
+0: a Shortened AK-series rifles and a weak PP\n
+1: the standard AK series, AKM series, the average shotguns\n
+2: Series AK-100, AEK-series, Protecta, Abakan\n
+3: the AK-12, 9h39-series, RPK-series, Abakan\n
+4: AK-12, 9h39-series, PKM, SVD\n
+\pwesto conventional army kits fall, enhanced nutrition, enhanced first aid kits.</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_ecolog">
+<text>Scientists</text>
+</string>
+<string id="encyclopedia_weapon_npc_ecolog_text">
+<text>Environmentalists:\n
+0: Weak PP, shotguns\n
+1: Shortened AK-series rifles are weak\n
+2: the standard AK series, AKM series, the average shotguns\n
+3: 5х56-series, AK-12, strong shotguns\n
+\singing the chance to get "Svarog" (very tiny)
+ \npwesto conventional kits fall research, enhanced nutrition, enhanced first aid kits.</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_freedom">
+<text>Freedom</text>
+</string>
+<string id="encyclopedia_weapon_npc_freedom_text">
+<text>Freedom:\n
+0: Weak PP, shotguns, shortened AK-series.\n
+1: Shotguns, L85, LR300, SIG550\n
+2: FAMAS, LR300, M-series\n
+3: MTAR21, G36 series, HK416, FN SCAR-H, M249\n
+4: MTAR21, G36 series, HK416, FN SCAR-H, M249, IEDs, SIG 552, M60, M14, AWP</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_mercenary">
+<text>Mercenaries</text>
+</string>
+ <string id="encyclopedia_weapon_npc_mercenary_text">
+<text>Mercenaries:
+0: 5х56 series, VSK-94, SR25, MP5SD\n
+1: AEK-series, weak PP, 5х56 series, AK12, 9а91\n
+2: FAMAS, M-series, AK-12, Storm C14\n
+3: MTAR21, FAMAS, 5х56 series, AK-12, SR25, Storm C14\n
+4: FN F2000, VSSK, G36-series, VSS, VAL, Groza C14, Gauss</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_monolith">
+<text>Monolith</text>
+</string>
+<string id="encyclopedia_weapon_npc_monolith_text">
+<text>Monolith:\n
+0: WA2000, 5х56 series, shortened AK-series, the weak rifles, SMG, shotguns (short hodgepodge of newcomers)\n
+1: shotguns, AK series, AKM series, 5х56 series, PP\n
+2: the AK-100 series, AEK-series, Abakan, Protecta, M-series\n
+3: MTAR21, FAMAS, M-series, PKK series, 9h39 series, SR25, AK-12\n
+4: FN F2000, VSSK, G36 series, 9h39 series, RAP\n
+g: FN F2000, VSSK, G36 series, 9h39 series, RG-6, M79\n
+s: FN F2000, VSSK, VSS, VAL, SVD, SVU, M98B, M95\n
+ss: Gauss</text>
+</string>
+
+<string id="encyclopedia_weapon_npc_stalker">
+<text>Stalkers</text>
+</string>
+<string id="encyclopedia_weapon_npc_stalker_text">
+<text>Stalkers:\n
+0: Weak PP, shotguns\n
+1: shortened AK-a series strong shotguns\n
+2: AK series, AKM series, Remington 870, Abakan, 5x56 series\n
+3: Abakan, 5х56 series, powerful shotguns, MP5SD, M-series, G36 series, Storm C14\n
+4: 9h39 series, FN SCAR-H, RPD, and WA2000, Galil, G36 series, HK416, FN F2000, SVD\n</text>
+</string>
+	
+</string_table>
