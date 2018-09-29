@@ -139,7 +139,7 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 	if itm1:section() == 'itm_servoprivod' then
 		
 		if db.actor:get_level_intellect() < 3 then
-			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Ваших знаний недостаточно для работы с этим предметом."))
+			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Your knowledge is not enough to work with this subject."))
 			return
 		end
 		
@@ -149,7 +149,7 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 	elseif itm1:section() == 'itm_rem_serv' then
 		
 		if db.actor:get_level_intellect() < 3 then
-			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Ваших знаний недостаточно для работы с этим предметом."))
+			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Your knowledge is not enough to work with this subject."))
 			return
 		end
 		

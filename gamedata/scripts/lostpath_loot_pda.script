@@ -1,0 +1,88 @@
+--[[ -----------------------------------
+ #  Неизвестный скрипт
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 126.11.2017
+ #  file   : lostpath_loot_pda.script 
+]]-- -----------------------------------
+
+--[[
+xr_sound.set_sound_play(db.actor:id(), "pda_news")
+actor:give_money(deadmoney)
+
+local news_caption = "Мёртвый сталкер: "..npc:character_name()
+local news_text = "Обнаружено денег: %c[255,255,0,0]"..game.translate_string(deadmoney).."%c[default] руб."
+actor:give_game_news(news_caption, news_text, "ui_iconsTotal_found_money", 0, 10000)
+
+if item:section() == 'itm_pda_common'		or
+	item:section() == 'itm_pda_uncommon'	or
+	item:section() == 'itm_pda_rare'		then
+	if check_rnd_transitions() == true then
+		rnd_open_transition()
+	end
+end
+if item:section() == 'mlr_strelok_item_01'  then
+	open_transition('val_space_restrictor_to_labx18')
+end	
+
+pda_nps_good - целый пда
+pda_nps_bad - разбитый пда
+pda_nps_low - разряженный пда
+]]--
+
+local config = ini_file("rpg.ltx")
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_item_use",actor_on_item_use) 
+end
+
+function actor_on_item_use(item)	
+	local actor = db.actor
+	local luck_bonus = config:r_float_ex("luck_bonus", db.actor:get_level_luck())
+	local intellect_bonus = config:r_float_ex("intellect_bonus", db.actor:get_level_intellect())
+	
+	if item:section() == 'pda_nps' then
+		local wans = math.random(0, 100) + intellect_bonus
+		
+		if wans <= 20 then -- 20% на спавн хорошего КПК
+			give_object_to_actor("pda_nps_good",1)
+			SetHudMsg(game.translate_string("Fortune is on my side!"),5)
+		elseif wans > 20 and wans <= 50 then -- 50% на спавн убитого разряженного 
+			give_object_to_actor("pda_nps_low",1)
+			SetHudMsg(game.translate_string("Lucky!"),5)			
+		else
+			give_object_to_actor("pda_nps_bad",1)	
+			SetHudMsg(game.translate_string("Luck has left me..."),5)
+		end
+	end	
+	
+	if item:section() == "pda_nps_bad" then
+		sim_relations.send_news("System ", "This PDA can not be used ", "ui_inGame2_PD_Torgovets_informatsiey")
+	elseif item:section() == "pda_nps_low" then
+		give_object_to_actor("pda_nps_low",1)
+	elseif item:section() == "pda_nps_good" then
+		local loot = math.random(1,100) + intellect_bonus		
+		if (loot >= 60) then
+			coc_treasure_manager.create_random_stash(nil,nil,nil)
+			SetHudMsg(game.translate_string("Good luck on my side!"),5)
+		end
+		
+		if (loot >= 50) then
+			local money = math.random(100, 2000) * (1 + (luck_bonus * 2) / 100)
+			actor:give_money(money)
+			SetHudMsg(game.translate_string("What a beautiful day"),5)
+			sim_relations.send_news("Personal account", "Received money:"..money.." Ru.", "ui_inGame2_PD_Hranitel_tayn")
+		end
+		
+		if(loot >= 25) then
+			if transitions.check_rnd_transitions() == true and axr_main.config:r_value("mm_options","enable_transitions_closed_disable",1,true) == false then
+				transitions.rnd_open_transition()
+				actor:give_game_news("Data from the PDA", "I'm looking for information about the routes ", "ui_inGame2_Karti_mestnosti", 0, 10000)
+			end
+		else
+			SetHudMsg(game.translate_string("Luck has left me..."),5)
+		end
+		
+		printf("Luck: %s", loot)
+	end
+end

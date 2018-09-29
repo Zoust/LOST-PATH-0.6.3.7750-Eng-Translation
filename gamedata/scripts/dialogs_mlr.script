@@ -1459,7 +1459,7 @@ function hands_off(dik, keyboard_action)
 		get_console():execute("unbind inventory")
 	end
 	if dik == DIK_keys.DIK_I and (hands_use_item()) then
-		SetHudMsg(game.translate_string('Руки заняты'),2)
+		SetHudMsg(game.translate_string('Hands are busy'),2)
 	end
 	if (key_bindings.kINVENTORY) and not (hands_use_item()) then
 		get_console():execute("bind inventory kI")

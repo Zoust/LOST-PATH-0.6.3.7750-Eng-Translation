@@ -1,0 +1,1012 @@
+----------------------------------------------------------------------
+-- Inferno: В тени Чернобыля
+-- Считывание координат
+-- Автор: Александр Гавричкин(By Alex aka AMI)
+-- Использовались материалы positioninformer.script
+----------------------------------------------------------------------
+--InitSpinNum
+--tonumber(self.spin_spawn:GetText())
+
+
+-- Таблицы
+
+local tbl_type = {
+["Сохранить координаты"]		 = "type_1",
+["Сталкеры"]				 = "type_2",
+["Монстры"]				 = "type_3",
+["Сквады/Смарты"]			 = "type_4",
+["Аномалии"]				 = "type_5",
+["Аммуниция"]				 = "type_6",
+["Оружие"]				 = "type_7",
+["Бронекостюмы"]			 = "type_8",
+["Артефакты"]				 = "type_9",
+["Автомобили"]				 = "type_10",
+["Предметы(Еда, детекторы и т.п.)"]	 = "type_11",
+["Физические объекты"]			 = "type_12",
+["Рестрикторы"]				 = "type_13"
+}
+
+
+section_anom  = {
+"------ Аномалии ------",
+"campfire",
+"zone_buzz_weak", 
+"zone_buzz_average", 
+"zone_buzz_strong", 
+"zone_field_acidic_weak", 
+"zone_field_acidic_average", 
+"zone_field_acidic_strong", 
+"zone_field_psychic_weak", 
+"zone_field_psychic_average", 
+"zone_field_psychic_strong", 
+"zone_radioactive_weak",  
+"zone_radioactive_average", 
+"zone_radioactive_strong", 
+"zone_field_thermal_weak", 
+"zone_field_thermal_average",
+"zone_field_thermal_strong", 
+"zone_witches_galantine_weak", 
+"zone_witches_galantine_average", 
+"zone_witches_galantine_strong", 
+"zone_zharka_static_weak",  
+"zone_zharka_static_average",
+"zone_zharka_static_strong", 
+"zone_mine_electric_weak",           
+"zone_mine_electric_average",
+"zone_mine_electric_strong",    
+"zone_mine_static_weak",
+"zone_mine_static_average", 
+"zone_mine_static_strong",
+"zone_mine_gravitational_weak", 
+"zone_mine_gravitational_average",
+"zone_mine_gravitational_strong", 
+"zone_mine_field", 
+"zone_mine_steam_weak", 
+"zone_mine_steam_average", 
+"zone_mine_steam_strong", 
+"zone_teleport",
+"------ Автомобили ------",
+"veh_niva",  
+"veh_uaz_01", 
+"veh_uaz_02", 
+"veh_uaz_buhanka", 
+"veh_zaz", 
+"veh_moskvich", 
+"veh_tr13", 
+"veh_zil_130", 
+"veh_laz", 
+"veh_gaz", 
+"veh_btr", 
+"------ Оружие ------",
+"wpn_abakan",
+"wpn_ak74",
+"wpn_ak74u",
+"wpn_beretta",
+"wpn_bm16",
+"wpn_colt1911",
+"wpn_desert_eagle",
+"grenade_f1",
+"wpn_fn2000",
+"wpn_fort",
+"wpn_g36",
+"wpn_gauss",
+"wpn_groza",
+"wpn_hpsa",
+"wpn_knife",
+"wpn_l85",
+"wpn_lr300",
+"wpn_mp5",
+"wpn_pb",
+"wpn_pm",
+"wpn_sig220",
+"wpn_sig550",
+"wpn_spas12",
+"wpn_svd",
+"wpn_svu",
+"wpn_toz34",
+"wpn_usp",
+"wpn_val",
+"wpn_vintorez",
+"wpn_walther",
+"wpn_wincheaster1300",
+"------ Патроны ------",
+"ammo_9x18_fmj",
+"ammo_9x18_pmm",
+"ammo_9x19_fmj",
+"ammo_9x19_pbp",
+"ammo_11.43x23_fmj",
+"ammo_11.43x23_hydro",
+"ammo_5.45x39_fmj",
+"ammo_5.45x39_ap",
+"ammo_5.56x45_ss190",
+"ammo_5.56x45_ap",
+"ammo_pkm_100",
+"ammo_7.62x54_7h1",
+"ammo_gauss",
+"ammo_9x39_pab9",
+"ammo_9x39_ap",
+"ammo_12x70_buck",
+"ammo_12x76_zhekan",
+"ammo_vog-25",
+"ammo_m209",
+"------ Аддоны ------",
+"wpn_addon_scope",
+"wpn_addon_scope_x2.7",
+"wpn_addon_scope_detector",
+"wpn_addon_scope_night",
+"wpn_addon_scope_susat",
+"wpn_addon_scope_susat_x1.6",
+"wpn_addon_scope_susat_custom",
+"wpn_addon_scope_susat_dusk",
+"wpn_addon_scope_susat_night",
+"wpn_addon_silencer",
+"wpn_addon_grenade_launcher",
+"wpn_addon_grenade_launcher_m203",
+"------ Итемы ------",
+"device_torch",
+"detector_simple",
+"detector_advanced",
+"detector_elite",
+"detector_scientific",
+"bandage",
+"antirad",
+"medkit",
+"medkit_army",
+"medkit_scientic",
+"drug_booster",
+"drug_coagulant",
+"drug_psy_blockade",
+"drug_antidot",
+"drug_radioprotector",
+"drug_anabiotic",
+"bread",
+"kolbasa",
+"conserva",
+"vodka",
+"energy_drink",
+"------ Броники ------",
+"helm_respirator",
+"helm_hardhat",
+"helm_protective",
+"helm_tactic",
+"helm_battle",
+"helm_respirator_joker",
+"helm_hardhat_snag",
+"novice_outfit",
+"stalker_outfit",
+"svoboda_light_outfit",
+"dolg_outfit",
+"scientific_outfit",
+"cs_heavy_outfit",
+"svoboda_heavy_outfit",
+"specops_outfit",
+"military_outfit",
+"dolg_heavy_outfit",
+"exo_outfit",
+"stalker_outfit_barge",
+"------ Монстры ------",
+"m_boar_e",
+"boar_normal",
+"boar_strong",
+"m_burer_e",
+"burer_normal",
+"m_chimera_e",
+"chimera_normal",
+"m_controller_e",
+"m_controller_normal",
+"m_crow",
+"m_dog_e",
+"dog_normal",
+"dog_weak",
+"dog_strong",
+"dog_cute",
+"m_flesh_e",
+"flesh_normal",
+"flesh_strong",
+"m_gigant_e",
+"gigant_normal",
+"m_poltergeist_e",
+"m_poltergeist_normal_tele",
+"m_poltergeist_normal_flame",
+"pri_a25_poltergeist",
+"m_pseudodog_e",
+"pseudodog_normal",
+"psy_dog",
+"psy_dog_normal",
+"m_snork_e",
+"snork_weak",
+"snork_normal",
+"snork_strong",
+"snork_indoor_weak",
+"snork_indoor_normal",
+"snork_indoor_strong",
+"------ Физика ------",
+"explosive_fuelcan",
+"explosive_gaz_balon",
+"explosive_tank",
+"explosive_barrel",
+"explosive_dinamit",
+"jup_b43_af_fuzz_kolobok",
+"jup_b43_af_mincer_meat",
+"jup_b41_af_oasis_heart",
+"jup_b41_af_half_artifact",
+"jup_b32_ph_scanner",
+"jup_b209_ph_scanner",
+"pri_a28_actor_hideout",
+"shooting_target_1",
+"balon_01",
+"balon_02",
+"balon_02link",
+"balon_02a",
+"bidon",
+"bochka_close_1",
+"bochka_close_2",
+"bochka_close_3",
+"bochka_close_4",
+"gaz_balon",
+"krisagenerator",
+"ventilator_01",
+"ventilator_02",
+"ventilator_03",
+"ventilator_04",
+"ventilator_05",
+"notebook",
+"priemnik_gorizont",
+"rupor",
+"tv_1",
+"table_lamp_01",
+"god_table_lamp_01",
+"komp_monitor",
+"komp_klava",
+"komp_block",
+"debris_01",
+"wood_fence_1",
+"wood_fence_2",
+"wood_fence_3",
+"wood_fence_4",
+"god_wood_fence_1",
+"god_wood_fence_2",
+"god_wood_fence_3",
+"god_wood_fence_4",
+"banka_kraski_1",
+"vedro_01",
+"axe",
+"hatch_01",
+"lopata",
+"molot",
+"riffler",
+"saw",
+"freezer",
+"bludo",
+"kastrula",
+"kastrula_up",
+"krujka",
+"lojka",
+"miska",
+"tarelka1",
+"tarelka2",
+"teapot_1",
+"gaz_plita",
+"gaz_plita_small",
+"box_1a",
+"box_1b",
+"box_1c",
+"box_bottle_1",
+"box_metall_01",
+"box_wood_01",
+"box_wood_02",
+"box_paper",
+"kolyaska_01",
+"kolyaska_01_braked",
+"kolyaska_wheel_01_braked",
+"med_stolik_01",
+"ognetushitel",
+"fire_vedro",
+"stul_wood_01",
+"child_bench",
+"stul_child_01",
+"stul_school_01",
+"stul_school_01_br",
+"taburet_village",
+"taburet_wood_01"
+}
+
+
+
+
+class "pos_inf_ami" (CUIScriptWnd)
+
+function pos_inf_ami:__init(owner,objid) super()
+	self.owner = owner
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function pos_inf_ami:__finalize() end
+
+function pos_inf_ami:InitControls()
+	self:SetWndRect		(Frect():set(30,30,1024,768))
+	local xml = CScriptXmlInit()
+	xml:ParseFile("ui_ami_position.xml")
+	xml:InitStatic("background", self)
+	self:Register(xml:Init3tButton("caption1", self),"caption1")
+	self:Register(xml:Init3tButton("btn_q", self),"btn_q")
+	self:Register(xml:Init3tButton("btn_s", self),"btn_s")
+	self:Register(xml:Init3tButton("btn_copy_sec", self),"btn_copy_sec")
+	self:Register(xml:Init3tButton("btn_copy_name", self),"btn_copy_name")
+	self:Register(xml:Init3tButton("btn_copy_visual", self),"btn_copy_visual")
+	self:Register(xml:Init3tButton("btn_read_visual", self),"btn_read_visual")
+	self.form = xml:InitStatic("caption2",self)
+
+	self.combo_renderer = xml:InitComboBox("edit_box",		self)
+	self:Register(self.combo_renderer, "combo_renderer")
+      self.combo_renderer:AddItem	("Сохранить координаты",		1)
+      self.combo_renderer:AddItem	("Сталкеры",				2)
+      self.combo_renderer:AddItem	("Монстры",				3)
+      self.combo_renderer:AddItem	("Сквады/Смарты",			4)
+      self.combo_renderer:AddItem	("Аномалии",				5)
+      self.combo_renderer:AddItem	("Аммуниция",				6)
+      self.combo_renderer:AddItem 	("Оружие",				7)
+      self.combo_renderer:AddItem	("Бронекостюмы",			8)
+      self.combo_renderer:AddItem	("Артефакты",				9)
+      self.combo_renderer:AddItem	("Автомобили",				10)
+      self.combo_renderer:AddItem	("Предметы(Еда, детекторы и т.п.)",	11)
+      self.combo_renderer:AddItem	("Физические объекты",			12)
+      self.combo_renderer:AddItem	("Рестрикторы",				13)
+
+	self.help_sect = xml:InitComboBox("help_sect",		self)
+	self:Register(self.help_sect, "help_sect")
+
+-- Загрузка списка секций из таблицы
+  for i, v in ipairs(section_anom) do
+	self.help_sect:AddItem(v)
+  end
+
+--for i = 1, 65535 do
+    --local obj = level.object_by_id(i)
+     --if obj then
+	--self.help_sect:AddItem(obj:id())
+	-- end
+--end
+
+	self.table_visual = xml:InitComboBox("table_visual", self)
+	self:Register(self.table_visual, "table_visual")
+
+-- Загрузка моделей из meshes
+ local f =  getFS()
+ local flist_files = f:file_list_open("$game_data$", "meshes".."\\",  FS.FS_ListFiles)
+  for i=0,flist_files:Size()-1 do
+   local file = flist_files:GetAt(i)
+	if string.sub(file,string.len(file)-3,string.len(file)) == ".ogf" then
+	 self.table_visual:AddItem(file)
+	end
+  end
+
+
+self.caption13_f = xml:InitStatic("caption_vis",self)
+self.caption14_f = xml:InitStatic("caption_section",self)
+
+self:Register(xml:Init3tButton("caption3", self),"caption3")
+
+
+self.caption4_f = xml:InitStatic("sect_cap",self)
+self.sect_box = xml:InitEditBox("sect_box",  self)
+self:Register(self.sect_box, "sect_box")
+
+self.caption5_f = xml:InitStatic("name_cap",self)
+self.name_box = xml:InitEditBox("name_box",  self)
+self:Register(self.name_box, "name_box")
+
+self.caption6_f = xml:InitStatic("money_cap",self)
+self.money_box = xml:InitEditBox("money_box",  self)
+self:Register(self.money_box, "money_box")
+
+self.caption7_f = xml:InitStatic("profile_cap",self)
+self.profile_box = xml:InitEditBox("profile_box",  self)
+self:Register(self.profile_box, "profile_box")
+
+self.caption8_f = xml:InitStatic("script_cap",self)
+self.script_box = xml:InitEditBox("script_box",  self)
+self:Register(self.script_box, "script_box")
+
+self.caption9_f = xml:InitStatic("visual_cap",self)
+self.visual_box = xml:InitEditBox("visual_box",  self)
+self:Register(self.visual_box, "visual_box")
+
+self.caption10_f = xml:InitStatic("health_cap",self)
+self.health_box = xml:InitEditBox("health_box",  self)
+self:Register(self.health_box, "health_box")
+
+self.caption11_f = xml:InitStatic("rad_shape_cap",self)
+self.rad_shape_box = xml:InitEditBox("rad_shape_box",  self)
+self:Register(self.rad_shape_box, "rad_shape_box")
+
+self.caption12_f = xml:InitStatic("mass_cap",self)
+self.mass_box = xml:InitEditBox("mass_box",  self)
+self:Register(self.mass_box, "mass_box")
+
+self.caption_cucle_num = xml:InitStatic("caption_cucle_num",self)
+self.cucle_number = xml:InitSpinNum("cucle_num",  self)
+self:Register(self.cucle_number, "cucle_num")
+
+
+  if db.actor~=nil then
+
+self.cap_inf1 = xml:InitStatic("pos_cap",self)
+self.cap_inf2 = xml:InitStatic("dir_cap",self)
+self.cap_inf3 = xml:InitStatic("gd_cap",self)
+self.cap_inf4 = xml:InitStatic("ld_cap",self)
+self.cap_inf5 = xml:InitStatic("level_cap",self)
+
+self.cap_inf6 = xml:InitStatic("posdb_cap",self)
+self.cap_inf7 = xml:InitStatic("dirdb_cap",self)
+self.cap_inf8 = xml:InitStatic("gddb_cap",self)
+self.cap_inf9 = xml:InitStatic("lddb_cap",self)
+self.cap_inf10 = xml:InitStatic("leveldb_cap",self)
+
+local ln=level.name()
+local gd=db.actor:game_vertex_id()
+local ld=db.actor:level_vertex_id()
+local pos=db.actor:position()
+local posX=pos.x
+local posY=pos.y
+local posZ=pos.z
+local dir=db.actor:direction()
+local dirX=dir.x
+local dirY=dir.y
+local dirZ=dir.z
+local position = posX..","..posY..","..posZ
+local direction = dirX..","..dirY..","..dirZ
+
+
+self.cap_inf6:TextControl():SetText(position)
+self.cap_inf7:TextControl():SetText(direction)
+self.cap_inf8:TextControl():SetText(gd)
+self.cap_inf9:TextControl():SetText(ld)
+self.cap_inf10:TextControl():SetText(ln)
+
+  end
+
+ self.combo_renderer:SetText("Сохранить координаты")
+
+end
+
+function pos_inf_ami:InitCallBacks()
+	self:AddCallback("btn_q", ui_events.BUTTON_CLICKED, self.on_quit, self)
+	self:AddCallback("btn_s", ui_events.BUTTON_CLICKED, self.getposinfo, self)
+	self:AddCallback("btn_copy_sec", ui_events.BUTTON_CLICKED, self.copy_section, self)
+	self:AddCallback("btn_copy_name", ui_events.BUTTON_CLICKED, self.copy_name, self)
+	self:AddCallback("btn_copy_visual", ui_events.BUTTON_CLICKED, self.copy_visual, self)
+	self:AddCallback("btn_read_visual", ui_events.BUTTON_CLICKED, self.read_visual, self)
+	self:AddCallback("combo_renderer", ui_events.LIST_ITEM_SELECT, self.ModeChanges, self)
+end
+
+function pos_inf_ami:OnKeyboard(dik, keyboard_action)
+	CUIScriptWnd.OnKeyboard(self,dik,keyboard_action)
+	if keyboard_action == ui_events.WINDOW_KEY_PRESSED then
+		if dik == DIK_keys.DIK_ESCAPE then
+			self:on_quit()
+		end
+	end
+	return true
+end
+
+function pos_inf_ami:read_visual()
+ read_string_visual = ReadString(self.sect_box:GetText(), "visual")
+ self.visual_box:SetText(read_string_visual)
+end
+
+
+function pos_inf_ami:copy_visual()
+ self.visual_box:SetText(self.table_visual:GetText())
+end
+
+function pos_inf_ami:copy_section()
+ self.sect_box:SetText(self.help_sect:GetText())
+ read_string_visual = ReadString(self.help_sect:GetText(), "visual")
+ self.visual_box:SetText(read_string_visual)
+end
+
+
+function pos_inf_ami:copy_name()
+ if self.name_box:GetText()~=nil then 
+   text_name = self.name_box:GetText()..self.help_sect:GetText()
+ else
+   text_name = self.help_sect:GetText()
+ end
+self.name_box:SetText(text_name)
+end
+
+
+-- не используется
+function pos_inf_ami:showposinfo()
+local type=self.combo_renderer:GetText()
+local sec=self.sect_box:GetText()
+local name=self.name_box:GetText()
+local money=self.money_box:GetText()
+local profile=self.profile_box:GetText()
+local script=self.script_box:GetText()
+local visual=self.visual_box:GetText()
+local health=self.health_box:GetText()
+local rad_shape=self.rad_shape_box:GetText()
+local mass=self.mass_box:GetText()
+
+
+ami_position.position(type,sec,name,money,profile,script,visual,health,rad_shape,mass,comment)
+
+end
+
+
+-- сохранение
+function pos_inf_ami:getposinfo()
+
+ if db.actor~=nil then
+
+local type=tbl_type[self.combo_renderer:GetText()]
+local sec=self.sect_box:GetText()
+local name=self.name_box:GetText()
+local money=self.money_box:GetText()
+local profile=self.profile_box:GetText()
+local script=self.script_box:GetText()
+local visual=self.visual_box:GetText()
+local health=self.health_box:GetText()
+local rad_shape=self.rad_shape_box:GetText()
+local mass=self.mass_box:GetText()
+local num_cucle_var = tonumber(self.cucle_number:GetText())
+local num_spawn = ami_position.spw
+
+      --post_x = tonumber("-115.6371383667")
+      --post_y = tonumber("-6.7029008865356")
+      --post_z = tonumber("-104.41625213623")
+ 
+      --if post_x==nil then post_x=db.actor:position().x end
+      --if post_y==nil then post_y=db.actor:position().y end
+      --if post_z==nil then post_z=db.actor:position().z end
+
+      --db.actor:set_actor_position(vector():set(post_x,post_y,post_z))
+
+ if num_cucle_var == 0 or num_cucle_var == 1 then
+   ami_position.position(type,sec,name,money,profile,script,visual,health,rad_shape,mass,comment)
+   news_manager.send_tip(db.actor, "%c[255,0,255,0]Point "..name.." successfully saved at number "..num_spawn, nil, nil, time)
+
+ elseif num_cucle_var > 1 then
+   for i = 1, num_cucle_var do
+       ami_position.position(type,sec,name,money,profile,script,visual,health,rad_shape,mass,comment)
+   end
+   news_manager.send_tip(db.actor, "%c[255,0,255,0]"..num_cucle_var.." points (ki) successfully saved", nil, nil, time)
+  end
+
+ end
+end
+
+
+function pos_inf_ami:on_quit()
+local console = get_console()
+	self.owner:ShowDialog(true)
+	self:HideDialog()
+	self.owner:Show(true)
+	if self:check_game() then
+		console:execute("main_menu off")
+	end
+end
+
+function pos_inf_ami:check_game()
+	if level.present() and (db.actor ~= nil) and db.actor:alive() then
+		return true
+	else
+		return false
+	end
+end
+
+
+
+function pos_inf_ami:ModeChanges()
+
+local type = tbl_type[self.combo_renderer:GetText()]
+
+ if type=="type_1" then
+
+	self.caption4_f:Show(false)
+	self.sect_box:Show(false)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(false)
+	self.visual_box:Show(false)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_2" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(true)
+	self.money_box:Show(true)
+
+	self.caption7_f:Show(true)
+	self.profile_box:Show(true)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(false)
+	self.visual_box:Show(false)
+
+	self.caption10_f:Show(true)
+	self.health_box:Show(true)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_3" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(true)
+	self.health_box:Show(true)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_4" then
+
+	self.caption4_f:Show(false)
+	self.sect_box:Show(false)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(true)
+	self.script_box:Show(true)
+
+	self.caption9_f:Show(false)
+	self.visual_box:Show(false)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(true)
+	self.rad_shape_box:Show(true)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_5" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(false)
+	self.visual_box:Show(false)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(true)
+	self.rad_shape_box:Show(true)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_6" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_7" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_8" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_9" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+
+ elseif type=="type_10" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(true)
+	self.health_box:Show(true)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_11" then
+
+	self.caption4_f:Show(true)
+	self.sect_box:Show(true)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ elseif type=="type_12" then
+
+	self.caption4_f:Show(false)
+	self.sect_box:Show(false)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(true)
+	self.visual_box:Show(true)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(false)
+	self.rad_shape_box:Show(false)
+
+	self.caption12_f:Show(true)
+	self.mass_box:Show(true)
+
+ elseif type=="type_13" then
+
+	self.caption4_f:Show(false)
+	self.sect_box:Show(false)
+
+	self.caption5_f:Show(true)
+	self.name_box:Show(true)
+
+	self.caption6_f:Show(false)
+	self.money_box:Show(false)
+
+	self.caption7_f:Show(false)
+	self.profile_box:Show(false)
+
+	self.caption8_f:Show(false)
+	self.script_box:Show(false)
+
+	self.caption9_f:Show(false)
+	self.visual_box:Show(false)
+
+	self.caption10_f:Show(false)
+	self.health_box:Show(false)
+
+	self.caption11_f:Show(true)
+	self.rad_shape_box:Show(true)
+
+	self.caption12_f:Show(false)
+	self.mass_box:Show(false)
+
+ end
+
+end
+
+-------- Из ami.script --------
+
+-- Чтение строки из секции ltx
+function ReadString(section, param)
+ if section ~= nil and param ~= nil then
+   local ltx = system_ini()
+   if ltx:line_exist(section, param) then
+      return ltx:r_string(section, param)
+   else
+      return ""
+   end
+ end
+end
+
+function ReadSection(section, param)
+ if section ~= nil and param ~= nil then
+   local ltx = system_ini()
+   if ltx:line_exist(section, param) then
+      return ltx:r_float(section, param)
+   else
+      return 0
+   end
+ end
+end
