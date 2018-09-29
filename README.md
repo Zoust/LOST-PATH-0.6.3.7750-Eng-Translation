@@ -18,7 +18,12 @@ Mod link : https://www.moddb.com/mods/lost-path
 
 Zoust
 	
-	
+-
+
+Made using Stalker Dialog 'XML' Helper, by Stalkerstein (on www.gsc-game.com forums)
+
+-
+
 Google translated readme files : 	
 
 //-----------------------------------------
