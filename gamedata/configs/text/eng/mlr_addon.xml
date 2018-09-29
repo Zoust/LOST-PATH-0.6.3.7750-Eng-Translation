@@ -60,10 +60,10 @@
  <text>Sidorovich offers a simple job to search the body parts of mutants.</text>
 </string>
 <string id="esc_m_trader_task_7_about">
-<text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... hrrm something I got carried away. In short, I give a tip, you drag. Ready?</text>
+<text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short, I give a tip, you drag. Ready?</text>
 </string>
 <string id="esc_m_trader_task_7_fetch_about">
- <text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... hrrm something I got carried away. In short I need [%s]. Taken?</text>
+ <text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short I need [%s]. Taken?</text>
 </string>
 <string id="esc_m_trader_task_7_fetch_finish">
 <text>yeah, give me this shit. Here's your loot:</text>
@@ -1013,10 +1013,10 @@
 <text>11.43õ23 Federal Hydra-Shok, 5 reams</text>
 </string>
 <string id="st_ammo_12x70_buck_opt">
-<text>12õ70, 15 packs</text>
+	<text>12x70, 15 packs</text>
 </string>
 <string id="st_ammo_12x76_zhekan_opt">
-<text>12õ76, 15 packs</text>
+	<text>12x76, 15 packs</text>
 </string>
  <string id="st_ammo_5.45x39_fmj_opt">
 <text>5.PS. 45x39, 8 packs</text>
@@ -1028,7 +1028,7 @@
 <text>5.56õ45 SS109, 8 packs</text>
 </string>
 <string id="st_ammo_5.56x45_ap_opt">
-<text>5.56õ45 M995, 5 reams</text>
+	<text>5.56x45 M995, 5 reams</text>
 </string>
 <string id="st_ammo_9x39_pab9_opt">
 <text>9h39 PUB 9, 15 packs</text>
@@ -1414,7 +1414,7 @@
 <text>Listen with his ears.</text>
 </string>
 	<string id="talk_to_maps_3">
- <text>...hmm. \Smotri is a Bar. It is completely safe for the "Friends of duty" and neutrals. \zapadnee wild Territory, this is the former Western part of the plant "germ." According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best "friends" of "Debt" - "Svobodovets" to keep them. Nothing special there, except that this is the last "Bastion" normalnomyslyaschih do people. \Vostochnoe Cemetery Equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \purnea - Dump, complete anarchy out there, mutants, criminals, but there are "flea market" where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
+ <text>... Hmm. \Smotri is a Bar. It is completely safe for the "Friends of duty" and neutrals. \zapadnee wild Territory, this is the former Western part of the plant "germ." According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best "friends" of "Debt" - "Svobodovets" to keep them. Nothing special there, except that this is the last "Bastion" normalnomyslyaschih do people. \Vostochnoe Cemetery Equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \purnea - Dump, complete anarchy out there, mutants, criminals, but there are "flea market" where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
 </string>
 <string id="talk_to_maps_4">
  <text>All basically is clear, but you talked about "normalnomyslyaschih do" and "Bastion".</text>

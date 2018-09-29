@@ -2200,7 +2200,7 @@
 		<text>I'll be broke in no time if $who keeps raising his prices.</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_5">
-		<text>$what costs too much... damn.</text>
+		<text>$what costs too much... Damn.</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_6">
 		<text>Anyone know where I can buy $what? $who is out of them.</text>
@@ -2621,7 +2621,7 @@
 		<text>That was one hell of $what...</text>
 	</string>
 	<string id="st_dyn_news_surge_after_7">
-		<text>It's over now... finally.</text>
+		<text>It's over now... Finally.</text>
 	</string>
 	
 	<!-- surge template-->
@@ -2659,7 +2659,7 @@
 		<text>Sakharov warned that $what is coming $when. Find yourselves some cover.</text>
 	</string>
 	<string id="st_dyn_news_surge_template_12">
-		<text>The Zone isn't happy... there'll be $what $when</text>
+		<text>The Zone isn't happy... There'll be $what $when</text>
 	</string>
 	<string id="st_dyn_news_surge_template_13">
 		<text>Things are going to shit, $what $when</text>
@@ -3214,7 +3214,7 @@
 		<text>Miklukha, for three days now, we've been getting nothing but dead air from you. What are we gonna do about the Monolith while they haven't crucified us?</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_13">
-		<text>Mishka, sup, there was something I wanted to tell you yesterday... but I keep forgetting. Anyway, I saw a suspicious group of people to the west of our base, near the farmstead. Don't forget to tell Miklukha about this, or you're just gonna get stoned and let it slip your mind.</text>
+		<text>Mishka, sup, there was something I wanted to tell you yesterday... But I keep forgetting. Anyway, I saw a suspicious group of people to the west of our base, near the farmstead. Don't forget to tell Miklukha about this, or you're just gonna get stoned and let it slip your mind.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_14">
 		<text>Looking for friendly company, sincere conversations, and a helping hand in future campaigns? Join us and become free!</text>
@@ -3262,7 +3262,7 @@
 		<text>We duped a couple of bandits yesterday. I'm surprised they even remember to wear their pants each day, they're so goddamn dumb!</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_29">
-		<text>There's a literal army of undead in Yantar going up in number everyday... What the hell we can do?...</text>
+		<text>There's a literal army of undead in Yantar going up in number everyday... What the hell we can do?</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_30">
 		<text>I'm feeling creative today! Ah, yes, I'll express myself by hanging up Dutyers on branches!</text>
@@ -3314,7 +3314,7 @@
 		<text>Kestrel, it's Peony. Can you respond? There's no radio signal.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_14">
-		<text>Guys, don't screw around in the ravine. Some rabid creatures have settled where we burned a few boxes a couple of days ago..</text>
+		<text>Guys, don't screw around in the ravine. Some rabid creatures have settled where we burned a few boxes a couple of days ago...</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_15">
 		<text>Attention sappers, it is necessary to lie a few more mines in the square e3_16</text>

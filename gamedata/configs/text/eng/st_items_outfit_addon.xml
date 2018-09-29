@@ -141,29 +141,29 @@
 <text>Reinforced jumpsuit "SEVA"</text>
 </string>
 <string id="scientific_heavy_outfit_description">
-		<text>Модифицированный комбинезон «СЕВА», с большим акцентом на бронезащиту. Из-за подобной смены приоритетов слегка пострадали противоаномальные свойства костюма. Снабжён двумя встроенными контейнерами для артефактов.</text>
+	<text>Modified overalls SEVA, with a greater emphasis on armor protection. Because of such a change of Charonities, the anti-anomalous properties of the costume slightly suffered. It is equipped with two built-in containers for artifacts.</text>
 	</string>
 	
 	<string id="exo_proto_outfit_name">
-		<text>Экзоскелет «Заря»</text>
+	<text>Exoskeleton Dawn</text>
 	</string>
 	<string id="exo_proto_outfit_description">
-		<text>Стандартный комбинезон сталкера, снабжённый военным экзоскелетом нового поколения. Предоставляет улучшенные характеристики, относительно обычного экзоскелета. Имеет встроенный шлем с хорошей защитой от радиации.</text>
+	<text>Standard stalker overalls, supplied with a new generation military exoskeleton. Provides improved performance, relative to the conventional exoskeleton. Has a built-in helmet with good protection from radiation.</text>
 	</string>
 	<string id="st_helm_respirator_half">
-		<text>Респиратор</text>
+	<text>Respirator</text>
 	</string>
 
 	<string id="st_helm_respirator_half_descr">
-		<text>Пластмассово-резиновый респиратор, используется для защиты владельца от вдыхания вредных паров, пыли или газов. Широко используется новобранцами и ветеранами всех группировок благодаря своей универсальной функциональности. Не обеспечивает какой-либо физической защиты.</text>
+	<text>Plastic-rubber respirator, used to protect the wearer from inhaling harmful fumes, dust or gases. Widely used by recru its and veterans of all factions due to its universal functionality. Does not provide any physical protection.</text>
 	</string>
 	
 	<string id="st_helm_respirator_gp5">
-		<text>ГП-5</text>
+	<text>GP-5</text>
 	</string>
 
 	<string id="st_helm_respirator_gp5_descr">
-		<text>Противогаз ГП-5 предназначался для защиты гражданского населения Советского Союза от выпадения радиоактивных осадков, и изготовливался в период холодной войны с 1962 по 1989 год. Представляет собой шлем-маску из белой и черной резины, линзы удерживаются на месте обжимным ободами. Нижняя часть маски выполнена из металла, в ней расположены клапана и крепление фильтра. ГП-5 широко используется одиночками и бандитами из-за своей доступности и дешёвой цене.</text>
+	<text>the gas mask GP-5 was intended to protect the civilian population of the Soviet Union from radioactive fallout, and was manufactured during the Cold War from 1962 to 1989. It is a helmet-a mask of white and black rubber, the lenses are held in place by a crimping rim. Bottom part the mask is made of metal, there are valves and a filter holder in it. GP-5 is widely used by singles and band its because of their availability and cheap price.</text>
 	</string>
 
 </string_table>

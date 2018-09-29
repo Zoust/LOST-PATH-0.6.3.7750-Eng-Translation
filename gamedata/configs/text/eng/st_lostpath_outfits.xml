@@ -9,7 +9,7 @@
 </string>
 
 <string id="isg_heavy_outfit_name">
- <text>ÏÑ7-3M "Battleship"</text>
+	<text>PS7-3M 'Battleship'</text>
 </string>
 
 <string id="isg_heavy_outfit_description">
@@ -17,11 +17,11 @@
 </string>
 
 <string id="isg_heavy_proto_name">
- <text>ÏÑ7-3ms "Battleship"</text>
+	<text>PS7-3ms 'Battleship'</text>
 </string>
 
 <string id="isg_heavy_proto_description">
- <text>Early model of the suit of "Researchers" - the body armor of special forces series ÏÑ7-3M, adapted for use in the Zone. The right combination of rigid and flexible elements made it possible to provide the highest possible level of protection while retaining the ease of operation and mobility of the fighter. Able to protect against machine-gun bullets, but very bulky and almost never provides protection from abnormal influences. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
+ <text>Early model of the suit of "Researchers" - the body armor of special forces series PS7-3M, adapted for use in the Zone. The right combination of rigid and flexible elements made it possible to provide the highest possible level of protection while retaining the ease of operation and mobility of the fighter. Able to protect against machine-gun bullets, but very bulky and almost never provides protection from abnormal influences. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
 </string>
 
  <string id="isg_radiation_outfit_name">
@@ -158,15 +158,15 @@
 </string>
 
 <string id="dolg_heavy_proto_name">
-<text>PS3-9Äñ "Armor of the Debt"</text>
+	<text>PS3-9Ds 'Armor of Duty'</text>
 </string>
 
  <string id="dolg_heavy_proto_description">
- <text>Early model of the suit of "Debt" - the body armor of special forces series PS3-9, adapted for use in the Zone. The right combination of rigid and flexible elements made it possible to provide the highest possible level of protection while retaining the ease of operation and mobility of the fighter. Able to protect against machine-gun bullets, but very bulky and almost never provides protection from abnormal influences. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
+ <text>Early model of the suit of "Duty" - the body armor of special forces series PS3-9, adapted for use in the Zone. The right combination of rigid and flexible elements made it possible to provide the highest possible level of protection while retaining the ease of operation and mobility of the fighter. Able to protect against machine-gun bullets, but very bulky and almost never provides protection from abnormal influences. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
 </string>
 
  <string id="dolg_heavy_proto_h_name">
-<text>PS3-9Äñ "Armor of the Debt"</text>
+	<text>PS3-9Ds 'Armor of the Duty'</text>
 </string>
 <string id="dolg_heavy_proto_h_description">
 <text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. Included is a helmet with modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
@@ -177,7 +177,7 @@
 </string>
 
 <string id="dolg_outfit_proto_description">
- <text>Modern model jumpsuit "Debt". More suited to new recruits of the stalkers, who are accustomed to a relatively easy costume. In contrast to series PS3, has ballistic soft armor of Kevlar. Provides little protection from anomalous exposure, but it can stop a pistol bullet. Containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
+ <text>Modern model jumpsuit "Duty". More suited to new recruits of the stalkers, who are accustomed to a relatively easy costume. In contrast to series PS3, has ballistic soft armor of Kevlar. Provides little protection from anomalous exposure, but it can stop a pistol bullet. Containers for artifacts is not provided, but is possible to install various auxiliary systems.\n\n> install servo.</text>
 </string>
 
 <string id="stalker_reinforced_outfit_name">
@@ -217,19 +217,19 @@
  <text>the Elite gear assault groups of the "Clean sky", created in an artisan workshop by skilled craftsmen ERS, the project on creation of the reservation is headed Novikov made armor was modeled after army's "TB". Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere-12 with modified psi-protection and PNV 2nd generation.</text>
 </string>
 <string id="dolg_skat_outfit_name">
-<text>PS3-9D "Debt"</text>
+<text>PS3-9D "Duty"</text>
 </string>
 <string id="dolg_skat_outfit_description">
  <text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. Comes with the Helmet Sphere-12 with a modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
 </string>
 <string id="duty_skat_outfit_name">
-<text>PS3-9D "Debt"</text>
+<text>PS3-9D "Duty"</text>
 </string>
 <string id="duty_skat_outfit_description">
 <text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. It comes with a Tactical helmet with modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
 </string>
 <string id="army_skat_1_name">
-<text>Heavy áðîíåñêîñòþìì12</text>
+	<text>Heavy armored tin</text>
 </string>
  <string id="army_skat_1_description">
 <text>comes with Heavy breeschoten and Helmet Sphere-12 with a modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
@@ -247,10 +247,10 @@
  <text>This cloak belonged to the Mercenary Scar. Cloak has a very high protective characteristics, 5 built-in containers for artifacts and PNV 2nd generation.</text>
 </string>
 <string id="exo_seva_dolg_outfit_name">
-<text>Exoskeleton "SEVA-M Debt"</text>
+<text>Exoskeleton "SEVA-M Duty"</text>
 </string>
 <string id="exo_seva_dolg_outfit_description">
- <text>Modification of the exoskeleton by adding the closed system of breathing, which has improved the performance of radiation protection and psi radiation, but made his head more vulnerable. The modification made on the basis of the Exoskeleton of the "Debt" that allowed heavy units to go in debt for a long period of raids with high radiation and anomalous activity.</text>
+ <text>Modification of the exoskeleton by adding the closed system of breathing, which has improved the performance of radiation protection and psi radiation, but made his head more vulnerable. The modification made on the basis of the Exoskeleton of the "Duty" that allowed heavy units to go in Duty for a long period of raids with high radiation and anomalous activity.</text>
 </string>
 <string id="exo_seva_merc_outfit_name">
 <text>Exoskeleton "SEVA-M Mercenaries"</text>
@@ -283,7 +283,7 @@
  <text>Army bronekostyum Heavy broascasting established for carrying out assault operations in the areas of activity anomalies. In stock: heavy army bronekostyum series PSZ-12P, built-in compensation suit, helmet Sphere-12M. Provides excellent protection against bullet and shrapnel hits, it does not reduce the mobility of the soldier. In the presence of a balanced system protection from abnormal influences.</text>
 </string>
 <string id="helm_battle_dolg_name">
-<text>a Helmet "Sphere M12 Debt-M"</text>
+<text>Helmet "Sphere M12 Duty-M"</text>
 </string>
 <string id="helm_battle_dolg_descr">
  <text>Modification of the eponymous helmet. Installed heavy-duty filters. Army PNV 2nd generation. Is possible to install an infrared scanner and improvement plan.</text>

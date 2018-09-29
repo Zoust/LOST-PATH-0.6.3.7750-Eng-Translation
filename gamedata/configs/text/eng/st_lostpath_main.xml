@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>	
 	<string id="ui_fc_button_spawn_squad">
-		<text>Создать отряд</text>
+	<text>Create a squad</text>
 	</string>
 	<string id="ui_fc_cap_spawn_squad">
-		<text>Вызов подмоги</text>
+	<text>Call for help</text>
 	</string>
 	<string id="ui_fc_logo">
-		<text>Меню управления группировкой [Lost Path]</text>
+	<text>The[Path Path]</text>
 	</string>
 	<string id="ui_fc_attack">
-		<text>Атака</text>
+	<text>Attack</text>
 	</string>
 	<string id="ui_fc_defend">
-		<text>Оборона</text>
+	<text>Defense</text>
 	</string>
 	<string id="ui_fc_default">
-		<text>Сбалансировано</text>
+	<text>Balanced</text>
 	</string>
 	<string id="ui_fc_caption_commands">
-		<text>Настройка ИИ</text>
+	<text>Setting AI</text>
 	</string>
 	<string id="ui_fc_caption_commands_ai">
-		<text>Настройка враждебного ИИ</text>
+	<text>Configure hostile AI</text>
 	</string>
-	
 	<string id="st_treasure">
 <text>Laying the stash</text>
 </string>
@@ -72,10 +71,10 @@
 </string>
 
 	<string id="ui_mm_alife_time">
-		<text>Интервал бродяжничества</text>
+	<text>Interval of vagrancy</text>
 	</string>
 	<string id="ui_mm_spawn_mutant_time">
-		<text>Время спавна монстров</text>
+	<text>Time for spawning monsters</text>
 	</string>
 
 <string id="ui_mm_passive_npc_const">
@@ -118,55 +117,50 @@
  <text>the update Time information (msec)</text>
 </string>
 	<string id="respawn_after_death">
-		<text>Респавн после смерти (не Азазель)</text>
+	<text>After respiration (not Azazel)</text>
 	</string>
-	
 	<string id="ui_mm_spawn_attack_time">
-		<text>Время респавна атакующих (игр. мин)</text>
+	<text>Time for respawning attackers (games, minutes)</text>
 	</string> 
 	<string id="ui_mm_spawn_defence_time">
-		<text>Время респавна защищающихся (игр. мин)</text>
+	<text>Time of respawning defending (gaming minutes)</text>
 	</string> 
-	
 	<string id="spawn_res">
-		<text>Тратить ресурсы на спавн отрядов</text>
+	<text>Spend resources on spawning units</text>
 	</string>
 	<string id="attack_news">
-		<text>Новости с атакующими сквадами</text>
+	<text>News with attacking squads</text>
 	</string>
 	<string id="mutant_news">
-		<text>Новости про мутантов</text>
+	<text>News about mutants</text>
 	</string>
 	<string id="capture_actor_news">
-		<text>Отправлять новости о захвате игроком</text>
+	<text>Send news about player capture</text>
 	</string>
 	<string id="capture_news">
-		<text>Отправлять новости о захвате НПС</text>
+	<text>Send news about the capture of the NPC</text>
 	</string>
 	<string id="mutant_news">
-		<text>Отправлять новости о мутантах</text>
+	<text>Send news about mutants</text>
 	</string>
 	<string id="night_spawn">
-		<text>Респавн атаки только ночью</text>
+	<text>Respawn attacks only at night</text>
 	</string>
 	<string id="disable_alife">
-		<text>Отключить симуляцию по всей Зоне</text>
+	<text>Disable simulation throughout the Zone</text>
 	</string>
 	<string id="dynamic_relations">
-		<text>Динамические отношения группировок</text>
+	<text>Dynamic relationships of groupings</text>
 	</string>
 	<string id="release_min_dist">
-		<text>Минимальное расстояние для уборщика трупов</text>
+	<text>the minimum distance for the cleaner of corpses</text>
 	</string>
 	<string id="stay_time">
-		<text>Время до удаления трупа (секунд)</text>
+	<text>Time to remove the corpse (seconds)</text>
 	</string>
 	<string id="treasure_k">
-		<text>Коэффициент "жирности" тайника</text>
+	<text>Coefficient of greasy cache</text>
 	</string>
-	
-	
-	
 <string id="ui_mm_default_pop">
 <text>Capacity of smarts</text>
 </string>

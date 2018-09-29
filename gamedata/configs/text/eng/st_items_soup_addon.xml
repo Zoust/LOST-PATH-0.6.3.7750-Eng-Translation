@@ -3,95 +3,92 @@
 <!--ITEM SOUP-->
 
 	<string id="st_paperscrap">
-		<text>Ћист бумаги</text>
+	<text>Paper</text>
 	</string>
 	<string id="st_paperscrap_descr">
-		<text>ѕросто лист бумаги. Ќичего особенного. \n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+2%)</text>
+	<text>Just a sheet of paper. Nothing special. \n\n %c[0,140,140,140] PROPERTIES: \n\n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (2%)</text>
 	</string>
 	<string id="st_steel_wool">
-		<text>—тальна€ губка</text>
+	<text>Steel sponge</text>
 	</string>
 	<string id="st_steel_wool_descr">
-		<text>ѕредставл€ет собой пучок очень тонких м€гких стальных нитей. »спользуетс€ в качестве абразива в отделочных и ремонтных работах, дл€ полировки древесины или металлических предметов, чистки посуды и проч.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+6%)</text>
+	<text>It is a bundle of very thin soft steel filaments. Used as an abrasive in finishing and repair work,for polishing wood or metal objects,cleaning dishes and so on. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (6%)</text>
 	</string>
 	<string id="st_grease">
-		<text>—олидол</text>
+	<text>Solidolide</text>
 	</string>
 	<string id="st_grease_descr">
-		<text> онсистентна€ смазка.  ак правило, состоит из мыла, эмульгированного с минеральным или растительным маслом.  онсистентные смазки примен€ютс€ к механизмам,которые не могут быть смазаны маслом . ќни также выступают в качестве уплотнителей дл€ предотвращени€ проникновени€ воды и загр€знени€.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] высокое качество\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+6%)</text>
+	<text>Grease lubrication. Typically,it consists of soap emulsified with mineral or vegetable oil. Greases are applied to gears that cannot be oiled. They also act as seals to prevent water penetration and contamination. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] high quality \n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (6%)</text>
 	</string>
 	<string id="st_textile_patch_b">
-		<text>“кань</text>
+	<text>the cloth</text>
 	</string>
 	<string id="st_textile_patch_b_descr">
-		<text>»спользуетс€ дл€ штопки одежды и чистки оружи€.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] ежедневное\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+3%)</text>
+	<text>Used for darning clothes and cleaning weapons. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] Daily \n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (3%)</text>
 	</string>
 	<string id="st_textile_patch_m">
-		<text>Ѕрезент</text>
+	<text>Tarpaulin</text>
 	</string>
 	<string id="st_textile_patch_m_descr">
-		<text>ћожет быть использован дл€ ремонта одежды и легкой брони в полевых услови€х. ÷ен€т за его относительно низкую цену и высокую универсальность.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] военное имущество\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+4%)</text>
+	<text>Can be used to repair clothing and light armor in the field. Appreciate for its relatively low price and high versatility. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] military property \n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (4%)</text>
 	</string>
 	<string id="st_textile_patch_e">
-		<text>јрмированна€ ткань</text>
+	<text>Reinforced fabric</text>
 	</string>
 	<string id="st_textile_patch_e_descr">
-		<text>“олста€, армированна€ кевларом ткань. ћожет использоватьс€ дл€ ремонта средних и т€желых бронежилетов. ƒостаточно больша€, чтобы покрыть несколько поврежденных участков.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] военное имущество\n%c[0,153,255,255] Х %c[0,140,140,140] высокое качество\n%c[255,238,153,26] Х %c[0,140,140,140] применение:%c[0,170,170,170] техобслуживание (+6%)</text>
+	<text>Thick,kevlar-reinforced fabric. Can be used for repairing medium to heavy body armor. Large enough to cover several damaged areas. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] military property \n %c[0,153,255,255] Х %c[0,140,140,140] high quality \n %c[255,238,153,26] Х %c[0,140,140,140] application: %c[0,170,170,170] maintenance (6%)</text>
 	</string>
-	
 	<string id="st_armor_repair_fa">
-		<text>јварийный ремкомплект</text>
+	<text>Emergency repair kit</text>
 	</string>
 	<string id="st_armor_repair_fa_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] все костюмы и лЄгкие шлемы\n \n%c[0,170,170,170] »з-за относительно низкой прочности предоставленных материалов, набор может быть использован только дл€ незначительных работ.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] быстрое использование (клейка€ лента)\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]85%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]6%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] дополнительные ремкомплекты %c[0,170,170,170]+6-18%\n%c[255,238,153,26] Х %c[0,140,140,140] швейные наборы %c[0,170,170,170]+3-9%\n%c[255,238,153,26] Х %c[0,140,140,140] adhesives %c[0,170,170,170]+2-6%\n%c[255,238,153,26] Х %c[0,140,140,140] армированна€ ткань %c[0,170,170,170]+5-6%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+3-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-3%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] all costumes and light helmets \n\n %c[0,170,170,170] Due to the relatively low strength of the materials provided,the kit can only be used for minor work. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] fast use (adhesive tape) \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 85 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 6 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] additional repair kits%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] Х %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] Х %c[0,140,140,140] adhesives %c[0,170,170,170] +2-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +3-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3%</text>
 	</string>
 
 
 	<string id="st_solvent">
-		<text>ќчиститель</text>
+	<text>Cleaner</text>
 	</string>
 	<string id="st_solvent_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] подходит дл€ всех видов оружи€\n \n%c[0,170,170,170]«ападного производства, высокого качества очиститель огнестрельного оружи€, специально приспособленный дл€ использовани€ в жестких услови€х окружающей среды.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] очиститель\n%c[0,153,255,255] Х %c[0,140,140,140] высокое качество\n%c[0,153,255,255] Х %c[0,140,140,140] ценность\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]78%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]7%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] ружейные масла %c[0,170,170,170]+3-6%\n%c[255,238,153,26] Х %c[0,140,140,140] другие очистители %c[0,170,170,170]+3-7%\n%c[255,238,153,26] Х %c[0,140,140,140] лЄгкие инструменты %c[0,170,170,170]+2-5%\n%c[255,238,153,26] Х %c[0,140,140,140] лист бумаги %c[0,170,170,170]+1-2%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+2-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-4%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] suitable for all weapons \n\n %c[0,170,170,170] Western-made,high-quality firearm cleaner,specially adapted for use in harsh environments. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] cleaner \n %c[0,153,255,255] Х %c[0,140,140,140] high quality \n %c[0,153,255,255] Х %c[0,140,140,140] value \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 78 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 7 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] other cleaners%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] Х %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] Х %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4%</text>
 	</string>
 
 	<string id="st_gun_oil">
-		<text>—прей-маслЄнка</text>
+	<text>Spray oiler</text>
 	</string>
 	<string id="st_gun_oil_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] подходит дл€ всех видов оружи€\n \n%c[0,170,170,170]—прей, содержащий масло, предназначенное дл€ смазывани€ и защиты огнестрельного оружи€. „астое применение позволит предохранить оружие от неисправностей и ржавчины, особенно после длительного использовани€ в боевых услови€х.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] спрей-маслЄнка\n%c[0,153,255,255] Х %c[0,140,140,140] высокое качество\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]85%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]5%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] другие ружейные масла %c[0,170,170,170]+3-6%\n%c[255,238,153,26] Х %c[0,140,140,140] очиститель %c[0,170,170,170]+3-7%\n%c[255,238,153,26] Х %c[0,140,140,140] легкие инструменты %c[0,170,170,170]+2-5%\n%c[255,238,153,26] Х %c[0,140,140,140] лист бумаги %c[0,170,170,170]+1-2%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+2-4%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] suitable for all weapons \n\n %c[0,170,170,170] A spray containing oil designed to lubricate and protect firearms. Frequent use will protect the weapon from malfunctions and rust,especially after prolonged use in combat conditions. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] spray oiler \n %c[0,153,255,255] Х %c[0,140,140,140] high quality \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 85 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 5 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] other gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] purifier%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] Х %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] Х %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4%</text>
 	</string>
-	
 	<string id="st_gun_oil_ru_d">
-		<text>–ужейна€ смазка</text>
+	<text>Gun Grease</text>
 	</string>
 	<string id="st_gun_oil_ru_d_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] подходит дл€ всех видов оружи€\n \n%c[0,170,170,170]ћеталлическа€ бутылка разделена на две отдельные камеры, одна дл€ масла, а друга€ дл€ раствора дл€ чистки стволов.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] очиститель\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]90%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]8%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] другие ружейные масла %c[0,170,170,170]+3-6%\n%c[255,238,153,26] Х %c[0,140,140,140] очиститель %c[0,170,170,170]+3-7%\n%c[255,238,153,26] Х %c[0,140,140,140] легкие инструменты %c[0,170,170,170]+2-5%\n%c[255,238,153,26] Х %c[0,140,140,140] лист бумаги %c[0,170,170,170]+1-2%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+2-4%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] suitable for all weapons \n\n %c[0,170,170,170] the metal bottle is divided into two separate chambers,one for oil,and the other for a solution for cleaning trunks. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] cleaner \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 90 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 8 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] other gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] purifier%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] Х %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] Х %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4%</text>
 	</string>
-	
 	<string id="st_gun_oil_ru">
-		<text>ќружейное масло "–усак"</text>
+	<text>Armory oil 'Rusak'</text>
 	</string>
 	<string id="st_gun_oil_ru_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] подходит дл€ всех видов оружи€\n \n%c[0,170,170,170] ѕо словам производител€, '–усак' особенно эффективен дл€ автоматического оружи€ из-за низкого коэффициента трени€. ќн также содержит различные антикоррозионные добавоки.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] жидкое ружейное масло\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]90%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]3%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] другие ружейные масла %c[0,170,170,170]+3-6%\n%c[255,238,153,26] Х %c[0,140,140,140] очиститель %c[0,170,170,170]+3-7%\n%c[255,238,153,26] Х %c[0,140,140,140] легкие инструменты %c[0,170,170,170]+2-5%\n%c[255,238,153,26] Х %c[0,140,140,140] лист бумаги %c[0,170,170,170]+1-2%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+2-4%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] suitable for all weapons \n\n %c[0,170,170,170] According to the manufacturer,'Rusak' is especially effective for automatic weapons because of the low coefficient of friction. It also contains various anti-corrosion additives. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] liquid gun oil \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 90 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 3 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] other gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] purifier%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] Х %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] Х %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4%</text>
 	</string>
 
 	<string id="st_glue_b">
-		<text> лей "«везда"</text>
+	<text>Clay 'Star'</text>
 	</string>
 	<string id="st_glue_b_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] все костюмы и лЄгкие шлемы\n \n%c[0,170,170,170]—амые дешевый из синтетических клеев, доступных в «оне. –аствор на основе эпоксидной смолы может быть использован, чтобы собрать несколько обрывков ткани или заделать небольшое отверстие в шлеме.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]90%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]2%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] ремкомплекты дл€ брони %c[0,170,170,170]+6-18%\n%c[255,238,153,26] Х %c[0,140,140,140] швейные наборы %c[0,170,170,170]+3-9%\n%c[255,238,153,26] Х %c[0,140,140,140] дополнительные клеи %c[0,170,170,170]+2-6%\n%c[255,238,153,26] Х %c[0,140,140,140] армированна€ ткань %c[0,170,170,170]+5-6%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+3-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-3%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] all costumes and light helmets \n\n %c[0,170,170,170] the cheapest of synthetic adhesives available in the Zone. An epoxy resin solution can be used to collect a few scraps of tissue or seal a small hole in the helmet. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 90 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 2 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] repair k its for armor%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] Х %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] Х %c[0,140,140,140] additional adhesives%c[0,170,170,170] +2-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +3-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3%</text>
 	</string>
 	<string id="st_glue_a">
-		<text> лей "“ур"</text>
+	<text>Clay 'Tour'</text>
 	</string>
 	<string id="st_glue_a_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n \n%c[255,238,153,26] Х %c[0,140,140,140] все костюмы и шлемы\n \n%c[0,170,170,170] ћодифицированный клей, производимый химической промышленностью ”краины.  лей св€зывает как текстильные ткани и легкие защитные материалы, такие, как кевлар, но бесползен, когда речь идет о металлах.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]75%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]4%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] ремкомплекты дл€ брони %c[0,170,170,170]+6-18%\n%c[255,238,153,26] Х %c[0,140,140,140] швейные наборы %c[0,170,170,170]+3-9%\n%c[255,238,153,26] Х %c[0,140,140,140] дополнительные клеи %c[0,170,170,170]+2-6%\n%c[255,238,153,26] Х %c[0,140,140,140] армированна€ ткань %c[0,170,170,170]+5-6%\n%c[255,238,153,26] Х %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+3-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-3%\n%c[255,238,153,26] Х %c[0,140,140,140] кевларовые пластины %c[0,170,170,170]+12%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n\n %c[255,238,153,26] Х %c[0,140,140,140] all costumes and helmets \n\n %c[0,170,170,170] Modified glue produced by the chemical industry of Ukraine. Clay binds both textile fabrics and lightweight protective materials,such as Kevlar,but is free when it comes to metals. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 75 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 4 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] repair k its for armor%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] Х %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] Х %c[0,140,140,140] additional adhesives%c[0,170,170,170] +2-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] textile (sheets) %c[0,170,170,170] +3-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3 %\n %c[255,238,153,26] Х %c[0,140,140,140] Kevlar plates%c[0,170,170,170] +12%</text>
 	</string>
 	<string id="st_glue_e">
-		<text> лей "M17"</text>
+	<text>Glue 'M17'</text>
 	</string>
 	<string id="st_glue_e_descr">
-		<text>\n \n%c[0,140,140,140]—ќ¬ћ≈—“»ћќ—“№:\n%c[255,238,153,26] Х %c[0,140,140,140] все костюмы и шлемы\n \n%c[0,170,170,170]„резвычайно мощный, одноингредиентный клей, который может быть использован в любой ситуации, независимо от назначени€ и материалов.  лей использует сильнодействующий метакрилат, кроме того, клей получил значительный импульс универсальности благодар€ его гидратной форме: она может быть разбавлена водой и использована в любой концентрации, в зависимости от желаемого результата. ѕочти нет  таких повреждений, которые клей, в сочетании с соответствующими материалами, не сможет восстановить.\n \n%c[0,140,140,140]—¬ќ…—“¬ј:\n%c[0,153,255,255] Х %c[0,140,140,140] технологический элемент\n%c[0,153,255,255] Х %c[0,140,140,140] высокое качество\n%c[0,153,255,255] Х %c[0,140,140,140] ценность\n%c[255,238,153,26] Х %c[0,140,140,140] применение: ремонт снар€жени€\n%c[255,238,153,26] Х %c[0,140,140,140] не может быть использован ниже уровн€: %c[0,170,170,170]60%\n%c[255,238,153,26] Х %c[0,140,140,140] усиление базового состо€ни€: %c[0,170,170,170]6%\n \n%c[0,140,140,140]ѕќƒƒ≈–∆»¬ј≈ћџ≈ ћј“≈–»јЋџ:\n%c[255,238,153,26] Х %c[0,140,140,140] ремкомплекты дл€ брони %c[0,170,170,170]+6-18%\n%c[255,238,153,26] Х %c[0,140,140,140] швейные наборы %c[0,170,170,170]+3-9%\n%c[255,238,153,26] Х %c[0,140,140,140] дополнительные клеи %c[0,170,170,170]+2-6%\n%c[255,238,153,26] Х %c[0,140,140,140] армированна€ ткань %c[0,170,170,170]+5-6%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань,брезент %c[0,170,170,170]+3-4%\n%c[255,238,153,26] Х %c[0,140,140,140] ткань %c[0,170,170,170]+2-3%\n%c[255,238,153,26] Х %c[0,140,140,140] кевларовые пластины %c[0,170,170,170]+12%\n%c[255,238,153,26] Х %c[0,140,140,140] стальные пластины %c[0,170,170,170]+18%</text>
+	<text>\n\n %c[0,140,140,140] COMPATIBILITY: \n %c[255,238,153,26] Х %c[0,140,140,140] all costumes and helmets \n\n %c[0,170,170,170] Extremely powerful,one-glue adhesive that can be used in any situation,regardless of purpose and materials. the glue uses strong methacrylate,in addition,the adhesive has received a significant impulse of versatility due to its hydrated form: it can be diluted water and used in any concentration,depending on the desired result. Almost no such damage,which glue,in combination with the relevant materials,cannot be restored. \n\n %c[0,140,140,140] PROPERTIES: \n %c[0,153,255,255] Х %c[0,140,140,140] technological element \n %c[0,153,255,255] Х %c[0,140,140,140] high quality \n %c[0,153,255,255] Х %c[0,140,140,140] value \n %c[255,238,153,26] Х %c[0,140,140,140] application: repair of equipment \n %c[255,238,153,26] Х %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 60 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 6 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS: \n %c[255,238,153,26] Х %c[0,140,140,140] repair k its for armor%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] Х %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] Х %c[0,140,140,140] additional adhesives%c[0,170,170,170] +2-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] Х %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +3-4 %\n %c[255,238,153,26] Х %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3 %\n %c[255,238,153,26] Х %c[0,140,140,140] Kevlar plates%c[0,170,170,170] +12 %\n %c[255,238,153,26] Х %c[0,140,140,140] steel plates%c[0,170,170,170] +18%</text>
 	</string>
 
 
@@ -104,410 +101,398 @@
 
 
 	<string id="st_goldencoin">
-		<text>÷арский червонец</text>
+	<text>Tsarist chervonets</text>
 	</string>
 	<string id="st_goldencoin_descr">
-		<text>«олота€ монета »мператора Ќикола€ II.</text>
+	<text>Gold coin of Emperor Nicholas II.</text>
 	</string>
-	
 	<string id="st_roubles">
-		<text>100-рублевые монеты</text>
+	<text>100-ruble coins</text>
 	</string>
 	<string id="st_roubles_descr">
-		<text>“орговл€ в «оне проводитс€ в основном с помощью электронных денег. Ќо многие сталкеры держат несколько монет в кармане на вс€кий случай.</text>
+	<text>Trade in the Zone is carried out mainly through electronic money. But many stalkers hold several coins in their pocket just in case.</text>
 	</string>
-	
 	<string id="st_roubles_500">
-		<text>10 долларов</text>
+	<text>10 dollars</text>
 	</string>
 	<string id="st_roubles_500_descr">
-		<text>Ѕаксы...</text>
+	<text>the bucks.</text>
 	</string>
-	
 	<string id="st_roubles_1000">
-		<text>50 долларов</text>
+	<text>$50</text>
 	</string>
 	<string id="st_roubles_1000_descr">
-		<text>Ѕаксы...</text>
+	<text>the bucks.</text>
 	</string>
-	
 	<string id="st_roubles_5000">
-		<text>100 долларов</text>
+	<text>100 dollars</text>
 	</string>
 	<string id="st_roubles_5000_descr">
-		<text>Ѕаксы...</text>
+	<text>the bucks.</text>
 	</string>
-		
-	
 	<string id="st_hide_flesh">
-		<text>Ўкура плоти</text>
+	<text>Flesh skin</text>
 	</string>
 	<string id="st_hide_flesh_descr">
-		<text>Ўкура плоти</text>
+	<text>Flesh skin</text>
 	</string>
 	<string id="st_hide_boar">
-		<text>Ўкура кабана</text>
+	<text>Wild boar hides</text>
 	</string>
 	<string id="st_hide_boar_descr">
-		<text>Ўкура кабана</text>
+	<text>Wild boar hides</text>
 	</string>
 	<string id="st_hide_bloodsucker">
-		<text> ожа кровососа</text>
+	<text>Bloodsucker's Leather</text>
 	</string>
 	<string id="st_hide_bloodsucker_descr">
-		<text> ожа кровососа</text>
+	<text>Bloodsucker's Leather</text>
 	</string>
 	<string id="st_hide_burer">
-		<text> ожа бюрера</text>
+	<text>Leather burer</text>
 	</string>
 	<string id="st_hide_burer_descr">
-		<text> ожа бюрера</text>
+	<text>Leather burer</text>
 	</string>
 	<string id="st_hide_chimera">
-		<text>Ўкура химеры</text>
+	<text>Skin of the Chimera</text>
 	</string>
 	<string id="st_hide_chimera_descr">
-		<text>Ўкура химеры</text>
+	<text>Skin of the Chimera</text>
 	</string>
 	<string id="st_hide_pseudogiant">
-		<text>Ўкура псевдогиганта</text>
+	<text>Pseudo giant skin</text>
 	</string>
 	<string id="st_hide_pseudogiant_descr">
-		<text>Ўкура псевдогиганта</text>
+	<text>Pseudo giant skin</text>
 	</string>
 	<string id="st_hide_controller">
-		<text>—кльп контроллЄра</text>
+	<text>Controller slip</text>
 	</string>
 	<string id="st_hide_controller_descr">
-		<text>—кльп контроллЄра</text>
+	<text>Controller slip</text>
 	</string>
 	<string id="st_hide_pseudodog">
-		<text>Ўерсть псевдособаки</text>
+	<text>Wool of pseudo dogs</text>
 	</string>
 	<string id="st_hide_pseudodog_descr">
-		<text>Ўерсть псевдособаки</text>
+	<text>Wool of pseudo dogs</text>
 	</string>
 	<string id="st_hide_psy_dog">
-		<text>Ўерсть пси-собаки</text>
+	<text>Wool of psi-dogs</text>
 	</string>
 	<string id="st_hide_psy_dog_descr">
-		<text>Ўерсть пси-собаки</text>
+	<text>Wool of psi-dogs</text>
 	</string>
 	<string id="st_powder_poltergeist">
-		<text>јлмазный порошок</text>
+	<text>Diamond powder</text>
 	</string>
 	<string id="st_powder_poltergeist_descr">
-		<text>'јлмазный порошок'- такое общее название дано кристаллоподобному веществу, находимому иногда в брюхе всех видов пси-существ. Ќе известно, что за метаболические процессы привод€т к его по€влению.”ченые готовы платить большие суммы денег, чтобы заполучить его в руки. ѕрактическое использование ограничено, но некоторые сталкеры, как известно, посыпают ими самые заветные охотничьи ножи,так как это делает заточку значительно проще. Ёто также делает лезви€ более блест€щими и облагороженными.</text>
+	<text>'Diamond powder'-such a common name is given to a crystal-like substance, found sometimes in the belly of all kinds of psi-beings. It is not known what kind of metabolic processes lead to its appearance. Scientists are willing to pay large sums of money to get it in their hands. Practical use is limited, but some stalkers, as is known, sprinkle them with the most treasured hunting knives, as this makes sharpening much easier. This also makes the blades more shiny and refined.</text>
 	</string>
 	<string id="st_mask_snork">
-		<text>ѕротивогаз снорка</text>
+	<text>Snorkel mask</text>
 	</string>
 	<string id="st_mask_snork_descr">
-		<text>ѕротивогаз снорка</text>
+	<text>Snorkel mask</text>
 	</string>
 	<string id="st_marlboro">
 		<text>Marlboro</text>
 	</string>
 	<string id="st_marlboro_descr">
-		<text>—игареты "Marlboro".</text>
+	<text>Cigarettes 'Marlboro'.</text>
 	</string>
 	<string id="st_lucky">
 		<text>Lucky Strike</text>
 	</string>
 	<string id="st_lucky_descr">
-		<text>—игареты "Lucky Strike".</text>
+	<text>Cigarettes 'Lucky Strike'.</text>
 	</string>
 	<string id="st_cuban">
-		<text>—игары</text>
+	<text>Cigars</text>
 	</string>
 	<string id="st_cuban_descr">
-		<text> убинские сигары.</text>
+	<text>Cuban cigars.</text>
 	</string>
 	<string id="st_cigarettes_russian">
-		<text>ѕапиросы "ѕетр I"</text>
+	<text>Cigarettes 'Peter I'</text>
 	</string>
 	<string id="st_cigarettes_russian_descr">
-		<text>Ѕренд ещЄ советских времЄн.</text>
+	<text>A brand of Soviet times.</text>
 	</string>
 	<string id="st_cigarettes_1">
-		<text>—игареты "јстра"</text>
+	<text>Cigarettes 'Astra'</text>
 	</string>
 	<string id="st_cigarettes_2">
-		<text>—игареты "ѕрима"</text>
+	<text>Cigarettes 'Prima'</text>
 	</string>
 	<string id="st_cigarettes_3">
-		<text>—игареты " осмос"</text>
+	<text>Cigarettes 'Cosmos'</text>
 	</string>
 	<string id="st_cigarettes_descr">
-		<text>Ѕренд ещЄ советских времЄн.</text>
+	<text>A brand of Soviet times.</text>
 	</string>
 	<string id="st_radio_broken">
-		<text>—ломанное радио</text>
+	<text>Broken radio</text>
 	</string>
 	<string id="st_radio_broken_descr">
-		<text>ƒисплей мертв, посто€нна€ шипение из динамика.</text>
+	<text>the display is dead, a constant hiss from the speaker.</text>
 	</string>
 	<string id="st_radio">
-		<text>–адио</text>
+	<text>Radio</text>
 	</string>
 	<string id="st_radio_descr">
-		<text>–адиоприЄмник, найденный в «оне.</text>
+	<text>A radio receiver found in the Zone.</text>
 	</string>
 	<string id="st_radio_military">
-		<text>–аци€</text>
+	<text>Radio</text>
 	</string>
 	<string id="st_radio_military_descr">
-		<text>¬оенна€ раци€.¬се настройки сбиты.</text>
+	<text>All radio settings are down.</text>
 	</string>
 	<string id="st_smallradio">
-		<text> арманный радиоприЄмник</text>
+	<text>Pocket radio receiver</text>
 	</string>
 	<string id="st_smallradio_descr">
-		<text>ћаленький приЄмник со сломанной антенной.</text>
+	<text>A small receiver with a broken antenna.</text>
 	</string>
 	<string id="st_shitpost">
-		<text>ѕослание</text>
+	<text>Message</text>
 	</string>
 	<string id="st_shitpost_descr">
-		<text>—пасибо всем, кто скачал и оценил мою сборку, особенно тем, кто давал обратную св€зь, по найденным в сборке недочетам!/ќгромна€ благодарность авторам, чьи моды были использованы в сборке!/stason174rus</text>
+	<text>Thanks to everyone who downloaded and appreciated my build, especially to those who gave feedback on the defects found in the assembly!/Huge gratitude to the authors, whose mods were used in the assembly!/Stason174rus</text>
 	</string>
 	<string id="st_bandage_israeli">
-		<text>—пецбинт</text>
+	<text>Spetsbint</text>
 	</string>
 	<string id="st_bandage_israeli_descr">
-		<text>ќбъедин€ет несколько устройств дл€ оказани€ первой помощи.“акие, как первична€ пов€зка, аппликатор, вторична€ пов€зка и безупречное устройство дл€ закреплени€ пов€зки на месте. </text>
+	<text>Combines several devices for first aid. Such as a primary dressing, an applicator, a secondary dressing and an impeccable device for securing the dressing in place.</text>
 	</string>
 	<string id="st_amphetamines">
-		<text>јмфетамин</text>
+	<text>Amphetamine</text>
 	</string>
 	<string id="st_amphetamines_descr">
-		<text>јмфетамин €вл€етс€ стимул€тором и улучшает выносливость и врем€ реакции. ѕобочные эффекты включают головокружение, помутнение зрени€ или беспокойство.</text>
+	<text>Amphetamine is a stimulant and improves endurance and reaction time. Side effects include dizziness, blurred vision, or anxiety.</text>
 	</string>
 	<string id="st_diazepam">
-		<text>ƒиазепам</text>
+	<text>Diazepam</text>
 	</string>
 	<string id="st_diazepam_descr">
-		<text>ƒиазепам, впервые поступившие на рынок как валиум - это лекарство семейства бензодиазепинов, которые, как правило, производ€т успокаивающий эффект. ќн широко используетс€ дл€ лечени€ целого р€да симптомов, включа€ беспокойство, мышечные спазмы, судороги, проблемы со сном и синдром беспокойных ног. ќбщие побочные эффекты включают сонливость и проблемы с координацией.</text>
+	<text>Diazepam, first introduced to the market as valium is a drug of the benzodiazepine family, which, as a rule, produces a calming effect. It is widely used to treat a range of symptoms, including anxiety, muscle spasms, convulsions, sleep problems, and restless syndrome feet. Common side effects include drowsiness and coordination problems.</text>
 	</string>
 	<string id="st_kolbasa_smoked">
-		<text> олбаса "ƒокторска€"</text>
+	<text>Sausage 'Doctor's'</text>
 	</string>
 	<string id="st_kolbasa_smoked_descr">
-		<text> олбаса "ƒокторска€"</text>
+	<text>Sausage 'Doctor's'</text>
 	</string>
 	<string id="st_mre_1">
-		<text>—ухой паЄк</text>
+	<text>Dry rations</text>
 	</string>
 	<string id="st_mre_1_descr">
-		<text>–ацион в легкой упаковке, разработанной вооруженными силами —оединенных Ўтатов дл€ использовани€ в боевых действи€х и полевых услови€х.</text>
+	<text>A diet in light packaging developed by the United States armed forces for use in combat and field conditions.</text>
 	</string>
 	<string id="st_beanz">
-		<text>Ѕобы</text>
+	<text>Beans</text>
 	</string>
 	<string id="st_beanz_descr">
-		<text> лассические печеные бобы в очаровательном томатном соусе; с высоким содержанием клетчатки, практически без жира. ќни также не содержат искусственных красителей, ароматизаторов и консервантов, что делает их идеальным закуской или дополнением к любому блюду.</text>
+	<text>Classic baked beans in a charming tomato sauce; with a high fiber content, virtually no fat. They also do not contain artificial colors, flavors and preservatives, which makes them an ideal snack or complement to any dish.</text>
 	</string>
 	<string id="st_chili">
-		<text>–агу</text>
+	<text>Stew</text>
 	</string>
 	<string id="st_chili_descr">
-		<text>–агу из фасоли. ѕроизводство —Ўј.</text>
+	<text>Ragout of beans. Production of the USA.</text>
 	</string>
 	<string id="st_tomatoes">
-		<text>“оматы</text>
+	<text>Tomatoes</text>
 	</string>
 	<string id="st_tomatoes_descr">
-		<text> онсервированные, нарезанные кубиками помидоры, импортируютс€ в зону на регул€рной основе. —рок годности на дне банки предполагает, что они все еще свежие.</text>
+	<text>Canned, diced tomatoes are imported into the zone on a regular basis. the shelf life at the bottom of the pot assumes that they are still fresh.</text>
 	</string>
 	<string id="st_tushonka">
-		<text>“ушЄное м€со "јбакан"</text>
+	<text>Stewed meat 'Abakan'</text>
 	</string>
 	<string id="st_tushonka_descr">
-		<text>известно своей высокой питательной ценностью (в основном за счет высокого содержани€ жира) и относительно хорошим вкусом.</text>
+	<text>It is known for its high nutritional value (mainly due to its high fat content) and relatively good taste.</text>
 	</string>
 	<string id="st_corn">
-		<text> укуруза</text>
+	<text>Corn</text>
 	</string>
 	<string id="st_corn_descr">
-		<text> онсервированна€ сладка€ кукуруза. Ќекоторые используют это как компонент супа.</text>	
+	<text>Canned sweet corn. Some people use it as a component of soup.</text>
 	</string>
 	<string id="st_chocolate">
-		<text>Ўоколад "–усский"</text>
+	<text>Chocolate 'Russian'</text>
 	</string>
 	<string id="st_chocolate_descr">
-		<text>ќчень редок в «оне и весьма ценим, хот€ на вкус нет ничего особенного.</text>
+	<text>Very rare in the Zone and very appreciated, although the taste is nothing special.</text>
 	</string>
 	<string id="st_chocolatebar">
-		<text>Ўоколадно-протеинова€ смесь</text>
+	<text>Chocolate-protein mixture</text>
 	</string>
 	<string id="st_chocolatebar_descr">
-		<text>Ёта смесь предоставл€ет телу необходимые белки и сахар. ѕолезен в долгих походах.</text>
+	<text>This mixture provides the body with the necessary proteins and sugar. Useful in long hikes.</text>
 	</string>
 	<string id="st_snickers">
-		<text>"—никерс"</text>
+	<text>'Snickers'</text>
 	</string>
 	<string id="st_snickers_descr">
-		<text>Ўоколадный батончик "—никерс".</text>
+	<text>Chocolate bar 'Snickers'.</text>
 	</string>
 	<string id="st_mars">
-		<text>"ћарс"</text>
+	<text>'Mars'</text>
 	</string>
 	<string id="st_mars_descr">
-		<text>Ўоколадный батончик "ћарс".</text>
+	<text>Chocolate bar 'Mars'.</text>
 	</string>
 	<string id="st_raisins">
-		<text>»зюм</text>
+	<text>Raisins</text>
 	</string>
 	<string id="st_raisins_descr">
-		<text>ѕакет изюма. Ѕогат питательными веществами.</text>
+	<text>A bag of raisins. Rich in nutrients.</text>
 	</string>
 	<string id="st_nuts">
-		<text>ќрешки</text>
+	<text>Nuts</text>
 	</string>
 	<string id="st_nuts_descr">
-		<text>јссорти: арахис, фундук, кешью и миндаль. ѕищева€ ценность достаточно высока. «авезен из ёжной јфрики.</text>
+	<text>Assorted: peanuts, hazelnuts, cashews and almonds. Nutritional value is high enough. Imported from South Africa.</text>
 	</string>
 	<string id="st_beef">
-		<text>“ушЄнка</text>
+	<text>Stew</text>
 	</string>
 	<string id="st_beef_descr">
-		<text>√рубый фарш с натуральным соком, русский стиль м€сных консервов '“ушЄнка'.</text>
+	<text>Rough forcemeat with natural juice, Russian style of canned meat 'Tushyonka'.</text>
 	</string>
 	<string id="st_bullheads">
-		<text>Ѕычки в томате</text>
+	<text>Bull in tomato</text>
 	</string>
 	<string id="st_bullheads_descr">
-		<text>Ѕычки настолько нежные, что буквально тают во рту. Ётот пищевой продукт ценитс€ сталкерами всей «оны.</text>
+	<text>Bulls are so tender that they literally melt in the mouth. This food is valued by stalkers throughout the Zone.</text>
 	</string>
-
-
-<!-- UNUSED
-	
-	
+<!--
+UNUSED
 	<string id="st_can_food_6">
-		<text> илька в томате</text>
+	<text>Sprat in tomato</text>
 	</string>
 	<string id="st_can_food_6_descr">
-		<text> онсервированна€ килька в томатном соусе.</text>
+	<text>Canned sprats in tomato sauce.</text>
 	</string>
-			
 	<string id="st_can_food_7">
-		<text>ѕаштет из печени трески</text>
+	<text>Cod liver paste</text>
 	</string>
 	<string id="st_can_food_7_descr">
-		<text> онсервированный паштет из икры и печени трески. ѕревосходное качество. —делано в –оссии.</text>
+	<text>Canned pate from caviar and cod liver. Excellent quality. Made in Russia.</text>
 	</string>
-			
 	<string id="st_can_food_8">
-		<text> опченый лосось</text>
+	<text>Smoked salmon</text>
 	</string>
 	<string id="st_can_food_8_descr">
-		<text>”краинский копченый лосось. ќчень вкусно.</text>
+	<text>Ukrainian smoked salmon. Delicious.</text>
 	</string>
 
 	-->
-	
 	<string id="st_water_large_1">
-		<text>"Ѕоржоми"</text>
+	<text>'Borjomi'</text>
 	</string>
 	<string id="st_water_large_1_descr">
-		<text>ћинеральна€ вода "Ѕоржоми" 1.5л.</text>
+	<text>Mineral water 'Borjomi' 1.5L.</text>
 	</string>
 	<string id="st_water_large_2">
-		<text>"ƒарида"</text>
+	<text>'Darida'</text>
 	</string>
 	<string id="st_water_large_2_descr">
-		<text>ћинеральна€ вода "ƒарида" 1.5л.</text>
+	<text>Mineral water 'Darida' 1.5L.</text>
 	</string>
 	<string id="st_water_can_1">
-		<text>јртезианска€ вода</text>
+	<text>Artesian water</text>
 	</string>
 	<string id="st_water_can_1_descr">
-		<text>„иста€ вода из артезианских скважин.</text>
+	<text>Clean water from artesian wells.</text>
 	</string>
 	<string id="st_water_can_2">
-		<text>√азированна€ вода</text>
+	<text>Sparkling water</text>
 	</string>
 	<string id="st_water_can_2_descr">
-		<text>ѕросто газированна€ вода</text>
+	<text>Just carbonated water</text>
 	</string>
 	<string id="st_cocacola">
-		<text>" ока- ола"</text>
+	<text>' Coca Cola'</text>
 	</string>
 	<string id="st_cocacola_descr">
-		<text>Ѕанка " ока- олы"</text>
+	<text>Bank 'Coca-Cola'</text>
 	</string>
 	<string id="st_vodka_1">
-		<text>" ристалл"</text>
+	<text>'Crystal'</text>
 	</string>
 	<string id="st_vodka_1_descr">
-		<text>¬одка " ристалл".</text>
+	<text>Vodka 'Crystal'.</text>
 	</string>
 	<string id="st_vodka_2">
 		<text>"Smirnoff"</text>
 	</string>
 	<string id="st_vodka_2_descr">
-		<text>¬одка "Smirnoff".</text>
+	<text>Vodka 'Smirnoff'.</text>
 	</string>
 	<string id="st_vodka_3">
 		<text>"Nemiroff"</text>
 	</string>
 	<string id="st_vodka_3_descr">
-		<text>¬одка "Nemiroff".</text>
+	<text>Vodka 'Nemiroff'.</text>
 	</string>
 	<string id="st_vodka_4">
-		<text>"—толична€"</text>
+	<text>'Stolichnaya'</text>
 	</string>
 	<string id="st_vodka_4_descr">
-		<text>¬одка "—толична€".</text>
+	<text>Vodka Stolichnaya.</text>
 	</string>
 	<string id="st_beer_large_1">
-		<text>"ќчаковское"</text>
+	<text>'Ochakovo'</text>
 	</string>
 	<string id="st_beer_large_1_descr">
-		<text>ѕиво "ќчаковское" 2л.</text>
+	<text>Beer 'Ochakovskoe' 2L.</text>
 	</string>
 	<string id="st_beer_large_2">
-		<text>"јливари€ «олотое"</text>
+	<text>'Alivaria Golden'</text>
 	</string>
 	<string id="st_beer_large_2_descr">
-		<text>ѕиво "јливари€ «олотое" 1.5л.</text>
+	<text>Beer 'Alivaria Gold' 1.5L.</text>
 	</string>
 	<string id="st_beer_1">
-		<text>"Ѕалтика-3"</text>
+	<text>'Baltika-3'</text>
 	</string>
 	<string id="st_beer_1_descr">
-		<text>ѕиво "Ѕалтика-3".</text>
+	<text>Beer 'Baltika-3'.</text>
 	</string>	
 	<string id="st_beer_2">
-		<text>"—лавутич ѕремиум"</text>
+	<text>'Slavutich Premium'</text>
 	</string>
 	<string id="st_beer_2_descr">
-		<text>ѕиво "—лавутич ѕремиум".</text>
+	<text>Beer 'Slavutich Premium'.</text>
 	</string>	
 	<string id="st_beer_can_1">
-		<text>"ѕрип€ть"</text>
+	<text>'Pripyat'</text>
 	</string>
 	<string id="st_beer_can_1_descr">
-		<text>ѕиво "ѕрип€ть".</text>
+	<text>Beer 'Pripyat'.</text>
 	</string>	
 	<string id="st_beer_can_2">
 		<text>"Heineken"</text>
 	</string>
 	<string id="st_beer_can_2_descr">
-		<text>—ветлое пиво "Heineken".</text>
+	<text>Light beer 'Heineken'.</text>
 	</string>		
 	<string id="st_redbull">
 		<text>"Red Bull"</text>
 	</string>
 	<string id="st_redbull_descr">
-		<text>Ёнергетический напиток "Red Bull".</text>
+	<text>Energy drink 'Red Bull'.</text>
 	</string>
 	<string id="st_guru">
-		<text>Ёнергетик " ола"</text>
+	<text>Energetic 'Cola'</text>
 	</string>
 	<string id="st_guru_descr">
-		<text>Ќатуральный энергетик из экстракта африканских орехов кола без красителей и консервантов.</text>
+	<text>Natural energy from an extract of African cola nuts without coloring agents and preservatives.</text>
 	</string>
 	
 		

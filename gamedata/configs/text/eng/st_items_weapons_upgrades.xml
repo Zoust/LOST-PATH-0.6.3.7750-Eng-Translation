@@ -4,56 +4,53 @@
 	
 	<!-- Энергетические системы -->
 	<string id="st_up_add_energy_system_name">
-		<text>Энергетическая система.</text>
+	<text>the energy system.</text>
 	</string>
 	<string id="st_up_add_energy_system_descr">
-		<text>Монтаж базовой энергетической системы, состоящей из портативного источника питания и проводников, для обеспечения работы маломощных электронных устройств.</text>
+	<text>Installation of a basic power system consisting of a portable power source and Guides to provide operation of low-power electronic devices.</text>
 	</string>
 	<string id="st_up_add_energy_system_1_name">
-		<text>Энергетический модуль.\nСтупень 1.</text>
+	<text>Power module. \n Step 1.</text>
 	</string>
 	<string id="st_up_add_energy_system_1_descr">
-		<text>Дублирование базовой энергетической системы даёт возможность увеличить нагрузку на сеть несколькими потребителями малой мощности.</text>
+	<text>Duplication of the basic energy system makes it possible to increase the load on the network by several low-power consumers.</text>
 	</string>
 	<string id="st_up_add_energy_system_2_name">
-		<text>Энергетический модуль.\nСтупень 2.</text>
+	<text>Power module. \n Step 2.</text>
 	</string>
 	<string id="st_up_add_energy_system_2_descr">
-		<text>Улучшение базовой энергетической системы и её дубликата. Установка дополнительного источника питания, а также удлинение цепи проводников, позволяет подключить к схеме большее число энергопотребляющих элементов.</text>
+	<text>Improvement of the basic energy system and its duplicate. Installing an additional power source, as well as extending the chain of Guides, allows you to connect more power-consuming elements to the circuit.</text>
 	</string>
 	<string id="st_up_add_energy_system_3_name">
-		<text>Энергетический модуль.\nСтупень 3.</text>
+	<text>Power module. \n Step 3.</text>
 	</string>
 	<string id="st_up_add_energy_system_3_descr">
-		<text>Усиление системы портативных источников питания путём дополнения схемы одним аккумулятором и ветвления сети проводников. Обеспечивает работу любых электронных схем костюма.</text>
+	<text>Strengthening the system of portable power supplies by supplementing the circuit with one battery and branching the network of Guides. Provides operation of any electronic costume schemes.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_1_name">
-		<text>Энергетический модуль.</text>
+	<text>Power module.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_1_descr">
-		<text>Расширение базовой энергетической сети экзоскелета для установки большего числа потребителей.</text>
+	<text>Expansion of the basic energy network of the exoskeleton to install a larger number of consumers.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_2_name">
-		<text>Усиленное энергоснабжение.\nСтупень 1.</text>
+	<text>Enhanced power supply. \n Step 1.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_2_descr">
-		<text>Ветвление цепи проводников, а также монтаж дополнительных энергетических элементов для установки мощных потребителей.</text>
+	<text>Branching of a chain of Guides, and also installation of additional power elements for installation of powerful consumers.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_3_name">
-		<text>Усиленное энергоснабжение.\nСтупень 2.</text>
+	<text>Enhanced power supply. \n Step 2.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_3_descr">
-		<text>Установка дополнительных источников питания для увеличения мощности, подаваемой на ходовую часть экзоселета.</text>
+	<text>Installation of additional power supplies to increase the power supplied to the chassis of the exoset.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_4_name">
-		<text>Усиленное энергоснабжение.\nСтупень 3.</text>
+	<text>Enhanced power supply. \n Step 3.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_4_descr">
-		<text>Большее число источников питания увеличивает суммарную генерируемую ими мощность. Это позволяет увеличить предел нагрузок на механику экзоскелета.</text>
+	<text>A larger number of power supplies increases the total power they generate. This allows us to increase the load limit on the mechanics of the exoskeleton.</text>
 	</string>
-	
-	<!-- Системы регенерации -->
-	<!-- heal + bleeding_restore + power_restore -->
 	<string id="st_up_tch_c1_name">
 		<text>Phoenix restoration system</text>
 	</string>
@@ -61,12 +58,11 @@
 		<text>Generation C injector that introduces a combat mix of dubious content into the bloodstream, improving tissue regeneration and removing pain.</text>
 	</string>
 	<string id="st_up_tch_c5_name">
-		<text>Система жизнеобеспечения «Восход»</text>
+	<text>Life support system Sunrise</text>
 	</string>
 	<string id="st_up_tch_c5_descr">
-		<text>Комплексная система слежения за параметрами жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь витамины, адреналин, стероиды и анаболики.</text>
+	<text>Integrated system for monitoring the parameters of the body's vital activity. As necessary, injects into the blood vitamins, adrenaline, steroids and anabolics.</text>
 	</string>
-	<!-- heal + bleeding_restore -->
 	<string id="st_up_tch_c2_name">
 		<text>Installation of a life support system</text>
 	</string>
@@ -74,10 +70,10 @@
 		<text>An integrated system that monitors the wearer's health and supplies vitamins, adrenalin or anabolic substances as required.</text>
 	</string>
 	<string id="st_up_tch_c4_name">
-		<text>Система поддержания жизни «Полевой врач»</text>
+	<text>Life Support System</text>
 	</string>
 	<string id="st_up_tch_c4_descr">
-		<text>Установка в костюм системы поддержки боеспособности. Инъектор по мере надобности вводит в кровь смесь сложного химического состава, который ускоряет регенерацию тканей и способствует скорой остановке кровотечения.</text>
+	<text>Installation in the suit of the combat support system. the injector, as necessary, injects into the blood a mixture of complex chemical composition, which accelerates the regeneration of tissues and promotes an early stop of bleeding.</text>
 	</string>
 	<string id="st_up_uti_c3_name">
 		<text>Skif field support system</text>
@@ -85,34 +81,30 @@
 	<string id="st_up_uti_c3_descr">
 		<text>In this combat support system prototype, the designers opted against harmful adrenaline injections, instead including healing substances into the blood clotting system.</text>
 	</string>
-	<!-- heal + max_hp -->
 	<string id="st_up_cyclone_1_name">
-		<text>Биостимулятор «Циклон-1»</text>
+	<text>Biostimulator Cyclone-1</text>
 	</string>
 	<string id="st_up_cyclone_1_descr">
-		<text>Установка в костюм системы поддержки жизни «Циклон» первого поколения. Инъектор вводит в кровь смесь, состоящую из синтетических витаминов и анаболиков.</text>
+	<text>Installation in the costume of the life support system Cyclone of the first generation. the injector injects into the blood a mixture consisting of synthetic vitamins and anabolics.</text>
 	</string>
 	<string id="st_up_cyclone_2_name">
-		<text>Биостимулятор «Циклон-2»</text>
+	<text>Biostimulator Cyclone-2</text>
 	</string>
 	<string id="st_up_cyclone_2_descr">
-		<text>Установка в костюм системы поддержки жизни «Циклон» второго поколения. Инъектор вводит в кровь смесь, состоящую из синтетических витаминов и анаболиков.</text>
+	<text>Installation in the costume of the life support system Cyclone of the second generation. the injector injects into the blood a mixture consisting of synthetic vitamins and anabolics.</text>
 	</string>
-	<!-- power_restore + moving_speed -->
 	<string id="st_up_kom_b10_name">
-		<text>Каучуковый беговой комбинезон</text>
+	<text>Rubber Running overalls</text>
 	</string>
 	<string id="st_up_kom_b10_descr">
-		<text>Эргономические каучуковые конструкции позволяют не терять подвижности даже в массивном доспехе.</text>
+	<text>Ergonomic rubber construction allows you to not lose mobility, even in massive armor.</text>
 	</string>
-	<!-- power_restore + bleeding_restore -->
 	<string id="st_up_uti_c2_name">
 		<text>Varyag field support system</text>
 	</string>
 	<string id="st_up_uti_c2_descr">
 		<text>A combat support system built into the whole suit. Used rarely, primarily by the Spetsnaz. Comes pre-installed with adrenaline and blood clotting systems.</text>
 	</string>
-	<!-- bleeding_restore -->
 	<string id="st_up_tch_b1_name">
 		<text>Hydra haemoglobin injector</text>
 	</string>
@@ -131,7 +123,6 @@
 	<string id="st_up_tch_a3_descr">
 		<text>A Clear Sky development, this small wave emitter is mounted on the back, effectively increasing blood clotting speed when worn constantly.</text>
 	</string>
-	<!-- power_restore -->
 	<string id="st_up_tch_a1_name">
 		<text>Fury adrenalin injector</text>
 	</string>
@@ -139,10 +130,10 @@
 		<text>Generation A injector, developed by one of Kiev's research institutes, regularly injects the bloodstream with tiny doses of adrenalin, which may be dangerous but may also save your life in an emergency.</text>
 	</string>
 	<string id="st_up_tch_a5_name">
-		<text>Беговой комбинезон «Спринт»</text>
+	<text>Running overalls Sprint</text>
 	</string>
 	<string id="st_up_tch_a5_descr">
-		<text>Удобный комбинезон из лёгкой синтетческой ткани.</text>
+	<text>Comfortable overall made of light synthetic fabric.</text>
 	</string>
 	<string id="st_up_tch_b2_name">
 		<text>Installation of a thermal regulation system</text>
@@ -169,18 +160,17 @@
 		<text>A bodysuit ventilation system with a prevention filter for work in contaminated areas.</text>
 	</string>
 	<string id="st_up_chn-3b_3_name">
-		<text>Современные респираторы</text>
+	<text>Modern respirators</text>
 	</string>
 	<string id="st_up_chn-3b_3_descr">
-		<text>Установка новейших респираторов, облегчающих дыхание во время интенсивного движения.</text>
+	<text>Installation of the newest respirators, facilitating breathing during intensive movement.</text>
 	</string>
 	<string id="st_up_resp_a3_name">
 		<text>Steam purification & respiration mask</text>
 	</string>
 	<string id="st_up_resp_a3_descr">
-		<text>Маска облегчённого дыхания. Применяется в условиях высокой загрязнённости воздуха или экстремальных для человеческого организма температур.</text>
+	<text>Mask of light breathing. It is used in conditions of high air pollution or extreme temperatures for the human body.</text>
 	</string>
-	<!-- heal -->
 	<string id="st_up_tch_b3_name">
 		<text>Sun biostimulator</text>
 	</string>
@@ -191,83 +181,76 @@
 		<text>A system used to supply antiseptic, anti-tetanic and stimulating substances. Homemade, but doesn't seem to do any harm to the body.</text>
 	</string>
 	<string id="st_up_tch_b5_descr">
-		<text>Волновой излучатель, при постоянном его ношении заметно повышается скорость регенерации тканей, возрастают уровень иммунитета и болевой порог.</text>
+	<text>Wave emitter, with its constant wearing significantly increases the rate of tissue regeneration, increasing the level of immunity and pain threshold.</text>
 	</string>
-	<!-- max_hp -->
 	<string id="st_up_max_hp_syst1_name">
-		<text>Биостимулятор «Луч-1»</text>
+	<text>Biostimulator Beam-1</text>
 	</string>
 	<string id="st_up_max_hp_syst2_name">
-		<text>Биостимулятор «Луч-2»</text>
+	<text>Biostimulator Beam-2</text>
 	</string>
 	<string id="st_up_max_hp_syst3_name">
-		<text>Биостимулятор «Луч-3»</text>
+	<text>Biostimulator Ray-3</text>
 	</string>
 	<string id="st_up_max_hp_syst_descr">
-		<text>Периодически подаёт в кровь микроинъекции синтетических витаминов. При постоянном ношении заметно усиливаются функции жизненно важных органов.</text>
+	<text>Periodically, he injects microinjection of synthetic vitamins into the bloodstream. With constant wearing, the functions of vital organs are markedly enhanced.</text>
 	</string>
-	
-	<!-- Технологическое укрепление брони -->
 	<string id="st_up_technological_fortification_name">
-		<text>Технологическое укрепление брони</text>
+	<text>Technological strengthening of armor</text>
 	</string>
 	<string id="st_up_technological_fortification_descr">
-		<text>Перепрошивка и уплотнение позволяют повысить защитные характеристики костюма.</text>
+	<text>Re-flashing and sealing can improve the protective characteristics of the suit.</text>
 	</string>
 	<string id="st_up_technological_fortification_descr2">
-		<text>Комплексная переработка всех узлов костюма.</text>
+	<text>Complex processing of all knots of a suit.</text>
 	</string>
-	
-	<!-- Системы, установка которых возможна только после технологического укрепления брони -->
 	<string id="st_up_technological_fortifications1_name">
-		<text>Система поддержания жизни «Спираль-1»</text>
+	<text>Life Support System Spiral-1</text>
 	</string>
 	<string id="st_up_ecologexom2_techforts1_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли витамины, анаболики, анальгетики, стероиды, противорадиационные вещества и адреналин.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition included vitamins, anabolics, analgesics, steroids, anti-radiation substances and adrenaline.</text>
 	</string>
 	<string id="st_up_technological_fortifications2_name">
-		<text>Система поддержания жизни «Спираль-2»</text>
+	<text>Life Support System Spiral-2</text>
 	</string>
 	<string id="st_up_ecologexom2_techforts2_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли витамины, анаболики, анальгетики, стероиды, противорадиационные вещества и адреналин.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition included vitamins, anabolics, analgesics, steroids, anti-radiation substances and adrenaline.</text>
 	</string>
 	<string id="st_up_technological_fortifications3_name">
-		<text>Система поддержания жизни «Спираль-3»</text>
+	<text>Life Support System Spiral-3</text>
 	</string>
 	<string id="st_up_ecologexom2_techforts3_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли витамины, анаболики, анальгетики, стероиды, противорадиационные вещества и адреналин.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition included vitamins, anabolics, analgesics, steroids, anti-radiation substances and adrenaline.</text>
 	</string>
 	<string id="st_up_technological_fortifications4_name">
-		<text>Система поддержания жизни «Спираль-4»</text>
+	<text>Life Support System Spiral-4</text>
 	</string>
 	<string id="st_up_ecologexom2_techforts4_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли витамины, анаболики, анальгетики, стероиды, противорадиационные вещества и адреналин.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition included vitamins, anabolics, analgesics, steroids, anti-radiation substances and adrenaline.</text>
 	</string>
 	<string id="st_up_technological_fortifications5_name">
-		<text>Система поддержания жизни «Спираль-5»</text>
+	<text>Life Support System Spiral-5</text>
 	</string>
 	<string id="st_up_ecologexom2_techforts5_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли витамины, анаболики, анальгетики, стероиды, противорадиационные вещества и адреналин.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition included vitamins, anabolics, analgesics, steroids, anti-radiation substances and adrenaline.</text>
 	</string>
 	<string id="st_up_technological_fortificationat_name">
-		<text>Система поддержания жизни «Аякс»</text>
+	<text>Ajax Life Support System</text>
 	</string>
 	<string id="st_up_ecologexom2_techfortat_descr">
-		<text>Комплексная система поддержки жизнедеятельности организма носителя. По мере надобности впрыскивает в кровь сложный биохимический состав. В состав вошли синтетические витамины, анаболики, анальгетики, стероиды и противорадиационные вещества.</text>
+	<text>Complex system of support of vital activity of an organism of the carrier. As necessary, injects a complex biochemical composition into the blood. the composition includes synthetic vitamins, anabolics, analgesics, steroids and anti-radiation substances.</text>
 	</string>
-	
-	<!-- Электроника + оптика -->
 	<string id="st_up_dozimeter_name">
-		<text>Прибор учёта полученной дозы радиации</text>
+	<text>the device for accounting for the radiation dose received</text>
 	</string>
 	<string id="st_up_dozimeter_descr">
-		<text>Устанавка прибора для точного определения дозы полученной радиации.\n%c[255,238,153,26]Выводит шкалу облучения на худ.%c[default]</text>
+	<text>Set up the device to accurately determine the dose of radiation received. \n %c[255,238,153,26] Displays the irradiation scale for thin.%c[default]</text>
 	</string>
 	<string id="st_up_psy_controller_name">
-		<text>Пси-контроллер</text>
+	<text>Psi Controller</text>
 	</string>
 	<string id="st_up_psy_controller_descr">
-		<text>Устанавка прибора, стабилизирующего электрическую активность мозга.\n%c[255,238,153,26]Не позволяет пси-здоровью опускаться ниже 25%.%c[default]</text>
+	<text>Set the device that stabilizes the electrical activity of the brain. \n %c[255,238,153,26] Does not allow psi-health to fall below 25%.%c[default]</text>
 	</string>
 	<string id="st_up_resp_a1_name">
 		<text>First generation night vision device</text>
@@ -288,10 +271,10 @@
 		<text>Installation of a more advanced night vision device for operations in complete darkness.</text>
 	</string>
 	<string id="st_up_resp_c5_name">
-		<text>ПНВ 3-го поколения + инфракрасный сканер</text>
+	<text>NVR 3rd generation infrared scanner</text>
 	</string>
 	<string id="st_up_resp_c5_descr">
-		<text>Сложная модификация шлема, совмещающая установку более совершенного прибора ночного видения и инфракрасного сканера.</text>
+	<text>A sophisticated modification of the helmet, combining the installation of a more sophisticated night vision device and infrared scanner.</text>
 	</string>
 	<string id="st_up_resp_c3_name">
 		<text>Infra-red scanner</text>
@@ -317,9 +300,6 @@
 	<string id="st_up_opt_b1_descr">
 		<text>A modification made to assault weapons with reflex sights by means of a simple improvement in sight contrast in the yellow range. Important for combat in twilight conditions and dim buildings.</text>
 	</string>
-
-	<!-- Защита от аномальных воздействий -->
-	<!-- telepatic_protection -->
 	<string id="st_up_res_a2_name">
 		<text>A psi-protection band made of paired steel grills</text>
 	</string>
@@ -376,10 +356,10 @@
 		<text>A system that supplies electricity to the suit's exterior, repelling radioactive and chemical particles.</text>
 	</string>
 	<string id="st_up_chn-3b_1_name">
-		<text>Установка усиленных фильтров</text>
+	<text>Installing Enhanced Filters</text>
 	</string>
 	<string id="st_up_chn-3b_1_descr">
-		<text>Эти разработанные для учёных фильтры способны в условиях любой степени загрязнённости окружающей среды обеспечить максимальный приток кислорода к органам дыхания.</text>
+	<text>These filters developed for scientists are able to ensure maximum oxygen flow to respiratory organs under conditions of any degree of environmental contamination.</text>
 	</string>
 	<string id="st_up_res_c3_name">
 		<text>Installation of improved filters for scientific work</text>
@@ -414,10 +394,10 @@
 		<text>A back frame relieves focused shoulder load from carried weight by distributing it over the body, which increases maximum load.</text>
 	</string>
 	<string id="st_up_uti_c4_name">
-		<text>Вместительный рюкзак</text>
+	<text>Spacious rucksack</text>
 	</string>
 	<string id="st_up_uti_c4_descr">
-		<text>Замена рюкзака, идущего в комплекте с костюмом, на более ёмкий и удобный позволяет переносить больше полезного груза.</text>
+	<text>Replacing the rucksack, which comes with a suit, for more capacious and convenient, allows you to carry more payload.</text>
 	</string>
 	<string id="st_up_uti_a4_name">
 		<text>Weight distribution vest</text>
@@ -446,16 +426,16 @@
 		<text>Installation of an additional artefact container.</text>
 	</string>
 	<string id="st_up_uti_d1_name">
-		<text>Трёхсекционный контейнер</text>
+	<text>Three-section container</text>
 	</string>
 	<string id="st_up_uti_d1_descr">
-		<text>Установка дополнительного контейнера для ношения трёх артефактов.</text>
+	<text>Installing an additional container to wear three artifacts.</text>
 	</string>
 	<string id="st_up_uti_e1_name">
-		<text>Четырёхсекционный контейнер</text>
+	<text>Four-section container</text>
 	</string>
 	<string id="st_up_uti_e1_descr">
-		<text>Установка дополнительного контейнера для ношения четырёх артефактов.</text>
+	<text>Installation of an additional container for carrying four artifacts.</text>
 	</string>
 	
 	<!-- Снижение массы -->
@@ -480,92 +460,91 @@
 	
 	<!-- Монтаж артефактов -->
 	<string id="st_up_outfit_af_name">
-		<text>Установка артефакта</text>
+	<text>Installing the artifact</text>
 	</string>
 	<string id="st_up_outfit_af_descr">
-		<text>Пояс этого костюма оснащён добавочными секциями контейнеров, которые могут быть использованы для монтажа дополнительных артефактов.</text>
+	<text>the belt of this suit is equipped with additional sections of containers, which can be used for mounting additional artifacts.</text>
 	</string>
 	<string id="st_up_outfit_af_vyvert_name">
-		<text>Установка артефакта «Выверт»</text>
+	<text>Installing an artifact</text>
 	</string>
 	<string id="st_up_outfit_af_soul_name">
-		<text>Установка артефакта «Душа»</text>
+	<text>Installing the Soul Artifact</text>
 	</string>
 	<string id="st_up_outfit_af_thorn_name">
-		<text>Установка артефакта «Колючка»</text>
+	<text>Installing the artifact Spike</text>
 	</string>
 	<string id="st_up_outfit_af_dummy_battery_name">
-		<text>Установка артефакта «Батарейка»</text>
+	<text>Installing the artifact Battery</text>
 	</string>
 	<string id="st_up_outfit_af_skull_miser_name">
-		<text>Установка артефакта «Череп скряги»</text>
+	<text>Installation of the artifact Skull skull</text>
 	</string>
 	<string id="st_up_outfit_af_night_star_name">
-		<text>Установка артефакта «Ночная звезда»</text>
+	<text>Installation of the artifact Night Star</text>
 	</string>
 	<string id="st_up_outfit_af_star_phantom_name">
-		<text>Установка артефакта «Призрачная звезда»</text>
+	<text>Installing the Ghost Star artifact</text>
 	</string>
 	<string id="st_up_outfit_af_serofim_name">
-		<text>Установка артефакта «Серафим»</text>
+	<text>Installation of artifact Serafim</text>
 	</string>
 	<string id="st_up_outfit_af_zhelch_name">
-		<text>Установка артефакта «Рубец»</text>
+	<text>Installing the Rouge artifact</text>
 	</string>
-	
 	<string id="st_up_chn-3b_4_name">
-		<text>Бериллиево-титановая пластина</text>
+	<text>Beryllium-titanium plate</text>
 	</string>
 	<string id="st_up_chn-3b_4_descr">
-		<text>Бериллиево-титановая пластина обеспечивает дополнительную защиту головы без существенного увеличения массы шлема.</text>
+	<text>the beryllium-titanium plate provides additional head protection without significantly increasing the weight of the helmet.</text>
 	</string>
 	<string id="st_up_chn-3b_8_name">
-		<text>Уплотнение ткани комбинезона</text>
+	<text>Seal of overalls fabric</text>
 	</string>
 	<string id="st_up_chn-3b_8_descr">
-		<text>Уплотнение ткани комбинезона позволяет увеличить срок службы бронекосютма.</text>
+	<text>Compaction of fabric overalls can increase the life of an armored body.</text>
 	</string>
 	<string id="st_up_chn-3b_10_name">
-		<text>Усиленные пластины</text>
+	<text>Reinforced plates</text>
 	</string>
 	<string id="st_up_chn-3b_10_descr">
-		<text>Усиленные пластины обладают значительно большим запасом прочности в сравнении со стандартными.</text>
+	<text>Reinforced plates have a significantly greater safety margin compared to standard ones.</text>
 		</string>	
 	<string id="st_up_chn-3b_11_name">
-		<text>Установка более лёгких синтетических и пластиковый частей</text>
+	<text>Installation of lighter synthetic and plastic parts</text>
 	</string>
 	<string id="st_up_chn-3b_11_descr">
-		<text>Модификация костюма, направленная на снижение его веса путём использования более лёгких материалов.</text>
+	<text>Modification of the costume, aimed at reducing its weight by using lighter materials.</text>
 	</string>	
 	<string id="st_up_chn-3b_12_name">
-		<text>Распределительный жилет</text>
+	<text>Distribution waistcoat</text>
 	</string>
 	<string id="st_up_chn-3b_12_descr">
-		<text>Эргономичное улучшение - особые крепления на защитном костюме помогают максимально равномерно распределить переносимый груз.</text>
+	<text>Ergonomic improvement-special fastenings on a protective suit help to distribute the load as much as possible evenly.</text>
 	</string>	
 	<string id="st_up_chn-3b_13_name">
-		<text>Каркас из константана</text>
+	<text>Constantine frame</text>
 	</string>
 	<string id="st_up_chn-3b_13_descr">
-		<text>Защитный каркас из константана позволяет носителю не бояться термических и электрических аномалий.</text>
+	<text>the protective frame from constantan allows the wearer not to be afraid of thermal and electrical anomalies.</text>
 		</string>
 	<string id="st_up_chn-3b_16_name">
-		<text>Добавочная компенсационная подстёжка</text>
+	<text>Additional compensating support</text>
 	</string>
 	<string id="st_up_chn-3b_16_descr">
-		<text>Броня с подкладкой, которая распределяет импульс от удара на большую площадь.</text>
+	<text>Armor with a lining, which distributes the momentum from impact to a large area.</text>
 		</string>	
 	<string id="st_up_chn-3b_17_name">
-		<text>Установка дополнительных подвижных защитных пластин на суставы конечностей</text>
+	<text>Installation of additional moving protective plates on the joints of the limbs</text>
 	</string>
 	<string id="st_up_chn-3b_17_descr">
-		<text>Подвижные пластины уберегают суставы от пуль и осколков.</text>
+	<text>Movable plates protect joints from bullets and debris.</text>
 	</string>
 	<string id="st_up_chn-3b_18_name">
-		<text>Армированный каркас</text>
+	<text>Reinforced frame</text>
 	</string>
 	<string id="st_up_chn-3b_18_descr">
-		<text>Армирование каркаса костюма для увеличения запаса прочности.</text>
+	<text>Reinforcement of the suit frame to increase the safety factor.</text>
 	</string>
 
 	<string id="st_prop_bullet_speed">
@@ -610,7 +589,6 @@
 	<string id="st_prop_binoc_weight">
 		<text>Weight</text>
 	</string>
-	
 	<string id="st_up_add_a1_descr">
 		<text>External threading allows a silencer to be installed.</text>
 	</string>
@@ -630,10 +608,10 @@
 		<text>Under-barrel grenade launcher mount</text>
 	</string>
 	<string id="st_up_add_wpn_damage_name">
-		<text>Увеличение урона</text>
+	<text>Increase damage</text>
 	</string>
 	<string id="st_up_add_wpn_damage_descr">
-		<text>Сложная модификация, направленная на значительное увеличение давления в стволе, таким образом повышающая начальную скорость пули и наносимый оружием урон.</text>
+	<text>A sophisticated modification aimed at significantly increasing the pressure in the barrel, thus increasing the initial velocity of the bullet and the damage caused by the weapon.</text>
 	</string>
 	<string id="st_up_add_b1_descr">
 		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allow its calibre to be changed at the cost of reliability.</text>
@@ -657,10 +635,10 @@
 		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allow its calibre to be changed at the cost of reliability.</text>
 	</string>
 	<string id="st_up_add_b5_name">
-		<text>Переделка под калибр 5.7x28мм</text>
+	<text>Alteration for the caliber 5.7x28mm</text>
 	</string>
 	<string id="st_up_add_b6_name">
-		<text>Переделка под калибр 11.43x23мм</text>
+	<text>Conversion to the caliber 11.43x23mm</text>
 	</string>
 	<string id="st_up_addd_a1_name">
 		<text>Magazine capacity increase</text>
@@ -675,7 +653,7 @@
 		<text>Replacing a standard magazine with a bigger one.</text>
 	</string>
 	<string id="st_up_add_a5_name">
-		<text>Увеличенный объём аккумуляторной коробки</text>
+	<text>Increased battery box capacity</text>
 	</string>
 	<string id="st_up_addh_a1_name">
 		<text>Increased box magazine capacity</text>
@@ -1288,19 +1266,19 @@
 		<text>Addition of hydraulic boosters into drive devices</text>
 	</string>
 	<string id="st_up_rpg_sprint_name">
-		<text>Установка фиксирующего крепления</text>
+	<text>Mounting the fixing bracket</text>
 	</string>
 	<string id="st_up_rpg_sprint_descr">
-		<text>Устанавливается крепление, позволяющее надежно фиксировать гранатомёт, что позволяет перейти на бег.</text>
+	<text>A mount is installed, which makes it possible to reliably fix the grenade launcher, which makes it possible to switch to running.</text>
 	</string>
 	<string id="st_up_universal_calibre_name">
-		<text>Универсальный калибр</text>
+	<text>Universal Caliber</text>
 	</string>
 	<string id="st_up_universal_calibre_descr">
-		<text>Сложная комплексная модификация механики оружия, позволяющая использовать припасы разного калибра.</text>
+	<text>Complex complex modification of the mechanics of weapons, allowing the use of supplies of different calibers.</text>
 	</string>
 	<string id="st_up_pkm_sprint_descr">
-		<text>Устанавливается крепление, позволяющее надежно фиксировать пулемёт, что позволяет перейти на бег и вести прицельный огонь.</text>
+	<text>A mount is installed, which makes it possible to securely fix the machine gun, which makes it possible to switch to running and to guide the target fire.</text>
 	</string>
 	<string id="st_up_kom_a1_descr">
 		<text>A fabric insert prevents soft tissue damage in the event of impact against the plate.</text>
@@ -1566,10 +1544,10 @@
 	</string>
 
 	<string id="st_up_res_a4_name">
-		<text>Усиленная конструкция</text>
+	<text>Reinforced construction</text>
 	</string>
 	<string id="st_up_res_a4_descr">
-		<text>Установка бронированного стекла и дополнительное армирование каркаса позволяет увеличить защиту от механических воздействий.</text>
+	<text>Installation of armored glass and additional reinforcement of the frame allows to increase protection against mechanical influences.</text>
 	</string>
 
 	<string id="st_up_res_b2_descr">
@@ -2353,7 +2331,7 @@
 		<text>Servomotor boosters </text>
 	</string>
 	<string id="st_prop_wpn_sprint">
-		<text>Возможность бега</text>
+	<text>Running ability</text>
 	</string>
 	<string id="st_prop_durability">
 		<text>Suit durability</text>

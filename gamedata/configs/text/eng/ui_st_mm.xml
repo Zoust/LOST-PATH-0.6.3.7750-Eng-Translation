@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="inf_ruck">
-		<text>Рюкзаки не ломаются</text>
+	<text>Rucksack. Do not break</text>
 	</string>
 
 	<string id="ui_mm_r2_sun_shafts_mode">
@@ -18,27 +18,27 @@
 	</string>
 	
 	<string id="rename">
-		<text>Воинское звание в имени</text>
+	<text>Military rank in the name</text>
 	</string>
 	
 	<string id="hide_hand">
-		<text>Убирание рук при использовании</text>
+	<text>Hand removal when using</text>
 	</string>
 	
 	<string id="show_smart">
-		<text>Старое отображение карты</text>
+	<text>Old map display</text>
 	</string>
 
 	<string id="ui_mm_reset">
-		<text>Сброс</text>
+	<text>Reset</text>
 	</string>
 	
 	<string id="ui_mm_scripts">
-		<text>Фичи</text>
+	<text>Features</text>
 	</string>
 	
 	<string id="ui_mm_scripts2">
-		<text>Доп</text>
+	<text>Additional</text>
 	</string>
 	
 	<string id="ui_mm_alife">
@@ -46,17 +46,17 @@
 	</string>
 	
 	<string id="ui_mm_war">
-		<text>Симуляция</text>
+	<text>Simulation</text>
 	</string>
 	
 	<string id="ui_mm_lostpath_options">
-		<text>Настройки мода</text>
+	<text>Mod settings</text>
 	</string>
 	<string id="ui_st_mp_login">
-		<text>Ввод</text>
+	<text>Entering</text>
 	</string>
 	<string id="ui_st_mp_logout">
-		<text>Выход</text>
+	<text>Exit</text>
 	</string>
 	
 	<string id="Clear">

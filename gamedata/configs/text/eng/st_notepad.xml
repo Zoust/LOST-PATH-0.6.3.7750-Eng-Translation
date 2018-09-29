@@ -3,48 +3,48 @@
 
 <!-- Кнопки -->
 <string id="pda_btn_rpg">
-	<text>Прокачка</text>
+	<text>Prorolling</text>
 </string>
 <string id="pda_btn_1">
-	<text>Ещё вкладка</text>
+	<text>More tab</text>
 </string>
 <string id="pda_btn_2">
-	<text>И ещё вкладка</text>
+	<text>And more tab</text>
 </string>
 <string id="ui_pda_ostalos">
-	<text>Оставшиеся очки умений:</text>
+	<text>Remaining skill points:</text>
 </string>
 
 <string id="ui_pda_name_1">
-	<text>Умение 1:</text>
+	<text>Skill 1:</text>
 </string>
 <string id="ui_pda_name_2">
-	<text>Умение 2:</text>
+	<text>Skill 2:</text>
 </string>
 <string id="ui_pda_name_3">
-	<text>Умение 3:</text>
+	<text>Skill 3:</text>
 </string>
 <string id="ui_pda_name_4">
-	<text>Умение 4:</text>
+	<text>Ability 4:</text>
 </string>
 <string id="ui_pda_name_5">
-	<text>Умение 5:</text>
+	<text>Skill 5:</text>
 </string>
 
 <string id="ui_pda_desc_1">
-	<text>Описание 1:</text>
+	<text>Description 1:</text>
 </string>
 <string id="ui_pda_desc_2">
-	<text>Описание 2:</text>
+	<text>Description 2:</text>
 </string>
 <string id="ui_pda_desc_3">
-	<text>Описание 3:</text>
+	<text>Description 3:</text>
 </string>
 <string id="ui_pda_desc_4">
-	<text>Описание 4:</text>
+	<text>Description 4:</text>
 </string>
 <string id="ui_pda_desc_5">
-	<text>Описание 5:</text>
+	<text>Description 5:</text>
 </string>
 
 

@@ -104,39 +104,39 @@
 		<text>You won't be able to issue orders to companions if you leave them behind. Companions in Wait or Patrol modes will not travel with you to new map locations.</text>
 	</string>
 	<string id="ls_tip_25">
-		<text>Вы не сможете отдавать приказы напарникам, если бросите их и оставите позади. Спутники, находящиеся в засаде или патруле не смогут путешествовать вместе с вами.</text>
+	<text>You cannot give orders to your partners if you drop them and leave them behind. Satellites in ambush or patrol will not be able to travel with you.</text>
 	</string>
 	
 	<string id="ls_tip_26">
-		<text>Исследуя Зону вы можете взять все доступные квесты для каждой группировки без ограничений на количество.</text>
+	<text>When exploring the Zone, you can take all the available quests for each grouping without any limit on the number.</text>
 	</string>
 	
 	<string id="ls_tip_27">
-		<text>Аккумуляторы необходимы для работы экзоскелетов и сервоприводов. При установке в слот запас прочности начинает падать, поэтому пользуйтесь с умом. Так же, если у вас нет аккумулятора, экзоскелет не будет давать прибавку к переносимому весу.</text>
+	<text>Batteries are necessary for the operation of exoskeletons and servo drives. When installed in a slot, the safety margin begins to fall, so use it wisely. Similarly, if you do not have a battery, the exoskeleton will not give you an extra weight.</text>
 	</string>
 	
 	<string id="ls_tip_28">
-		<text>Персонажи будут давать вам квесты на убийство персонажей на соседних локациях, а не по всей Зоне.</text>
+	<text>Characters will give you quests for killing characters in nearby locations, rather than across the entire Zone.</text>
 	</string>
 	
 	<string id="ls_tip_29">
-		<text>''Янов'' - единственное безопасное место в окрестностях Юпитера.С недавних пор на станции расположились охотники на мутантов во главе со сталкером, по кличке Зверобой.Для них ''Янов'' стал отличным убежищем которое они ,вот уже пол года, защищают от атак монолитовцев,позарившихся на станцию.По мимо охотников на станции обитает Рабинович - весьма скрытный торговец у которого можно найти в продаже очень интересные вещи...</text>
+	<text>'Yanov' is the only safe place in the vicinity of Jupiter. Recently, the station was settled by hunters on mutants, led by a stalker, nicknamed St John's Wort. For them, 'Yanov' has become an excellent refuge which they have been protecting for half a year from the attacks of monoliths who fought at the station. By past the hunters at the station lives Rabinovich-a very secretive merchant who can be found on sale very interesting things.</text>
 	</string>
 	
 	<string id="ls_tip_30">
-		<text>Для вступления в группировку необходимо набрать 1000 репутации с данной группировкой. После чего у любого лидера или Наставника появится диалог на вступление. При первом вступлении будет выдан стартовый комплект снаряжения.</text>
+	<text>To join the group, you need to score 1000 reputation with this grouping. After that, any leader or mentor will have a dialogue on the introduction. At the first entry a starter kit will be issued.</text>
 	</string>
 	
 	<string id="ls_tip_31">
-		<text>Шлемы не учитываются в подсчете защищенности персонажа, а показатели имеют % отношение.</text>
+	<text>Helmets are not counted in the calculation of the character's security, and the indicators have a %relationship.</text>
 	</string>
 	
 	<string id="ls_tip_32">
-		<text>При прицеливании от второго лица камера переключается в вид от первого. Теперь играть стало удобнее!</text>
+	<text>When aiming from the second person, the camera switches to the view from the first. Now it's more convenient to play!</text>
 	</string>
 	
 	<string id="ls_tip_33">
-		<text>Напарников можно вылечить через специальное меню в пда за некоторую сумму.</text>
+	<text>Partners can be cured through a special menu at a time for a certain amount.</text>
 	</string>
 
 </string_table>

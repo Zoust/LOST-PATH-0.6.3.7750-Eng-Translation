@@ -1012,7 +1012,7 @@
 
 <!-- Alundaio -->
 	<string id="axr_phrase_npc_start_wounded">
-		<text>Help...me.</text>
+		<text>Help... Me.</text>
 	</string>
 	<string id="axr_phrase_actor_has_medkit">
 		<text>I'll help you out.</text>

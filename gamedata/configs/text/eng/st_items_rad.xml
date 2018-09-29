@@ -2,158 +2,158 @@
 <string_table>
 
     <string id="st_irradiated_pack_rad">
-        <text>Предмет в вашем рюкзаке "слегка" облучен</text>
+	<text>the item in your rucksack is 'slightly' irradiated</text>
     </string>
     <string id="st_irradiated_pack_avrg">
-        <text>Предмет в вашем рюкзаке облучен</text>
+	<text>the item in your rucksack is irradiated</text>
     </string>
     <string id="st_irradiated_pack_high">
-        <text>Предмет в вашем рюкзаке "сильно" облучен</text>
+	<text>the item in your rucksack is 'heavily' irradiated</text>
     </string>
 	<string id="st_irradiated_pack_discard">
-        <text>Предмет был выброшен из-за невозможности дальнейшего использования</text>
+	<text>the item was thrown out due to the impossibility of further use</text>
     </string>
 
 	<string id="st_bread_rad">
-		<text>Хлеб (Заражен)</text>
+	<text>Bread (Contagion)</text>
 	</string>
 	<string id="st_bread_rad_descr">
-		<text>Неизвестно, кто умудряется печь батоны на территории Зоны, или каким образом их протаскивают через границу.\n• Слабое радиационное заражение.</text>
+	<text>It is not known who manages to bake sticks on the territory of the Zone, or how they are dragged across the border. \n • Weak Radiation Contamination.</text>
 	</string>
 
 	<string id="st_kolbasa_rad">
-		<text>Колбаса «Диетическая» (Заражена)</text>
+	<text>Sausage Dietary (Infected)</text>
 	</string>
 	<string id="st_kolbasa_rad_descr">
-		<text>Часто за неимением лучшего эта колбаса - смесь курятины и соевого заменителя - становится завтраком, обедом и ужином сталкера. Благодаря большому количеству консервантов не портится довольно долго.\n• Слабое радиационное заражение.</text>
+	<text>Often, for want of anything better, this sausage-a mixture of chicken and soy substitute-becomes breakfast, lunch and a stalker dinner. Thanks to a large number of preservatives does not spoil for quite some time. \n • Weak Radiation Contamination.</text>
 	</string>
 
 	<string id="st_conserva_rad">
-		<text>Консервы «Завтрак туриста» (Заражены)</text>
+	<text>Canned Tourist's Breakfast (Infected)</text>
 	</string>
 	<string id="st_conserva_rad_descr">
-		<text>Предположительно, консервы с растащенного сталкерами армейского продовольственного склада; точно установить не представляется возможным из-за отсутствия какой-либо этикетки.\n• Слабое радиационное заражение.</text>
+	<text>Presumably, canned food from the stalked army food warehouse; it is not possible to establish precisely what is possible due to the absence of any label. \n • Weak Radiation Contamination.</text>
 	</string>
 	<string id="st_drug_booster_rad">
-		<text>«Геркулес» (Заражен)</text>
+	<text>Hercules (Infected)</text>
 	</string>
 	<string id="st_drug_booster_rad_descr">
-		<text>Основной компонент - искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц. Помогает значительно увеличить переносимый вес. Препарат длительного действия.\n• Слабое радиационное заражение.</text>
+	<text>the main component is an artificially created steroid, similar in chemical composition to testosterone. It is used by stalkers in long transitions to increase the fatigue threshold of muscles. Helps to significantly increase the tolerable weight. the drug is long-acting. \n • Weak Radiation Contamination.</text>
 	</string>
 	<string id="st_energy_drink_rad">
-		<text>Энергетический напиток «Сталкер» (Заражен)</text>
+	<text>Energy drink Stalker (Infected)</text>
 	</string>
 	<string id="st_energy_drink_rad_descr">
-		<text>Часто используется сталкерами в многодневных походах, когда нет возможности остановиться и отдохнуть. Содержит легко усваиваемые углеводы, а также препараты, вызывающие выброс адреналина в кровь.\n• Слабое радиационное заражение.</text>
+	<text>It is often used by stalkers in multi-day hikes, when No possibility to stop and rest. Contains easily digestible carbohydrates, as well as drugs that cause the release of adrenaline into the blood. \n • Weak Radiation Contamination.</text>
 	</string>
 
 
 	<string id="st_bread_rad_avrg">
-		<text>Хлеб (Заражен)</text>
+	<text>Bread (Contagion)</text>
 	</string>
 	<string id="st_bread_rad_avrg_descr">
-		<text>Неизвестно, кто умудряется печь батоны на территории Зоны, или каким образом их протаскивают через границу.\n• Среднее радиационное заражение.</text>
+	<text>It is not known who manages to bake sticks on the territory of the Zone, or how they are dragged across the border. \n • Average Radiation Contamination.</text>
 	</string>
 
 	<string id="st_kolbasa_rad_avrg">
-		<text>Колбаса «Диетическая» (Заражена)</text>
+	<text>Sausage Dietary (Infected)</text>
 	</string>
 	<string id="st_kolbasa_rad_avrg_descr">
-		<text>Часто за неимением лучшего эта колбаса - смесь курятины и соевого заменителя - становится завтраком, обедом и ужином сталкера. Благодаря большому количеству консервантов не портится довольно долго.\n• Среднее радиационное заражение.</text>
+	<text>Often, for want of anything better, this sausage-a mixture of chicken and soy substitute-becomes breakfast, lunch and a stalker dinner. Thanks to a large number of preservatives does not spoil for quite some time. \n • Average Radiation Contamination.</text>
 	</string>
 
 	<string id="st_conserva_rad_avrg">
-		<text>Консервы «Завтрак туриста» (Заражены)</text>
+	<text>Canned Tourist's Breakfast (Infected)</text>
 	</string>
 	<string id="st_conserva_rad_avrg_descr">
-		<text>Предположительно, консервы с растащенного сталкерами армейского продовольственного склада; точно установить не представляется возможным из-за отсутствия какой-либо этикетки.\n• Среднее радиационное заражение.</text>
+	<text>Presumably, canned food from the stalked army food warehouse; it is not possible to establish precisely what is possible due to the absence of any label. \n • Average Radiation Contamination.</text>
 	</string>
 	<string id="st_drug_booster_rad_avrg">
-		<text>«Геркулес» (Заражен)</text>
+	<text>Hercules (Infected)</text>
 	</string>
 	<string id="st_drug_booster_rad_avrg_descr">
-		<text>Основной компонент - искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц. Помогает значительно увеличить переносимый вес. Препарат длительного действия.\n• Среднее радиационное заражение.</text>
+	<text>the main component is an artificially created steroid, similar in chemical composition to testosterone. It is used by stalkers in long transitions to increase the fatigue threshold of muscles. Helps to significantly increase the tolerable weight. the drug is long-acting. \n • Average Radiation Contamination.</text>
 	</string>
 	<string id="st_energy_drink_rad_avrg">
-		<text>Энергетический напиток «Сталкер» (Заражен)</text>
+	<text>Energy drink Stalker (Infected)</text>
 	</string>
 	<string id="st_energy_drink_rad_avrg_descr">
-		<text>Часто используется сталкерами в многодневных походах, когда нет возможности остановиться и отдохнуть. Содержит легко усваиваемые углеводы, а также препараты, вызывающие выброс адреналина в кровь.\n• Среднее радиационное заражение.</text>
+	<text>It is often used by stalkers in multi-day hikes, when No possibility to stop and rest. Contains easily digestible carbohydrates, as well as drugs that cause the release of adrenaline into the blood. \n • Average Radiation Contamination.</text>
 	</string>
 
 
 
 	<string id="st_bread_rad_avrg_high">
-		<text>Хлеб (Заражен)</text>
+	<text>Bread (Contagion)</text>
 	</string>
 	<string id="st_bread_rad_avrg_high_descr">
-		<text>Неизвестно, кто умудряется печь батоны на территории Зоны, или каким образом их протаскивают через границу.\n• Сильное радиационное заражение.</text>
+	<text>It is not known who manages to bake sticks on the territory of the Zone, or how they are dragged across the border. \n • Severe Radiation Contamination.</text>
 	</string>
 
 	<string id="st_kolbasa_rad_avrg_high">
-		<text>Колбаса «Диетическая» (Заражена)</text>
+	<text>Sausage Dietary (Infected)</text>
 	</string>
 	<string id="st_kolbasa_rad_avrg_high_descr">
-		<text>Часто за неимением лучшего эта колбаса - смесь курятины и соевого заменителя - становится завтраком, обедом и ужином сталкера. Благодаря большому количеству консервантов не портится довольно долго.\n• Сильное радиационное заражение.</text>
+	<text>Often, for want of anything better, this sausage-a mixture of chicken and soy substitute-becomes breakfast, lunch and a stalker dinner. Thanks to a large number of preservatives does not spoil for quite some time. \n • Severe Radiation Contamination.</text>
 	</string>
 
 	<string id="st_conserva_rad_avrg_high">
-		<text>Консервы «Завтрак туриста» (Заражены)</text>
+	<text>Canned Tourist's Breakfast (Infected)</text>
 	</string>
 	<string id="st_conserva_rad_avrg_high_descr">
-		<text>Предположительно, консервы с растащенного сталкерами армейского продовольственного склада; точно установить не представляется возможным из-за отсутствия какой-либо этикетки.\n• Сильное радиационное заражение.</text>
+	<text>Presumably, canned food from the stalked army food warehouse; it is not possible to establish precisely what is possible due to the absence of any label. \n • Severe Radiation Contamination.</text>
 	</string>
 	<string id="st_drug_booster_rad_avrg_high">
-		<text>«Геркулес» (Заражен)</text>
+	<text>Hercules (Infected)</text>
 	</string>
 	<string id="st_drug_booster_rad_avrg_high_descr">
-		<text>Основной компонент - искусственно созданный стероид, по химическому составу сходный с тестостероном. Применяется сталкерами в долгих переходах для повышения порога утомляемости мышц. Помогает значительно увеличить переносимый вес. Препарат длительного действия.\n• Сильное радиационное заражение.</text>
+	<text>the main component is an artificially created steroid, similar in chemical composition to testosterone. It is used by stalkers in long transitions to increase the fatigue threshold of muscles. Helps to significantly increase the tolerable weight. the drug is long-acting. \n • Severe Radiation Contamination.</text>
 	</string>
 	<string id="st_energy_drink_rad_avrg_high">
-		<text>Энергетический напиток «Сталкер» (Заражен)</text>
+	<text>Energy drink Stalker (Infected)</text>
 	</string>
 	<string id="st_energy_drink_rad_avrg_high_descr">
-		<text>Часто используется сталкерами в многодневных походах, когда нет возможности остановиться и отдохнуть. Содержит легко усваиваемые углеводы, а также препараты, вызывающие выброс адреналина в кровь.\n• Сильное радиационное заражение.</text>
+	<text>It is often used by stalkers in multi-day hikes, when No possibility to stop and rest. Contains easily digestible carbohydrates, as well as drugs that cause the release of adrenaline into the blood. \n • Severe Radiation Contamination.</text>
 	</string>
 
 <string id="st_sardina_rad">
-	<text>Сардины «Пиратские» (Заражены)</text>
+	<text>Sardines Pirate (Infected)</text>
 </string>
 <string id="st_sardina_rad_descr">
-	<text>Очень вкусная рыбка, выловленная в Тихом океане, и перевезенная какими-то сталкерами в зону отчуждения. Срок годности 1.5 месяца..\n• Слабое радиационное заражение.</text>
+	<text>Very tasty fish caught in the Pacific, and transported by some stalkers into the exclusion zone. Shelf life 1.5 months. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_sardina_rad_avrg">
-	<text>Сардины «Пиратские» (Заражены)</text>
+	<text>Sardines Pirate (Infected)</text>
 </string>
 <string id="st_sardina_rad_avrg_descr">
-	<text>Очень вкусная рыбка, выловленная в Тихом океане, и перевезенная какими-то сталкерами в зону отчуждения. Срок годности 1.5 месяца..\n• Среднее радиационное заражение.</text>
+	<text>Very tasty fish caught in the Pacific, and transported by some stalkers into the exclusion zone. Shelf life 1.5 months. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_sardina_rad_avrg_high">
-	<text>Сардины «Пиратские» (Заражены)</text>
+	<text>Sardines Pirate (Infected)</text>
 </string>
 <string id="st_sardina_rad_avrg_high_descr">
-	<text>Очень вкусная рыбка, выловленная в Тихом океане, и перевезенная какими-то сталкерами в зону отчуждения. Срок годности 1.5 месяца..\n• Сильное радиационное заражение.</text>
+	<text>Very tasty fish caught in the Pacific, and transported by some stalkers into the exclusion zone. Shelf life 1.5 months. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_nuts_2_rad">
-	<text>Банка с орешками «Бим бом» (Заражена)</text>
+	<text>Bank with nuts Bim bom (Infected)</text>
 </string>
 <string id="st_nuts_2_rad_descr">
-	<text>Особая банка орешков с увеличенным количеством витаминов. Ими можно быстро насытиться и немного восстановить энергию.\n• Слабое радиационное заражение.</text>
+	<text>A special can of nuts with an increased amount of vitamins. They can quickly saturate and restore energy a little. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_nuts_2_rad_avrg">
-	<text>Банка с орешками «Бим бом» (Заражена)</text>
+	<text>Bank with nuts Bim bom (Infected)</text>
 </string>
 <string id="st_nuts_2_rad_avrg_descr">
-	<text>Особая банка орешков с увеличенным количеством витаминов. Ими можно быстро насытиться и немного восстановить энергию.\n• Среднее радиационное заражение.</text>
+	<text>A special can of nuts with an increased amount of vitamins. They can quickly saturate and restore energy a little. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_nuts_2_rad_avrg_high">
-	<text>Банка с орешками «Бим бом» (Заражена)</text>
+	<text>Bank with nuts Bim bom (Infected)</text>
 </string>
 <string id="st_nuts_2_rad_avrg_high_descr">
-	<text>Особая банка орешков с увеличенным количеством витаминов. Ими можно быстро насытиться и немного восстановить энергию.\n• Сильное радиационное заражение.</text>
+	<text>A special can of nuts with an increased amount of vitamins. They can quickly saturate and restore energy a little. \n • Severe Radiation Contamination.</text>
 </string>
 
 
@@ -161,272 +161,272 @@
 
 
 <string id="st_olivki_rad">
-	<text>Оливки (Заражены)</text>
+	<text>Olives (Infected)</text>
 </string>
 <string id="st_olivki_rad_descr">
-	<text>Свежая банка оливок, в Зоне других не бывает. Популярный и очень ходовой товар у сталкеров, но быстро портящийся в условиях зоны. Немного снижает воздействие радиации на организм.\n• Слабое радиационное заражение.</text>
+	<text>Fresh pot of olives, in the Zone of others does not happen. A popular and very popular product for stalkers, but quickly deteriorating in the conditions of the zone. Slightly reduces the effect of radiation on the body. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_olivki_rad_avrg">
-	<text>Оливки (Заражены)</text>
+	<text>Olives (Infected)</text>
 </string>
 <string id="st_olivki_rad_avrg_descr">
-	<text>Свежая банка оливок, в Зоне других не бывает. Популярный и очень ходовой товар у сталкеров, но быстро портящийся в условиях зоны. Немного снижает воздействие радиации на организм.\n• Среднее радиационное заражение.</text>
+	<text>Fresh pot of olives, in the Zone of others does not happen. A popular and very popular product for stalkers, but quickly deteriorating in the conditions of the zone. Slightly reduces the effect of radiation on the body. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_olivki_rad_avrg_high">
-	<text>Оливки (Заражены)</text>
+	<text>Olives (Infected)</text>
 </string>
 <string id="st_olivki_rad_avrg_high_descr">
-	<text>Свежая банка оливок, в Зоне других не бывает. Популярный и очень ходовой товар у сталкеров, но быстро портящийся в условиях зоны. Немного снижает воздействие радиации на организм.\n• Сильное радиационное заражение.</text>
+	<text>Fresh pot of olives, in the Zone of others does not happen. A popular and very popular product for stalkers, but quickly deteriorating in the conditions of the zone. Slightly reduces the effect of radiation on the body. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_cheese_rad">
-	<text>Плавленый сырок «Янтарь» (Заражен)</text>
+	<text>Fused raw Amber (Contaminated)</text>
 </string>
 <string id="st_cheese_rad_descr">
-	<text>Обычный плавленый сырок с местного подпольного завода. Несмотря на то, что готовится в Зоне, никто пока не отравился.\n• Слабое радиационное заражение.</text>
+	<text>the usual processed cheese from a local underground plant. Despite the fact that it is being prepared in the Zone, no one has been poisoned yet. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_cheese_rad_avrg">
-	<text>Плавленый сырок «Янтарь» (Заражен)</text>
+	<text>Fused raw Amber (Contaminated)</text>
 </string>
 <string id="st_cheese_rad_avrg_descr">
-	<text>Обычный плавленый сырок с местного подпольного завода. Несмотря на то, что готовится в Зоне, никто пока не отравился.\n• Среднее радиационное заражение.</text>
+	<text>the usual processed cheese from a local underground plant. Despite the fact that it is being prepared in the Zone, no one has been poisoned yet. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_cheese_rad_avrg_high">
-	<text>Плавленый сырок «Янтарь» (Заражен)</text>
+	<text>Fused raw Amber (Contaminated)</text>
 </string>
 <string id="st_cheese_rad_avrg_high_descr">
-	<text>Обычный плавленый сырок с местного подпольного завода. Несмотря на то, что готовится в Зоне, никто пока не отравился.\n• Сильное радиационное заражение.</text>
+	<text>the usual processed cheese from a local underground plant. Despite the fact that it is being prepared in the Zone, no one has been poisoned yet. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_galet_rad">
-	<text>Галеты (Заражены)</text>
+	<text>Biscu its (Infected)</text>
 </string>
 <string id="st_galet_rad_descr">
-	<text>Довольно питательный, позволяющий долгое хранение продукт, однако особо им не насытишься.\n• Слабое радиационное заражение.</text>
+	<text>Quite nutritious, allowing a long storage product, but especially they will not be satisfied. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_galet_rad_avrg">
-	<text>Галеты (Заражены)</text>
+	<text>Biscu its (Infected)</text>
 </string>
 <string id="st_galet_rad_avrg_descr">
-	<text>Довольно питательный, позволяющий долгое хранение продукт, однако особо им не насытишься.\n• Среднее радиационное заражение.</text>
+	<text>Quite nutritious, allowing a long storage product, but especially they will not be satisfied. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_galet_rad_avrg_high">
-	<text>Галеты (Заражены)</text>
+	<text>Biscu its (Infected)</text>
 </string>
 <string id="st_galet_rad_avrg_high_descr">
-	<text>Довольно питательный, позволяющий долгое хранение продукт, однако особо им не насытишься.\n• Сильное радиационное заражение.</text>
+	<text>Quite nutritious, allowing a long storage product, but especially they will not be satisfied. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_shokolad_rad">
-	<text>Шоколад «Алёнушка» (Заражен)</text>
+	<text>Chocolate Alyonushka (Infected)</text>
 </string>
 <string id="st_shokolad_rad_descr">
-	<text>Любимое лакомство многих сталкеров. Отличное средство против плохого настроения.\n• Слабое радиационное заражение.</text>
+	<text>Favorite delicacy many stalkers. Excellent remedy against bad mood. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_shokolad_rad_avrg">
-	<text>Шоколад «Алёнушка» (Заражен)</text>
+	<text>Chocolate Alyonushka (Infected)</text>
 </string>
 <string id="st_shokolad_rad_avrg_descr">
-	<text>Любимое лакомство многих сталкеров. Отличное средство против плохого настроения.\n• Среднее радиационное заражение.</text>
+	<text>Favorite delicacy many stalkers. Excellent remedy against bad mood. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_shokolad_rad_avrg_high">
-	<text>Шоколад «Алёнушка» (Заражен)</text>
+	<text>Chocolate Alyonushka (Infected)</text>
 </string>
 <string id="st_shokolad_rad_avrg_high_descr">
-	<text>Любимое лакомство многих сталкеров. Отличное средство против плохого настроения.\n• Сильное радиационное заражение.</text>
+	<text>Favorite delicacy many stalkers. Excellent remedy against bad mood. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_batonchik_rad">
-	<text>Шоколадный батончик (Заражен)</text>
+	<text>Chocolate bar (Infected)</text>
 </string>
 <string id="st_batonchik_rad_descr">
-	<text>Вкусный батончик из молочного шоколада с кремовой начинкой. Отличное средство против плохого настроения\n• Слабое радиационное заражение.</text>
+	<text>A delicious bar of milk chocolate with a cream filling. An excellent remedy against a bad mood \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_batonchik_rad_avrg">
-	<text>Шоколадный батончик (Заражен)</text>
+	<text>Chocolate bar (Infected)</text>
 </string>
 <string id="st_batonchik_rad_avrg_descr">
-	<text>Вкусный батончик из молочного шоколада с кремовой начинкой. Отличное средство против плохого настроения\n• Среднее радиационное заражение.</text>
+	<text>A delicious bar of milk chocolate with a cream filling. An excellent remedy against a bad mood \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_batonchik_rad_avrg_high">
-	<text>Шоколадный батончик (Заражен)</text>
+	<text>Chocolate bar (Infected)</text>
 </string>
 <string id="st_batonchik_rad_avrg_high_descr">
-	<text>Вкусный батончик из молочного шоколада с кремовой начинкой. Отличное средство против плохого настроения\n• Сильное радиационное заражение.</text>
+	<text>A delicious bar of milk chocolate with a cream filling. An excellent remedy against a bad mood \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_juice_rad">
-	<text>Апельсиновый сок «Дефолт» (Заражен)</text>
+	<text>Orange juice Default (Infected)</text>
 </string>
 <string id="st_juice_rad_descr">
-	<text>Питательный продукт, отлично восстанавливающий здоровье.\n• Слабое радиационное заражение.</text>
+	<text>A nutritious product that perfectly restores health. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_juice_rad_avrg">
-	<text>Апельсиновый сок «Дефолт» (Заражен)</text>
+	<text>Orange juice Default (Infected)</text>
 </string>
 <string id="st_juice_rad_avrg_descr">
-	<text>Питательный продукт, отлично восстанавливающий здоровье.\n• Среднее радиационное заражение.</text>
+	<text>A nutritious product that perfectly restores health. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_juice_rad_avrg_high">
-	<text>Апельсиновый сок «Дефолт» (Заражен)</text>
+	<text>Orange juice Default (Infected)</text>
 </string>
 <string id="st_juice_rad_avrg_high_descr">
-	<text>Питательный продукт, отлично восстанавливающий здоровье.\n• Сильное радиационное заражение.</text>
+	<text>A nutritious product that perfectly restores health. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="TGZ_jerky_rad">
-	<text>Говядина (Заражена)</text>
+	<text>Beef (Infected)</text>
 </string>
 <string id="TGZ_jerky_rad_descr">
-	<text>Ваша любимая говядина - прекрасно выдержанная и умеренно солёная , она поддержит ваши силы в течение нескольких часов. Эта отдельная партия была собрана от лучшего мяса в Зоне, поэтому побочные эффекты немного слабее , чем от типичного сталкерского рациона .\n• Слабое радиационное заражение.</text>
+	<text>Your favorite beef-perfectly seasoned and moderately salty, it will support your strength for several hours. This particular batch was collected from the best meat in the Zone, so the side effects are slightly weaker than from a typical stalker diet. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="TGZ_jerky_rad_avrg">
-	<text>Говядина (Заражена)</text>
+	<text>Beef (Infected)</text>
 </string>
 <string id="TGZ_jerky_rad_avrg_descr">
-	<text>Ваша любимая говядина - прекрасно выдержанная и умеренно солёная , она поддержит ваши силы в течение нескольких часов. Эта отдельная партия была собрана от лучшего мяса в Зоне, поэтому побочные эффекты немного слабее , чем от типичного сталкерского рациона .\n• Среднее радиационное заражение.</text>
+	<text>Your favorite beef-perfectly seasoned and moderately salty, it will support your strength for several hours. This particular batch was collected from the best meat in the Zone, so the side effects are slightly weaker than from a typical stalker diet. \n • Average Radiation Contamination.</text>
 </string>
 <string id="TGZ_jerky_rad_avrg_high">
-	<text>Говядина (Заражена)</text>
+	<text>Beef (Infected)</text>
 </string>
 <string id="TGZ_jerky_rad_avrg_high_descr">
-	<text>Ваша любимая говядина - прекрасно выдержанная и умеренно солёная , она поддержит ваши силы в течение нескольких часов. Эта отдельная партия была собрана от лучшего мяса в Зоне, поэтому побочные эффекты немного слабее , чем от типичного сталкерского рациона .\n• Сильное радиационное заражение.</text>
+	<text>Your favorite beef-perfectly seasoned and moderately salty, it will support your strength for several hours. This particular batch was collected from the best meat in the Zone, so the side effects are slightly weaker than from a typical stalker diet. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="chips_rad">
-	<text>Чипсы (Заражены)</text>
+	<text>microcircuit. (Infected)</text>
 </string>
 <string id="chips_rad_descr">
-	<text>Легкие картофельные чипсы. Хороший источник соли и консервантов . Полезная вещь в Зоне.\n• Слабое радиационное заражение.</text>
+	<text>Light potato microcircuits. A good source of salt and preservatives. A useful thing in the Zone. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="chips_rad_avrg">
-	<text>Чипсы (Заражены)</text>
+	<text>microcircuit. (Infected)</text>
 </string>
 <string id="chips_rad_avrg_descr">
-	<text>Легкие картофельные чипсы. Хороший источник соли и консервантов . Полезная вещь в Зоне.\n• Среднее радиационное заражение.</text>
+	<text>Light potato microcircuits. A good source of salt and preservatives. A useful thing in the Zone. \n • Average Radiation Contamination.</text>
 </string>
 <string id="chips_rad_avrg_high">
-	<text>Чипсы (Заражены)</text>
+	<text>microcircuit. (Infected)</text>
 </string>
 <string id="chips_rad_avrg_high_descr">
-	<text>Легкие картофельные чипсы. Хороший источник соли и консервантов . Полезная вещь в Зоне.\n• Сильное радиационное заражение.</text>
+	<text>Light potato microcircuits. A good source of salt and preservatives. A useful thing in the Zone. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="TGZ_hash_rad">
-	<text>Галеты с гашишем (Заражены)</text>
+	<text>Hamlets with hashish (Infected)</text>
 	</string>
 <string id="TGZ_hash_rad_descr">
-	<text>Съев их, вы обнаружите, что всё не так уж и плохо.\n• Слабое радиационное заражение.</text>
+	<text>If you eat them, you will find that everything is not so bad. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="TGZ_hash_rad_avrg">
-	<text>Галеты с гашишем (Заражены)</text>
+	<text>Hamlets with hashish (Infected)</text>
 	</string>
 <string id="TGZ_hash_rad_avrg_descr">
-	<text>Съев их, вы обнаружите, что всё не так уж и плохо.\n• Среднее радиационное заражение.</text>
+	<text>If you eat them, you will find that everything is not so bad. \n • Average Radiation Contamination.</text>
 </string>
 <string id="TGZ_hash_rad_avrg_high">
-	<text>Галеты с гашишем (Заражены)</text>
+	<text>Hamlets with hashish (Infected)</text>
 	</string>
 <string id="TGZ_hash_rad_avrg_high_descr">
-	<text>Съев их, вы обнаружите, что всё не так уж и плохо.\n• Сильное радиационное заражение.</text>
+	<text>If you eat them, you will find that everything is not so bad. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="TGZ_cpcb_rad">
-	<text>Солёные сухарики (Заражены)</text>
+	<text>Salted croutons (Infected)</text>
 </string>
 <string id="TGZ_cpcb_rad_descr">
-	<text>Эти хрустящие кусочки прекрасные идут на завтрак в Зоне.\n• Слабое радиационное заражение.</text>
+	<text>These crispy pieces are great for breakfast in the Zone. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="TGZ_cpcb_rad_avrg">
-	<text>Солёные сухарики (Заражены)</text>
+	<text>Salted croutons (Infected)</text>
 </string>
 <string id="TGZ_cpcb_rad_avrg_descr">
-	<text>Эти хрустящие кусочки прекрасные идут на завтрак в Зоне.\n• Среднее радиационное заражение.</text>
+	<text>These crispy pieces are great for breakfast in the Zone. \n • Average Radiation Contamination.</text>
 </string>
 <string id="TGZ_cpcb_rad_avrg_high">
-	<text>Солёные сухарики (Заражены)</text>
+	<text>Salted croutons (Infected)</text>
 </string>
 <string id="TGZ_cpcb_rad_avrg_high_descr">
-	<text>Эти хрустящие кусочки прекрасные идут на завтрак в Зоне.\n• Сильное радиационное заражение.</text>
+	<text>These crispy pieces are great for breakfast in the Zone. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 
 <string id="st_wild_drink_rad">
-	<text>«Дикий» напиток (Заражен)</text>
+	<text>Wild drink (Infected)</text>
 </string>
 <string id="st_wild_drink_rad_descr">
-	<text>Напиток называется «Диким», потому что содержит алкоголь. Напиток содержит 5% алкоголя, а также препараты, вызывающие выброс адреналина в кровь.\n• Слабое радиационное заражение.</text>
+	<text>the drink is called Wild, because it contains alcohol. the drink contains 5 %alcohol, as well as drugs that cause the release of adrenaline into the blood. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_wild_drink_rad_avrg">
-	<text>«Дикий» напиток (Заражен)</text>
+	<text>Wild drink (Infected)</text>
 </string>
 <string id="st_wild_drink_rad_avrg_descr">
-	<text>Напиток называется «Диким», потому что содержит алкоголь. Напиток содержит 5% алкоголя, а также препараты, вызывающие выброс адреналина в кровь.\n• Среднее радиационное заражение.</text>
+	<text>the drink is called Wild, because it contains alcohol. the drink contains 5 %alcohol, as well as drugs that cause the release of adrenaline into the blood. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_wild_drink_rad_avrg_high">
-	<text>«Дикий» напиток (Заражен)</text>
+	<text>Wild drink (Infected)</text>
 </string>
 <string id="st_wild_drink_rad_avrg_high_descr">
-	<text>Напиток называется «Диким», потому что содержит алкоголь. Напиток содержит 5% алкоголя, а также препараты, вызывающие выброс адреналина в кровь.\n• Сильное радиационное заражение.</text>
+	<text>the drink is called Wild, because it contains alcohol. the drink contains 5 %alcohol, as well as drugs that cause the release of adrenaline into the blood. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_psy_complex_rad">
-	<text>Психоделин (Заражен)</text>
+	<text>Psychedelin (Infected)</text>
 </string>
 <string id="st_psy_complex_rad_descr">
-	<text>Полезные свойства: восстанавливает пси-здоровье, останавливает ментальное воздействие на мозг, выводит токсины.\n• Слабое радиационное заражение.</text>
+	<text>Useful properties: restores psi-health, stops mental impact on the brain, removes toxins. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_psy_complex_rad_avrg">
-	<text>Психоделин (Заражен)</text>
+	<text>Psychedelin (Infected)</text>
 </string>
 <string id="st_psy_complex_rad_avrg_descr">
-	<text>Полезные свойства: восстанавливает пси-здоровье, останавливает ментальное воздействие на мозг, выводит токсины.\n• Среднее радиационное заражение.</text>
+	<text>Useful properties: restores psi-health, stops mental impact on the brain, removes toxins. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_psy_complex_rad_avrg_high">
-	<text>Психоделин (Заражен)</text>
+	<text>Psychedelin (Infected)</text>
 </string>
 <string id="st_psy_complex_rad_avrg_high_descr">
-	<text>Полезные свойства: восстанавливает пси-здоровье, останавливает ментальное воздействие на мозг, выводит токсины.\n• Сильное радиационное заражение.</text>
+	<text>Useful properties: restores psi-health, stops mental impact on the brain, removes toxins. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="TGZ_mbk_rad">
-	<text>Max Ball-Kicker (Заражен)</text>
+	<text>Max Ball-Kicker (Infected)</text>
 </string>
 <string id="TGZ_mbk_rad_descr">
-	<text>Этот энергетик - по существу смесь кофеина, B-12 и стероида, производного от кабаньего тестостерона. Предупреждает усталость путём резкого уменьшения накопления молочной кислоты в мышцах, позволяя двигаться больше и активнее.\n• Слабое радиационное заражение.</text>
+	<text>This energetic is essentially a mixture of caffeine, B-12 and a steroid derived from boar testosterone. Prevents fatigue by dramatically reducing the accumulation of lactic acid in the muscles, allowing you to move more and more actively. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="TGZ_mbk_rad_avrg">
-	<text>Max Ball-Kicker (Заражен)</text>
+	<text>Max Ball-Kicker (Infected)</text>
 </string>
 <string id="TGZ_mbk_rad_avrg_descr">
-	<text>Этот энергетик - по существу смесь кофеина, B-12 и стероида, производного от кабаньего тестостерона. Предупреждает усталость путём резкого уменьшения накопления молочной кислоты в мышцах, позволяя двигаться больше и активнее.\n• Среднее радиационное заражение.</text>
+	<text>This energetic is essentially a mixture of caffeine, B-12 and a steroid derived from boar testosterone. Prevents fatigue by dramatically reducing the accumulation of lactic acid in the muscles, allowing you to move more and more actively. \n • Average Radiation Contamination.</text>
 </string>
 <string id="TGZ_mbk_rad_avrg_high">
-	<text>Max Ball-Kicker (Заражен)</text>
+	<text>Max Ball-Kicker (Infected)</text>
 </string>
 <string id="TGZ_mbk_rad_avrg_high_descr">
-	<text>Этот энергетик - по существу смесь кофеина, B-12 и стероида, производного от кабаньего тестостерона. Предупреждает усталость путём резкого уменьшения накопления молочной кислоты в мышцах, позволяя двигаться больше и активнее.\n• Сильное радиационное заражение.</text>
+	<text>This energetic is essentially a mixture of caffeine, B-12 and a steroid derived from boar testosterone. Prevents fatigue by dramatically reducing the accumulation of lactic acid in the muscles, allowing you to move more and more actively. \n • Severe Radiation Contamination.</text>
 </string>
 
 
@@ -437,442 +437,442 @@
 
 
 <string id="st_kolbasa_smoked_rad">
-	<text>Колбаса "Докторская" (Заражена)</text>
+	<text>Sausage 'Doctor's' (Infected)</text>
 </string>
 <string id="st_kolbasa_smoked_rad_descr">
-	<text>Колбаса "Докторская".\n• Слабое радиационное заражение.</text>
+	<text>Sausage 'Doctor's'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_kolbasa_smoked_rad_avrg">
-	<text>Колбаса "Докторская" (Заражена)</text>
+	<text>Sausage 'Doctor's' (Infected)</text>
 </string>
 <string id="st_kolbasa_smoked_rad_avrg_descr">
-	<text>Колбаса "Докторская".\n• Среднее радиационное заражение.</text>
+	<text>Sausage 'Doctor's'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_kolbasa_smoked_rad_avrg_high">
-	<text>Колбаса "Докторская" (Заражена)</text>
+	<text>Sausage 'Doctor's' (Infected)</text>
 </string>
 <string id="st_kolbasa_smoked_rad_avrg_high_descr">
-	<text>Колбаса "Докторская".\n• Сильное радиационное заражение.</text>
+	<text>Sausage 'Doctor's'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_mre_1_rad">
-	<text>Сухой паёк (Заражен)</text>
+	<text>Dry rations (Contagion)</text>
 </string>
 <string id="st_mre_1_rad_descr">
-	<text>Рацион в легкой упаковке, разработанной вооруженными силами Соединенных Штатов для использования в боевых действиях и полевых условиях.\n• Слабое радиационное заражение.</text>
+	<text>A diet in light packaging developed by the United States armed forces for use in combat and field conditions. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_mre_1_rad_avrg">
-	<text>Сухой паёк (Заражен)</text>
+	<text>Dry rations (Contagion)</text>
 </string>
 <string id="st_mre_1_rad_avrg_descr">
-	<text>Рацион в легкой упаковке, разработанной вооруженными силами Соединенных Штатов для использования в боевых действиях и полевых условиях.\n• Среднее радиационное заражение.</text>
+	<text>A diet in light packaging developed by the United States armed forces for use in combat and field conditions. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_mre_1_rad_avrg_high">
-	<text>Сухой паёк (Заражен)</text>
+	<text>Dry rations (Contagion)</text>
 </string>
 <string id="st_mre_1_rad_avrg_high_descr">
-	<text>Рацион в легкой упаковке, разработанной вооруженными силами Соединенных Штатов для использования в боевых действиях и полевых условиях.\n• Сильное радиационное заражение.</text>
+	<text>A diet in light packaging developed by the United States armed forces for use in combat and field conditions. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_beanz_rad">
-	<text>Бобы (Заражены)</text>
+	<text>Beans (Infected)</text>
 </string>
 <string id="st_beanz_rad_descr">
-	<text>Классические печеные бобы в очаровательном томатном соусе; с высоким содержанием клетчатки, практически без жира. Они также не содержат искусственных красителей, ароматизаторов и консервантов, что делает их идеальным закуской или дополнением к любому блюду.\n• Слабое радиационное заражение.</text>
+	<text>Classic baked beans in a charming tomato sauce; with a high fiber content, virtually no fat. They also do not contain artificial colors, flavors and preservatives, which makes them an ideal snack or complement to any dish. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_beanz_rad_avrg">
-	<text>Бобы (Заражены)</text>
+	<text>Beans (Infected)</text>
 </string>
 <string id="st_beanz_rad_avrg_descr">
-	<text>Классические печеные бобы в очаровательном томатном соусе; с высоким содержанием клетчатки, практически без жира. Они также не содержат искусственных красителей, ароматизаторов и консервантов, что делает их идеальным закуской или дополнением к любому блюду.\n• Среднее радиационное заражение.</text>
+	<text>Classic baked beans in a charming tomato sauce; with a high fiber content, virtually no fat. They also do not contain artificial colors, flavors and preservatives, which makes them an ideal snack or complement to any dish. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_beanz_rad_avrg_high">
-	<text>Бобы (Заражены)</text>
+	<text>Beans (Infected)</text>
 </string>
 <string id="st_beanz_rad_avrg_high_descr">
-	<text>Классические печеные бобы в очаровательном томатном соусе; с высоким содержанием клетчатки, практически без жира. Они также не содержат искусственных красителей, ароматизаторов и консервантов, что делает их идеальным закуской или дополнением к любому блюду.\n• Сильное радиационное заражение.</text>
+	<text>Classic baked beans in a charming tomato sauce; with a high fiber content, virtually no fat. They also do not contain artificial colors, flavors and preservatives, which makes them an ideal snack or complement to any dish. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_chili_rad">
-	<text>Рагу (Заражено)</text>
+	<text>Ragout (Infected)</text>
 </string>
 <string id="st_chili_rad_descr">
-	<text>Рагу из фасоли. Производство США.\n• Слабое радиационное заражение.</text>
+	<text>Ragout of beans. Production of the USA. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_chili_rad_avrg">
-	<text>Рагу (Заражено)</text>
+	<text>Ragout (Infected)</text>
 </string>
 <string id="st_chili_rad_avrg_descr">
-	<text>Рагу из фасоли. Производство США.\n• Среднее радиационное заражение.</text>
+	<text>Ragout of beans. Production of the USA. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_chili_rad_avrg_high">
-	<text>Рагу (Заражено)</text>
+	<text>Ragout (Infected)</text>
 </string>
 <string id="st_chili_rad_avrg_high_descr">
-	<text>Рагу из фасоли. Производство США.\n• Сильное радиационное заражение.</text>
+	<text>Ragout of beans. Production of the USA. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_tomatoes_rad">
-	<text>Томаты (Заражены)</text>
+	<text>Tomatoes (Infected)</text>
 </string>
 <string id="st_tomatoes_rad_descr">
-	<text>Консервированные, нарезанные кубиками помидоры, импортируются в зону на регулярной основе. Срок годности на дне банки предполагает, что они все еще свежие.\n• Слабое радиационное заражение.</text>
+	<text>Canned, diced tomatoes are imported into the zone on a regular basis. the shelf life at the bottom of the pot assumes that they are still fresh. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_tomatoes_rad_avrg">
-	<text>Томаты (Заражены)</text>
+	<text>Tomatoes (Infected)</text>
 </string>
 <string id="st_tomatoes_rad_avrg_descr">
-	<text>Консервированные, нарезанные кубиками помидоры, импортируются в зону на регулярной основе. Срок годности на дне банки предполагает, что они все еще свежие.\n• Среднее радиационное заражение.</text>
+	<text>Canned, diced tomatoes are imported into the zone on a regular basis. the shelf life at the bottom of the pot assumes that they are still fresh. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_tomatoes_rad_avrg_high">
-	<text>Томаты (Заражены)</text>
+	<text>Tomatoes (Infected)</text>
 </string>
 <string id="st_tomatoes_rad_avrg_high_descr">
-	<text>Консервированные, нарезанные кубиками помидоры, импортируются в зону на регулярной основе. Срок годности на дне банки предполагает, что они все еще свежие.\n• Сильное радиационное заражение.</text>
+	<text>Canned, diced tomatoes are imported into the zone on a regular basis. the shelf life at the bottom of the pot assumes that they are still fresh. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_tushonka_rad">
-	<text>Тушёное мясо "Абакан" (Заражено)</text>
+	<text>Stewed meat 'Abakan' (Infected)</text>
 </string>
 <string id="st_tushonka_rad_descr">
-	<text>известно своей высокой питательной ценностью (в основном за счет высокого содержания жира) и относительно хорошим вкусом.\n• Слабое радиационное заражение.</text>
+	<text>It is known for its high nutritional value (mainly due to its high fat content) and relatively good taste. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_tushonka_rad_avrg">
-	<text>Тушёное мясо "Абакан" (Заражено)</text>
+	<text>Stewed meat 'Abakan' (Infected)</text>
 </string>
 <string id="st_tushonka_rad_avrg_descr">
-	<text>известно своей высокой питательной ценностью (в основном за счет высокого содержания жира) и относительно хорошим вкусом.\n• Среднее радиационное заражение.</text>
+	<text>It is known for its high nutritional value (mainly due to its high fat content) and relatively good taste. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_tushonka_rad_avrg_high">
-	<text>Тушёное мясо "Абакан" (Заражено)</text>
+	<text>Stewed meat 'Abakan' (Infected)</text>
 </string>
 <string id="st_tushonka_rad_avrg_high_descr">
-	<text>известно своей высокой питательной ценностью (в основном за счет высокого содержания жира) и относительно хорошим вкусом.\n• Сильное радиационное заражение.</text>
+	<text>It is known for its high nutritional value (mainly due to its high fat content) and relatively good taste. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_corn_rad">
-	<text>Кукуруза (Заражена)</text>
+	<text>Corn (Infected)</text>
 </string>
 <string id="st_corn_rad_descr">
-	<text>Консервированная сладкая кукуруза. Некоторые используют это как компонент супа.\n• Слабое радиационное заражение.</text>
+	<text>Canned sweet corn. Some people use it as a component of soup. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_corn_rad_avrg">
-	<text>Кукуруза (Заражена)</text>
+	<text>Corn (Infected)</text>
 </string>
 <string id="st_corn_rad_avrg_descr">
-	<text>Консервированная сладкая кукуруза. Некоторые используют это как компонент супа.\n• Среднее радиационное заражение.</text>
+	<text>Canned sweet corn. Some people use it as a component of soup. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_corn_rad_avrg_high">
-	<text>Кукуруза (Заражена)</text>
+	<text>Corn (Infected)</text>
 </string>
 <string id="st_corn_rad_avrg_high_descr">
-	<text>Консервированная сладкая кукуруза. Некоторые используют это как компонент супа.\n• Сильное радиационное заражение.</text>
+	<text>Canned sweet corn. Some people use it as a component of soup. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_chocolate_rad">
-	<text>Шоколад "Русский" (Заражен)</text>
+	<text>Chocolate 'Russian' (Infected)</text>
 </string>
 <string id="st_chocolate_rad_descr">
-	<text>Очень редок в Зоне и весьма ценим, хотя на вкус нет ничего особенного.\n• Слабое радиационное заражение.</text>
+	<text>Very rare in the Zone and very appreciated, although the taste is nothing special. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_chocolate_rad_avrg">
-	<text>Шоколад "Русский" (Заражен)</text>
+	<text>Chocolate 'Russian' (Infected)</text>
 </string>
 <string id="st_chocolate_rad_avrg_descr">
-	<text>Очень редок в Зоне и весьма ценим, хотя на вкус нет ничего особенного.\n• Среднее радиационное заражение.</text>
+	<text>Very rare in the Zone and very appreciated, although the taste is nothing special. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_chocolate_rad_avrg_high">
-	<text>Шоколад "Русский" (Заражен)</text>
+	<text>Chocolate 'Russian' (Infected)</text>
 </string>
 <string id="st_chocolate_rad_avrg_high_descr">
-	<text>Очень редок в Зоне и весьма ценим, хотя на вкус нет ничего особенного.\n• Сильное радиационное заражение.</text>
+	<text>Very rare in the Zone and very appreciated, although the taste is nothing special. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_chocolatebar_rad">
-	<text>Шоколадно-протеиновая смесь (Заражена)</text>
+	<text>Chocolate-protein mixture (Infected)</text>
 </string>
 <string id="st_chocolatebar_rad_descr">
-	<text>Эта смесь предоставляет телу необходимые белки и сахар. Полезен в долгих походах.\n• Слабое радиационное заражение.</text>
+	<text>This mixture provides the body with the necessary proteins and sugar. Useful in long hikes. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_chocolatebar_rad_avrg">
-	<text>Шоколадно-протеиновая смесь (Заражена)</text>
+	<text>Chocolate-protein mixture (Infected)</text>
 </string>
 <string id="st_chocolatebar_rad_avrg_descr">
-	<text>Эта смесь предоставляет телу необходимые белки и сахар. Полезен в долгих походах.\n• Среднее радиационное заражение.</text>
+	<text>This mixture provides the body with the necessary proteins and sugar. Useful in long hikes. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_chocolatebar_rad_avrg_high">
-	<text>Шоколадно-протеиновая смесь (Заражена)</text>
+	<text>Chocolate-protein mixture (Infected)</text>
 </string>
 <string id="st_chocolatebar_rad_avrg_high_descr">
-	<text>Эта смесь предоставляет телу необходимые белки и сахар. Полезен в долгих походах.\n• Сильное радиационное заражение.</text>
+	<text>This mixture provides the body with the necessary proteins and sugar. Useful in long hikes. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_snickers_rad">
-	<text>"Сникерс" (Заражен)</text>
+	<text>'Snickers' (Infected)</text>
 </string>
 <string id="st_snickers_rad_descr">
-	<text>Шоколадный батончик "Сникерс".\n• Слабое радиационное заражение.</text>
+	<text>Chocolate bar 'Snickers'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_snickers_rad_avrg">
-	<text>"Сникерс" (Заражен)</text>
+	<text>'Snickers' (Infected)</text>
 </string>
 <string id="st_snickers_rad_avrg_descr">
-	<text>Шоколадный батончик "Сникерс".\n• Среднее радиационное заражение.</text>
+	<text>Chocolate bar 'Snickers'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_snickers_rad_avrg_high">
-	<text>"Сникерс" (Заражен)</text>
+	<text>'Snickers' (Infected)</text>
 </string>
 <string id="st_snickers_rad_avrg_high_descr">
-	<text>Шоколадный батончик "Сникерс".\n• Сильное радиационное заражение.</text>
+	<text>Chocolate bar 'Snickers'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_mars_rad">
-	<text>"Марс" (Заражен)</text>
+	<text>'Mars' (Infected)</text>
 </string>
 <string id="st_mars_rad_descr">
-	<text>Шоколадный батончик "Марс".\n• Слабое радиационное заражение.</text>
+	<text>Chocolate bar 'Mars'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_mars_rad_avrg">
-	<text>"Марс" (Заражен)</text>
+	<text>'Mars' (Infected)</text>
 </string>
 <string id="st_mars_rad_avrg_descr">
-	<text>Шоколадный батончик "Марс".\n• Среднее радиационное заражение.</text>
+	<text>Chocolate bar 'Mars'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_mars_rad_avrg_high">
-	<text>"Марс" (Заражен)</text>
+	<text>'Mars' (Infected)</text>
 </string>
 <string id="st_mars_rad_avrg_high_descr">
-	<text>Шоколадный батончик "Марс".\n• Сильное радиационное заражение.</text>
+	<text>Chocolate bar 'Mars'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_raisins_rad">
-	<text>Изюм (Заражен)</text>
+	<text>Raisins (Infected)</text>
 </string>
 <string id="st_raisins_rad_descr">
-	<text>Пакет изюма. Богат питательными веществами.\n• Слабое радиационное заражение.</text>
+	<text>A bag of raisins. Rich in nutrients. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_raisins_rad_avrg">
-	<text>Изюм (Заражен)</text>
+	<text>Raisins (Infected)</text>
 </string>
 <string id="st_raisins_rad_avrg_descr">
-	<text>Пакет изюма. Богат питательными веществами.\n• Среднее радиационное заражение.</text>
+	<text>A bag of raisins. Rich in nutrients. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_raisins_rad_avrg_high">
-	<text>Изюм (Заражен)</text>
+	<text>Raisins (Infected)</text>
 </string>
 <string id="st_raisins_rad_avrg_high_descr">
-	<text>Пакет изюма. Богат питательными веществами.\n• Сильное радиационное заражение.</text>
+	<text>A bag of raisins. Rich in nutrients. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_nuts_rad">
-	<text>Орешки (Заражены)</text>
+	<text>Nuts (Infected)</text>
 </string>
 <string id="st_nuts_rad_descr">
-	<text>Ассорти: арахис, фундук, кешью и миндаль. Пищевая ценность достаточно высока. Завезен из Южной Африки.\n• Слабое радиационное заражение.</text>
+	<text>Assorted: peanuts, hazelnuts, cashews and almonds. Nutritional value is high enough. Imported from South Africa. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_nuts_rad_avrg">
-	<text>Орешки (Заражены)</text>
+	<text>Nuts (Infected)</text>
 </string>
 <string id="st_nuts_rad_avrg_descr">
-	<text>Ассорти: арахис, фундук, кешью и миндаль. Пищевая ценность достаточно высока. Завезен из Южной Африки.\n• Среднее радиационное заражение.</text>
+	<text>Assorted: peanuts, hazelnuts, cashews and almonds. Nutritional value is high enough. Imported from South Africa. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_nuts_rad_avrg_high">
-	<text>Орешки (Заражены)</text>
+	<text>Nuts (Infected)</text>
 </string>
 <string id="st_nuts_rad_avrg_high_descr">
-	<text>Ассорти: арахис, фундук, кешью и миндаль. Пищевая ценность достаточно высока. Завезен из Южной Африки.\n• Сильное радиационное заражение.</text>
+	<text>Assorted: peanuts, hazelnuts, cashews and almonds. Nutritional value is high enough. Imported from South Africa. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_beef_rad">
-	<text>Тушёнка (Заражена)</text>
+	<text>Tushenka (Infected)</text>
 </string>
 <string id="st_beef_rad_descr">
-	<text>Грубый фарш с натуральным соком, русский стиль мясных консервов 'Тушёнка'.\n• Слабое радиационное заражение.</text>
+	<text>Rough forcemeat with natural juice, Russian style of canned meat 'Tushyonka'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_beef_rad_avrg">
-	<text>Тушёнка (Заражена)</text>
+	<text>Tushenka (Infected)</text>
 </string>
 <string id="st_beef_rad_avrg_descr">
-	<text>Грубый фарш с натуральным соком, русский стиль мясных консервов 'Тушёнка'.\n• Среднее радиационное заражение.</text>
+	<text>Rough forcemeat with natural juice, Russian style of canned meat 'Tushyonka'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_beef_rad_avrg_high">
-	<text>Тушёнка (Заражена)</text>
+	<text>Tushenka (Infected)</text>
 </string>
 <string id="st_beef_rad_avrg_high_descr">
-	<text>Грубый фарш с натуральным соком, русский стиль мясных консервов 'Тушёнка'.\n• Сильное радиационное заражение.</text>
+	<text>Rough forcemeat with natural juice, Russian style of canned meat 'Tushyonka'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_bullheads_rad">
-	<text>Бычки в томате (Заражены)</text>
+	<text>Bulls in Tomato (Infected)</text>
 </string>
 <string id="st_bullheads_rad_descr">
-	<text>Бычки настолько нежные, что буквально тают во рту. Этот пищевой продукт ценится сталкерами всей Зоны.\n• Слабое радиационное заражение.</text>
+	<text>Bulls are so tender that they literally melt in the mouth. This food is valued by stalkers throughout the Zone. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_bullheads_rad_avrg">
-	<text>Бычки в томате (Заражены)</text>
+	<text>Bulls in Tomato (Infected)</text>
 </string>
 <string id="st_bullheads_rad_avrg_descr">
-	<text>Бычки настолько нежные, что буквально тают во рту. Этот пищевой продукт ценится сталкерами всей Зоны.\n• Среднее радиационное заражение.</text>
+	<text>Bulls are so tender that they literally melt in the mouth. This food is valued by stalkers throughout the Zone. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_bullheads_rad_avrg_high">
-	<text>Бычки в томате (Заражены)</text>
+	<text>Bulls in Tomato (Infected)</text>
 </string>
 <string id="st_bullheads_rad_avrg_high_descr">
-	<text>Бычки настолько нежные, что буквально тают во рту. Этот пищевой продукт ценится сталкерами всей Зоны.\n• Сильное радиационное заражение.</text>
+	<text>Bulls are so tender that they literally melt in the mouth. This food is valued by stalkers throughout the Zone. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_water_large_1_rad">
-	<text>"Боржоми" (Заражена)</text>
+	<text>'Borjomi' (Infected)</text>
 </string>
 <string id="st_water_large_1_rad_descr">
-	<text>Минеральная вода "Боржоми" 1.5л.\n• Слабое радиационное заражение.</text>
+	<text>Mineral water 'Borjomi' 1.5L. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_water_large_1_rad_avrg">
-	<text>"Боржоми" (Заражена)</text>
+	<text>'Borjomi' (Infected)</text>
 </string>
 <string id="st_water_large_1_rad_avrg_descr">
-	<text>Минеральная вода "Боржоми" 1.5л.\n• Среднее радиационное заражение.</text>
+	<text>Mineral water 'Borjomi' 1.5L. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_water_large_1_rad_avrg_high">
-	<text>"Боржоми" (Заражена)</text>
+	<text>'Borjomi' (Infected)</text>
 </string>
 <string id="st_water_large_1_rad_avrg_high_descr">
-	<text>Минеральная вода "Боржоми" 1.5л.\n• Сильное радиационное заражение.</text>
+	<text>Mineral water 'Borjomi' 1.5L. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_water_large_2_rad">
-	<text>"Дарида" (Заражена)</text>
+	<text>'Darida' (Infected)</text>
 </string>
 <string id="st_water_large_2_rad_descr">
-	<text>Минеральная вода "Дарида" 1.5л.\n• Слабое радиационное заражение.</text>
+	<text>Mineral water 'Darida' 1.5L. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_water_large_2_rad_avrg">
-	<text>"Дарида" (Заражена)</text>
+	<text>'Darida' (Infected)</text>
 </string>
 <string id="st_water_large_2_rad_avrg_descr">
-	<text>Минеральная вода "Дарида" 1.5л.\n• Среднее радиационное заражение.</text>
+	<text>Mineral water 'Darida' 1.5L. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_water_large_2_rad_avrg_high">
-	<text>"Дарида" (Заражена)</text>
+	<text>'Darida' (Infected)</text>
 </string>
 <string id="st_water_large_2_rad_avrg_high_descr">
-	<text>Минеральная вода "Дарида" 1.5л.\n• Сильное радиационное заражение.</text>
+	<text>Mineral water 'Darida' 1.5L. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_water_can_1_rad">
-	<text>Артезианская вода (Заражена)</text>
+	<text>Artesian Water (Infected)</text>
 </string>
 <string id="st_water_can_1_rad_descr">
-	<text>Чистая вода из артезианских скважин.\n• Слабое радиационное заражение.</text>
+	<text>Clean water from artesian wells. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_water_can_1_rad_avrg">
-	<text>Артезианская вода (Заражена)</text>
+	<text>Artesian Water (Infected)</text>
 </string>
 <string id="st_water_can_1_rad_avrg_descr">
-	<text>Чистая вода из артезианских скважин.\n• Среднее радиационное заражение.</text>
+	<text>Clean water from artesian wells. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_water_can_1_rad_avrg_high">
-	<text>Артезианская вода (Заражена)</text>
+	<text>Artesian Water (Infected)</text>
 </string>
 <string id="st_water_can_1_rad_avrg_high_descr">
-	<text>Чистая вода из артезианских скважин.\n• Сильное радиационное заражение.</text>
+	<text>Clean water from artesian wells. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_water_can_2_rad">
-	<text>Газированная вода (Заражена)</text>
+	<text>Carbonated Water (Infected)</text>
 </string>
 <string id="st_water_can_2_rad_descr">
-	<text>Просто газированная вода.\n• Слабое радиационное заражение.</text>
+	<text>Just carbonated water. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_water_can_2_rad_avrg">
-	<text>Газированная вода (Заражена)</text>
+	<text>Carbonated Water (Infected)</text>
 </string>
 <string id="st_water_can_2_rad_avrg_descr">
-	<text>Просто газированная вода.\n• Среднее радиационное заражение.</text>
+	<text>Just carbonated water. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_water_can_2_rad_avrg_high">
-	<text>Газированная вода (Заражена)</text>
+	<text>Carbonated Water (Infected)</text>
 </string>
 <string id="st_water_can_2_rad_avrg_high_descr">
-	<text>Просто газированная вода.\n• Сильное радиационное заражение.</text>
+	<text>Just carbonated water. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_cocacola_rad">
-	<text>"Кока-Кола" (Заражена)</text>
+	<text>'Coca-Cola' (Infected)</text>
 </string>
 <string id="st_cocacola_rad_descr">
-	<text>Банка "Кока-Колы".\n• Слабое радиационное заражение.</text>
+	<text>Bank 'Coca-Cola'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_cocacola_rad_avrg">
-	<text>"Кока-Кола" (Заражена)</text>
+	<text>'Coca-Cola' (Infected)</text>
 </string>
 <string id="st_cocacola_rad_avrg_descr">
-	<text>Банка "Кока-Колы".\n• Среднее радиационное заражение.</text>
+	<text>Bank 'Coca-Cola'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_cocacola_rad_avrg_high">
-	<text>"Кока-Кола" (Заражена)</text>
+	<text>'Coca-Cola' (Infected)</text>
 </string>
 <string id="st_cocacola_rad_avrg_high_descr">
-	<text>Банка "Кока-Колы".\n• Сильное радиационное заражение.</text>
+	<text>Bank 'Coca-Cola'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_redbull_rad">
-	<text>"Red Bull" (Заражена)</text>
+	<text>'Red Bull' (Infected)</text>
 </string>
 <string id="st_redbull_rad_descr">
-	<text>Энергетический напиток "Red Bull".\n• Слабое радиационное заражение.</text>
+	<text>Energy drink 'Red Bull'. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_redbull_rad_avrg">
-	<text>"Red Bull" (Заражена)</text>
+	<text>'Red Bull' (Infected)</text>
 </string>
 <string id="st_redbull_rad_avrg_descr">
-	<text>Энергетический напиток "Red Bull".\n• Среднее радиационное заражение.</text>
+	<text>Energy drink 'Red Bull'. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_redbull_rad_avrg_high">
-	<text>"Red Bull" (Заражена)</text>
+	<text>'Red Bull' (Infected)</text>
 </string>
 <string id="st_redbull_rad_avrg_high_descr">
-	<text>Энергетический напиток "Red Bull".\n• Сильное радиационное заражение.</text>
+	<text>Energy drink 'Red Bull'. \n • Severe Radiation Contamination.</text>
 </string>
 
 
 <string id="st_guru_rad">
-	<text>Энергетик "Кола" (Заражена)</text>
+	<text>Energetik 'Kola' (Infected)</text>
 </string>
 <string id="st_guru_rad_descr">
-	<text>Натуральный энергетик из экстракта африканских орехов кола без красителей и консервантов.\n• Слабое радиационное заражение.</text>
+	<text>Natural energy from an extract of African cola nuts without coloring agents and preservatives. \n • Weak Radiation Contamination.</text>
 </string>
 <string id="st_guru_rad_avrg">
-	<text>Энергетик "Кола" (Заражена)</text>
+	<text>Energetik 'Kola' (Infected)</text>
 </string>
 <string id="st_guru_rad_avrg_descr">
-	<text>Натуральный энергетик из экстракта африканских орехов кола без красителей и консервантов.\n• Среднее радиационное заражение.</text>
+	<text>Natural energy from an extract of African cola nuts without coloring agents and preservatives. \n • Average Radiation Contamination.</text>
 </string>
 <string id="st_guru_rad_avrg_high">
-	<text>Энергетик "Кола" (Заражена)</text>
+	<text>Energetik 'Kola' (Infected)</text>
 </string>
 <string id="st_guru_rad_avrg_high_descr">
-	<text>Натуральный энергетик из экстракта африканских орехов кола без красителей и консервантов.\n• Сильное радиационное заражение.</text>
+	<text>Natural energy from an extract of African cola nuts without coloring agents and preservatives. \n • Severe Radiation Contamination.</text>
 </string>
 
 </string_table>

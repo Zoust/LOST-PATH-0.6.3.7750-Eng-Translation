@@ -17,19 +17,19 @@
 		<text>What drove stalkers to the center of the Zone?</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_11121">
-		<text>A funny question. Some were out to discover the next artefact goldmine. Some were driven here by the Oasis rumours. Others sought the Wish Granter. And then there are the base human desires - greed and curiosity... Everyone's got their reasons. I'm sure you have yours, too.</text>
+		<text>A funny question. Some were out to discover the next artefact goldmine. Some were driven here by the Oasis rumours. Others sought the Wish Granter. And then there are the base human desires: greed and curiosity... Everyone's got their reasons. I'm sure you have yours, too.</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_1113">
 		<text>How did you end up here?</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_11131">
-		<text>I came here with Grouse after the Scorcher was disabled. But I'm sure that's not what you really wanna know, am I right? I deal mainly in artefacts. The outside is full of trinkets already, so valuable customers want the rare stuff. That's why I decided to set up a stalker camp, where real high-value articles can still be found. I mean, when a stalker comes back with his loot, what does he really need? A cold one in his hand and good ol' human contact, that's what. And that's what Skadovsk is all about.</text>
+		<text>I came here with Grouse after the Scorcher was disabled. But I'm sure that's not what you really wanna know, am I right? I deal mainly in artefacts. The outside is full of trinkets already, so valuable customers want the rare stuff. That's why I decided to set up a stalker camp, where real high-value articles can still be found. I mean, when a stalker comes back with his loot, what does he really need? A cold one in his hand and good ol' human contact, that's what. And that's what the Skadovsk is all about.</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_1114">
 		<text>What do you think about bandits?</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_11141">
-		<text>Well, it's like this. I got nothing against 'em on board the Skadovsk, so long as they act decent. After all, you don't meet total douche bags all that often. Some of them are actually former stalkers. Who knows, one of them poor bastards might actually decide to give up the crook business before he catches a bullet... Life is full of surprises.</text>
+		<text>Well, it's like this: I got nothing against 'em on board the Skadovsk, so long as they act decent. After all, you don't meet total douche bags all that often. Some of them are actually former stalkers. Who knows, one of them poor bastards might actually decide to give up the crook business before he catches a bullet... Life is full of surprises.</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_1115">
 		<text>Nah, that's okay. Fuhgetaboutit.</text>
@@ -43,13 +43,13 @@
 	</string> 
 	
 	<string id="zat_b22_stalker_medic_start_0">
-		<text>Что там,ранение или облучился?</text>
+	<text>What is there, wounded or irradiated?</text>
 </string>
 	<string id="zat_b22_infa_0">
-		<text>Расскажи о себе.</text>
+	<text>Tell me about yourself.</text>
 	</string>
 	<string id="zat_b22_infa_1">
-		<text>Я - медик. Хирург по специальности. Что еще хочешь знать?Как я здесь оказался?...Пришел я сюда вместе с Глухарем и Бородой где то пару месяцев назад.Места здесь дикие и опасные, поэтому мы как можно скорее стали искать место для лагеря и как видишь нашли.Вначале нас было всего пара человек на сухогрузе,но затем сталкеры ,прознавшие про наш небольшой оплот,стали приходить сюда один за другим.Так Скадовск и превратился в самое безопасное место на Затоне.Так то.А вобще я обычный врач, каких много,но знаю свое дело от и до.</text>
+	<text>I'm a doctor. Paramedic by specialty. What else do you want to know? How did I get here?. I came here with Glukhar and Borodoy somewhere a couple of months ago. the places here are wild and dangerous, so we as soon as possible began to look for a place for the camp and as you see found. At first we were only a couple of people on Doctor. cargo ship, but then stalkers, who knew about our small stronghold, began to come here one by one. So Skadovsk turned into the safest place on Zaton. So that. And just do the usual doctor, which many, but I know my business from and to.</text>
 	</string>
 	<string id="zat_b22_stalker_medic_need_health_care_0">
 		<text>I need medical assistance.</text>
@@ -88,7 +88,6 @@
 		<text>Ah, it's you. What do you want?</text>
 	</string>
 	
-	
 	<string id="zat_b3_stalker_tech_start_15">
 		<text>A wise choice, my friend. Gotta keep your gun in mint condition... And if you got a bottle or two on you, I can make it upgrade galore in here. Want a parachute sewn to your shotgun? I can do that, hehe.</text>
 	</string>
@@ -96,7 +95,7 @@
 		<text>Got some booze. Want a shot?</text>
 	</string>
 	<string id="zat_b3_stalker_tech_drink_1_2">
-		<text>Nah, I'm off the bottle, man. When I saw item 62, I thought "That's it, I'm having the jumps"... See, booze just screws you up. Not a part of a healthy diet. And if I'm gone, who's gonna hammer out ammo for your Gauss rifle?</text>
+		<text>Nah, I'm off the bottle, man. When I saw item 62, I thought, 'That's it, I'm having the jumps...' See, booze just screws you up. Not a part of a healthy diet. And if I'm gone, who's gonna hammer out ammo for your Gauss rifle?</text>
 	</string>
 	<string id="zat_b3_stalker_tech_drink_2_0">
 		<text>Here's another bottle for you.</text>
@@ -106,20 +105,20 @@
 	</string>
 	
 <string id="O_Gluhare_0">
-		<text>День добрый. Ты тут за главного?</text>
+	<text>Good afternoon. Are you here for the main thing?</text>
 	</string>
 
 <string id="O_Gluhare_1">
-		<text>Типо того. Я за порядком здесь слежу. Раньше в милиции работал, следователем, а теперь тут — считай, что-то вроде шерифа. Пришёл вместе с Бородой и Тремором: они решили здесь стоянку организовать. А смысл дальше идти, если дороги в Припять всё равно никто не знает и артефактов в округе хватает? Вот мы тут и обосновались. Вокруг зверья правда полно, приходится даже охотников с Янова подключать. Вот собственно, рядом со мной стоит Данила - один из лучших охотников в Зоне.</text>
+	<text>Something like that. I follow the order here. Previously, he worked as a police officer, as an investigator, and now here-consider something like a sheriff. He came with Boroda and Tremor: they decided to organize parking here. A sense to go on, if the road to Pripyat still no one knows and the artifacts in the district missing? Here we are and settled. Around the beast the truth is full, even hunters with Janov have to be connected. That's actually, next to me is Danila-one of the best hunters in the Zone.</text>
 	</string>
 
 
 <string id="danila_0">
-		<text>Привет. Ты охотник?</text>
+	<text>Hey. Are you a hunter?</text>
 	</string>
 
 <string id="danila_1">
-		<text>Здоров. Да,я из группы охотников Зверобоя с Янова. За умеренную плату мы убиваем любых тварей. Сюда я прибыл по просьбе Бороды, чтобы уничтожить логово Бюреров. Мелкие засранцы. Ох и досталось же мне тогда, но я свое дело сделал, хоть и пострадал немного. Через пару дней вот думаю рвануть назад, к своим на Юпитер. Как говорится в гостях хорошо - а дома лучше. Я тебе так скажу если соберешься идти на бюрера - запасись аптечками и не используй огнестрел в борьбе с ними, гады просто напросто выбьют его у тебя из рук своей телепатией. Помни что против поганцев очень эфективен обычный сталкерский нож, он их режет на ура.</text>
+	<text>He's well. Yes, I'm from the group of hunters St. John's wort. For a moderate fee, we kill any creatures. Here I arrived at the request of Boroda to destroy the lair of the Burer. Petty assholes. Oh, and got to me then, but I did my job, although I suffered a little. In a couple of days, I'm thinking about jumping back to their own on Jupiter. As they say at a party well-but at home it is better. I'll tell you so if you are going to go to the burer-beware of first-aid k its and do not use firearms in dealing with them, bastards will simply knock him out of your hands with your telepathy. Remember that against pogantsev is very effective ordinary Stalker knife, he cuts them with a bang.</text>
 	</string>
 
 

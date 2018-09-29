@@ -360,25 +360,25 @@
 		<text>Commands</text>
 	</string>
 	<string id="st_pda_action_1__3">
-		<text>Вылечить</text>
+	<text>Cure</text>
 	</string>
 	<string id="st_health_companion">
-		<text>Вылечить напарника?</text>
+	<text>Cure a partner?</text>
 	</string>
 	<string id="st_health_full">
-		<text>Напарник абсолютно здоров</text>
+	<text>the partner is absolutely healthy</text>
 	</string>
 	<string id="st_pda_action_1__4">
-		<text>Боевые задачи</text>
+	<text>Combat tasks</text>
 	</string>
 	<string id="st_pda_action_1__4_1">
-		<text>Назад</text>
+	<text>Go back</text>
 	</string>
 	<string id="st_pda_action_1__4_2">
-		<text>Получить задание</text>
+	<text>Get an assignment</text>
 	</string>
 	<string id="st_pda_action_1__4_3">
-		<text>Отменить задание</text>
+	<text>Cancel job</text>
 	</string>
 	<string id="st_pda_action_1__2_2">
 		<text>Movement</text>

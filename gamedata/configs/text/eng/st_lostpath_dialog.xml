@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="scripts_trade">
-		<text>Я бы хотел кое-что прикупить.</text>
+	<text>I would like to buy something.</text>
 	</string>
 	
 	<string id="trade_good">
-		<text>Хорошо.</text>
+	<text>Good.</text>
 	</string>
 	
 	<string id="buy_item">
-		<text>Давай мой товар.</text>
+	<text>Give me my goods.</text>
 	</string>
 	<string id="not_buy_item">
-		<text>Извини, у меня нет столько денег.</text>
+	<text>Sorry, I do not have that much money.</text>
 	</string>
 	
 	

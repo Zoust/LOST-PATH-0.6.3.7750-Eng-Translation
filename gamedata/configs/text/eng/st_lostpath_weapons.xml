@@ -85,10 +85,10 @@
 <text>Prototype-automatic grenade launcher, a Russian modification of the standard "Thunder-C14", specially created for operating in the Area of special forces. Characterized by increased size of the store.</text>
 </string>
 <string id="st_wpn_svu_maks">
-<text>ÑÂÓ2-AND "max"</text>
+	<text>SVU2-AND 'max'</text>
 </string>
  <string id="st_wpn_svu_maks_descr">
-<text>It "ÑÂÓ2-A" — shortened sniper rifle with an increased rate of fire. Before that I was at max, the legendary Keeper of the Liberty group. He swore that she was the only one in the whole Area, so that at least in these places it is exclusive.</text>
+	<text>It 'SVU2-A'-shortened sniper rifle with an increased rate of fire. Before that, I was at Extreme, the legendary Keeper of the Liberty group. He swore that she was the only one in the whole area.</text>
 </string>
 <string id="st_wpn_sig550_545">
 <text>SIG SG-550</text>

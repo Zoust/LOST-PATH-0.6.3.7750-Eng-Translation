@@ -2,51 +2,51 @@
 <string_table>
 
 	<string id="st_cloth_strip">
-		<text>ѕолоска ткани</text>
+	<text>Strip the fabric</text>
 	</string>
 	<string id="st_cloth_strip_descr">
-		<text>ќтрезанный от чего-то кусочек ткани. ћожет быть использован при чистке чего-либо. Ѕолее широкое использование - в качестве бинта, но сначала необходимо продизинфецировать.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] ежедневный предмет\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] ремонт снар€жени€, уход за оружием (+1%)</text>
+	<text>Cut off from something a piece of cloth. Can be used for cleaning anything. Broader use-as a bandage,but first you need to disinfect. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] daily item \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] repair of equipment,maintenance of weapons (1%)</text>
 	</string>
 	<string id="st_stock">
-		<text>ѕриклад</text>
+	<text>Butt</text>
 	</string>
 	<string id="st_stock_descr">
-		<text>«адн€€ часть, приклад от дробовика или винтовки. ћожет быть использован дл€ замены существующего.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] уход за оружием (+6%)</text>
+	<text>Back,butt from shotgun or rifle. Can be used to replace an existing one. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] care of arms (6%)</text>
 	</string>
 	<string id="st_trigger">
-		<text>“риггерный механизм</text>
+	<text>Trigger mechanism</text>
 	</string>
 	<string id="st_trigger_descr">
-		<text>“риггерный механизм, который был выт€нут из неизвестного огнестрельного оружи€. Ѕольшниство триггеров похожи между собой, поэтому этот предмет достаточно универсален и позвол€ет заменить его во мноних других винтовках.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] уход за оружием (+5%)</text>
+	<text>Trigger mechanism that was pulled out of an unknown firearm. Most of the triggers are similar to each other,so this item is quite versatile and allows replacing it in many other rifles. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] care of arms (5%)</text>
 	</string>
 	<string id="st_triggerrusty">
-		<text>“риггерный механизм (ржавый)</text>
+	<text>Trigger mechanism (rusty)</text>
 	</string>
 	<string id="st_triggerrusty_descr">
-		<text>ѕроржавелый триггерный механизм, который был выт€нут из неизвестного огнестрельного оружи€. ”жасный в текущем состо€нии, но может быть восстановлен с помощью чист€ших средств.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26]</text>
+	<text>A rusted trigger mechanism that was pulled out of an unknown firearm. Terrible in the current state,but can be restored with the help of cleaners. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26]</text>
 	</string>
 	<string id="st_spspring">
-		<text>ѕружина</text>
+	<text>Spring</text>
 	</string>
 	<string id="st_spspring_descr">
-		<text>ѕружина, котора€ была выт€нута из неизвестного огнестрельного оружи€. ѕружины в основном везде похожие, поэтому может быть использавана в ремонте многих других винтовках.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] уход за оружием (+2%)</text>
+	<text>A spring that was pulled out of an unknown firearm. Springs are basically the same everywhere,so they can be used to repair many other rifles. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] care for weapons (2%)</text>
 	</string>
 	<string id="st_pistolgrip">
-		<text>–уко€ть</text>
+	<text>Handle</text>
 	</string>
 	<string id="st_pistolgrip_descr">
-		<text>–уко€тка, котора€ была выт€нута из неизвестного огнестрельного оружи€. Ёта проризиненна€ полимерна€ руко€ть может быть допилена умельцами под многие другие винтовки.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] уход за оружием (+6%)</text>
+	<text>A handle that was pulled out of an unknown firearm. This perforated polymer handle can be doped by craftsmen for many other rifles. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] care of arms (6%)</text>
 	</string>
 	<string id="st_boltcarrier">
-		<text>«атвор</text>
+	<text>Gate</text>
 	</string>
 	<string id="st_boltcarrier_descr">
-		<text>«атвор, который был выт€нут из неизвестного огнестрельного оружи€. —лишком огромен дл€ пистолетов и другого мелкого оружи€, но может быть заменой дл€ многих других винтовок. ≈сли его подкорректирвоать, то может быть использован даже в полуавтоматических винтовках.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие\n%c[255,238,153,26] Х %c[0,140,140,140] используетс€ с:%c[0,170,170,170] уход за оружием (+8%)</text>
+	<text>the bolt,which was pulled out of an unknown firearm. Too huge for pistols and other small weapons,but it can be a substitute for many other rifles. If it is corrected,it can be used even in semi-automatic rifles. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military article \n %c[255,238,153,26] Х %c[0,140,140,140] used with: %c[0,170,170,170] care of arms (8%)</text>
 	</string>
 	<string id="st_boltcarrierrusty">
-		<text>«атвор (ржавый)</text>
+	<text>Shutter (rusty)</text>
 	</string>
 	<string id="st_boltcarrierrusty_descr">
-		<text>ѕроржавелый затвор, который был выт€нут из неизвестного огнестрельного оружи€. —лишком огромен дл€ пистолетов и другого мелкого оружи€, но может быть заменой дл€ многих других винтовок. ≈сли его подкорректирвоать, то может быть использован даже в полуавтоматических винтовках.\n \n%c[0,140,140,140]’ј–ј “≈–»—“» »:\n%c[0,153,255,255] Х %c[0,140,140,140] военное изделие</text>
+	<text>A rusted bolt that was pulled out of an unknown firearm. Too huge for pistols and other small weapons,but it can be a substitute for many other rifles. If it is corrected,it can be used even in semi-automatic rifles. \n\n %c[0,140,140,140] CHARACTERISTICS: \n %c[0,153,255,255] Х %c[0,140,140,140] military product</text>
 	</string>
 </string_table>
