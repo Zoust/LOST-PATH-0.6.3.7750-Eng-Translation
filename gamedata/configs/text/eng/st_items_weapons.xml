@@ -10,22 +10,22 @@
 		<text>Standard 12-calibre round filled with 6 mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons.</text>
   </string>
  	<string id="ammo-12.7x55-fmj">
-		<text>Ïàòðîíû 12,7x55 ìì ÑÖ-130</text>
+	<text>Cartridges 12,7x55 mm SC-130</text>
 	</string>
 	<string id="ammo-12.7x55-fmj_s">
-		<text>ÑÖ-130</text>
+	<text>SC-130</text>
 	</string>
 	<string id="ammo-12.7x55-fmj_descr">
-		<text>12,7x55 ìì ÑÖ-130 - ðîññèéñêèé âèíòîâî÷íûé áîåïðèïàñ ñ äîçâóêîâîé ñêîðîñòüþ ïóëè, ñîçäàííûé â ÖÊÈÁ ÑÎÎ äëÿ ìàëîøóìíîãî è áåñïëàìåííîãî ïîðàæåíèÿ çàùèù¸ííûõ öåëåé è æèâîé ñèëû â òÿæ¸ëûõ áðîíåæèëåòàõ íà äàëüíîñòÿõ äî 600 ìåòðîâ.</text>
+	<text>12.7x55 mm SC-130 is a Russian rifle ammunition with subsonic bullet speed, created in the TsKIB SOO for low-noise and flameless defeat of protected targets and manpower in heavy body armor at ranges up to 600 meters.</text>
 	</string>
 	<string id="ammo-50-bmg">
-		<text>Ïàòðîíû 12,7x99 ìì NATO</text>
+	<text>Cartridges 12,7x99 mm NATO</text>
 	</string>
 	<string id="ammo-50-bmg_s">
 		<text>BMG</text>
 	</string>
 	<string id="ammo-50-bmg_descr">
-		<text>12,7x99 ìì (èçâåñòåí ïîä îáîçíà÷åíèÿìè «.50 BMG», «12,7x99 mm NATO»)  - êðóïíîêàëèáåðíûé ïàòðîí àðìèé ÍÀÒÎ. Îí áûë ñîçäàí â 1920-õ ãîäàõ â êà÷åñòâå áîåïðèïàñà äëÿ êðóïíîêàëèáåðíîãî ïóëåì¸òà Browning M1921. Ïîñëå Âòîðîé ìèðîâîé âîéíû ïàòðîí ñòàíäàðòèçîâàí â ÍÀÒÎ è âûïóñêàåòñÿ ðàçëè÷íûìè ñòðàíàìè-ó÷àñòíèöàìè ÍÀÒÎ ïî åäèíûì òåõíè÷åñêèì óñëîâèÿì.</text>
+	<text>12, 7x99 mm (known as 50 BMG, 12, 7x99 mm NATO) is a large-caliber cartridge of NATO armies. It was created in the 1920s as an ammunition for the Browning M1921 large-caliber machine gun. After the Second World War, the cartridge is standardized in NATO and is produced by various member countries NATO on uniform technical conditions.</text>
   </string>
   <string id="ammo-12x76-zhekan">
 		<text>12x76 slug rounds</text>
@@ -37,13 +37,13 @@
 		<text>This heavy 12 calibre slug round is normally used for hunting big game, but is also good for other purposes. Instead of piercing, this hefty slug simply crushes through armour. </text>
   </string>
 	<string id="ammo-12x76-dart">
-		<text>Ïàòðîíû 12/76 (äðîòèê)</text>
+	<text>Cartridges 12/76 (dart)</text>
 	</string>
 	<string id="ammo-12x76-dart_s">
-		<text>12/76 äðîòèê</text>
+	<text>12/76 dart</text>
 	</string>
 	<string id="ammo-12x76-dart_descr">
-		<text>Ïóëÿ-äðîòèê. Îïåðåíèå ñòàáèëèçèðóåò ïóëþ, ÷òî óâåëè÷èâàåò òî÷íîñòü áîÿ. Ìàññèâíîå ñòàëüíîå òåëî ïóëè ñïîñîáíî ïðîáèòü ëþáîé áðîíåæèëåò.</text>
+	<text>the bullet is a dart. Plumage stabilizes the bullet, which increases the accuracy of the battle. the massive steel body of the bullet can penetrate any bulletproof vest.</text>
 	</string>
   <string id="ammo-9x18-fmj">
 		<text>9x18 mm rounds</text>
@@ -82,40 +82,40 @@
 		<text>This 9x19 calibre jacketed hollow point bullet with an expanding hollow provides high stopping power and low ricochet propensity. Used by police and for self-defence. Ineffective against body armour due to its low penetration potential.</text>
   </string>
 	<string id="ammo-5.7x28-fmj">
-		<text>Ïàòðîíû 5,7x28 ìì SS190</text>
+	<text>Cartridges 5,7x28 mm SS190</text>
 	</string>
 	<string id="ammo-5.7x28-fmj_s">
 		<text>SS190</text>
 	</string>
 	<string id="ammo-5.7x28-fmj_descr">
-		<text>5,7x28 ìì SS190 - ïèñòîëåòíûé ïàòðîí, ñîçäàííûé â 1986 ãîäó äëÿ çàìåíû 9x19 ìì Ïàðàáåëëóì. Ïî ñðàâíåíèþ ñ ïàòðîíîì 9x19 ìì îí îáåñïå÷èâàåò áîëüøóþ íàñòèëüíîñòü ñòðåëüáû, ìåíüøóþ îòäà÷ó, áîëüøóþ ýôôåêòèâíóþ äàëüíîñòü ñòðåëüáû, áðîíåïðîáèâàåìîñòü, à òàêæå îòëè÷àåòñÿ ñíèæåííîé ñòåïåíüþ ðèêîøåòèðîâàíèÿ. Ýòîò ïàòðîí çàíÿë íèøó ìåæäó ïèñòîëåòíûìè è ïðîìåæóòî÷íûìè (àâòîìàòíûìè) ïàòðîíàìè. Ïàòðîí 5,7x28 ìì èñïîëüçóåòñÿ â ïèñòîëåòå-ïóëåì¸òå (Personal defense weapon) FN P90 è ïèñòîëåòå FN Five-seveN.</text>
+	<text>5, 7x28 mm SS190-pistol cartridge, created in 1986 for the replacement of 9x19 mm Parabellum. Compared with the cartridge 9x19 mm, it provides greater shooting accuracy, less impact, greater effective range, armor penetration, and also has a lowered ricochet. This cartridge occupied a niche between pistol and intermediate (automatic) cartridges. the cartridge 5, 7x28 mm is used in the F18 P90 personal fire weapon and the FN Five-seveN pistol.</text>
 	</string>
 	<string id="ammo-5.7x28-ap">
-		<text>Ïàòðîíû 5,7x28 ìì SS195 JHP</text>
+	<text>Cartridges 5,7x28 mm SS195 JHP</text>
 	</string>
 	<string id="ammo-5.7x28-ap_s">
 		<text>SS195</text>
 	</string>
 	<string id="ammo-5.7x28-ap_descr">
-		<text>5,7x28 SS195 JHP - ïàòðîí ñ ýêñïàíñèâíîé ïóëåé, îáëàäàåò ìåíüøåé ïðîáèâíîé ñïîñîáíîñòüþ, ÷åì SS190, íî áîëüøèì îñòàíàâëèâàþùèì äåéñòâèåì è óáîéíîé ñèëîé.</text>
+	<text>5,7x28 SS195 JHP-cartridge with an expansive bullet, has a smaller penetrating ability than the SS190, but a large stopping action and killing force.</text>
 	</string>
 	<string id="ammo-50-ae">
-		<text>Ïàòðîíû .50 Action Express</text>
+	<text>Ammo.50 Action Express</text>
 	</string>
 	<string id="ammo-50-ae_s">
 		<text>.50 AE</text>
 	</string>
 	<string id="ammo-50-ae_descr">
-        <text>.50 Action Express (òàêæå .50 AE, 12.7 x 33, 12,7x32,6 ìì) - ïàòðîí, ðàçðàáîòàííûé â 1988 ãîäó äëÿ èçðàèëüñêîãî ïèñòîëåòà Desert Eagle. Îäèí èç ñàìûõ ìîùíûõ óíèòàðíûõ ïèñòîëåòíûõ ïàòðîíîâ â ìèðå. Èìååò òóïîêîíå÷íóþ ïóëþ, êîòîðàÿ îáóñëàâëèâàåò îãðîìíîå îñòàíàâëèâàþùåå äåéñòâèå äàííîãî ïàòðîíà.</text>
+	<text>. 50 Action Express (also 50 AE, 12. 7 x 33, 12, 7x32, 6 mm) is a cartridge developed in 1988 for the Israeli Desert Eagle pistol. One of the most powerful unitary pistol cartridges in the world. Has a blunt-ended bullet, which causes a huge stopping action of this cartridge.</text>
 	</string>
 	<string id="ammo-357">
-		<text>Ïàòðîíû .357 Magnum</text>
+	<text>Cartridges.357 Magnum</text>
 	</string>
 	<string id="ammo-357_s">
-		<text>Ïàòðîíû .357 Magnum</text>
+	<text>Cartridges.357 Magnum</text>
 	</string>
 	<string id="ammo-357_descr">
-        <text>Ìàãíóì (ëàò. Magnum, îò magnus - áîëüøîé, âåëèêèé) - ïàòðîí ïîâûøåííîé ìîùíîñòè, ïî ñðàâíåíèþ ñ îáû÷íûì ïàòðîíîì òîãî æå êàëèáðà. Òàê æå îðóæèå, ïðåäíàçíà÷åííîå ïîä ïàòðîí äàííîãî òèïà.</text>
+	<text>Magnum (from Magnus, from magnus-big, great)-a cartridge of increased power, compared to a regular cartridge of the same caliber. Also, weapons designed for this type of cartridge.</text>
 	</string>
  <string id="ammo-11.43x23-fmj">
 		<text>.45 ACP rounds</text>
@@ -172,13 +172,13 @@
 		<text>A common NATO military 5.56x45 calibre armour piercing round, known under its SS190/M855 index, widely used by Western security agencies and special services. Effective against body armour.</text>
   </string>
 	<string id="ammo-9x39-sp5">
-		<text>Ïàòðîíû 9x39 ìì ÑÏ-5</text>
+	<text>Cartridges 9x39 mm SP-5</text>
 	</string>
 	<string id="ammo-9x39-sp5_s">
-		<text>ÑÏ-5</text>
+	<text>SP-5</text>
 	</string>
 	<string id="ammo-9x39-sp5_descr">
-		<text>Ñïåöèàëüíûé ñíàéïåðñêèé ïàòðîí ñ èíäåêñîì 7Í8. Èìååò äîçâóêîâóþ ñêîðîñòü ïîëåòà, ÷òî ïîçâîëÿåò ïðèìåíÿòü åãî â áåñøóìíîì îðóæèè ïðè ñïåöîïåðàöèÿõ. Áëàãîäàðÿ êàëèáðó îòëè÷àåòñÿ âûñîêèì îñòàíàâëèâàþùèì äåéñòâèåì, à çà ñ÷¸ò òÿæ¸ëîé ïóëè îñîáîé êîíñòðóêöèè ïðîáèâàåò áîëüøèíñòâî áðîíåæèëåòîâ íà äàëüíîñòÿõ äî 200 ìåòðîâ.</text>
+	<text>Special sniper cartridge with the index 7Í8. Has a subsonic flight speed, which makes it possible to use it in silent weapons during special operations. Thanks to the caliber is distinguished by a high stopping action, and due to a heavy bullet of a special design, it breaks most body armor on ranges up to 200 meters.</text>
 	</string>
  <string id="ammo-9x39-pab9">
 		<text>9x39 mm SP-5 rounds</text>
@@ -199,67 +199,67 @@
 		<text>The SP-6 is a subsonic assault rifle round with a jacketed soft point bullet with a hard steel core that protrudes from the casing. Requires a silencer for stealth firing. Used by special services of Warsaw Pact countries. Effective against body armour.</text>
   </string>
 	<string id="ammo-7.62x25-p">
-		<text>7,62x25 ìì Ï</text>
+	<text>7.62x25 mm P</text>
 	</string>
 	<string id="ammo-7.62x25-p_s">
-		<text>Ïñò ãæ</text>
+	<text>Pst Gzh</text>
 	</string>
 	<string id="ammo-7.62x25-p_descr">
-		<text>Ñîâåòñêèé ïèñòîëåòíûé ïàòðîí êàëèáðà 7,62ìì. Ïðîñòàÿ öåëüíîîáîëî÷å÷íàÿ ïóëÿ ñî ñâèíöîâûì ñåðäå÷íèêîì.</text>
+	<text>Soviet pistol cartridge caliber 7,62mm. A simple whole-shell bullet with a lead core.</text>
 	</string>
 	<string id="ammo-7.62x25-ps">
-		<text>7,62x25 ìì Ïñò</text>
+	<text>7.62x25 mm Pst</text>
 	</string>
 	<string id="ammo-7.62x25-ps_s">
-		<text>ÏÏ ãæ</text>
+	<text>PP GG</text>
 	</string>
 	<string id="ammo-7.62x25-ps_descr">
-		<text>Ñîâåòñêèé ïèñòîëåòíûé ïàòðîí êàëèáðà 7,62ìì. Ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	<text>Soviet pistol cartridge caliber 7,62mm. A bullet with a steel core, improved armor-piercing.</text>
 	</string>
 	<string id="ammo-7.62x39-fmj">
-		<text>7,62x39 ìì ÏÑ</text>
+	<text>7.62x39 mm PS</text>
 	</string>
 	<string id="ammo-7.62x39-fmj_s">
-		<text>ÏÑ</text>
+	<text>PS</text>
 	</string>
 	<string id="ammo-7.62x39-fmj_descr">
-		<text>Ñîâåòñêèé àâòîìàòíûé ïàòðîí êàëèáðà 7,62ìì (èíäåêñ 57-Í-231). Ïðîñòàÿ îáîëî÷å÷íàÿ ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì.</text>
+	<text>the Soviet automatic cartridge of caliber 7,62 mm (index 57-Í-231). A simple shell bullet with a steel core.</text>
 	</string>
 	<string id="ammo-7.62x39-ap">
-		<text>7,62x39 ìì ÁÏ 7Í23</text>
+	<text>7,62x39 mm BP 7N23</text>
 	</string>
 	<string id="ammo-7.62x39-ap_s">
-		<text>ÁÏ</text>
+	<text>BP</text>
 	</string>
 	<string id="ammo-7.62x39-ap_descr">
-		<text>Ñîâåòñêèé áðîíåáîéíûé àâòîìàòíûé ïàòðîí êàëèáðà 7,62ìì (èíäåêñ 7Í23). Ïóëÿ ñ òåðìîóïðî÷í¸ííûì ñåðäå÷íèêîì èç èíñòðóìåíòàëüíîé ñòàëè, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	<text>Soviet armor-piercing automatic cartridge of caliber 7,62mm (index 7N23). Bullet with heat-strengthened core made of tool steel, improved armor-piercing.</text>
 	</string>
 	<string id="ammo-7.62x51-fmj">
-		<text>7,62x51 ìì NATO SS77</text>
+	<text>7.62x51 mm NATO SS77</text>
 	</string>
 	<string id="ammo-7.62x51-fmj_s">
 		<text>M80</text>
 	</string>
 	<string id="ammo-7.62x51-fmj_descr">
-		<text>Âèíòîâî÷íûé áîåïðèïàñ ñòàíäàðòà ÍÀÒÎ. Êàëèáð - 7,62ìì. Ïðîñòàÿ îáîëî÷å÷íàÿ ïóëÿ ñî ñâèíöîâûì ñåðäå÷íèêîì.</text>
+	<text>the rifle ammunition standard of NATO. the caliber is 7.62mm. A simple shell bullet with a lead core.</text>
 	</string>
 	<string id="ammo-7.62x51-ap">
-		<text>7,62x51 ìì NATO M61 AP</text>
+	<text>7.62x51 mm NATO M61 AP</text>
 	</string>
 	<string id="ammo-7.62x51-ap_s">
 		<text>M61</text>
 	</string>
 	<string id="ammo-7.62x51-ap_descr">
-		<text>Âèíòîâî÷íûé áðîíåáîéíûé áîåïðèïàñ ñòàíäàðòà ÍÀÒÎ. Êàëèáð - 7,62ìì. Ïóëÿ ñî ñòàëüíûì ñåðäå÷íèêîì, óëó÷øåííàÿ áðîíåáîéíîñòü.</text>
+	<text>Rifle armor piercing standard of NATO. the caliber is 7.62mm. A bullet with a steel core, improved armor-piercing.</text>
 	</string>
 	<string id="ammo-7.62x54-7h1">
-		<text>7,62x54 ìì 7H1</text>
+	<text>7.62x54 mm 7H1</text>
 	</string>
 	<string id="ammo-7.62x54-7h1_s">
-		<text>ÏÑ</text>
+	<text>PS</text>
 	</string>
 	<string id="ammo-7.62x54-7h1_descr">
-		<text>Øòàòíûé àðìåéñêèé ïàòðîí 7,62x54 ìì ÏÑ ñ îáûêíîâåííîé ïóëåé (èíäåêñ 7Í1). Ïóëÿ ïàòðîíà èìååò òóïîêîíå÷íûé ñòàëüíîé ñåðäå÷íèê. Äåø¸âàÿ â èçãîòîâëåíèè ìîäèôèêàöèÿ ñíàéïåðñêîãî ïàòðîíà äëÿ ñíàéïåðñêèõ âèíòîâîê.</text>
+	<text>Full-time army cartridge 7.62x54 mm PS with an ordinary bullet (index 7N1). the cartridge bullet has a blunt-ended steel core. Cheap in the manufacture of a modification of the sniper cartridge for sniper rifles.</text>
 	</string>
   <string id="ammo-7.62x54-7h14">
 		<text>7.62x54 mm 7H14 rounds</text>
@@ -280,13 +280,13 @@
 	<text>Cheap 7.62 calibre machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the RP-74 machine gun.</text>
   </string>
 	<string id="ammo-8,6x70-fmj">
-		<text>Ïàòðîíû .338 Lapua Magnum</text>
+	<text>Cartridges.338 Lapua Magnum</text>
 	</string>
 	<string id="ammo-8,6x70-fmj_s">
 		<text>.338</text>
 	</string>
 	<string id="ammo-8,6x70-fmj_descr">
-		<text>Ñîçäàâàëñÿ êàê ñïåöèàëüíûé ñíàéïåðñêèé ïàòðîí äëÿ ñòðåëüáû íà áîëüøèå äèñòàíöèè, íî íà ñåãîäíÿøíèé ìîìåíò øèðîêî èñïîëüçóåòñÿ òàêæå îõîòíèêàìè è ñòðåëêàìè ñïîðòñìåíàìè.</text>
+	<text>It was created as a special sniper cartridge for shooting at great distances, but at the moment it is also widely used by hunters and shooters by sportsmen.</text>
 	</string>
   <string id="ammo-gauss">
 		<text>Batteries</text>
@@ -304,13 +304,13 @@
 		<text>These lower-capacity cells use encapsulated fragments of the Flash artefact as their power source. Their lower capacity is due to makeshift production conditions and lack of specialized equipment.</text>
   </string>
 	<string id="ammo-7.62x54-pkm">
-		<text>Ïàòðîíû 7,62õ54 ÁÏ (ëåíòà)</text>
+	<text>Cartridges 7,62õ54 BP (tape)</text>
 	</string>
 	<string id="ammo-7.62x54-pkm_s">
-		<text>ÁÏ</text>
+	<text>BP</text>
 	</string>
 	<string id="ammo-7.62x54-pkm_descr">
-		<text>Ïàòðîí ñ ïóëåé ïîâûøåííîãî ïðîáèâíîãî äåéñòâèÿ. Â êîíñòðóêöèè ïóëè èìååò áðîíåáîéíûé ñåðäå÷íèê èç çàêàë¸ííîé èíñòðóìåíòàëüíîé ñòàëè. Ïðåäíàçíà÷åíà äëÿ ïîðàæåíèÿ æèâîé ñèëû, íàõîäÿùåéñÿ çà ë¸ãêèìè áðîíåâûìè óêðûòèÿìè, íà äàëüíîñòÿõ äî 500 ì.</text>
+	<text>A cartridge with a bullet of increased breakdown action. In the design of the bullet has an armor-piercing core of hardened tool steel. It is intended for the destruction of manpower, located behind light armored shelters, at ranges up to 500 m.</text>
 	</string>
  <string id="ammo-og-7b">
 		<text>OG-7V warhead</text>
@@ -340,10 +340,10 @@
 		<text>A hand smoke grenade. Used to put up smoke screens. Once the grenade is thrown it takes 10 seconds for the smoke screen to expand.</text>
   </string>
 	<string id="st_grenade_light_descr">
-		<text>Õèìè÷åñêàÿ îñâåòèòåëüíàÿ ãðàíàòà. Ïðåäíàçíà÷åíà äëÿ îñâåùåíèÿ ó÷àñòêîâ ìåñòíîñòè âî âðåìÿ íî÷íîãî áîÿ, à òàêæå äëÿ îñëåïëåíèÿ è äåçîðèåíòàöèè ïðîòèâíèêà. Âðåìÿ äåéñòâèÿ ìåíüøå ìèíóòû.</text>
+	<text>Chemical lighting grenade. Designed to illuminate areas during night combat, as well as to dazzle and disorientate the enemy. the action time is less than a minute.</text>
 	</string>
 	<string id="st_grenade_light">
-		<text>Ãðàíàòà GL-1</text>
+	<text>Grenade GL-1</text>
 	</string>
   <string id="ammo-vog-25">
 		<text>VOG-25 grenade</text>
@@ -355,13 +355,13 @@
 		<text>Regular fragmentation grenade for the GP-25 Koster under-barrel grenade launcher. This round has a 5 meter kill zone. The VOG-25 grenade is also used in the Tunder S14 complex and Bulldog 6 revolver-type grenade launcher.</text>
   </string>
 	<string id="ammo-vog-25p">
-		<text>Âûñòðåë ÂÎÃ-25Ï</text>
+	<text>VOG Vision-25P</text>
 	</string>
 	<string id="ammo-vog-25p_s">
-		<text>ÂÎÃ-25Ï</text>
+	<text>VOG-25P</text>
 	</string>
 	<string id="ammo-vog-25p_descr">
-		<text>40ìì âûñòðåë ÂÎÃ-25Ï èëè «Ïîäêèäûø» (7Ï24) - îñêîëî÷íàÿ ãðàíàòà äëÿ ãðàíàòîìåòîâ, ó êîòîðîé ãëàâíîå è îñíîâíîå îòëè÷èå çàêëþ÷àåòñÿ â ãîëîâíîì âçðûâàòåëå, îáåñïå÷èâàþùèì «ïîäïðûãèâàíèå» ãðàíàòû ïîñëå óäàðà î ãðóíò è å¸ ðàçðûâ â âîçäóõå, ÷òî óâåëè÷èâàåò å¸ ïîðàæàþùåå äåéñòâèå.</text>
+	<text>40mm shot VOG-25P or the Foundling (7P24)-fragmentation grenade for grenade launchers, in which the main and main difference is in the head fuse, which ensures the bouncing of the grenade after impact on the ground and its rupture in the air, which increases its damaging effect.</text>
 	</string>
   <string id="ammo-m209">
 		<text>M203 grenade</text>
@@ -373,145 +373,145 @@
 		<text>40 mm grenade for the M203 under-barrel grenade launcher. This round has a 5 meter kill zone. Also suitable for use in the FT-200M integrated grenade launcher.</text>
   </string>
  	<string id="st_addon_scope_galil">
-		<text>Ïðèöåë äëÿ Galil</text>
+	<text>Sight for Galil</text>
 	</string>
 	<string id="st_addon_scope_galil_descr">
-		<text>Îïòè÷åñêèé ïðèöåë äëÿ èçðàèëüñêîãî àâòîìàòà IMI Galil.</text>
+	<text>Optical sight for the Israeli automaton IMI Galil.</text>
 	</string>
 	<string id="st_addon_scope_4x34">
-		<text>ÏÎ 4x34</text>
+		<text>4x34 scope</text>
 	</string>
 	<string id="st_addon_scope_4x34_descr">
-		<text>Ïðèöåëû îïòè÷åñêèå ïîñòîÿííîãî è ïåðåìåííîãî óâåëè÷åíèÿ óñòàíàâëèâàþòñÿ íà îõîòíè÷üå íàðåçíîå îðóæèå è ïðåäíàçíà÷åíû äëÿ ïðèöåëüíîé íàâîäêè åãî ïðè ñòðåëüáå. Íà îðóæèå ïðèöåëû ìîíòèðóþòñÿ ïðè ïîìîùè ñïåöèàëüíûõ êðîíøòåéíîâ.</text>
+	<text>Optical sights of permanent and variable magnification are installed on hunting rifled weapons and are designed to aim it at shooting. On the gun sights are mounted using special brackets.</text>
 	</string>
 	<string id="st_addon_scope_1p29">
-		<text>Ïðèöåë ÓÑÏ-1 «Òþëüïàí»</text>
+	<text>Sight USP-1 Tulip</text>
 	</string>
 	<string id="st_addon_scope_1p29s">
-		<text>ÓÑÏ-1</text>
+	<text>USP-1</text>
 	</string>
 	<string id="st_addon_scope_1p29_descr">
-		<text>Óíèôèöèðîâàííûé ñòðåëêîâûé ïðèöåë ÓÑÏ-1 ïðåäíàçíà÷åí äëÿ âåäåíèÿ ïðèöåëüíîé ñòðåëüáû èç àâòîìàòà ÀÊ-74Í, ÀÊ-74Ì, ÀÍ-94 è ïóëåìåòîâ ÐÏÊ-74Í è ÏÊÌÍ â ñâåòëîå âðåìÿ ñóòîê è íî÷üþ ïî ñâåòÿùèìñÿ è ïîäñâå÷èâàåìûì öåëÿì. 1Ï29 - èíäåêñ ïðèöåëà ÓÑÏ-1 Ãëàâíîãî àðòèëëåðèéñêîãî óïðàâëåíèÿ ÌÎ ÑÑÑÐ. Ñîçäàí â ðàìêàõ ÎÊÐ «Òþëüïàí», îòêóäà è ïîëó÷èë ñâî¸ íàçâàíèå.</text>
+	<text>the unified rifle sight USP-1 is designed for targeting shooting from the AK-74N, AK-74M, AN-94 and RPK-74N and PKMN machine guns at daylight and at night for luminous and illuminated targets. 1P29- the index of the USP-1 sighting of the Main Artillery Directorate of the USSR Ministry of Defense. Created by in the framework of the ROC Tulip, from where it got its name.</text>
 	</string>
 	<string id="st_addon_scope_1pn93">
-		<text>Ïðèöåë 1ÏÍ93-4</text>
+	<text>Sight 1PH93-4</text>
 	</string>
 	<string id="st_addon_scope_1pn93s">
 		<text>1ÏÍ93-4</text>
 	</string>
 	<string id="st_addon_scope_1pn93_descr">
-		<text>1ÏÍ93 «Ìàëûø» - ñåðèÿ ðîññèéñêèõ íî÷íûõ ïðèöåëîâ, ïðåäíàçíà÷åííûõ äëÿ íàáëþäåíèÿ çà ïîëåì áîÿ è âåäåíèÿ ïðèöåëüíîé ñòðåëüáû â óñëîâèÿõ ïëîõîé âèäèìîñòè. Ñåðèÿ ðàçðàáîòàíà â 1990-õ ãîäàõ â ÖÊÁ «Òî÷ïðèáîð», ïðîèçâîäèòåëü ÎÀÎ «Íîâîñèáèðñêèé ïðèáîðîñòðîèòåëüíûé çàâîä» (ã. Íîâîñèáèðñê). Êîíñòðóêòèâíîé îñîáåííîñòüþ ïðèáîðîâ ÿâëÿåòñÿ ìîäóëüíàÿ ñõåìà, êîòîðàÿ ïîçâîëèëà ñ ìèíèìóìîì çàòðàò ðàçâåðíóòü ïðîèçâîäñòâî ðàçíîãî âèäà ïðèöåëîâ äëÿ øèðîêîé íîìåíêëàòóðû ñòðåëêîâîãî îðóæèÿ.</text>
+	<text>1ÏÍ93 Kid-a series of Russian night sights designed to monitor the battlefield and conduct targeted fire in poor visibility. the series was developed in the 1990s in the Tochpribor CDB, the manufacturer of the Novosibirsk Instrument-Making Plant (Novosibirsk). Constructive the peculiarity of the devices is the modular scheme, which allowed the production of different types of sights with a minimum of costs for a wide range of small arms.</text>
 	</string>
 	<string id="st_addon_scope_kobra-ekp-1s-03">
-		<text>Ïðèöåë «Êîáðà» ÝÊÏ-1Ñ-03</text>
+	<text>Cobra sight ECP-1C-03</text>
 	</string>
 	<string id="st_addon_scope_kobra-ekp-1s-03s">
-		<text>ÝÊÏ</text>
+	<text>EKP</text>
 	</string>
 	<string id="st_addon_scope_kobra_descr">
-		<text>Ïðèöåë Êîáðà îáåñïå÷èâàåò óâåðåííîå ïðèöåëèâàíèå â óñëîâèÿõ åñòåñòâåííîé îñâåù¸ííîñòè (ÿðêèé ñîëíå÷íûé äåíü, ãëóáîêèå ñóìåðêè è ëóííàÿ íî÷ü) áëàãîäàðÿ íàëè÷èþ 16 óðîâíåé ðó÷íîé ðåãóëèðîâêè ÿðêîñòè ïðèöåëüíîé ìàðêè. Ðàñïîëîæåíèå ïðèöåëüíîé ìàðêè è öåëè â îäíîé ïëîñêîñòè ïîçâîëÿåò îñóùåñòâëÿòü ïðèöåëèâàíèå êàê îäíèì, òàê è äâóìÿ ãëàçàìè, ÷òî ñîçäà¸ò äëÿ ñòðåëêà íè÷åì íå îãðàíè÷åííîå ïîëå çðåíèÿ, è âåñòè ýôôåêòèâíóþ ñêîðîñòíóþ ñòðåëüáó ïî áûñòðî ïåðåìåùàþùèìñÿ, ìàëîðàçìåðíûì è âíåçàïíî ïîÿâëÿþùèìñÿ íà êîðîòêîå âðåìÿ öåëÿì. </text>
+	<text>the Cobra sight provides a confident aiming in natural light conditions (bright sunny day, deep twilight and moonlight night) due to the presence of 16 levels of manual brightness adjustment of the aiming mark. the location of the aiming mark and the target in one plane allows aiming with one or two eyes, which creates an unlimited field of view for the shooter, and conduct an effective high-speed fire at rapidly moving, small and suddenly appearing for a short time purposes.</text>
 	</string>
     <string id="st_addon-ekp-8-02">
-        <text>Ïðèöåë «Êîáðà» ÝÊÏ-8-02</text>
+	<text>Aim of the Cobra EKP-8-02</text>
     </string>
     <string id="st_addon-ekp-8-02s">
-        <text>ÝÊÏ</text>
+	<text>EKP</text>
     </string>
     <string id="st_addon-ekp-8-02_descr">
-        <text>ÝÊÏ-8-02 Êîáðà ÿâëÿåòñÿ îòêðûòûì êîëëèìàòîðíûì ïðèöåëîì òèïà «êðàñíàÿ òî÷êà». Ïðåäíàçíà÷åí äëÿ ïîðàæåíèÿ áûñòðî äâèæóùèõñÿ öåëåé è ðåøåíèÿ ñêîðîòå÷íûõ çàäà÷ íà áëèçêîì ðàññòîÿíèè â ãîðîäñêèõ óñëîâèÿõ ïðè ðàçëè÷íîì îñâåùåíèè. Îáåñïå÷èâàåò ÷¸òêîå ïðèöåëèâàíèå ïðè îñâåù¸ííîñòè îò 104ëê äî 2-10ëê (äíåâíîé ñâåò, ñóìåðêè è ëóííûé ñâåò) ñ îäíîãî èëè äâóõ ãëàç, î÷åíü ýôôåêòèâåí ïðè ñòðåëüáå èç äâèæóùèõñÿ òðàíñïîðòíûõ ñðåäñòâ, à òàêæå èäåàëåí äëÿ ïîðàæåíèÿ áûñòðî äâèæóùèõñÿ, ìàëûõ è ñïîíòàííî ïîÿâëÿþùèõñÿ öåëåé.</text>
+	<text>EKP-8-02 Cobra is an open collimator sight of the red dot type. It is designed to defeat rapidly moving targets and solve transient problems at close range in urban conditions under different lighting conditions. Provides a clear aiming with light from 104k to 2-10kilk (daylight, twilight and moonlight) from one or two eyes is very effective when firing from moving vehicles, and is also ideal for hitting fast moving, small and spontaneously appearing targets.</text>
     </string>
 	<string id="st_addon_scope_eotech">
-		<text>Ïðèöåë EOTech</text>
+	<text>EOTech sight</text>
 	</string>
 	<string id="st_addon_scope_eotechs">
 		<text>EOTech</text>
 	</string>
 	<string id="st_addon_scope_eotech_descr">
-		<text>EO Tech - ýòî ìèðîâîé ëèäåð è ýêñêëþçèâíûé ïðîèçâîäèòåëü ãîëîãðàôè÷åñêèõ ïðèöåëüíûõ ñèñòåì äëÿ ñòðåëêîâîãî îðóæèÿ.</text>
+	<text>EO Tech is the world leader and the exclusive manufacturer of holographic sighting systems for small arms.</text>
 	</string>
 	<string id="st_addon_scope_c-more">
-		<text>Ïðèöåë C-more Railway Tactical</text>
+	<text>C-more Railway Tactical</text>
 	</string>
 	<string id="st_addon_scope_c-mores">
 		<text>C-More</text>
 	</string>
 	<string id="st_addon_scope_c-more_descr">
-		<text>Êîëëèìàòîðíûé ïðèöåë îòêðûòîãî òèïà «C-More Railway» ìîæíî ìãíîâåííî óñòàíîâèòü íà êðåïëåíèå «Weaver» èëè «Picatinny». Ïîýòîìó òàêîé ïðèöåë ìîæíî èñïîëüçîâàòü ïðàêòè÷åñêè ñ ëþáûì îðóæèåì - äðîáîâèêîì, âèíòîâêîé, ðåâîëüâåðîì, àðáàëåòîì, ïåéíòáîëüíûì è ñòðàéêáîëüíûì ðóæüåì. Êîðïóñ ïðèöåëà èçãîòîâëåí èç àëþìèíèÿ.</text>
+	<text>Collimator sight of the open type C-More Railway can be instantly installed on the mount Weaver or Picatinny. Therefore, this sight can be used with almost any weapon-a shotgun, a rifle, a revolver, a crossbow, a paintball gun and an airsoft gun. the body of the sight is made from aluminum.</text>
 	</string>
 	<string id="st_addon_scope_docter_sight">
-		<text>Ïðèöåë DOCTER Sight </text>
+	<text>DOCTER Sight</text>
 	</string>
 	<string id="st_addon_scope_docter_sights">
 		<text>DS</text>
 	</string>
 	<string id="st_addon_scope_docter_sight_descr">
-		<text>Êîëëèìàòîðíûå ïðèöåëû DOCTER ïðåäñòàâëÿþò ñîáîé îòëè÷íûå îïòè÷åñêèå ïðèöåëüíûå óñòðîéñòâà ñîâðåìåííîé êîíñòðóêöèè. Áëàãîäàðÿ ñâîåìó ìàëîìó ðàçìåðó è ìàññå, à òàêæå êîìïàêòíîé áåñòðóáíîé êîíñòðóêöèè, ýòè ïðèöåëû ïðåäîñòàâëÿþò áîãàòûå âîçìîæíîñòè ïðèìåíåíèÿ êàê äëÿ îõîòû, òàê è äëÿ ñïîðòà. Íàä¸æíîå èñïîëíåíèå, âûñîêàÿ îïòè÷åñêàÿ ìîùíîñòü, ïðèâëåêàòåëüíûé äèçàéí è áåçîòêàçíîñòü ðàáîòû äàæå ïðè ýêñòðåìàëüíûõ ïîãîäíûõ óñëîâèÿõ äåëàþò ïðèöåë DOCTER Sight íåçàìåíèìûì.</text>
+	<text>DOCTER collimator sights are excellent optical sighting devices of modern design. Due to its small size and weight, as well as a compact non-ribbed design, these sights provide rich opportunities for both hunting and sports. Reliable performance, high optical power, attractive design and trouble-free operation even in extreme weather conditions make the DOCTER Sight sight irreplaceable.</text>
 	</string>
 	<string id="st_addon_scope_pk-a">
-		<text>Ïðèöåë ÏÊ-À</text>
+	<text>Sight of the PC-A</text>
 	</string>
 	<string id="st_addon_scope_pk-a_descr">
-		<text>Êîëëèìàòîðíûé ïðèöåë ÏÊ-À - ñîâðåìåííûé ë¸ãêèé, ãåðìåòè÷íûé, ïðîñòîé â îñâîåíèè ïðèöåë äëÿ îõîòíè÷üèõ êàðàáèíîâ «Òèãð», èìåþùèõ áîêîâóþ ïëàíêó äëÿ óñòàíîâêè îïòè÷åñêèõ ïðèöåëîâ. Ïðèöåë ïðåäíàçíà÷åí äëÿ òî÷íîãî íàâåäåíèÿ íà öåëü îðóæèÿ ÀÊ74Í, ÐÏÊ74Í, ÀÊÌÍ-1, ÐÏÊÍ-1 ïðè ñòðåëüáå â ðàçëè÷íûõ óñëîâèÿõ îñâåù¸ííîñòè - â äíåâíîå âðåìÿ, â ñóìåðêàõ, â óñëîâèÿõ ïëîõîé âèäèìîñòè è áûñòðîìåíÿþùåéñÿ îñâåù¸ííîñòè. Ïðèöåë ãåðìåòè÷åí è íàïîëíåí ñóõèì àçîòîì âî èçáåæàíèå çàïîòåâàíèÿ âíóòðåííèõ îïòè÷åñêèõ ïîâåðõíîñòåé.</text>
+	<text>PK-A collimator sight is a modern lightweight, hermetic, easy-to-use sight for hunting tiger carbines that have a side bar for installation of optical sights. the sight is intended for accurate targeting of AK74N, RPK74N, AKMN-1, RPKN-1 weapons when firing in various conditions illumination-in the daytime, at dusk, in conditions of poor visibility and rapidly changing illumination. the sight is hermetically sealed and filled with Doctor. nitrogen to prevent fogging of internal optical surfaces.</text>
 	</string>
 	<string id="st_addon_scope_acog">
-		<text>Ïðèöåë ACOG</text>
+	<text>ACOG sight</text>
 	</string>
 	<string id="st_addon_scope_acogs">
 		<text>ACOG</text>
 	</string>
 	<string id="st_addon_scope_acog_descr">
-		<text>4-õ êðàòíûé îïòè÷åñêèé ïðèöåë äëÿ âèíòîâîê ÍÀÒÎ.</text>
+	<text>4-fold optical sight for NATO rifles.</text>
 	</string>
 	<string id="st_addon_scope_ac10632">
-		<text>Ïðèöåë Barska ELECTRO SIGHT AC10632</text>
+	<text>Sight Barska ELECTRO SIGHT AC10632</text>
 	</string>
 	<string id="st_addon_scope_ac10632s">
 		<text>AC10632</text>
 	</string>
 	<string id="st_addon_scope_ac10632_descr">
-		<text>Êîëëèìàòîðíûé ïðèöåë ELECTRO SIGHT 1x22x33 äëÿ áûñòðîãî ïðèöåëèâàíèÿ. Óäàðîïðî÷íûé, ïîäõîäèò ïîä âñå âèäû îðóæèÿ ñ ïëàíêîé Ïèêàòèííè. Âûáîð óðîâíÿ ÿðêîñòè ïîäñâåòêè ïðèöåëüíîé ìàðêè (7 ñòóïåíåé) ïîçâîëÿåò èñïîëüçîâàòü ïðèöåë ïðè ðàçëè÷íûõ óðîâíÿõ îñâåù¸ííîñòè.</text>
+	<text>Collimator sight ELECTRO SIGHT 1x22x33 for quick aiming. Shockproof, suitable for all types of weapons with a Picatinny bar. Selecting the brightness level of the highlight of the aiming mark (7 steps) allows you to use the sight at different levels of illumination.</text>
 	</string>
 	<string id="st_addon_scope_ac11090">
-		<text>Ïðèöåë Barska RED DOT AC11090</text>
+	<text>Sight Barska RED DOT AC11090</text>
 	</string>
 	<string id="st_addon_scope_ac11090s">
 		<text>AC11090</text>
 	</string>
 	<string id="st_addon_scope_ac11090_descr">
-		<text>Çàêðûòûé êîëëèìàòîðíûé ïðèöåë Barska RED DOT 2õ30ìì. Ìíîãîñëîéíîå ïðîñâåòëåíèå îïòèêè, 100% âîäîíåïðîíèöàåì, óñòîé÷èâ ê çàïîòåâàíèþ. Ïîäõîäèò äëÿ âñåõ âèäîâ îðóæèÿ, èìåþùèõ ïëàíêó Ïèêàòèííè.</text>
+	<text>Closed collimating sight Barska RED DOT 2x30mm. Layered clearing optics, 100 %waterproof, resistant to fogging. Suitable for all weapons that have the Picatinni bar.</text>
 	</string>
   <string id="st_addon_scope">
 		<text>PSO-1m scope</text>
 	</string>
 	<string id="st_addon_scopes">
-		<text>ÏÑÎ-1</text>
+	<text>JI-1</text>
   </string>
   <string id="st_addon_scope_descr">
-		<text>A common Soviet-made 4x fixed zoom optical scope with a range scale. Attached to weapons by means of a dovetail mount, which is standard in Warsaw Pact countries.</text>
+	<text>A widely used optical sight of Soviet production. To mount the weapon, a dovetail-type fastener is used.</text>
 	</string>
 	<string id="st_addon_scope_pso-1m2-01">
-		<text>Ïðèöåë ÏÑÎ-1Ì2-01</text>
+	<text>Sight PSO-1Ì2-01</text>
   </string>
 	<string id="st_addon_scope_pso-1m2-01s">
-		<text>ÏÑÎ-1Ì2-01</text>
+	<text>PSO-1M2-01</text>
 	</string>
 	<string id="st_addon_scope_pso-1m2-01_descr">
-		<text>ÏÑÎ-1Ì2-01 - ïðèöåë äëÿ ïðèöåëüíîé ñòðåëüáû èç ñïåöèàëüíîé ñíàéïåðñêîé âèíòîâêè (íàðåçíîé) ÂÑÑ êàëèáðà 9 ìì è ñïåöèàëüíîãî àâòîìàòà ÀÑ êàëèáðà 9 ìì. Ïðèöåëüíûå øêàëû ðàññ÷èòàíû äëÿ ñòðåëüáû îò 100 ì äî 400 ìåòðîâ (øàã 50 ìåòðîâ). Äëÿ ñòðåëüáû â ñóìåðêàõ â ïðèöåëàõ ïðåäóñìîòðåíà ïîäñâåòêà ñåòêè. Â êà÷åñòâå èñòî÷íèêà ïèòàíèÿ â íàñòîÿùåå âðåìÿ âçàìåí àêêóìóëÿòîðà 2ÐÖ63 ïðèìåíÿåòñÿ ñòàíäàðòíàÿ áàòàðåÿ òèïà ÀÀ.</text>
+	<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2ÐÖ63.</text>
 	</string>
 	<string id="st_addon_scope_x2.7">
-		<text>Ïðèöåë ÏÑÓ-1</text>
+	<text>Sight of PSU-1</text>
 	</string>
 	<string id="st_addon_scope_x2.7s">
-		<text>ÏÑÓ-1</text>
+	<text>PSU-1</text>
 	</string>
 	<string id="st_addon_scope_x2.7_descr">
-		<text>Îïòè÷åñêèé ïðèöåë ôèêñèðîâàííîé êðàòíîñòè (2,7 äèîïòðèè). Îïòèìèçèðîâàí äëÿ áîÿ íà ñðåäíèõ äèñòàíöèÿõ, à òàêæå äëÿ èñïîëüçîâàíèÿ â óñëîâèÿõ ãîðîäñêîé çàñòðîéêè. Äëÿ óñòàíîâêè íà îðóæèå èñïîëüçóåòñÿ êðåïëåíèå òèïà «ëàñòî÷êèí õâîñò».</text>
+	<text>Optical sight of fixed multiplicity (2.7 diopters). Optimized for medium-range combat, as well as for urban use. To mount the weapon, a dovetail-type fastener is used.</text>
 	</string>
   <string id="st_addon_scope_night_vision">
 		<text>NSPU-3 scope</text>
   </string>
  	<string id="st_addon_scope_night_visions">
-		<text>1ÏÍ58</text>
+	<text>1PH58</text>
 	</string>
  <string id="st_addon_scope_night_vision_descr">
 		<text>An image intensifier night vision 4x fixed zoom scope for combat in darkness. Attached to weapons by means of a dovetail mount.</text>
@@ -551,118 +551,118 @@
 		<text>Silencer</text>
   </string>
 	<string id="st_addon_silencers">
-		<text>9ìì</text>
+	<text>9mm</text>
 	</string>
   <string id="st_addon_silencer_descr">
 		<text>An effective silencer which can be modified on the go as required. The body of the silencer around the barrel contains a roll of fine brass mesh, while the front comprises a set of metal diaphragms with holes for the bullet to pass through. The set includes adaptors and sealants for most weapons. Normally used to thin out enemy ranks without drawing attention.</text>
   </string>
  	<string id="st_addon_sil_6p9">
-		<text>Ãëóøèòåëü 6Ï9</text>
+	<text>Silencer 6P9</text>
 	</string>
 	<string id="st_addon_sil_6p9s">
-		<text>6Ï9</text>
+	<text>6P9</text>
 	</string>
 	<string id="st_addon_sil_6p9_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòà ÏÁ (6Ï9).</text>
+	<text>the device is silent shooting for the pistol PB (6P9).</text>
 	</string>
 	<string id="st_addon_sil_57">
-		<text>Ãëóøèòåëü 5,7x28ìì</text>
+	<text>Silencer 5,7x28mm</text>
 	</string>
 	<string id="st_addon_sil_57">
 		<text>57x28</text>
 	</string>
 	<string id="st_addon_sil_57_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòà-ïóëåì¸òà FN P90.</text>
+	<text>the instrument of silent shooting for a pistol machine gun FN P90.</text>
 	</string>
 	<string id="st_addon_sil_9a91">
-		<text>Ãëóøèòåëü äëÿ 9A-91/ÂÑÊ-94</text>
+	<text>Silencer for 9A-91/VSK-94</text>
 	</string>
 	<string id="st_addon_sil_9a91s">
-		<text>9A-91/ÂÑÊ-94</text>
+	<text>9A-91/VSC-94</text>
 	</string>
 	<string id="st_addon_sil_9a91_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ àâòîìàòîâ 9A-91 è ÂÑÊ-94.</text>
+	<text>the device of silent shooting for automatic machines 9A-91 and VSK-94.</text>
 	</string>
 	<string id="st_addon_sil_gemtech">
-		<text>Ãëóøèòåëü GemTech</text>
+	<text>Silencer GemTech</text>
 	</string>
 	<string id="st_addon_sil_gemtechs">
 		<text>GemTech</text>
 	</string>
 	<string id="st_addon_sil_gemtech_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòîâ Glock è FN FNP.</text>
+	<text>A silent shooting device for Glock and FN FNP pistols.</text>
 	</string>
 	<string id="st_addon_sil_vihr">
-		<text>Ãëóøèòåëü äëÿ ÑÐ-3Ì</text>
+	<text>Silencer for CP-3M</text>
 	</string>
 	<string id="st_addon_sil_vihr">
-		<text>ÑÐ-3Ì</text>
+	<text>SR-3M</text>
 	</string>
 	<string id="st_addon_sil_vihr_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ àâòîìàòà ÑÐ-3Ì.</text>
+	<text>the device of silent shooting for automatic machine ÑÐ-3Ì.</text>
 	</string>
 	<string id="st_addon_sil_45">
-		<text>Ãëóøèòåëü .45ACP</text>
+	<text>Muffler.45ACP</text>
 	</string>
 	<string id="st_addon_sil_45s">
 		<text>.45ACP</text>
 	</string>
 	<string id="st_addon_sil_45_descr">
-		<text>Ïðèáîð áåñøóìíîé ñòðåëüáû äëÿ ïèñòîëåòîâ 45-ãî êàëèáðà.</text>
+	<text>the device is silent shooting for pistols of the 45th caliber.</text>
 	</string>
 	<string id="st_addon_sil_atg">
-		<text>Ãëóøèòåëü ÀÒÃ</text>
+	<text>Silencer ATG</text>
 	</string>
 	<string id="st_addon_sil_atgs">
-		<text>ÀÒÃ</text>
+	<text>ATG</text>
 	</string>
 	<string id="st_addon_sil_atg_descr">
-		<text>Ãëóøèòåëü òàêòè÷åñêèé àâòîìàòíûé (äàëåå ïî òåêñòó - ãëóøèòåëü ÀÒÃ) ïðåäíàçíà÷åí äëÿ ñíèæåíèÿ çâóêà è ïëàìåííîñòè âûñòðåëà ïðè ñòðåëüáå èç 5,56-ìì àâòîìàòîâ Êàëàøíèêîâà ÀÊ101 è ÀÊ102, à òàêæå 7,62-ìì àâòîìàòîâ Êàëàøíèêîâà ÀÊ103 è ÀÊ104.</text>
+	<text>Silencer tactical automatic (hereinafter-silencer ATG) is designed to reduce the sound and fire of the shot when firing from 5.56 mm Kalashnikov AK101 and AK102, as well as 7,62-mm Kalashnikov AK103 and AK104.</text>
 	</string>
 	<string id="st_addon_sil_tgp-a">
-		<text>Ãëóøèòåëü ÒÃÏ-À</text>
+	<text>Silencer TGP-A</text>
 	</string>
 	<string id="st_addon_sil_tgp-as">
-		<text>ÒÃÏ-À</text>
+	<text>TGP-A</text>
 	</string>
 	<string id="st_addon_sil_tgp-a_descr">
-		<text>Ãëóøèòåëü-ïëàìåãàñèòåëü òàêòè÷åñêèé «ÒÃÏ-À-5,45» äëÿ 5,45-ìì àâòîìàòîâ ñåðèè ÀÊ è ïóëåì¸òîâ ÐÏÊ-74. Â êîíñòðóêöèè ãëóøèòåëÿ îòñóòñòâóåò ðåçèíîâûé îáòþðàòîð è íåò íåîáõîäèìîñòè ïðèìåíÿòü ïàòðîíû ñ äîçâóêîâîé ñêîðîñòüþ ïóëè. Îäíàêî òî÷íîñòü ñòðåëüáû ïðè åãî óñòàíîâêå íåñêîëüêî óõóäøàåòñÿ.</text>
+	<text>the silencer is a flame arrester tactical TGP-A-5.45 for 5.45 mm AK automatic machine guns and RPK-74 machine guns. No rubber obturator in the silencer design and No need to use bullets with a subsonic bullet speed. However, the accuracy of firing at its installation is somewhat worse.</text>
 	</string>
 	<string id="st_addon_sil_pbs-1">
-		<text>Ãëóøèòåëü ÏÁÑ-1</text>
+	<text>Silencer PBS-1</text>
 	</string>
 	<string id="st_addon_sil_pbs-1s">
-		<text>ÏÁÑ-1</text>
+	<text>PBS-1</text>
 	</string>
 	<string id="st_addon_sil_pbs-1_descr">
-		<text>ÏÁÑ-1. Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç àâòîìàòà Êàëàøíèêîâà êàëèáðà 7,62 ìì. Ïðè óñòàíîâêå ãëóøèòåëÿ ñòðåëüáà âåä¸òñÿ ïàòðîíàìè ÓÑ ñ äîçâóêîâîé ñêîðîñòüþ ïóëè.</text>
+	<text>PBS-1. the device for soundless and flameless shooting from Kalashnikov assault rifle of caliber 7,62 mm. When installing a silencer, the shooting is conducted by the US cartridges with the subsonic speed of the bullet.</text>
 	</string>
 	<string id="st_addon_sil_pbs-4">
-		<text>Ãëóøèòåëü ÏÁÑ-4</text>
+	<text>Silencer PBS-4</text>
 	</string>
 	<string id="st_addon_sil_pbs-4s">
-		<text>ÏÁÑ-4</text>
+	<text>PBS-4</text>
 	</string>
 	<string id="st_addon_sil_pbs-4_descr">
-		<text>ÏÁÑ-4. Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç 5,45-ìì àâòîìàòà Êàëàøíèêîâà óêîðî÷åííîãî (ÀÊÑ-74Ó).</text>
+	<text>PBS-4. the device for soundless and flameless shooting from a 5.45-mm Kalashnikov assault rifle shortened (AKS-74U).</text>
 	</string>
 	<string id="st_addon_sil_kzrzp">
-		<text>Ãëóøèòåëü ÊÇÐÇÏ</text>
+	<text>Silencer KZRZPP</text>
 	</string>
 	<string id="st_addon_sil_kzrzps">
-		<text>ÊÇÐÇÏ</text>
+	<text>CLRPP</text>
 	</string>
 	<string id="st_addon_sil_kzrzp_descr">
-		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç ÑÂÄ.</text>
+	<text>the device for soundless and flameless shooting from the SVD.</text>
 	</string>
 	<string id="st_addon_sil_nato">
-		<text>Ãëóøèòåëü ÍÀÒÎ</text>
+	<text>NATO Muffler</text>
 	</string>
 	<string id="st_addon_sil_natos">
-		<text>Ðîòîð 43</text>
+	<text>Rotor 43</text>
 	</string>
 	<string id="st_addon_sil_nato_descr">
-		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû äëÿ øòóðìîâûõ âèíòîâîê ñòàíäàðòà ÍÀÒÎ êàëèáðà 5,56õ45, à òàê æå äëÿ ïèñòîëåòîâ è ïèñòîëåòîâ-ïóëåì¸òîâ êàëèáðà 11,43x23.</text>
+	<text>the device for soundless and flameless shooting for NATO-style assault rifles 5.56x45 caliber, as well as for pistols and pistols-machine guns caliber 11,43x23.</text>
 	</string>
 	<string id="st_addon_sil_sr25">
 		<text>SR-25 Silencer</text>
@@ -671,7 +671,7 @@
 		<text>SR-25</text>
 	</string>
 	<string id="st_addon_sil_sr25_descr">
-		<text>Ïðèáîð äëÿ áåççâó÷íîé è áåñïëàìåííîé ñòðåëüáû èç ñàìîçàðÿäíîé ñíàéïåðñêîé âèíòîâêè SR-25.</text>
+	<text>the device for soundless and flameless shooting from a self-loading sniper rifle SR-25.</text>
 	</string>
   <string id="st_grenade_launcher">
 		<text>GP-25 Koster</text>
@@ -689,14 +689,14 @@
 		<text>AG36</text>
 	</string>
 	<string id="st_grenade_launcher_ag36_descr">
-		<text>\n%c[255,1,255,255]•%c[default] âûñòðåë M209\n \nÏîäñòâîëüíûé ãðàíàòîì¸ò, ðàçðàáîòàííûé íåìåöêèì îðóæåéíûì êîíöåðíîì Heckler &amp; Koch äëÿ çàìåíû HK 79. Îñíîâíîé ïëàòôîðìîé äëÿ íåãî ÿâëÿåòñÿ âèíòîâêà HK G36.</text>
+	<text>\n %c[255,1,255,255] • %c[default] shot M209 \n\n Grenade launcher,developed by the German arms concern Heckler and amp; Koch for the replacement of HK 79. the main platform for him is the HK G36 rifle.</text>
 	</string>
 	<!-- 9A-91 -->
 	<string id="st_wpn_9a91">
 		<text>9A-91</text>
 	</string>
 	<string id="st_wpn_9a91_descr">
-		<text>Àâòîìàòèêà 9À-91 îñíîâàíà íà îòâîäå ïîðîõîâûõ ãàçîâ èç êàíàëà ñòâîëà. Çàïèðàíèå îñóùåñòâëÿåòñÿ ïîâîðîòîì çàòâîðà, íà 4 áîåâûõ óïîðà. ÓÑÌ - êóðêîâîãî òèïà, ïîçâîëÿåò âåñòè îãîíü îäèíî÷íûìè è íåïðåðûâíûìè î÷åðåäÿìè.</text>
+	<text>Automation 9A-91 is based on the removal of powder gases from the barrel channel. Locking is carried out by turning the shutter, on 4 fighting stops. USM-kurkovogo type, allows you to fire single and continuous Emissions.</text>
 	</string>
 <!-- ÀÍ-94 -->
   <string id="st_wpn_abakan">
@@ -707,179 +707,167 @@
   </string>
  <!-- ÀÅÊ-971 -->
 	<string id="st_wpn_aek971">
-		<text>ÀÅÊ-971</text>
+	<text>AEK-971</text>
 	</string>
 	<string id="st_wpn_aek971_descr">
-		<text>Àâòîìàò âûïîëíåí ïî òðàäèöèîííîé êîìïîíîâî÷íîé ñõåìå (ïåðåäíåå ïîëîæåíèå ìàãàçèíà) è êîíñòðóêòèâíî â çíà÷èòåëüíîé ìåðå ïîâòîðÿåò àâòîìàò Êàëàøíèêîâà - èñïîëüçóåòñÿ ïîâîðîòíûé çàòâîð è àâòîìàòèêà ïåðåçàðÿäêè íà îñíîâå ãàçîâîãî äâèãàòåëÿ. Àâòîìàò ñïðîåêòèðîâàí ïîä ïàòðîíû êàëèáðîì 5,45x39 ìì, èìåþòñÿ òàêæå âàðèàíòû äàííîãî àâòîìàòà ïîä ïàòðîí 5,56 ìì ÍÀÒÎ (ÀÅÊ-972) è 7,62x39 ìì (ÀÅÊ-973).</text>
+	<text>the machine is made in accordance with the traditional layout scheme (front store position) and constructively largely repeats the Kalashnikov assault rifle-a rotary valve and automatic reloading mechanism based on a gas engine is used. the machine is designed for cartridges caliber 5, 45x39 mm, There are also variants of this machine for the cartridge 5, 56 mm NATO (AEK-972) and 7.62x39 mm (AEK-973).</text>
 	</string>
 	<string id="st_wpn_ak12">
-		<text>ÀÊ-12</text>
+	<text>AK-12</text>
 	</string>
 	<string id="st_wpn_ak12_descr">
-		<text>ÀÊ-12 - àâòîìàò Êàëàøíèêîâà îáðàçöà 2012 ãîäà, ïåðñïåêòèâíàÿ ðàçðàáîòêà êîíöåðíà «Êàëàøíèêîâ». Ðàçðàáîòêà íîâîãî àâòîìàòà îñóùåñòâëÿëàñü â èíèöèàòèâíîì ïîðÿäêå ñ èþíÿ 2011 ãîäà ïîä ðóêîâîäñòâîì ãëàâíîãî êîíñòðóêòîðà «Èæìàøà» Âëàäèìèðà Âèêòîðîâè÷à Çëîáèíà íà îñíîâå íàðàáîòîê çà ïðåäûäóùèå 10 ëåò. Â 2011 ãîäó çàâåðøåíà ñáîðêà è íà÷àòû èñïûòàíèÿ ïåðâîãî îïûòíîãî îáðàçöà àâòîìàòà Êàëàøíèêîâà ïÿòîãî ïîêîëåíèÿ ñ ðàáî÷èì íàçâàíèåì ÀÊ-12.</text>
+	<text>AK-12-Kalashnikov assault rifle model in 2012, a promising development of the Kalashnikov concern. the development of the new weapon was carried out in an initiative manner from June 2011 under the leadership of Izhmash Chief Designer Vladimir Viktorovich Zlobin on the basis of developments over the previous 10 years. In 2011, the assembly was completed and the first prototype of the fifth-generation Kalashnikov assault rifle with the working name AK-12 was launched.</text>
 	</string>
 <!-- ÀÊ -->
 	<string id="st_wpn_ak">
-		<text>ÀÊ</text>
+	<text>AK</text>
 	</string>
 	<string id="st_wpn_ak_descr">
-		<text>7,62-ìì àâòîìàò Êàëàøíèêîâà (ÀÊ) - àâòîìàò, ïðèíÿòûé íà âîîðóæåíèå â ÑÑÑÐ â 1949 ãîäó. ÀÊ è åãî ìîäèôèêàöèè ÿâëÿþòñÿ ñàìûì ðàñïðîñòðàí¸ííûì ñòðåëêîâûì îðóæèåì â ìèðå. Ïî èìåþùèìñÿ îöåíêàì, ê ýòîìó òèïó (âêëþ÷àÿ ëèöåíçèîííûå è íåëèöåíçèîííûå êîïèè, à òàêæå ñòîðîííèå ðàçðàáîòêè íà áàçå ÀÊ) ïðèíàäëåæèò äî 1/5 âñåãî èìåþùåãîñÿ íà Çåìëå ñòðåëêîâîãî îãíåñòðåëüíîãî îðóæèÿ.</text>
+	<text>7, 62-mm Kalashnikov assault rifle (AK)-machine, adopted for service in the USSR in 1949. AK and its modifications are the most common small arms in the world. It is estimated that this type (including licensed and unlicensed copies, as well as third-party development on the basis of AK) belongs to up to 1/5 of all small firearms on the Earth.</text>
 	</string>
 <!-- ÀÊÑ -->
 	<string id="st_wpn_aks">
-		<text>ÀÊÑ</text>
+	<text>AKS</text>
 	</string>
 	<string id="st_wpn_aks_descr">
-		<text>ÀÊÑ (Èíäåêñ ÃÐÀÓ — 56-À-212Ì) - âàðèàíò ÀÊ ñ îòêèäíûì ìåòàëëè÷åñêèì ïðèêëàäîì, ïðåäíàçíà÷àâøèéñÿ äëÿ âîçäóøíî-äåñàíòíûõ âîéñê. Áûë ïðèíÿò îäíîâðåìåííî ñ ÀÊ. Ïåðâîíà÷àëüíî âûïóñêàëñÿ ñî øòàìïîâàííîé ñòâîëüíîé êîðîáêîé, à ñ 1951 ãîäà - ôðåçåðîâàííîé èç-çà âûñîêîãî ïðîöåíòà áðàêà ïðè øòàìïîâêå.</text>
+	<text>AKS (Index GRAU-56-A-212M)-variant AK with a folding metal butt, intended for airborne troops. Was adopted simultaneously with AK. Originally produced with a stamped receiver, and since 1951-milled because of the high percentage of rejects during stamping.</text>
 	</string>
 <!-- ÀÊ-74 -->
   <string id="st_wpn_ak74">
-    <text>AKM-74/2</text>
+	<text>AK-74</text>
   </string>
   <string id="st_wpn_ak74_descr">
-		<text>This weapon, designed in 1974, signalled the adoption of small calibre and low impulse rounds by Warsaw Pact countries. A descendant of the most popular assault rifle in the world, the AKM-74/2 has an even bigger muzzle brake, resulting in a reduction of what was already manageable recoil. This facilitates better accuracy and groupings, especially when fired in fast single shots or bursts. As before, the rifle is very simple and reliable.</text>
+	<text>Kalashnikov Kalashnikov automatic caliber 5.45 mm, developed in 1970 by the designer MT Kalashnikov and adopted by the armed forces of the USSR in 1974. It is the further development of AKM. Development of AK-74 is associated with the transition to a new low-pulse cartridge 5.45x39 mm.</text>
   </string>
 <!-- ÀÊ-74Ì -->
 	<string id="st_wpn_ak74m">
-		<text>ÀÊ-74Ì</text>
+	<text>AK-74M</text>
 	</string>
 	<string id="st_wpn_ak74m_camo">
-		<text>ÀÊ-74Ì (êàìóôëÿæ)</text>
+	<text>AK-74M (camouflage)</text>
 	</string>
 	<string id="st_wpn_ak74m_descr">
-		<text>ÀÊ-74Ì - ÀÊ-74 ìîäåðíèçèðîâàííûé. Îñíàù¸í ñêëàäûâàþùèìñÿ âáîê ïëàñòèêîâûì ïðèêëàäîì è óíèâåðñàëüíûì êðåïëåíèåì (ïëàíêà «ëàñòî÷êèí õâîñò») äëÿ êðåïëåíèÿ ïðèöåëîâ, êàê îïòè÷åñêèõ òàê è íî÷íûõ, íà ëåâîé ñòîðîíå ñòâîëüíîé êîðîáêè. Òàêèì îáðàçîì ÀÊ-74Ì çàìåíèë ñðàçó ÷åòûðå ìîäåëè: ÀÊ-74, ÀÊÑ-74, ÀÊ-74Í è ÀÊÑ-74Í.</text>
+	<text>AK-74M-AK-74 modernized. Equipped with a folding sideways plastic butt and a universal mount (dovetail bar) for attaching sights, both optical and night, to the left side of the receiver. Thus, the AK-74M replaced four models at once: AK-74, AKS-74, AK-74N and AKS-74N.</text>
 	</string>
 	<string id="st_wpn_ak101">
-		<text>ÀÊ-101</text>
+	<text>AK-101</text>
 	</string>
 	<string id="st_wpn_ak101_descr">
-		<text>Äëÿ ïðîäàæè íà Çàïàäå è â ñòðàíû òðåòüåãî ìèðà ïîä íàèáîëåå ðàñïðîñòðàíåííûé 5,56-ìì ÍÀÒÎ ìàëîèìïóëüñíûé ïàòðîí SS 109 áûëè ðàçðàáîòàíû äâå ìîäåëè íîâîãî àâòîìàòà Êàëàøíèêîâà ÀÊ-101 (ñòàíäàðòíûé) è ÀÊ-102 (ìàëîãàáàðèòíûé). Ñàìûì çàìåòíûì âíåøíèì îòëè÷èåì ýòèõ àâòîìàòîâ ÿâëÿåòñÿ ôîðìà ïëàñòìàññîâîãî ìàãàçèíà, ãîðàçäî áîëåå ïðÿìîãî, ÷åì ìàãàçèíû ïîä ñîâåòñêèå ïàòðîíû êàëèáðà 5,45 èëè 7,62-ìì.</text>
+	<text>For sale in the West and in the countries of the third world, two models of the new AK-101 (standard) Kalashnikov assault rifle and AK-102 (small-sized) were developed for the most common 5, 56 mm NATO small-shot cartridge SS 109. the most noticeable external difference between these machines is the shape of the plastic shop, much more direct than stores for Soviet cartridges of caliber 5, 45 or 7.62 mm.</text>
 	</string>
 	<string id="st_wpn_ak102">
-		<text>ÀÊ-102</text>
+	<text>AK-102</text>
 	</string>
 	<string id="st_wpn_ak102_descr">
-		<text>Äëÿ ïðîäàæè íà Çàïàäå è â ñòðàíû òðåòüåãî ìèðà ïîä íàèáîëåå ðàñïðîñòðàíåííûé 5,56-ìì ÍÀÒÎ ìàëîèìïóëüñíûé ïàòðîí SS 109 áûëè ðàçðàáîòàíû äâå ìîäåëè íîâîãî àâòîìàòà Êàëàøíèêîâà ÀÊ-101 (ñòàíäàðòíûé) è ÀÊ-102 (ìàëîãàáàðèòíûé). Ñàìûì çàìåòíûì âíåøíèì îòëè÷èåì ýòèõ àâòîìàòîâ ÿâëÿåòñÿ ôîðìà ïëàñòìàññîâîãî ìàãàçèíà, ãîðàçäî áîëåå ïðÿìîãî, ÷åì ìàãàçèíû ïîä ñîâåòñêèå ïàòðîíû êàëèáðà 5,45 èëè 7,62-ìì.</text>
+	<text>For sale in the West and in the countries of the third world, two models of the new AK-101 (standard) Kalashnikov assault rifle and AK-102 (small-sized) were developed for the most common 5, 56 mm NATO small-shot cartridge SS 109. the most noticeable external difference between these machines is the shape of the plastic shop, much more direct than stores for Soviet cartridges of caliber 5, 45 or 7.62 mm.</text>
 	</string>
 	<string id="st_wpn_ak103">
-		<text>ÀÊ-103</text>
+	<text>AK-103</text>
 	</string>
 	<string id="st_wpn_ak103_descr">
-		<text>ÀÊ103 - ýêñïîðòíàÿ âåðñèÿ àâòîìàòà ÀÊ-74Ì, îòëè÷àþùàÿñÿ èñïîëüçîâàíèåì ïàòðîíîâ 5,56x45 ìì (ñòàíäàðò ÍÀÒÎ SS109) è 7,62x39 ìì (ñîâåòñêèé ïàòðîí îáðàçöà 1943 ã.) ñîîòâåòñòâåííî. ÀÊ103 ìîæåò èñïîëüçîâàòü ìàãàçèíû àâòîìàòîâ ÀÊ/ÀÊÌ.</text>
+	<text>AK103 is an export version of the AK-74M automatic machine, differing in the use of cartridges 5.56x45 mm (NATO standard SS109) and 7.62x39 mm (Soviet cartridge of the 1943 model), respectively. AK103 can use AK/AKM slot machines.</text>
 	</string>
 	<string id="st_wpn_ak104">
-		<text>ÀÊ-104</text>
+	<text>AK-104</text>
 	</string>
 	<string id="st_wpn_ak104_descr">
-		<text>ÀÊ104/ÀÊ105 - ýòî ìîäèôèêàöèè ÀÊ-103 è ÀÊ74Ì ñîîòâåòñòâåííî, ñ óêîðî÷åííûì íà 101 ìì ñòâîëîì. Ïðîìåæóòî÷íàÿ (ìåæäó ÀÊ74Ì è ÀÊÑ-74Ó) äëèíà ñòâîëà ïîçâîëèëà óìåíüøèòü ãàáàðèòû îðóæèÿ, îñòàâèâ ãàçîâóþ êàìåðó íà òîì æå ìåñòå îòíîñèòåëüíî êàçåííîãî ñðåçà ñòâîëà, ÷òî è â ÀÊ74Ì, à íå ïåðåíîñèòü å¸ íàçàä (êàê â ÀÊÑ-74Ó). Ýòî ïîâûñèëî óíèôèêàöèþ âñåãî "ñîòîãî" ñåìåéñòâà.</text>
+	<text>AK104/AK105 are modifications of AK-103 and AK74M, respectively, with a shortened 101 mm barrel. Intermediate (between AK74M and AKC-74U) the length of the barrel allowed to reduce the size of the weapon, leaving the gas chamber at the same place relative to the state cut of the trunk as in AK74M, and not to transfer it back (as in the AKS-74U). This increased the unification of the entire 'hundredth' family.</text>
 	</string>
 	<string id="st_wpn_ak105">
-		<text>ÀÊ-105</text>
+	<text>AK-105</text>
 	</string>
 	<string id="st_wpn_ak105_descr">
-		<text>ÀÊ104/ÀÊ105 - ýòî ìîäèôèêàöèè ÀÊ-103 è ÀÊ74Ì ñîîòâåòñòâåííî, ñ óêîðî÷åííûì íà 101 ìì ñòâîëîì. Ïðîìåæóòî÷íàÿ (ìåæäó ÀÊ74Ì è ÀÊÑ-74Ó) äëèíà ñòâîëà ïîçâîëèëà óìåíüøèòü ãàáàðèòû îðóæèÿ, îñòàâèâ ãàçîâóþ êàìåðó íà òîì æå ìåñòå îòíîñèòåëüíî êàçåííîãî ñðåçà ñòâîëà, ÷òî è â ÀÊ74Ì, à íå ïåðåíîñèòü å¸ íàçàä (êàê â ÀÊÑ-74Ó). Ýòî ïîâûñèëî óíèôèêàöèþ âñåãî "ñîòîãî" ñåìåéñòâà.</text>
+	<text>AK104/AK105 are modifications of AK-103 and AK74M, respectively, with a shortened 101 mm barrel. Intermediate (between AK74M and AKC-74U) the length of the barrel allowed to reduce the size of the weapon, leaving the gas chamber at the same place relative to the state cut of the trunk as in AK74M, and not to transfer it back (as in the AKS-74U). This increased the unification of the entire 'hundredth' family.</text>
 	</string>
-	<!-- ÀÊÌ -->
 	<string id="st_wpn_akm">
-		<text>ÀÊÌ</text>
+	<text>AKM</text>
 	</string>
 	<string id="st_wpn_akm_raider">
-		<text>ÀÊÌ (ïîòð¸ïàííûé)</text>
+	<text>AKM (shabby)</text>
 	</string>
 	<string id="st_wpn_akm_descr">
-		<text>Àâòîìàò, çàìåíèâøèé â 1959 ãîäó íà âîîðóæåíèè ñîâåòñêîé àðìèè ÀÊ è ÿâëÿþùèéñÿ åãî äàëüíåéøèì ðàçâèòèåì.</text>
+	<text>the machine, which replaced in 1959 in the armament of the Soviet Army AK and is its further development.</text>
 	</string>
-<!-- ÀÊÌÑ -->
 	<string id="st_wpn_akms">
-		<text>ÀÊÌÑ</text>
+	<text>AKMS</text>
 	</string>
 	<string id="st_wpn_akms_descr">
-		<text>Âàðèàíò ÀÊÌ ñî ñêëàäíûì ïðèêëàäîì. Ñèñòåìà êðåïëåíèÿ ïðèêëàäà áûëà èçìåíåíà îòíîñèòåëüíî ÀÊÑ (ñêëàäûâàëñÿ âíèç-âïåðåä, ïîä ñòâîëüíóþ êîðîáêó). Ìîäèôèêàöèÿ ðàçðàáîòàíà ñïåöèàëüíî äëÿ äåñàíòíèêîâ.</text>
+	<text>Option AKM with a folding stock. the fixing system of the stock was changed with respect to the AKS (folded down-forward, under the receiver). the modification is specially designed for paratroopers.</text>
 	</string>
 <!-- ÀÊÑ-74 -->
 	<string id="st_wpn_aks74">
-		<text>ÀÊÑ-74</text>
+	<text>AKS-74</text>
 	</string>
 	<string id="st_wpn_aks74_descr">
-		<text>ÀÊÑ-74 - âàðèàíò ÀÊ-74 ñî ñêëàäûâàþùèìñÿ âáîê ìåòàëëè÷åñêèì ïðèêëàäîì òðåóãîëüíîé ôîðìû. Ñîçäàí äëÿ èñïîëüçîâàíèÿ â âîçäóøíî-äåñàíòíûõ âîéñêàõ (àâòîìàò ñ íåñêëàäûâàþùèìñÿ ïðèêëàäîì íåâîçìîæíî óäîáíî è áåçîïàñíî ðàñïîëîæèòü â ïîäâåñíîé ñèñòåìå ïàðàøþòà).</text>
+	<text>AKS-74-version AK-74 with a folding sideways metal butt of a triangular shape. It is designed for use in airborne troops (an automatic machine with a non-folding butt cannot be conveniently and safely placed in a suspended parachute system).</text>
 	</string>
 <!-- ÀÊÑ-74Ó -->
   <string id="st_wpn_ak74u">
     <text>AKM-74/2U</text>
   </string>
  <string id="st_wpn_ak74u_descr">
-		<text>Despite being similar to submachine guns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AKM 74/2. The weapon is notable for its mobility in close quarters and high armour-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity.</text>
+	<text>the shortened modification of the AK-74 assault rifle was developed in the late 1970s-early 1980s to arm the crews of combat vehicles, aircraft, guns, and paratroopers. It is also used in the Ministry of Internal Affairs and security structures due to its small size.</text>
   </string>
-<!-- ÀÊÑ-74Ó -->
 	<string id="st_wpn_ak74u_snag">
-		<text>ÀÊÑ-74Ó Êîðÿãè</text>
+	<text>AKS-74U Koryagi</text>
 	</string>
 	<string id="st_wpn_ak74u_snag_descr">
-		<text>Ìîäåðíèçèðîâàííûé âàðèàíò ÀÊÑ-74Ó ñ êîëëèìàòîðíûì ïðèöåëîì Êîáðà ÝÊÏ-1Ñ-03, ãëóøèòåëåì ÏÁÑ-4 è ìàãàçèíîì íà 45 ïàòðîíîâ.</text>
+	<text>Upgraded version of AKS-74U with a collimator sight Cobra ECP-1S-03, silencer PBS-4 and magazine for 45 rounds.</text>
 	</string>
-<!-- Steyr AUG A1 -->
 	<string id="st_wpn_aug">
 		<text>Steyr AUG A1</text>
 	</string>
 	<string id="st_wpn_aug_descr">
-		<text>Steyr AUG (Armee Universal Gewehr - àðìåéñêàÿ óíèâåðñàëüíàÿ âèíòîâêà) - êîìïëåêñ ñòðåëêîâîãî îðóæèÿ, âûïóùåííûé â 1977 ãîäó àâñòðèéñêîé êîìïàíèåé Steyr-Daimler-Puch. Â äàííîé âèíòîâêå ïðèìåíåíà ñõåìà êîìïîíîâêè «Áóëë-ïàï», ïðè êîòîðîé ìàãàçèí è çàòâîðíûé óçåë ðàñïîëîæåíû ïîçàäè ðóêîÿòêè óïðàâëåíèÿ îãí¸ì è ñïóñêîâîãî êðþ÷êà.</text>
+	<text>Steyr AUG (Armee Universal Gewehr-army universal rifle)-a small arms complex, issued in 1977 by the Austrian company Steyr-Daimler-Puch. In this rifle, the Bull-Pop layout is applied, in which the magazine and the gate assembly are located behind the control handle fire and trigger.</text>
 	</string>
-<!-- L96A1 -->
 	<string id="st_wpn_l96a1">
 		<text>L96A1</text>
 	</string>
 	<string id="st_wpn_l96a1_descr">
-		<text>Ñíàéïåðñêàÿ âèíòîâêà àíãëèéñêîãî ïðîèçâîäñòâà, ðàçðàáîòàííàÿ â êîìïàíèè Accuracy International.</text>
+	<text>the English-made sniper rifle developed by Accuracy International.</text>
 	</string>
-<!-- Barrett M98B -->
 	<string id="st_wpn_m98b">
 		<text>Barrett M98B</text>
 	</string>
 	<string id="st_wpn_m98b_descr">
-		<text>Àìåðèêàíñêàÿ ñíàéïåðñêàÿ âèíòîâêà ïðîèçâîäñòâà êîìïàíèè Barrett Firearms. Êàê è ïðåäøåñòâåííèê - Barrett M98 (òàê è íå ïðîøåäøàÿ â ñåðèþ âèíòîâêà), ìîäåëü Bravo ðàçðàáîòàíà ïîä ïàòðîí .338 Lapua Magnum (ðàçìåðîì 8,6x70 ìì èëè 8,58x70 ìì), â Çîíå æå íåèçâåñòíûì îáðàçîì áûëà ïåðåäåëàíà ïîä ïàòðîí 7.62õ51.</text>
+	<text>the American sniper rifle manufactured by Barrett Firearms. Like its predecessor- the Barrett M98 (and never passed into the series rifle), the Bravo model is designed for a cartridge. 338 Lapua Magnum (size 8, 6x70 mm or 8, 58x70 mm), in the Zone, in an unknown way, it was changed to a cartridge 7.62x51.</text>
 	</string>
-<!-- Cz-52 -->
 	<string id="st_wpn_cz52">
 		<text>Cz-52</text>
 	</string>
 	<string id="st_wpn_cz52_descr">
-		<text>CZ vz.52 - ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé â íà÷àëå 1950-õ ãîäîâ äëÿ ÷åõîñëîâàöêîé àðìèè. Ïèñòîëåò Cz52 ðàçðàáîòàë êîíñòðóêòîð ßí Êðàòîõâèë âìåñòå ñ áðàòîì ßðîñëàâîì, ñîòðóäíèêàìè çàâîäà Ceska Zbrojovka â ãîðîäå Ñòðàêîíèöå.</text>
+	<text>CZ vz.52-self-loading pistol, developed in the early 1950s for the Czechoslovak army. Pistol Cz52 was designed by designer Jan Kratochvil together with his brother Yaroslav, employees in the plant Ceska Zbrojovka in Strakonice.</text>
 	</string>
-<!-- Cz-75 -->
 	<string id="st_wpn_cz75">
 		<text>Cz-75</text>
 	</string>
 	<string id="st_wpn_cz75_descr">
-		<text>Cz-75 - ïèñòîëåò, ðàçðàáîòàííûé â ×åõîñëîâàêèè â 1975 ãîäó. Ïîëó÷èë øèðîêîå ðàñïðîñòðàíåíèå âî âñ¸ì ìèðå. Â ñàìîé ×åõèè åãî èñïîëüçóåò â îñíîâíîì ïîëèöèÿ (àðìèÿ ïðèìåíÿåò CZ 83).</text>
+	<text>Cz-75-a pistol developed in Czechoslovakia in 1975. Has gained wide acceptance all over the world. In the Czech Republic, it is used mainly by the police (the army uses CZ 83).</text>
 	</string>
 	<string id="st_wpn_g3">
 		<text>HK G3</text>
 	</string>
 	<string id="st_wpn_g3_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nHK G3 - íåìåöêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå àðìèåé ÔÐÃ â 1959 ãîäó. Â 1995 ãîäó åé íà ñìåíó ïðèø¸ë àâòîìàò êàëèáðà 5,56 ìì ÍÀÒÎ HK G36.</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n\n %c[255,1,255,255] • %c[default] NATO silencer \n\n HK G3-German automatic rifle,adopted by the army of the FRG in 1959. In 1995,it was replaced by a 5.56 mm NATO automatic machine HK G36.</text>
 	</string>
-<!-- HK G3A3 -->
 	<string id="st_wpn_g3a3">
 		<text>HK G3A3</text>
 	</string>
 	<string id="st_wpn_g3a3_descr">
-		<text>HK G3 - íåìåöêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå àðìèåé ÔÐÃ â 1959 ãîäó. Â 1995 ãîäó åé íà ñìåíó ïðèø¸ë àâòîìàò êàëèáðà 5,56 ìì ÍÀÒÎ HK G36. G3A3 - âàðèàíò ñ ôèêñèðîâàííûì ïðèêëàäîì è äâóìÿ âàðèàíòàìè öåâüÿ (öåëüíîå è ïåðôîðèðîâàííîå).</text>
+	<text>HK G3-German automatic rifle, adopted by the army of the FRG in 1959. In 1995, it was replaced by a 5.56 mm NATO automatic machine HK G36. G3A3-a variant with a fixed butt and two variants of forehead (one-piece and perforated).</text>
 	</string>
-<!-- HK G3SG1 -->
 	<string id="st_wpn_g3sg1">
 		<text>HK G3SG1</text>
 	</string>
 	<string id="st_wpn_g3sg1_descr">
-		<text>G3SG1 - ñíàéïåðñêèé âàðèàíò äëÿ ãðàæäàíñêîãî è ïîëèöåéñêîãî ñåêòîðà, â íåêîòîðûõ ìîäåëÿõ èìååò: ïðèêëàä ñ ðåãóëèðóåìîé ùåêîé, ñêëàäûâàþùèåñÿ ñîøêè è ñïóñêîâîé ìåõàíèçì ñ âîçìîæíîñòüþ ðåãóëèðîâêè òÿãîâîãî óñèëèÿ.</text>
+	<text>the G3SG1 is a sniper version for the civilian and police sectors, in some models it has: an adjustable-cheek stock, folding bipods and a trigger mechanism with the ability to adjust traction.</text>
 	</string>
-<!-- FN Five-seveN -->
 	<string id="st_wpn_fn57">
 		<text>FN-57</text>
 	</string>
 	<string id="st_wpn_fn57_descr">
-		<text>Ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé è ïðîèçâîäèìûé áåëüãèéñêîé ôèðìîé Fabrique Nationale of Herstal. Íàçâàíèå ïðåäñòàâëÿåò ñîáîé êîìáèíàöèþ, ñ îäíîé ñòîðîíû Five-seveN ýòî «5-7» (5,7 - êàëèáð îðóæèÿ, êîòîðûé ðàâåí .224), à ñ äðóãîé ïåðâàÿ è ïîñëåäíÿÿ áóêâà íàçâàíèÿ, ïèøóùèåñÿ çàãëàâíûìè - ýòî àááðåâèàòóðà ôèðìû Fabrique Nationale.</text>
+	<text>Self-loading pistol, designed and manufactured by the Belgian company Fabrique Nationale of Herstal. the name is a combination, on the one hand Five-seveN is 5-7 (5, 7 is the weapon caliber, which is.224), and on the other hand the first and last letter of the title, written with capital letters, is abbreviation of Fabrique Nationale.</text>
 	</string>
-<!-- FN FNP -->
 	<string id="st_wpn_fnp45">
 		<text>FN FNP-45</text>
 	</string>
@@ -887,7 +875,7 @@
 		<text>FNP</text>
 	</string>
 	<string id="st_wpn_fnp45_descr">
-		<text>FN FNP - ñàìîçàðÿäíûé ïèñòîëåò, ðàçðàáîòàííûé êîìïàíèåé FNH-USA (àìåðèêàíñêèì ïîäðàçäåëåíèåì áåëüãèéñêîé êîìïàíèè FN Herstal). Âûïóñêàåòñÿ ñ íà÷àëà 2006 ãîäà.</text>
+	<text>FN FNP is a self-loading pistol developed by FNH-USA (the American division of the Belgian company FN Herstal). Produced from the beginning of 2006.</text>
 	</string>
 	<string id="st_wpn_fnx45">
 		<text>FN FNX-45</text>
@@ -896,71 +884,61 @@
 		<text>FNX</text>
 	</string>
 	<string id="st_wpn_fnx45_descr">
-		<text>Ïèñòîëåòû ñåìåéñòâà FNX âûïóñêàþòñÿ â ÑØÀ êîìïàíèåé FNH USA, ìåñòíûì ïîäðàçäåëåíèåì èçâåñòíîé áåëüãèéñêîé êîìïàíèè FN Herstal. Ïèñòîëåòû FN FNX áûëè ðàçðàáîòàíû â 2007-2009 ãîäàõ ïîä òðåáîâàíèÿ ïðîãðàììû US Joint Combat Pistol Program ïî ðàçðàáîòêå íîâîãî ïèñòîëåòà äëÿ Âîîðóæåííûõ Ñèë ÑØÀ. Ïðîãðàììà ýòà óñïåõà íå èìåëà, îäíàêî ñîçäàííûå ïîä åå òðåáîâàíèÿ ïèñòîëåòû áûëè çàïóùåíû â ñåðèþ äëÿ ïðîäàæè íà ðûíêàõ ïîëèöåéñêîãî è ãðàæäàíñêîãî îðóæèÿ â ÑØÀ è çà ðóáåæîì.</text>
+	<text>the FNX family of pistols is manufactured in the US by FNH USA, a local unit of the well-known Belgian company FN Herstal. FN FNX pistols were developed in 2007-2009 under the requirements of the US Joint Combat Pistol Program for developing a new pistol for the US Armed Forces. the program did not have this success, but the pistols created for its requirements were launched into the series for sale in the markets of police and civilian weapons in the US and abroad.</text>
 	</string>
-<!-- ÌÏ-443 «Ãðà÷» -->
 	<string id="st_wpn_mp443">
-		<text>ÌÏ-443 «Ãðà÷»</text>
+	<text>MP-443 Grach</text>
 	</string>
 	<string id="st_wpn_mp443_descr">
-		<text>Ñàìîçàðÿäíûé ïèñòîëåò ðîññèéñêîãî ïðîèçâîäñòâà. Ðàçðàáîòàí êîëëåêòèâîì êîíñòðóêòîðîâ ïîä ðóêîâîäñòâîì Â. À. ßðûãèíà, ñåðèéíî ïðîèçâîäèòñÿ íà Èæåâñêîì ìåõàíè÷åñêîì çàâîäå.</text>
+	<text>the self-loading pistol of the Russian manufacture. Developed by a team of designers under the leadership of VA Yarygin, serially produced at the Izhevsk Mechanical Plant.</text>
 	</string>
-<!-- ÒÒ-33 -->
 	<string id="st_wpn_tt33">
-		<text>ÒÒ-33</text>
+	<text>TT-33</text>
 	</string>
 	<string id="st_wpn_tt33_descr">
-		<text>Ïèñòîëåò îáð. 1933 ã. (ÒÒ, Òóëüñêèé, Òîêàðåâà, Èíäåêñ ÃÐÀÓ - 56-À-132) - ïåðâûé àðìåéñêèé ñàìîçàðÿäíûé ïèñòîëåò ÑÑÑÐ, ðàçðàáîòàííûé â 1930 ãîäó ñîâåòñêèì êîíñòðóêòîðîì Ô¸äîðîì Âàñèëüåâè÷åì Òîêàðåâûì.</text>
+	<text>Pistol arr. 1933 (TT, Tula, Tokarev, GRAU Index-56-A-132)- the first army self-loading pistol of the USSR, developed in 1930 by the Soviet designer Fyodor Vasilievich Tokarev.</text>
 	</string>
-<!-- ÎÖ-33 -->
 	<string id="st_wpn_oc33">
-		<text>ÎÖ-33 «Ïåðíà÷»</text>
+	<text>OC-??33 Pernach</text>
 	</string>
 	<string id="st_wpn_oc33_descr">
-		<text>ÎÖ-33 «Ïåðíà÷» - ðîññèéñêèé àâòîìàòè÷åñêèé ïèñòîëåò, ðàçðàáîòàííûé â ñåðåäèíå 1990-õ ãîäîâ êîëëåêòèâîì êîíñòðóêòîðîâ ÖÊÈÁ ÑÎÎ ïîä ðóêîâîäñòâîì È. ß. Ñòå÷êèíà äëÿ çàìåíû ïèñòîëåòà ÀÏÑ. Íà ýòàïå ðàçðàáîòêè îðóæèå èìåëî íàèìåíîâàíèå ÀÏ ÑÁÇ-2 («àâòîìàòè÷åñêèé ïèñòîëåò êîíñòðóêöèè È.ß. Ñòå÷êèíà, À.Â. Áàëüöåðà, À.Â. Çèí÷åíêî»).</text>
+	<text>OC-??33 Pernach is a Russian automatic pistol developed in the mid-1990s by a team of designers at the TsKIB SOO under the guidance of I. Ya. Stechkin for the replacement of an APS pistol. At the stage of development, the weapon was named AP PSBZ-2 (an automatic pistol designed by I. Ya. Stechkin, A.V. Balcer, AV Zinchenko).</text>
 	</string>
-<!-- ÃØ-18 -->
 	<string id="st_wpn_gsh18">
-		<text>ÃØ-18</text>
+	<text>GSh-18</text>
 	</string>
 	<string id="st_wpn_gsh18_descr">
-		<text>ÃØ-18 - ðîññèéñêèé ïèñòîëåò, ðàçðàáîòàííûé â êîíöå 1990-õ ãîäîâ â òóëüñêîì Êîíñòðóêòîðñêîì áþðî ïðèáîðîñòðîåíèÿ. Íàçâàíèå ïîëó÷èë ïî ïåðâûì áóêâàì ôàìèëèé êîíñòðóêòîðîâ, ïîä ðóêîâîäñòâîì êîòîðûõ ïðîåêòèðîâàëñÿ (Ãðÿçåâà Âàñèëèÿ Ïåòðîâè÷à è Øèïóíîâà Àðêàäèÿ Ãåîðãèåâè÷à) è ÷èñëà «18», îçíà÷àþùåãî ¸ìêîñòü ìàãàçèíà.</text>
+	<text>GSh-18 is a Russian pistol developed in the late 1990s in the Tula Instrument Design Bureau. the name was given by the first letters of the names of the designers, under the guidance of which they were projected (Vasily Petrovich Griazev and Arcadiy Georgievich Shipunov) and the number 18, meaning capacity of the store.</text>
 	</string>
-<!-- Glock 17 -->
 	<string id="st_wpn_glock17">
 		<text>Glock 17</text>
 	</string>
 	<string id="st_wpn_glock17_descr">
-		<text>Glock 17 - àâñòðèéñêèé ïèñòîëåò, ðàçðàáîòàííûé ôèðìîé Glock äëÿ íóæä àâñòðèéñêîé àðìèè. Îí ñòàë ïåðâûì îáðàçöîì âîîðóæåíèÿ, ðàçðàáîòàííûì ýòîé ôèðìîé. Ïîëó÷èâøèéñÿ â ðåçóëüòàòå îáðàçåö îêàçàëñÿ äîâîëüíî óäà÷íûì è óäîáíûì äëÿ ïðèìåíåíèÿ, áëàãîäàðÿ ÷åìó ïîçäíåå îí áûë ïðèíÿò íà âîîðóæåíèå àðìèè Àâñòðèè ïîä îáîçíà÷åíèåì Ð80. Áëàãîäàðÿ ñâîèì áîåâûì êà÷åñòâàì è íàä¸æíîñòè ïîëó÷èë øèðîêîå ðàñïðîñòðàíåíèå â êà÷åñòâå ãðàæäàíñêîãî îðóæèÿ ñàìîîáîðîíû.</text>
+	<text>Glock 17 is an Austrian pistol developed by Glock for the Austrian army. It became the first model of weapons developed by this firm. the resulting sample proved to be quite successful and convenient to use, thanks to which it was later adopted by the army Austria under the designation P80. Thanks to its fighting qualities and reliability it was widely used as a civilian self-defense weapon.</text>
 	</string>
-<!-- Glock 19-->
 	<string id="st_wpn_glock19">
 		<text>Glock 19</text>
 	</string>
 	<string id="st_wpn_glock19_descr">
-		<text>Â 1988 ãîäó áûë ïðåäñòàâëåí êîìïàêòíûé âàðèàíò ìîäåëè 17 - Glock 19, ñîçäàííûé äëÿ ãðàæäàíñêîãî ðûíêà îðóæèÿ, à òàê æå äëÿ âîîðóæåíèÿ ðàçëè÷íûõ ñïåöñëóæá è àðìåéñêèõ îôèöåðîâ. Êîíå÷íî æå êîìïàêòíûé âàðèàíò óæå î÷åíü óñïåøíîé ïîëíîðàçìåðíîé ìîäåëè äîëæåí áûë ñòàòü íå ìåíåå âîñòðåáîâàííûì íà ðûíêå îðóæèÿ. Òàê è ïðîèçîøëî, Glock 19 î÷åíü áûñòðî ñòàë ïîëüçîâàòüñÿ îãðîìíîé ïîïóëÿðíîñòüþ è â ïîëèöèè è ó ðÿäîâûõ ãðàæäàí, ïîêóïàþùèõ êîìïàêòíûå ïèñòîëåòû äëÿ ñêðûòîãî íîøåíèÿ â öåëÿõ ñàìîîáîðîíû è ñïîðòèâíîé ñòðåëüáû.</text>
+	<text>In 1988, a compact version of the 17-Glock 19 model was introduced, created for the civilian weapons market, as well as for arming various special services and army officers. Of course, a compact version of a very successful full-size model should have become no less popular market of weapons. So it happened, Glock 19 very quickly began to enjoy immense popularity in the police and among ordinary citizens who buy compact pistols for concealed carrying for self-defense and sports shooting.</text>
 	</string>
-<!-- Ñàéãà-12Ê -->
 	<string id="st_wpn_saiga">
-		<text>Ñàéãà-12Ê</text>
+	<text>Saiga-12K</text>
 	</string>
 	<string id="st_wpn_saiga_descr">
-		<text>«Ñàéãà-12Ê», óêîðî÷åííîå ñàìîçàðÿäíîå ðóæüå - «ãëàäêîñòâîëüíûé êàðàáèí». Ïðèêëàä è ïèñòîëåòíàÿ ðóêîÿòêà (à â íåêîòîðûõ èñïîëíåíèÿõ è öåâüå) ïîçàèìñòâîâàíû ó àâòîìàòà Êàëàøíèêîâà. Â êîíñòðóêöèþ ââåä¸í ìåõàíèçì áëîêèðîâêè, êîòîðûé íå ïîçâîëÿåò ñíÿòü îðóæèå ñ ïðåäîõðàíèòåëÿ äî òåõ ïîð, ïîêà íå áóäåò îòêèíóò ïðèêëàä.</text>
+	<text>Saiga-12K, shortened self-loading rifle-smoothbore carbine. the application and pistol grip (and in some designs and forearm) are borrowed from the Kalashnikov assault rifle. In the design, a locking mechanism has been introduced, which does not allow you to remove the weapon from the fuse until flipped over the butt.</text>
 	</string>
-
-<!-- ÐÏÊ -->
 	<string id="st_wpn_rpk">
-		<text>ÐÏÊ</text>
+	<text>PKK</text>
   </string>
 	<string id="st_wpn_rpk_descr">
-		<text>ÐÏÊ (Ðó÷íîé Ïóëåìåò Êàëàøíèêîâà) - ñîçäàí êàê îðóæèå ïîääåðæêè óðîâíÿ còðåëêîâîãî âçâîäà íà îñíîâå àâòîìàòà ÀÊÌ, è ñîñòîÿë íà âîîðóæåíèè ÂÑ ÑÑÑÐ è åùå ìíîãèõ ñòðàí. Äî íàñòîÿùåãî âðåìåíè âñòðå÷àåòñÿ â ÂÑ Ðîññèè è â ÌÂÄ. Â Ñîâåòñêîé Àðìèè êàæäîìó ñòðåëêîâîìó âçâîäó (10 ÷åëîâåê) ïîëàãàëñÿ ïî øòàòó îäèí ÐÏÊ. Â îñíîâíîì â âîéñêàõ ÐÔ ÐÏÊ áûë çàìåíåí íà ÐÏÊ-74. </text>
+	<text>the PKK (Kalashnikov's Manual Machine Gun)-was created as a weapon to support the level of the rifle platoon based on the AKM assault rifle, and was in service with the Armed Forces of the USSR and many more countries. So far, it meets in the Russian Armed Forces and the Interior Ministry. In the Soviet Army, each infantry platoon (10 people) relied on one PKK. In the main in the Russian troops, the PKK was replaced by the PKK-74.</text>
 	</string>
-<!-- ÐÏÊ-74 -->
 	<string id="st_wpn_rpk74">
-		<text>ÐÏÊ-74</text>
+	<text>RPK-74</text>
 	</string>
 	<string id="st_wpn_rpk74_descr">
-		<text>Ðó÷íîé ïóëåì¸ò, ðàçðàáîòàííûé äëÿ çàìåíû â âîéñêàõ ïóëåìåòà ÐÏÊ ïîä ïàòðîí 7,62x39 ìì â ðàìêàõ ñèñòåìû ñòðåëêîâîãî îðóæèÿ ïîä ìàëîèìïóëüñíûé ïàòðîí 5,45x39 ìì. Ïðèíÿò íà âîîðóæåíèå â 1974 ãîäó âìåñòå ñ àâòîìàòîì ÀÊ-74.</text>
+	<text>A manual machine gun designed to replace the RPK machine gun in the troops for the cartridge 7.62x39 mm within the framework of the small arms system for a small-size cartridge 5.45x39 mm. Adopted in 1974 with the AK-74.</text>
 	</string>
 <!-- Beretta M92 -->
   <string id="st_wpn_beretta">
@@ -974,7 +952,7 @@
 		<text>M9</text>
 	</string>
 	<string id="st_wpn_m9_descr">
-		<text>M9 - êîäîâîå íàçâàíèå Beretta 92SB íà âîîðóæåíèè àðìèè ÑØÀ. Ïîïóëÿðåí è ó ïðåñòóïíèêîâ áëàãîäàðÿ ìîùíîìó ïàòðîíó è ¸ìêîìó ìàãàçèíó. Êàê ïðàâèëî, â Çîíó ïîïàäàþò íå ñàìûå íîâûå ìîäåëè äàííîãî îðóæèÿ.</text>
+	<text>M9-code name Beretta 92SB in the arsenal of the US Army. It is also popular with criminals thanks to a powerful patron and a capacious store. As a rule, not the newest models of this weapon fall into the Zone.</text>
 	</string>
 <!-- ÁÌ-16 -->
   <string id="st_wpn_bm16">
@@ -998,13 +976,13 @@
 		<text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols.</text>
   </string>
 	<string id="st_wpn_eagle_nimble_descr">
-		<text>Âàðèàíò ïèñòîëåòà Desert Eagle ñ êîëëèìàòîðíûì ïðèöåëîì Docter Sight, óíèêàëüíîé ðàñêðàñêîé è  êîìïåíñàòîðîì ñíèæàþùèì îòäà÷ó.</text>
+	<text>the version of the Desert Eagle pistol with the Docter Sight collimator sight, a unique coloring and a compensator reducing the recoil.</text>
 	</string>
 	<string id="st_wpn_famas">
 		<text>FAMAS F1</text>
 	</string>
 	<string id="st_wpn_famas_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nFAMAS - (øòóðìîâàÿ âèíòîâêà ðàçðàáîòêè îðóæåéíîãî ïðåäïðèÿòèÿ MAS â Ñåíò-Ýòüåíå) - ôðàíöóçñêèé àâòîìàò êàëèáðà 5,56 ìì, èìåþùèé êîìïîíîâêó «áóëë-ïàï». Íåîôèöèàëüíîå íàçâàíèå - «êëåðîí».</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n\n %c[255,1,255,255] • %c[default] NATO silencer \n\n FAMAS-(assault rifle for the development of the MAS weapons company in Saint-Etienne) is a French 5.56 mm machine gun with a bollapap configuration. the unofficial name is the cleron.</text>
 	</string>
 	<!-- FN-2000 -->
   <string id="st_wpn_fn2000">
@@ -1015,21 +993,20 @@
   </string>
 	<!-- ÏÏ-19 «Áèçîí» -->
 	<string id="st_wpn_bizon">
-		<text>ÏÏ-19 «Áèçîí»</text>
+	<text>PP-19 Bison</text>
 	</string>
 	<string id="st_wpn_bizon_descr">
-		<text>ÏÏ-19 «Áèçîí» - ïèñòîëåò-ïóëåì¸ò 19 ìîäåëü, ðàçðàáîòàííûé â 1993 ãîäó Â. Ì. Êàëàøíèêîâûì (ñûíîì êîíñòðóêòîðà Ì. Ò. Êàëàøíèêîâà) è Àëåêñååì Äðàãóíîâûì (ñûíîì Å. Ô. Äðàãóíîâà) ïî çàêàçó Ìèíèñòåðñòâà âíóòðåííèõ äåë Ðîññèéñêîé Ôåäåðàöèè (ÌÂÄ Ðîññèè).</text>
+	<text>PP-19 Bison-pistol-machine gun 19 model, developed in 1993 by VM Kalashnikov (the son of the designer MT Kalashnikov) and Alexei Dragunov (the son of EF Dragunov), commissioned by the Ministry of Internal Affairs of the Russian Federation).</text>
 	</string>
-	<!-- FN P90 -->
 	<string id="st_wpn_p90">
 		<text>FN P90</text>
 	</string>
 	<string id="st_wpn_p90_descr">
-		<text>FN P90 - áåëüãèéñêèé ïèñòîëåò-ïóëåì¸ò (ïåðñîíàëüíîå îðóæèå ñàìîîáîðîíû), ðàçðàáîòàííûé â 1986 - 1987 ãîäàõ ôèðìîé FN Herstal. Áûë ðàçðàáîòàí, â ïåðâóþ î÷åðåäü, äëÿ òàíêèñòîâ è âîäèòåëåé áîåâûõ àâòîìîáèëåé è ìàøèí. Èìååò ïðîãðåññèâíûé è óäîáíûé ýðãîíîìè÷íûé äèçàéí. Ñïåöèàëüíî äëÿ P90 áûë ðàçðàáîòàí ïàòðîí òèïà 5,7x28 ìì SS190, îáëàäàþùèé âûñîêîé ïðîáèâíîé ìîùíîñòüþ è íèçêîé ñòåïåíüþ ðèêîøåòèðîâàíèÿ.</text>
+	<text>FN P90-Belgian pistol-a machine gun (a personal weapon of self-defense), developed in 1986-1987 by FN Herstal. It was developed, first of all, for tankmen and drivers of military vehicles and cars. Has a progressive and convenient ergonomic design. Especially for P90 was developed cartridge type 5, 7x28 mm SS190, which has a high punching power and low ricochet.</text>
 	</string>
 	<!-- Ôîðò-12 -->
   <string id="st_wpn_fort">
-		<text>Fora-12</text>
+	<text>Fort-12</text>
   </string>
   <string id="st_wpn_fort_descr">
 		<text>A Ukrainian-made pistol predominantly used by law enforcement organisations. Provides higher accuracy, better ergonomics and has a larger magazine than the PMm.  These pistols make it into the Zone in large numbers thanks to the sale of defective weapons, which suffer from technical miscalculations in early design models. Despite this, the pistol is in demand among stalkers thanks to its good combat characteristics.</text>
@@ -1046,14 +1023,13 @@
 		<text>HK G36C</text>
 	</string>
 	<string id="st_wpn_g36c_descr">
-		<text>Ýêñòðåìàëüíî óêîðî÷åííûé âàðèàíò Íåìåöêîé âèíòîâêè G36. Âèíòîâêà áûëà ðàçðàáîòàíà â 1996 ãîäó íåìåöêîé îðóæåéíîé êîìïàíèåé Heckler & Koch.</text>
+	<text>Extremely short version of the German rifle G36. the rifle was developed in 1996 by the German arms company Heckler and Koch.</text>
 	</string>
-<!-- HK G36K -->
 	<string id="st_wpn_g36k">
 		<text>HK G36K</text>
 	</string>
 	<string id="st_wpn_g36k_descr">
-		<text>G36K (Kurz) - óêîðî÷åííûé âàðèàíò âèíòîâêè G36, àâòîìàò ñî ñòâîëîì äëèíîé 318 ìì.</text>
+	<text>G36K (Kurz)-a shortened version of the G36 rifle, an automatic with a barrel length of 318 mm.</text>
 	</string>
 <!-- Ãàóññ -->
   <string id="st_wpn_gauss">
@@ -1080,7 +1056,7 @@
 		<text>HK-416</text>
 	</string>
 	<string id="st_wpn_hk416_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ïîäñòâîëüíûé ãðàíàòîì¸ò M203\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nHK416 - àâòîìàò, ñîçäàííûé íåìåöêîé ôèðìîé Heckler &amp; Koch íà îñíîâå êàðàáèíà Ì4. Ïåðâîíà÷àëüíî íîâîå îðóæèå äîëæíî áûëî ñòàòü ñìåííûì ìîäóëåì äëÿ óñòàíîâêè íà ëþáóþ íèæíþþ ÷àñòü ñòâîëüíîé êîðîáêè îò âèíòîâîê M4 èëè M16, îäíàêî ïîçæå ïîÿâèëèñü è ïîëíîêîìïëåêòíûå àâòîìàòû. Íàçâàíèå HK416 ñèìâîëèçèðóåò ïðååìñòâåííîñòü îò M4 è M16.</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n\n %c[255,1,255,255] • %c[default] M203 underbarrel grenade launcher \n\n\n %c[255,1,255,255] • %c[default] NATO silencer \n\n HK416 is an automatic machine created by the German firm Heckler and amp; Koch based on the M4 carbine. Initially,the new weapon was to be a plug-in module for installation on any lower part of the receiver from M4 or M16 rifles,but later there were also full- automata. the name HK416 symbolizes continuity from the M4 and M16.</text>
 	</string>
 	<!-- L85A2 -->
   <string id="st_wpn_l85">
@@ -1101,66 +1077,66 @@
 		<text>Mossberg M590A1</text>
 	</string>
 	<string id="st_wpn_m590a1_descr">
-		<text>Îäíî èç ñàìûõ ðàñïðîñòðàí¸ííûõ ìíîãîçàðÿäíûõ ðóæåé ñ ïåðåçàðÿäêîé ïîäâèæíûì öåâü¸ì (ïîìïîâûõ ðóæåé). Âïåðâûå âûïóùåíî â 1962-ì ãîäó. Ñåé÷àñ âûïóñêàåòñÿ â ðàçëè÷íûõ ìîäèôèêàöèÿõ, ïðåäíàçíà÷åíûõ êàê äëÿ îõîòû, òàê è äëÿ ïîëèöèè, îõðàííèêîâ è ñàìîîáîðîíû.</text>
+	<text>One of the most common multiply charged rifles with reloading movable forearm (pump guns). It was first released in 1962. Now it is produced in various modifications intended for hunting, police, guards and self-defense.</text>
 	</string>
 <!-- M4 -->
 	<string id="st_wpn_m4">
 		<text>M4</text>
 	</string>
 	<string id="st_wpn_m4_descr">
-		<text>Àâòîìàò, ñîçäàííûé â ÑØÀ íà îñíîâå Ì16À2 èçíà÷àëüíî äëÿ âîîðóæåíèÿ ýêèïàæåé áîåâûõ ìàøèí è ðàñ÷åòîâ òåõíèêè. Â íàñòîÿùåå âðåìÿ íà íåãî ïåðåõîäèò è âñÿ Àðìèÿ ÑØÀ, òàê êàê áîëüøåå óäîáñòâî óêîðî÷åííîãî êàðàáèíà â ñîâðåìåííûõ óñëîâèÿõ, êîãäà áîëüøóþ ÷àñòü àðìèè ñîñòàâëÿþò ìîòîïåõîòà, ýêèïàæè áîåâûõ ìàøèí è âñïîìîãàòåëüíûå âîéñêà, áîëåå ÷åì êîìïåíñèðóåò äîñòàòî÷íî íåçíà÷èòåëüíîå ñíèæåíèå åãî õàðàêòåðèñòèê â ñðàâíåíèè ñ âèíòîâêîé.</text>
+	<text>the machine, created in the US on the basis of the M16A2 initially for arming the crews of combat vehicles and equipment calculations. Currently, the entire US Army is moving to it, as the greater convenience of the shortened carbine in modern conditions, when the bulk of the army is made up of motorized infantry, the crews combat vehicles and auxiliary troops, more than compensates for a rather insignificant decrease in its characteristics in comparison with the rifle.</text>
 	</string>
 <!-- M4A1 -->
 	<string id="st_wpn_m4a1">
 		<text>M4A1</text>
 	</string>
 	<string id="st_wpn_m4a1_descr">
-		<text>Â 1996 ãîäó ïî çàêàçó ñèë ñïåöèàëüíûõ îïåðàöèé íà îñíîâå âèíòîâêè Ì16À3 áûë ðàçðàáîòàí êàðàáèí Ì4À1, îòëè÷àâøèéñÿ âîçâðàòîì ê ïîëíîñòüþ àâòîìàòè÷åñêîìó îãíþ âìåñòî ðåæèìà îãíÿ ñ îòñå÷êîé ïî 3 âûñòðåëà.</text>
+	<text>In 1996, by order of special operations forces based on the M16A3 rifle, the M4A1 carbine was developed, featuring a return to fully automatic fire instead of a 3-shot fire.</text>
 	</string>
 <!-- M16 -->
 	<string id="st_wpn_m16">
 		<text>M16</text>
 	</string>
 	<string id="st_wpn_m16_descr">
-		<text>M16 (îôèöèàëüíîå îáîçíà÷åíèå - Rifle, Caliber 5.56 mm, M16) - àìåðèêàíñêàÿ àâòîìàòè÷åñêàÿ âèíòîâêà êàëèáðà 5,56 ìì, ðàçðàáîòàííàÿ íà áàçå âèíòîâêè AR-15 è ïðèíÿòàÿ íà âîîðóæåíèå â 1960-õ ãîäàõ. M16 è å¸ âàðèàíòû äî íàñòîÿùåãî âðåìåíè îñòàþòñÿ îñíîâíûì âîîðóæåíèåì àìåðèêàíñêîé ïåõîòû. Ýòî îäíà èç íàèáîëåå ðàñïðîñòðàí¸ííûõ ìîäåëåé ñòðåëêîâîãî îðóæèÿ â ìèðå - áûëî âûïóùåíî áîëåå 8 ìèëëèîíîâ ýêçåìïëÿðîâ.</text>
+	<text>M16 (official designation-Rifle, Caliber 5. 56 mm, M16)-American automatic rifle caliber 5, 56 mm, developed on the basis of the rifle AR-15 and adopted in service in the 1960s. M16 and its variants to date remain the main armament of the American infantry. This is one of the most common models of small arms in the world-more than 8 million copies were produced.</text>
 	</string>
 <!-- M16A1 -->
 	<string id="st_wpn_m16a1">
 		<text>M16A1</text>
 	</string>
 	<string id="st_wpn_m16a1_descr">
-		<text>M16A1 - óñîâåðøåíñòâîâàííûé âàðèàíò M16. Îñíîâíûå îòëè÷èÿ: ïîÿâëåíèå ìåõàíèçìà äîñûëàíèÿ çàòâîðà è óñîâåðøåíñòâîâàííûé áóôåð ñòåáëÿ çàòâîðà (ñíèçèë òåìï ñòðåëüáû äî 750-850 âûñòðåëîâ â ìèíóòó è èñêëþ÷èë îòñêîê çàòâîðà è îñå÷êè), áîëåå íàä¸æíûé ïëàìåãàñèòåëü ñ çàìêíóòûìè ùåëÿìè, õðîìèðîâàííîå ïîêðûòèå çàòâîðà (äëÿ èñêëþ÷åíèÿ åãî êîððîçèè), óìåíüøåíèå øàãà íàðåçîâ ñ 356 äî 305 ìì (óëó÷øèëî óñòîé÷èâîñòü ïóëè, íî óâåëè÷èëî ðàññåèâàíèå íà äèñòàíöèÿõ ñâûøå 400 ì), ïðèëèâ äëÿ óñòàíîâêè øòûê-íîæà. Òàêæå ñïåöèàëüíî äëÿ íîâîé âèíòîâêè áûë ñîçäàí 30-çàðÿäíûé ìàãàçèí è ãëóøèòåëü, ðàññ÷èòàííûé äëÿ ñòðåëüáû îáû÷íûìè (à íå äîçâóêîâûìè) ïàòðîíàìè. Ñòîÿëà íà âîîðóæåíèè àðìèè ÑØÀ ñ 1967 ïî 1985 ãîä.</text>
+	<text>M16A1-an improved version of the M16. the main differences: the appearance of the shutter sending mechanism and the improved buffer of the shutter stem (reduced the rate of fire to 750-850 rounds per minute and eliminated the bounce of the shutter and misfires), a more reliable flame arrester with closed slots, chrome plated coating of the closure (to exclude its corrosion), reduction of the cut length from 356 to 305 mm (improved stability of the bullet, but increased scattering at distances over 400 m), tide for bayonet mounting. Also, specially for the new rifle, a 30-charger magazine and a silencer designed for shooting conventional (rather than subsonic) cartridges. Were in the arsenal of the US Army from 1967 to 1985.</text>
 	</string>
 <!-- M16A2 -->
 	<string id="st_wpn_m16a2">
 		<text>M16A2</text>
 	</string>
 	<string id="st_wpn_m16a2_descr">
-		<text>M16A2 - âàðèàíò âèíòîâêè M16A1, àäàïòèðîâàííûé ïîä ïàòðîí SS109/Ì855. Îòëè÷èÿ îò M16A1: óïðî÷í¸ííûé ñòâîë, óëó÷øåííûå ïðèöåëüíûå ïðèñïîñîáëåíèÿ, ðàçìå÷åííûå äî 800 ì, íîâûå öåâü¸ è ïðèêëàä èç óäàðîïðî÷íîãî ïîëèàìèäà, çàìåíîé ðåæèìà íåïðåðûâíîãî îãíÿ íà ðåæèì ñ îòñå÷êîé î÷åðåäè ïîñëå 3-õ âûñòðåëîâ, íîâûé ïëàìåãàñèòåëü ñ ïðîðåçÿìè òîëüêî â âåðõíåé ÷àñòè (áëàãîäàðÿ ÷åìó êîìïåíñèðîâàëñÿ óâîä îðóæèÿ ââåðõ). Íîâàÿ âèíòîâêà ñòàëà êîìïëåêòîâàòüñÿ ë¸ãêèìè ïëàñòèêîâûìè ìàãàçèíàìè íà 30 ïàòðîíîâ.</text>
+	<text>M16A2-version of the rifle M16A1, adapted for the cartridge SS109/M855. Differences from the M16A1: strengthened barrel, improved sighting devices, marked up to 800 m, new fore and aft from the impact-resistant polyamide, replacement of the continuous fire mode with the cut-off mode after 3 shots, A new flame arrester with slots only at the top (thanks to which the arms were moved upwards). the new rifle began to be equipped with light plastic stores for 30 cartridges.</text>
 	</string>
 <!-- M16A3 -->
 	<string id="st_wpn_m16a3">
 		<text>M16A3</text>
 	</string>
 	<string id="st_wpn_m16a3_descr">
-		<text>M16A3 - âàðèàíò âèíòîâêè M16A2 ñ ðåæèìîì íåïðåðûâíîãî îãíÿ, ñîñòîèò íà âîîðóæåíèè âî ôëîòå. Ðóêîÿòêà äëÿ ïåðåíîñêè è ïðèöåëüíûå ïðèñïîñîáëåíèÿ èäåíòè÷íû M16A2. Ïîÿâèëàñü â 1992 ãîäó ïîä èíäåêñîì M16A2E3.</text>
+	<text>M16A3-version of the M16A2 rifle with a continuous fire mode, is in armament in the fleet. Handle for carrying and sighting devices are identical to M16A2. Appeared in 1992 under the index M16A2E3.</text>
 	</string>
 <!-- M16A4 -->
 	<string id="st_wpn_m16a4">
 		<text>M16A4</text>
 	</string>
 	<string id="st_wpn_m16a4_descr">
-		<text>M16A4 - âàðèàíò âèíòîâêè M16A2. Ñâåðõó ñòâîëüíîé êîðîáêè âìåñòî ðó÷êè äëÿ ïåðåíîñêè (êîòîðàÿ ñòàëà ñú¸ìíîé) óñòàíîâëåíà íàïðàâëÿþùàÿ òèïà Ïèêàòèííè. Âîçìîæíà óñòàíîâêà äîïîëíèòåëüíûõ íàïðàâëÿþùèõ òèïà Ïèêàòèííè íà öåâüå.</text>
+	<text>M16A4-version of the rifle M16A2. Above the receiver, instead of a carrying handle (which has become removable), a Picatinni type guide is installed. It is possible to install additional guides of the Picatinny type on the forearm.</text>
 	</string>
 	<string id="st_wpn_m16a4_camo">
-		<text>M16A4 (êàìóôëÿæ)</text>
+	<text>M16A4 (Camouflage)</text>
 	</string>
 	<string id="st_wpn_m16a4_camo_descr">
-		<text>Âàðèàíò M16A4 ñ ïóñòûííûì êàìóôëÿæåì è ïðèöåëîì Leupold Mark4.</text>
+	<text>Option M16A4 with desert camouflage and a sight Leupold Mark4.</text>
 	</string>
 <!-- HK MP5 -->
  <string id="st_wpn_mp5">
-		<text>Viper 5</text>
+	<text>MP5</text>
   </string>
   <string id="st_wpn_mp5_descr">
 		<text>This submachine gun has gained popularity around the world thanks to its reliability, ease of use and accuracy. Over the last few decades the Viper 5 was in service with special armed forces and police units worldwide. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.</text>
@@ -1170,7 +1146,7 @@
 		<text>UMP45</text>
 	</string>
 	<string id="st_wpn_ump45_descr">
-		<text>HK UMP (íåì. Universale Maschinenpistole - óíèâåðñàëüíûé ïèñòîëåò-ïóëåì¸ò) - ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé íåìåöêîé êîìïàíèåé Heckler & Koch â 1990-õ ãîäàõ â êà÷åñòâå äîïîëíåíèÿ ê ñåìåéñòâó ïèñòîëåòîâ-ïóëåì¸òîâ HK MP5.</text>
+	<text>HK UMP (German Universale Maschinenpistole)-a submachine gun developed by the German company Heckler and Koch in the 1990s as an addition to the family of HK MP5 submachine guns.</text>
 	</string>
 <!-- HK MP5SD -->
 	<string id="st_wpn_mp5sd">
@@ -1181,10 +1157,10 @@
 	</string>
 	<!-- ÏÏ-2000 -->
 	<string id="st_wpn_pp2000">
-		<text>ÏÏ-2000</text>
+	<text>PP-2000</text>
 	</string>
 	<string id="st_wpn_pp2000_descr">
-		<text>ÏÏ-2000 - ðîññèéñêèé 9-ìì ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé êîëëåêòèâîì êîíñòðóêòîðîâ òóëüñêîãî ÊÁ Ïðèáîðîñòðîåíèÿ (àêàä. Â. Ï. Ãðÿçåâ, ñïåöèàëèñòû Á. È. Êóçíåöîâ è À. È. Ðàññêàçîâ). ÏÏ-2000 ïîçèöèîíèðóåòñÿ êàê îðóæèå äëÿ ïîäðàçäåëåíèé ïðàâîîõðàíèòåëüíûõ îðãàíîâ, äåéñòâóþùèõ â ãîðîäñêèõ óñëîâèÿõ, à òàêæå êàê ëè÷íîå îðóæèå ñàìîîáîðîíû äëÿ îòäåëüíûõ êàòåãîðèé âîåííîñëóæàùèõ.</text>
+	<text>PP-2000-Russian 9 mm submachine gun developed by the team of designers of Tula Instrument Design Bureau (academician VP Griazev, specialists BI Kuznetsov and AI Rasskazov). the PP-2000 is positioned as a weapon for law enforcement un its operating in urban conditions, and also as a personal weapon of self-defense for certain categories of servicemen.</text>
 	</string>
 	<!-- ÏÁ -->
   <string id="st_wpn_pb">
@@ -1202,10 +1178,10 @@
   </string>
 <!-- ÏÌÌ -->
 	<string id="st_wpn_pmm">
-		<text>ÏÌÌ</text>
+	<text>PMM</text>
 	</string>
 	<string id="st_wpn_pmm_descr">
-		<text>9-ìì ïèñòîëåò Ìàêàðîâà ìîäåðíèçèðîâàííûé ÏÌÌ (Èíäåêñ ÃÐÀÓ - 56-À-125Ì) - ýòî ðîññèéñêèé ïèñòîëåò, ðàçðàáîòàííûé â íà÷àëå 1990õ ãîäîâ â ðàìêàõ òåìû ÍÈÎÊÐ «Ãðà÷». Ïðèíÿë ó÷àñòèå â êîíêóðñå íà íîâûé àðìåéñêèé ïèñòîëåò ïîä îáîçíà÷åíèåì «Ãðà÷-3».</text>
+	<text>9-mm Makarov pistol modernized PMM (GRAU-56-A-125M index) is a Russian pistol developed in the early 1990s in the framework of R & D Rook. Took part in the competition for a new army pistol under the designation Grach-3.</text>
 	</string>
 	<!-- Protecta -->
   <string id="st_wpn_protecta">
@@ -1223,7 +1199,7 @@
 	</string>
 	
 	<string id="st_wpn_remington870_descr">
-		<text>Remington 870 - àìåðèêàíñêîå ðóæü¸, âïåðâûå ïðåäñòàâëåííîå â 1950 ãîäó êîìïàíèåé Remington Arms. Áëàãîäàðÿ ñâîåé õàðàêòåðíîé ïåðåçàðÿäêå ÿâëÿåòñÿ îäíèì èç ñàìûõ çíàìåíèòûõ ïîìïîâûõ ðóæåé â ìèðå. Âûïóñêàëñÿ â ðàçëè÷íûõ ìîäèôèêàöèÿõ, îí ïîäõîäèò êàê äëÿ âîåííûõ è ïîëèöèè, òàê äëÿ îõîòíèêîâ è ñïîðòñìåíîâ, à òàêæå äëÿ ñàìîîáîðîíû.</text>
+	<text>Remington 870- the American gun, first introduced in 1950 by the company Remington Arms. Due to its characteristic recharge is one of the most famous pump guns in the world. Produced in various modifications, it is suitable for both the military and police, both for hunters and athletes, as well as for self-defense.</text>
 	</string>
   <string id="st_wpn_rg6">
 		<text>Bulldog-6</text>
@@ -1233,10 +1209,10 @@
   </string>
 	<!-- ÏÊÌ -->
 	<string id="st_wpn_pkm">
-		<text>ÏÊÌ</text>
+	<text>PCM</text>
 	</string>
 	<string id="st_wpn_pkm_descr">
-		<text>Ðó÷íàÿ ìîäèôèêàöèÿ àðìåéñêîãî ïóëåì¸òà ñ ëåíòî÷íûì ïèòàíèåì. Íåñìîòðÿ íà âûñîêóþ ìàññó è íåóäîâëåòâîðèòåëüíóþ òî÷íîñòü áîÿ, íàø¸ë ñåáå äîñòàòî÷íî øèðîêîå ïðèìåíåíèå â Çîíå. Â îñíîâíîì èñïîëüçóåòñÿ äëÿ ïîäàâëåíèÿ ïðåâîñõîäÿùåãî ïî ÷èñëåííîñòè ïðîòèâíèêà è ïðè çà÷èñòêàõ ëîãîâ ìóòàíòîâ.</text>
+	<text>Manual modification of the army machine gun with tape feed. Despite the high mass and unsatisfactory accuracy of the battle, I found myself quite a wide application in the Zone. It is mainly used to suppress the superior in number of the enemy and during cleansing of the mutant lairs.</text>
 	</string>
 <!-- ÐÏÃ-7 -->
  <string id="st_wpn_rpg7">
@@ -1247,7 +1223,7 @@
   </string>
 <!-- SIG-P220 -->
   <string id="st_wpn_sig220">
-		<text>SIP-t M200</text>
+	<text>SIG-Sauer P220</text>
   </string>
  <!-- SIG-P226 -->
 	<string id="st_wpn_sig226">
@@ -1258,14 +1234,14 @@
   </string>
 <!-- SIG SG-550 -->
   <string id="st_wpn_sig550">
-		<text>SGI-5k</text>
+	<text>SIG SG-550</text>
   </string>
   <string id="st_wpn_sig550_descr">
 		<text>A relatively new assault rifle that has quickly found admirers around the world, despite lacking a "trendy" design. Weapons of this series are one of the best in their class, renowned for their reliability, accuracy and ease of use.  Despite being relatively difficult to obtain in the Zone, this assault rifle is often ordered by experienced stalkers at considerable expense.</text>
   </string>
 <!-- SIG "Ñòðåëîê" -->
   <string id="st_wpn_sig550_strelok">
-		<text>Strelok's SGI-5k</text>
+	<text>SIG Shooter</text>
   </string>
   <string id="st_wpn_sig550_strelok_descr">
 		<text>A Swiss-made SGI-5k assault rifle. Although it is hardly new, it is clear that the previous owner took good care of it: the weapon has been taken apart and put back together, with every component fine-tuned for optimum performance, increasing stopping power. The letter "S" has been carved into the stock, along with 16 small notches.</text>
@@ -1275,14 +1251,14 @@
 		<text>SIG SG-551</text>
 	</string>
 	<string id="st_wpn_sig550-551_descr">
-		<text>Ïðåäñòàâèòåëü îòíîñèòåëüíî íîâîãî ñåìåéñòâà øòóðìîâûõ âèíòîâîê. Áëàãîäàðÿ âûñîêîé íàä¸æíîñòè, òî÷íîñòè áîÿ è óäîáñòâó â îáðàùåíèè ÿâëÿåòñÿ îäíèì èç ëó÷øèõ îáðàçöîâ âîîðóæåíèÿ ýòîãî êëàññà. Â Çîíå âñòðå÷àåòñÿ íå÷àñòî è ñòîèò íåìàëûõ äåíåã; îáû÷íî å¸ ñïåöèàëüíî çàêàçûâàþò äëÿ ñåáÿ áûâàëûå ñòàëêåðû.</text>
+	<text>Representative of a new family of assault rifles. Due to its high reliability, accuracy of combat and ease of use, it is one of the best weapons of this class. In the Zone occurs infrequently and costs a lot of money; usually it is specially ordered for a seasoned stalker.</text>
 	</string>
 <!-- SIG SG-552 -->
 	<string id="st_wpn_sig552">
 		<text>SIG SG-552</text>
 	</string>
 	<string id="st_wpn_sig552_descr">
-		<text>SG-552 Commando - åù¸ áîëåå êîìïàêòíûé àâòîìàò ñî ñòâîëîì 226 ìì, ïðåäíàçíà÷åííûé äëÿ ñïåöèàëüíûõ ïîëèöåéñêèõ ïîäðàçäåëåíèé. Â îòëè÷èå îò SG 550 âîçâðàòíàÿ ïðóæèíà ïîçàäè çàòâîðíîé ðàìû è äåéñòâóåò íåïîñðåäñòâåííî íà íå¸, à íå íà øòîê ãàçîâîãî ïîðøíÿ. Àâòîìàò èìååò èçìåí¸ííûé ïëàìåãàñèòåëü è ìîæåò îñíàùàòüñÿ ïëàíêàìè Ïèêàòèííè äëÿ óñòàíîâêè äîïîëíèòåëüíûõ àêñåññóàðîâ.</text>
+	<text>SG-552 Commando-even more compact machine with a barrel 226 mm, designed for special police ulouse. Unlike SG 550, the return spring is behind the bolt frame and acts directly on it, and not on the piston rod. the machine has a modified flame arrester and can be equipped with Picatinny slats for installation of additional accessories.</text>
 	</string>
 <!-- FN SCAR-L -->
 	<string id="st_wpn_scar_light">
@@ -1293,11 +1269,11 @@
 		<text>FN SCAR-H</text>
 	</string>
 	<string id="st_wpn_scar_descr">
-		<text>FN SCAR (àíãë. Special Operations Forces Combat Assault Rifle - áîåâàÿ øòóðìîâàÿ âèíòîâêà äëÿ ñèë ñïåöèàëüíûõ îïåðàöèé) - îðóæåéíàÿ ñèñòåìà, ðàçðàáîòàííàÿ àìåðèêàíñêèì ïîäðàçäåëåíèåì áåëüãèéñêîé êîìïàíèè FN Herstal äëÿ ó÷àñòèÿ â êîíêóðñå íà ñîçäàíèå íîâîãî àâòîìàòà äëÿ áîéöîâ USSOCOM â 2004 ãîäó.</text>
+	<text>FN SCAR (English Special Operations Forces Combat Assault Rifle) is a weapon system developed by the US division of the Belgian company FN Herstal to participate in the competition for the creation of a new USSOCOM machine gun in 2004 year.</text>
 	</string>
 	<!-- SPAS-12 -->
   <string id="st_wpn_spas12">
-		<text>SPSA-14 </text>
+	<text>SPAS-12</text>
 	</string>
   <string id="st_wpn_spas12_descr">
 		<text>This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants.</text>
@@ -1307,17 +1283,17 @@
 		<text>SR-25</text>
 	</string>
 	<string id="st_wpn_sr25_descr">
-		<text>SR-25 - ñàìîçàðÿäíàÿ ñíàéïåðñêàÿ âèíòîâêà, ðàçðàáîòàííàÿ Þäæèíîì Ñòîíåðîì â 1990-å ãîäû íà îñíîâå êîíñòðóêöèè âèíòîâêè AR-15.</text>
+	<text>SR-25 is a self-loading sniper rifle designed by Eugene Stoner in the 1990s based on the design of the AR-15 rifle.</text>
 	</string>
 	<string id="st_wpn_sv98">
-		<text>ÑÂ-98</text>
+	<text>SV-98</text>
 	</string>
 	<string id="st_wpn_sv98_descr">
-		<text>Ðîññèéñêàÿ ìàãàçèííàÿ ñíàéïåðñêàÿ âèíòîâêà, ñîçäàííàÿ â 1998-2000 ãã. êîëëåêòèâîì êîíñòðóêòîðîâ ïîä ðóêîâîäñòâîì Âëàäèìèðà Ñòðîíñêîãî è ñåðèéíî âûïóñêàåìàÿ êîíöåðíîì «Èæìàø». ÑÂ-98 ïðåäíàçíà÷åíà äëÿ ïîðàæåíèÿ ïîÿâëÿþùåéñÿ, äâèæóùåéñÿ, îòêðûòîé è äåìàñêèðîâàííîé, íåçàùèù¸ííîé è ñíàáæ¸ííûìè ñðåäñòâàìè èíäèâèäóàëüíîé áðîíåçàùèòû æèâîé ñèëû ïðîòèâíèêà íà äàëüíîñòè äî 1000 ì.</text>
+	<text>Russian sniper rifle shop, created in 1998-2000 gg. a team of designers under the leadership of Vladimir Stronsky and serially produced by the concern Izhmash. SV-98 is designed to defeat the emerging, moving, open and unmasked, unprotected and equipped means individual armor protection of enemy manpower at a range of up to 1000 m.</text>
 	</string>
 	<!-- ÑÂÄ -->
   <string id="st_wpn_svd">
-    <text>SVDm-2</text>
+	<text>SVD</text>
   </string>
   <string id="st_wpn_svd_descr">
 		<text>An army sniper rifle that has been on the market for more than fifty years and has earned its reputation for exceptional reliability and ease of use. The SVDm-2 is normally used by the army to improve the effective range of its units, but stalkers respect this weapon for its armour-piercing properties, which allow it to penetrate mutant hide and army body armour.</text>
@@ -1330,30 +1306,30 @@
 		<text>A modernized version of the SVDm-2 sniper rifle in a compact bullpup design made on the order of rapid response forces. It allows faster precision fire and is considerably lighter, while its single shot firing accuracy at short and medium range is similar to that of its predecessor. These qualities have earned it the admiration of countless stalkers.</text>
   </string>
 	<string id="st_wpn_toz194">
-		<text>ÒÎÇ-194</text>
+	<text>TOZ-194</text>
 	</string>
 	<string id="st_wpn_toz194_descr">
-		<text>ÒÎÇ-194 - ðîññèéñêîå ïîìïîâîå ðóæü¸, ðàçðàáîòàííîå â ñåðåäèíå 1990-õ ãîäîâ íà îñíîâå êîíñòðóêöèè ðóæüÿ ÒÎÇ-94. Ïðîèçâîäèòñÿ íà Òóëüñêîì îðóæåéíîì çàâîäå.</text>
+	<text>TOZ-194-Russian pump gun, developed in the mid-1990s on the basis of the design of the TOZ-94 gun. It is produced at the Tula Arms Plant.</text>
 	</string>
 	<!-- ÒÎÇ-34 -->
   <string id="st_wpn_toz34">
-		<text>Hunting shotgun</text>
+	<text>TOZ-34</text>
   </string>
   <string id="st_wpn_toz34_descr">
 		<text>This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone.</text>
   </string>
 <!-- ÒÎÇ-66 -->
 	<string id="st_wpn_toz66">
-		<text>ÒÎÇ-66 (îáðåç)</text>
+	<text>TOZ-66 (bleed)</text>
 	</string>
 	<string id="st_wpn_toz66_descr">
-		<text>Îõîòíè÷üå äâóñòâîëüíîå ðóæüå ÒÎÇ-66 âûïóñêàëîñü ñ 1967 ïî 1978ã., ïðåäíàçíà÷åíî äëÿ ïðîìûñëîâîé è ëþáèòåëüñêîé îõîòû. Ðàçðàáîòàíî íà áàçå ðóæüÿ ÒÎÇ-63 è îòëè÷àåòñÿ óñèëåííîé ñòâîëüíîé êîðîáêîé.</text>
+	<text>Hunting double-barreled rifle TOZ-66 was produced from 1967 to 1978, it is intended for commercial hunting and amateur hunting. It is developed on the basis of the TOZ-63 gun and is distinguished by an enhanced receiver.</text>
 	</string>
 	<string id="st_wpn_toz66_full">
-		<text>ÒÎÇ-66</text>
+	<text>TOZ-66</text>
 	</string>
 	<string id="st_wpn_toz66_full_descr">
-		<text>Îõîòíè÷üå äâóñòâîëüíîå ðóæüå ÒÎÇ-66 âûïóñêàëîñü ñ 1967 ïî 1978ã., ïðåäíàçíà÷åíî äëÿ ïðîìûñëîâîé è ëþáèòåëüñêîé îõîòû. Ðàçðàáîòàíî íà áàçå ðóæüÿ ÒÎÇ-63 è îòëè÷àåòñÿ óñèëåííîé ñòâîëüíîé êîðîáêîé.</text>
+	<text>Hunting double-barreled rifle TOZ-66 was produced from 1967 to 1978, it is intended for commercial hunting and amateur hunting. It is developed on the basis of the TOZ-63 gun and is distinguished by an enhanced receiver.</text>
 	</string>
 	<!-- Íåèçâåñòíîå îðóæèå -->
   <string id="st_wpn_umirotvoritel">
@@ -1363,46 +1339,46 @@
 		<text>An unknown weapon, the firing mechanism of which has not been established. The weapon appears faulty - squeezing the trigger doesn't do anything.</text>
   </string>
 	<string id="st_wpn_vssk">
-		<text>ÂÑÑÊ «Âûõëîï»</text>
+	<text>VSKS Exhaust</text>
 	</string>
 	<string id="st_wpn_vssk_descr">
-		<text>«Âûõëîï» (Âèíòîâêà Ñíàéïåðñêàÿ Ñïåöèàëüíàÿ Êðóïíîêàëèáåðíàÿ) - áåñøóìíàÿ êðóïíîêàëèáåðíàÿ ñíàéïåðñêàÿ âèíòîâêà, âûïîëíåííàÿ ïî êîìïîíîâêå áóëë-ïàï. Îñíîâíûì íàçíà÷åíèåì ÂÑÑÊ ÿâëÿåòñÿ ìàëîøóìíîå è áåñïëàìåííîå ïîðàæåíèå ëåãêîáðîíèðîâàííîé è íåáðîíèðîâàííîé òåõíèêè, à òàêæå æèâîé ñèëû â èíäèâèäóàëüíûõ ñðåäñòâàõ çàùèòû (â òîì ÷èñëå è òÿæ¸ëûõ áðîíåæèëåòàõ) íà äàëüíîñòè äî 600 ìåòðîâ.</text>
+	<text>Exhaust (Rifle Sniper Special Large-caliber)-a silent large-caliber sniper rifle, made by the arrangement of bull-dads. the main purpose of VSKS is a low-noise and flameless defeat of lightly armored and unarmored equipment, as well as manpower in individual means of protection (including heavy bulletproof vests) at a range of up to 600 meters.</text>
 	</string>
 	<string id="st_wpn_vsk94">
-		<text>ÂÑÊ-94</text>
+	<text>VSC-94</text>
 	</string>
 	<string id="st_wpn_vsk94_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1Ì2-01\n \n\n%c[255,1,255,255]•%c[default] Ãëóøèòåëü äëÿ 9À-91/ÂÑÊ-94\n \nÂÑÊ-94 (Âîéñêîâîé Ñíàéïåðñêèé Êîìïëåêñ, Èíäåêñ ÃÐÀÓ - 6Â8) - ðîññèéñêàÿ ñíàéïåðñêàÿ âèíòîâêà, ñîçäàííàÿ íà áàçå ìàëîãàáàðèòíîãî àâòîìàòà 9À-91 äëÿ âåäåíèÿ ñíàéïåðñêîãî áåñøóìíîãî è áåñïëàìåííîãî îãíÿ.</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1M2-01 \n\n\n %c[255,1,255,255] • %c[default] Muffler for 9A-91/VSC-94 \n\n VSK-94 (Army Sniper Complex,GRAU-6V8 Index) is a Russian sniper rifle created on the basis of a small automatic machine 9A-91 for conducting sniper noiseless and flameless fire.</text>
 	</string>
 	<string id="st_wpn_vepr">
-		<text>Âåïðü-12 Ìîëîò</text>
+	<text>Vepr-12 the Hammer</text>
 	</string>
 	<string id="st_wpn_vepr_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÏÁÑ-1\n \n«Âåïðü-12» Ìîëîò - ðîññèéñêèé ãëàäêîñòâîëüíûé ñàìîçàðÿäíûé êàðàáèí, ðàçðàáîòàííûé íà îñíîâå êîíñòðóêöèè ðó÷íîãî ïóëåì¸òà Êàëàøíèêîâà. Ïðåäíàçíà÷åí äëÿ îõîòû, ñïîðòèâíûõ ñîðåâíîâàíèé (êàê ïðàâèëî, ïî ïðàêòè÷åñêîé ñòðåëüáå â îòêðûòîì êëàññå), ñàìîîáîðîíû, à òàêæå èñïîëüçîâàíèÿ â êà÷åñòâå ñëóæåáíîãî îðóæèÿ. ßâëÿåòñÿ ïðÿìûì êîíêóðåíòîì ðóæüÿì ñåðèè «Ñàéãà-12».</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1 \n\n\n %c[255,1,255,255] • %c[default] Silencer PBS-1 \n\n Vepr-12 the hammer is a Russian smoothbore self-loading carbine,developed on the basis of the construction of a Kalashnikov machine gun. Designed for hunting,sports competitions (usually for practical shooting in open class),self-defense,and use as a service weapon. Is a direct competitor to the Saiga-12 series.</text>
 	</string>
 	<string id="st_wpn_svt40">
-		<text>ÑÂÒ-40</text>
+	<text>SVT-40</text>
 	</string>
 	<string id="st_wpn_svt40_descr">
-		<text>7,62-ìì ñàìîçàðÿäíàÿ âèíòîâêà ñèñòåìû Òîêàðåâà îáðàçöà 1940 ãîäà (ÑÂÒ-40), à òàêæå àâòîìàòè÷åñêàÿ âèíòîâêà Òîêàðåâà îáðàçöà 1940 ãîäà - ìîäèôèêàöèè ñîâåòñêîé ñàìîçàðÿäíîé âèíòîâêè, ðàçðàáîòàííîé Ô. Â. Òîêàðåâûì. ÑÂÒ-38 áûëà ðàçðàáîòàíà â êà÷åñòâå çàìåíû àâòîìàòè÷åñêîé âèíòîâêè Ñèìîíîâà è 26 ôåâðàëÿ 1939 ïðèíÿòà íà âîîðóæåíèå Êðàñíîé àðìèè. Ïåðâàÿ ÑÂÒ îáð. 1938 ãîäà áûëà âûïóùåíà 16 èþëÿ 1939 ãîäà. Ñ 1 îêòÿáðÿ 1939 ãîäà íà÷àëñÿ âàëîâûé âûïóñê íà Òóëüñêîì, à ñ 1940 ãîäà - íà Èæåâñêîì îðóæåéíîì çàâîäå.</text>
+	<text>7, 62-mm self-loading rifle of the Tokarev system of the 1940 model (SVT-40), as well as the Tokarev automatic rifle of the 1940 model- the modification of the Soviet self-loading rifle developed by FV Tokarev. SVT-38 was developed as a replacement for the automatic rifle Simonov and 26 February 1939 adopted the Red Army. the first CBT arr. 1938 was released on July 16, 1939. Since October 1, 1939, gross output began at Tula, and since 1940-at the Izhevsk Arms Factory.</text>
 	</string>
 	<string id="st_wpn_pkp">
-		<text>ÏÊÏ «Ïå÷åíåã»</text>
+	<text>BCP Pecheneg</text>
 	</string>
 	<string id="st_wpn_pkp_descr">
-		<text>7,62-ìì ïóëåì¸ò ÏÊÏ «Ïå÷åíåã» (Èíäåêñ ÃÐÀÓ - 6Ï41) - ðîññèéñêèé åäèíûé ïóëåì¸ò, ðàçðàáîòàííûé íà îñíîâå ÏÊÌ. Ïðåäíàçíà÷åí äëÿ ïîðàæåíèÿ æèâîé ñèëû ïðîòèâíèêà, îãíåâûõ è òðàíñïîðòíûõ ñðåäñòâ, âîçäóøíûõ öåëåé. Ðàçðàáîòàí ÖÍÈÈòî÷ìàø.</text>
+	<text>7.62 mm machine gun PKC Pecheneg (GRAU-6P41 index) is a Russian single machine gun developed on the basis of PKM. Designed to engage the enemy's manpower, fire and transport vehicles, air targets. It was developed by TsNIItotmash.</text>
 	</string>
 	<string id="st_wpn_m249">
 		<text>M249</text>
 	</string>
 	<string id="st_wpn_m249_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \nÐó÷íîé ïóëåì¸ò êàëèáðà 5,56x45 ìì ïðîèçâîäñòâà Fabrique Nationale (Áåëüãèÿ), ñåðèéíîå ïðîèçâîäñòâî íà÷àëîñü â 1980-õ. Ðàçðàáîòêó ýòîãî îðóæèÿ îòäàëè ïåðñïåêòèâíîìó êîíñòðóêòîðó Ýðíåñòó Âåðâèåðó, ñîçäàòåëþ ïóëåìåòà FN MAG.</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n A hand machine gun caliber 5,56x45 mm manufactured by Fabrique Nationale (Belgium),mass production began in the 1980s. the development of this weapon was given to the promising designer Ernest Verviere,the creator of the machine gun FN MAG.</text>
 	</string>
 	<string id="st_wpn_m79">
 		<text>M79</text>
 	</string>
 	<string id="st_wpn_m79_descr">
-		<text>M79  - îäíîçàðÿäíûé 40-ìì ãðàíàòîì¸ò, ïðèíÿòûé íà âîîðóæåíèå â 1961 ãîäó àðìèåé ÑØÀ. Ðàçðàáîòàí â ïåðèîä 1951-1961 ãîäîâ àìåðèêàíñêîé êîðïîðàöèåé Ñïðèíãôèëäñêèé àðñåíàë (àíãë. Springfield Armory). Íåîôèöèàëüíîå íàçâàíèå  - «ñëîíîâîå ðóæüå».</text>
+	<text>M79-single-shot 40 mm grenade launcher, adopted in service in 1961 by the US Army. Developed in the period 1951-1961 by the American corporation Springfield Arsenal (English Springfield Armory). the unofficial name is the elephant gun.</text>
         </string>
 	<!-- HK USP -->
   <string id="st_wpn_usp">
@@ -1424,10 +1400,10 @@
   </string>
 	<!-- ÑÐ-3 «Âèõðü» -->
 	<string id="st_wpn_vihr">
-		<text>ÑÐ-3 «Âèõðü»</text>
+	<text>SR-3 Vortex</text>
 	</string>
 	<string id="st_wpn_vihr_descr">
-		<text>ÑÐ-3 «Âèõðü» - êîìïàêòíûé ðîññèéñêèé àâòîìàò, ðàçðàáîòàííûé â êëèìîâñêîì ÖÍÈÈòî÷ìàø êîíñòðóêòîðàìè À. Ä. Áîðèñîâûì è Â. Í. Ëåâ÷åíêî â 1994 ãîäó. Äîâîäèëñÿ äî âûïóñêà êîíñòðóêòîðîì À. È. Òàøëûêîâûì è áûë çàïóùåí â ñåðèéíîå ïðîèçâîäñòâî â 1996 ãîäó. Ñîçäàí íà îñíîâå áåñøóìíîãî àâòîìàòà ÀÑ «Âàë», ñ êîòîðûì óíèôèöèðîâàí ïî îñíîâíûì äåòàëÿì, ÷òî ïîëîæèòåëüíî ñêàçûâàåòñÿ íà ïðîèçâîäñòâå è ýêñïëóàòàöèè îðóæèÿ.</text>
+	<text>SR-3 Vortex is a compact Russian automaton, developed in Klimovsk by TsNIItotmash by designers A. D. Borisov and V. N. Levchenko in 1994. It was brought to the release by the designer AI Tashlykov and was put into serial production in 1996. It is created on the basis of a silent automatic machine AC Val, with which it is unified for basic details, which positively affects the production and operation of weapons.</text>
 	</string>
 	<!-- ÂÑÑ «Âèíòîðåç» -->
  <string id="st_wpn_vintorez">
@@ -1447,13 +1423,13 @@
 		<text>USAS-12</text>
 	</string>
 	<string id="st_wpn_usas12_descr">
-		<text>USAS-12 - àâòîìàòè÷åñêîå ðóæü¸, ðàçðàáîòàííîå Äæîíîì Òðåâîðîì â êîíöå 1980-õ ãîäîâ íà îñíîâå èäåé äðóãîãî àìåðèêàíñêîãî êîíñòðóêòîðà Ìàêñâåëëà Àò÷èññîíà, ñîçäàâøåãî Atchisson Assault Shotgun.</text>
+	<text>USAS-12 is an automatic rifle designed by John Trevor in the late 1980s on the basis of the ideas of another American designer Maxwell Atchisson who created Atchisson Assault Shotgun.</text>
 	</string>
 	<string id="st_wpn_rpd">
-		<text>ÐÏÄ</text>
+	<text>RAP</text>
 	</string>
 	<string id="st_wpn_rpd_descr">
-		<text>Â 1944 ãîäó íà êîíêóðñíûõ èñïûòàíèÿõ âïåð¸ä âûøåë îáðàçåö êîíñòðóêöèè Äåãòÿð¸âà, èçâåñòíûé êàê ÐÄ-44. Ïóëåì¸òû ÐÄ-44 äî êîíöà âîéíû áûëè èçãîòîâëåíû ìàëîé ñåðèåé è ïðîõîäèëè èñïûòàíèÿ â âîéñêàõ. Âñêîðå ïîñëå âîéíû ìîäåðíèçèðîâàííûé âàðèàíò ýòîãî ïóëåì¸òà, àäàïòèðîâàííûé ïîä ñòàâøèé ñòàíäàðòíûì ïàòðîí 7,62x39 ìì, áûë ïðèíÿò íà âîîðóæåíèå Ñîâåòñêîé àðìèè êàê «Ðó÷íîé ïóëåì¸ò ñèñòåìû Äåãòÿð¸âà (ÐÏÄ)».</text>
+	<text>In 1944, on a competitive test sample came forward Degtyaryova design, known as the RD-44 machine gun with RD-44 to the end of the war were produced in small series and were tested in the armed forces. Soon after the war, a modernized version of this machine gun, adapted to become a standard cartridge 7.62x39 mm, was adopted by the Soviet Army as a Manual machine gun of the Degtyarev system (RPD).</text>
 	</string>
   <string id="st_wpn_wincheaster1300">
 		<text>Chaser 13</text>
@@ -1468,143 +1444,143 @@
 		<text>The PFM-1 is an anti-personnel mine which became infamous for causing large numbers of civilian casualties. Often referred to as a butterfly mine due to its unusual shape.</text>
   </string>
 	<string id="st_addons_box">
-		<text>Èíñòðóìåíò «Ñíÿòü ïðèöåë»</text>
+	<text>Tool Remove sight</text>
 	</string>
 	<string id="st_addons_box_descr">
-		<text>Ñíèìàåò ñ îðóæèÿ íàäåòûé íà íåãî ïðèöåë.</text>
+	<text>He takes off his gun on the gun.</text>
     </string>
     <!-- Walther WA 2000 -->
 	<string id="st_wpn_wa2000">
 		<text>Walther WA 2000</text>
 	</string>
 	<string id="st_wpn_wa2000_descr">
-		<text>WA2000 (Walther Automat 2000) - ñíàéïåðñêàÿ âèíòîâêà êîìïîíîâêè áóëë-ïàï,ðàçðàáîòàíà îðóæåéíûì êîíöåðíîì «Walther». Âñåãî áûëî âûïóùåíî 176 âèíòîâîê (îòêóäà Øóñòðûé å¸ äîñòàë - òîò åù¸ âîïðîñ).</text>
+	<text>WA2000 (Walther Automat 2000) is a sniper rifle of the Bull-Pop configuration, developed by the gun company Walther. In total, 176 rifles were produced (where Nimble got it-that's another question).</text>
 	</string>
    <string id="st_knife_survival">
-        <text>Íîæ âûæèâàíèÿ</text>
+	<text>Survival knife</text>
     </string>
     <string id="st_knife_survival_descr">
         <text>Êîðîòêèé íåñêëàäíîé íîæ âûæèâàíèÿ. Åãî ëåãêî ñêðûòü èç-çà íåáîëüøîãî ðàçìåðà. Ðåçèíîâàÿ ðóêîÿòü ïîçâîëÿåò óëó÷øèòü óïðàâëÿåìîñòü.</text>
     </string>
     <string id="st_knife_spetsnaz">
-        <text>ÍÐ-2</text>
+	<text>HP-2</text>
     </string>
     <string id="st_knife_spetsnaz_descr">
-        <text>Íîæ âîåííîãî ïðîèçâîäñòâà åù¸ ñîâåòñêèõ âðåì¸í. Íð-2 ïðåäñòàâëÿåò ñîáîé âàðèàíò ÍÐÑ-2, íî áåç ìåõàíèçìà ñòðåëüáû.</text>
+	<text>the knife of military production still Soviet times. Íð-2 is a variant of HPC-2, but without the firing mechanism.</text>
     </string>
     <string id="st_knife_tanto">
-        <text>Òàíòî</text>
+	<text>Tanto</text>
     </string>
     <string id="st_knife_tanto_descr">
-        <text>Ñîâðåìåííûé áîåâîé íîæ â ñòèëå «òàíòî». «Òàíòî» áóêâàëüíî îçíà÷àåò «êîðîòêèé íîæ», ïîÿâèëèñü îíè â ßïîíèè â ôåîäàëüíóþ ýïîõó. Ïðîèñõîæäåíèå ýòîãî íîæà íåèçâåñòíî, êàê è ñòîÿùåå íà í¸ì êëåéìî.</text>
+	<text>Modern combat knife in the style of tanto. Tanto literally means a short knife, they appeared in Japan in the feudal era. the origin of this knife is unknown, as well as the brand on it.</text>
     </string>
     <string id="st_knife_colt">
         <text>Colt 62316</text>
     </string>
     <string id="st_knife_colt_descr">
-        <text>Colt 62316 - ýòî àìåðèêàíñêèé âîåííûé øòûê Ì7, ïðåäíàçíà÷åííûé äëÿ êðåïëåíèÿ ê âèíòîâêå èëè äðîáîâèêó. Ïðèíÿòûé íà âîîðóæåíèå â 1964 ãîäó, îí âïåðâûå íà÷àë ñëóæáó â âîéíå âî Âüåòíàìå.</text>
+	<text>Colt 62316 is an American military bayonet M7, intended for attachment to a rifle or shotgun. Adopted in 1964, he first began serving in the war in Vietnam.</text>
     </string>
     <string id="st_knife_extrema">
         <text>Extrema Ratio MK 2.1</text>
     </string>
     <string id="st_knife_extrema_descr">
-        <text>Extrema Ratio MK 2.1 ïðåäñòàâëÿåò ñîáîé ñòàëüíîé íîæ íà áàçå èñòîðè÷åñêîãî USMC Ka-Bar. Ðàçðàáîòàí è ïðîèçâåä¸í äëÿ èòàëüÿíñêèõ âîåííûõ è ñèë ñïåöèàëüíîãî íàçíà÷åíèÿ.</text>
+	<text>Extrema Ratio MK 2.1 is a steel knife based on the historic USMC Ka-Bar. Designed and manufactured for the Italian military and special forces.</text>
     </string>
     <string id="st_knife_hunting">
-        <text>Îõîòíè÷èé íîæ</text>
+	<text>Hunting knife</text>
     </string>
     <string id="st_knife_hunting_descr">
-        <text>Ñîâðåìåííûé êàìóôëèðîâàííûé îõîòíè÷èé íîæ. Ïðèìåðíî ïîëäþæèíû çóáöîâ âäîëü âåðõíåé ÷àñòè ëåçâèÿ äåëàåò åãî óäàëåíèå èç ðàíû âåñüìà çàòðóäíèòåëüíûì.</text>
+	<text>A modern camouflaged hunting knife. Approximately half a dozen teeth along the top of the blade makes it very difficult to remove it from the wound.</text>
     </string>
 	<string id="st_addon_scope_1p29_detector">
-		<text>Ïðèöåë ÓÑÏ-1 «Òþëüïàí» (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	<text>Sight USP-1 Tulip (Adjustable multiplicity)</text>
 	</string>
 	<string id="st_addon_scope_1p29_detector_descr">
-		<text>Óíèôèöèðîâàííûé ñòðåëêîâûé ïðèöåë ÓÑÏ-1 ïðåäíàçíà÷åí äëÿ âåäåíèÿ ïðèöåëüíîé ñòðåëüáû èç àâòîìàòà ÀÊ-74Í, ÀÊ-74Ì, ÀÍ-94 è ïóëåìåòîâ ÐÏÊ-74Í è ÏÊÌÍ â ñâåòëîå âðåìÿ ñóòîê è íî÷üþ ïî ñâåòÿùèìñÿ è ïîäñâå÷èâàåìûì öåëÿì. 1Ï29 - èíäåêñ ïðèöåëà ÓÑÏ-1 Ãëàâíîãî àðòèëëåðèéñêîãî óïðàâëåíèÿ ÌÎ ÑÑÑÐ. Ñîçäàí â ðàìêàõ ÎÊÐ «Òþëüïàí», îòêóäà è ïîëó÷èë ñâî¸ íàçâàíèå. (îäíà óñòàíîâêà)</text>
+	<text>the unified rifle sight USP-1 is designed for targeting shooting from the AK-74N, AK-74M, AN-94 and RPK-74N and PKMN machine guns at daylight and at night for luminous and illuminated targets. 1P29- the index of the USP-1 sighting of the Main Artillery Directorate of the USSR Ministry of Defense. Created by in the framework of the ROC Tulip, from where it got its name. (one setting)</text>
 	</string>
 	<string id="st_addon_scope_pso-1m2-01_detector">
-		<text>Ïðèöåë ÏÑÎ-1Ì2-01 (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	<text>PSO sight-1Ì2-01 (Adjustable multiplicity)</text>
 	</string>
 	<string id="st_addon_scope_pso-1m2-01_detector_descr">
-		<text>ÏÑÎ-1Ì2-01 - ïðèöåë äëÿ ïðèöåëüíîé ñòðåëüáû èç ñïåöèàëüíîé ñíàéïåðñêîé âèíòîâêè (íàðåçíîé) ÂÑÑ êàëèáðà 9 ìì è ñïåöèàëüíîãî àâòîìàòà ÀÑ êàëèáðà 9 ìì. Ïðèöåëüíûå øêàëû ðàññ÷èòàíû äëÿ ñòðåëüáû îò 100 ì äî 400 ìåòðîâ (øàã 50 ìåòðîâ). Äëÿ ñòðåëüáû â ñóìåðêàõ â ïðèöåëàõ ïðåäóñìîòðåíà ïîäñâåòêà ñåòêè. Â êà÷åñòâå èñòî÷íèêà ïèòàíèÿ â íàñòîÿùåå âðåìÿ âçàìåí àêêóìóëÿòîðà 2ÐÖ63 ïðèìåíÿåòñÿ ñòàíäàðòíàÿ áàòàðåÿ òèïà ÀÀ. (îäíà óñòàíîâêà)</text>
+	<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2ÐÖ63. (one setting)</text>
 	</string>
 	<string id="st_addon_scope_acog_detector">
-		<text>Ïðèöåë ACOG (Ðåãóëèðóåìàÿ êðàòíîñòü)</text>
+	<text>ACOG sight (Adjustable multiplicity)</text>
 	</string>
 	<string id="st_addon_scope_acog_detector_descr">
-		<text>4-õ êðàòíûé îïòè÷åñêèé ïðèöåë äëÿ âèíòîâîê ÍÀÒÎ. (îäíà óñòàíîâêà)</text>
+	<text>4-fold optical sight for NATO rifles. (one setting)</text>
 	</string>
 	<string id="st_wpn_m4a1-s">
-		<text>M4A1 "Ñàéðåêñ"</text>
+	<text>M4A1 'Cyrex'</text>
 	</string>
 	<string id="st_wpn_m4a1-s_descr">
-		<text>Ì4À1 ñ èíòåãðèðîâàííûì ãëóøèòåëåì è óíèêàëüíîé ðàñêðàñêîé ïîä íàçâàíèåì "Ñàéðåêñ".</text>
+	<text>M4A1 with integrated silencer and unique coloring called 'Cyrex'.</text>
 	</string>
 	<string id="st_wpn_mn91">
-		<text>Âèíòîâêà Ìîñèíà</text>
+	<text>Mosin rifle</text>
 	</string>
 	<string id="st_wpn_mn91_descr">
-		<text>Âèíòîâêà Ìîñèíà-Íàãàíà îáð. 1891/30 ãã.- ìàãàçèííàÿ âèíòîâêà, ïðèíÿòàÿ íà âîîðóæåíèå Ðîññèéñêîé Èìïåðàòîðñêîé Àðìèè â 1891 ãîäó è èñïîëüçóåìàÿ âîîðóæåííûìè ñèëàìè Ðîññèéñêîé Èìïåðèè, ÑÑÑÐ è ìíîãèõ äðóãèõ ñòðàí. Òåõíèêè íå çàèíòåðåñîâàíû â àïãðåéäå ýòîãî îðóæèÿ.</text>
+	<text>Rifle Mosin-Nagan arr. 1891/30 -Shop rifle, adopted by the Russian Imperial Army in 1891 and used by the armed forces of the Russian Empire, the USSR and many other countries. Technicians are not interested in upgrading these weapons.</text>
         </string>
 	<string id="st_wpn_m4a4_howl">
-		<text>M4A4 "Âîé"</text>
+	<text>M4A4 'Howling'</text>
 	</string>
 	<string id="st_wpn_m4a4_howl_descr">
-		<text>Óíèêàëüíàÿ âèíòîâêà Ì4 ñ âðó÷íóþ íàíåñ¸ííûì èçîáðàæåíèåì ñêàëÿùåãîñÿ âîëêà.</text>
+	<text>A unique M4 rifle with a hand-painted image of a grinning wolf.</text>
 	</string>
 	<string id="st_wpn_trg22">
 		<text>TRG-22</text>
 	</string>
 	<string id="st_wpn_trg22_descr">
-		<text>Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí 7.62õ51, ðàçðàáîòàííàÿ ôèíñêîé êîìïàíèåé SAKO â ã. Ðèéõèìÿêè. Âèíòîâêè ñåðèè Sako TRG îòëè÷àþòñÿ âûñîêîé òî÷íîñòüþ ñòðåëüáû è æèâó÷åñòüþ, è øèðîêî èñïîëüçóþòñÿ ñèëîâûìè ñòðóêòóðàìè åâðîïåéñêèõ ñòðàí.</text>
+	<text>Sniper rifle with a longitudinally sliding shutter for the cartridge 7.62x51, developed by the Finnish company SAKO in Riihimaki. Sako TRG series rifles are highly accurate shooting and survivability, and are widely used by the power structures of European countries.</text>
 	</string>
   <string id="st_wpn_svd_nimble">
-    <text>Lynx</text>
+	<text>SVDM</text>
   </string>
 
   <string id="st_wpn_svd_nimble_descr">
-		<text>A hand-assembled version of the SVDm-2 sniper rifle. No different in appearance, it nonetheless provides an ideal combination of accuracy and stopping power.</text>
+	<text>the upgraded version of the sniper rifle, which as a result received not only a more modern design, but also increased its technical characteristics in comparison with the SVD.</text>
   </string>
 	<string id="st_wpn_stg58">
 		<text>StG 58</text>
 	</string>
 
 	<string id="st_wpn_stg58_descr">
-		<text>Sturmgewehr 58 (StG 58) - øòóðìîâàÿ âèíòîâêà FAL, âûïóñêàåìàÿ ïî ëèöåíçèè êîìïàíèåé Steyr-Daimler-Puch è ðàíåå ÿâëÿëàñü ñòàíäàðòíîé âèíòîâêîé àâñòðèéñêîé àðìèè. ßâëÿåòñÿ àäàïòèðîâàííîé ïîä ñòàíäàðòû ÍÀÒÎ âèíòîâêîé FAL è äî ñèõ ïîð èñïîëüçóåòñÿ ÂÑ Àâñòðèè. Âèíòîâêà áûëà âûáðàíà ïî ðåçóëüòàòàì êîíêóðñà 1958 ãîäà, ïîáåäèâ èñïàíñêèé CETME è àìåðèêàíñêèé AR-10.</text>
+	<text>Sturmgewehr 58 (StG 58)-FAL assault rifle, manufactured under license from Steyr-Daimler-Puch and was previously a standard rifle of the Austrian army. It is adapted to NATO standards by the FAL rifle and is still used by the Austrian Armed Forces. the rifle was chosen based on the results competition in 1958, beating Spanish CETME and American AR-10.</text>
 	</string>
 	<string id="st_wpn_m60">
 		<text>M60</text>
 	</string>
 
 	<string id="st_wpn_m60_descr">
-		<text>Ðó÷íîé ïóëåì¸ò êàëèáðà 7.62 ñ ëåíòî÷íûì ïèòàíèåì, ðàçðàáîòàííûé â 1975 ãîäó. Ïðèíÿòûé íà âîîðóæåíèå êàæäîãî ïîäðàçäåëåíèÿ àðìèè ÑØÀ, îí ïîÿâèëñÿ è íà ÷¸ðíîì ðûíêå, òàêèì îáðàçîì äîáðàâøèñü è äî Çîíû.</text>
+	<text>A manual caliber 7.62 machine gun with belt feed, developed in 1975. Adopted by each unit of the US Army, it also appeared on the black market, thus getting to the Zone.</text>
 	</string>
   <string id="st_wpn_groza_nimble">
-    <text>Storm</text>
+	<text>OC-Storm-2A</text>
   </string>
 
   <string id="st_wpn_groza_nimble_descr">
 		<text>An experimental version of an assault rifle and grenade launcher system, a Russian modification of the standard Tunder S14, this weapon was specially designed for units operating in the Zone. Notable for its increased magazine capacity.</text>
   </string>
 	<string id="st_wpn_groza1_descr">
-		<text>Âàðèàíò ñòðåëêîâî-ãðàíàòîì¸òíîãî êîìïëåêñà ïîä ïàòðîí 7,62x39ìì. Ðàçðàáîòàí äëÿ âîîðóæåíèÿ ïîäðàçäåëåíèé áûñòðîãî ðåàãèðîâàíèÿ. Î÷åíü öåíèì âîåííûìè è ñòàëêåðàìè çà ñïîñîáíîñòü íàä¸æíî ïîðàæàòü çàùèù¸ííîãî áðîíåæèëåòîì èëè ðàñïîëîæåííîãî â óêðûòèè ïðîòèâíèêà.</text>
+	<text>Variant of the rifle-grenade launcher complex for the cartridge 7,62x39mm. Designed for the armament of rapid reaction ulouse. We highly value the military and stalkers for their ability to reliably defeat the protected by bulletproof vest or sheltered enemy.</text>
 	</string>
 	<string id="st_wpn_groza1">
-		<text>ÎÖ-14-1À «Ãðîçà-1»</text>
+	<text>OC-??14-1A Thunderstorm-1</text>
 	</string>
 	<string id="st_wpn_m14">
 		<text>M14 EBR</text>
 	</string>
 
 	<string id="st_wpn_m14_descr">
-		<text> Mark 14 EBR (Mk 14 Enhanced Battle Rifle, «óëó÷øåííàÿ áîåâàÿ âèíòîâêà») — àìåðèêàíñêàÿ ìàðêñìàíñêàÿ âèíòîâêà, ñîçäàííàÿ ñèëàìè ñïåöèàëüíûõ îïåðàöèé ÂÌÔ ÑØÀ íà îñíîâå âèíòîâêè Ì14. Èñïîëüçóåòñÿ ðÿäîì ñïåöïîäðàçäåëåíèé ÂÌÔ, â òîì ÷èñëå SEAL.Îñíîâíûå îòëè÷èÿ îò M14: íîâàÿ ëîæà (ðàçðàáîòêà êîìïàíèè Smith Enterprises), òåëåñêîïè÷åñêèé ïðèêëàä, ïèñòîëåòíàÿ ðóêîÿòêà, íåñêîëüêî ïëàíîê Ïèêàòèííè è íåêîòîðûå «êîììåð÷åñêèå» êîìïîíåíòû, íàïðèìåð, íîâûé ïðåöèçèîííûé ñòâîë è ãàçîâûé öèëèíäð..</text>
+	<text>Mark 14 EBR (Mk 14 Enhanced Battle Rifle, improved combat rifle) is an American Marksman rifle created by special operations of the US Navy based on the M14 rifle. It is used by a number of special forces of the Navy, including SEAL. the main differences from M14: a new box (the development of the company Smith Enterprises), a telescopic butt, a pistol grip, several Picatinny slats and some commercial components, for example a new precision barrel and a gas cylinder.</text>
 	</string>
 	<string id="st_wpn_hk417">
 		<text>H&K HK417</text>
 	</string>
 
 	<string id="st_wpn_hk417_descr">
-		<text>HK417 — àâòîìàòè÷åñêàÿ âèíòîâêà êàëèáðà 7,62 ìì, ñîçäàííàÿ íà îñíîâå HK416. Îñîáåííîñòü âèíòîâêè — ìîäóëüíàÿ êîíñòðóêöèÿ, ñõîæàÿ ñ òàêîâîé ó àâòîìàòè÷åñêîé âèíòîâêè M16, íî îòëè÷àþùàÿñÿ ñèñòåìîé ãàçîîòâîäíîé àâòîìàòèêè ñ êîðîòêèì õîäîì ãàçîâîãî ïîðøíÿ, êàê ó HK G36.</text>
+	<text>HK417-automatic rifle of 7.62 mm caliber, created on the basis of HK416. the feature of the rifle is a modular design similar to that of the M16 automatic rifle, but differing in the gas escape system with a short stroke of the gas piston, as in the HK G36.</text>
 	</string>
   <string id="st_wpn_vintorez_nimble">
     <text>Tide</text>
@@ -1617,7 +1593,7 @@
 		<text>ÑÊÑ</text>
 	</string>
 	<string id="st_wpn_sks_descr">
-		<text>7,62-ìì ñàìîçàðÿäíûé êàðàáèí Ñèìîíîâà (ÑÊÑ, Èíäåêñ ÃÐÀÓ - 56-À-231, çà ðóáåæîì òàêæå èçâåñòåí êàê ÑÊÑ-45) - ñîâåòñêèé ñàìîçàðÿäíûé êàðàáèí êîíñòðóêöèè Ñåðãåÿ Ñèìîíîâà, ïðèíÿò íà âîîðóæåíèå â 1949 ãîäó.</text>
+	<text>7.62-mm self-loading Simonov carbine (SCS, GRAU index-56-A-231, also known as SCS-45 abroad)-Soviet self-loading carbine designed by Sergei Simonov, adopted in 1949.</text>
 	</string>
 	<string id="st_wpn_ak12_762">
 		<text>AK-12 M43</text>
@@ -1628,90 +1604,90 @@
 	</string>
 
 	<string id="st_wpn_m134">
-		<text>Ìèíèãàí M134</text>
+	<text>Minigun M134</text>
 	</string>
 
 	<string id="st_wpn_m134_descr">
-		<text>Ìíîãîñòâîëüíûé ïóëåì¸ò, ïîëó÷èâøèé èíäåêñ Ì134, ïðîèçâîäèëñÿ êîìïàíèåé Äæåíåðàë Ýëåêòðèê. Âïåðâûå ïðèìåí¸í âî âðåìÿ Âüåòíàìñêîé âîéíû è ïîêàçàë ñâîþ ýôôåêòèâíîñòü. Èñïîëüçóåìûé áîåïðèïàñ — ïàòðîí 7,62 ÍÀÒÎ. Ïðèâîä ïîâîðîòà áëîêà ñòâîëîâ — ýëåêòðè÷åñêèé. Ñêîðîñòðåëüíîñòü ðåãóëèðóåòñÿ ðåîñòàòîì ýëåêòðîïðèâîäà è âàðüèðóåòñÿ îò 3000 äî 6000 âûñòðåëîâ â ìèíóòó.</text>
+	<text>the multi-barreled machine gun, which received the M134 index, was manufactured by GE. It was first used during the Vietnam War and showed its effectiveness. Used ammunition-cartridge 7.62 NATO. Drive the rotation of the block of trunks-electric. the rate of fire is regulated by the rheostat electric drive and varies from 3000 to 6000 rounds per minute.</text>
 	</string>
 	<string id="st_wpn_ace21">
 		<text>Galil ACE-21</text>
 	</string>
 	<string id="st_wpn_ace21_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÍÀÒÎ\n \nGalil ACE - èçðàèëüñêîå ñåìåéñòâî àâòîìàòè÷åñêîãî îðóæèÿ, äàëüíåéøåå ðàçâèòèå àâòîìàòà Galil (â ñâîþ î÷åðåäü ÿâëÿþùåãîñÿ «ïîòîìêîì» àâòîìàòà Êàëàøíèêîâà).</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n\n %c[255,1,255,255] • %c[default] NATO silencer \n\n Galil ACE is an Israeli family of automatic weapons,the further development of the Galil automaton (which in turn is a descendant of the Kalashnikov assault rifle).</text>
 	</string>
 	<string id="st_wpn_vityaz">
-		<text>ÏÏ-19-01 "Âèòÿçü"</text>
+	<text>PP-19-01 ' the Knight'</text>
 	</string>
 	<string id="st_wpn_vityaz_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû ACOG, Barska ES AC10632, Barska Red Dot AC11090, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÏÁÑ-1\n \nÂàðèàíò ÏÏ-19 ñ 30-çàðÿäíûì ñåêòîðíûì ìàãàçèíîì ïîä ïàòðîí 9x19 ìì, ðàçðàáîòàí â 2004 ãîäó. Ïðèìåíÿåòñÿ äëÿ âîîðóæåíèÿ ïàòðóëüíî-ïîñòîâûõ ñëóæá, ÃÈÁÄÄ, âíóòðèâåäîìñòâåííîé îõðàíû, è ïîäðàçäåëåíèé ÌÂÄ ÐÔ.</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech \n\n\n %c[255,1,255,255] • %c[default] Silencer PBS-1 \n\n Option PP-19 with a 30-charge sector magazine for the cartridge 9x19 mm,developed in 2004. It is used for arming patrol and guard services,traffic police,internal security,and un its of the Ministry of Internal Affairs of the Russian Federation.</text>
 	</string>
 	<string id="st_wpn_mp412">
 		<text>MP-412 REX</text>
 	</string>
 
 	<string id="st_wpn_mp412_descr">
-		<text>Ðåâîëüâåð ðîññèéñêîãî ïðîèçâîäñòâà ïîä ïàòðîí 0.45 ACP ñ øåñòèçàðÿäíûì áàðàáàíîì è àâòîìàòè÷åñêèì ýæåêòîðîì. Ïðåäíàçíà÷àëñÿ äëÿ ýêñïîðòà (REX – Revolver for Export), îäíàêî â ìàññîâîå ïðîèçâîäñòâî òàê è íå ïîø¸ë. Ðåâîëüâåð áûë ðàçðàáîòàí  â êîíöå 1990-õ íà Èæåâñêîì ìåõàíè÷åñêîì çàâîäå, ðîññèéñêîì îðóæåéíîì ïðåäïðèÿòèè, íà êîòîðîì òàêæå áûë ðàçðàáîòàí è ïðîèçâîäèëñÿ èçâåñòíûé ÏÌ.</text>
+	<text>A Russian-made revolver for the cartridge 0. 45 ACP with a six-shot drum and an automatic ejector. It was intended for export (REX-Revolver for Export), but did not go into mass production. the revolver was developed in the late 1990s at the Izhevsk Mechanical Plant, the Russian Arms enterprise, which also developed and produced a well-known PM.</text>
 	</string>
 	<string id="st_wpn_fnc">
 		<text>FN FNC</text>
 	</string>
 	<string id="st_wpn_fnc_descr">
-		<text>FN FNC (Fabrique Nationale Carabine - êàðàáèí ôèðìû FN) - áåëüãèéñêèé àâòîìàò, ñîçäàííûé îðóæåéíîé ôèðìîé Fabrique Nationale de Herstal äëÿ çàìåíû óñòàðåâøåé FN FAL, ïîñëå íåóäà÷è ñ ïåðâûì âàðèàíòîì îðóæèÿ ïîä ìàëîèìïóëüñíûé ïàòðîí êàëèáðà 5,56 ìì ÍÀÒÎ FN CAL.</text>
+	<text>FN FNC (Fabrique Nationale Carabine-FN carbine) is a Belgian machine created by the armory firm Fabrique Nationale de Herstal to replace the obsolete FN FAL, after failing with the first version of the weapon for a 5.56 mm NATO FN CAL small-pulse cartridge.</text>
 	</string>
 	<string id="st_wpn_mtar21">
 		<text>MTAR-21</text>
 	</string>
 	<string id="st_wpn_mtar21_descr">
-		<text>MTAR-21 - êàðàáèí ñ êîìïîíîâêîé "áóëë-ïàï" ÿâëÿåòñÿ óëüòðà-êîìïàêòíîé âåðñèåé ñòàíäàðòíîé âèíòîâêè èçðàèëüñêîé àðìèè TAR-21. Îáëàäàåò âåëèêîëåïíîé ýðãîíîìèêîé è ëåãîê â îáðàùåíèè, áëàãîäàðÿ äëèíå âñåãî â 590 ìì. Ïðåäíàçíà÷åí äëÿ èñïîëüçîâàíèÿ â óñëîâèÿõ ãîðîäñêîãî áîÿ, êîãäà ñòàíäàðòíàÿ âèíòîâêà ñëèøêîì ãðîìîçäêà.</text>
+	<text>the MTAR-21-carbine with the 'Bull-Dad' arrangement is an ultra-compact version of the standard TAR-21 Israeli army rifle. It has excellent ergonomics and is easy to handle, thanks to a length of only 590 mm. Designed for use in urban combat, when a standard rifle too cumbersome.</text>
 	</string>
 	<string id="st_wpn_ppsh41">
 		<text>ÏÏØ-41</text>
 	</string>
 	<string id="st_wpn_ppsh41_descr">
-		<text>7,62-ìì ïèñòîëåò-ïóëåì¸ò îáðàçöà 1941 ãîäà ñèñòåìû Øïàãèíà (ÏÏØ) - ñîâåòñêèé ïèñòîëåò-ïóëåì¸ò, ðàçðàáîòàííûé â 1940 ãîäó êîíñòðóêòîðîì Ã. Ñ. Øïàãèíûì ïîä ïàòðîí 7,62x25 ìì ÒÒ è ïðèíÿòûé íà âîîðóæåíèå Êðàñíîé Àðìèè 21 äåêàáðÿ 1940 ãîäà. ÏÏØ íàðÿäó ñ ÏÏÑ-43 ÿâëÿëñÿ îñíîâíûì ïèñòîëåòîì-ïóëåì¸òîì ñîâåòñêèõ âîîðóæ¸ííûõ ñèë â Âåëèêîé Îòå÷åñòâåííîé âîéíå.</text>
+	<text>7, 62-mm submachine gun of the 1941 model of the Shpagin system (PPSh)-a Soviet submachine gun developed in 1940 by designer GS Shpagin for a cartridge 7.62x25 mm TT and adopted for service by the Red Army on December 21, 1940. PPSh along with PPS-43 was the main pistol-a machine gun Soviet armed forces in the Great Patriotic War.</text>
 	</string>
 	<string id="st_wpn_toz34_nimble">
-		<text>ÒÎÇ-34 "Îõîòíèê" </text>
+	<text>TOZ-34 'Hunter'</text>
 	</string>
 	<string id="st_wpn_toz34_nimble_descr">
-		<text>Óíèêàëüíûé ÒÎÇ-34 Ãîíòû ñ ïðèöåëîì Leupold Mark äëÿ ñòðåëüáû íà äàëüíèõ ðàññòîÿíèÿõ.</text>
+	<text>Unique TOZ-34 Gaunts with a Leupold Mark sight for shooting at long distances.</text>
 	</string>
 	<string id="st_wpn_trg42">
 		<text>TRG-42</text>
 	</string>
 
 	<string id="st_wpn_trg42_descr">
-		<text> Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí .338 Lapua, ðàçðàáîòàííàÿ ôèíñêîé êîìïàíèåé SAKO â ã. Ðèéõèìÿêè. Âèíòîâêè ñåðèè Sako TRG îòëè÷àþòñÿ âûñîêîé òî÷íîñòüþ ñòðåëüáû è æèâó÷åñòüþ, è øèðîêî èñïîëüçóþòñÿ ñèëîâûìè ñòðóêòóðàìè åâðîïåéñêèõ ñòðàí.</text>
+	<text>Sniper rifle with a longitudinally sliding shutter for the cartridge.338 Lapua, developed by the Finnish company SAKO in Riihimaki. Sako TRG series rifles are highly accurate shooting and survivability, and are widely used by the power structures of European countries.</text>
 	</string>
 	<string id="st_wpn_l115a3">
 		<text>L115A3</text>
 	</string>
 
     <string id="st_wpn_l115a3_descr">
-       <text> Ñíàéïåðñêàÿ âèíòîâêà ñ ïðîäîëüíî-ñêîëüçÿùèì çàòâîðîì ïîä ïàòðîí .338 Lapua. Ïåðâûå ýêçåìïëÿðû ñíàéïåðñêîé âèíòîâêè L115 íà÷àëè ïîñòóïàòü â áðèòàíñêóþ àðìèþ â íà÷àëå 2008 ã. Òèõèé, ïðàêòè÷åñêè íåñëûøíûé âûñòðåë è îãðîìíàÿ äàëüíîñòü ïðèöåëüíîãî âûñòðåëà äåëàþò ýòó âèíòîâêó ïî÷òè èäåàëüíûì ñíàéïåðñêèì îðóæèåì. Ýôôåêòèâíàÿ äàëüíîñòü L115A3 ñîñòàâëÿåò 1400 ìåòðîâ. Òàêîé ïðèðîñò äàëüíîñòè ñòðåëüáû îáîñíîâàë âûáîð 25-êðàòíîãî îïòè÷åñêîãî ïðèöåëà "Schmidt & Bender" âìåñòî 12-êðàòíîãî ïðèöåëà, óñòàíàâëèâàåìîãî íà âèíòîâêàõ L96. Â äàííîé êîíôèãóðàöèè ñïîñîáíà óíè÷òîæèòü öåëü îäíèì âûñòðåëîì â ëþáóþ òåìïåðàòóðó è äàæå ñ çàãðÿçíåííûì ñòâîëîì.</text>
+	<text>Sniper rifle with a longitudinally sliding shutter for the cartridge. 338 Lapua. the first copies of the sniper rifle L115 began to arrive in the British army in early 2008. A quiet, almost inaudible shot and a huge range of the aiming shot make this rifle almost perfect sniper weapons. the effective range of the L115A3 is 1400 meters. Such an increase in the range of fire justified the choice of a 25-fold optical sight 'Schmidt and Bender' instead of a 12-fold sight, which is mounted on rifles L96. In this configuration it is capable of destroying the target with one shot at any temperature and even with a contaminated barrel.</text>
                 </string>
 	<string id="st_wpn_mp7">
 		<text>H&K MP-7</text>
 	</string>
 
 	<string id="st_wpn_mp7_descr">
-		<text>Ïèñòîëåò-ïóëåìåò ÌÐ-7 PDW (Ïåðñîíàëüíîå Îðóæèå Ñàìîîáîðîíû), ðàçðàáîòàí ôèðìîé «Heckler & Koch» äëÿ âîîðóæåíèÿ âîåííîñëóæàùèõ, êîòîðûì ïî øòàòó íå ïîëîæåí ïîëíîöåííûé àâòîìàò. Ïî ñòàòèñòèêå, ïðèâîäèìîé ôèðìîé H&K, ýôôåêòèâíîñòü MP7 â äâà ñ ïîëîâèíîé ðàçà âûøå, ÷åì ó MP5K êàëèáðà 9õ19 ìì ïî öåëÿì â áðîíåæèëåòàõ, ïðè âäâîå ìåíüøåé îòäà÷å. </text>
+	<text>the submachine gun MP-7 PDW (Personal Self Defense Gun), developed by Heckler and Koch, for the arming of servicemen who do not have a full-fledged submachine gun. According to the statistics provided by H and K, the efficiency of MP7 is two and a half times higher than that of the MP5K of 9x19 mm caliber by the purposes in bullet-proof vests, with half the return.</text>
 	</string>
 	<string id="st_addon_scope_pu">
-		<text>Ïðèöåë ÏÓ</text>
+	<text>Sight of PU</text>
 	</string>
 	<string id="st_addon_scope_pus">
-		<text>ÏÓ</text>
+	<text>PU</text>
 	</string>
 	<string id="st_addon_scope_pu_descr">
-		<text>ÏÓ (îò Ïðèöåë Óêîðî÷åííûé) - ñîâåòñêèé îïòè÷åñêèé ïðèöåë, èçíà÷àëüíî ñîçäàííûé â 1940 ãîäó.</text>
+	<text>PU (from the Shortened Sight) is a Soviet optical sight, originally created in 1940.</text>
 	</string>
 	<string id="st_wpn_aek973">
-		<text>ÀÅÊ-973</text>
+	<text>AEK-973</text>
 	</string>
 	<string id="st_wpn_aek973_descr">
-		<text>\n%c[255,1,255,255]•%c[default] ïðèöåëû Êîáðà ÝÊÏ-1Ñ-03, Êîáðà ÝÊÏ-8-02, 1Ï29 «Òþëüïàí», ÏÑÎ-1\n \n\n%c[255,1,255,255]•%c[default] ïîäñòâîëüíûé ãðàíàòîì¸ò ÃÏ-25\n \n\n%c[255,1,255,255]•%c[default] ãëóøèòåëü ÒÃÏ-À\n \nÀâòîìàò âûïîëíåí ïî òðàäèöèîííîé êîìïîíîâî÷íîé ñõåìå (ïåðåäíåå ïîëîæåíèå ìàãàçèíà) è êîíñòðóêòèâíî â çíà÷èòåëüíîé ìåðå ïîâòîðÿåò àâòîìàò Êàëàøíèêîâà - èñïîëüçóåòñÿ ïîâîðîòíûé çàòâîð è àâòîìàòèêà ïåðåçàðÿäêè íà îñíîâå ãàçîâîãî äâèãàòåëÿ. Àâòîìàò ñïðîåêòèðîâàí ïîä ïàòðîíû êàëèáðîì 7,62x39 ìì, èìåþòñÿ òàêæå âàðèàíòû äàííîãî àâòîìàòà ïîä ïàòðîí 5,56 ìì ÍÀÒÎ (ÀÅÊ-972) è 5,45x39 ìì (ÀÅÊ-971).</text>
+	<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1 \n\n\n %c[255,1,255,255] • %c[default] Grenade launcher GP-25 \n\n\n %c[255,1,255,255] • %c[default] silencer TGP-A \n\n the machine is made according to the traditional layout scheme (front store position) and constructively largely repeats the Kalashnikov assault rifle-a rotary valve and automatic reloading mechanism based on a gas engine is used. the machine is designed for cartridges caliber 7.62x39 mm,there are also variants of this machine for the cartridge 5,56 mm NATO (AEK-972) and 5,45x39 mm (AEK-971).</text>
 	</string>
 	
 	<!-- Îòîáðàæåíèå êàëèáðà îðóæèÿ -->
