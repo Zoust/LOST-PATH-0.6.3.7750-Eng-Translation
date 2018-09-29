@@ -1,3 +1,5 @@
+- https://github.com/Zoust/LOST-PATH-0.5.9.4330-Eng-Translation/tree/v0.2
+
 # LOST-PATH-0.5.9.4330-Eng-Translation
 
 -
