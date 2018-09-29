@@ -20,6 +20,10 @@ Made with Stalker Dialog 'XML' Helper, by Stalkerstein (on www.gsc-game.com foru
 
 -
 
+If you want to help translating : https://github.com/Zoust/LOST-PATH-0.5.9.4330-Eng-Translation/tree/v0.2
+
+-
+
 Google translated readme files : 	
 
 //-----------------------------------------
