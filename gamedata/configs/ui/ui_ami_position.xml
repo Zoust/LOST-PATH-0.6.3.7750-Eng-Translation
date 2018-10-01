@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<cheat>	
+	<background x="0" y="0" width="500" height="680" stretch="1">
+		<texture x="0" y="0" width="500" height="680">ui\ui_pi</texture>
+	</background>
+
+	<btn_q x="270" y="450" width="120" height="30">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Exit</text>
+	</btn_q>
+	
+	<btn_s x="60" y="450" width="120" height="30">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Save</text>
+	</btn_s>
+
+	<btn_t x="190" y="450" width="70" height="30">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Teleport</text>
+	</btn_t>
+
+	<caption_section x="260" y="150" width="200" height="25">
+		<text font="letterica16">List of sections and names:</text>
+	</caption_section>
+
+	<btn_copy_sec x="220" y="200" width="100" height="20">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Copy to section</text>
+	</btn_copy_sec>
+
+
+	<btn_copy_name x="325" y="200" width="100" height="20">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Copy to name</text>
+	</btn_copy_name>
+
+	<btn_copy_visual x="220" y="280" width="100" height="20">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Copy to model</text>
+	</btn_copy_visual>
+
+	<btn_read_visual x="50" y="420" width="140" height="20">
+        <texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica16">Read the model from the section</text>
+	</btn_read_visual>
+
+
+	
+	<caption1 x="170" y="530" width="90" height="25">
+		<text font="letterica16" r="240" g="217" b="182">Position data:</text>
+	</caption1>
+	
+	<caption2 x="55" y="490" width="50" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Type: </text>
+	</caption2>
+
+	<edit_box x="120" y="490" width="215" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</edit_box>
+	
+
+	<caption3 x="120" y="120" width="200" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Saving coordinates:</text>
+	</caption3>
+
+
+
+	<sect_cap x="35" y="150" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Section</text>
+	</sect_cap>
+
+	<sect_box x="75" y="150" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</sect_box>
+
+
+
+	<name_cap x="35" y="180" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Name</text>
+	</name_cap>
+
+	<name_box x="75" y="180" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</name_box>
+
+
+
+	<money_cap x="35" y="210" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Деньги</text>
+	</money_cap>
+
+	<money_box x="75" y="210" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</money_box>
+
+
+
+	<profile_cap x="35" y="240" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Profile</text>
+	</profile_cap>
+
+	<profile_box x="75" y="240" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</profile_box>
+
+
+
+	<script_cap x="35" y="270" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Logics</text>
+	</script_cap>
+
+	<script_box x="75" y="270" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</script_box>
+
+
+
+
+	<visual_cap x="35" y="300" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Model</text>
+	</visual_cap>
+
+	<visual_box x="75" y="300" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</visual_box>
+
+
+	<health_cap x="35" y="330" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Health</text>
+	</health_cap>
+
+	<health_box x="75" y="330" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</health_box>
+
+
+
+	<rad_shape_cap x="35" y="360" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Radius</text>
+	</rad_shape_cap>
+
+	<rad_shape_box x="75" y="360" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</rad_shape_box>
+
+
+
+	<mass_cap x="35" y="390" width="200" height="25">
+		<text font="letterica16" r="170" g="170" b="170">Weight</text>
+	</mass_cap>
+
+	<mass_box x="75" y="390" width="130" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</mass_box>
+
+
+
+	<pos_cap x="50" y="560" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Position:</text>
+	</pos_cap>
+
+	<dir_cap x="50" y="580" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Direction:</text>
+	</dir_cap>
+
+	<level_cap x="50" y="600" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Level:</text>
+	</level_cap>
+
+	<gd_cap x="50" y="620" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Game vertex id:</text>
+	</gd_cap>
+
+	<ld_cap x="210" y="620" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Level vertex id:</text>
+	</ld_cap>
+
+
+	<posdb_cap x="95" y="560" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Position</text>
+	</posdb_cap>
+
+	<dirdb_cap x="95" y="580" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Direction</text>
+	</dirdb_cap>
+
+	<leveldb_cap x="80" y="600" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Level</text>
+	</leveldb_cap>
+
+	<gddb_cap x="115" y="620" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Game vertex id</text>
+	</gddb_cap>
+
+	<lddb_cap x="275" y="620" width="130" height="25">
+		<text font="letterica16" r="255" g="255" b="0">Level vertex id</text>
+	</lddb_cap>
+
+
+	<help_sect x="220" y="170" width="140" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</help_sect>
+
+	<caption_vis x="260" y="230" width="200" height="25">
+		<text font="letterica16">List of models:</text>
+	</caption_vis>
+
+	<table_visual x="220" y="250" width="200" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</table_visual>
+
+	<caption_cucle_num x="230" y="420" width="200" height="25">
+		<text font="letterica16">Number of records (saving cycle)</text>
+	</caption_cucle_num>
+
+
+	<cucle_num x="370" y="420" width="40" height="25">
+	        <texture>ui_inGame2_edit_box_2</texture>
+		<text font="letterica16" r="240" g="217" b="182"/>
+	</cucle_num>
+
+
+</cheat>

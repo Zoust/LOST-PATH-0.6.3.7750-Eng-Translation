@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<RPGSystem>
+    <main x="0" y="0" width="1024" height="768"/>
+	
+	<frame1 x="28" y="41" width="764" height="90" stretch="1">
+		<texture>ui_inGame2_pda_buttons_background</texture>
+	</frame1>
+	
+	<frame2 x="28" y="137" width="764" height="571" stretch="1">
+		<texture>ui_inGame2_pda_buttons_background</texture>
+		<caption x="35" y="150" width="754" height="30">
+			<text font="letterica18" align="c" x="0" y="0" r="170" g="170" b="170">Player Characteristics</text>
+		</caption>
+	</frame2>
+	
+	<button x="606" y="249" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="170" g="170" b="170">$ Buy $</text>
+	</button>
+	<current_level x="606" y="169" width="169" height="19" stretch="1">
+		<text font="letterica18" r="170" g="170" b="170" complex_mode="1">Current level : 10 / 10</text>
+	</current_level>
+	<current_point x="606" y="189" width="153" height="19" stretch="1">
+		<text font="letterica18" r="170" g="170" b="170" complex_mode="1">Available Points : 10 / 10</text>
+	</current_point>
+	<current_exp x="606" y="209" width="143" height="19" stretch="1">
+		<text font="letterica18" r="170" g="170" b="170" complex_mode="1">Current experience : 10 / 10</text>
+	</current_exp>
+	<current_money x="606" y="229" width="143" height="19" stretch="1">
+		<text font="letterica18" r="170" g="170" b="170" complex_mode="1">Money in account : 0 RU</text>
+	</current_money>
+	
+	<button_mode_1 x="70" y="100" width="100" height="27" stretch="1" hint="General information on pumping a character" frame_mode="0">
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Characteristics</text>
+		<texture>ui_inGame2_pda_button</texture>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="200" g="200" b="200"/>
+			<h r="170" g="170" b="170"/>
+		</text_color>
+	</button_mode_1>
+	
+	<button_mode_2 x="156" y="100" width="100" height="27" stretch="1" hint="Bleed Strength Skills" frame_mode="0">
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Power Skills</text>
+		<texture>ui_inGame2_pda_button</texture>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="200" g="200" b="200"/>
+			<h r="170" g="170" b="170"/>
+		</text_color>
+	</button_mode_2>
+	
+	<button_mode_3 x="242" y="100" width="100" height="27" stretch="1" hint="Bleeding Success Skills" frame_mode="0">
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Lucky Skills</text>
+		<texture>ui_inGame2_pda_button</texture>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="200" g="200" b="200"/>
+			<h r="170" g="170" b="170"/>
+		</text_color>
+	</button_mode_3>
+	
+	<button_mode_4 x="328" y="100" width="100" height="27" stretch="1" hint="Prorating perceptual skills" frame_mode="0">
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Perception skills</text>
+		<texture>ui_inGame2_pda_button</texture>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="200" g="200" b="200"/>
+			<h r="170" g="170" b="170"/>
+		</text_color>
+	</button_mode_4>
+	
+	<button_mode_5 x="414" y="100" width="100" height="27" stretch="1" hint="Bleeding the skills of the intellect" frame_mode="0">
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Intelligence Skills</text>
+		<texture>ui_inGame2_pda_button</texture>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="200" g="200" b="200"/>
+			<h r="170" g="170" b="170"/>
+		</text_color>
+	</button_mode_5>	
+	
+	<exp_static_bar x="80" y="190" width="500" height="18">
+		<texture>progress_bar_empty_l</texture>
+	</exp_static_bar>
+	<exp_bar x="80" y="191" width="498" height="16" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar_l</texture>
+		</progress>
+	</exp_bar>
+	<exp_cur x="90" y="212" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1" >Experience : 0</text>
+	</exp_cur>
+	<exp_ost x="500" y="212" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1" >left : 0</text>
+	</exp_ost>
+	
+	<strong x="331" y="290" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Improve</text>
+	</strong>
+	<strong_img x="37" y="265" width="64" height="64">
+		<texture>strong</texture>
+	</strong_img>
+	<strong_text x="104" y="312" width="157" height="19" stretch="1">
+		<text font="letterica18" r="255" g="255" b="255" complex_mode="1" >Current level : 10 / 10</text>
+	</strong_text>
+	<strong_text2 x="104" y="272" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1">Force</text>
+	</strong_text2>
+	<strong_static_bar x="104" y="290" width="201" height="18">
+		<texture>progress_bar_empty</texture>
+	</strong_static_bar>
+	<strong_bar x="104" y="290" width="201" height="18" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar</texture>
+		</progress>
+	</strong_bar>
+	
+	<speed x="331" y="360" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Improve</text>
+	</speed>
+	<speed_img x="37" y="335" width="64" height="64">
+		<texture>speed</texture>
+	</speed_img>
+	<speed_text x="104" y="382" width="157" height="19" stretch="1">
+		<text font="letterica18" r="255" g="255" b="255" complex_mode="1">Current level : 10 / 10</text>
+	</speed_text>
+	<speed_text2 x="104" y="342" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1">Endurance</text>
+	</speed_text2>
+	<speed_static_bar x="104" y="360" width="201" height="18">
+		<texture>progress_bar_empty</texture>
+	</speed_static_bar>
+	<speed_bar x="104" y="360" width="201" height="18" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar</texture>
+		</progress>
+	</speed_bar>
+	
+	<luck x="331" y="430" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Improve</text>
+	</luck>
+	<luck_img x="37" y="405" width="64" height="64">
+		<texture>luck</texture>
+	</luck_img>
+	<luck_text x="104" y="452" width="157" height="19" stretch="1">
+		<text font="letterica18" r="255" g="255" b="255" complex_mode="1">Current level : 10 / 10</text>
+	</luck_text>
+	<luck_text2 x="104" y="412" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1">Luck</text>
+	</luck_text2>
+	<luck_static_bar x="104" y="430" width="201" height="18">
+		<texture>progress_bar_empty</texture>
+	</luck_static_bar>
+	<luck_bar x="104" y="430" width="201" height="18" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar</texture>
+		</progress>
+	</luck_bar>
+	
+	<vospr x="331" y="500" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Improve</text>
+	</vospr>
+	<vospr_img x="37" y="475" width="64" height="64">
+		<texture>vospr</texture>
+	</vospr_img>
+	<vospr_text x="104" y="522" width="157" height="19" stretch="1">
+		<text font="letterica18" r="255" g="255" b="255" complex_mode="1">Current level : 10 / 10</text>
+	</vospr_text>
+	<vospr_text2 x="104" y="480" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1">Perception</text>
+	</vospr_text2>
+	<vospr_static_bar x="104" y="500" width="201" height="18">
+		<texture>progress_bar_empty</texture>
+	</vospr_static_bar>
+	<vospr_bar x="104" y="500" width="201" height="18" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar</texture>
+		</progress>
+	</vospr_bar>
+	
+	<intellect x="331" y="570" width="90" height="28">
+		<texture>ui_inGame2_Mp_bigbuttone</texture>
+		<text font="letterica18" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Improve</text>
+	</intellect>
+	<intellect_img x="37" y="545" width="64" height="64">
+		<texture>intellect</texture>
+	</intellect_img>
+	<intellect_text x="104" y="592" width="157" height="19" stretch="1">
+		<text font="letterica18" r="255" g="255" b="255" complex_mode="1">Current level : 10 / 10</text>
+	</intellect_text>
+	<intellect_text2 x="104" y="552" width="157" height="19" stretch="1">
+		<text font="letterica18" r="215" g="195" b="170" complex_mode="1">Intelligence</text>
+	</intellect_text2>
+	<intellect_static_bar x="104" y="570" width="201" height="18">
+		<texture>progress_bar_empty</texture>
+	</intellect_static_bar>
+	<intellect_bar x="104" y="570" width="201" height="18" min="0" max="100" pos="0" horz="1" >
+		<progress>
+			<texture>progress_bar</texture>
+		</progress>
+	</intellect_bar>
+	
+	
+	<perk_1 x="104" y="195" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_1>
+	
+	
+	<perk_2 x="104" y="295" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_2>
+	
+	
+	<perk_3 x="104" y="395" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_3>
+	
+	
+	<perk_4 x="104" y="495" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_4>
+	
+	<perk_5 x="104" y="595" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_5>
+	
+	<perk_11 x="264" y="195" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_11>
+	
+	<perk_12 x="264" y="295" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_12>
+	
+	<perk_13 x="264" y="395" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_13>
+	
+	<perk_14 x="264" y="495" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_14>
+	
+	<perk_15 x="264" y="595" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_15>
+	
+	<perk_21 x="424" y="195" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_21>
+	
+	<perk_22 x="424" y="295" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_22>
+	
+	<perk_23 x="424" y="395" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_23>
+	
+	<perk_24 x="424" y="495" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_24>
+	
+	<perk_25 x="424" y="595" width="130" height="70">
+		<texture>ui_rpg_cant</texture>
+		<text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255"></text>
+	</perk_25>
+	
+	<hint_wnd x="0" y="0" width="210" height="100">
+	    <background x="0" y="0" width="210" height="100">
+		    <texture>ui_icons_PDA_tooltips</texture>
+	    </background>
+	    <text x="10" y="20" width="190" height="100">
+	    	<text font="letterica16" color="ui_6" complex_mode="1" align="l" vert_align="t"/>
+	    </text>
+	</hint_wnd>
+</RPGSystem>

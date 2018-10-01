@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Reputation>
+    <background x="1" y="0" width="1024" height="768" stretch="1">
+        <texture>ui_pda_dolg</texture>
+        <button1 x="50" y="50" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button1>
+        <button2 x="50" y="100" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button2>
+        <button3 x="50" y="150" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button3>
+        <button4 x="50" y="200" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button4>
+        <button5 x="50" y="250" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button5>
+        <button6 x="50" y="300" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button6>
+        
+		<button7 x="250" y="50" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button7>
+        <button8 x="250" y="100" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button8>
+        <button9 x="250" y="150" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button9>
+        <button10 x="250" y="200" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button10>
+        <button11 x="250" y="250" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button11>
+        <button12 x="250" y="300" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button12>
+		
+        <button13 x="450" y="50" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button13>
+        <button14 x="450" y="100" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button14>
+        <button15 x="450" y="150" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button15>
+        <button16 x="450" y="200" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button16>
+        <button17 x="450" y="250" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button17>
+        <button18 x="450" y="300" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">text</text>
+        </button18>
+		
+		<exit x="850" y="675" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Exit</text>
+        </exit>
+		
+		<check_barter x="700" y="675" width="127" height="28">
+            <texture>ui_button_main01</texture>
+            <text font="letterica16" x="0" y="0" align="c" vert_align="c" r="255" g="255" b="255">Current balance</text>
+        </check_barter>
+		<money x="675" y="50" width="300" height="45" stretch="1">
+            <text font="letterica16" r="215" g="195" b="170" complex_mode="1"></text>
+        </money>
+		<info x="675" y="105" width="300" height="525" stretch="1">
+            <text font="letterica16" r="215" g="195" b="170" complex_mode="1">st_lostpath_barter</text>
+        </info>
+		<frame x="670" y="45" width="310" height="160">
+            <texture>ui_options_controls_frame</texture>
+        </frame>
+		<history x="670" y="230" width="310" height="300">
+            <texture>ui_options_controls_frame</texture>
+        </history>
+		<historytxt x="675" y="235" width="300" height="290" stretch="1">
+            <text font="letterica16" r="215" g="195" b="170" complex_mode="1"></text>
+        </historytxt>
+    </background>
+</Reputation>
