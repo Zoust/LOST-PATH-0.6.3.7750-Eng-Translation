@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< GENERAL TEXT  STRINGS FOR TASKS
+<	CoC 1.3.11
+<       CoC 1.3.20
+<	Modified by: First_Lieutenant_Skelja
+<	March 18, 2016, Май 29, 2016
+<
+<===========================================================-->
+
+<string_table>
+
+    <string id="st_sim_ordered_task_query">
+<text>How may I help you ?</text>
+</string>
+<string id="st_sim_ordered_task_query_finished">
+<text>I did all what you asked for.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_6_name">
+<text>Security camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_6_text">
+<text>Destroy a group of "Monolith", which represents a threat for the mercenary camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_6_about">
+ <text>The "Monolith" is preparing an attack on one of our camp. Go there and crush the threat, I'll give you the data on the handheld.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_6_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_7_name">
+<text>Security camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_7_text">
+<text>Protect the mercenaries camp from a mutant attack</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_7_about">
+ <text>we have spotted mutants near our positions, it is necessary to clean the sector from these monsters.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_7_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_8_name">
+<text>Extermination camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_8_text">
+<text>Destroy the "Duty" outpost</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_8_about">
+ <text>We have received new orders, we have to destroy one of the outposts of "Duty", we can pay paid good money if you do the work.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_8_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_9_name">
+<text>Security camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_9_text">
+<text>Protect the camp of the mercenaries</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_9_about">
+ <text>Enemy attacked one of our camps here in Dead City! We need your help to repel the attack!</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_9_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_10_name">
+<text>Extermination camp</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_10_text">
+<text>Destroy the mutants</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_10_about">
+ <text>Our customers, this time scientists, have provided a list of mutants which must be destroyed, maybe they need the carcass for experiments, or they want to dig in the area, for their measurements or something, but whatever their reason is, it does not really matter, your task is to get there and reduce the population of living creatures in the area, pay seems good, you take ?</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_10_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_11_name">
+<text>Extermination camp</text>
+</string>
+ <string id="cit_killers_merc_trader_stalker_task_11_text">
+<text>Destroy the camp of "Freedom"</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_11_about">
+<text>"Freedom" again the buzz began to attack our troops, to disrupt us operations, I need this to stop. Arrange a demonstration and go destroy one of their camps.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_11_finish">
+<text>Good job! Here's the reward.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_12_name">
+<text>Get the %s artifact</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_12_text">
+<text>Get the %s artifact and take it to the Swede, customers have to pay well</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_12_about">
+<text>Our customers are asking to get a certain artifact for them... Can you take the order ? If you agree, I'll tell you all the details.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_12_fetch_about">
+<text>They are asking to get a %s artifact. Don't know where you'll get it, but if you find - bring, promise to pay very well.</text>
+</string>
+ <string id="cit_killers_merc_trader_stalker_task_12_fetch_finish">
+<text>Excellent work, customers will be happy, here, take my share.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_13_name">
+<text>Bring back a bodypart of %s</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_13_text">
+<text>Find some %s, and take back its bodypart to the Swedish</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_13_about">
+<text>Scientists have ordered to bring them a bodypart of some mutant for their studies, and promised to pay well.</text>
+</string>
+ <string id="cit_killers_merc_trader_stalker_task_13_fetch_about">
+<text>They are asked to find some %s mutant. Don't know where you'll get it, but if you find - bring some samples back, promise to pay very well.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_13_fetch_finish">
+<text>Excellent work, egghead will be happy, here, take my share.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_14_name">
+<text>Find weapon %s</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_14_text">
+ <text>Find the trunk of %s and assign it to a Swede, an important order and the weapon must be in perfect condition, otherwise full payment will not</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_14_about">
+<text>we had an order for the production of rare weapons, if you want to order yours.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_14_fetch_about">
+<text>we now Have an order for weapon %s. Don't know where you'll get it, but if you find - bring, promise to pay very well, but just don't bring any junk, otherwise full payment do not wait.</text>
+</string>
+ <string id="cit_killers_merc_trader_stalker_task_14_fetch_finish">
+<text>Okay, well, come on, hold my share.</text>
+</string>
+
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_name">
+<text>Security camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_text">
+<text>to Destroy the mutants that practicali through the "Barrier"</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_about">
+ <text>Here again, the monsters are cornered with side Burner, made a lair nearby and attack our camp, be a good man, securing the area from the animals all say thank you, and the reward won't hurt.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_10_name">
+<text>Extermination camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_10_text">
+<text>to Destroy the camp of the mercenaries</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_10_about">
+<text>you Need to strip the mercenary camp, here in Army Warehouses, taken,</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_10_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_11_name">
+<text>Security camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_11_text">
+<text>to Protect the camp of "Freedom" from attack "Monolith"</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_11_about">
+<text>monolith Again pinned from the Radar, a shortage of we're fanatics, go and destroy them.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_11_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_12_name">
+<text>Security camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_12_text">
+<text>to Help the members to fight back from the military</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_12_about">
+<text>the Military is here again sweep staged, man, go and help our fight against the warriors.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_12_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_13_name">
+<text>Extermination camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_13_text">
+<text>to Destroy the mutants of the neighboring territory</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_13_about">
+<text>Count, there is not only Radar mutants of the rod, but still in the same spot, in General, our scouts have identified where the monsters are here in droves rod, otpravyatsya and clean up this den.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_13_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+    <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_14_name">
+<text>Extermination camp</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_14_text">
+<text>to Destroy the military camp of the</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_14_about">
+ <text>Soon the Area will turn into a research zoo. Military seize more and more territory, if this goes on, the normal Stalker places in the Area will not. In General have something to do with it, and I decided that it is necessary to destroy the military camps, here is one nearby, take?</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_14_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_15_name">
+<text>Extermination camp</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_15_text">
+<text>to Destroy one of the main camps of standards</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_15_about">
+<text>we Need to strike at the mercenaries, go and destroy their main base.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_15_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_16_name">
+<text>to Get the artifact %s</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_16_text">
+<text>to Get the artifact %s and assign it to Lukas.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_16_about">
+<text>man, I can get there one artifact? Good pay and boobies from the base with such a task don't send, all hope only on you.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_16_fetch_about">
+<text>I need art %s. Don't know where you'll get it, but if you do get paid for the job well.</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_16_fetch_finish">
+<text>Thank you, here you go, from me.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_17_name">
+<text>to Extract the part of the body of the monster %s</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_17_text">
+<text>to Produce the mutant part of %s and assign it to Lukas.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_17_about">
+ <text>man, I can get there part of the mutant? Should I... can't tell you why, it's my business, so, can I count on you?</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_17_fetch_about">
+<text>I need %s. how will get - come back to me.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_17_fetch_finish">
+<text>Thank you, here you go, from me.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_name">
+<text>Kill the Stalker</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_text">
+<text>to Destroy the Stalker is a loner who killed one of the members of the "Freedom"</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_about">
+<text>is Spinning there is one alone, he is thrown out that our murdered! And this is simply not, in General, find him and deal with it.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_finish">
+<text>well Done, here's your reward.</text>
+</string>
+
+<string id="simulation_task_9_name">
+<text>Necessary to find artifact %s</text>
+</string>
+<string id="simulation_task_9_text">
+<text>Monolith requests to find artifact %s.</text>
+</string>
+<string id="simulation_task_9_about">
+<text>the Artifact can find? I want to keep it as a gift to our Monolith in the Sarcophagus.</text>
+</string>
+<string id="simulation_task_9_fetch_about">
+<text>If you manage to find artifact %s, let me know.</text>
+</string>
+<string id="simulation_task_9_fetch_finish">
+<text>Thank you brother, you helped me.</text>
+</string>
+
+<string id="simulation_task_8_name">
+<text>to Find a weapon : %s</text>
+</string>
+ <string id="simulation_task_8_text">
+<text>Scientist need a weapon : %s , in excellent condition.</text>
+</string>
+<string id="simulation_task_8_about">
+<text>Young man, you could not help to get me a gun? And then we were given not understand that, even candy it is hard to beat, I'll be bound!</text>
+</string>
+<string id="simulation_task_8_fetch_about">
+<text>I'm looking for %s. With such weapons it will be much safer for me and my group, I'm counting on you.</text>
+</string>
+<string id="simulation_task_8_fetch_finish">
+ <text>Thank you, now with the barrel where it is safer to conduct field research.</text>
+</string>
+
+<string id="simulation_task_10_name">
+<text>to Kill the infidel</text>
+</string>
+<string id="simulation_task_10_text">
+<text>Necessary to find and eliminate the infidel.</text>
+</string>
+<string id="simulation_task_10_about">
+<text>There is one wrong, which caused a lot of evil and defile their existence to the Great Monolith, you need to find and destroy the infidel.</text>
+</string>
+<string id="simulation_task_10_finish">
+ <text>Another wrong became less, hold award.</text>
+</string>
+
+<string id="simulation_task_62_name">
+<text>to Destroy the enemy</text>
+</string>
+<string id="simulation_task_62_text">
+<text>to Destroy the enemy at a key point</text>
+</string>
+<string id="simulation_task_62_about">
+<text>to help dislodge the enemy from our occupied territories, will help?</text>
+</string>
+<string id="simulation_task_62_finish">
+<text>Point for us, here's the reward:</text>
+</string>
+
+<string id="simulation_task_63_name">
+<text>to Destroy the enemy</text>
+</string>
+<string id="simulation_task_63_text">
+<text>to Destroy the enemy at a key point</text>
+</string>
+<string id="simulation_task_63_about">
+<text>Incorrect captured one of our strong points in this region, we need to dislodge them, will help brother?</text>
+</string>
+<string id="simulation_task_63_finish">
+<text>Point for us, the infidels fell, here's the reward:</text>
+</string>
+
+<string id="simulation_task_65_name">
+<text>to Destroy the enemy</text>
+</string>
+<string id="simulation_task_65_text">
+<text>to Destroy the enemy at a key point</text>
+</string>
+ <string id="simulation_task_65_about">
+<text>we Need to flush some roosters stray from our territory, will help bro? If th arrow boys will catch up, don't worry!</text>
+</string>
+<string id="simulation_task_65_finish">
+<text>Point our wow! Hammer bro, here's the reward:</text>
+</string>
+
+<string id="simulation_task_66_about">
+<text>Hey man I need your help, we then need to beat one of our former camps have some freaks, can you help?</text>
+</string>
+<string id="simulation_task_66_finish">
+<text>Thanks man! The truth is no words, here's the reward:</text>
+</string>
+
+<string id="simulation_task_67_about">
+<text>Anyways, the enemy seized the key object in this area, it is necessary to go and knock him the fuck will help?</text>
+</string>
+<string id="simulation_task_67_finish">
+<text>Well, that's the reward.</text>
+</string>
+
+<string id="simulation_task_68_about">
+<text>Hey man I need your help, we then need to beat one of our former camps at the freaks of some help dude?</text>
+</string>
+<string id="simulation_task_68_finish">
+ <text>Dude you're the man! They took all poreshali, we have nothing left, steep, steep, tree-stick! Hey, where you going? Take the reward for a good deed.</text>
+</string>
+
+<string id="simulation_task_70_name">
+<text>to Destroy the lair of mutants</text>
+</string>
+<string id="simulation_task_70_text">
+<text>Necessary to protect the nearest camp of allies of the mutants.</text>
+</string>
+<string id="simulation_task_70_about">
+ <text>Help, Yes, the truth is, there nepodaleku monsters fucking sat down and attacking our troops, is only for the camp out will be able to find their lair and shut them all down?!</text>
+</string>
+<string id="simulation_task_70_finish">
+<text>Thanks for dealing with monsters here, a little there, but it's all I had.</text>
+</string>
+
+<string id="simulation_task_60_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_60_text">
+<text>to Get a tissue sample of the mutant: %s.</text>
+</string>
+<string id="simulation_task_60_about">
+ <text>I need some monster parts, can you help?</text>
+</string>
+<string id="simulation_task_60_fetch_about">
+<text>I need monster parts, that's my business, so I think no need to explain, I'm looking for ... %s. How to find come.</text>
+</string>
+<string id="simulation_task_60_fetch_finish">
+<text>Thank you, here, take the award, you really helped me bro.</text>
+</string>
+
+
+    <string id="esc_major_task_1_name">
+<text>Military exercises</text>
+</string>
+<string id="esc_major_task_1_text">
+<text>it is Necessary to conduct the ordinary soldiers of the APU in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="esc_major_task_1_about">
+ <text>There is a particularly important task: to us here at the base comes a new platoon of conscripts, and it is necessary to conduct a detachment in the area, so they are a bit settled in the Area more desirable to descend on the habitat of monsters, BUT! So it was not a burer sorts, otherwise the soldiers killed for no reason! the pack of blind dogs and candy all come in the evidence of let harvested from the carcasses of monsters theirs body parts, how you want the drill bit to do?</text>
+</string>
+<!-- army_companion_task_1 -->
+<string id="army_companion_task_1_start_dialog_1">
+ <text>greetings commander! We were told that you will lead us to practice the skills of shooting, lead us to the battlefield, preferably where mutants more and Bandos all, they we're potreniruemsya, you just follow the battle and try not to intervene unnecessarily, we need to learn how to survive in the Area, and of the trophies of monsters too we collect.</text>
+</string>
+<string id="army_companion_task_1_start_dialog_2">
+<text>Lead commander! We are going to cover, if that!</text>
+</string>
+<string id="army_companion_task_1_complete">
+ <text>it was a campaign captain! Here, this is from us to you in gratitude.</text>
+</string>
+<string id="army_companion_task_1_actor_reply">
+<text>good Luck soldiers.</text>
+</string>
+
+<string id="mil_major_task_1_name">
+<text>"Free" exercises</text>
+</string>
+<string id="mil_major_task_1_text">
+<text>it is Necessary to conduct beginners Svoboda in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="mil_major_task_1_about">
+ <text>we then arrived at the replenishment of a group of stalkers-loners, they decided to join us, the equipment they were given, they still sit on the base, but they are still very green as a Bay leaf heh, it takes them a bit to move around and to shoot all mutants, or preferably dolgovtsev, most importantly let them collect trophies as proof that they have completed the task, I appoint you commander of this group, you're a man experienced, it is immediately obvious come from?</text>
+</string>
+<!-- freedom_companion_task_1 -->
+<string id="freedom_companion_task_1_start_dialog_1">
+ <text>hi dude! You'll be Hiking in the Area? Nishtyak! You are important, if we bring down the monsters or anyone else, stand watch while we're monsters shmonat.</text>
+</string>
+<string id="freedom_companion_task_1_start_dialog_2">
+<text>Vedi, che stand?</text>
+</string>
+<string id="freedom_companion_task_1_complete">
+<text>wandered around Awesome dude! Here you go from us thanks.</text>
+</string>
+<string id="freedom_companion_task_1_actor_reply">
+<text>yeah.</text>
+</string>
+
+<string id="bar_major_task_1_name">
+<text>the Teachings of "Debt"</text>
+</string>
+ <string id="bar_major_task_1_text">
+<text>it is Necessary to conduct beginners dolgovtsev in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="bar_major_task_1_about">
+<text>we then arrived at the replenishment of a group of stalkers, they decided to join us, but don't they have any combat experience, so it is necessary to organize teaching, to move them around, you can even "Wild" to drive, let him shoot the bandits mutants, see how they fit.</text>
+</string>
+<!-- dolg_companion_task_1 -->
+<string id="dolg_companion_task_1_start_dialog_1">
+<text>Oh... Hello! We were told that you will lead the exercises, keep the commander! Preferably where there are clusters of mutants and enemies, just them and the trophies will gather.</text>
+</string>
+<string id="dolg_companion_task_1_start_dialog_2">
+<text>Vedi, che stand?</text>
+</string>
+<string id="dolg_companion_task_1_complete">
+<text>it was a good hike, this is from us to you in appreciation.</text>
+</string>
+<string id="dolg_companion_task_1_actor_reply">
+<text>yeah.</text>
+</string>
+
+
+<string id="cit_major_task_1_name">
+<text>the Training</text>
+</string>
+<string id="cit_major_task_1_text">
+<text>you Need to hold the mercenaries novice in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="cit_major_task_1_about">
+ <text>we here at the syndicate came from the application of the group of stalkers that they want to join our syndicate, like seasoned stalkery, but to our level of training they need to reach. So, it is necessary to conduct field exercises, look at what they're good, let them shoot Svoboda, mutants and collect their trophies.</text>
+</string>
+<!-- killer_companion_task_1 -->
+<string id="killer_companion_task_1_start_dialog_1">
+<text>Hey, it's you our leader at the time of special training? Well let's take, preferably where there is accumulation of mutants and enemies, just them and the trophies will gather.</text>
+</string>
+<string id="killer_companion_task_1_start_dialog_2">
+<text>Vedi, che stand?</text>
+</string>
+<string id="killer_companion_task_1_complete">
+<text>it was a good hike, this is from us to you in appreciation.</text>
+</string>
+<string id="killer_companion_task_1_actor_reply">
+<text>Luck.</text>
+</string>
+
+
+<string id="kor_major_task_1_name">
+<text>Novice stalkers</text>
+</string>
+<string id="kor_major_task_1_text">
+ <text>Necessary to hold stalkers novice in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="kor_major_task_1_about">
+ <text>To us here in the village came a group of beginners want to be a Stalker, could you arrange a small tour of the Cordon? Let the hunt for blind dogs and candy, even to the bandits to come, just you watch! And Yes, let him collect the trophies as proof, nagado take themselves beginners, if they will share.</text>
+</string>
+<!-- stalker_companion_task_1 -->
+<string id="stalker_companion_task_1_start_dialog_1">
+<text>hi, are you also going to help us to settle in the Area? Well, let's go.</text>
+</string>
+ <string id="stalker_companion_task_1_start_dialog_2">
+<text>Vedi, che stand?</text>
+</string>
+<string id="stalker_companion_task_1_complete">
+<text>it was a good hike, this is from us to you in appreciation.</text>
+</string>
+<string id="stalker_companion_task_1_actor_reply">
+<text>Luck.</text>
+</string>
+
+<string id="mar_major_task_1_name">
+<text>Military exercises of troops of clear Sky</text>
+</string>
+<string id="mar_major_task_1_text">
+ <text>you Must hold a beginners ERS in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="mar_major_task_1_about">
+ <text>To us there came a group of stalkers, asked the group and we have adopted them, but when I was marching, it was found that some of them don't even know how to reload the AKM, in General, guys need podnataskat, in General, Lebedev said to find a good instructor who will guide them through the Swamps, destroying on the way monsters and bandits, I think you're just the same people, so let the brother say Yes, Lebedev said to the fighter answered there!</text>
+</string>
+<!-- csky_companion_task_1 -->
+<string id="csky_companion_task_1_start_dialog_1">
+ <text>hi, this is you will lead us through the Swamp? Well, let's go.</text>
+</string>
+<string id="csky_companion_task_1_start_dialog_2">
+<text>Vedi, che stand? I'm here in the swamps of standing is generally not high, rather would have to base.</text>
+</string>
+<string id="csky_companion_task_1_complete">
+<text>Ugh, thank you for gave us, we learned a lot, thanks to you! Here, this is from us to you as a gift.</text>
+</string>
+<string id="csky_companion_task_1_actor_reply">
+<text>Understand.</text>
+</string>
+
+<string id="pri_major_task_1_name">
+<text>Military exercises of units of the Monolith</text>
+</string>
+<string id="pri_major_task_1_text">
+<text>Necessary to hold the newcomers monolith in the area that they have worked shooting skills, it is desirable to drive where a lot of mutants, they will need to search the bodies of mutants and enemies.</text>
+</string>
+<string id="pri_major_task_1_about">
+ <text>Brother, we had new groups of novices, but they are still very inexperienced to serve the Monolith, walk with them along the Pripyat and karate together unbelievers and mutants, even novices collect body parts of monsters and trophies as proof, you want to train the new servants of the Monolith?</text>
+</string>
+       <!-- monolith_companion_task_1 -->
+<string id="monolith_companion_task_1_start_dialog_1">
+<text>Greetings to you Master, you will lead our campaign? Excellent, I look forward as together we will kill the infidels and mutants!</text>
+</string>
+<string id="monolith_companion_task_1_start_dialog_2">
+<text>Guide Master!</text>
+</string>
+<string id="monolith_companion_task_1_complete">
+<text>Thank you Master for the trip, here is our gift to you.</text>
+</string>
+<string id="monolith_companion_task_1_actor_reply">
+<text>Understand.</text>
+</string>
+
+
+ <!-- ecolog_companion_task_3 -->
+<string id="ecolog_companion_task_3_start_dialog_1">
+<text>You are our guide? I note the desired location on your PDA. Your task is to ensure our safety on the way to it, and after we finished the tests, to hold us back. The award will receive on return to the camp.</text>
+</string>
+<string id="ecolog_companion_task_3_start_dialog_2">
+<text>was there something You wanted? We need to hurry, it's dangerous to stay long.</text>
+</string>
+<string id="ecolog_companion_task_3_complete">
+ <text>Thank You Stalker. You did a good job, here is Your reward.</text>
+</string>
+<string id="ecolog_companion_task_3_actor_reply">
+<text>Thank you.</text>
+</string>
+
+<string id="yan_major_task_1_name">
+<text>Conduct of the scientists</text>
+</string>
+<string id="yan_major_task_1_text">
+<text>you Need to hold scientists to a particular place and to ensure their safety while they conduct research, and then bring them back to the camp.</text>
+</string>
+<string id="yan_major_task_1_about">
+ <text>a Colleague group of our scientists need an experienced guide. You need to hold them to their destination and back unharmed. Such expeditions are very frequent, so that you can become our regular conductor, take measurements and come back soon! I'll wait for you with a group.</text>
+</string>
+
+
+<string id="simulation_task_61_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_61_text">
+<text>to get to the squad leader of "Freedom" ammo %s.</text>
+</string>
+<string id="simulation_task_61_about">
+ <text>Hey man, help me pliz, we're going territorial battles, and ammunition at the unit end. Can get us some ammo? In debt does not remain!</text>
+</string>
+<string id="simulation_task_61_fetch_about">
+<text>Excellent. I'm looking for %s. This will be enough to provide my team the necessary amount of ammunition! </text>
+</string>
+<string id="simulation_task_61_fetch_finish">
+<text>Thanks man! Rescued just us, here, take from us the reward as a token of appreciation!</text>
+</string>
+
+<string id="simulation_task_42_name">
+<text>Find %s</text>
+</string>
+ <string id="simulation_task_42_text">
+<text>to get to the commander "of duty" ammo %s.</text>
+</string>
+<string id="simulation_task_42_about">
+<text>Stalker, me and my squad need your help! We have here for many raids and sweeps that in the most important moment of all the ammunition ends, and the enemies and mutants, except that the socks are not kicking in General will help to get the ammo? We would be very grateful to you.</text>
+</string>
+<string id="simulation_task_42_fetch_about">
+ <text>Excellent. I'm looking for %s. This will be enough to provide my team the necessary amount of ammunition! And while you're looking for ammo, the guys and I think what thank you. </text>
+</string>
+<string id="simulation_task_42_fetch_finish">
+<text>Thank you Stalker! They tell us exactly useful, helped, no words, here's the reward!</text>
+</string>
+
+<string id="simulation_task_43_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_43_text">
+<text>to get to the commander of the detachment of mercenaries ammo to %s.</text>
+</string>
+<string id="simulation_task_43_about">
+ <text>Hey dear, can you help us? We've got the ammunition running out, and soon fell freak is stupid nothing will be able to get the bullets?</text>
+</string>
+<string id="simulation_task_43_fetch_about">
+<text>Excellent. I'm looking for %s. This will be enough to provide my team the necessary amount of ammunition! </text>
+</string>
+<string id="simulation_task_43_fetch_finish">
+<text>well, thank you, so thanks man! Dachshunds, we are men of our word, so receive our reward.</text>
+</string>
+
+<string id="simulation_task_44_name">
+<text>Find %s</text>
+</string>
+ <string id="simulation_task_44_text">
+<text>to get to the commander of military ammo to %s.</text>
+</string>
+<string id="simulation_task_44_about">
+<text>Listen fighter, our squad has ammo at the end, will not help to get the bullets?</text>
+</string>
+<string id="simulation_task_44_fetch_about">
+<text>Excellent. I'm looking for %s. this should cover our eyes, come back as will produce, but we are still pomozguem che to you to give.</text>
+</string>
+<string id="simulation_task_44_fetch_finish">
+ <text>Oh Wow, well thank you very much! Just saved on here, as it was obedene, your reward for your efforts!</text>
+</string>
+
+<string id="simulation_task_45_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_45_text">
+<text>to Get the group "Monolith" ammo %s.</text>
+</string>
+<string id="simulation_task_45_about">
+<text>Brother, we need your help, our ammo is running out, soon we will not be able to effectively protect the Monolith from the infidels, help to get us ammo, we'll be very grateful!</text>
+</string>
+<string id="simulation_task_45_fetch_about">
+ <text>Excellent. I'm looking for %s. that should be enough, come back as forage. </text>
+</string>
+<string id="simulation_task_45_fetch_finish">
+<text>Thank you brother, here's your reward for the help!</text>
+</string>
+
+<string id="simulation_task_46_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_46_text">
+<text>to Get to group of scientists of ammo %s.</text>
+</string>
+<string id="simulation_task_46_about">
+ <text>Stalker, we're in need of ammo! Us on the trek initially allocate very little, and the monsters just darkness! And a couple of ammunition is just not enough, could You get us some? We would be very grateful!</text>
+</string>
+<string id="simulation_task_46_fetch_about">
+<text>Excellent. I'm looking for %s. that should be enough, return as will produce. </text>
+</string>
+<string id="simulation_task_46_fetch_finish">
+<text>Thank you Stalker! Here, I would like to present this award as a sign so to speak of our appreciation!</text>
+</string>
+
+ <string id="simulation_task_47_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_47_text">
+<text>to Get for group of free stalkers ammo to %s.</text>
+</string>
+<string id="simulation_task_47_about">
+<text>Listen, man, we got it, the ammunition running out, could you get us some stores of ammunition? In debt will not stay.</text>
+</string>
+<string id="simulation_task_47_fetch_about">
+<text>Excellent. I'm looking for %s. that should be enough, return how to get one. </text>
+</string>
+<string id="simulation_task_47_fetch_finish">
+ <text>Thank you Stalker! Here you go, so to speak from the heart.</text>
+</string>
+
+<string id="simulation_task_48_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_48_text">
+<text>to Get a band of bandits ammo to %s.</text>
+</string>
+<string id="simulation_task_48_about">
+<text>Hey bro, we got this thing, black olives over, if not beneath one's dignity, will be able to get a few stores? I'll help out just for us not rust, if the che!</text>
+</string>
+<string id="simulation_task_48_fetch_about">
+ <text>Excellent. I'm looking for %s. that should be enough, return how to get one. </text>
+</string>
+<string id="simulation_task_48_fetch_finish">
+<text>Thank you bro! Here, I take the award from us, supposedly we are grateful to all the cases.</text>
+</string>
+
+<string id="simulation_task_49_name">
+<text>Find %s</text>
+</string>
+<string id="simulation_task_49_text">
+<text>to Get to the group "Clean Sky" ammo %s.</text>
+</string>
+<string id="simulation_task_49_about">
+ <text>Listen, man, we got it, the ammunition running out, could you get us some stores of ammunition? In debt will not stay.</text>
+</string>
+<string id="simulation_task_49_fetch_about">
+<text>Excellent. I'm looking for %s. that should be enough, return how to get one. </text>
+</string>
+<string id="simulation_task_49_fetch_finish">
+<text>Thank you Stalker! Here you go, so to speak from the heart.</text>
+</string>
+
+<string id="simulation_task_50_name">
+<text>Get %s</text>
+</string>
+<string id="simulation_task_50_text">
+ <text>to Get to the grenades detachment of the group %s.</text>
+</string>
+<string id="simulation_task_50_about">
+<text>Our squad requires grenades, can get? We would be grateful.</text>
+</string>
+<string id="simulation_task_50_fetch_about">
+<text>Good. we need %s. As you get back to us.</text>
+</string>
+<string id="simulation_task_50_fetch_finish">
+<text>Thank you.</text>
+</string>
+
+<string id="simulation_task_51_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+<string id="simulation_task_51_text">
+ <text>to get to the other Stalker girl %s.</text>
+</string>
+<string id="simulation_task_51_about">
+<text>Hey Stalker, this thing in General... you want your friend to help, walks like a ragamuffin, leathers all he leaky, look hurt, wanted him to acquire, and money - shish, in General, will be able to get a girl normal? I have some money, supplies, and artifact, know the full cost of the reservation, it does not cover, but I hope you can help, well, so what?</text>
+</string>
+	<string id="simulation_task_51_fetch_about">
+<text>Good. I think he is perfect the %s. As you get back to us.</text>
+</string>
+<string id="simulation_task_51_fetch_finish">
+<text>Thank you.</text>
+</string>
+
+<string id="simulation_task_52_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+<string id="simulation_task_52_text">
+<text>to Get sidekick bandit leathers %s.</text>
+</string>
+<string id="simulation_task_52_about">
+ <text>Hey bro, here's the thing, I have a buddy here alone, a normal kid, except that walks like a ragamuffin in a ragged old leather jacket, wanted him che decently purchase - nifiga, price of huckster kapets, it can help the sensible decision to find him?</text>
+</string>
+<string id="simulation_task_52_fetch_about">
+<text>Okay wow! I think it will suit normal %s. As you get back to us.</text>
+</string>
+<string id="simulation_task_52_fetch_finish">
+<text>the soul.</text>
+</string>
+
+<string id="simulation_task_53_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+ <string id="simulation_task_53_text">
+<text>to get to the other leathers cystonebuy %s.</text>
+</string>
+<string id="simulation_task_53_about">
+<text>Hello Stalker! I'm here with a friend recently for a stint walked, walked, days 3 exactly, and what are monsters and Bandos... but more to the point, the other at zero worn leathers, not even to fix it in any way, will be able to get a new vest? Me and my friend will be very grateful to you!</text>
+</string>
+<string id="simulation_task_53_fetch_about">
+<text>Thank you! I think he is well suited to %s. As you get back to us.</text>
+</string>
+ <string id="simulation_task_53_fetch_finish">
+<text>Thank you.</text>
+</string>
+
+<string id="simulation_task_54_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+<string id="simulation_task_54_text">
+<text>to Get friend dolgovtsa kombez %s.</text>
+</string>
+<string id="simulation_task_54_about">
+ <text>Hey bro! There is a big request to you: my friend went to sweep multanskich logs and he leathers the zero tore the mutants, he survived but the bulletproof vest - no, I want him to make a gift, give him a new jumpsuit, and a little money, it can help to get the armor? I give you this artifact and supplies, and of money, though little, but it's all I have.</text>
+</string>
+<string id="simulation_task_54_fetch_about">
+<text>Great! I think it will suit normal %s. As you get back to us.</text>
+</string>
+<string id="simulation_task_54_fetch_finish">
+ <text>Debt is in debt does not remain, here's the reward and thank you for the armor!</text>
+</string>
+
+<string id="simulation_task_55_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+<string id="simulation_task_55_text">
+<text>to Get to the little lad Svoboda kombez %s.</text>
+</string>
+<string id="simulation_task_55_about">
+<text>? dude! In General, there is one thing: we are here with a friend in the campaign was and in return he trashed worn leathers, can't even fix it, will be able to get him a new armor? And I pay you for this art, one will adjust, which we found in the campaign.</text>
+</string>
+ <string id="simulation_task_55_fetch_about">
+<text>good! I think it will suit normal %s. As you get back to us.</text>
+</string>
+<string id="simulation_task_55_fetch_finish">
+<text>Thanks man!</text>
+</string>
+
+<string id="simulation_task_56_name">
+<text>to Get the jumpsuit %s</text>
+</string>
+<string id="simulation_task_56_text">
+<text>to get to the partner of a mercenary %s.</text>
+</string>
+<string id="simulation_task_56_about">
+ <text>Hey, anyways is such a thing: my partner is a professional hunter for artifacts, climbs into all sorts of anomalous field, I decided anyways to fit him a normal suit, for work in harmful conditions, but the money is little, so the huckster not to purchase, you will be able to get him a science jumpsuit? I'm for that good art will adjust, it is not as expensive as armor, but it will serve you well.</text>
+</string>
+<string id="simulation_task_56_fetch_about">
+<text>Well krasava! I need it to %s. How will extract, come near me.</text>
+</string>
+ <string id="simulation_task_56_fetch_finish">
+<text>Clearly worked, here's the reward.</text>
+</string>
+
+<string id="simulation_task_57_name">
+<text>to Get the armor %s</text>
+</string>
+<string id="simulation_task_57_text">
+<text>to Get to other military %s.</text>
+</string>
+<string id="simulation_task_57_about">
+ <text>Well, in fact, I want to help my friend, we together from the same platoon, you want to fit him with a new army suit, and then he travelled in the trash, and even Kirillov Nitsche can not do, and the new free not given, will be able to produce broncobeat? Sure, my friend be very happy.</text>
+</string>
+<string id="simulation_task_57_fetch_about">
+<text>Great! I think it is perfect is the %s. As you get back to me.</text>
+</string>
+<string id="simulation_task_57_fetch_finish">
+<text>well Done! Thank you very much for armor.</text>
+</string>
+
+
+ <string id="simulation_task_7_name">
+<text>the Death of "the Debt"</text>
+</string>
+<string id="simulation_task_7_text">
+<text>Svoboda asked to avenge the death of a friend, who was killed member considers.</text>
+</string>
+<string id="simulation_task_7_about">
+<text>I need your Help man, one rotten dalgar killed my friend when he went on a RAID, I even know where this bitch is, but I just can not afford to kill the entire camp, in which it is located, I see you're an old man, and will be able to cope with this challenge, so how to help? I would be obliged.</text>
+</string>
+ <string id="simulation_task_7_finish">
+<text>Friend now avenged, thanks man, here take from the heart:</text>
+</string>
+
+<string id="simulation_task_71_name">
+<text>the Death of "the Monolith"</text>
+</string>
+<string id="simulation_task_71_text">
+<text>Svoboda asked to find and destroy one of the Guardians of the Monolith.</text>
+</string>
+<string id="simulation_task_71_about">
+ <text>Damn those monolith, all rod and rod waves through the Barrier, how many of our laid his head, restrain their endless onslaught all these years, in fact, these attacks led by the Keepers, I'm begging you man, find and kill one of their fucking leaders, a little otdohnet Barrier against the onslaught.</text>
+</string>
+<string id="simulation_task_71_finish">
+<text>Well dude happy! At least a little respite will have group power, here, take it from me:</text>
+</string>
+
+<string id="simulation_task_73_name">
+<text>the Death of "Freedom"</text>
+</string>
+ <string id="simulation_task_73_text">
+<text>member considers is asked to find and destroy one of the commanders of "Freedom".</text>
+</string>
+<string id="simulation_task_73_about">
+<text>Whatever ukurkom Svoboda, they know how to fight, especially they have competent commanders, many of our in their ambushes died... but not the point, anyways, I need to find one of their commanders and to shoot the tower, well, what do you think?</text>
+</string>
+<string id="simulation_task_73_finish">
+<text>A commander of "Freedom" less, here's the reward, I thank you on behalf of the entire group "the Debt"</text>
+</string>
+
+<string id="simulation_task_72_name">
+<text>Remove killer</text>
+</string>
+<string id="simulation_task_72_text">
+<text>member considers asked to kill one of the commanders of the mercenaries.</text>
+</string>
+<string id="simulation_task_72_about">
+<text>Mercenaries divorced like dirt, go here to the Area not what the boys, and veterans of the fighting in hot spots, in General, we were regularly attacking their troops who have ordered this already explains the command, I want to ask you to remove one of their commanders, which is just the same and arrange to ambush us.</text>
+</string>
+<string id="simulation_task_72_finish">
+<text>nice going! To remove one of their commanders, it really is a feat! Here you go, deserved it.</text>
+</string>
+
+<string id="yan_stalker_sakharov_task_3_name">
+<text>Professor Sakharov asked to get %s</text>
+</string>
+<string id="yan_stalker_sakharov_task_3_text">
+<text>to Get the mobile laboratory scientists %s.</text>
+</string>
+<string id="yan_stalker_sakharov_task_3_about">
+<text>Stalker, our laboratory required artifacts for research. Will not help to get the right sample?</text>
+</string>
+<string id="yan_stalker_sakharov_task_3_fetch_about">
+<text>now We need the %s. How to get one, come back soon! I'll wait for You.</text>
+</string>
+<string id="yan_stalker_sakharov_task_3_fetch_finish">
+<text>pleasure to deal with.</text>
+</string>
+
+<string id="yan_stalker_sakharov_task_4_name">
+<text>Supplies for the bunker</text>
+</string>
+<string id="yan_stalker_sakharov_task_4_text">
+<text>to Get the mobile laboratory scientists supplies %s.</text>
+</string>
+<string id="yan_stalker_sakharov_task_4_about">
+ <text>Young man, I want to ask You to get some supplies for the lab, we are constantly on the wane, and the government allocates too few, and supply shortages permanent, will help with this?</text>
+</string>
+<string id="yan_stalker_sakharov_task_4_fetch_about">
+<text>We need %s. How to get one, come back soon! I'll wait for You.</text>
+</string>
+<string id="yan_stalker_sakharov_task_4_fetch_finish">
+<text>pleasure to deal with.</text>
+</string>
+
+       <string id="yan_stalker_sakharov_task_5_name">
+<text>Weapon for the bunker</text>
+</string>
+<string id="yan_stalker_sakharov_task_5_text">
+<text>to Get to protect laboratory weapons %s.</text>
+</string>
+<string id="yan_stalker_sakharov_task_5_about">
+<text>Dear fellow Stalker, I wanted to ask You to produce weapons to protect our bunker for guard armed with anything that works I will of course reward you!</text>
+</string>
+<string id="yan_stalker_sakharov_task_5_fetch_about">
+<text>the Protection of the bunker suit, %s. How to get one, come back soon! I'll wait for You.</text>
+</string>
+<string id="yan_stalker_sakharov_task_5_fetch_finish">
+<text>pleasure to deal with.</text>
+</string>
+
+<string id="yan_stalker_sakharov_task_6_name">
+<text>to Destroy the mutants at Yantar</text>
+</string>
+<string id="yan_stalker_sakharov_task_6_text">
+<text>Professor Sakharov asked to destroy the mutants in the district that interfere with research.</text>
+</string>
+<string id="yan_stalker_sakharov_task_6_about">
+ <text>Sometimes it is difficult to concentrate on studies, especially when the walls of the hopper howling mutants, these voi I cannot go into work! Could You go out and destroy the monsters?</text>
+</string>
+<string id="yan_stalker_sakharov_task_6_finish">
+<text>Thank you for your cooperation.</text>
+</string>
+
+<string id="yan_stalker_sakharov_task_7_name">
+<text>Sweep</text>
+</string>
+<string id="yan_stalker_sakharov_task_7_text">
+<text>Professor Sakharov asked to destroy the zombies in the area that interfere with research.</text>
+</string>
+ <string id="yan_stalker_sakharov_task_7_about">
+<text>the Number of zombie at Yantar is growing steadily! They calmly go with the territory of the plant has filled the whole neighborhood! We need someone who will reduce their population.</text>
+</string>
+<string id="yan_stalker_sakharov_task_7_finish">
+<text>Thank you for your cooperation.</text>
+</string>
+
+<string id="yan_stalker_sakharov_task_8_name">
+<text>Booty meat</text>
+</string>
+<string id="yan_stalker_sakharov_task_8_text">
+<text>to Get Sakharov to %s.</text>
+</string>
+<string id="yan_stalker_sakharov_task_8_about">
+ <text>you Know, we have started interruptions in the supply of normal products, sometimes on an empty stomach impossible to tune to study! I decided to try to cook something edible meat from the local fauna, could you bring me the meat of some animal?</text>
+</string>
+<string id="yan_stalker_sakharov_task_8_fetch_about">
+<text>I think will work a delicacy, if you will extract %s. How to get one, come back soon! I'll wait for You.</text>
+</string>
+<string id="yan_stalker_sakharov_task_8_fetch_finish">
+<text>pleasure to deal with.</text>
+</string>
+
+ <string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_name">
+<text>Operation "Dead hand"</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_text">
+<text>to Destroy the gathering place of the zombie.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_about">
+<text>Listen to the order of the soldier: it is necessary to clean up the region from the accumulation of zombie, take preferably with a SWAT team to cover and secure the sector from the zombies.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_6_finish">
+ <text>the Operation was successful? Excellent!</text>
+</string>
+
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_name">
+<text>Operation "agricultural industry"</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_text">
+<text>to sweep the logs of mutants on Agroprom</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_about">
+<text>Here on the Agricultural industry a large population of different mutants, it is necessary to conduct the cleanup of the area.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_7_finish">
+ <text>Well done, the fewer mutants in the area - the safer you will be on the database.</text>
+</string>
+
+<string id="simulation_task_58_name">
+<text>Defense scientists</text>
+</string>
+<string id="simulation_task_58_text">
+<text>Zombies are preventing a group of ecologists, it is necessary to destroy the zombie</text>
+</string>
+<string id="simulation_task_58_about">
+<text>the Zombies in this region is very hmm... let's say "complicate" our jobs are constantly under threat of an attack, you will not be difficult to destroy their concentration? We are indebted to you.</text>
+</string>
+ <string id="simulation_task_58_finish">
+<text>Thank you Stalker.</text>
+</string>
+
+<string id="simulation_task_59_name">
+<text>Defense scientists</text>
+</string>
+<string id="simulation_task_59_text">
+<text>Bandits are planning an attack on the scientific detachment, it is necessary to prevent</text>
+</string>
+<string id="simulation_task_59_about">
+<text>Stalker, we need your help, the bandits in this location is very active and attacking as a Stalker, and us! Help to secure our stay here, destroying the camp of those bastards, if you are certainly not difficult...</text>
+</string>
+<string id="simulation_task_59_finish">
+<text>Thank you Stalker.</text>
+</string>
+
+<string id="esc_2_12_stalker_nimble_task_4_name">
+<text>the Hunt for the bandits</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_4_text">
+<text>Find and destroy the bandits and collect their %s.</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_4_about">
+ <text>the Bandits are stalkers sitting in the liver! Even further on the bridge, Fig will pass, GOP-stop at every step, I suggested the stalkers veterans to go hunting for bandits, and collect their corpses stripe, and the motivation is this: who collects more badges and get a prize! Want to participate in the hunt?</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_4_fetch_about">
+<text>old score: 45 stripes! You have to beat and collect %s. if you break the record and get a specified number, then the prize is yours!</text>
+</string>
+ <string id="esc_2_12_stalker_nimble_task_4_fetch_finish">
+<text>Congratulations to the champion! And the Area from the bandits cleaned and the competition won! Good job.</text>
+</string> 
+
+<string id="zat_b7_bandit_boss_sultan_task_4_name">
+<text>Hunting the stalkers</text>
+</string>
+<string id="zat_b7_bandit_boss_sultan_task_4_text">
+<text>Find and destroy individuals and collect them with %s.</text>
+</string>
+<string id="zat_b7_bandit_boss_sultan_task_4_about">
+ <text>Anyways, one of the most experienced boys had a contest: the hunt for stalkers, who will kill more, but not just to kill, but also as proof to collect the badges, otherwise it doesn't count, I want to join the competition? The reward is more than worthy.</text>
+</string>
+<string id="zat_b7_bandit_boss_sultan_task_4_fetch_about">
+<text>Now record 58 stripes! You have to beat and collect %s. if you break the record and get a specified number, then the prize is yours!</text>
+</string>
+<string id="zat_b7_bandit_boss_sultan_task_4_fetch_finish">
+ <text>Congratulations to our bro! Really sharp kid, from lads and from me personally, respect, and hold the prize.</text>
+</string>
+
+<string id="mar_base_stalker_barmen_task_6_name">
+<text>the Hunt for enemies</text>
+</string>
+<string id="mar_base_stalker_barmen_task_6_text">
+<text>Find and destroy enemies and collect their %s.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_6_about">
+ <text>Is not that job, I'd even say just hunting, no mutants this time, but our lot simply have to kill and collect their patches as a proof, want to join the hunt?</text>
+</string>
+<string id="mar_base_stalker_barmen_task_6_fetch_about">
+<text>Alright, now we need %s. come back when you're done.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_6_fetch_finish">
+<text>congratulations, you won the hunt, the prize is yours.</text>
+</string>
+
+<string id="bar_dolg_general_petrenko_stalker_task_5_name">
+ <text>the Hunt for the "Freedom"</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_5_text">
+<text>Find and destroy Svoboda and collect them with %s.</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_5_about">
+<text>I've decided among the men to organize a competition - who will kill more members, all just have to find and destroy members of the group Freedom and collect them with the stripes to prove it. If you wanna join us, huh!</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_5_fetch_about">
+ <text>Gather from their corpses %s. data on the required number I threw in your PDA.</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_5_fetch_finish">
+<text>here comes our champion! Freedom got a good kick in the ass, and you deserve your prize.</text>
+</string>
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_name">
+<text>the Hunt for "the Debt"</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_text">
+<text>Find and destroy dolgovtsev and collect them with %s.</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
+<text>Here we are among the veterans is a competition who will kill Polgara, but not just kill and collect their corpses stripe and brings it to me in person, you too can join if you want.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_fetch_about">
+<text>Gather from their corpses %s. data on the required number I threw in your PDA.</text>
+</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_fetch_finish">
+<text>here comes our champion! Debt has received a good kick in the ass, and you deserve your prize.</text>
+</string>
+
+<string id="cit_killers_merc_trader_stalker_task_4_name">
+<text>Custom hunting</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_4_text">
+<text>Find and destroy targets, and collect them with %s.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_4_about">
+ <text>Our services started to use more and more groups of the Zone, let and deny that we no do not have Affairs, that's their problem, in General, one group (I won't name which one) ordered to destroy a certain number of enemies and collect their patches as a proof, take the order?</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_4_fetch_about">
+<text>Now we got a %s. data on the required number I threw in your PDA.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_4_fetch_finish">
+ <text>Order is complete, and here is the fee!</text>
+</string>
+
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_name">
+<text>Operation "Storm Zone"</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_text">
+<text>Find and destroy targets, and collect them with %s.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_about">
+<text>you Need to conduct a punitive operation against stalkers, but this time not so simple, the command now requires evidence of a successful operation, so collect from the corpses of the patch.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_fetch_about">
+<text>Collect %s. data on the required number I threw in your PDA.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_5_fetch_finish">
+<text>the Operation was successful? Come on the stripes, great job!</text>
+</string>
+
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_name">
+<text>Food database</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_text">
+<text>to Produce food for the military base %s.</text>
+</string>
+ <string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_about">
+<text>On the basis of supplies, and deliveries are always interruptions, and a hungry fighter is a bad fighter, so I want to ask you to produce food for the database.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_fetch_about">
+<text>Get mailbox %s. this is enough to provide a base food for the week.</text>
+</string>
+<string id="agr_smart_terrain_1_6_army_trader_stalker_task_4_fetch_finish">
+<text>Thank you, saved from hunger, keep a gratitude.</text>
+</string>
+
+
+ <string id="mar_base_stalker_barmen_task_4_name">
+<text>the Food database for "clear Sky"</text>
+</string>
+<string id="mar_base_stalker_barmen_task_4_text">
+<text>to Produce food ERS for database %s.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_4_about">
+<text>Hell, on the basis of need supplies if this goes on, nothing good will come of it, with the supply of a specific problem, look, can bring food for the base? Do a good deed, all say thank you, and as a reward I will find what to give.</text>
+</string>
+ <string id="mar_base_stalker_barmen_task_4_fetch_about">
+<text>Alright, I need a box %s. back, how to get one.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_4_fetch_finish">
+<text>Well, thank you very much from me and the entire base! We will not see hunger another week!</text>
+</string>
+
+
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_name">
+<text>the Food database for "Freedom"</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_text">
+<text>to Produce food for the base of the "Freedom" to %s.</text>
+</string>
+ <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_about">
+<text>Hell, on the basis of need supplies if this goes on, nothing good will come of it, with the supply of a specific problem, look, can bring food for the base? Do a good deed, all say thank you, and as a reward I will find what to give.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_fetch_about">
+<text>Alright, I need a box %s. back, how to get one.</text>
+</string>
+<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_fetch_finish">
+ <text>Well, thank you very much from me and the entire base! We will not see hunger another week!</text>
+</string>
+
+
+<string id="cit_killers_merc_trader_stalker_task_5_name">
+<text>Supplies for a base of mercenaries</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_5_text">
+<text>to Produce products for a base of mercenaries to %s.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_5_about">
+ <text>the Grub on the base ends. And this does not Bode well, a hungry fighter is a bad fighter, our won and so all the nerves at the base because of hunger, crappy providing those with Big land, always provided through one place, you can get products for the base? Money will not hurt.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_5_fetch_about">
+<text>Well, I need a box %s. back, how to get one.</text>
+</string>
+<string id="cit_killers_merc_trader_stalker_task_5_fetch_finish">
+<text>Well done, this food last for a week exactly.</text>
+</string>
+
+ <string id="pri_monolith_monolith_trader_stalker_task_7_name">
+<text>Supplies for the base of the "Monolith"</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_7_text">
+<text>to Produce products for the base of the "Monolith" %s.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_7_about">
+<text>Even we sometimes lack sufficient food supplies to feed all the servants of the Monolith, brother, can you get our food?</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_7_fetch_about">
+ <text>Thank you brother, I need a box %s. back, how to get one.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_7_fetch_finish">
+<text>Thank you, these stocks Monolith will last for a week.</text>
+</string>
+
+<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_5_name">
+<text>Supplies for base bandits</text>
+</string>
+<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_5_text">
+<text>to Produce products for base bandits %s.</text>
+</string>
+<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_5_about">
+ <text>the Food at the base ends soon kid to eat Neher will come guys from the RAID and th? Anyways I need to get food for the database, can you help?</text>
+</string>
+<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_5_fetch_about">
+<text>Oh, that's a real kid! Now, I need a box %s. back, how to get one.</text>
+</string>
+<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_5_fetch_finish">
+<text>From the heart bro! These reserves boys will last for a week.</text>
+</string>
+
+<string id="pri_monolith_monolith_trader_stalker_task_8_name">
+ <text>death to the enemies of the Monolith!</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_8_text">
+<text>Find and destroy targets, and collect them with %s.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_8_about">
+<text>we Need to destroy the infidels for the glory of the Monolith and gather with their patches, the more infidels will be destroyed, the sooner will peace come from brother? The award will be the most worthy.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_8_fetch_about">
+ <text>Collect %s. data on the required number I threw in your PDA.</text>
+</string>
+<string id="pri_monolith_monolith_trader_stalker_task_8_fetch_finish">
+<text>Brother, you have fulfilled the most difficult task, you brilliantly showed himself, therefore, take these gifts and wear them with honor!</text>
+</string>
+
+<string id="mar_base_stalker_barmen_task_5_name">
+<text>to Get the artifact</text>
+</string>
+<string id="mar_base_stalker_barmen_task_5_text">
+<text>Find artifact Cold for %s.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_5_about">
+ <text>There is an order to the production of artifacts for scientists come from?</text>
+</string>
+<string id="mar_base_stalker_barmen_task_5_fetch_about">
+<text>so, they charged to get %s. come back to me when you get the desired artifact.</text>
+</string>
+<string id="mar_base_stalker_barmen_task_5_fetch_finish">
+<text>Thanks, I think scientists will be happy, here's your reward:</text>
+</string>
+
+<string id="esc_2_12_stalker_nimble_task_3_name">
+<text>Kill the bandit</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_3_text">
+ <text>bright-eyed instructed to kill the bandit, but did not explain why, but it sounds like revenge</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_3_about">
+<text>I need you to fix one bandit... don't ask who he is and nafig I need it, okay? Can I trust you?</text>
+</string>
+<string id="esc_2_12_stalker_nimble_task_3_finish">
+<text>Thank you.</text>
+</string>
+
+       <string id="esc_m_trader_task_3_name">
+<text>to Get the artifact</text>
+</string>
+<string id="esc_m_trader_task_3_text">
+<text>Find artifact for Sidorovich %s.</text>
+</string>
+<string id="esc_m_trader_task_3_about">
+<text>There is order in the artifacts from the different personalities on the mainland and not only from them, well, as I agree to get the artifact?</text>
+</string>
+<string id="esc_m_trader_task_3_fetch_about">
+<text>so, they charged to get %s. come back to me when you get the desired artifact.</text>
+</string>
+<string id="esc_m_trader_task_3_fetch_finish">
+ <text>Mission accomplished... and here is the fee!</text>
+</string>
+
+<string id="esc_m_trader_task_4_name">
+<text>to Extract the part of the body of the monster</text>
+</string>
+<string id="esc_m_trader_task_4_text">
+<text>Find Sidorovich part mutant %s.</text>
+</string>
+<string id="esc_m_trader_task_4_about">
+<text>I received the order on certain parts of the bodies of the monsters and I need an experienced hunter who will produce.</text>
+</string>
+<string id="esc_m_trader_task_4_fetch_about">
+<text>Get %s. how to produce back.</text>
+</string>
+<string id="esc_m_trader_task_4_fetch_finish">
+ <text>Mission accomplished... and here is the fee!</text>
+</string>
+
+<string id="esc_m_trader_task_5_name">
+<text>to Produce supplies for Sidorovich</text>
+</string>
+<string id="esc_m_trader_task_5_text">
+<text>Find Sidorovich part mutant %s.</text>
+</string>
+<string id="esc_m_trader_task_5_about">
+<text>Here it would seem that the border of the Zone, with the supply must not be intermittent, but fuck it! Forever products are detained, newcomers also need something to eat right? In General, it is necessary to produce the food, well, agree to help?</text>
+</string>
+<string id="esc_m_trader_task_5_fetch_about">
+ <text>Get mailbox %s. how to produce back.</text>
+</string>
+<string id="esc_m_trader_task_5_fetch_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_2_name">
+<text>to Get the artifact</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_2_text">
+<text>Search for Bartender artifact %s.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_2_about">
+<text>orders for different artifacts, if you agree one of your orders.</text>
+</string>
+ <string id="bar_visitors_barman_stalker_trader_task_2_fetch_about">
+<text>Okay, give me %s. how to produce back.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_2_fetch_finish">
+<text>got it? Well done, keep negado.</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_3_name">
+<text>to Extract the part of the body of the monster</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_3_text">
+<text>to Get the Bartender's part mutant %s.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_3_about">
+ <text>All the stalkers know what I'm doing delicacies from parts mutants! The eye of flesh in it's own juice with mayonnaise, and the like, in General, I need an experienced hunter who will take out the necessary parts from the monsters.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_3_fetch_about">
+<text>Okay, give me %s. how to produce back.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_3_fetch_finish">
+<text>got it? Well done, keep negado.</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_4_name">
+ <text>Kill the monolith</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_4_text">
+<text>to Kill a monolith, a former friend of the bartender</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_4_about">
+<text>you Know the Stalker, and I'm not the only one in the Area came, and another, along the first artifacts were found, together fought off the muggers... I have news from him have not heard, thought he was dead already, and here recently I learned that he joined "the Monolith"! In General, put him out his misery and kill him, I'll do the same.</text>
+</string>
+ <string id="bar_visitors_barman_stalker_trader_task_4_finish">
+<text>Thank you Stalker me you were done with him, better let him be dead than in the ranks of "Monolith".</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_5_name">
+<text>Kill the Stalker</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_5_text">
+<text>Kill the Stalker, who crossed the road to the Bartender</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_5_about">
+ <text>you Know that's how it is, you trust someone, trust him as yourself! And then it turns out that he is a rare creature and a traitor, in General, it is necessary to find one monster and kill it. I can count on you?</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_5_finish">
+<text>the Job is done, the reward is yours.</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_6_name">
+<text>Kill the soldier</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_6_text">
+ <text>the Order of the person in the form and the customer is clearly angry</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_6_about">
+<text>I need you to fix one military... don't ask who is he and why do I need you? I can count on you?</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_6_finish">
+<text>the Job is done, the reward is yours.</text>
+</string>
+
+<string id="bar_visitors_barman_stalker_trader_task_7_name">
+<text>Security camp</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_7_text">
+ <text>to Destroy the bandits who Rob stalkers on the way to the Bar</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_7_about">
+<text>Damn those goparey, more and more stalkers can't reach the Bar because of the bandits, I ask you to find the raiders ' camp and destroy it.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_7_finish">
+<text>the Job is done, the reward is yours.</text>
+</string>
+
+<string id="bar_dolg_general_petrenko_stalker_task_6_name">
+<text>Security camp</text>
+</string>
+ <string id="bar_dolg_general_petrenko_stalker_task_6_text">
+<text>to Destroy the mutants that attack the stalkers</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_6_about">
+<text>Despite all the efforts of our outposts, some monsters still make their way from the Landfill, arrange a den outside the territory of the plant and attack the stalkers. I'm asking you to help our Outpost to destroy the mutants.</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_6_finish">
+<text>Good job soldier, here's the reward.</text>
+</string>
+
+
+ <string id="bar_visitors_barman_stalker_trader_task_8_name">
+<text>Food bar</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_8_text">
+<text>to Produce products for the bar %s.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_8_about">
+<text>Bar is experiencing a total lack of food and alcohol, if there is one, then in any second it ends! Can get bar for some food? Expenses paid.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_8_fetch_about">
+ <text>Alright, now I have %s. back, how to get one.</text>
+</string>
+<string id="bar_visitors_barman_stalker_trader_task_8_fetch_finish">
+<text>Thank you Stalker for this stock for a week will be enough, here's your money and something else.</text>
+</string>
+
+<string id="bar_dolg_general_petrenko_stalker_task_7_name">
+<text>Extermination camp</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_7_text">
+<text>to Destroy the mutants on the next location</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_7_about">
+ <text>you Need to destroy mutants in the neighboring territories since they come and attack our outposts.</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_7_finish">
+<text>Good job soldier, here's the reward.</text>
+</string>
+
+<string id="bar_dolg_general_petrenko_stalker_task_8_name">
+<text>to Destroy the camp of "Liberty"</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_8_text">
+<text>the task Petrenko to destroy the camp of "Liberty"</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_8_about">
+ <text>you Must destroy the camp of Svoboda, that our troops were able to take a point.</text>
+</string>
+<string id="bar_dolg_general_petrenko_stalker_task_8_finish">
+<text>Good job soldier, here's the reward.</text>
+</string>
+
+<!-- stalker_companion_task_2 -->
+<string id="stalker_companion_task_2_start_dialog_1">
+<text>the Common whether, Beard said you experienced Stalker and can lead the RAID for swag, just great, OK, guys, let's go then..</text>
+</string>
+<string id="stalker_companion_task_2_start_dialog_2">
+ <text>Let's take, yet so much swag to collect!</text>
+</string>
+<string id="stalker_companion_task_2_complete">
+<text>it was a RAID, that's it from us, from the heart, may hope sometime we happen to travel together..</text>
+</string>
+<string id="stalker_companion_task_2_actor_reply">
+<text>goodbye.</text>
+</string>
+
+       <!-- stalker_companion_task_3 -->
+<string id="stalker_companion_task_3_start_dialog_1">
+<text>Hey man, that means you will accompany us an abnormal fields? Well, let's go.</text>
+</string>
+<string id="stalker_companion_task_3_start_dialog_2">
+<text>We have not yet reached the place of abnormal activity, so lead on.</text>
+</string>
+<string id="stalker_companion_task_3_complete">
+<text>Great, thanks for the support, here, take it from us, as a token of appreciation.</text>
+</string>
+<string id="stalker_companion_task_3_actor_reply">
+<text>goodbye.</text>
+</string>
+
+
+
+
+<!-- SKELIA QUESTS BEARD -->
+
+<string id="zat_a2_stalker_barmen_task_4_name">
+<text>to Destroy the enemy</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_4_text">
+<text>Beard asked to clear the camp of enemies of stalkers.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_4_about">
+<text>Anyways, me stalkers said that they saw a detachment of some types, which are preparing an attack on the Skadovsk, will help to localize the threat? Pay decently.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_4_finish">
+ <text>the Job is done. And here is the fee!</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_5_name">
+<text>to Destroy the accumulation of the zombie</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_5_text">
+<text>Beard asked to clean up the area a cluster of zombies.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_5_about">
+<text>The General drew one problem at Skadovsk came a Stalker, talked about the cluster of zombies nearby, so far they just hang out there, but it is unable to attack on the Skadovsk, can destroy them?</text>
+</string>
+ <string id="zat_a2_stalker_barmen_task_5_finish">
+<text>the Job is done. And here is the fee!</text>
+</string>
+
+
+<string id="zat_a2_stalker_barmen_task_6_name">
+<text>bring products to the Skadovsk</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_6_text">
+<text>Beard asked to produce bar products : %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_6_about">
+<text>There is one thing. My bar end products and supplies to put it mildly ass, can you get us supplies? I would be grateful.</text>
+</string>
+ <string id="zat_a2_stalker_barmen_task_6_fetch_about">
+<text>So, now for the bar you need %s come how to find the necessary amount.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_6_finish">
+<text>the Job is done. And here is the fee!</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_7_name">
+<text>Kill the bandit</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_7_text">
+<text>Beard asked to destroy one of the most dangerous criminals.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_7_about">
+ <text>you Need to kill a single bandit, believe me he's a washed-up rubbish, a lot of good stalkers destroyed, will be able to get rid of this biodegradable waste?</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_7_finish">
+<text>the Job is done. And here is the fee!</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_8_name">
+<text>to Kill the mercenary</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_8_text">
+<text>Beard asked to destroy the mercenary who carries out orders to kill the stalkers.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_8_about">
+ <text>you Need to kill a single mercenary, he works for the orders to kill the stalkers, thereby reducing the number of my clients, you can deal with it?</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_8_finish">
+<text>the Job is done. And here is the fee!</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_11_name">
+<text>to Produce stripe monolith for Beard</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_11_text">
+<text>Beard asked to produce : %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_11_about">
+ <text>Got a job. Stalkers among veterans and masters, I am regular competition: who will kill more monolith, now stalkers account for 24 of the monolith and the same stripes. Want to beat his record? Everything is simple, kill the monolith and get their stripes, the prize guarantee!</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_11_fetch_about">
+<text>Kill the monolith and gather them with %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_11_finish">
+<text>Congrats Champ! Here's your prize!</text>
+</string>
+
+ <string id="zat_a2_stalker_barmen_task_12_name">
+<text>to Produce stripe monolith for Beard</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_12_text">
+<text>Beard asked to produce : %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_12_about">
+<text>Got a job. Stalkers among veterans and masters, I am regular competition: who will kill more gangsters, now stalkers account for 14 bandits killed and the same number of stripes. Want to beat his record? Everything is simple, kill the Bandos and get their stripes, the prize guarantee!</text>
+</string>
+ <string id="zat_a2_stalker_barmen_task_12_fetch_about">
+<text>Kill the bandits and collect them with %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_12_finish">
+<text>Congratulations to the champion, Here's your prize! Kicks bandits under the tailbone, respect!</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_13_name">
+<text>Kill the zombie</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_13_text">
+<text>Beard asked to kill his friend, who became a zombie.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_13_about">
+ <text>Ehhh, I remember the Area that not one came, and with faithful companion, and together the artifacts are first extracted, from monsters and bandits fought back, but sold somehow our paths, for a long time I haven't heard from him, even stalkers passing through the Skadovsk asked to check up on him, and recently, I learned that it is exposed to radiation and became a zombie dummy. So crappy heart. In General, it is necessary to save him from the torment, kill him so he didn't suffer.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_13_finish">
+<text>Thank you for the repose of the soul of my comrade, here, take it from the heart.</text>
+</string>
+
+<string id="zat_a2_stalker_barmen_task_10_name">
+<text>to Extract the part of the body of the monster</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_10_text">
+<text>Beard asked to produce some of the mutant : %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_10_about">
+<text>came the order of the monsters from the scientists come from?</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_10_fetch_about">
+<text>please Get %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_10_finish">
+<text>Keep the profits.</text>
+</string>
+
+ <string id="zat_a2_stalker_barmen_task_9_name">
+<text>to Get monster meat</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_9_text">
+<text>Beard asked to produce meat mutant : %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_9_about">
+<text>I decided to try to make any edible meat from the local fauna, so you need to go and get the meat mutants. Taken?</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_9_fetch_about">
+<text>please Get %s.</text>
+</string>
+<string id="zat_a2_stalker_barmen_task_9_finish">
+ <text>Keep the profits.</text>
+</string>
+
+<string id="zat_b30_owl_stalker_trader_task_1_name">
+<text>Order weapons</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_1_text">
+<text>to Get to Owl trunk : %s.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_1_about">
+<text>There is one thing one of my customers ordered guns and supplies in Skadovsk is now a big problem, so the man wants a gun for a long time, you may be able to get the right barrel? I'll bring the Beers.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_1_fetch_about">
+ <text>So, you need to extract %s - come.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_1_finish">
+<text>Well, that's it! The client will be satisfied, you keep the fee.</text>
+</string>
+
+<string id="zat_b30_owl_stalker_trader_task_2_name">
+<text>to Get the artifact to Owl</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_2_text">
+<text>Owl asked to get the artifact: %s.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_2_about">
+ <text>I received an order for one artifact from one crime boss, he loves to collect them. So, will it get? The money is not going to hurt.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_2_fetch_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+
+<string id="zat_b30_owl_stalker_trader_task_3_name">
+<text>to Find and kill the loner</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_3_text">
+<text>Owl asked to razobratsja with one Stalker... Chemm is he guilty? Although I think it doesn't matter pay matter.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_3_about">
+<text>I need you to fix one alone, no matter who it is, just make it happen. Well? Can I trust you?</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_3_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+
+        <string id="zat_b30_owl_stalker_trader_task_4_name">
+<text>to Find and kill Svoboda</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_4_text">
+<text>the Order of the Stalker group Liberty... surely he will not be alone, so you have to be careful.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_4_about">
+<text>we Need to eliminate one of the free... the Details aren't important, just blast it and get the profits.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_4_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+
+ <string id="zat_b30_owl_stalker_trader_task_5_name">
+<text>to Find and kill dolgovtsa</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_5_text">
+<text>Sych gave an order to a party member's Debt, promised to pay well.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_5_about">
+<text>the order for the murder dolgovtsa did come from?</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_5_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+
+<string id="zat_b30_owl_stalker_trader_task_6_name">
+<text>to Find and kill the scientist</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_6_text">
+<text>Owl asked to deal with one scientist who climbs in his business.</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_6_about">
+<text>Need to find one scientist and put a bullet in his skull, he began to Suva nose in his business. Taken?</text>
+</string>
+<string id="zat_b30_owl_stalker_trader_task_6_finish">
+<text>Mission accomplished... and here is the fee!</text>
+</string>
+</string_table>

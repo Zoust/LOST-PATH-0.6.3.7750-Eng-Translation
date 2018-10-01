@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_wpn_abakan_magma">
+<text>An-94 "Abakan" Anomaly</text>
+</string>
+<string id="st_wpn_abakan_magma_descr">
+<text>a Machine of unknown origin. Legend has it that the machine was in the anomaly Roasting and because of this gained an interesting property. Some mechanisms of the machine can "regenerate" to a state. A very interesting instance.</text>
+</string>
+<string id="pda_manuel_descr">
+<text>In the appointed place the Zucchini didn't come, waiting for him for several days, where did he go? It will be necessary to reach the Bartender.</text>
+</string>
+
+ <string id="st_axe">
+<text>Axe</text>
+</string>
+<string id="st_axe_descr">
+<text>\n \n%c[0,170,170,170]Axe - a tool used for thousands of years working with wood. In the FDS is used by stalkers for chopping firewood, rarely for finishing large mutants. Is a formidable weapon in the hands of a Stalker. \n \n%c[0,170,170,170]FEATURES:\n%c[0,153,255,255] • %c[0,140,140,140] melee weapons\n%c[0,153,255,255] • %c[0,140,140,140] universal application\n%c[0,204,0,51] • %c[0,140,140,140] is not suitable for cutting mutants</text>
+</string>
+ <string id="st_wpn_vintorez_sk1">
+<text>VSS Vintorez "Kink"</text>
+</string>
+<string id="st_wpn_vintorez_sk1_descr">
+<text>Camouflaged version of a sniper rifle "Vintorez". Camouflage is very similar to the Russian fracture, most likely these weapons were in the Area thanks to the regular Army.</text>
+</string>
+
+<string id="st_wpn_groza_sk1">
+<text>Rain C14 "Kink"</text>
+</string>
+<string id="st_wpn_groza_sk1_descr">
+<text>Camouflaged version of the Storm. Camouflage is very similar to the Russian fracture, most likely these weapons were in the Area thanks to the regular Army.</text>
+</string>
+
+ <string id="st_wpn_groza_magma">
+<text>Rain C14 "Magma"</text>
+</string>
+<string id="st_wpn_groza_magma_descr">
+<text>Unknown drawing machine obyasnetsya just the fact that he really spent a long time in the anomaly of "Frying" and got some anomalous properties. One of the properties a very quiet shot and long wear.</text>
+</string>
+<string id="st_wpn_ak74u_q">
+<text>Captured AKS-74U</text>
+</string>
+<string id="st_wpn_ak74u_q_descr">
+<text>Normal AKS-74U engraved on the case of merit</text>
+</string>
+<string id="st_wpn_groza_shulga">
+<text>the Storm "Shulga"</text>
+</string>
+<string id="st_wpn_groza_shulga_descr">
+<text>a Modified Storm-Lieutenant Colonel Shulga. Have integrated optics with strong approximation and greatly reduced recoil.</text>
+</string>
+<string id="st_wpn_aks74_strelka">
+<text>AKS-74 "Arrow"</text>
+</string>
+<string id="st_wpn_aks74_strelka_descr">
+<text>a Modified AKS-74 personally Shot. Has a non-removable barrel-attached grenade launcher, PSO with X20 magnification. Increased and damage make this weapon relevant in the Area.</text>
+</string>
+<string id="st_wpn_lr300_volkodav">
+ <text>LR300 "Sniper"</text>
+</string>
+<string id="st_wpn_lr300_volkodav_descr">
+<text>modification of the Sniper LR300 brought to mind. Integrated optics with adjustable magnification and a silencer firing at long range, and increased damage allows with great success to destroy enemy targets. Because of the modifications were lost the ability of automatic fire, you can shoot only one bullet.</text>
+</string>
+<string id="st_wpn_spas12_father">
+<text>SPAS 12 "Named"</text>
+</string>
+<string id="st_wpn_spas12_father_descr">
+ <text>This shotgun belonged to his Father Valerian. From the normal version only differs by a larger store and slightly increased rate of fire.</text>
+</string>
+<string id="st_wpn_abakan_dolg">
+<text>An-94 "Dolgovtsa"</text>
+</string>
+<string id="st_wpn_abakan_dolg_descr">
+<text>a Unique example of an-94 assault rifle with an integrated underbarrel grenade launcher GP-25 and sniper sight PSO-1M high multiplicity. Belonged to Dolgova from the group of the Skull. The modification of this machine has allowed to reduce recoil and slightly increase the damage.</text>
+</string>
+<string id="st_wpn_abakan_m">
+ <text>An-94 "Assault"</text>
+</string>
+<string id="st_wpn_abakan_m_descr">
+<text>modification of the an-94 assault rifle with an integrated underbarrel grenade launcher GP-25.</text>
+</string>
+<string id="st_wpn_groza_545">
+<text>Storm</text>
+</string>
+<string id="st_wpn_groza_545_descr">
+<text>Prototype-automatic grenade launcher, a Russian modification of the standard "Thunder-C14", specially created for operating in the Area of special forces. Characterized by increased size of the store.</text>
+</string>
+<string id="st_wpn_svu_maks">
+	<text>SVU2-AND 'max'</text>
+</string>
+ <string id="st_wpn_svu_maks_descr">
+	<text>It 'SVU2-A'-shortened sniper rifle with an increased rate of fire. Before that, I was at Extreme, the legendary Keeper of the Liberty group. He swore that she was the only one in the whole area.</text>
+</string>
+<string id="st_wpn_sig550_545">
+<text>SIG SG-550</text>
+</string>
+<string id="st_wpn_sig550_545_descr">
+<text>Craftsmen have redesigned the barrel of the SIG SG-550 is more common in the area of the cartridge: now for equipment used ammunition caliber 5,45 x39 mm</text>
+</string>
+
+ <string id="st_binocular_name">
+<text>Binoculars</text>
+</string>
+<string id="st_binocular_descr">
+<text>Binoculars with adjustable magnification. Allows you to see faraway objects.</text>
+</string>
+<string id="st_binocular_1_name">
+<text>Military binoculars</text>
+</string>
+<string id="st_binocular_1_descr">
+<text>Is relatively low in weight and strong enough optics with adjustable magnification. Allows us to consider the terrain and buildings from a great distance.</text>
+</string>
+<string id="st_binocular_2_name">
+<text>Digital binoculars</text>
+</string>
+ <string id="st_binocular_2_descr">
+<text>Allows to consider in detail the objects at a great distance. Built-in thermal imager allows to detect and to localize the heat sources, it has the characteristics with the human body.</text>
+</string>
+</string_table>

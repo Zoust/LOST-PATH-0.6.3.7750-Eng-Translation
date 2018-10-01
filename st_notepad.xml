@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+<!-- Кнопки -->
+<string id="pda_btn_rpg">
+	<text>Prorolling</text>
+</string>
+<string id="pda_btn_1">
+	<text>More tab</text>
+</string>
+<string id="pda_btn_2">
+	<text>And more tab</text>
+</string>
+<string id="ui_pda_ostalos">
+	<text>Remaining skill points:</text>
+</string>
+
+<string id="ui_pda_name_1">
+	<text>Skill 1:</text>
+</string>
+<string id="ui_pda_name_2">
+	<text>Skill 2:</text>
+</string>
+<string id="ui_pda_name_3">
+	<text>Skill 3:</text>
+</string>
+<string id="ui_pda_name_4">
+	<text>Ability 4:</text>
+</string>
+<string id="ui_pda_name_5">
+	<text>Skill 5:</text>
+</string>
+
+<string id="ui_pda_desc_1">
+	<text>Description 1:</text>
+</string>
+<string id="ui_pda_desc_2">
+	<text>Description 2:</text>
+</string>
+<string id="ui_pda_desc_3">
+	<text>Description 3:</text>
+</string>
+<string id="ui_pda_desc_4">
+	<text>Description 4:</text>
+</string>
+<string id="ui_pda_desc_5">
+	<text>Description 5:</text>
+</string>
+
+
+<string id="pda_btn_factions">
+<text>Grouping</text>
+</string>
+<string id="pda_btn_factions_hint">
+<text>Statistics groups.</text>
+</string>
+
+<string id="Next">
+<text>Forward</text>
+</string>
+<string id="Back">
+<text>Ago</text>
+</string>
+
+
+
+<string id="pda_mesto">
+<text>Location:</text>
+</string>
+<string id="pda_points">
+<text>the Power of groups:</text>
+</string>
+<string id="pda_base">
+<text>Number of databases:</text>
+</string>
+<string id="pda_res">
+<text>resource Points:</text>
+</string>
+<string id="pda_last">
+<text>clan Members</text>
+</string>
+<string id="pda_friend">
+<text>Attitude:</text>
+</string>
+<string id="pda_friend_1">
+<text>Friends</text>
+</string>
+<string id="pda_friend_2">
+<text>Enemies</text>
+</string>
+<string id="pda_friend_3">
+<text>Neutral</text>
+</string>
+
+
+</string_table>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+	<string id="treasure_detector_name">
+<text>Detectors</text>
+</string>
+<string id="treasure_artefact_name">
+<text>Artifacts</text>
+</string>
+<string id="treasure_medecine_name">
+<text>Medication</text>
+</string>
+<string id="treasure_grenade_name">
+<text>Grenade</text>
+</string>
+<string id="treasure_wpngrenade_name">
+<text>Grenades for grenade launcher</text>
+</string>
+<string id="treasure_drink_name">
+<text>Drink</text>
+</string>
+<string id="treasure_ammo_name">
+<text>Ammunition</text>
+</string>
+<string id="treasure_mutant_name">
+<text>the Part monster</text>
+</string>
+<string id="treasure_addon_name">
+<text>the Addons to the weapon</text>
+</string>
+<string id="treasure_eat_name">
+<text>Food</text>
+</string>
+<string id="treasure_drug_name">
+<text>Antibiotics</text>
+</string>
+<string id="treasure_wpn_name">
+<text>Weapons</text>
+</string>
+</string_table>
