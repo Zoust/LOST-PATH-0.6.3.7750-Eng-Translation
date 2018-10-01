@@ -432,12 +432,12 @@ function get_simulation_info(squad)
 	end
 
 	if npc_count == 1 then
-	   props = props .."\\nStalker "..commanderName.." Faction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
-	   props = props .."\\nExperience: "..type.." \\n"
+	   props = props .."\nStalker "..commanderName.." Faction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
+	   props = props .."\nExperience: "..type.."\n"
 	   
 	   if power then
-	      props = props.."\\nStrength: "..power.." \\n"
+	      props = props.."\nStrength: "..power.."\n"
 	   end
 	   
 	   if (ase_target) and squad.current_action == 0 then
@@ -447,42 +447,42 @@ function get_simulation_info(squad)
 	       local level = game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   
-	       props = props.."\\nObjective: "..level..", "..script_to_text_name.." \\n"
+	       props = props.."\nObjective: "..level..", "..script_to_text_name.."\n"
 	   end
 	   
-	   props = props .."\\n-------------\\n"	
-	   props = props .."\\nCondition:\\n"
+	   props = props .."\n-------------\n"	
+	   props = props .."\nCondition:\n"
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."\\n- in battle\\n"
+	       props = props.."\n- in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."\\n- tired \\n"
+	           props = props.."\n- tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."\\n- tired \\n"
+	           props = props.."\n- tired\n"
            end	 
 		   
 	      if (squad.current_action == 1) then
-	          props = props.."\\n- resting \\n"
+	          props = props.."\n- resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."\\n- moving \\n"
+	          props = props.."\n- moving\n"
 	      end
 	   end	       
 	   
 	else
-	   props = props .."\\nFaction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
-	   props = props .."\\nStrengh: "..npc_count.." "..npc_count_final.."\\n"
-	   props = props .."\\nExperience: "..type.." \\n"
+	   props = props .."\nFaction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
+	   props = props .."\nStrengh: "..npc_count.." "..npc_count_final.."\n"
+	   props = props .."\nExperience: "..type.."\n"
 	   
 	   if power then
-	      props = props.."\\nStrength: "..power.." \\n"
+	      props = props.."\nStrength: "..power.."\n"
 	   end
 	   
 	   if (commanderName and IsStalker(commander)) then
-	       props = props .."\\nCommander: "..commanderName.." \\n"
+	       props = props .."\nCommander: "..commanderName.."\n"
 	   end
 	   
 	   if (ase_target) and squad.current_action == 0 then
@@ -492,27 +492,27 @@ function get_simulation_info(squad)
 	       local level = game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   
-	       props = props.."\\nObjective: "..level..", "..script_to_text_name.." \\n"
+	       props = props.."\nObjective: "..level..", "..script_to_text_name.."\n"
 	   end
 	   
-	   props = props .."\\n-------------\\n"	
-	   props = props .."\\nCondition:\\n"
+	   props = props .."\n-------------\n"	
+	   props = props .."\nCondition:\n"
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."\\n- in battle\\n"
+	       props = props.."\n- in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."\\n- tired \\n"
+	           props = props.."\n- tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."\\n- tired \\n"
+	           props = props.."\n- tired\n"
            end	 
 		   
 	      if (squad.current_action == 1) then
-	          props = props.."\\n- resting \\n"
+	          props = props.."\n- resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."\\n- moving \\n"
+	          props = props.."\n- moving\n"
 	      end
 	   end	       
 	end
@@ -554,11 +554,11 @@ function friend_info(squad)
 	end
 
 	if npc_count == 1 then
-	   props = props .."\\nCommander "..commanderName.." \\nFaction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
+	   props = props .."\nCommander "..commanderName.."\nFaction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
 	   
 	   if power then
-	      props = props.."\\nStrength: "..power.." \\n"
+	      props = props.."\nStrength: "..power.."\n"
 	   end
 	   
 	   if string.find(squad:name(), "trader") then spec = "Trader"
@@ -567,7 +567,7 @@ function friend_info(squad)
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman" end
 	   
-	   props = props .. "\\nSpecialization: "..spec.." \\n"
+	   props = props .. "\nSpecialization: "..spec.."\n"
 	   
 	   if (ase_target) and squad.current_action == 0 then
 	       local levelID = ase_target.m_game_vertex_id and game_graph():vertex(ase_target.m_game_vertex_id):level_id()
@@ -576,40 +576,40 @@ function friend_info(squad)
 	       local level = game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   
-	       props = props.."\\nObjective: "..level..", "..script_to_text_name.." \\n"
+	       props = props.."\nObjective: "..level..", "..script_to_text_name.."\n"
 	   end
 	   
-	   props = props .."\\nCondition: "
+	   props = props .."\nCondition: "
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."in battle\\n"
+	       props = props.."in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end	 
 		   
 	      if (squad.current_action == 1) then
-	          props = props.."resting \\n"
+	          props = props.."resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."moving \\n"
+	          props = props.."moving\n"
 	      end
 	   end	       
 	   
 	else
-	   props = props .."\\nFaction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
-	   props = props .."\\nStrength: "..npc_count.." "..npc_count_final.."\\n"
+	   props = props .."\nFaction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
+	   props = props .."\nStrength: "..npc_count.." "..npc_count_final.."\n"
 	   
 	   if power then
-	      props = props.."\\nStrength: "..power.." \\n"
+	      props = props.."\nStrength: "..power.."\n"
 	   end
 	   
 	   if (commanderName and IsStalker(commander)) then
-	       props = props .."\\nCommander: "..commanderName.." \\n"
+	       props = props .."\nCommander: "..commanderName.."\n"
 	   end
 	   
 	   if (ase_target) and squad.current_action == 0 then
@@ -619,28 +619,28 @@ function friend_info(squad)
 	       local level = game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   
-	       props = props.."\\nObjective: "..level..", "..script_to_text_name.." \\n"
+	       props = props.."\nObjective: "..level..", "..script_to_text_name.."\n"
 	   end
 	   
-	   props = props .."\\nCondition: "
+	   props = props .."\nCondition: "
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."in battle\\n"
+	       props = props.."in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end	 
 		   
 	      if squad.patrol then
-		      props = props.."patrolling \\n"
+		      props = props.."patrolling\n"
 		  elseif (squad.current_action == 1) then
-	          props = props.."resting \\n"
+	          props = props.."resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."moving \\n"
+	          props = props.."moving\n"
 	      end
 	   end	       
 	end
@@ -682,11 +682,11 @@ function neutral_info(squad)
 	end
 
 	if npc_count == 1 then
-	   props = props .."\\nCommander "..commanderName.." \\nFaction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
+	   props = props .."\nCommander "..commanderName.."\nFaction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
 	   
 	   if power then
-	      props = props.."\\nStrength: "..power.." \\n"
+	      props = props.."\nStrength: "..power.."\n"
 	   end
 	   
 	   if string.find(squad:name(), "trader") then spec = "Trader"
@@ -695,7 +695,7 @@ function neutral_info(squad)
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman" end
 	   
-	   props = props .. "\\nSpecialization: "..spec.." \\n"
+	   props = props .. "\nSpecialization: "..spec.."\n"
 	   
 	   if (ase_target) and squad.current_action == 0 then
 	       local levelID = ase_target.m_game_vertex_id and game_graph():vertex(ase_target.m_game_vertex_id):level_id()
@@ -705,37 +705,37 @@ function neutral_info(squad)
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   end
 	   
-	   props = props .."\\nCondition: "
+	   props = props .."\nCondition: "
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."in battle\\n"
+	       props = props.."in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end	 
 		   
 	      if (squad.current_action == 1) then
-	          props = props.."resting \\n"
+	          props = props.."resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."moving \\n"
+	          props = props.."moving\n"
 	      end
 	   end	       
 	   
 	else
-	   props = props .."\\nFaction: "..faction.." \\n"
-	   props = props .."\\nRelation: "..relation.." \\n"
-	   props = props .."\\nStrengh: "..npc_count.." "..npc_count_final.."\\n"
+	   props = props .."\nFaction: "..faction.."\n"
+	   props = props .."\nRelation: "..relation.."\n"
+	   props = props .."\nStrengh: "..npc_count.." "..npc_count_final.."\n"
 	   
 	   if power then
-	      props = props.."\\nSquad strength: "..power.." \\n"
+	      props = props.."\nSquad strength: "..power.."\n"
 	   end
 	   
 	   if (commanderName and IsStalker(commander)) then
-	       props = props .."\\nCommander: "..commanderName.." \\n"
+	       props = props .."\nCommander: "..commanderName.."\n"
 	   end
 	   
 	   if (ase_target) and squad.current_action == 0 then
@@ -746,25 +746,25 @@ function neutral_info(squad)
 	       local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
 	   end
 	   
-	   props = props .."\\nCondition: "
+	   props = props .."\nCondition: "
 	   
        if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
-	       props = props.."in battle\\n"
+	       props = props.."in battle\n"
 		   
 		   if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end
 	   else   
            if (squad.power_debuff) then
-	           props = props.."tired \\n"
+	           props = props.."tired\n"
            end	 
 		   
 	      if squad.patrol then
-		      props = props.."patrolling \\n"
+		      props = props.."patrolling\n"
 		  elseif (squad.current_action == 1) then
-	          props = props.."resting \\n"
+	          props = props.."resting\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."moving \\n"
+	          props = props.."moving\n"
 	      end
 	   end	       
 	end

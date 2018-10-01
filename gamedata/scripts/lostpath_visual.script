@@ -10,7 +10,7 @@
 -- ¿ “Œ– ¿œƒ≈…“ Õ¿’
 
 local new_visual, last_helmet
-local ini = ini_file("settings\\exo_seva.ltx")
+local ini = ini_file("settings\exo_seva.ltx")
 
 local act = false
 local deact = false
@@ -28,7 +28,7 @@ function actor_on_update()
 	if not string.find(armor_section, "exo") or not armor or not helmet then
 		if act == true or deact == true then
 			if not armor then
-				new_visual = "actors\\stalker_neutral\\stalker_neutral_1"
+				new_visual = "actors\stalker_neutral\stalker_neutral_1"
 				--db.actor:set_visual_name(new_visual)
 				--return
 			elseif not system_ini():r_string_ex(armor_section,"use_serv","") == "true" and armor then

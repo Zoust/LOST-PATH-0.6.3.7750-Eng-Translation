@@ -150,7 +150,7 @@ function pda_relations_tab:autoupdate()
 			local npc = st and st.object
 
 			local icon_name = npc and npc:character_icon() or se_obj:character_icon()
-			icon_name = icon_name and icon_name ~= "" and icon_name or "ui\\ui_noise"
+			icon_name = icon_name and icon_name ~= "" and icon_name or "ui\ui_noise"
 			self.companion_info[i].icon_wnd:InitTexture(icon_name)
 			self.companion_info[i].icon_wnd:Show(true)
 
@@ -196,21 +196,21 @@ function pda_relations_tab:autoupdate()
 			-- Hint
 			local s_move,s_combat,s_gather,s_loot,s_dist,s_stealth,s_arte,s_stalker,s_mutant,s_dismiss,s_tele
 			local state_str = [[
-			%c[255,255,215,255]%c[default]%s \n
-			\n%c[255,215,215,215]st_mm_pda_location:%c[default] %s \n
-			\n%c[255,215,215,215]st_mm_pda_states:%c[default] \n
-			%c[255,160,160,160]st_mm_pda_movement:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_combat:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_pickup_items:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_loot_corpses:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_keep_distance:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_stealth:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_dismissable:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_level_travel:%c[default] %s \n
-			\n%c[255,215,215,215]st_mm_pda_statistics:%c[default] \n
-			%c[255,160,160,160]st_mm_pda_stalkers_killed:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_mutants_killed:%c[default] %s \n
-			%c[255,160,160,160]st_mm_pda_artes_found:%c[default] %s \n
+			%c[255,255,215,255]%c[default]%s\n
+			\n%c[255,215,215,215]st_mm_pda_location:%c[default] %s\n
+			\n%c[255,215,215,215]st_mm_pda_states:%c[default]\n
+			%c[255,160,160,160]st_mm_pda_movement:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_combat:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_pickup_items:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_loot_corpses:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_keep_distance:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_stealth:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_dismissable:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_level_travel:%c[default] %s\n
+			\n%c[255,215,215,215]st_mm_pda_statistics:%c[default]\n
+			%c[255,160,160,160]st_mm_pda_stalkers_killed:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_mutants_killed:%c[default] %s\n
+			%c[255,160,160,160]st_mm_pda_artes_found:%c[default] %s\n
 			]]
 
 			if (alife():has_info(se_obj.id,"npcx_beh_wait")) then
@@ -734,7 +734,7 @@ function ui_companion_row:__init(owner,row,xml) super(owner,row,xml)
 			["hint"]			= ""
 		}
 
-		owner.companion_info[n].icon_wnd:InitTexture("ui\\ui_noise")
+		owner.companion_info[n].icon_wnd:InitTexture("ui\ui_noise")
 		owner.companion_info[n].icon_wnd:SetStretchTexture(true)
 		owner.companion_info[n].icon_wnd:SetWndSize(vector2():set(64,64))
 		owner.companion_info[n].icon_wnd:SetWndPos(vector2():set(x,y))

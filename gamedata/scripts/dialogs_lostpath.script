@@ -29,7 +29,7 @@ end
 
 function buy_filter(actor, npc)
 	dialogs.relocate_money(npc,25000,"out")
-	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Filter for gas mask", nil, nil, nil, nil)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\n%c[255,160,160,160] Filter for gas mask", nil, nil, nil, nil)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 end
 
@@ -52,7 +52,7 @@ end
 
 function buy_batt(actor, npc)
 	dialogs.relocate_money(npc,40000,"out")
-	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Battery for exoskeleton", nil, nil, nil, nil)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\n%c[255,160,160,160] Battery for exoskeleton", nil, nil, nil, nil)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 end
 
@@ -75,7 +75,7 @@ end
 
 function buy_batteries(actor, npc)
 	dialogs.relocate_money(npc,10000,"out")
-	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\\n%c[255,160,160,160] Batteries ダ응�", nil, nil, nil, nil)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Item purchased:\n%c[255,160,160,160] Batteries ダ응�", nil, nil, nil, nil)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 end
 
@@ -97,7 +97,7 @@ function buy_rep(actor, npc)
 	dialogs.relocate_money(npc,100000,"out")
 	sim_factions.faction_information[group].total_power = sim_factions.faction_information[group].total_power + 50
 	group = game.translate_string(group)
-	news_manager.send_tip(db.actor, "%c[255,255,160,0]System:\\n%c[255,160,160,160]The faction " .. group .. " have received 50 resources for development.", nil, nil, nil, nil)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]System:\n%c[255,160,160,160]The faction " .. group .. " have received 50 resources for development.", nil, nil, nil, nil)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 end
 
@@ -437,7 +437,7 @@ function stalker_quest()
 	local actor_faction = character_community(actor)
 	
 	if levels == "k01_darkscape" and actor_faction == "actor_stalker" and not has_alife_info ("ds_matis_about_give") and has_alife_info ("esc_girl_matis") then
-		news_manager.send_tip(db.actor, "%c[255,255,160,0]Matis:\\n%c[255,160,160,160]Stalker, move back to camp we need your help. We are near the sawmill.", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Matis:\n%c[255,160,160,160]Stalker, move back to camp we need your help. We are near the sawmill.", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 		actor:give_info_portion("ds_matis_about_give") 
 		task_manager.get_task_manager():give_task("quest_ds_matis")

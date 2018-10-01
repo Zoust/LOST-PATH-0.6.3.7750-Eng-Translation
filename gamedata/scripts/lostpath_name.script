@@ -70,7 +70,7 @@ function actor_on_update()
 	
 	
 	if t ~= i then
-		news_manager.send_tip(db.actor, "%c[255,255,160,0]New rank obtained: "..i.."\\nCommand has promoted you for your service: "..rank..".", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]New rank obtained: "..i.."\nCommand has promoted you for your service: "..rank..".", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		db.actor:give_money(rank)
 		t = i

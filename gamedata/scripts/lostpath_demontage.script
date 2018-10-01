@@ -26,11 +26,11 @@ function start(str_outfit_old, str_outfit_new, itm2)
 		armor_new_crc.condition = armor_old_crc.condition
 		stpk_utils.set_item_data(armor_new_crc, armor_new)
 		alife():register(armor_new)
-		sim_relations.send_news("Removed modification:", "The servo has been removed from this armor»", "ui_inGame2_gear")
+		sim_relations.send_news("Removed modification:", "The servo has been removed from this armor", "ui_inGame2_gear")
 		_g.give_object_to_actor("itm_servoprivod")  -- спавним предмет itm_servoprivod
 	
 	elseif(armor_old_section == str_outfit_new) then
-		sim_relations.send_news("Can not remove:", "The servo has already been removed from this armor»", "ui_inGame2_Instrumenti")
+		sim_relations.send_news("Can not remove:", "The servo has already been removed from this armor", "ui_inGame2_Instrumenti")
 		_g.give_object_to_actor("itm_rem_serv")  -- спавним предмет itm_rem_serv
 	end
 	ActorMenu.get_actor_menu():refresh_current_cell_item()

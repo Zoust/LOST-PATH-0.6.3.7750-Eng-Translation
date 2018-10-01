@@ -22,7 +22,7 @@ function actor_on_update()
 	
 	if(actor_faction == "actor_stalker" and actor_reputation <= -2000) then
 		actor:set_character_community("actor_bandit", 0, 0)	-- сменить группировку на бандита
-		news_manager.send_tip(db.actor, "%c[0,255,0,0]You are no more in the Loners faction!", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[0,255,0,0]You are no longer in the Loners faction!", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		game_relations.set_community_goodwill_for_faction("actor_bandit")
 	end
@@ -30,7 +30,7 @@ function actor_on_update()
 	if(actor_faction == "actor_bandit") and (actor:community_goodwill("bandit") <= 0) then
 		actor:set_character_reputation(0) 
 		actor:set_character_community("actor_stalker", 0, 0)	-- сменить группировку на сталкера
-		news_manager.send_tip(db.actor, "%c[0,255,64,0]You are no more in the Bandits faction!", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[0,255,64,0]You are no longer in the Bandits faction!", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		game_relations.set_community_goodwill_for_faction("actor_stalker")
 	end

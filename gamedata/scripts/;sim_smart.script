@@ -1,5 +1,5 @@
 --[[ -----------------------------------
- #  Ã“Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥ Ã±Ã¬Ã Ã°Ã²Ã Ã¬Ã¨
+ #  Óïðàâëåíèå ñìàðòàìè
  #  for Lost Path
  # 	based on Eoc by xrSanya
  #  author : b4d1k
@@ -11,7 +11,7 @@ smart_ids = {}
 
 smart_owners = {}
 hide_sim = false
-config = ini_file_ex("settings\\faction_commander_setting.ltx",true)
+config = ini_file_ex("settings\faction_commander_setting.ltx",true)
 
 local smarts = (lostpath_main.config:r_value("map","enable_show_smart",1))
 
@@ -255,25 +255,25 @@ function check_npc(smart)
 		while mechanic_in_smart < mechanic_pop do	
 			sim_squad.create_squad(smart, faction, nil, mechanic , nil, 1)
 			mechanic_in_smart = mechanic_in_smart + 1
-			----printf("### EOC: Ã‘Ã¯Ã Ã¢Ã­ Ã¬Ã¥ÃµÃ Ã­Ã¨ÃªÃ  Ã¢ Ã±Ã¬Ã Ã°Ã² ".. smart:name() .." ###")
+			----printf("### EOC: Ñïàâí ìåõàíèêà â ñìàðò ".. smart:name() .." ###")
 		end
 		   
 		while trader_in_smart < trader_pop do
 			sim_squad.create_squad(smart, faction, nil, trader, nil, 1)
 			trader_in_smart = trader_in_smart + 1
-			----printf("### EOC: Ã‘Ã¯Ã Ã¢Ã­ Ã²Ã®Ã°Ã£Ã®Ã¢Ã¶Ã  Ã¢ Ã±Ã¬Ã Ã°Ã² ".. smart:name() .." ###")
+			----printf("### EOC: Ñïàâí òîðãîâöà â ñìàðò ".. smart:name() .." ###")
 		end
 
 		while medik_in_smart < medik_pop do
 			sim_squad.create_squad(smart, faction, nil, medik, nil, 1)
 			medik_in_smart = medik_in_smart + 1
-			----printf("### EOC: Ã‘Ã¯Ã Ã¢Ã­ Ã¬Ã¥Ã¤Ã¨ÃªÃ  Ã¢ Ã±Ã¬Ã Ã°Ã² ".. smart:name() .." ###")
+			----printf("### EOC: Ñïàâí ìåäèêà â ñìàðò ".. smart:name() .." ###")
 		end	
 		
 		while leader_in_smart < leader_pop do
 			sim_squad.create_squad(smart, faction, nil, leader, nil, 1)
 			leader_in_smart = leader_in_smart + 1
-			----printf("### EOC: Ã‘Ã¯Ã Ã¢Ã­ Ã­Ã Ã±Ã²Ã Ã¢Ã­Ã¨ÃªÃ  Ã¢ Ã±Ã¬Ã Ã°Ã² ".. smart:name() .." ###")
+			----printf("### EOC: Ñïàâí íàñòàâíèêà â ñìàðò ".. smart:name() .." ###")
 		end	
 	end
 end
@@ -285,7 +285,7 @@ function newtarget_manual_capture(smart)
 	local smartCollection = {}
 	
 	--'----------------------------------------------------------------------------------
-	--' ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ  Ã±Ã¯Ã Ã¢Ã­Ã  Ã®Ã²Ã°Ã¿Ã¤Ã®Ã¢ Ã¯Ã°Ã¨ Ã§Ã ÃµÃ¢Ã Ã²Ã¥ Ã²Ã®Ã·Ã¥Ãª
+	--' Íàñòðîéêà ñïàâíà îòðÿäîâ ïðè çàõâàòå òî÷åê
 	--'----------------------------------------------------------------------------------
 	local faction = sim_brain.actor_faction
 	local script_to_text_smart = sim_script_to_text.smart_names[smart:name()] or smart:name() 
@@ -359,7 +359,7 @@ function newtarget_manual_capture(smart)
 				----printf("%s %s", squad, squad.id)
 				smart.squad = squad
 				local comnews = sim_script_to_text.faction_names_standart[sim_brain.actor_faction]
-				db.actor:give_game_news(("Group channel Â«"..comnews.."Â»"), ("We will send a new detachment to capture the position ".. script_to_text_smart .." from our base in "..spawn_smart_name.."."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
+				db.actor:give_game_news(("Group channel «"..comnews.."»"), ("We will send a new detachment to capture the position ".. script_to_text_smart .." from our base in "..spawn_smart_name.."."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
 				break
 			end
 		end
@@ -367,17 +367,17 @@ function newtarget_manual_capture(smart)
 end
 
 local sounds = {
-	stalker = "characters_voice\\human_01\\stalker\\alife\\defence\\actor_help_1",
-	csky = "characters_voice\\human_01\\csky\\alife\\defence\\actor_help_1",
-	dolg = "characters_voice\\human_01\\dolg\\alife\\defence\\actor_help_1",
-	freedom = "characters_voice\\human_01\\freedom\\alife\\defence\\actor_help_1",
-	ecolog = "characters_voice\\human_01\\stalker\\alife\\defence\\actor_help_1",
-	isg = "characters_voice\\human_01\\stalker\\alife\\defence\\actor_help_1",
-	monolith = "characters_voice\\human_01\\monolith\\alife\\defence\\actor_help_1",
-	darkstalker = "characters_voice\\human_01\\monolith\\alife\\defence\\actor_help_1",
-	army = "characters_voice\\human_01\\military\\alife\\defence\\actor_help_1",
-	bandit = "characters_voice\\human_01\\bandit\\alife\\defence\\actor_help_1",
-	killer = "characters_voice\\human_01\\killer\\alife\\defence\\actor_help_1"
+	stalker = "characters_voice\human_01\stalker\alife\defence\actor_help_1",
+	csky = "characters_voice\human_01\csky\alife\defence\actor_help_1",
+	dolg = "characters_voice\human_01\dolg\alife\defence\actor_help_1",
+	freedom = "characters_voice\human_01\freedom\alife\defence\actor_help_1",
+	ecolog = "characters_voice\human_01\stalker\alife\defence\actor_help_1",
+	isg = "characters_voice\human_01\stalker\alife\defence\actor_help_1",
+	monolith = "characters_voice\human_01\monolith\alife\defence\actor_help_1",
+	darkstalker = "characters_voice\human_01\monolith\alife\defence\actor_help_1",
+	army = "characters_voice\human_01\military\alife\defence\actor_help_1",
+	bandit = "characters_voice\human_01\bandit\alife\defence\actor_help_1",
+	killer = "characters_voice\human_01\killer\alife\defence\actor_help_1"
 }
 
 local config = ini_file("rpg.ltx")
@@ -429,7 +429,7 @@ function target_manual_capture(smart)
 				db.actor:give_game_news(("Capture goal"), ("The resource point in ".. script_to_text_smart .." is captured, reward for the capture is  ".. nagrada .." and "..rept.." reputation."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
 				end
 			end
-		    SetHudMsg("Ã’Ã®Ã·ÃªÃ  Ã§Ã ÃµÃ¢Ã Ã·Ã¥Ã­Ã !",5)
+		    SetHudMsg("Òî÷êà çàõâà÷åíà!",5)
 			db.actor:add_exp(exp)
 			task_objects.smart_capture(nagrada, faction)
 			xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {faction, rept}) 
@@ -502,7 +502,7 @@ function target_manual_capture(smart)
 	local smartCollection = {}
 	
 	--'----------------------------------------------------------------------------------
-	--' ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ  Ã±Ã¯Ã Ã¢Ã­Ã  Ã®Ã²Ã°Ã¿Ã¤Ã®Ã¢ Ã¯Ã°Ã¨ Ã§Ã ÃµÃ¢Ã Ã²Ã¥ Ã²Ã®Ã·Ã¥Ãª
+	--' Íàñòðîéêà ñïàâíà îòðÿäîâ ïðè çàõâàòå òî÷åê
 	--'----------------------------------------------------------------------------------
 	
 	local tp = sim_factions.faction_information[faction].total_power
@@ -740,12 +740,12 @@ function spawn_defense_squad(smart)
 end
 
 function spawn_patrol_squad(smart)
-	----printf("# SIM: Ã‘Ã¯Ã Ã¢Ã­ Ã¯Ã Ã²Ã°Ã³Ã«Ã¿ Ã®Ã²ÃªÃ«Ã¾Ã·Ã¥Ã­")
+	----printf("# SIM: Ñïàâí ïàòðóëÿ îòêëþ÷åí")
 	return 
 end
 
 function spawn_killers_squad(smart)
-	----printf("# SIM: Ã‘Ã¯Ã Ã¢Ã­ Ã£Ã®Ã«Ã®Ã¢Ã®Ã°Ã¥Ã§Ã®Ã¢ Ã®Ã²ÃªÃ«Ã¾Ã·Ã¥Ã­")	
+	----printf("# SIM: Ñïàâí ãîëîâîðåçîâ îòêëþ÷åí")	
 	return 
 end
 function spawn_attack_squad(smart)	
@@ -792,7 +792,7 @@ function spawn_attack_squad(smart)
 
 	if target then
 		sim_squad.create_squad(smart, faction, target, nil, nil, 1)
-		smart.timer = time + timer -- Ã²Ã Ã©Ã¬Ã¥Ã° Ã¡Ã³Ã¤Ã¥Ã² Ã±Ã°Ã Ã¡Ã Ã²Ã»Ã¢Ã Ã²Ã¼ ÃªÃ Ã¦Ã¤Ã»Ã¥ n Ã¬Ã¨Ã­Ã³Ã²
+		smart.timer = time + timer -- òàéìåð áóäåò ñðàáàòûâàòü êàæäûå n ìèíóò
 	end
 end
 
@@ -860,7 +860,7 @@ function spawn_mutants(smart)
 	    if (mutants_on_level < mutant_coef) then
 		    if mutants <= smart.max_population then	
 		
-				local ini = ini_file("settings\\mutants_tier_by_lvl.ltx")
+				local ini = ini_file("settings\mutants_tier_by_lvl.ltx")
                 local tier = ini:r_string_ex("respawn",level)
 				local table = alun_utils.parse_list(ini, "respawn",level)
 				
@@ -1145,7 +1145,7 @@ function find_targets(smart, str)
 		table.insert(smartCollection, currentLevelSmarts[i])
 	end
 	
-	----printf("\n\nStage I \n%s", faction)
+	----printf("\n\nStage I\n%s", faction)
 	--store_table(smartCollection)
 	
 	for i = 1, #currentLevelSmarts2 do
@@ -1341,9 +1341,9 @@ function get_simulation_info(smart)
 
 
 	if (sim_name) then
-		props = "\\n" .. sim_name .. "\\n"
+		props = "\n" .. sim_name .. "\n"
 	else
-	    props = "\\n" .. smart:name() .. "\\n"
+	    props = "\n" .. smart:name() .. "\n"
 	end
 
 
@@ -1360,24 +1360,24 @@ function get_simulation_info(smart)
 	end	
 	
 	if smart.owning_faction == "none" then
-	   props = props .. "\\n".. type.. "\\n"
+	   props = props .. "\n".. type.. "\n"
 	elseif smart.owning_faction == "zombied" then	
-	   props = props .. "\\n".. type.. ", controlled by zombies\\n"
+	   props = props .. "\n".. type.. ", controlled by zombies\n"
 	else
-	   props = props .. "\\n".. type.. ", controlled by " .. game.translate_string(smart.owning_faction) .. "\\n"
+	   props = props .. "\n".. type.. ", controlled by " .. game.translate_string(smart.owning_faction) .. "\n"
 	   
         if power == 0 then
-	        props = props.."\\nStrength absent\\n"
+	        props = props.."\nStrength absent\n"
 	    elseif power > 0 and power <= 50 then
-			props = props.."\\nWeak strength\\n"
+			props = props.."\nWeak strength\n"
 		elseif power > 50 and power <= 100 then
-			props = props.."\\nLow Strength\\n"	
+			props = props.."\nLow Strength\n"	
 	    elseif power > 100 and power <= 200 then
-	        props = props.."\\nAverage strength\\n"
+	        props = props.."\nAverage strength\n"
 	    elseif power > 200 and power <= 300 then
-            props = props.."\\nHigh strength\\n"
+            props = props.."\nHigh strength\n"
 		elseif power > 400 then
-            props = props.."\\nUnreal strength\\n"
+            props = props.."\nUnreal strength\n"
         end
 	end
 	
@@ -1406,16 +1406,16 @@ function friend_info(smart)
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. "\\n"
+		props = type .. " " .. sim_name .. "\n"
 	else
-	    props = type .. " " .. smart:name() .. "\\n"
+	    props = type .. " " .. smart:name() .. "\n"
 	end
 	
-	props = props.."\\nStrength: "..power.."\\n"
+	props = props.."\nStrength: "..power.."\n"
 	
-	props = props.."\\nPopulation: "..npc.. " people\\n"
+	props = props.."\nPopulation: "..npc.. " people\n"
 	
-	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. "\\n"
+	props = props.."\nBelongs to: "..game.translate_string(smart.owning_faction).. "\n"
 	
 	return props
 end
@@ -1442,14 +1442,14 @@ function neutral_info(smart)
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. "\\n"
+		props = type .. " " .. sim_name .. "\n"
 	else
-	    props = type .. " " .. smart:name() .. "\\n"
+	    props = type .. " " .. smart:name() .. "\n"
 	end
 	
-	props = props.."\\nPopulation: "..npc.. " people\\n"
+	props = props.."\nPopulation: "..npc.. " people\n"
 	
-	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. "\\n"
+	props = props.."\nBelongs to: "..game.translate_string(smart.owning_faction).. "\n"
 	
 	return props
 end
@@ -1476,9 +1476,9 @@ function enemy_info(smart)
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. "\\n"
+		props = type .. " " .. sim_name .. "\n"
 	else
-	    props = type .. " " .. smart:name() .. "\\n"
+	    props = type .. " " .. smart:name() .. "\n"
 	end
 	
 	return props
@@ -1511,9 +1511,9 @@ function none_info(smart)
 	    props = type .. " " .. smart:name() .. " "
 	end
 	
-	props = props .. "Capacity: " .. smart.max_population .. " people\\n"
+	props = props .. "Capacity: " .. smart.max_population .. " people\n"
 
-	props = props .. "\\n \\nCapture to place your units\\n"
+	props = props .. "\n\nCapture to place your units\n"
 		
 	return props
 end

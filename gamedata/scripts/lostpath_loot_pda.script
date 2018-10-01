@@ -77,7 +77,7 @@ function actor_on_item_use(item)
 		if(loot >= 25) then
 			if transitions.check_rnd_transitions() == true and axr_main.config:r_value("mm_options","enable_transitions_closed_disable",1,true) == false then
 				transitions.rnd_open_transition()
-				actor:give_game_news("Data from the PDA", "I'm looking for information about the routes ", "ui_inGame2_Karti_mestnosti", 0, 10000)
+				actor:give_game_news("Data from the PDA", "I'm looking for information about the routes", "ui_inGame2_Karti_mestnosti", 0, 10000)
 			end
 		else
 			SetHudMsg(game.translate_string("Luck has left me..."),5)

@@ -374,7 +374,7 @@ function pos_inf_ami:InitControls()
 
 -- Загрузка моделей из meshes
  local f =  getFS()
- local flist_files = f:file_list_open("$game_data$", "meshes".."\\",  FS.FS_ListFiles)
+ local flist_files = f:file_list_open("$game_data$", "meshes".."\",  FS.FS_ListFiles)
   for i=0,flist_files:Size()-1 do
    local file = flist_files:GetAt(i)
 	if string.sub(file,string.len(file)-3,string.len(file)) == ".ogf" then

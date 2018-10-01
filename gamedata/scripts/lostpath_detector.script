@@ -34,15 +34,15 @@ function disassembly(obj)
 	if c == 1 then count = "piece"
 	elseif c >1 and c < 5 then count = "pieces" end
 	
-	local str = "Disassembled item: "..game.translate_string(name).."\\n"
-	str = str .. "Received when disassembling:\\n"..game.translate_string("batteries_cell").." "..c.." "..count.."."
+	local str = "Disassembled item: "..game.translate_string(name).."\n"
+	str = str .. "Received when disassembling:\n"..game.translate_string("batteries_cell").." "..c.." "..count.."."
 	local f = 3^c
 	
 	count = "pieces"
 	if f == 1 then count = "piece"
 	elseif f >1 and f < 5 then count = "pieces" end
 	give_object_to_actor("materials_up", f)
-	str = str.."\\n"..game.translate_string("materials_up_name").." "..f.." "..count.."."
+	str = str.."\n"..game.translate_string("materials_up_name").." "..f.." "..count.."."
 	
 	news_manager.send_tip(db.actor, str, nil, "awr", 6000) 
 end

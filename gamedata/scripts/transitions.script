@@ -1,18 +1,3 @@
---/-------------------------------------------------------------------
---/ Открывающиеся переходы
---/ SadBlackFox
---/ 04.02.2017
---/-------------------------------------------------------------------
---[[
-Открытие переданного перехода
-open_transition(sr_name, one)
-При передаче второго параметра "true", откроется ТОЛЬКО переданный(без связки)
-
-Открытие рандомного перехода
-ОБЯЗАТЕЛЬНО СНАЧАЛА ВЫЗЫВАТЬ ПРОВЕРКУ check_rnd_transitions()
-И ТОЛЬКО ЕСЛИ ОНА ВЕРНЁТ "TRUE", ВЫЗЫВАТЬ rnd_open_transition()
-]]
-
 function show_transition(sr_name)
 	for k1,v1 in pairs(transitions_list.sr_always_open[mlr_utils.load_var('transitions_faction')] or transitions_list.sr_always_open['general']) do
 		for k2,v2 in pairs(v1) do
