@@ -3,10 +3,10 @@
 <!--===========================================================
 <
 < TEXT  STRINGS FOR TASKS ON DARK VALLEY MAP
-<	CoC 1.3.11
+<	CoC 1.4.08 - DoctorX Questlines 1.6
 <
 <	Modified by: DoctorX
-<	March 17, 2016
+<	Last revised: October 07, 2016
 <
 <===========================================================-->
 
@@ -73,7 +73,7 @@
 
 
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_3_name">
-		<text>Chiki-briki i v damki</text>
+		<text>Chiki-Briki i v Damke</text>
 	</string>
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_3_text">
 		<text>Get the upper hand on local stalkers by relieving them of their valuables long enough until your band of merry men are satisfied.</text>
@@ -103,7 +103,7 @@
 
 	<!-- FIND LEVEL 1 TOOLKIT FOR LIMPID -->
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_name">
-		<text>Find "%s"</text>
+		<text>Find %s</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_text">
 		<text>%s are required by Limpid to install basic equipment upgrades, you should bring them back to him if you find any.</text>
@@ -121,7 +121,7 @@
 
 
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_name">
-		<text>Find "%s"</text>
+		<text>Find %s</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_text">
 		<text>%s are required by Limpid to install advanced equipment upgrades, you should bring them back to him if you find any.</text>
@@ -139,7 +139,7 @@
 
 
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_name">
-		<text>Find "%s"</text>
+		<text>Find %s</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_text">
 		<text>%s are required by Limpid to install expert equipment upgrades, you should bring them back to him if you find any.</text>

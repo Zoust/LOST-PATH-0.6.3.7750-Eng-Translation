@@ -8,13 +8,13 @@
 		<text>Hostile forces are encroaching on Duty territory. General Petrenko has asked you to eliminate the threat.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_1_about">
-		<text>I have been informed that enemy forces are advancing on one of our camps. I need you to stop them before they get there.</text>
+		<text>I have been informed that enemy forces are advancing on our location. I need you to stop them before they get here.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_1_finish">
 		<text>Excellent work. You are a fine warrior.</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_2_name">
-		<text>Recapture territory for Duty</text>
+		<text>Reclaim Duty Territory</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_2_text">
 		<text>You have been tasked to recapture territory for Duty. Report back to General Petrenko after the job is done.</text>

@@ -8,13 +8,13 @@
 <text>Regular army</text>
 </string>
 <string id="encyclopedia_weapon_npc_army_text">
-<text>Army: \n
+<text>Army:\n
 0: a Shortened AK-series, weak PP, weak rifles, shotguns\n
 1: the standard AK series, AKM series, the average shotguns\n
 2: Series AK-100, AEK-series, Protecta, Abakan; increased the number of guns\n
 3: the AK-12, 9h39-series, RPK-series, Abakan; increased the number of guns\n
 4: AK-12, 9h39-series, PKM, SVD, SVU; the most powerful guns\n
- \pwesto conventional army kits fall, enhanced nutrition, enhanced first aid kits.</text>
+ \npwesto conventional army kits fall, enhanced nutrition, enhanced first aid kits.</text>
 </string>
 
 <string id="encyclopedia_weapon_npc_bandit">
@@ -45,7 +45,7 @@
 <text>Duty</text>
 </string>
 <string id="encyclopedia_weapon_npc_dolg_text">
-<text>Debt: \n
+<text>Debt:\n
 0: a Shortened AK-series rifles and a weak PP\n
 1: the standard AK series, AKM series, the average shotguns\n
 2: Series AK-100, AEK-series, Protecta, Abakan\n
@@ -64,7 +64,7 @@
 2: the standard AK series, AKM series, the average shotguns\n
 3: 5õ56-series, AK-12, strong shotguns\n
 \singing the chance to get "Svarog" (very tiny)
- \npwesto conventional kits fall research, enhanced nutrition, enhanced first aid kits.</text>
+\npwesto conventional kits fall research, enhanced nutrition, enhanced first aid kits.</text>
 </string>
 
 <string id="encyclopedia_weapon_npc_freedom">

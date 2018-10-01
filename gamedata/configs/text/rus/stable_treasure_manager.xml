@@ -1,591 +1,591 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_agr_smart_terrain_6_4_box_descr">
-<text>Stash our while in the tunnel, all the goodness is in the pipe. There's good few people about the place know, and anomalies must learn to climb.</text>
+		<text>For now our secret stash is in the tunnel. That's a good place - few know about it, and the anomalies will keep others from getting in.</text>
 </string>
 <string id="st_agr_smart_terrain_6_4_box_name">
-<text>Stash Grey</text>
+		<text>Seriy's secret stash</text>
 </string>
 <string id="st_agr_duty_bar_secret_4_descr">
-<text>tree stump hidden by the tunnel. There is a hole convenient.</text>
+		<text>I hid it in the stump by the tunnel. There's a good hole there.</text>
 </string>
 <string id="st_agr_duty_bar_secret_4_name">
-<text>Holey tree stump</text>
+		<text>Stump with hole</text>
 </string>
 <string id="st_agr_smart_terrain_5_2_box_descr">
- <text>Under the cross, near the Bush, buried swag a bit.</text>
+		<text>I buried some goodies under the cross by the bush.</text>
 </string>
 <string id="st_agr_smart_terrain_5_2_box_name">
-<text>Stash under the cross</text>
+		<text>The mark is under the cross</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_n_1_box_descr">
-<text>Shot, had to drop the backpack under the car, behind the wheel. But left. Then come back and get it.</text>
+		<text>They were shooting. Had to drop the backpack under the train car behind the seat. At least I got away. I'll go back and get it.</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_n_1_box_name">
-<text>Backpack drunks</text>
+		<text>Drunkard's backpack</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_box_descr">
-<text>Under the stairs in the drawer cache.</text>
+		<text>In the chest under the stairs there's a secret stash.</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_box_name">
- <text>Crate in flight</text>
+		<text>Chest in the stairwell</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_n_2_box_descr">
-<text>In the box hid, still no scanning.</text>
+		<text>I hid it in the chest, nobody will check anyway.</text>
 </string>
 <string id="st_agr_smart_terrain_4_4_n_2_box_name">
-<text>Factory box</text>
+		<text>Factory chest</text>
 </string>
 <string id="st_agr_smart_terrain_2_2_box_descr">
-<text>Under a fallen tree found the safe while I'm trying to hide.</text>
+		<text>I found a safe under a fallen tree. Going to hide everything there for now.</text>
 </string>
 <string id="st_agr_smart_terrain_2_2_box_name">
 <text>safe under the tree</text>
 </string>
 <string id="st_agr_smart_terrain_2_3_box_descr">
- <text>Welcome to the old pipe, you will need the kid to say. I can't get into.</text>
+		<text>The goods are in the old pipe, we'll have to tell the guys that. I'm not climbing in there.</text>
 </string>
 <string id="st_agr_smart_terrain_2_3_box_name">
 <text>Radioactive pipe</text>
 </string>
 <string id="st_agr_smart_terrain_3_5_box_descr">
-<text>Under a Bush polusakharnaya safety Deposit box, everything is hidden.</text>
+		<text>There is a half buried safe under the bush - that's where I hide everything.</text>
 </string>
 <string id="st_agr_smart_terrain_3_5_box_name">
-<text>safe under Bush</text>
+		<text>Safe under the bush</text>
 </string>
 <string id="st_agr_smart_terrain_6_6_box_descr">
-<text>the Drawer found beneath the pedestal, someone pulled right with the Institute. Wait for the helicopter, then we'll take.</text>
+		<text>They discovered the chest under the support beam. Someone was dragging it along all the way from Scientific Research Institute. Let's wait for the windflier and then pick it up.</text>
 </string>
  <string id="st_agr_smart_terrain_6_6_box_name">
-<text>Archival box</text>
+		<text>Archive box</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_box_descr">
-<text>Convenient drawer that extra junk to dump.</text>
+		<text>Good chest for collecting extra junk</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_box_name">
-<text>Institute box</text>
+		<text>Chest from the institute</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_n_1_box_descr">
-<text>In the safe and hid it, and came the military. Not to get now welcome.</text>
+		<text>Hid it in the safe, but then the soldiers came and now I can't get the goods.</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_n_1_box_name">
-<text>Agrosat</text>
+		<text>Agrosafe</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_n_2_box_descr">
- <text>a Convenient box, so the extra stuff to drop. Once it was stored in the Institute's household inventory.</text>
+		<text>Good chest for collecting extra junk. The institute's equipment inventory was once there.</text>
 </string>
 <string id="st_agr_smart_terrain_1_6_n_2_box_name">
-<text>the mailbox of the caretaker</text>
+		<text>Zavhoz chest</text>
 </string>
 <string id="st_agr_duty_bar_secret_2_descr">
-<text>Convenient drawer for smaller things, I'm locksmith tools house were kept.</text>
+		<text>Good chest for small things. I kept my metalworking instruments in a chest like that at home.</text>
 </string>
 <string id="st_agr_duty_bar_secret_2_name">
-<text>Equipment mechanic</text>
+		<text>Metalworking inventory</text>
 </string>
 <string id="st_l05_bar_inventory_box_0002_descr">
-<text>I Hid the backpack near the base of the debt. Then take away</text>
+		<text>I hid the backpack by the Duty base. Will pick it up later</text>
 </string>
  <string id="st_l05_bar_inventory_box_0002_name">
 <text>Hidden backpack</text>
 </string>
 <string id="st_l05_bar_inventory_box_0003_descr">
-<text>got chased by a large pack of dogs, if the backpack is not left, then to the Outpost came</text>
+		<text>A large pack of dogs went after me. If I didn't leave my backpack I wouldn't have made it to the gate</text>
 </string>
 <string id="st_l05_bar_inventory_box_0003_name">
-<text>Left backpack</text>
+		<text>The backpack that was left behind</text>
 </string>
 <string id="st_l05_bar_inventory_box_0004_descr">
-<text>All that was left buried under the cross</text>
+		<text>Everything that was left they buried under the cross</text>
 </string>
 <string id="st_l05_bar_inventory_box_0004_name">
-<text>Stash under the cross</text>
+		<text>Secret stash under the cross</text>
 </string>
  <string id="st_l05_bar_inventory_box_0005_descr">
-<text>took Off immediately backpack, so it will be easier</text>
+		<text>Dropped my backpack here - it'll be easier that way</text>
 </string>
 <string id="st_l05_bar_inventory_box_0005_name">
 <text>Backpack</text>
 </string>
 <string id="st_l05_bar_inventory_box_0006_descr">
-<text>of the Kit on Outpost Duty, kept in a bunker, but the drawer no one's watching</text>
+		<text>Ammo of the Duty's security checkpoint is stored in a bunker, but nobody's keeping an eye on the chest</text>
 </string>
 <string id="st_l05_bar_inventory_box_0006_name">
-<text>the Stock in the bunker</text>
+		<text>Supplies in the bunker</text>
 </string>
 <string id="st_l05_bar_inventory_box_0007_descr">
-<text>Saw member considers something stuck in the pipe, near the Outpost</text>
+		<text>I saw how a dutyer stuck something in the pipe by the gate</text>
 </string>
  <string id="st_l05_bar_inventory_box_0007_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0008_descr">
-<text>It all belonged to him, albeit here and lie</text>
+		<text>All of this belonged to him, might as well stay here for the time being</text>
 </string>
 <string id="st_l05_bar_inventory_box_0008_name">
-<text>Stash under the cross</text>
+		<text>Secret stash under the cross</text>
 </string>
 <string id="st_l05_bar_inventory_box_0009_descr">
-<text>Go to a bar, the backpack left in the hangar</text>
+		<text>I'm going to the bar, left the backpack in the hangar</text>
 </string>
 <string id="st_l05_bar_inventory_box_0009_name">
 <text>Backpack</text>
 </string>
 <string id="st_l05_bar_inventory_box_0010_descr">
- <text>Talking on the territory of Debt in the fuse box, something valuable lies</text>
+		<text>They say that there's something valuable hidden on the Duty's territory in the switchboard.</text>
 </string>
 <string id="st_l05_bar_inventory_box_0010_name">
-<text>the Switchboard with the cache</text>
+		<text>Swithboard with a secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0011_descr">
-<text>at the top of the tower near the Debt pushed the drawer so that no one will notice</text>
+		<text>I stuck the chest in top of the tower in front of the Duty - no one will notice it</text>
 </string>
 <string id="st_l05_bar_inventory_box_0011_name">
-<text>Stash in the tower</text>
+		<text>Secret stash on the tower</text>
 </string>
 <string id="st_l05_bar_inventory_box_0012_descr">
-<text>I Hid in the pipe under the stairs</text>
+		<text>Hid it in the pipe under the stairs</text>
 </string>
 <string id="st_l05_bar_inventory_box_0012_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0013_descr">
-<text>Near the bar buried good, with the anomalies, no one will be selected. And how open do not know, and are all simply there to pry the door should immediately and open</text>
+		<text>Hid the goods not far from the bar, behind the anomalies - nobody will get in there. And even if they got there they wouldn't know how to open it. But it's all very simple - just pull up slightly at the door, and everything will open.</text>
 </string>
 <string id="st_l05_bar_inventory_box_0013_name">
-<text>Stash Arnie</text>
+		<text>Arnie's secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0014_descr">
-<text>Near the bar buried good</text>
+		<text>Buried the goods not far from the bar</text>
 </string>
 <string id="st_l05_bar_inventory_box_0014_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0015_descr">
- <text>outside the bar in the box</text>
+		<text>By the bar, in a chest</text>
 </string>
 <string id="st_l05_bar_inventory_box_0015_name">
-<text>Box</text>
+		<text>Chest</text>
 </string>
 <string id="st_l05_bar_inventory_box_0016_descr">
-<text>In the corner, near the bar, hid the box</text>
+		<text>Hid the chest on a side-street by the bar</text>
 </string>
 <string id="st_l05_bar_inventory_box_0016_name">
-<text>Box</text>
+		<text>Small chest</text>
 </string>
 <string id="st_l05_bar_inventory_box_0017_descr">
-<text>Buried under a cross, with the trees</text>
+		<text>Buried it under the cross behind the pine trees</text>
 </string>
 <string id="st_l05_bar_inventory_box_0017_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
 <string id="st_l05_bar_inventory_box_0018_descr">
- <text>Under the cross, near the pass to Wild lands</text>
+		<text>Hid the bit of goodies under the cross by the mountain</text>
 </string>
 <string id="st_l05_bar_inventory_box_0018_name">
-<text>Stash</text>
+		<text>Secret stash under the cross</text>
 </string>
-<string id="st_bar_arena_inventory_box_2_descr">
-<text>In the pipe close to the Arena, stashed the box c antirad</text>
+	<string id="st_l05_bar_inventory_box_0019_descr">
+		<text>Hid the chest with the antirad in a pipe by the Arena</text>
 </string>
-<string id="st_bar_arena_inventory_box_2_name">
-<text>Box</text>
+	<string id="st_l05_bar_inventory_box_0019_name">
+		<text>Small chest</text>
 </string>
 <string id="st_l05_bar_inventory_box_0020_descr">
-<text>Under the tower hid the armor in the tube</text>
+		<text>Hid my crap in a pipe under the tower</text>
 </string>
 <string id="st_l05_bar_inventory_box_0020_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
  <string id="st_l05_bar_inventory_box_0021_descr">
-<text>Under cross cache</text>
+		<text>There's a secret stash under the cross</text>
 </string>
 <string id="st_l05_bar_inventory_box_0021_name">
-<text>Stash</text>
+		<text>Secret stash</text>
 </string>
 <string id="st_esc_smart_terrain_6_8_box_descr">
-<text>When my brother fought off the dogs in uniform, I buried some good under the cross. Let him lie down.</text>
+		<text>When my comrades and I were fighting off the dogs in uniform, I buried some goods under the bridge. Let them stay there for now.</text>
 </string>
 <string id="st_esc_smart_terrain_6_8_box_name">
-<text>the cross</text>
+		<text>Under the cross</text>
 </string>
 <string id="st_esc_treasure_novice_stalker_descr">
-<text>In the attic of the stash, I learned at Lehigh. It is a lot of the language he want, we killed him.</text>
+		<text>Found out from Lihoi that the secret stash is in the cellar. He was talking too much so we shut him up for good.</text>
 </string>
  <string id="st_esc_treasure_novice_stalker_name">
-<text>the Attic in the village</text>
+		<text>Cellar in the village</text>
 </string>
 <string id="st_esc_recover_item_4_corpse_descr">
-<text>they Say the commander is a clever drawer in the office, and there's valuable stuff in bulk.</text>
+		<text>They saw that the commander has a tricky chest in his office, and there's a ton of valuable goods there.</text>
 </string>
 <string id="st_esc_recover_item_4_corpse_name">
-<text>Values commander</text>
+		<text>The valuables of the commander</text>
 </string>
 <string id="st_esc_smart_terrain_7_11_box_descr">
-<text>In the attic of the bandits hid the swag, while they were gone. Now, to seize the moment and get.</text>
+		<text>The goodies are hidden in the bandits' cellar. They weren't there before so let's wait for the right time to take them all.</text>
 </string>
 <string id="st_esc_smart_terrain_7_11_box_name">
-<text>Thieves in the attic</text>
+		<text>The robbers' cellar</text>
 </string>
 <string id="st_gar_smart_terrain_3_5_box_descr">
-<text>Saw a bandit hid his stuff in the hangar in a box. How would it quietly to rest?</text>
+		<text>I saw how a bandit hid his goods in a chest in the hangar. How can I quietly steal it?</text>
 </string>
 <string id="st_gar_smart_terrain_3_5_box_name">
-<text>Bandit caches</text>
+		<text>Bandits' storage</text>
 </string>
 <string id="st_gar_smart_terrain_3_7_box_descr">
-<text>the Chief on the radio gave - waste. I stumbled upon a box, threw in his weight and moved lightly.</text>
+		<text>The head of radio communications passed along a message to us: retreat. I found a chest, threw in what I had on me, and retreated empty-handed.</text>
 </string>
 <string id="st_gar_smart_terrain_3_7_box_name">
-<text>the stock in the box</text>
+		<text>Supplies in the chest</text>
 </string>
 <string id="st_gar_smart_terrain_5_2_box_descr">
- <text>While dolgovtsev shoot, stashed the swag in the trailer. Need to go back. And to say thank you to Debt.</text>
+		<text>While the dutyers were shooting, I hid the habar in the train car. Somehow I have to get in to pick it up. And to thank the Duty.</text>
 </string>
 <string id="st_gar_smart_terrain_5_2_box_name">
-<text>box on the Outpost</text>
+		<text>Chest at the heavily armed military checkpoint</text>
 </string>
 <string id="st_gar_smart_terrain_6_3_box_descr">
-<text>Barely ducked under the beams, but a good backpack is hidden, no one here will not come back.</text>
+		<text>Barely made it under the beams, but at least the backpack's well hidden - nobody will try to climb in here.</text>
 </string>
 <string id="st_gar_smart_terrain_6_3_box_name">
-<text>Stash under the concrete blocks</text>
+		<text>The extra cash is under the concrete blocks</text>
 </string>
 <string id="st_mil_smart_terrain_4_2_box_descr">
-<text>In the oven put a backpack will come in handy later.</text>
+		<text>Stuck my backpack into the furnace, it'll come in handy later.</text>
 </string>
  <string id="st_mil_smart_terrain_4_2_box_name">
-<text>Furnace stash</text>
+		<text>Furnace secret stash</text>
 </string>
 <string id="st_l07_military_inventory_box_0020_descr">
-		<text>Хабар спрятал в машине, в деревне заброшенной.</text>
+		<text>Hid the goodies in the car in the abandoned village.</text>
 	</string>
 	<string id="st_l07_military_inventory_box_0020_name">
-		<text>Авто-тайник</text>
+		<text>Auto-secret stash</text>
 	</string>
 	<string id="st_mil_smart_terrain_2_4_box_descr">
-		<text>Припрятал рюкзачок со снарягой в укромном месте.</text>
+		<text>Hid away the backpack with the equipment in a cozy spot.</text>
 	</string>
 	<string id="st_mil_smart_terrain_2_4_box_name">
-		<text>Рюкзак со снаряжением</text>
+		<text>Backpack with equipment</text>
 	</string>
 	<string id="st_mil_additional_quest_1_box_descr">
-		<text>Упал вертолет возле военной базы, ящик лежит недалеко, прямо под вертолетом. Одна беда, солдатня кругом.</text>
+		<text>A helicopter fell right by the abandoned military base, and the chest is right there, under the helicopter. One problem - there are anomalies and radiation all over the place.</text>
 	</string>
 	<string id="st_mil_additional_quest_1_box_name">
-		<text>Ящик из вертолёта</text>
+		<text>Chest from the helicopter</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_8_box_descr">
-		<text>Оставил рюкзак в кабине крана, потом заберу.</text>
+		<text>Left the backpack in the cabin of the crane. Will pick it up later</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_8_box_name">
-		<text>Тайник высотника</text>
+		<text>Secret stash of the high altitude worker</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_8_box_descr">
-		<text>Удобный ящик, чтоб лишнее барахло сбрасывать.</text>
+		<text>Good chest for storing extra junk</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_8_box_name">
-		<text>Ящик с добром</text>
+		<text>Good supply chest</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_7_box_descr">
-		<text>В ящик закинул добро, потом заберу.</text>
+		<text>Threw the goods into the chest - will get them later</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_7_box_name">
-		<text>Временный тайник</text>
+		<text>Temporary secret stash</text>
 	</string>
 	<string id="st_mil_smart_terrain_5_6_box_descr">
-		<text>Хабар спрятал в машине под боком у Военных, времени не было искать что получше.</text>
+		<text>Hid the goodies in the car right under the Freedom noses, didn't have any time to look for a better place</text>
 	</string>
 	<string id="st_mil_smart_terrain_5_6_box_name">
-		<text>Тайник в машине</text>
+		<text>Secret stash in the car</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0000_descr">
-		<text>Говорят сгинул здесь какой-то сталкер известный, добро его до сих пор никто не подобрал.</text>
+		<text>They say that some famous stalker kicked the bucket here, and nobody's picked up his goods yet</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0000_name">
-		<text>Вещи мёртвого сталкера</text>
+		<text>Things of the dead stalker</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_descr">
-		<text>В гараже, говорят, ящик стоит, а в нем хабара мама не горюй.</text>
+		<text>They say that there's a chest in the garage with a whole ton of goodies</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_name">
-		<text>Клад в гараже</text>
+		<text>Treasure in the garage</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0001_descr">
-		<text>В детском саду, говорят, ящик стоит, а в нем хабара мама не горюй.</text>
+		<text>They say there's a chest in the kindergarten with a whole ton of goodies in it</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0001_name">
-		<text>Старый тайник</text>
+		<text>Old secret stash</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0002_descr">
-		<text>Клыка похоронил на Припяти, под памятником. Весь его хабар оставил там же, нехорошо забирать у мертвого.</text>
+		<text>They buried Fang in Pripyat under a monument. They left all of his goodies with him - it's not right to take away from the dead.</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0002_name">
-		<text>Хабар Клыка</text>
+		<text>Fang's goodies</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0006_descr">
-		<text>Последнее что было известно о нем, это то, что выжил только он один после выжигателя. Запасы оставил в каком-то бывшем универмаге и двинул дальше. Все пошло не так, как планировалось, а ведь это был лучший лидер Свободы, за всю нашу историю.</text>
+		<text>The last that they knew about him is that he was the sole survivor after the scorcher. He left all the supplies in some old supermarket, and moved on out. Everything went not the way it was planned, and that was the best leader of Freedom in all of our history.</text>
 	</string>
 	<string id="st_l11_pripyat_inventory_box_0006_name">
-		<text>Запасы лидера Свободы</text>
+		<text>Supplies of the leader of Freedom</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0001_descr">
-		<text>Крест по дороге к выжигателю, дальше не пошел, спрятал все под ним.</text>
+		<text>The cross is on the way to the scorcher, didn't go any further, hid everything there under it.</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0001_name">
-		<text>Клад Угрюмого</text>
+		<text>Murk's treasure</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0002_descr">
-		<text>Тут погиб какой-то сталкер, хабар до сих пор валяется, никто подобрать не может.</text>
+		<text>Some stalker perished here, and his goodies are still lying around, nobody can get to them</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0002_name">
-		<text>Хабар мёртвого сталкера</text>
+		<text>Goodies of the dead stalker</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0003_descr">
-		<text>Спрятать...Да спрятать!Где?В сейфе который в лесу лежит.Надеюсь братья до него не доберутся.</text>
+		<text>They say that there's a half-buried safe in the forest and there's a bunch of goodies inside</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0003_name">
-		<text>Хабар Темного сталкера</text>
+		<text>Goodies in the safe</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0000_descr">
-		<text>Говорил им не летать над выжигателем, вот и результат. В середине леса приземлились, вряд ли кто-то выжил. Где-то там и лежит то, что нам передали.</text>
+		<text>They told them not to fly over the Scorcher, and look what happened. They landed in the middle of the forest, and it's unlikely that anyone survived. We were supposed to get the stuff that was with them.</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0000_name">
-		<text>Посылка Долгу</text>
+		<text>Package for Duty</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_descr">
-		<text>Говорят там остался запас группы, которая пробивалась к центру Зоны, прямо под излучением Выжигателя. Никто из них не вернулся, а запас так и остался дожидаться того, кто его подберет.</text>
+		<text>They say that the supplies of the faction, who were trying to get to the center of the Zone, are still under the radiation of the Scorcher. None of them returned, and the supplies remained there waiting for someone to pick them up.</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_name">
-		<text>Запас группы отчаянных</text>
+		<text>Supplies of the reckless group</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0005_descr">
-		<text>Говорят здесь сам главарь темных сталкеров хабар спрятал.Надо бы проверить.Только бы пулю не словить по дороге к тайнику.</text>
+		<text>They say that the leader of some former faction croaked here, and there was a valuable amount of goodies with him</text>
 	</string>
 	<string id="st_l10_radar_inventory_box_0005_name">
-		<text>Хабар Земляка</text>
+		<text>Goodies of the leader of former faction</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_0000_descr">
-		<text>Припрятал рюкзак, за железным листом</text>
+	<string id="st_l06_rostok_inventory_box_descr">
+		<text>Hid the backpack behind the iron plate</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_0000_name">
-		<text>Спрятанный рюкзак</text>
+	<string id="st_l06_rostok_inventory_box_name">
+		<text>Hidden backpack</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0001_descr">
-		<text>Приховал добро под крестом</text>
+		<text>Stashed the goodies under the cross</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0001_name">
-		<text>Тайник под крестом</text>
+		<text>Secret stash under the cross</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0002_descr">
-		<text>Спрятал кое-что в ящике, под домиком. Не забыть</text>
+		<text>Hid a little something in the chest under the little house. Shouldn't forget about it.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0002_name">
-		<text>Ящик под домиком</text>
+		<text>Chest under the small house</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0003_descr">
-		<text>Сунул рюкзак под ступеньки, а там эти гады появились. Блин, как бы достать?</text>
+		<text>I was about to stick the backpack under the steps, when those jerks appeared. Man, how will I get it back?</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0003_name">
-		<text>Рюкзак сталкера</text>
+		<text>Stalker's backpack</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0004_descr">
-		<text>Тут в углу, за деревом сейф полузакопанный, вот тут мое барахлишко и побудет</text>
+		<text>There's a half buried safe in the corner behind the tree. That's where all my junk will be for now.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0004_name">
-		<text>Тайник за деревом</text>
+		<text>Secret stash behind the tree</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0005_descr">
-		<text>Все что захватили во время рейда, спрятали в гараже в ящике</text>
+		<text>They hid everything in a chest in the garage that they took over during the raid.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0005_name">
-		<text>Тайник в гараже</text>
+		<text>Secret stash in the garage</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0006_descr">
-		<text>За будкой в ящике припрятал вещички</text>
+		<text>Hid some things in the chest behind the booth</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0006_name">
-		<text>Спрятанный ящик</text>
+		<text>Hidden chest</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0007_descr">
-		<text>Сунул рюкзак в дырку, сверху вроде не заметно</text>
+		<text>Stuck the backpack in a hole. Seems unnoticeable from above.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0007_name">
-		<text>Рюкзак в тайнике</text>
+		<text>Backpack in the secret stash</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0008_descr">
-		<text>Ящичек припрятал в укромном месте</text>
+		<text>Hid the small chest in a safe spot</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0008_name">
-		<text>Ящик в укромном месте</text>
+		<text>Chest in a safe spot</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0024_descr">
-		<text>Под крышей лежит мой рюкзак. Это на черный день</text>
+		<text>My backpack is up right under the roof. It's there for a rainy day.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0024_name">
-		<text>Тайник сталкера</text>
+		<text>Secret stash of the stalker</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0009_descr">
-		<text>Говорят в этом домике сейф есть, а в нем что-то припрятано</text>
+		<text>They say there's a safe in that little house, and that there's something in it</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0009_name">
-		<text>Сейф в доме</text>
+		<text>Safe in the house</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0010_descr">
-		<text>Спрятал в домике, в трубе. Осторожно там все фонит</text>
+		<text>Hid it in the house in a pipe. Careful, everything's out of whack there</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0010_name">
-		<text>Тайник в трубе</text>
+		<text>Secret stash in the pipe</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0011_descr">
-		<text>О чем договорились, возьмешь в ящичке, туда обычно никто не заглядывает</text>
+		<text>Take what we talked about from the chest. Usually nobody looks in there</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0011_name">
-		<text>Спрятанный ящичек</text>
+		<text>Hidden chest</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0012_descr">
-		<text>Под крестом спрятал, в закоулке</text>
+		<text>Hid it under the cross on a side street</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0012_name">
-		<text>Тайник под крестом</text>
+		<text>Secret stash under the cross</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0013_descr">
-		<text>Лишние припасы спрятали на стройке, под бетоном</text>
+		<text>They hid the extra supplies under the concrete at the construction site</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0013_name">
-		<text>Тайник под бетоном</text>
+		<text>Secret stash under the concrete</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0014_descr">
-		<text>Хабар будем складывать в ящике на стройке, на случай если ноги надо будет уносить</text>
+		<text>n case we need to take off quickly, we'll put the habar into the chest at the construction site.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0014_name">
-		<text>Тайник Счастливчика</text>
+		<text>Secret stash of the Lucky One</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0015_descr">
-		<text>На стройке спрятал, в закоулке</text>
+		<text>Hid it in one of the side streets at the construction site</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0015_name">
-		<text>Нычка</text>
+		<text>Nychka</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0016_descr">
-		<text>Запихал все в какую-то трубу, потом заберем</text>
+		<text>Stuck everything into some pipe - will pick it up later</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0016_name">
-		<text>Тайник в трубе</text>
+		<text>Secret stash in the pipe</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0018_descr">
-		<text>Затащили ящик в кабину крана</text>
+		<text>Dragged the chest into the cabin of the crane</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0018_name">
-		<text>Ящик на кране</text>
+		<text>Chest in the crane</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0019_descr">
-		<text>В углу, за жд закрыл свое добро в люке</text>
+		<text>Hid my goods in a manhole in the corner.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0019_name">
-		<text>Тайник в люке</text>
+		<text>Secret stash in the manhole</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0020_descr">
-		<text>Полез за артефактом и попал в аномалию, еле иду. Рюкзак скинул, в углу, за жд</text>
+		<text>Went after the artefact and got into an anomaly. I was barely able to walk and dropped the backpack in the corner.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0020_name">
-		<text>Брошенный рюкзак</text>
+		<text>The dropped backpack</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0021_descr">
-		<text>Наверху, под крышей возле вышки запихнул ящичек, чтоб никто не заметил</text>
+		<text>Stuck the chest right under the roof by the tower so that nobody would notice.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0021_name">
-		<text>Ящичек под крышей</text>
+		<text>Small chest under the roof</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0022_descr">
-		<text>То, что нашли, спрятали в трубе, недалеко от стройки</text>
+		<text>We hid what we found in the pipe not far from the construction site.</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0022_name">
-		<text>Тайник в трубе</text>
+		<text>Secret stash in the pipe</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0025_descr">
-		<text>Нычканул рюкзак возле крана</text>
+		<text>Dropped the backpack off by the crane</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0025_name">
-		<text>Рюкзак</text>
+		<text>Backpack</text>
 	</string>
 	<string id="st_val_smatr_terrain_4_0_box_descr">
-		<text>В трубу кинул шмотки, потом заберу</text>
+		<text>Threw my things into the pipe. Will pick them up later.</text>
 	</string>
 	<string id="st_val_smatr_terrain_4_0_box_name">
-		<text>Тайник в трубе</text>
+		<text>Secret stash in the pipe</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0013_descr">
-		<text>Поставил ящик в тайник, место надежное</text>
+		<text>Put the chest into the secret stash - it's a reliable place</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0013_name">
-		<text>Ящик в тайнике</text>
+		<text>Chest in the secret stash</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0002_descr">
-		<text>Оставил рюкзак в заброшенном здании, хорошо, никого рядом нет</text>
+		<text>Left the backpack in an abandoned building. Good, nobody's around.</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0002_name">
-		<text>Оставленный рюкзак</text>
+		<text>The left-behind backpack</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0029_descr">
-		<text>Сунул хабар в незаметный ящик, потом заберу</text>
+		<text>Stuck the goodies in a nondescript chest. Will get them later</text>
 	</string>
 	<string id="st_l04_darkvalley_inventory_box_0029_name">
-		<text>Незаметный ящик</text>
+		<text>Nondescript chest</text>
 	</string>
 	<string id="st_val_smatr_terrain_7_6_box_descr">
-		<text>Хабар спрятал в машине под боком у Свободы, времени не было искать что получше</text>
+		<text>Hid the goodies in the car right under the bandits' noses, didn't have any time to look for a better place</text>
 	</string>
 	<string id="st_val_smatr_terrain_7_6_box_name">
-		<text>Тайник в машине</text>
+		<text>Secret stash in the car</text>
 	</string>
 	<string id="st_yan_smart_terrain_3_4_box_descr">
-		<text>За гаражами припрятал хабарок.</text>
+		<text>Stashed away the goodies behind the garages</text>
 	</string>
 	<string id="st_yan_smart_terrain_3_4_box_name">
-		<text>Рюкзак за гаражами</text>
+		<text>Backpack behind the garages</text>
 	</string>
 	<string id="st_yan_smart_terrain_4_5_box_descr">
-		<text>Припрятал рюкзак в будке, прямо за железной хренью.</text>
+		<text>Hid away the bacpack in a booth, right behind the iron scrap</text>
 	</string>
 	<string id="st_yan_smart_terrain_4_5_box_name">
-		<text>Рюкзак с добычей</text>
+		<text>Backpack with the loot</text>
 	</string>
 	<string id="st_yan_smart_terrain_3_6_box_descr">
-		<text>Хабар спрятан в машине, недалеко от территории. Излучение не очень сильное.</text>
+		<text>The goodies are hidden in the car not far from the territory. The radiation is not very high.</text>
 	</string>
 	<string id="st_yan_smart_terrain_3_6_box_name">
-		<text>Добыча в машине</text>
+		<text>The loot is in the car</text>
 	</string>
 	<string id="st_yan_smart_terrain_2_5_box_descr">
-		<text>Говорят, тут хабар чей-то есть, только под излучением не пробраться.</text>
+		<text>They say there's somebody's goodies there, but they can't get to it because of the radiation.</text>
 	</string>
 	<string id="st_yan_smart_terrain_2_5_box_name">
-		<text>Старый рюкзак</text>
+		<text>Old backpack</text>
 	</string>
 	<string id="st_yan_smart_terrain_1_6_box_descr">
-		<text>Говорят, тут тайник какой-то группировки, как только они под излучением пробрались?</text>
+		<text>They say that here there's a secret stash of some grouping. I only wonder how they got here with the radiation?</text>
 	</string>
 	<string id="st_yan_smart_terrain_1_6_box_name">
-		<text>Тайник группировки</text>
+		<text>Secret stash of a grouping</text>
 	</string>
 	<string id="st_yan_recover_item_2_corpse_descr">
-		<text>Сгинул очередной сталкер-доброволец, очередной прототип не защитил от излучения. Смог дойти только до середины территории, там и остался. Сахаров хочет замеры более точные сделать, но я не пойду, а то и я там останусь, недалеко от территории.</text>
+		<text>Another volunteer stalker croaked because another prototype didn't protect him from the radiation. He only made it to the middle of the territory, and stayed there. Saharov wants to take more precise measurements, but I won't go, else I'll end up staying there myself, not far from the territory.</text>
 	</string>
 	<string id="st_yan_recover_item_2_corpse_name">
-		<text>Рюкзак испытателя</text>
+		<text>Backpack of the tester</text>
 	</string>
 	<string id="st_yan_smart_terrain_2_4_box_descr">
-		<text>Говорят тут хабар чей-то есть, только под излучением не пробраться.</text>
+		<text>They say that there is somebody's habar, but there's no way to get there because of the radiation.</text>
 	</string>
 	<string id="st_yan_smart_terrain_2_4_box_name">
-		<text>Старый тайник</text>
+		<text>Old secret stash</text>
 	</string>
 	<string id="st_yan_smart_terrain_6_4_box_descr">
-		<text>Говорят тут схрон чей-то, только под излучением не пробраться.</text>
+		<text>They say that there's somebody's safe here, but there's no way to get to it because of the radiation.</text>
 	</string>
 	<string id="st_yan_smart_terrain_6_4_box_name">
-		<text>Ящик с добром</text>
+		<text>Chest with goods</text>
 	</string>
 </string_table>
