@@ -364,7 +364,7 @@
 </string>
 
 <string id="st_itm_actor_backpack_desc_mlr">
- <text>Often used by stalkers as a fallback in case of unforeseen circumstances. Its main feature are weak, but nevertheless a simple strap which can be reset along with the backpack at any moment and quickly run away. Quite compact and roomy. \n%c[255,238,153,26]in the application allows you to reset your backpack along with some content.</text>
+ <text>Often used by stalkers as a fallback in case of unforeseen circumstances. Its main feature are weak, but nevertheless a simple strap which can be reset along with the backpack at any moment and quickly run away. Quite compact and roomy.\n%c[255,238,153,26]in the application allows you to reset your backpack along with some content.</text>
 </string>
 
 <string id="st_dont_has_knife">
@@ -782,10 +782,10 @@
 
 
 <string id="st_pri_special_trader_mlr_message2">
- <text>Quiet: \ptoi order is complete, come and get it.</text>
+	<text>Quiet: \nYour order is complete, come and get it.</text>
 </string>
 <string id="st_pri_special_trader_mlr_message">
-<text>Griffin: \Stalker, you're in the territory of the syndicate. Don't be afraid to attack you, we will not, but you must behave appropriately. Come to me if you want, I have a couple of tasks.</text>
+<text>Griffin:\nStalker, you're in the territory of the syndicate. Don't be afraid to attack you, we will not, but you must behave appropriately. Come to me if you want, I have a couple of tasks.</text>
 </string> 
 
 <string id="ui_st_red_forest_vagon_csky">
@@ -1007,10 +1007,10 @@
 <text>9x19 PBP, 5 reams</text>
 </string>
 <string id="st_ammo_11.43x23_fmj_opt">
-<text>11.43Ãµ23 FMJ, 6 packs</text>
+<text>11.43õ23 FMJ, 6 packs</text>
 </string>
 <string id="st_ammo_11.43x23_hydro_opt">
-<text>11.43Ãµ23 Federal Hydra-Shok, 5 reams</text>
+<text>11.43õ23 Federal Hydra-Shok, 5 reams</text>
 </string>
 <string id="st_ammo_12x70_buck_opt">
 	<text>12x70, 15 packs</text>
@@ -1025,7 +1025,7 @@
 <text>5.BP. 45x39, 5 reams</text>
 </string>
 <string id="st_ammo_5.56x45_ss190_opt">
-<text>5.56Ãµ45 SS109, 8 packs</text>
+<text>5.56õ45 SS109, 8 packs</text>
 </string>
 <string id="st_ammo_5.56x45_ap_opt">
 	<text>5.56x45 M995, 5 reams</text>
@@ -1414,7 +1414,7 @@
 <text>Listen with his ears.</text>
 </string>
 	<string id="talk_to_maps_3">
- <text>... Hmm. \Smotri is a Bar. It is completely safe for the "Friends of duty" and neutrals. \zapadnee wild Territory, this is the former Western part of the plant "germ." According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best "friends" of "Debt" - "Svobodovets" to keep them. Nothing special there, except that this is the last "Bastion" normalnomyslyaschih do people. \Vostochnoe Cemetery Equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \purnea - Dump, complete anarchy out there, mutants, criminals, but there are "flea market" where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
+	<text>... Hmm. \nSmotri is a Bar. It is completely safe for the "Friends of duty" and neutrals. \nIn wild Territory, this is the former Western part of the plant "germ." According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best "friends" of "Debt" - "Svobodovets" to keep them. Nothing special there, except that this is the last "Bastion" normalnomyslyaschih do people. \nFor Cemetery, get equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \nThe Dump, complete anarchy out there, mutants, criminals, but there is the "flea market" where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
 </string>
 <string id="talk_to_maps_4">
  <text>All basically is clear, but you talked about "normalnomyslyaschih do" and "Bastion".</text>
@@ -1785,7 +1785,7 @@
  <text>We're too late! We agreed! Pay the penalty in %s rubles. %s</text>
 </string>
 <string id="st_jg_16">
-<text>Yes, I need to go to one place. Money would not hurt.\Perez %s I %s paid %s rubles\pusti, if we're not, I'll take you with %s as the penalty</text>
+	<text>Yes, I need to go to one place. Money would not hurt.\n %s I %s paid %s rubles\n, if we're not, I'll take you with %s as the penalty</text>
 </string>
 <string id="st_jg_17">
 <text>I need to be</text>
@@ -1848,5 +1848,4 @@
 <string id="task_fanat_kmb_1_descr">
 <text>Fan apparently among the most experienced stalkers in the village and he decided I was something to teach.</text>
 </string>
-
 </string_table>

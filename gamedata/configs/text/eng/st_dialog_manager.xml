@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-<!-- GENERAL -->
 	<string id="dm_universal_actor_start">
 		<text>I want to ask you something.</text>
 	</string>
@@ -85,8 +84,6 @@
 	<string id="dm_do_not_know_10">
 		<text>Sorry. Got nothing.</text>
 	</string>
-
-	<!-- Greetings -->
 	<string id="dm_hello_general_1">
 		<text>How's it going?</text>
 	</string>
@@ -138,7 +135,6 @@
 	<string id="dm_hello_14">
 		<text>What do you need, stalker?</text>
 	</string>
-<!-- HELP -->
 	<string id="dm_help_1">
 		<text>Help, please... I'm dying...</text>
 	</string>
@@ -190,7 +186,6 @@
 	<string id="dm_help_17">
 		<text>Get me a damn doctor! Urgh, have you got a medkit? Please! I need it!</text>
 	</string>
-<!-- ANOMALIES -->
 	<string id="dm_anomalies_general_1">
 		<text>What do you know about anomalies or artefacts?</text>
 	</string>
@@ -374,8 +369,6 @@
 	<string id="dm_anomalies_57">
 		<text>Not much is known about these parts... Garry's stories, mostly. He says there's a place here where a huge grapevine grows out of an acid anomaly, as tall as a ten-story building. He might be pulling our leg, but I'd check out that vine for artefacts just in case.</text>
 	</string>
-
-<!-- INFORMATION -->
 	<string id="dm_information_general_1">
 		<text>What's new in the Zone?</text>
 	</string>
@@ -580,7 +573,6 @@
 	<string id="dm_information_64">
 		<text>I think soon one day to move in a northerly direction. One of my friends said that you can pass by the Burner, just go through the Red Forest. The problem is that this place is a deadly trap. I need someone I can trust.</text>
 	</string>
-<!-- JOB -->
 	<string id="dm_job_general_1">
 		<text>Anyone posting jobs around here?</text>
 	</string>
@@ -623,7 +615,6 @@
 	<string id="dm_job_10">
 		<text>Sorry, man, I've got nothing for you. Just dig in and help us hold on to what we've got.</text>
 	</string>	
-<!-- TIPS -->
 	<string id="dm_tips_general_1">
 		<text>Know anything useful?</text>
 	</string>
@@ -750,7 +741,6 @@
 	<string id="dm_tips_38">
 		<text>Pay attention to radio chatter, because it's a damn good way to find out what's going on in the area. You'll be able to provide assistance to anyone in a gunfight or surrounded by mutants.</text>
 	</string>	
-<!-- Wounded -->
 	<string id="dm_wounded_general">
 		<text>Help!</text>
 	</string>
@@ -760,7 +750,6 @@
 	<string id="dm_wounded_sorry">
 		<text>Sorry, I don't have a medkit.</text>
 	</string>
-
 	<string id="dm_traveler_bye">
 		<text>Ok.</text>
 	</string>
@@ -872,19 +861,15 @@
 	<string id="dm_stalker_searching_artefacts_3">
 		<text>I am artefact hunting.</text>
 	</string>
-
-	<!-- Technician -->
 	<string id="st_mechanic_query_items">
 		<text>Is any of my equipment ready for pick-up?</text>
 	</string>
 	<string id="st_mechanic_repair_done">
 		<text>Yes. Here you are.</text>
 	</string>
-		<string id="st_mechanic_repair_not_done">
+	<string id="st_mechanic_repair_not_done">
 		<text>Not yet. Check back later.</text>
 	</string>
-
-	<!-- Surrender -->
 	<string id="st_surrender_victim">
 		<text>...I give up.</text>
 	</string>
@@ -903,7 +888,6 @@
 	<string id="st_surrender_query_victim_5">
 		<text>I can give you a chance if you join our clan.</text>
 	</string>
-
 	<string id="st_surrender_actor_1">
 		<text>You'll live.</text>
 	</string>
@@ -937,7 +921,6 @@
 	<string id="st_surrender_victim_answer_8">
 		<text>Well see you.</text>
 	</string>
-	
 	<string id="st_surrender_victim_answer_default_bounty_1">
 		<text>Okay, okay, just don't kill me!</text>
 	</string>
@@ -953,7 +936,6 @@
 	<string id="st_surrender_victim_answer_default_bounty_5">
 		<text>Go fuck yourself!</text>
 	</string>
-	
 	<string id="st_surrender_victim_answer_esc_m_trader_bounty_1">
 		<text>That bastard Sidorovich sent you, didn't he? What do you want? Cash?! Here, have my PDA and my money... Just let me live!</text>
 	</string>
@@ -984,7 +966,6 @@
 	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_5">
 		<text>...</text>
 	</string>
-<!-- Broker -->
 	<string id="st_broker_query">
 		<text>I may have some information to sell.</text>
 	</string>
@@ -1015,7 +996,7 @@
 	<string id="st_broker_npc_start_3">
 		<text>This better be worth my time. What do you have?</text>
 	</string>
-		<string id="st_broker_npc_answer_pda_query">
+	<string id="st_broker_npc_answer_pda_query">
 		<text>All right. Let me see.</text>
 	</string>
 	<string id="st_broker_npc_about_pda_common_1">
@@ -1078,7 +1059,6 @@
 	<string id="st_broker_npc_about_pda_common_20">
 		<text>Detailed observations regarding Whirligig anomalies.</text>
 	</string>
-
 	<string id="st_broker_npc_about_pda_uncommon_1">
 		<text>I know some people who will want this one.</text>
 	</string>
@@ -1139,7 +1119,6 @@
 	<string id="st_broker_npc_about_pda_uncommon_20">
 		<text>Lots of chat logs, might have something useful.</text>
 	</string>
-
 	<string id="st_broker_npc_about_pda_rare_1">
 		<text>Fantastic. Some dirt on Beard.</text>
 	</string>
@@ -1200,12 +1179,9 @@
 	<string id="st_broker_npc_about_pda_rare_20">
 		<text>What the...? This one just says 'Kill Strelok'.</text>
 	</string>
-
 	<string id="st_broker_npc_about_pda_bonus_coords">
 		<text>As a bonus, here are some coordinates to stashes I don't really care to get.</text>
 	</string>
-
-	<!-- Tasks -->
 	<string id="st_ordered_task_query">
 		<text>Is there any work you want done?</text>
 	</string>
@@ -1251,8 +1227,6 @@
 	<string id="st_nevermind">
 		<text>On second thought, never mind. Come back later.</text>
 	</string>
-	
-	<!-- Task Cancelling -->
     <string id="dm_universal_actor_exit_sorry">
         <text>Sorry I couldn't help.</text>
     </string>
@@ -1277,8 +1251,6 @@
     <string id="st_default_task_cancel_3">
         <text>I guess that is what I should have expected from a rookie.</text>
     </string>
-	
-	<!-- Repair -->
 	<string id="st_inventory_upgrade_reply_1">
 		<text>Your %s will be ready in %s minutes. Come back then.</text>
 	</string>

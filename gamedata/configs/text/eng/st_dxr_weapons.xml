@@ -366,7 +366,7 @@
         <text>The AK-74 is an assault rifle developed in the early 1970s by Mikhail Kalashnikov as the replacement for the earlier AKM. It uses a smaller 5.45x39 mm cartridge, replacing the 7.62x39 mm chambering of earlier Kalashnikovs.</text>
     </string>
     <string id="st_dxr_wpn_ak74_descr2">
-        <text>The AK-74 is an assault rifle developed in the early 1970s by Mikhail Kalashnikov as the replacement for the earlier AKM. It uses a smaller 5.45x39 mm cartridge, replacing the 7.62x39 mm chambering of earlier Kalashnikovs.\n \n%c[255,255,255,0]This variant lacks a mount to attach optics.</text>
+        <text>The AK-74 is an assault rifle developed in the early 1970s by Mikhail Kalashnikov as the replacement for the earlier AKM. It uses a smaller 5.45x39 mm cartridge, replacing the 7.62x39 mm chambering of earlier Kalashnikovs.\n\n%c[255,255,255,0]This variant lacks a mount to attach optics.</text>
     </string>
 	
     <string id="st_dxr_wpn_ak74_up_name">
@@ -411,7 +411,7 @@
         <text>The AKS-74U is a shortened carbine version of the AK-74, with its shorter length making it better for close quarters and indoor combat. The rifle was likely developed in response to the CAR-15 Commando which was used by the US in the Vietnam War.</text>
     </string>
     <string id="st_dxr_wpn_ak74u_descr2">
-        <text>The AKS-74U is a shortened carbine version of the AK-74, with its shorter length making it better for close quarters and indoor combat. The rifle was likely developed in response to the CAR-15 Commando which was used by the US in the Vietnam War.\n \n%c[255,255,255,0]This variant lacks a mount to attach optics.</text>
+        <text>The AKS-74U is a shortened carbine version of the AK-74, with its shorter length making it better for close quarters and indoor combat. The rifle was likely developed in response to the CAR-15 Commando which was used by the US in the Vietnam War.\n\n%c[255,255,255,0]This variant lacks a mount to attach optics.</text>
     </string>
 	
     <string id="st_dxr_wpn_ak74u_snag_name">

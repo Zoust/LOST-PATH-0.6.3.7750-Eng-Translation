@@ -1203,7 +1203,6 @@
 	<string id="lname_captain_199">
 		<text>Skameyka</text>
 	</string>
-
 	<string id="lname_captain_20">
 		<text>Blinov</text>
 	</string>
@@ -1264,7 +1263,6 @@
 	<string id="lname_captain_39">
 		<text>Dovgalyuk</text>
 	</string>
-
 	<string id="lname_captain_40">
 		<text>Drozdush</text>
 	</string>
@@ -2477,7 +2475,6 @@
 	<string id="lname_sergeant_10">
 		<text>Baranov</text>
 	</string>
-	</string>
 	<string id="lname_sergeant_100">
 		<text>Korkin</text>
 	</string>
@@ -2709,7 +2706,6 @@
 	<string id="lname_sergeant_17">
 		<text>Beshevly</text>
 	</string>
-
 	<string id="lname_sergeant_170">
 		<text>Proskurin</text>
 	</string>
@@ -2743,7 +2739,6 @@
 	<string id="lname_sergeant_18">
 		<text>Binoev</text>
 	</string>
-
 	<string id="lname_sergeant_180">
 		<text>Rotan</text>
 	</string>
@@ -5078,7 +5073,7 @@
 	<string id="lname_senior_sergeant_16">
 		<text>Blinov</text>
 	</string>	
-<string id="lname_senior_sergeant_160">
+	<string id="lname_senior_sergeant_160">
 		<text>Sinitzyn</text>
 	</string>
 	<string id="lname_senior_sergeant_161">
@@ -5471,8 +5466,6 @@
 	<string id="lname_senior_sergeant_9">
 		<text>Baranovsky</text>
 	</string>
-
-
 	<string id="lname_lieutenant_2">
 		<text>Altynnik</text>
 	</string>
@@ -5986,11 +5979,6 @@
 	<string id="lname_private_243">
 		<text>Zvonnitsky</text>
 	</string>
-
-
-
-
-
 	<string id="lname_lieutenant_200">
 		<text>Slutsky</text>
 	</string>
@@ -6261,8 +6249,6 @@
 	<string id="lname_captain_244">
 		<text>Zvonnitsky</text>
 	</string>
-
-
 	<string id="lname_private_12">
 		<text>Barsak</text>
 	</string>
@@ -6290,32 +6276,9 @@
 	<string id="lname_science_35">
 		<text>Zakharov</text>
 	</string>
-
-
-
 	<string id="lname_stalker_22">
 		<text>Athlete</text>
 	</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<string id="lname_stalker_600">
 		<text>Proud</text>
 	</string>
@@ -7024,7 +6987,6 @@
 	<string id="lname_stalker_835">
 		<text>Zucchini</text>
 	</string>
-
 	<string id="lname_lieutenant_4">
 		<text>Andruschenko</text>
 	</string>
@@ -7040,11 +7002,9 @@
 	<string id="lname_lieutenant_8">
 		<text>Babich</text>
 	</string>
-
 	<string id="lname_lieutenant_13">
 		<text>Bashakov</text>
 	</string>
-
 	<string id="lname_lieutenant_18">
 		<text>Binoev</text>
 	</string>

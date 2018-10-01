@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- Характеристики улучшений для костюмов -->
-	
-	<!-- Энергетические системы -->
 	<string id="st_up_add_energy_system_name">
 	<text>the energy system.</text>
 	</string>
@@ -10,19 +7,19 @@
 	<text>Installation of a basic power system consisting of a portable power source and Guides to provide operation of low-power electronic devices.</text>
 	</string>
 	<string id="st_up_add_energy_system_1_name">
-	<text>Power module. \n Step 1.</text>
+	<text>Power module.\n Step 1.</text>
 	</string>
 	<string id="st_up_add_energy_system_1_descr">
 	<text>Duplication of the basic energy system makes it possible to increase the load on the network by several low-power consumers.</text>
 	</string>
 	<string id="st_up_add_energy_system_2_name">
-	<text>Power module. \n Step 2.</text>
+	<text>Power module.\n Step 2.</text>
 	</string>
 	<string id="st_up_add_energy_system_2_descr">
 	<text>Improvement of the basic energy system and its duplicate. Installing an additional power source, as well as extending the chain of Guides, allows you to connect more power-consuming elements to the circuit.</text>
 	</string>
 	<string id="st_up_add_energy_system_3_name">
-	<text>Power module. \n Step 3.</text>
+	<text>Power module.\n Step 3.</text>
 	</string>
 	<string id="st_up_add_energy_system_3_descr">
 	<text>Strengthening the system of portable power supplies by supplementing the circuit with one battery and branching the network of Guides. Provides operation of any electronic costume schemes.</text>
@@ -34,19 +31,19 @@
 	<text>Expansion of the basic energy network of the exoskeleton to install a larger number of consumers.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_2_name">
-	<text>Enhanced power supply. \n Step 1.</text>
+	<text>Enhanced power supply.\n Step 1.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_2_descr">
 	<text>Branching of a chain of Guides, and also installation of additional power elements for installation of powerful consumers.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_3_name">
-	<text>Enhanced power supply. \n Step 2.</text>
+	<text>Enhanced power supply.\n Step 2.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_3_descr">
 	<text>Installation of additional power supplies to increase the power supplied to the chassis of the exoset.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_4_name">
-	<text>Enhanced power supply. \n Step 3.</text>
+	<text>Enhanced power supply.\n Step 3.</text>
 	</string>
 	<string id="st_up_add_exo_energy_system_4_descr">
 	<text>A larger number of power supplies increases the total power they generate. This allows us to increase the load limit on the mechanics of the exoskeleton.</text>
@@ -244,13 +241,13 @@
 	<text>the device for accounting for the radiation dose received</text>
 	</string>
 	<string id="st_up_dozimeter_descr">
-	<text>Set up the device to accurately determine the dose of radiation received. \n %c[255,238,153,26] Displays the irradiation scale for thin.%c[default]</text>
+	<text>Set up the device to accurately determine the dose of radiation received.\n %c[255,238,153,26] Displays the irradiation scale for thin.%c[default]</text>
 	</string>
 	<string id="st_up_psy_controller_name">
 	<text>Psi Controller</text>
 	</string>
 	<string id="st_up_psy_controller_descr">
-	<text>Set the device that stabilizes the electrical activity of the brain. \n %c[255,238,153,26] Does not allow psi-health to fall below 25%.%c[default]</text>
+	<text>Set the device that stabilizes the electrical activity of the brain.\n %c[255,238,153,26] Does not allow psi-health to fall below 25%.%c[default]</text>
 	</string>
 	<string id="st_up_resp_a1_name">
 		<text>First generation night vision device</text>
@@ -336,7 +333,6 @@
 	<string id="st_up_res_c4_descr">
 		<text>Hi-tech psi-protection that is said to have been invented by a scientist called Sakharov.</text>
 	</string>
-	<!-- chem_burn_protection + radio_protection -->
 	<string id="st_up_res_a1_name">
 		<text>Active filters</text>
 	</string>
@@ -379,8 +375,6 @@
 	<string id="st_up_kom_c9_descr">
 		<text>A domestic development which appeared after the Chernobyl disaster. Used in exoskeletons to prevent electronic malfunctions.</text>
 	</string>
-	
-	<!-- Дополнительный переносимый вес -->
 	<string id="st_up_uti_b2_name">
 		<text>A mount system for weight distribution</text>
 	</string>
@@ -411,8 +405,6 @@
 	<string id="st_up_uti_a1_descr">
 		<text>Additional movement devices allow for maximum carried load to be increased.</text>
 	</string>
-	
-	<!-- Контейнеры для артефактов -->
 	<string id="st_up_uti_b1_name">
 		<text>Additional artefact container</text>
 	</string>
@@ -437,8 +429,6 @@
 	<string id="st_up_uti_e1_descr">
 	<text>Installation of an additional container for carrying four artifacts.</text>
 	</string>
-	
-	<!-- Снижение массы -->
 	<string id="st_up_arm_a5_name">
 		<text>Replacing metal body armour components with carbon fibre</text>
 	</string>
@@ -457,8 +447,6 @@
 	<string id="st_up_exo_b1_descr">
 		<text>A development of Freedom technicians, who were the first to replace metal with carbon fibre in view of exoskeletons' huge weight.</text>
 	</string>
-	
-	<!-- Монтаж артефактов -->
 	<string id="st_up_outfit_af_name">
 	<text>Installing the artifact</text>
 	</string>
@@ -546,7 +534,6 @@
 	<string id="st_up_chn-3b_18_descr">
 	<text>Reinforcement of the suit frame to increase the safety factor.</text>
 	</string>
-
 	<string id="st_prop_bullet_speed">
 		<text>Flatness</text>
 	</string>
@@ -661,7 +648,6 @@
 	<string id="st_up_addh_a1_descr">
 		<text>A lighter yet higher-capacity polycarbonate box magazine, which offsets some of the weight increase.</text>
 	</string>
-
 	<string id="st_up_arm_a1_descr">
 		<text>Increased number of titanium plates considerably improves body armour durability.</text>
 	</string>
@@ -1457,7 +1443,6 @@
 	<string id="st_up_opt_a4_name">
 		<text>6.0x optical scope</text>
 	</string>
-
 	<string id="st_up_opt_c2_descr">
 		<text>Night vision devices have saved many a sniper since their inception.</text>
 	</string>
@@ -1542,14 +1527,12 @@
 	<string id="st_up_pris_c1_name">
 		<text>Hydraulic stock recoil buffer</text>
 	</string>
-
 	<string id="st_up_res_a4_name">
 	<text>Reinforced construction</text>
 	</string>
 	<string id="st_up_res_a4_descr">
 	<text>Installation of armored glass and additional reinforcement of the frame allows to increase protection against mechanical influences.</text>
 	</string>
-
 	<string id="st_up_res_b2_descr">
 		<text>A filter with a reinforced anti-corrosive coating with an additional preventing layer for removal of poisons</text>
 	</string>
@@ -1598,7 +1581,6 @@
 	<string id="st_up_res_c6_name">
 		<text>Reinforced armoured helmet body</text>
 	</string>
-
 	<string id="st_up_ret_a1_descr">
 		<text>The reinforced spring is used to increase bullet speed.</text>
 	</string>
@@ -2229,7 +2211,6 @@
 	<string id="st_up_zatp_c7_name">
 		<text>Three round burst firing mode</text>
 	</string>
-
 	<string id="st_upgr_cost">
 		<text>Cost</text>
 	</string>
@@ -2275,7 +2256,6 @@
 	<string id="st_upgr_parents">
 		<text>Preceding modifications required</text>
 	</string>
-
 	<string id="st_prop_autolockscope">
 		<text>Automatic target acquisition system</text>
 	</string>
@@ -2348,14 +2328,12 @@
 	<string id="st_prop_artefact">
 		<text>Artefact containers</text>
 	</string>
-
 	<string id="st_up_length">
 		<text>Length</text>
 	</string>
 	<string id="st_up_meter">
 		<text>m.</text>
 	</string>
-
 	<string id="st_up_arm_c9_name">
 		<text>Armadillo protective coating based on sapphire crystals</text>
 	</string>
@@ -2368,19 +2346,15 @@
 	<string id="st_up_kom_a5_name">
 		<text>Rubberised cloth under-layer</text>
 	</string>
-
-
 	<string id="st_up_tch_b3_descr">
 		<text>This wave emitter is mounted on the chest and considerably increases bleeding control speed, immune system strength and the wearer's pain barrier when in constant use.</text>
 	</string>
 	<string id="st_prop_autolock">
 		<text>Automatic target acquisition system</text>
 	</string>
-
 	<string id="st_up_add_b3_name">
 		<text>Change of calibre to 9x18</text>
 	</string>
-
 	<string id="st_up_kom_b10_descr">
 		<text>A number of ergonomic adjustments that use a rubber construction, which allow mobility to be retained even when wearing bulky armour.</text>
 	</string>
@@ -2420,5 +2394,4 @@
 	<string id="st_up_opt_a3_nimble_name">
 		<text>10.0x optical scope</text>
 	</string>
-
 </string_table>

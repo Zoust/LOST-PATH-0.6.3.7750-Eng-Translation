@@ -19,15 +19,19 @@
 	<string id="vozm">
 		<text>I'll take it.</text>
 	</string>
+	
 	<string id="vip">
 		<text>I'm here for the job.</text>
 	</string>
+	
 	<string id="nagrada">
-		<text>The job is done... Where's the reward ?text>
+	<text>The job is done... Where's the reward ?</text>
 	</string>
+	
 	<string id="prin_art">
 		<text>Bring what's has been promised to the customer.</text>
 	</string>
+	
 	<string id="tm_find_artefact_2">
 		<text>Find the artifact "Stone Flower"</text>
 	</string>

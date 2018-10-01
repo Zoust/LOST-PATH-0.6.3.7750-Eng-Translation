@@ -3,18 +3,22 @@
 
 <!-- DoctorX Dynamic Faction Relations -->
 
-   <string id="st_drx_relations_and">
-<text>and</text>
+<string id="st_drx_relations_and">
+	<text>and</text>
 </string>
-< <string id="st_dyx_relations_declared_war">
-<text>started a war.</text>
+
+<string id="st_dyx_relations_declared_war">
+	<text>started a war.</text>
 </string>
+
 <string id="st_drx_relations_alliance">
-<text>made a Covenant.</text>
+	<text>made an alliance.</text>
 </string>
+
 <string id="st_drx_relations_deteriorating">
-<text>. Relations deteriorated.</text>
+	<text>. Relations deteriorated.</text>
 </string>
+
 <string id="st_drx_relations_cease_fire">
 <text>announced a cease-fire.</text>
 </string>
@@ -22,13 +26,15 @@
 <!-- Doctor X Questlines -->
 
 <string id="st_drx_questlines_and_this_one">
-<text>And...</text>
+	<text>And...</text>
 </string>
+
 <string id="st_drx_questlines_joined">
-<text>You joined the group</text>
+	<text>You joined the group</text>
 </string>
+
 <string id="st_drx_questlines_faction">
-<text>.</text>
+	<text>.</text>
 </string>
 
 </string_table>

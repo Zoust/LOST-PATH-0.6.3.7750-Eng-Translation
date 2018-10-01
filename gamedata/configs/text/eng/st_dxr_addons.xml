@@ -93,39 +93,39 @@
 	<!-------------------------->
 
 	<string id="st_dxr_addon_scope_descr">
-		<text>A common Soviet-made 5.0x fixed zoom optical scope with a range scale. Attached to weapons by means of a dovetail mount, which is standard in Warsaw Pact countries.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>A common Soviet-made 5.0x fixed zoom optical scope with a range scale. Attached to weapons by means of a dovetail mount, which is standard in Warsaw Pact countries.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_detector_descr">
-		<text>A 5.0x fixed zoom optical scope with a built-in heat visor used to identify heat sources typical of the human body. Designed for use by special forces. Attached to weapons by means of a dovetail mount.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>A 5.0x fixed zoom optical scope with a built-in heat visor used to identify heat sources typical of the human body. Designed for use by special forces. Attached to weapons by means of a dovetail mount.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_night_vision_descr">
-		<text>An image intensifier night vision 5.0x fixed zoom scope for combat in darkness. Attached to weapons by means of a dovetail mount.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>An image intensifier night vision 5.0x fixed zoom scope for combat in darkness. Attached to weapons by means of a dovetail mount.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_susat_custom_descr">
-		<text>An adjustable long-range 1.6-4x zoom scope that can use automatic adjustment to provide greater fire effectiveness. Attached to weapons by means of the NATO-standard Picatinny rail.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>An adjustable long-range 1.6-4x zoom scope that can use automatic adjustment to provide greater fire effectiveness. Attached to weapons by means of the NATO-standard Picatinny rail.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_susat_descr">
-		<text>A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_susat_dusk_descr">
-		<text>An optical SUSAT 1.6x higher contrast scope for combat in reduced lighting conditions. Attached to weapons by means of the NATO-standard Picatinny rail.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>An optical SUSAT 1.6x higher contrast scope for combat in reduced lighting conditions. Attached to weapons by means of the NATO-standard Picatinny rail.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_susat_night_vision_descr">
-		<text>A 4.0x fixed zoom scope with a night vision device for long range combat in darkness. Attached to weapons by means of the NATO-standard Picatinny rail.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>A 4.0x fixed zoom scope with a night vision device for long range combat in darkness. Attached to weapons by means of the NATO-standard Picatinny rail.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_susat_x1.6_descr">
-		<text>An optical SUSAT 1.6x scope for combat at short to medium range. Attached to weapons by means of the NATO-standard Picatinny rail.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>An optical SUSAT 1.6x scope for combat at short to medium range. Attached to weapons by means of the NATO-standard Picatinny rail.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<string id="st_dxr_addon_scope_x2.7_descr">
-		<text>A 2.7x optical scope for urban combat at medium range. Attached to weapons by means of a dovetail mount.\n \n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
+		<text>A 2.7x optical scope for urban combat at medium range. Attached to weapons by means of a dovetail mount.\n\n%c[255,255,255,0]Unused because of an installed weapon pack.</text>
 	</string>
 	
 	<!--------------------------------->

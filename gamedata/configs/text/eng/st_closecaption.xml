@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-
-	<!-- UI STRINGS FOR CLOSED CAPTION MODS -->
-
 	<string id="ui_mm_cc_icc">
 		<text>Closed captions</text>
 	</string>
@@ -21,10 +18,6 @@
 	<string id="ui_mm_cc_all">
 		<text>All subtitles</text>
 	</string>
-
-
-	<!-- STRING TABLE ADDITIONS FOR GAME -->
-
 	<string id="st_sending_msg">
 		<text>Sending Message</text>
 	</string>
@@ -52,10 +45,6 @@
 	<string id="st_ssu_commander_name">
 		<text>USS Command</text>
 	</string>
-
-
-	<!-- CLOSED CAPTIONS FOR GAME -->
-
 	<string id="cc_effect-ambient-blowout_begin">
 		<text>[emission begins]</text>
 	</string>
@@ -131,14 +120,12 @@
 	<string id="cc_effect-device-wood_large_close_start">
 		<text>[wooden door closes]</text>
 	</string>
-
 	<string id="cc_effect-anomaly-steam_blowout">
 		<text>[steam hiss]</text>
 	</string>
 	<string id="cc_effect-weapons-n_desert_eagle_shot">
 		<text>[pistol shot]</text>
 	</string>
-
 	<string id="cc_effect-music-guitar_">
 		<text>[guitar music]</text>
 	</string>
@@ -148,7 +135,6 @@
 	<string id="cc_effect-laughter_">
 		<text>[laughter]</text>
 	</string>
-
 	<string id="cc_wounded-bandit-help">
 		<text>[wounded bandit asks for help]</text>
 	</string>
@@ -170,7 +156,6 @@
 	<string id="cc_wounded-stalker-help">
 		<text>[wounded stalker asks for help]</text>
 	</string>
-
 	<string id="cc_fight-bandit-attack">
 		<text>[bandit attack]</text>
 	</string>
@@ -192,11 +177,6 @@
 	<string id="cc_fight-stalker-attack">
 		<text>[stalker attack]</text>
 	</string>
-
-	<!-- CLOSED CAPTIONS FOR 'CALL OF PRIPYAT' -->
-
-	<!-- Zaton -->
-
 	<string id="zat_a2_base_alarm">
 		<text>Attention stalkers, Skadovsk is under attack! We've been forced to batten down the hatches until things quiet down.</text>
 	</string>
@@ -773,10 +753,6 @@
 	<string id="zat_b7_stalkers_attack">
 		<text>Kill them all!</text>
 	</string>
-
-
-	<!-- Jupiter -->
-
 	<string id="jup_a10_bandit_leader_hello">
 		<text>Would you look at that! The man himself!</text>
 	</string>
@@ -1458,10 +1434,6 @@
 	<string id="jup_b9_heli_1_blackbox">
 		<text>Two bodies... Looks like they died in the crash... Everything of value has been looted and the on-board computer has been wiped clean. But the black box is still intact... Interesting... I reckon a decent technician will be able to extract the information on it and then decode it.</text>
 	</string>
-
-
-	<!-- Underpass -->
-
 	<string id="pas_b400_sokolov_about_control_gates_1">
 		<text>It's blocked, and there's no button. I get the feeling someone's going to have to make for the control room to solve this one.</text>
 	</string>
@@ -1879,10 +1851,6 @@
 	<string id="pas_b400_zulus_wait_for_me_1">
 		<text>Come back, bro! We don't need a scout on this mission.</text>
 	</string>
-
-
-	<!-- Pripyat -->
-
 	<string id="pri_a15_actor_introduce">
 		<text>I'm Major Degtyarev, USS. I'm here to investigate the failure of operation 'Fairway'.</text>
 	</string>

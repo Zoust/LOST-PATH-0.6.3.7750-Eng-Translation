@@ -3271,14 +3271,14 @@
 		<text>Dudes! Guess what, the ganja, the one growing near da springboard, it hits like a truck! Hahahaaa!!!</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_32">
-		<text>This is Skinflint. I've just received a small batch of American erotic magazines...\n \n%c[255,160,160,160]Anonymous\n%c[default]Who the hell needs those, idiot? Everyone outside of the Zone has been using hard drives for years now, us included.</text>
+		<text>This is Skinflint. I've just received a small batch of American erotic magazines...\n\n%c[255,160,160,160]Anonymous\n%c[default]Who the hell needs those, idiot? Everyone outside of the Zone has been using hard drives for years now, us included.</text>
 	</string>
 
 	<string id="st_dyn_news_spam_faction_army_1">
-		<text>Base, this is Delta squad, we've got the entrance to the Dark Valley lab, what are the orders?\n \n%c[255,160,160,160]Anonymous\n%c[default]Goddammit! Switch to the private channel!</text>
+		<text>Base, this is Delta squad, we've got the entrance to the Dark Valley lab, what are the orders?\n\n%c[255,160,160,160]Anonymous\n%c[default]Goddammit! Switch to the private channel!</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_2">
-		<text>Base, this is recon team Nightbird,we're having encryption problems and are dropping a message here. Landed in Limansk and the building site seems impenetrable, large concentrations of enemy forces, 8 RPGs, 5 snipers and 4 with unknown weapons, we cannot send our coordinates and the enemies are listening on the general channel, what are your orders?\n \n%c[255,160,160,160]Anonymous\n%c[default]Copy, Nightbird. Return to the Red Forest immediately and regroup with Vulture. Make further decisions from there on out.</text>
+		<text>Base, this is recon team Nightbird,we're having encryption problems and are dropping a message here. Landed in Limansk and the building site seems impenetrable, large concentrations of enemy forces, 8 RPGs, 5 snipers and 4 with unknown weapons, we cannot send our coordinates and the enemies are listening on the general channel, what are your orders?\n\n%c[255,160,160,160]Anonymous\n%c[default]Copy, Nightbird. Return to the Red Forest immediately and regroup with Vulture. Make further decisions from there on out.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_3">
 		<text>Attention! When trying to cross the perimeter, the soldiers guarding it have the right to open fire on you without warning. Do not take chances and do not break the law.</text>
@@ -3299,7 +3299,7 @@
 		<text>Requesting a helicopter in the square a1_6</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_9">
-		<text>Requesting mortar strike on the coordinates e2_12.\n \n%c[255,160,160,160]Anonymous\n%c[default]Oi, easy!</text>
+		<text>Requesting mortar strike on the coordinates e2_12.\n\n%c[255,160,160,160]Anonymous\n%c[default]Oi, easy!</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_10">
 		<text>Contracted soldiers and military stalkers - if anyone in one of the raids finds the wreckage of a fallen helicopter, please recover the flight recorder and send it to Major Kuznetsov.</text>
@@ -3345,7 +3345,7 @@
 		<text>Barrier-1 is concerned at square aes2_m1. It seems that they've spotted some humanoids, hardly zombies, moving at a steady pace.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_7">
-		<text>A signal has come from the sarcophagus. Shall I verify?\n \nNot possible. Too much background radiation and tons of creatures are located there. I've already told you.</text>
+		<text>A signal has come from the sarcophagus. Shall I verify?\n\nNot possible. Too much background radiation and tons of creatures are located there. I've already told you.</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_8">
 		<text>Wings, come in. Are you already in place?</text>
@@ -5506,7 +5506,7 @@
 		<text>Be careful, bandits may show up at any moment.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_4">
-		<text>Ever wondered what happened to Lebedev and the rest of troops after the big emission? Cold says they died, I heard someone say they become monolith soldiers... \nCome to think of it, it's very possible that they're still alive.</text>
+		<text>Ever wondered what happened to Lebedev and the rest of troops after the big emission? Cold says they died, I heard someone say they become monolith soldiers...\nCome to think of it, it's very possible that they're still alive.</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_5">
 		<text>I think I caught a frog in my ass, staying at the swamps all the time isn't that healthy.</text>

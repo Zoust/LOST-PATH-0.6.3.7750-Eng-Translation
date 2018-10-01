@@ -73,7 +73,7 @@
 </string>
 
 <string id="army_commander_proto_description">
- <text>Army bronekostyum SKAT-9M created to conduct assault operations in the areas of activity anomalies. In stock: heavy army bronekostyum series PSZ-12P, built-in compensation suit, helmet Sphere-12M. Provides excellent protection against bullet and shrapnel hits, it does not reduce the mobility of the soldier. In the presence of a balanced system of protection from anomalous exposure. \n\n> install servo.</text>
+ <text>Army bronekostyum SKAT-9M created to conduct assault operations in the areas of activity anomalies. In stock: heavy army bronekostyum series PSZ-12P, built-in compensation suit, helmet Sphere-12M. Provides excellent protection against bullet and shrapnel hits, it does not reduce the mobility of the soldier. In the presence of a balanced system of protection from anomalous exposure.\n\n> install servo.</text>
 </string>
 
 <string id="army_heavy_proto_name">
@@ -132,7 +132,7 @@
 <text>Heavy breeschoten "Bandits" (servo)</text>
 </string>
 <string id="bandit_heavy_proto_description">
- <text>a Modified Heavy broascast group "the Bandits" from old stocks of military TB. This is worn by cool guys who have credibility. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. \n\n> install servo.</text>
+ <text>a Modified Heavy broascast group "the Bandits" from old stocks of military TB. This is worn by cool guys who have credibility. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter.\n\n> install servo.</text>
 </string>
 
 <string id="bandit_heavy_name">
