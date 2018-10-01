@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< TEXT  STRINGS FOR TASKS ON ZATON MAP
+<	CoC 1.4.22 - DoctorX Questlines 1.25
+<
+<	Modified by: DoctorX
+<	Last revised: April 27, 2017
+<
+<===========================================================-->
+
+<string_table>
+	<!-- ELIMINATE MUTANTS FOR BEARD TASK -->
+	<string id="zat_a2_stalker_barmen_task_1_name">
+		<text>Clear area of mutants</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_1_text">
+		<text>Mutants are about. Hunt them down and clear the area.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_1_about">
+		<text>Shh... Listen, hear that? Some mutants howling. Still gives me the chills after all this time. How about you go out there and take care of them? I'll make it worth your while.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_1_finish">
+		<text>Haha! Well done, stalker! Have a drink on Beard!</text>
+	</string>
+
+
+	<!-- FIND ARTEFACT FOR BEARD TASK -->
+	<string id="zat_a2_stalker_barmen_task_2_name">
+		<text>Find the %s Artefact for Beard</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_2_text">
+		<text>Beard wants you to find the %s artefact for him.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_2_about">
+		<text>I deal in artefacts. I usually don't buy them from stalkers, but there is one in particular I would like to get my hands on. Do you want to try to get it for me?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_2_fetch_about">
+		<text>I'm looking for the %s artefact. You ever seen one? If you can find it, I'll make sure you're well paid.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_2_fetch_finish">
+		<text>Good hunting, stalker! Have a drink on the house!</text>
+	</string>
+
+
+	<!-- ASSASSINATION FOR BEARD TASK -->
+	<string id="zat_a2_stalker_barmen_task_3_name">
+		<text>Diplomat</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_3_text">
+		<text>Convince the military commander to call off his search for a fellow stalker.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_3_about">
+		<text>There's a guy; Spetsnaz is looking for him. He's been hiding out here for weeks. They say he ran through the Brain Scorcher to escape them. I don't know how he survived, though he ain't quite right in the head anymore... Anyway, you want to help the poor fellow? I happen to know where the military commander who wants him is stationed. Maybe you can convince him to leave the guy alone.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_3_finish">
+		<text>Ah, you killed him! Well, that's effective diplomacy! Good man! Free drinks for you!</text>
+	</string>
+
+
+        <!-- СКЕЛЯ КВЕСТЫ БОРОДЫ -->
+
+        <string id="zat_a2_stalker_barmen_task_14_name">
+	<text>Obtain part of the monster's body</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_text">
+	<text>Beard asks for a mutant: %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_about">
+	<text>There was an order for a part of monsters from scientists, you undertake?</text>
+	</string>
+        <string id="zat_a2_stalker_barmen_task_14_fetch_about">
+	<text>Please, please %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_finish">
+	<text>Keep the profits.</text>
+	</string>
+
+        <string id="zat_a2_stalker_barmen_task_15_name">
+	<text>Get the meat of the monster</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_text">
+	<text>Beard asks for mutant meat: %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_about">
+	<text>I decided to try something that is edible from the meat of the local fauna, so you need to go and get meat mutants. You take?</text>
+	</string>
+        <string id="zat_a2_stalker_barmen_task_15_fetch_about">
+	<text>Please, please %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_finish">
+	<text>Keep the profits.</text>
+	</string>
+
+	<!---	zat_b7_bandit_boss_sultan_task --->
+	<string id="zat_b7_bandit_boss_sultan_task_1_name">
+		<text>Eliminate Target</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_task_1_text">
+		<text>Find and eliminate the target then return to Sultan for payment.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_task_1_about">
+		<text>There are many people in the Zone who have rubbed me the wrong way or shown me disrespect. Some of these pricks either owe me money or fucked up some deal. These people are nothing but rats that need stomped out. If you are up for the task, I will give you their information so that you can track them through GPS.</text>
+	</string>
+	<string id="zat_b7_bandit_boss_sultan_task_1_finish">
+		<text>Great work! Here's a little something for your trouble:</text>
+	</string>
+	<!-- zat_a2_stalker_mechanic -->
+	<string id="zat_a2_stalker_mechanic_task_1_name">
+		<text>Find %s</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_1_text">
+		<text>%s are required by Cardan to install basic equipment upgrades. You should bring them back to him if you find any.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_1_about">
+		<text>Not only do I need some more booze, but I could really use a good set of tools, stalker. If you're interested in helping me out, I will tell you what I need.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_1_fetch_about">
+		<text>I need a set of basic tools. It should contain what I need. If you can bring some back for me, I will be grateful; I will even offer you a discount from here on out.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_1_fetch_finish">
+		<text>Great, stalker. You brought exactly what I've asked. Thanks.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_2_name">
+		<text>Find %s</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_2_text">
+		<text>%s are required by Cardan to install advanced equipment upgrades. You should bring them back to him if you find any.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_2_about">
+		<text>I could really use more tools and vodka... but the vodka is easy to find. What I need from you is more tools; better tools. Can you do this for me?</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_2_fetch_about">
+		<text>I need a set of advanced tools. It should contain what I need. If you can bring some back for me, I will be grateful; I will even offer you a discount from here on out.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_2_fetch_finish">
+		<text>Fantastic! Feel free to stop by any time for a drink or if you need me to take a look at your gear.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_3_name">
+		<text>Find %s</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_3_text">
+		<text>%s are required by Cardan to install expert equipment upgrades. You should bring them back to him if you find any.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_3_about">
+		<text>I could really use more tools and vodka... but the vodka is easy to find. What I need from you is more tools; better tools. Can you do this for me?</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_3_fetch_about">
+		<text>I need a set of expert tools. It should contain what I need. If you can bring some back for me, I will be grateful; I will even offer you a discount from here on out.</text>
+	</string>
+	<string id="zat_a2_stalker_mechanic_task_3_fetch_finish">
+		<text>Fantastic! Feel free to stop by any time for a drink or if you need me to take a look at your gear.</text>
+	</string>
+
+
+
+<string id="zat_a2_reach_base_name">
+	<text>Safe place: get to Skadovsk</text>
+	</string>
+	<string id="zat_a2_reach_base_text">
+	<text>In the Zone is relatively safe only in large camps. It makes sense to get to the nearest one-Skadovsk.</text>
+	</string>
+	<string id="zat_b100_guide_maps_01_name">
+	<text>Maps of the locality: find interested</text>
+	</string>
+	<string id="zat_b100_guide_maps_02_name">
+	<text>Maps of the area: suggest the Pilot</text>
+	</string>
+	<string id="zat_b100_guide_maps_02_text">
+	<text>Maps of the area between Zaton and Jupiter may be of interest to the Pilot, a local guide.</text>
+	</string>
+	<string id="zat_b100_heli_2_crash_name">
+	<text>Scat 2: explore the place of fall</text>
+	</string>
+	<string id="zat_b100_heli_2_crash_text">
+	<text>Investigate the place of the fall of the helicopter Scat-2.</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_name">
+	<text>Scat 5: explore the place of fall</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_name_02">
+	<text>Scat 5: Find the cause of the electronics burnout</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_name_03">
+	<text>Scat squad: find the source of the ranks that hit two helicopters</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_text">
+	<text>Investigate the place of the fall of the helicopter Scat-5.</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_text_02">
+	<text>It is necessary to find out the source of a powerful electrical discharge that hit the Scat-5 helicopter.</text>
+	</string>
+	<string id="zat_b101_heli_5_crash_text_03">
+	<text>It is necessary to find the reason why the electronics of the helicopters Scat-4 and Scat-5 were burnt. At the inspection it was found out that both cars were hit by a powerful electric discharge.</text>
+	</string>
+	<string id="zat_b103_merc_bring_supplies_name">
+	<text>Supplies: get food for mercenaries</text>
+	</string>
+	<string id="zat_b103_merc_bring_supplies_text">
+	<text>A detachment of mercenaries stationed in substation shops asks them to bring supplies-a total of six cans of canned food, sticks of sausage or loaves.</text>
+	</string>
+	<string id="zat_b103_merc_supplies_got_name">
+	<text>Supplies: carry food to mercenaries</text>
+	</string>
+	<string id="zat_b103_merc_supplies_got_text">
+	<text>It is necessary to attribute the collected supplies to the mercenaries stationed in the shops of the substation.</text>
+	</string>
+	<string id="zat_b103_toolkit_2_substation_workshop_name">
+	<text>Tools: inspect substation shops</text>
+	</string>
+	<string id="zat_b103_toolkit_2_substation_workshop_text">
+	<text>It is rumored that there can be tools in substation shops. Perhaps there are some that need a technique.</text>
+	</string>
+	<string id="zat_b106_find_chimera_name">
+	<text>Hunt for a chimera: find a mutant while he sleeps</text>
+	</string>
+	<string id="zat_b106_find_chimera_text">
+	<text>You need to find a chimera until she wakes up.</text>
+	</string>
+	<string id="zat_b106_found_soroka_name">
+	<text>In search of Magpies: tell Gaunt</text>
+	</string>
+	<string id="zat_b106_found_soroka_text">
+	<text>It seems that Soroka- the stalker who framed the group of Gonta-was found. Now he joined the Freedom group and calls himself Fire Chimera.</text>
+	</string>
+	<string id="zat_b106_kill_chimera_name">
+	<text>Chimera Hunt: Kill the mutant</text>
+	</string>
+	<string id="zat_b106_kill_chimera_text">
+	<text>the Chimera woke up. It is necessary to kill her while there is such an opportunity.</text>
+	</string>
+	<string id="zat_b106_meet_with_gonta_at_night_name">
+	<text>Hunting for a chimera: to meet with Gonta in a bar at three o'clock in the morning</text>
+	</string>
+	<string id="zat_b106_meet_with_gonta_at_night_text">
+	<text>It is necessary to meet with Gonta before dawn, so that together with his group go out to hunt a chimera.</text>
+	</string>
+	<string id="zat_b106_receipt_reward_name">
+	<text>Hunting for a chimera: to report to St. John's wort</text>
+	</string>
+	<string id="zat_b106_receipt_reward_text">
+	<text>It is necessary to inform the stalker named Hypericum about the successful hunt for a chimera-he should give out a reward.</text>
+	</string>
+	<string id="zat_b106_search_soroka_name">
+	<text>In search of Magpies: find a stalker</text>
+	</string>
+	<string id="zat_b106_search_soroka_text">
+	<text>Stalker named Soroka framed the group of Gaunt under the attack of the chimera. the guys are asking to find the bastard.</text>
+	</string>
+	<string id="zat_b107_evacuation_jupiter_name">
+	<text>Evacuation points: check point B205</text>
+	</string>
+	<string id="zat_b107_evacuation_jupiter_text">
+	<text>On the map found in one of the helicopters, evacuation points were marked. It is necessary to check whether the military appeared at point B205.</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_1_name">
+	<text>Evacuation points: check point B28</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_1_text">
+	<text>On the map, found in one of the helicopters, points of evacuation are marked. It is necessary to check whether the military appeared at point B28.</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_2_name">
+	<text>Place of evacuation: find the coordinates of point B28</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_2_text">
+	<text>On the record, which was preserved in the black box of one of the Scat group's helicopters, the commander of the group indicates the picking site- the so-called B28 evacuation point. It is necessary to determine its coordinates.</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_3_name">
+	<text>Location of evacuation: get to point B28</text>
+	</string>
+	<string id="zat_b107_evacuation_pripyat_3_text">
+	<text>the point of gathering, where the military was to be assembled, is transition Pripyat. We need to find a way to get there.</text>
+	</string>
+	<string id="zat_b107_evacuation_zaton_name">
+	<text>Evacuation points: check point B2</text>
+	</string>
+	<string id="zat_b107_evacuation_zaton_text">
+	<text>On the map found in one of the helicopters, evacuation points were marked. It is necessary to check whether the military appeared at the point of evacuation B2.</text>
+	</string>
+	<string id="zat_b14_bring_strange_object_name">
+	<text>A strange phenomenon: bring an artifact to the beard</text>
+	</string>
+	<string id="zat_b14_bring_strange_object_text">
+	<text>the source of the strange glow was no less strange artifact. He will obviously be interested in Beard.</text>
+	</string>
+	<string id="zat_b14_learn_about_strange_occurrence_by_stalkers_name">
+	<text>A strange phenomenon: to question stalkers about an artifact</text>
+	</string>
+	<string id="zat_b14_learn_about_strange_occurrence_by_stalkers_text">
+	<text>Perhaps stalkers know something about a strange artifact, or tell someone who can know. It is worth talking to them.</text>
+	</string>
+	<string id="zat_b14_learn_about_strange_occurrence_name">
+	<text>A strange phenomenon: to find the source of glow on the dredger</text>
+	</string>
+	<string id="zat_b14_learn_about_strange_occurrence_text">
+	<text>On the dredger was noticed an unusual even for the Zone glow. the beard asks to determine its source.</text>
+	</string>
+	<string id="zat_b14_take_artefact_name">
+	<text>A strange phenomenon: take an artifact</text>
+	</string>
+	<string id="zat_b14_take_artefact_text">
+	<text>the source of the strange glow is no less strange artifact. It's worth taking it with you.</text>
+	</string>
+	<string id="zat_b14_tell_svyaznoy_about_all_name">
+	<text>A strange phenomenon: tell the beard about the artifact</text>
+	</string>
+	<string id="zat_b14_tell_svyaznoy_about_all_text">
+	<text>the source of the strange glow was no less strange artifact. It's worth telling about this Beard, even if the artifact itself is not with him.</text>
+	</string>
+	<string id="zat_b20_cross_the_teleport_name">
+	<text>the way to the plateau: jump into an anomaly</text>
+	</string>
+	<string id="zat_b20_cross_the_teleport_text">
+	<text>It seems that the way to the plateau lies through the anomaly. It is necessary to jump into it.</text>
+	</string>
+	<string id="zat_b20_find_the_teleport_name">
+	<text>the way to the plateau: find a personal move Noah</text>
+	</string>
+	<string id="zat_b20_find_the_teleport_text">
+	<text>the PDA Noah mentioned a personal move to the plateau. It is necessary to discover this road.</text>
+	</string>
+	<string id="zat_b20_plato_talk_to_noah_name">
+	<text>the way to the plateau: find the way from Noah</text>
+	</string>
+	<string id="zat_b20_plato_talk_to_noah_text">
+	<text>They say that a stalker named Noah knows the way to the plateau. It is necessary to know this road.</text>
+	</string>
+	<string id="zat_b22_bring_proof_name">
+	<text>Disappearance of stalkers: bring evidence of Tremor's guilt</text>
+	</string>
+	<string id="zat_b22_bring_proof_text">
+	<text>It is necessary to carry the flash-drive with Tremor's records to Skadovsk and show the beard. From the records it is clear that in the disappearance of stalkers the medic is guilty.</text>
+	</string>
+	<string id="zat_b22_find_proof_name">
+	<text>Disappearance of stalkers: find evidence of Tremor's guilt</text>
+	</string>
+	<string id="zat_b22_find_proof_text">
+	<text>It is necessary to determine whether Tremor left any evidence of his guilt in the disappearance of stalkers.</text>
+	</string>
+	<string id="zat_b28_heli_3_crash_name">
+	<text>Scat 3: explore the place of fall</text>
+	</string>
+	<string id="zat_b28_heli_3_crash_text">
+	<text>Investigate the place of the fall of the helicopter Scat-3.</text>
+	</string>
+	<string id="zat_b29_simple_bring_text_1">
+	<text>It is necessary to bring an artifact on the instructions of Beards. However, the time has already passed, now competitors are also looking for an order.</text>
+	</string>
+	<string id="zat_b29_simple_bring_text_2">
+	<text>You need to bring an artifact to Beard. Do not forget that competitors are also trying to fulfill this order.</text>
+	</string>
+	<string id="zat_b29_simple_bring_text_3">
+	<text>You need to bring an artifact to Beard, but the signal from another group indicates that they have already found the right one. There is an opportunity to track the signal and get ahead of competitors.</text>
+	</string>
+	<string id="zat_b29_simple_bring_text_4">
+	<text>You need to bring an artifact to Beard, but another group has already completed the order. Now for the artifact will be able to gain only half the price.</text>
+	</string>
+	<string id="zat_b29_simple_bring_text_5">
+	<text>It is necessary to bring an artifact on the instructions of Beards.</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_16">
+	<text>Artifacts to order: bring the Gravy artifact</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_17">
+	<text>Artifacts made to order: bring an artifact of the Eye</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_18">
+	<text>Artifacts to order: bring artifact Bubble</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_19">
+	<text>Artifacts to order: bring artifact Dummy</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_20">
+	<text>Artifacts to order: bring artifact Goldfish</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_21">
+	<text>Artifacts made to order: bring an artifact Flame</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_22">
+	<text>Artifacts to order: bring artifact Firefly</text>
+	</string>
+	<string id="zat_b29_simple_bring_title_23">
+	<text>Artifacts to order: bring artifact Snowflake</text>
+	</string>
+	<string id="zat_b29_simple_find_text_1">
+	<text>It is necessary to find an artifact on the instructions of the Beard, but the time for the odds turned out. Now competitors are also looking for an order.</text>
+	</string>
+	<string id="zat_b29_simple_find_text_2">
+	<text>You need to find the artifact on the instructions of Beards. Do not forget that competitors are also looking for an order.</text>
+	</string>
+	<string id="zat_b29_simple_find_text_3">
+	<text>You need to find the artifact on the instructions of Beard, but came a signal from another group-they already found the artifact. There is an opportunity to track the signal and get ahead of competitors.</text>
+	</string>
+	<string id="zat_b29_simple_find_text_4">
+	<text>You need to find the artifact on the instructions of Beards, but another group has already completed the order. Now you can get only half the price for the artifact.</text>
+	</string>
+	<string id="zat_b29_simple_find_text_5">
+	<text>You need to find the artifact on the instructions of Beards.</text>
+	</string>
+	<string id="zat_b29_simple_find_title_16">
+	<text>Artifacts made to order: find the Gravy artifact</text>
+	</string>
+	<string id="zat_b29_simple_find_title_17">
+	<text>Artifacts to order: find the artifact Eye</text>
+	</string>
+	<string id="zat_b29_simple_find_title_18">
+	<text>Artifacts to order: find artifact Bubble</text>
+	</string>
+	<string id="zat_b29_simple_find_title_19">
+	<text>Artifacts to order: find artifact Dummy</text>
+	</string>
+	<string id="zat_b29_simple_find_title_20">
+	<text>Artifacts to order: find artifact Goldfish</text>
+	</string>
+	<string id="zat_b29_simple_find_title_21">
+	<text>Artifacts to order: find the artifact Flame</text>
+	</string>
+	<string id="zat_b29_simple_find_title_22">
+	<text>Artifacts to order: find artifact Firefly</text>
+	</string>
+	<string id="zat_b29_simple_find_title_23">
+	<text>Artifacts to order: find the artifact Snowflake</text>
+	</string>
+	<string id="zat_b30_compass_to_barmen_task_find_name">
+	<text>Compass: Find Noah and find out where you can get this rare artifact</text>
+	</string>
+	<string id="zat_b30_compass_to_barmen_task_find_text">
+	<text>You need to find Noah on an old barge and find out where you can get a rare Compass artifact. the beard has been looking for this artifact for a long time and is ready to pay well for it.</text>
+	</string>
+	<string id="zat_b30_compass_to_barmen_task_give_name">
+	<text>Compass: Bring the Artifact Beard</text>
+	</string>
+	<string id="zat_b30_compass_to_sultan_task_find_name">
+	<text>Compass: learn from Noah, where you can get an artifact</text>
+	</string>
+	<string id="zat_b30_compass_to_sultan_task_find_text">
+	<text>the Sultan wants to intercept the artifact that the Beard is looking for. You need to find Noah on an old barge and find out where you can get the artifact.</text>
+	</string>
+	<string id="zat_b30_compass_to_sultan_task_give_name">
+	<text>Compass: Bring an artifact to Sultan</text>
+	</string>
+	<string id="zat_b30_compass_to_sultan_task_give_text">
+	<text>the artifact that Noah gave is the Compass needed by the Sultan.</text>
+	</string>
+	<string id="zat_b30_percent_task_name">
+	<text>Dark business: get interest from Borodia</text>
+	</string>
+	<string id="zat_b30_percent_task_text">
+	<text>It makes sense to take away from Boroda the interest due from his income.</text>
+	</string>
+	<string id="zat_b30_sultan_task_1_name">
+	<text>A tempting business: to talk with Sultan</text>
+	</string>
+	<string id="zat_b30_sultan_task_1_text">
+	<text>Merchant Sych believes that Beard does not fulfill the terms of the transaction, and advises to seek help from local authority-Sultan.</text>
+	</string>
+	<string id="zat_b30_sultan_task_2_name">
+	<text>Dark business: pick up detectors from stalkers</text>
+	</string>
+	<string id="zat_b30_sultan_task_2_text">
+	<text>It is necessary in any way to select prototypes of detectors from stalkers who are looking for artifacts for Beards. When the Beard is deprived of detectors, he will have to agree to the conditions of the Sultan.</text>
+	</string>
+	<string id="zat_b30_sultan_task_3_name">
+	<text>Dark business: talk to Sultan</text>
+	</string>
+	<string id="zat_b30_sultan_task_3_text">
+	<text>the beard has already lost detectors. You need to come to Sultan and find out if he has solved the problem with other Beard suppliers.</text>
+	</string>
+	<string id="zat_b30_sultan_task_4_name">
+	<text>Dark business: to make Borodu work for Sultan</text>
+	</string>
+	<string id="zat_b30_sultan_task_4_text">
+	<text>Now Beard cannot do business on his own: he has neither suppliers, nor detectors. It is necessary to make him work for the Sultan.</text>
+	</string>
+	<string id="zat_b30_sultan_task_6_name">
+	<text>Dark business: learn about the current affairs of the Beard</text>
+	</string>
+	<string id="zat_b30_sultan_task_6_text">
+	<text>It is necessary to find out what kind of affairs the Beard is currently engaged in. This will help to cut off the channels of its supply.</text>
+	</string>
+	<string id="zat_b30_sultan_task_7_name">
+	<text>Dark business: pick up the second detector from stalkers</text>
+	</string>
+	<string id="zat_b30_sultan_task_7_text">
+	<text>It is necessary in any way to select prototypes of detectors from stalkers who are looking for artifacts for Beards. When the Beard is deprived of detectors, he will have to agree to the conditions of the Sultan.</text>
+	</string>
+	<string id="zat_b30_task_1_name">
+	<text>A tempting business: to bring Garinu three detectors Velez</text>
+	</string>
+	<string id="zat_b30_task_1_text">
+	<text>Merchant Sych proposed to participate in one profitable business. To do this, you need to find three detectors Veles, take them to the bunker of scientists and give it to Garina.</text>
+	</string>
+	<string id="zat_b30_task_2_name">
+	<text>A tempting business: wait for Detectors to receive Sychom</text>
+	</string>
+	<string id="zat_b30_task_2_text">
+	<text>Garin took the detectors and said that he himself would transfer them to the Sychev back. It is necessary to wait for Garin to work with the detectors, and then to learn from Sych the results.</text>
+	</string>
+	<string id="zat_b30_task_3_name">
+	<text>A tempting business: to talk with Sychom</text>
+	</string>
+	<string id="zat_b30_task_3_text">
+	<text>the trader Sych on the radio signaled that he had problems, and asked to go to him.</text>
+	</string>
+	<string id="zat_b30_task_4_name">
+	<text>A tempting business: to convince Beard to follow an agreement</text>
+	</string>
+	<string id="zat_b30_task_4_text">
+	<text>Merchant Sych believes that Beard does not fulfill the terms of the transaction. It is necessary to talk with Boroda and force him to adhere to the arrangements.</text>
+	</string>
+	<string id="zat_b30_task_5_name">
+	<text>A tempting business: demand a share from Sych</text>
+	</string>
+	<string id="zat_b30_task_5_text">
+	<text>the beard does not recognize what Sychu owes. It is necessary to find out which of the traffickers is right, and to demand from the offender his share.</text>
+	</string>
+	<string id="zat_b33_zaporojec_text_01">
+	<text>Stalker Koryaga asks for a container with his things. He hid the container in the old ZAZ Car, but after the earthquake the car fell through into a rift. Koryaga himself is afraid to go down: there are snorkels.</text>
+	</string>
+	<string id="zat_b33_zaporojec_text_02">
+	<text>the container of Koryagi is received. Now you need to transfer it to the owner and split the content.</text>
+	</string>
+	<string id="zat_b38_den_of_the_bloodsucker_inform_stalkers_name">
+	<text>Lair of bloodsuckers: tell stalkers</text>
+	</string>
+	<string id="zat_b38_den_of_the_bloodsucker_inform_stalkers_text">
+	<text>It is necessary to inform stalkers about the lair of bloodsuckers, found under the VNZ Circle.</text>
+	</string>
+	<string id="zat_b38_den_of_the_bloodsucker_tell_barman_about_all_name">
+	<text>Lair of bloodsuckers: tell the beard</text>
+	</string>
+	<string id="zat_b38_den_of_the_bloodsucker_tell_barman_about_all_text">
+	<text>It is necessary to tell the beard about the lair of bloodsuckers, found under the VNZ Circle: he knows what to do for the safety of stalkers.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_clean_den_of_the_bloodsucker_name">
+	<text>Disappearance of stalkers: follow Glukhar</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_clean_den_of_the_bloodsucker_text">
+	<text>the wood grouse asks to examine with him the abandoned building of the VNZ. He noticed the bloodsuckers and wants to check if there is a hunter.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_deal_with_medic_name">
+	<text>Disappearance of stalkers: to figure out what happened</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_deal_with_medic_text">
+	<text>It seems that Tremor is not so harmless. It is necessary to understand what happened here.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_cop_near_port_krans_name">
+	<text>Disappearance of stalkers: find Wood Grouse</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_cop_near_port_krans_text">
+	<text>the grouse went for some reason to the port cranes-perhaps something had learned about the missing stalkers. We need to look it up there.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_out_where_is_cop_name">
+	<text>Disappearance of stalkers: find out where Wood grouse</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_out_where_is_cop_text">
+	<text>Glukharya is not in his usual place. It is worth asking Boroda where he went.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_to_be_missing_hunter_name">
+	<text>Disappearance of stalkers: find the missing hunter</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_find_to_be_missing_hunter_text">
+	<text>the grouse asked for help in the search for the missing hunter, who was looking for the lair of bloodsuckers. According to available information, it is the bloodsuckers who are involved in all the recent disappearances of stalkers.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_get_out_from_den_of_the_bloodsucker_name">
+	<text>Disappearance of stalkers: get out of the lair of bloodsuckers</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_get_out_from_den_of_the_bloodsucker_text">
+	<text>In the basement, a lair of bloodsuckers was found, and the creatures are in a state of strange numbness. It is necessary to get out of here-and at the same time it is very desirable not to make noise.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_cop_24h_past_name">
+	<text>Disappearance of stalkers: to meet with Gluhar</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_cop_24h_past_text">
+	<text>Perhaps, it is worth to meet with Gluhar and talk about the further search for a hunter.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_cop_later_name">
+	<text>Disappearance of stalkers: to meet with Gluhara later</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_cop_later_text">
+	<text>In the building there were no traces of Danila-a hunter. However, the Capercaillie seems to be puzzled by what it was possible to detect inside the VNZ; he asks to meet with him later-he wants to find out some details.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_ment_name">
+	<text>Disappearance of stalkers: to meet with Glukhar</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_meet_ment_text">
+	<text>In the place indicated by Gluhar, there was only a dead bloodsucker and no traces of hunter Danila. But Glukhar itself, obviously, found something interesting and asks to join him.</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_tell_barmen_about_medic_text">
+	<text>As it turned out, in the disappearance of stalkers, bloodsuckers are not to blame, and Tremor is a medic from Skadovsk.</text>
+	</string>
+	<string id="zat_b3_get_tools_1_2_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_1_2_text">
+	<text>Cardan asked to find two sets of tools: one for fine work, another for rough. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_get_tools_1_3_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_1_3_text">
+	<text>Cardan asked to find two sets of tools: one for rough work, another for calibration. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_get_tools_1_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_1_text">
+	<text>Cardan asked to find a set of tools for rough work. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_get_tools_2_3_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_2_3_text">
+	<text>Cardan asked to find two sets of tools: one for fine work, another for calibration. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_get_tools_2_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_2_text">
+	<text>Cardan asked to find a set of tools for fine work. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_get_tools_3_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_get_tools_3_text">
+	<text>Cardan asked to find a set of tools for calibration. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b3_mechanic_toolkit_search_name">
+	<text>Tools: bring tools to Cardanu</text>
+	</string>
+	<string id="zat_b3_mechanic_toolkit_search_text">
+	<text>Cardan asked to find three sets of tools: for rough work, for fine work, plus a set for calibration. the technician will pay for the instrument and, in addition, will be able to provide more sophisticated upgrading of weapons or bulletproof vests.</text>
+	</string>
+	<string id="zat_b40_reconnoitre_merc_camp_01_name">
+	<text>Camp mercenaries: pick up any information found</text>
+	</string>
+	<string id="zat_b40_reconnoitre_merc_camp_01_text">
+	<text>the merchant Sych promised to pay well for any information carrier found in the mercenaries camp at the waste recycling station. He is interested in the plans of mercenaries.</text>
+	</string>
+	<string id="zat_b40_reconnoitre_merc_camp_02_name">
+	<text>Camp mercenaries: carry with them any information found</text>
+	</string>
+	<string id="zat_b40_reconnoitre_merc_camp_02_text">
+	<text>the merchant Sych promised to pay well for any information carrier found in the mercenaries camp at the waste recycling station. He is interested in the plans of mercenaries.</text>
+	</string>
+	<string id="zat_b44_tech_buddies_barge_name">
+	<text>Three comrades: learn about the fate of the Barge</text>
+	</string>
+	<string id="zat_b44_tech_buddies_barge_text">
+	<text>Cardan asked to apologize to his friend-a stalker called Barge. They quarreled, and he left in an unknown direction.</text>
+	</string>
+	<string id="zat_b44_tech_buddies_both_name">
+	<text>Three comrades: learn about the fate of Barge and Joker</text>
+	</string>
+	<string id="zat_b44_tech_buddies_both_text">
+	<text>Cardan asked to apologize to his fellow stalkers Barge and Joker. After the quarrel, the boys left in an unknown direction.</text>
+	</string>
+	<string id="zat_b44_tech_buddies_joker_name">
+	<text>Three comrades: learn about the fate of the Joker</text>
+	</string>
+	<string id="zat_b44_tech_buddies_joker_text">
+	<text>Cardan asked to apologize to his friend-a stalker named Joker. They quarreled, and he left in an unknown direction.</text>
+	</string>
+	<string id="zat_b51_nimble_items_get_order_name">
+	<text>Special order: pick up the goods</text>
+	</string>
+	<string id="zat_b51_nimble_items_get_order_text">
+	<text>the order was delivered, it is necessary to take it from Shustroi.</text>
+	</string>
+	<string id="zat_b51_nimble_items_wait_order_name">
+	<text>Special order: expect delivery</text>
+	</string>
+	<string id="zat_b51_nimble_items_wait_order_text">
+	<text>Order is done. We must wait until Nimble gets the goods.</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_name">
+	<text>Reputation: find Koryag</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_text">
+	<text>It is necessary to find Koryag and force him to bite his tongue. Shustro never sold stolen goods, but Koryaga, most likely, was used to lying awfully well. the last time he was seen by the port cranes-maybe he's still there.</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_text_2">
+	<text>It is necessary to find Koryag and force him to bite his tongue. the port cranes Koryagi not-but perhaps the band its know where he is.</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_text_3">
+	<text>It is necessary to find Koryag and force him to bite his tongue. It seems that the band its are involved in this matter and know where to look for the Koryagh.</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_text_4">
+	<text>It is necessary to find Koryag and force him to bite his tongue. So far there are no clues about his whereabouts.</text>
+	</string>
+	<string id="zat_b52_reputation_find_snag_text_5">
+	<text>It is necessary to find Koryag and force him to bite his tongue. Judging by the flash-drive found at one of the bandits, the people of Sultan are looking for Koryag. However, where exactly to look for it, it is not known.</text>
+	</string>
+	<string id="zat_b52_reputation_know_there_snog_name">
+	<text>Reputation: find out where the Koryag went missing</text>
+	</string>
+	<string id="zat_b52_reputation_know_there_snog_text">
+	<text>At the former place No Koryagi. You should ask the local-maybe someone saw where he went.</text>
+	</string>
+	<string id="zat_b52_reputation_know_there_snog_text_2">
+	<text>It is necessary to find Koryag and force him to bite his tongue. At the former place it is not. Perhaps the Sultan knows where to find Koryag.</text>
+	</string>
+	<string id="zat_b52_reputation_know_there_snog_text_3">
+	<text>It is necessary to find Koryag and force him to bite his tongue. At the former place, No Koryagi; Perhaps the Beard knows anything.</text>
+	</string>
+	<string id="zat_b52_reputation_tell_snag_name">
+	<text>Reputation: talk to Koryagoy</text>
+	</string>
+	<string id="zat_b52_reputation_tell_snag_text">
+	<text>It is necessary to find Koryag and force him to bite his tongue. Shustro never sold stolen goods, but Koryaga, most likely, was used to lying awfully well.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_destroy_lair_name">
+	<text>Lair of bloodsuckers: find the ventilation shaft</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_destroy_lair_text">
+	<text>Find the ventilation shaft to let the poison gas into the lair of the bloodsuckers.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_find_gas_name">
+	<text>Lair of bloodsuckers: find poison gas</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_find_gas_text">
+	<text>To destroy the lair, poison gas is necessary. Owl should know where such a thing can be found.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_find_gas_text_2">
+	<text>To destroy the lair, poison gas is necessary. Sych argues that gas cylinders should be present in the abandoned military convoy.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_get_gas_name">
+	<text>Lair of bloodsuckers: find the keys for the container</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_get_gas_text">
+	<text>the found documentation mentions the keys to the container with the gas cylinder. It is necessary to find them.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_open_gas_box_name">
+	<text>Lair of bloodsuckers: find a way to open a container with a gas cylinder</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_open_gas_box_text">
+	<text>the container in which the gas cylinder is stored is closed. You need to find a way to open it.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_place_gas_name">
+	<text>Lair of bloodsuckers: install a gas cylinder</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_place_gas_text">
+	<text>Install the gas cylinder in the ventilation system of the basements of the VNZ. the gas, having penetrated through the ventilation shaft, will fill the cellars and destroy the bloodsuckers.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_tell_stalkers_about_destroy_lair_name">
+	<text>Lair of bloodsuckers: tell the beard about the destruction of the den</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_tell_stalkers_about_destroy_lair_text">
+	<text>It makes sense to inform the Beard that the lair of bloodsuckers has been destroyed and Skadovsk is now out of danger.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_twist_vintil_name">
+	<text>Lair of bloodsuckers: turn the valve</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_twist_vintil_text">
+	<text>Turn the valve so that the poisonous gas penetrates through the ventilation shaft into the cellars where the bloodsucker's lair is.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_wait_destroy_name">
+	<text>Lair of bloodsuckers: wait until the gas acts.</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_wait_destroy_text">
+	<text>We must make sure that the gas got into the lair and all the bloodsuckers were destroyed.</text>
+	</string>
+	<string id="zat_b5_come_to_bandits_name">
+	<text>Deal: to meet with band its near the forestry</text>
+	</string>
+	<string id="zat_b5_come_to_bandits_text">
+	<text>Sultan asked to participate in the transaction with one huckster. It is necessary to accompany the people of Sultan to the place of meeting and cover them in case of unforeseen circumstances.</text>
+	</string>
+	<string id="zat_b5_come_to_dealer_name">
+	<text>Deal: meet the merchant</text>
+	</string>
+	<string id="zat_b5_come_to_dealer_text">
+	<text>Owl offered work-to guard some merchant during the transaction. Obviously, the transaction is of a doubtful nature and in the process there may be trouble.</text>
+	</string>
+	<string id="zat_b5_come_to_stalkers_name">
+	<text>Deal: meet with stalkers near the forestry</text>
+	</string>
+	<string id="zat_b5_come_to_stalkers_text">
+	<text>Meet with the stalkers near the forestry and help them prevent a deal between band its and the arms dealer.</text>
+	</string>
+	<string id="zat_b5_cover_dealer_name">
+	<text>Deal: guard the merchant</text>
+	</string>
+	<string id="zat_b5_cover_dealer_text">
+	<text>According to the trader, the task is simple: to guard it during the transaction.</text>
+	</string>
+	<string id="zat_b5_intercept_talking_name">
+	<text>Deal: overhear conversation</text>
+	</string>
+	<string id="zat_b5_intercept_talking_text">
+	<text>Stalkers want to overhear the conversation between the band its and the arms dealer.</text>
+	</string>
+	<string id="zat_b5_kill_dealer_name">
+	<text>Deal: prevent the purchase of weapons</text>
+	</string>
+	<string id="zat_b5_kill_dealer_text">
+	<text>It is necessary in any way to prevent a deal between band its and huckster.</text>
+	</string>
+	<string id="zat_b5_kill_stalkers_name">
+	<text>Deal: remove witnesses</text>
+	</string>
+	<string id="zat_b5_kill_stalkers_text">
+	<text>the deal with the huckster broke. It is necessary to remove all witnesses.</text>
+	</string>
+	<string id="zat_b5_protect_dealer_name">
+	<text>Deal: protect the merchant</text>
+	</string>
+	<string id="zat_b5_protect_dealer_text">
+	<text>It is necessary to protect the merchant. In addition, he ordered the removal of all witnesses to the transaction, including his own clients.</text>
+	</string>
+	<string id="zat_b5_search_body_name">
+	<text>Deal: search the merchant</text>
+	</string>
+	<string id="zat_b5_search_body_text">
+	<text>the trader could have important information. It is necessary to take it away-it can come in handy.</text>
+	</string>
+	<string id="zat_b5_secure_bandits_name">
+	<text>Deal: cover the band its during the deal</text>
+	</string>
+	<string id="zat_b5_secure_bandits_text">
+	<text>While the band its will negotiate with the huckster, one must be on the alert and, in case of anything, cover them up.</text>
+	</string>
+	<string id="zat_b5_speak_dealer_name">
+	<text>Deal: talk to the merchant</text>
+	</string>
+	<string id="zat_b5_speak_dealer_text">
+	<text>Terms of the deal with the merchant are fulfilled, it remains to pick up the reward.</text>
+	</string>
+	<string id="zat_b5_talk_barmen_name">
+	<text>Deal: get a reward from Beard</text>
+	</string>
+	<string id="zat_b5_talk_barmen_text">
+	<text>Beard promised a reward if the deal between the band its and the huckster was broken. Since now the deal certainly will not take place, you can go for a reward.</text>
+	</string>
+	<string id="zat_b5_talk_to_sultan_name">
+	<text>Deal: talk to the leader of the bandits</text>
+	</string>
+	<string id="zat_b5_talk_to_sultan_text">
+	<text>It is necessary to inform the leader of the band its about their willingness to take part in the deal.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_name">
+	<text>Hitting: decide what to do</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_raiders_name">
+	<text>Impact: attack stalkers</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_stalkers_reward_name">
+	<text>Hitting: get reward</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_stalkers_reward_text">
+	<text>the attack on the camp is repulsed, you can talk to the stalkers and get a reward. Most likely, stalkers would have had to be tight, if they had not been warned about the attack.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_text">
+	<text>the group of stalkers decided to turn into a gang and rob their own colleagues of yesterday. It's time to decide how to be: to participate in a raid, to warn future victims or not to interfere?</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_wait_name">
+	<text>Hitting: wait for the appointed time</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_time_name">
+	<text>Hitting: wait for the right moment</text>
+	</string>
+	<string id="zat_b33_zaporojec_name">
+	<text>Unavailable cache: bring the Koryag container</text>
+	</string>
+	<string id="zat_b5_talk_stalkers_name">
+	<text>Deal: talk to the leader of the detachment of stalkers</text>
+	</string>
+	<string id="zat_b5_talk_stalkers_text">
+	<text>the deal is broken, the arms dealer is dead. It is necessary to talk with the leader of the detachment of stalkers</text>
+	</string>
+	<string id="zat_b38_disappearance_stalkers_tell_barmen_about_medic_name">
+	<text>Disappearance of stalkers: to tell on Skadovsk about what happened</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_open_container_text">
+	<text>It is necessary to open the container with the found keys and get out of it a balloon with poison gas</text>
+	</string>
+	<string id="zat_b57_den_of_the_bloodsucker_open_container_name">
+	<text>Lair of bloodsuckers: get a gas bottle from a container</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_backstab_name">
+	<text>Hitting: attack robbers</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_backstab_text">
+	<text>It is necessary to attack the robbers from the back to help the stalkers repel the attack.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_meet_name">
+	<text>Hitting: to meet with robbers</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_raiders_text">
+	<text>Participate with the robbers in the attack on the camp of stalkers.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_stalkers_name">
+	<text>Hitting: join the ranks of robbers</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_stalkers_text">
+	<text>the stalkers asked to help them repel the robbers' attack. It is necessary to join the ranks of the robbers, then during the attack it will be possible to calmly attack them from the back.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_meet_text">
+	<text>Robbers should wait near Shevchenko. It will be necessary to meet with them to participate in the attack on stalkers.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_wait_text">
+	<text>Wait until the meeting with the robbers: they want to attack the camp of stalkers late at night, in the dark. the agreed meeting place is Shevchenko.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_raiders_reward_name">
+	<text>Hitting: talk to robbers</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_raiders_reward_text">
+	<text>the attack on the stalkers was successful. Now we need to talk with accomplices.</text>
+	</string>
+	<string id="zat_b7_stalkers_raiders_time_text">
+	<text>It is necessary to wait until the robbers are distracted by the raids. Then you can hit them in the back to help stalkers at Shevchenko.</text>
+	</string>
+	<string id="zat_b30_sultan_task_8_name">
+	<text>Dark business: start working on Beard</text>
+	</string>
+	<string id="zat_b30_sultan_task_8_text">
+	<text>In order to select prototypes of detectors from stalkers working on Beard, it is necessary to join their ranks. This will help to find out the camp of competitors</text>
+	</string>
+	<string id="zat_b33_zaporojec_text_03">
+	<text>It is necessary to take the container and take it to the owner.</text>
+	</string>
+	<string id="zat_b100_guide_maps_01_text">
+	<text>In the on-board computer of the Scat-2 helicopter there were maps of the area between Zaton and Jupiter. It is worth to find someone to whom these cards may be needed.</text>
+	</string>
+	<string id="zat_b20_ask_a_stalkers_name">
+	<text>Way to the plateau: ask stalkers</text>
+	</string>
+	<string id="zat_b20_ask_a_stalkers_text">
+	<text>Apparently, the plateau will not be able to get straight ahead. It is necessary to ask local stalkers about other possible ways.</text>
+	</string>
+	<string id="zat_b30_compass_to_barmen_task_give_text">
+	<text>the artefact obtained from Noah is the same Compass that the Boroda needs.</text>
+	</string>
+</string_table>

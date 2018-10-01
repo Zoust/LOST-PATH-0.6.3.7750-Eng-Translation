@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_achievement_16_name">
+<text>"the watchdogs"</text>
+</string>
+<string id="st_achievement_16_hint">
+<text>The elimination squad of Wolfhound</text>
+</string>
+<string id="st_achievement_16_descr">
+<text>the Dogs will no longer interfere with the stalkers to go through the Wild Territory. Now the output can take any group.</text>
+</string>
+<string id="st_achievement_16_unlock">
+<text>the achievement of "watchdogs"</text>
+</string>
+
+<string id="st_achievement_17_name">
+<text>"Like an angry bear!"</text>
+</string>
+<string id="st_achievement_17_hint">
+ <text>Obtained for the elimination of detachment of Tachenko. Dolgovtsev you do not forgive.</text>
+</string>
+<string id="st_achievement_17_descr">
+<text>the Liquidation of the detachment of General Tachenko weakened the presence of Debt to Zaton</text>
+</string>
+<string id="st_achievement_17_unlock">
+<text>the achievement "Like an angry bear!"</text>
+</string>
+
+<string id="st_achievement_18_name">
+<text>"Executioner"</text>
+</string>
+<string id="st_achievement_18_hint">
+<text>Obtained for the elimination of General Voronin. Dolgovtsev you do not forgive.</text>
+</string>
+<string id="st_achievement_18_descr">
+ <text>the Headless Debt was left without its leader, a great chance to destroy the weakened group.</text>
+</string>
+<string id="st_achievement_18_unlock">
+<text>the achievement "the Executioner"</text>
+</string>
+
+<string id="st_achievement_19_name">
+<text>"License to murder"</text>
+</string>
+<string id="st_achievement_19_hint">
+<text>Obtained for the elimination of Lukas. Svoboda will not forgive.</text>
+</string>
+<string id="st_achievement_19_descr">
+<text>the Headless Liberty was left without its leader, this is your Chance.</text>
+</string>
+ <string id="st_achievement_19_unlock">
+<text>the achievement of "License to kill"</text>
+</string>
+
+<string id="st_achievement_20_name">
+<text>"Monolith"</text>
+</string>
+<string id="st_achievement_20_hint">
+<text>to Destroy all airborne units of the military at Chernobyl</text>
+</string>
+<string id="st_achievement_20_descr">
+<text>the Military operation failed "Monolith" thanks to you. You destroyed units: Quartet, Falcon, Vulture, Falcon, Owl, Harrier, Hawk, Kite, Kestrel.</text>
+</string>
+<string id="st_achievement_20_unlock">
+ <text>the achievement of Operation "Monolith"</text>
+</string>
+</string_table>

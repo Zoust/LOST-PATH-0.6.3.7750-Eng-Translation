@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_batteries_ccell">
+<text>Batteries</text>
+</string>
+<string id="st_batteries_ccell_descr">
+<text>Set of fully charged batteries. Very valuable and are in high demand due to constant lack of batteries in the Area.</text>
+</string>
+<string id="st_batteries_ccell_empty">
+<text>Batteries(stranded)</text>
+</string>
+<string id="st_batteries_ccell_empty_descr">
+<text>Fully-used batteries. Besides weight in the inventory have no value.</text>
+</string>
+<string id="st_servoprivod_name">
+<text>Disassembled Servo</text>
+</string>
+	<string id="st_servoprivod_short">
+		<text>Servo</text>
+	</string>
+ <string id="st_servoprivod_descr">
+<text>a Disassembled servo, ready to mount on a vest.</text>
+</string>
+<string id="st_rem_serv_name">
+<text>Kit to remove Servo</text>
+</string>
+	<string id="st_rem_serv_short">
+		<text>Remove</text>
+	</string>
+<string id="st_rem_serv_descr">
+<text>Disposable kit allowing you to remove the servo from the suit.</text>
+</string>
+
+<string id="pda_volkodav">
+<text>PDA Wolfhound</text>
+</string>
+<string id="pda_volkodav_descr">
+<text>This PDA belonged to Wolfhound, the leader of the group "Dogs". There are a lot of valuable information about the group of Mercenaries.</text>
+</string>
+<string id="pda_cherep">
+ <text>PDA of the Skull</text>
+</string>
+<string id="pda_cherep_descr">
+<text>This PDA belonged to the Skull, the leader of the shock troops of the Debt. There are a lot of valuable information about the group's Debt.</text>
+</string>
+<string id="pda_tiran">
+<text>PDA of a Tyrant</text>
+</string>
+<string id="pda_tiran_descr">
+<text>This PDA belonged to a Mercenary Tyrant. There are a lot of valuable information about the impact of a group of Mercenaries in the Dead City.</text>
+</string>
+<string id="pda_chu">
+<text>PDA Stuffed</text>
+</string>
+<string id="pda_chu_descr">
+ <text>This PDA belonged to the Mercenary Stuffed. There are a lot of porn. Dealers with hands it will take.</text>
+</string>
+<string id="pda_master">
+<text>PDA Wizard</text>
+</string>
+<string id="pda_master_descr">
+<text>This PDA belonged to the Mercenary Master. Only the personal correspondence with someone from the Mercenaries.</text>
+</string>
+<string id="pda_shram">
+<text>PDA of a Scar</text>
+</string>
+<string id="pda_shram_descr">
+<text>This PDA belonged to the Mercenary Scar. Some routes, a lot of marks with her. Very valuable information.</text>
+</string>
+ <string id="pda_father">
+<text>PDA of his Father Valerian</text>
+</string>
+<string id="pda_father_descr">
+<text>PDA Valerian... Information of individuals to capture Dumps.</text>
+</string>
+<string id="pda_demon">
+<text>PDA of a Demon</text>
+</string>
+<string id="pda_demon_descr">
+<text>the Owner was Oleg Gusarov aka the Demon. Information on capture of the Cordon.</text>
+</string>
+
+<string id="ds_notebook_name">
+<text>the Notebook</text>
+</string>
+<string id="ds_notebook_descr">
+<text>the laptop is Locked, there may be valuable information</text>
+</string>
+
+ <string id="ds_writing_book_1_name">
+<text>document Folder</text>
+</string>
+<string id="ds_writing_book_1_descr">
+<text>I don't understand... Some papers...</text>
+</string>
+
+<string id="ds_safe_container_name">
+<text>private container</text>
+</string>
+<string id="ds_safe_container_descr">
+<text>Heavy. What's inside - is not known.</text>
+</string>
+
+<string id="ds_pda_digger_name">
+<text>Blocked, PDA digger</text>
+</string>
+<string id="ds_pda_digger_unlock_name">
+<text>Razocharovaniy PDA digger</text>
+</string>
+
+ <string id="ds_pda_digger_descr">
+<text>no Information available. Access denied.</text>
+</string>
+<string id="ds_pda_digger_unlock_descr">
+<text>the PDA contains a map of Dark Hollow and a mark where a cache of documents.</text>
+</string>
+
+<string id="ds_documents_name">
+<text>Important documents</text>
+</string>
+<string id="ds_documents_descr">
+<text>Any drawings, calculations, maps. Nothing is clear, but documents are important.</text>
+</string>
+
+<string id="st_medkit_complex">
+<text>Universal medkomplekt</text>
+</string>
+ <string id="st_medkit_complex_desc">
+<text>Special medkomplekt, designed for special services in the Area. Includes all basic medicines.</text>
+</string>
+	
+</string_table>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+	<string id="ui_fc_button_spawn_squad">
+	<text>Create a squad</text>
+	</string>
+	<string id="ui_fc_cap_spawn_squad">
+	<text>Call for help</text>
+	</string>
+	<string id="ui_fc_logo">
+	<text>The[Path Path]</text>
+	</string>
+	<string id="ui_fc_attack">
+	<text>Attack</text>
+	</string>
+	<string id="ui_fc_defend">
+	<text>Defense</text>
+	</string>
+	<string id="ui_fc_default">
+	<text>Balanced</text>
+	</string>
+	<string id="ui_fc_caption_commands">
+	<text>Setting AI</text>
+	</string>
+	<string id="ui_fc_caption_commands_ai">
+	<text>Configure hostile AI</text>
+	</string>
+	<string id="st_treasure">
+<text>Laying the stash</text>
+</string>
+<string id="st_serv">
+<text>install</text>
+</string>
+<string id="st_rem_serv">
+<text>capture</text>
+</string>
+<string id="st_pda_research">
+<text>inspect</text>
+</string>
+<string id="st_pda_charge">
+<text>charge</text>
+</string>
+<string id="st_noenergy">
+<text>not Enough battery power</text>
+</string>
+
+
+<string id="st_charging_pda">
+<text>are you sure You want to try to charge your PDA?</text>
+</string>
+<string id="st_serv_noinstall">
+ <text>the armor does not support the installation of the servo.</text>
+</string>
+<string id="st_serv_noreinstall">
+<text>This vest does not contain a servo.</text>
+</string>
+<string id="st_serv_install">
+<text>are you sure You want to install the servo?</text>
+</string>
+<string id="st_serv_reinstall">
+<text>are you sure You want to remove the servo?</text>
+</string>
+
+<string id="st_upgr_mat">
+<text>Value</text>
+</string>
+<string id="materials_up_name">
+<text>Set details</text>
+</string>
+<string id="materials_up_descr">
+ <text>the Set of parts required to upgrade any mechanic</text>
+</string>
+
+	<string id="ui_mm_alife_time">
+	<text>Interval of vagrancy</text>
+	</string>
+	<string id="ui_mm_spawn_mutant_time">
+	<text>Time for spawning monsters</text>
+	</string>
+
+<string id="ui_mm_passive_npc_const">
+<text>at Least passive NPS</text>
+</string>
+<string id="ui_mm_active_npc_const">
+<text>Low active PS</text>
+</string>
+<string id="ui_mm_defend_min">
+<text>Time of respawn protection (min.)</text>
+</string>
+<string id="ui_mm_defend_max">
+<text>Time spawning sewn (max)</text>
+</string>
+<string id="ui_mm_attack_min">
+<text>respawn Time attack (min.)</text>
+</string>
+<string id="ui_mm_attack_max">
+<text>respawn Time attack (max)</text>
+</string>
+ <string id="ui_mm_patrol_min">
+<text>respawn Time patrol (min.)</text>
+</string>
+<string id="ui_mm_patrol_max">
+<text>respawn Time patrol (max)</text>
+</string>
+<string id="ui_mm_res_coeff">
+<text>the Impact of number of resources to spawn</text>
+</string>
+<string id="ui_mm_base_coeff">
+<text>Influence of number bases to spawn</text>
+</string>
+<string id="ui_mm_limit_attack">
+<text>Low attack (MS)</text>
+</string>
+<string id="ui_mm_limit_defend">
+<text>Minimum for protection (msec)</text>
+</string>
+<string id="ui_mm_update">
+ <text>the update Time information (msec)</text>
+</string>
+	<string id="respawn_after_death">
+	<text>After respiration (not Azazel)</text>
+	</string>
+	<string id="ui_mm_spawn_attack_time">
+	<text>Time for respawning attackers (games, minutes)</text>
+	</string> 
+	<string id="ui_mm_spawn_defence_time">
+	<text>Time of respawning defending (gaming minutes)</text>
+	</string> 
+	<string id="spawn_res">
+	<text>Spend resources on spawning units</text>
+	</string>
+	<string id="attack_news">
+	<text>News with attacking squads</text>
+	</string>
+	<string id="mutant_news">
+	<text>News about mutants</text>
+	</string>
+	<string id="capture_actor_news">
+	<text>Send news about player capture</text>
+	</string>
+	<string id="capture_news">
+	<text>Send news about the capture of the NPC</text>
+	</string>
+	<string id="mutant_news">
+	<text>Send news about mutants</text>
+	</string>
+	<string id="night_spawn">
+	<text>Respawn attacks only at night</text>
+	</string>
+	<string id="disable_alife">
+	<text>Disable simulation throughout the Zone</text>
+	</string>
+	<string id="dynamic_relations">
+	<text>Dynamic relationships of groupings</text>
+	</string>
+	<string id="release_min_dist">
+	<text>the minimum distance for the cleaner of corpses</text>
+	</string>
+	<string id="stay_time">
+	<text>Time to remove the corpse (seconds)</text>
+	</string>
+	<string id="treasure_k">
+	<text>Coefficient of greasy cache</text>
+	</string>
+<string id="ui_mm_default_pop">
+<text>Capacity of smarts</text>
+</string>
+<string id="ui_mm_lair_pop">
+<text>Capacity lair</text>
+</string>
+<string id="ui_mm_base_pop">
+<text>the Capacity</text>
+</string>
+<string id="ui_mm_res_pop">
+<text>Capacity point resources</text>
+</string>
+<string id="ui_mm_territory_pop">
+<text>the Capacity</text>
+</string>
+
+<string id="ui_mm_power">
+<text>Force default</text>
+</string>
+<string id="ui_mm_faction_boost">
+<text>Gain faction</text>
+</string>
+<string id="ui_mm_def_boost">
+<text>Gain protection</text>
+</string>
+
+<string id="ui_mm_strong_min">
+<text>Power | powerful mutant (min.)</text>
+</string>
+<string id="ui_mm_strong_max">
+<text>Power | powerful mutant (max)</text>
+</string>
+<string id="ui_mm_heavy_min">
+<text>Strength | Compound mutant (min.)</text>
+</string>
+<string id="ui_mm_heavy_max">
+<text>Strength | Compound mutant (max)</text>
+</string>
+<string id="ui_mm_zombie_min">
+<text>Strength | Zombies (min.)</text>
+</string>
+<string id="ui_mm_zombie_max">
+<text>Strength | Zombie (max)</text>
+</string>
+ <string id="ui_mm_dog_min">
+<text>Strength | Dogs, cats (min.)</text>
+</string>
+<string id="ui_mm_dog_max">
+<text>Strength | Dogs, cats (max)</text>
+</string>
+<string id="ui_mm_rat_min">
+<text>Power | Small mutants (min.)</text>
+</string>
+<string id="ui_mm_rat_max">
+<text>Power | Small mutants (max)</text>
+</string>
+<string id="ui_mm_novice_min">
+<text>Strength | Beginners (min.)</text>
+</string>
+<string id="ui_mm_novice_max">
+<text>Strength | Beginners (max)</text>
+</string>
+<string id="ui_mm_advanced_min">
+<text>Strength | Experienced (min.)</text>
+</string>
+ <string id="ui_mm_advanced_max">
+<text>Strength | Power (max)</text>
+</string>
+<string id="ui_mm_veteran_min">
+<text>Force | Veterans (min.)</text>
+</string>
+<string id="ui_mm_veteran_max">
+<text>Force | Veterans (max)</text>
+</string>
+<string id="ui_mm_special_min">
+<text>Strength | Unique (min.)</text>
+</string>
+<string id="ui_mm_special_max">
+<text>the Power of | Unique (max)</text>
+</string>
+
+<string id="ui_mm_zombied_min">
+<text>Gain faction : Zombies (min.)</text>
+</string>
+<string id="ui_mm_zombied_max">
+<text>Gain faction : Zombies (max)</text>
+</string>
+ <string id="ui_mm_stalker_min">
+<text>Gain faction : Stalkers (min.)</text>
+</string>
+<string id="ui_mm_stalker_max">
+<text>Gain faction : Stalkers (max)</text>
+</string>
+<string id="ui_mm_bandit_min">
+<text>Gain faction : Bandits (min.)</text>
+</string>
+<string id="ui_mm_bandit_max">
+<text>Gain faction : Bandits (max)</text>
+</string>
+<string id="ui_mm_dolg_min">
+<text>Gain faction : Duty (min.)</text>
+</string>
+<string id="ui_mm_dolg_max">
+<text>Gain faction : Duty (max)</text>
+</string>
+<string id="ui_mm_freedom_min">
+ <text>Gain faction : Freedom (min.)</text>
+</string>
+<string id="ui_mm_freedom_max">
+<text>Gain faction : Freedom (max)</text>
+</string>
+<string id="ui_mm_army_min">
+<text>the Strengthening of the factions : Army (min.)</text>
+</string>
+<string id="ui_mm_army_max">
+<text>the Strengthening of the factions : Army (max)</text>
+</string>
+<string id="ui_mm_isg_min">
+<text>Gain faction : IIG (min.)</text>
+</string>
+<string id="ui_mm_isg_max">
+<text>Gain faction : IIG (max)</text>
+</string>
+<string id="ui_mm_killer_min">
+<text>the Strengthening of the faction : Mercenaries (min.)</text>
+</string>
+ <string id="ui_mm_killer_max">
+<text>the Strengthening of the faction : Mercenaries (max)</text>
+</string>
+<string id="ui_mm_ecolog_min">
+<text>the Strengthening of the factions : the Environmentalists (min.)</text>
+</string>
+<string id="ui_mm_ecolog_max">
+<text>the Strengthening of the factions : the Environmentalists (max)</text>
+</string>
+<string id="ui_mm_csky_min">
+<text>Gain faction : clear Sky (min.)</text>
+</string>
+<string id="ui_mm_csky_max">
+<text>Gain faction : clear Skies (max)</text>
+</string>
+<string id="ui_mm_darkstalker_min">
+<text>Gain faction : Dark stalkers (min.)</text>
+</string>
+ <string id="ui_mm_darkstalker_max">
+<text>Gain faction : Dark stalkers (max)</text>
+</string>
+<string id="ui_mm_monolith_min">
+<text>Gain faction : Monolith (min.)</text>
+</string>
+<string id="ui_mm_monolith_max">
+<text>Gain faction : Monolith (max)</text>
+</string>
+
+<string id="ui_mm_default_mutant">
+<text>the mutants</text>
+</string>
+<string id="ui_mm_sarcofag">
+<text>the Number of mutants in Chernobyl</text>
+</string>
+<string id="ui_mm_zaton">
+<text>the Number of mutants in the North Zone</text>
+</string>
+<string id="ui_mm_pripyat">
+ <text>the Number of mutants in the Forest</text>
+</string>
+	
+	
+	
+	
+</string_table>

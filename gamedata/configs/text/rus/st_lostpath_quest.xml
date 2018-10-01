@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="wolf_about_girl_title">
+	<text>Meet with a stranger</text>
+	</string>
+	<string id="wolf_about_girl_descr">
+	<text>the wolf said that a girl came to the camp. Maybe she needs help. We must find her and find out who she is.</text>
+	</string>
+	<string id="wolf_search_eat_title">
+	<text>Find food</text>
+	</string>
+	<string id="wolf_search_eat_descr">
+	<text>As expected, the girl does not have anything at all. We need to feed her. In general, the whole story is very muddy. Maybe it is sent by someone here or just a newcomer like me. I do not know, time will judge. Still, I think she's an ordinary beginner and she should be helped, just need to glance from time to time for her. It is necessary to find canned food.</text>
+	</string>
+	<string id="wolf_search_eat_done_title">
+	<text>Feed Alice</text>
+	</string>
+	<string id="wolf_search_eat_done_descr">
+	<text>We must give Alisa food. I myself will find food, but she is so fragile and helpless. Hmm. Something I did not think about that.</text>
+	</string>
+	<string id="matis_search_title">
+<text>Find Mathis</text>
+</string>
+<string id="matis_search_descr">
+<text>on the Basis of the received message on the PDA I need the Stalker is in the area of the Sawmill. Need to meet and talk to him.</text>
+	</string>
+
+	<string id="esc_girl_sidor_title">
+	<text>Work on Sidorovich: Meet with Sidorovich</text>
+	</string>
+	<string id="esc_girl_sidor_descr">
+	<text>In the camp there is a merchant Sidorovich. I ought to go to him to ask about the work, maybe something will be thrown up.</text>
+	</string>
+	<string id="esc_girl_take_wpn_done_title">
+	<text>Work on Sidorovich: Send Alice weapons</text>
+	</string>
+	<string id="esc_girl_take_wpn_done_descr">
+	<text>Local dealer Sidorovich gave out equipment for me and Alisa. It's a brand-new MP5 with a silencer and a couple dozens of patron to them. I think with this weapon it will be easy enough for us to take the military camp. Although. who knows.</text>
+	</string>
+	<string id="esc_girl_take_wpn_title">
+	<text>Work for Sidorovich: Find Alice's weapons</text>
+	</string>
+	<string id="esc_girl_take_wpn_descr">
+	<text>Somewhere I fucked up the gun that Sidorovich gave out. We should find the same and give it to Alice.</text>
+	</string>
+	<string id="esc_girl_kpp_title">
+	<text>Work for Sidorovich: Clearing the military checkpoint</text>
+	</string>
+	<string id="esc_girl_kpp_descr">
+	<text>Sidorovich asked to clean the military checkpoint in the South of Cordon. It's good that the weapon gave out, otherwise it would not have been pulled at all.</text>
+	</string>
+	<string id="esc_girl_kpp_done_title">
+	<text>Work on Sidorovich: Back to Sidorovich</text>
+	</string>
+	<string id="esc_girl_kpp_done_descr">
+	<text>the checkpoint is cleaned, now you need to return to Sidorovich.</text>
+	</string>
+	<string id="esc_girl_detector_title">
+	<text>Help Alice: Find a Response</text>
+	</string>
+	<string id="esc_girl_detector_descr">
+	<text>Alice needs a detector. I suggested that she search at least the simplest. Let the Response be, than nothing will happen at all. Maybe she can find artifacts with him.</text>
+	</string>
+	<string id="esc_girl_take_money_1_done_title">
+	<text>Work for Sidorovich: Give Alice her share</text>
+	</string>
+	<string id="esc_girl_take_money_1_done_descr">
+	<text>Sidorovich will pay us well. You must give her her share.</text>
+	</string>
+	<string id="esc_girl_take_money_1_title">
+	<text>Work for Sidorovich: Share Alisa</text>
+	</string>
+	<string id="esc_girl_take_money_1_descr">
+	<text>You need to give the share to Alice. It is urgent to find money and things to give her her share, otherwise it will not end well. Since we paid for joint work, I must share it with her.</text>
+	</string>
+	<string id="esc_girl_smart_title">
+	<text>Work for Sidorovich: Back for the award</text>
+	</string>
+	<string id="esc_girl_smart_descr">
+	<text>the territory is seized, it is necessary to take back your reward.</text>
+	</string>
+	<string id="esc_girl_smart_1_title">
+	<text>Work for Sidorovich: Southern Farm</text>
+	</string>
+	<string id="esc_girl_smart_1_descr">
+	<text>Sidorovich gave the assignment to seize the territory.</text>
+	</string>
+	<string id="esc_girl_smart_2_title">
+	<text>Work for Sidorovich: Refueling</text>
+	</string>
+	<string id="esc_girl_smart_2_descr">
+	<text>Sidorovich gave the assignment to seize the territory.</text>
+	</string>
+	<string id="esc_girl_smart_3_title">
+	<text>Work for Sidorovich: Depot</text>
+	</string>
+	<string id="esc_girl_smart_3_descr">
+	<text>Sidorovich gave the assignment to seize the territory.</text>
+	</string>
+	<string id="esc_girl_smart_4_title">
+	<text>Work for Sidorovich: Abandoned Farm</text>
+	</string>
+	<string id="esc_girl_smart_4_descr">
+	<text>Sidorovich gave the assignment to seize the territory.</text>
+	</string>
+	<string id="esc_sidor_smarts_title">
+	<text>Work for Sidorovich: Development of territories</text>
+	</string>
+	<string id="esc_sidor_smarts_descr">
+	<text>Sidorovich gave the assignment to capture the main points. He wants these points to be captured by stalkers.</text>
+	</string>
+	<string id="esc_girl_matis_about_title">
+	<text>Unexpected guest: Matis</text>
+	</string>
+	<string id="esc_girl_matis_about_descr">
+	<text>Alice on the flash-drive in the general chat sent a message to a stalker Mathis. I know that his name is Lech and he is Alice's friend. He asked to get to him quickly and help him.</text>
+</string>
+
+<string id="ds_matis_title">
+<text>Find Mathis</text>
+</string>
+<string id="ds_matis_descr">
+<text>Necessary to find and to meet with Mathis</text>
+</string>
+
+<string id="ds_ak74_deliver">
+<text>to Bring the AKS-74U Mathis</text>
+</string>
+<string id="ds_ak74_search">
+<text>Find the AKS-74U Mathis</text>
+</string>
+ <string id="quest_ds_ak74_descr">
+<text>Mathis was asked to find them a AKS-74U</text>
+</string>
+
+<string id="kill_bandit_ds_name">
+<text>to Destroy the detachment of the bandits</text>
+</string>
+<string id="kill_bandit_ds_descr">
+<text>Mathis was asked to destroy a squad of bandits at the gas station</text>
+</string>
+
+<string id="quest_ds_matis_dogs_title">
+<text>to Destroy a squad of dogs,</text>
+</string>
+<string id="quest_ds_matis_dogs_descr">
+<text>Mathis gave me my first combat mission. You need to check your shooting skill on dogs.</text>
+</string>
+
+<string id="quest_ds_matis_boar_title">
+ <text>Destroy the boar squad</text>
+</string>
+<string id="quest_ds_matis_boar_descr">
+<text>Mathis gave me second combat mission. You have to fight with a group of wild boars nearby.</text>
+</string>
+
+<string id="ds_back_name">
+<text>to return to camp</text>
+</string>
+<string id="ds_back_descr">
+<text>the Job is done. Need to get back to camp.</text>
+</string>
+
+<string id="ds_pda_back">
+<text>to return to camp</text>
+</string>
+<string id="ds_pda_back_descr">
+<text>Found the PDA Digger. Now it needs to show the Tick. I will not be unblocked.</text>
+</string>
+
+ <string id="ds_pda_search">
+<text>PDA of a group of diggers</text>
+</string>
+<string id="ds_pda_search_descr">
+<text>Tick instructed to find the missing PDA group of diggers in a Dark Hollow. Landmark - destroyed bridge to the North.</text>
+</string>
+
+<string id="ds_pda_shulc_title">
+<text>Meet with Shultz</text>
+</string>
+<string id="ds_pda_shulc_descr">
+<text>you Need to show PDA Schulz. Tick said he understands.</text>
+</string>
+
+<string id="ds_pda_clesh_unlock_title">
+<text>Show PDA Tick</text>
+</string>
+<string id="ds_pda_clesh_unlock_descr">
+ <text>Schultz unlock my PDA diggers. Now you need to give it to the Mite and to tell about information that gave Schultz.</text>
+</string>
+<string id="ds_clesh_start_title">
+<text>Find the Tick</text>
+</string> 
+<string id="ds_clesh_start_descr">
+<text>Mathis referred me to a Tick. He goes somewhere in the camp.</text>
+</string> 
+
+<string id="ds_documents_search">
+<text>search for documents</text>
+</string> 
+<string id="ds_documents_search_descr">
+<text>the PDA has been said that the documents under a bridge. Need to find these documents and bring them to the Tick.</text>
+</string>
+
+ <string id="ds_documents_back">
+<text>back to the Tick</text>
+</string> 
+<string id="ds_documents_back_descr">
+<text>Documents found, you need to go back to camp and give the documents to the Tick.</text>
+	</string>
+	
+	<string id="ds_zapravka_title">
+	<text>Local disassembly: Strip the gas station</text>
+	</string>	
+	<string id="ds_zapravka_descr">
+	<text>the mite asked to seize the gas station. At night, the band its attack the camp and therefore Dell for the stalkers is not a quiet place. We need to help stalkers.</text>
+	</string>
+	<string id="ds_zapravka_done_title">
+	<text>Local showdown: Return for reward</text>
+	</string>	
+	<string id="ds_zapravka_done_descr">
+	<text>the Ticket job is complete. We must return for the reward.</text>
+</string>
+
+<string id="companion_quest_zulus_title">
+<text>the Request of the Zulus</text>
+</string>
+<string id="companion_quest_zulus_descr">
+<text>Zulu has asked me to find him three boxes for a PKM</text>
+</string>
+	
+	<string id="bar_barman_title">
+	<text>Bar 100 X-ray: Barman</text>
+	</string>
+	<string id="bar_barman_descr">
+	<text>I received a message on the PDA from Barmen. He is known in the area for his bar and the sale of various weapons. I ought to go to him, and find out what's there and how.</text>
+	</string>
+	<string id="bar_gyfi_title">
+	<text>Bar 100 X-ray: Goofy</text>
+	</string>
+	<string id="bar_gyfi_descr">
+	<text>Stalker Goofy wants to see me. I do not know who it is or what the researchers are. We must go and find out.</text>
+	</string>
+	<string id="bar_valerian_title">
+	<text>Bar 100 Roentgen: Valerian</text>
+	</string>
+	<string id="bar_valerian_descr">
+	<text>Father Valerian wants to see me. I do not know what he wants, but I do not feel good about it.</text>
+	</string>
+	<string id="bar_valerian_freedom_title">
+	<text>Lies to Salvation: Spy</text>
+	</string>
+	<string id="bar_valerian_freedom_descr">
+	<text>I need to get to the base of freedom and learn from them the information necessary for researchers. They are preparing to storm the base. Hmm. Lying for salvation or salvation in lies? After all, I can simply turn over to their leader of freedom, and I can do as the researchers want. We need to discuss with Alice.</text>
+	</string>
+	<string id="clans_title">
+	<text>Clans Zones: information gathering</text>
+	</string>
+	<string id="clans_descr">
+	<text>There are many clans in the Zone. We should gather information about the clans and join some of them with Alice.</text>
+	</string>
+	<string id="safes_title">
+	<text>Work on the Barkeep: gather equipment</text>
+	</string>
+	<string id="safes_descr">
+	<text>the supplier scattered the equipment for the Barman in all the army warehouses. the military is very fond of walking there, we must be more careful.</text>
+	</string>
+	<string id="safes_done_title">
+	<text>Work for Barmen: return the property</text>
+	</string>
+	<string id="safes_done_descr">
+	<text>All equipment is in place, it is necessary to return it to the Barman.</text>
+	</string>	
+	<string id="pda_crack_1">
+	<text>Device for hacking</text>
+	</string>
+	<string id="pda_crack_1_descr">
+	<text>A special PDA designed for hacking and remote reading from a PDA that are nearby. To use, you need intelligence.</text>
+	</string>
+	<string id="st_turn_on">
+	<text>Enable</text>
+	</string>
+	<string id="val_freedom_work_title">
+	<text>Lying for Salvation: Intelligence</text>
+	</string>
+	<string id="val_freedom_work_descr">
+	<text>Valerian needs information about the current state of Freedom. the names of important persons he will announce through a closed communication channel. It is necessary to distract them all and arrange an assault.</text>
+	</string>
+	<string id="val_freedom_work_1_title">
+	<text>Lying for salvation: Czech</text>
+	</string>
+	<string id="val_freedom_work_1_descr">
+	<text>My first goal is Cech. It is necessary to secretly take information from him.</text>
+	</string>
+	<string id="val_freedom_work_2_title">
+	<text>Lying for salvation: A miser</text>
+	</string>
+	<string id="val_freedom_work_2_descr">
+	<text>Now I need a miser. This is a local trader.</text>
+	</string>
+	<string id="val_freedom_work_3_title">
+	<text>Lying for salvation: Yar</text>
+	</string>
+	<string id="val_freedom_work_3_descr">
+	<text>the mechanic of freedom lives in the Angara. It is worth to visit him, the assault is already close.</text>
+	</string>
+	<string id="val_freedom_work_4_title">
+	<text>Lying for salvation: Sturm</text>
+	</string>
+	<string id="val_freedom_work_4_descr">
+	<text>To seize the base of 'Freedom'</text>
+	</string>
+	<string id="val_freedom_work_4_title">
+	<text>Lying for salvation: Sturm</text>
+	</string>
+	<string id="val_freedom_work_4_descr">
+	<text>To seize the base of 'Freedom'</text>
+	</string>
+	<string id="agr_voronin_title">
+	<text>Acquaintance with 'Duty': Voronin</text>
+	</string>
+	<string id="agr_voronin_descr">
+	<text>A certain Voronin asked to go to him after the assault. I know that their base is located at the Research Institute 'Agroprom'. It will be necessary to visit there.</text>
+	</string>
+	<string id="bar_valerian2_title">
+	<text>Lies for Salvation: Return</text>
+	</string>
+	<string id="bar_valerian2_descr">
+	<text>the assault was successfully completed. Now we need to return to Valerian and discuss with him further plans.</text>
+	</string>
+	<string id="gar_diggers_info_title_1">
+	<text>Digger foray: Document search</text>
+	</string>
+	<string id="gar_diggers_info_title_2">
+	<text>Diggersky sortie: Back to Voronin</text>
+	</string>
+	<string id="gar_diggers_info_descr">
+	<text>It is necessary to collect documents on the underground of the Agroprom in a group of diggers. With the documents you need to visit Voronin and get all the introductory notes to begin the reconnaissance operation to explore the dungeon.</text>
+	</string>
+	<string id="gar_diggers_doc_name">
+	<text>Folder with documents</text>
+	</string>
+	<string id="gar_diggers_doc_descr">
+	<text>This folder contains information about stalker Strelok and a non-doctor. Very little can be understood from the text, because the pages are clearly not new. Somewhere there are scrapes, somewhere they are torn, but the general essence can be understood. Here are some of the excerpts:\n 'Shooter, in the dungeons of the agro industry I have something left for you. '\n ' You can enter the dungeons through the western Entrance to the research institute. '\n ' the doctor is waiting for you, hurry.'</text>
+	</string>
+	
+	
+</string_table>

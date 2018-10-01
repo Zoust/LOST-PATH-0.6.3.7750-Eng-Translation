@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="pda_btn_rpg_hint">
+		<text>Bleed the character</text>
+	</string>
+	<string id="pda_btn_rpg">
+		<text>Prorolling</text>
+	</string>
+	<string id="st_deactivate_battery">
+		<text>remove the battery</text>
+	</string>
+	<string id="st_activate_battery">
+		<text>insert battery</text>
+	</string>
+	<string id="st_create_stash">
+		<text>create a cache</text>
+	</string>
+	<string id="ui_mm_show_smart">
+<text>the Old display card</text>
+</string>
+<string id="ui_st_polyana_village">
+<text>Random place</text>
+</string>
+<string id="ui_st_zaton_village">
+<text>Random place</text>
+	</string>
+	<string id="ui_st_jupiter_village">
+		<text>Yanov</text>
+</string>
+<string id="st_ui_pda_legend_sniper">
+<text>Sniper</text>
+</string>
+<string id="isg">
+<text>"Explorer"</text>
+</string>
+<string id="darkstalker">
+<text>"Dark Stalker"</text>
+</string>
+<string id="st_rad_freedom_vs_duty_name">
+<text>Road to Pripyat</text>
+</string>
+<string id="st_rad_prip_road_name">
+<text>the Road to the antennas</text>
+</string>
+<string id="ui_st_bar">
+<text>Bar "100 x-ray"</text>
+</string>
+<string id="ui_st_ferma">
+<text>Dark Valley, a Farm</text>
+</string>
+<string id="ui_st_skladi_balka">
+<text>Army warehouses, Kryva Balka</text>
+</string>
+<string id="ui_st_lesnik_home">
+<text>the House of the Forester</text>
+</string>
+<string id="ui_st_prachechnaya">
+<text>Laundry</text>
+</string>
+<string id="stalker">
+<text>"Single"</text>
+</string>
+<string id="trader">
+<text>Merchant</text>
+</string>
+<string id="arena_enemy">
+<text>Normal</text>
+</string>
+ <string id="ui_mm_inventory_radiation">
+<text>Daily radiation</text>
+</string>
+<string id="st_faction_isg">
+<text>"IIG"</text>
+</string>
+<string id="st_faction_darkstalker">
+<text>"Dark stalkers"</text>
+</string>
+<string id="actor_isg">
+<text>"Explorer"</text>
+</string>
+<string id="actor_darkstalker">
+<text>"Dark Stalker"</text>
+</string>
+</string_table>
