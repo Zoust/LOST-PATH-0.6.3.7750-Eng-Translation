@@ -1,5 +1,5 @@
 --[[ -----------------------------------
- #  Управление смартами
+ #  Г“ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ Г±Г¬Г Г°ГІГ Г¬ГЁ
  #  for Lost Path
  # 	based on Eoc by xrSanya
  #  author : b4d1k
@@ -255,25 +255,25 @@ function check_npc(smart)
 		while mechanic_in_smart < mechanic_pop do	
 			sim_squad.create_squad(smart, faction, nil, mechanic , nil, 1)
 			mechanic_in_smart = mechanic_in_smart + 1
-			----printf("### EOC: Спавн механика в смарт ".. smart:name() .." ###")
+			----printf("### EOC: Г‘ГЇГ ГўГ­ Г¬ГҐГµГ Г­ГЁГЄГ  Гў Г±Г¬Г Г°ГІ ".. smart:name() .." ###")
 		end
 		   
 		while trader_in_smart < trader_pop do
 			sim_squad.create_squad(smart, faction, nil, trader, nil, 1)
 			trader_in_smart = trader_in_smart + 1
-			----printf("### EOC: Спавн торговца в смарт ".. smart:name() .." ###")
+			----printf("### EOC: Г‘ГЇГ ГўГ­ ГІГ®Г°ГЈГ®ГўГ¶Г  Гў Г±Г¬Г Г°ГІ ".. smart:name() .." ###")
 		end
 
 		while medik_in_smart < medik_pop do
 			sim_squad.create_squad(smart, faction, nil, medik, nil, 1)
 			medik_in_smart = medik_in_smart + 1
-			----printf("### EOC: Спавн медика в смарт ".. smart:name() .." ###")
+			----printf("### EOC: Г‘ГЇГ ГўГ­ Г¬ГҐГ¤ГЁГЄГ  Гў Г±Г¬Г Г°ГІ ".. smart:name() .." ###")
 		end	
 		
 		while leader_in_smart < leader_pop do
 			sim_squad.create_squad(smart, faction, nil, leader, nil, 1)
 			leader_in_smart = leader_in_smart + 1
-			----printf("### EOC: Спавн наставника в смарт ".. smart:name() .." ###")
+			----printf("### EOC: Г‘ГЇГ ГўГ­ Г­Г Г±ГІГ ГўГ­ГЁГЄГ  Гў Г±Г¬Г Г°ГІ ".. smart:name() .." ###")
 		end	
 	end
 end
@@ -285,7 +285,7 @@ function newtarget_manual_capture(smart)
 	local smartCollection = {}
 	
 	--'----------------------------------------------------------------------------------
-	--' Настройка спавна отрядов при захвате точек
+	--' ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г±ГЇГ ГўГ­Г  Г®ГІГ°ГїГ¤Г®Гў ГЇГ°ГЁ Г§Г ГµГўГ ГІГҐ ГІГ®Г·ГҐГЄ
 	--'----------------------------------------------------------------------------------
 	local faction = sim_brain.actor_faction
 	local script_to_text_smart = sim_script_to_text.smart_names[smart:name()] or smart:name() 
@@ -359,7 +359,7 @@ function newtarget_manual_capture(smart)
 				----printf("%s %s", squad, squad.id)
 				smart.squad = squad
 				local comnews = sim_script_to_text.faction_names_standart[sim_brain.actor_faction]
-				db.actor:give_game_news(("Group channel «"..comnews.."»"), ("We will send a new detachment to capture the position ".. script_to_text_smart .." from our base in "..spawn_smart_name.."."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
+				db.actor:give_game_news(("Group channel В«"..comnews.."В»"), ("We will send a new detachment to capture the position ".. script_to_text_smart .." from our base in "..spawn_smart_name.."."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
 				break
 			end
 		end
@@ -429,7 +429,7 @@ function target_manual_capture(smart)
 				db.actor:give_game_news(("Capture goal"), ("The resource point in ".. script_to_text_smart .." is captured, reward for the capture is  ".. nagrada .." and "..rept.." reputation."), sim_offline_to_online.getSenderIcon(sim_brain.actor_faction), 0, 15000)
 				end
 			end
-		    SetHudMsg("Точка захвачена!",5)
+		    SetHudMsg("Г’Г®Г·ГЄГ  Г§Г ГµГўГ Г·ГҐГ­Г !",5)
 			db.actor:add_exp(exp)
 			task_objects.smart_capture(nagrada, faction)
 			xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {faction, rept}) 
@@ -502,7 +502,7 @@ function target_manual_capture(smart)
 	local smartCollection = {}
 	
 	--'----------------------------------------------------------------------------------
-	--' Настройка спавна отрядов при захвате точек
+	--' ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г±ГЇГ ГўГ­Г  Г®ГІГ°ГїГ¤Г®Гў ГЇГ°ГЁ Г§Г ГµГўГ ГІГҐ ГІГ®Г·ГҐГЄ
 	--'----------------------------------------------------------------------------------
 	
 	local tp = sim_factions.faction_information[faction].total_power
@@ -740,12 +740,12 @@ function spawn_defense_squad(smart)
 end
 
 function spawn_patrol_squad(smart)
-	----printf("# SIM: Спавн патруля отключен")
+	----printf("# SIM: Г‘ГЇГ ГўГ­ ГЇГ ГІГ°ГіГ«Гї Г®ГІГЄГ«ГѕГ·ГҐГ­")
 	return 
 end
 
 function spawn_killers_squad(smart)
-	----printf("# SIM: Спавн головорезов отключен")	
+	----printf("# SIM: Г‘ГЇГ ГўГ­ ГЈГ®Г«Г®ГўГ®Г°ГҐГ§Г®Гў Г®ГІГЄГ«ГѕГ·ГҐГ­")	
 	return 
 end
 function spawn_attack_squad(smart)	
@@ -792,7 +792,7 @@ function spawn_attack_squad(smart)
 
 	if target then
 		sim_squad.create_squad(smart, faction, target, nil, nil, 1)
-		smart.timer = time + timer -- таймер будет срабатывать каждые n минут
+		smart.timer = time + timer -- ГІГ Г©Г¬ГҐГ° ГЎГіГ¤ГҐГІ Г±Г°Г ГЎГ ГІГ»ГўГ ГІГј ГЄГ Г¦Г¤Г»ГҐ n Г¬ГЁГ­ГіГІ
 	end
 end
 
