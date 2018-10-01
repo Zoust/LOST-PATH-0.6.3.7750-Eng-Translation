@@ -1,5 +1,5 @@
 --[[ -----------------------------------
- #  База скриптов
+ #  ГЃГ Г§Г  Г±ГЄГ°ГЁГЇГІГ®Гў
  #  for Lost Path
  #  author : b4d1k
  #  date   : 11.02.2018
@@ -24,7 +24,7 @@ local operations_merc = 0
 local config = ini_file("rpg.ltx")
 
 -- ---------------------------------------------------------------------------------
--- Играем звук в голове ГГ
+-- Г€ГЈГ°Г ГҐГ¬ Г§ГўГіГЄ Гў ГЈГ®Г«Г®ГўГҐ ГѓГѓ
 function play_sound(snd)
 	if snd then
 		local snd_obj = xr_sound.get_safe_sound_object(snd)
@@ -33,7 +33,7 @@ function play_sound(snd)
 end
 
 -- ---------------------------------------------------------------------------------
--- Чтение actor переменной
+-- Г—ГІГҐГ­ГЁГҐ actor ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©
 function read_variable(params_name)
 	return pstor_retrieve(db.actor, params_name)
 end
@@ -41,7 +41,7 @@ end
 
 
 -- ---------------------------------------------------------------------------------
--- Запись actor переменной
+-- Г‡Г ГЇГЁГ±Гј actor ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©
 function write_variable(params_name, value)
 	if not value then
 		pstor_clear(db.actor, params_name)
@@ -53,7 +53,7 @@ end
 
 
 -- ---------------------------------------------------------------------------------
--- Инициализация actor переменной
+-- Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї actor ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©
 function set_safe_variable(variable_name, val)
 	if not read_variable(variable_name) then
 		if not val then
@@ -66,7 +66,7 @@ end
 -- ---------------------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------------------
--- Запоминаем механика, с которым говорили
+-- Г‡Г ГЇГ®Г¬ГЁГ­Г ГҐГ¬ Г¬ГҐГµГ Г­ГЁГЄГ , Г± ГЄГ®ГІГ®Г°Г»Г¬ ГЈГ®ГўГ®Г°ГЁГ«ГЁ
 function change_last_told_mechanick(first_speaker, second_speaker)
 	mod_flags.last_told_mechanick = dialogs.who_is_npc(first_speaker, second_speaker)
 end
@@ -74,14 +74,14 @@ end
 
 
 -- ---------------------------------------------------------------------------------
--- Забираем бабки
+-- Г‡Г ГЎГЁГ°Г ГҐГ¬ ГЎГ ГЎГЄГЁ
 function take_money_300(first_speaker, second_speaker)
     dialogs.relocate_money_to_actor(first_speaker, second_speaker, 300)
 end
 -- ---------------------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------------------
--- Проверка наличия предмета(item)
+-- ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г Г«ГЁГ·ГЁГї ГЇГ°ГҐГ¤Г¬ГҐГІГ (item)
 function actor_has_item(item)
 	local actor = db.actor
     if actor:object(item) then
@@ -92,7 +92,7 @@ end
 -- ---------------------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------------------
--- Удаляем предмет из инвентаря
+-- Г“Г¤Г Г«ГїГҐГ¬ ГЇГ°ГҐГ¤Г¬ГҐГІ ГЁГ§ ГЁГ­ГўГҐГ­ГІГ Г°Гї
 function remove_item_from_inventory(remove_item,npc)
   if npc == nil then npc = db.actor end
   if remove_item~=nil then
@@ -104,7 +104,7 @@ end
 -- ---------------------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------------------
--- Системные функции
+-- Г‘ГЁГ±ГІГҐГ¬Г­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ
 function actor_on_item_use(item)
 	local actor = db.actor
 	local actor_faction = character_community(actor)
@@ -116,7 +116,7 @@ function actor_on_item_use(item)
 	or level.name() == 'l10_radar' then
 			if actor_faction == "actor_zombied"
 			or actor_faction == "actor_monolith" then
-				actor:set_character_community("actor_stalker", 0, 0)	-- сменить группировку на сталкера
+				actor:set_character_community("actor_stalker", 0, 0)	-- Г±Г¬ГҐГ­ГЁГІГј ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГі Г­Г  Г±ГІГ Г«ГЄГҐГ°Г 
 				news_manager.send_tip(db.actor, "%c[0,255,64,0]The anabiotic was successfully administered.", nil, nil, nil, nil)
 				xr_sound.set_sound_play(db.actor:id(), "pda_news")
 				game_relations.set_community_goodwill_for_faction("actor_stalker")
@@ -286,14 +286,14 @@ function on_game_start()
 	RegisterScriptCallback("CUIActorMenu_OnItemDropped",on_item_drag_dropped)
 end
 
--- вызывается биндером, а не отсюда
+-- ГўГ»Г§Г»ГўГ ГҐГІГ±Гї ГЎГЁГ­Г¤ГҐГ°Г®Г¬, Г  Г­ГҐ Г®ГІГ±ГѕГ¤Г 
 function actor_on_before_death()
 	if alife_storage_manager.get_state().enable_azazel_mode then
 		return
 	end
 	printf("actor death")
 	
-	-- вывод на экран
+	-- ГўГ»ГўГ®Г¤ Г­Г  ГЅГЄГ°Г Г­
 	--[[xr_statistic.actor_statistic.deaths = xr_statistic.actor_statistic.deaths + 1
 	SetHudMsg(strformat(game.translate_string("st_death_count"),xr_statistic.actor_statistic.deaths),8)
 	db.actor:disable_death_effector()
@@ -309,7 +309,7 @@ function actor_on_before_death()
 	level.remove_cam_effector(210409)
 	printf("remove cam eff")
 		
-	-- удаление предметов ГГ
+	-- ГіГ¤Г Г«ГҐГ­ГЁГҐ ГЇГ°ГҐГ¤Г¬ГҐГІГ®Гў ГѓГѓ
 	
 	local ignore_list = {
 	["bolt"] = true,
@@ -387,14 +387,14 @@ function actor_on_before_death()
 		psi_storm_manager.get_psi_storm_manager().finish(true)
 	end
 		
-	-- восстановление всех статов
+	-- ГўГ®Г±Г±ГІГ Г­Г®ГўГ«ГҐГ­ГЁГҐ ГўГ±ГҐГµ Г±ГІГ ГІГ®Гў
 	db.actor:set_health_ex(1)
 	db.actor.power = 1
 	db.actor.radiation = -1
 	db.actor.bleeding = 1
 	db.actor.satiety = 1
 	
-	-- Телепортация 
+	-- Г’ГҐГ«ГҐГЇГ®Г°ГІГ Г¶ГЁГї 
 	local x,y,z,gvid,lvid
 	
 	db.actor:give_info_portion("actor_death")
@@ -438,7 +438,7 @@ function actor_on_before_death()
 	xr_statistic.check_actor_rank_change(true)
 	xr_statistic.check_actor_reputation_change(true)
 	
-	db.actor:set_character_community("actor_stalker", 0, 0)	-- сменить группировку на сталкера
+	db.actor:set_character_community("actor_stalker", 0, 0)	-- Г±Г¬ГҐГ­ГЁГІГј ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГі Г­Г  Г±ГІГ Г«ГЄГҐГ°Г 
 	game_relations.set_community_goodwill_for_faction("actor_stalker")
 	reset_relations()
 end
@@ -507,7 +507,7 @@ end
 		SetHudMsg(strformat(game.translate_string("st_death_count"),xr_statistic.actor_statistic.deaths),8)
 		xr_statistic.actor_statistic.deaths = xr_statistic.actor_statistic.deaths + 1
 		
-		-- восстановление всех статов
+		-- ГўГ®Г±Г±ГІГ Г­Г®ГўГ«ГҐГ­ГЁГҐ ГўГ±ГҐГµ Г±ГІГ ГІГ®Гў
 		db.actor:set_health_ex(1)
 		db.actor.power = 1
 		db.actor.radiation = -1
@@ -531,7 +531,7 @@ end
 local last_update
 
 -- ---------------------------------------------------------------------------------
--- Функция добавления репутации к долгу (системная для тестов)
+-- Г”ГіГ­ГЄГ¶ГЁГї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї Г°ГҐГЇГіГІГ Г¶ГЁГЁ ГЄ Г¤Г®Г«ГЈГі (Г±ГЁГ±ГІГҐГ¬Г­Г Гї Г¤Г«Гї ГІГҐГ±ГІГ®Гў)
 function goodwill_to_dolg_100()
 end
 -- ---------------------------------------------------------------------------------
