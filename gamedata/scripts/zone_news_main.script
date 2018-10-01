@@ -1,0 +1,468 @@
+function send_tip(news_id, sender)
+
+local tips_icons = {
+	duty_fake_news_icon     	= "ui_icon_vs_news_news_dolg",
+	freedom_fake_news_icon  	= "ui_icon_vs_news_news_svoboda",
+	military_fake_news_icon     = "ui_icon_vs_news_news_voen_stalk",
+    killer_fake_news_icon   	= "ui_icon_vs_news_news_naim",
+    ecolog_fake_news_icon   	= "ui_icon_vs_news_news_ecolog",	
+	death_fake_news_icon	 	= "ui_icon_vs_news_deth",
+	isg_fake_news_icon          = "ui_icon_vs_news_news_isg",
+	darkstalker_fake_news_icon  = "ui_icon_vs_news_news_darkstalker",
+	saharov  				= "ui_iconsNpc_ucheniy_2",
+	ecolog					= "ui_iconsNpc_ecolog",
+	trader					= "ui_iconsNpc_trader",
+	army					= "ui_iconsNpc_stalker_neytral_balon_6",
+	barman					= "ui_iconsNpc_barman",
+	wolf					= "ui_iconsNpc_stalker_neytral_balon_1",
+    tourist					= "ui_inGame2_PD_Tourist"	
+}
+
+	if news_id == nil then return end
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	local texture = tips_icons[sender] or "ui_iconsTotal_grouping"
+	local news_caption = game.translate_string("st_tip")
+	db.actor:give_game_news(news_caption, news_id, texture, 0, 10000)
+
+end
+
+function news_main()
+
+local spam ={
+"%c[default]I have just passed a pair of helicopters in the north direction, I attach the coordinates, do not stick out, I do not know what their instructions are.",
+"%c[default]We follow the bearing to the helicopter that fell on the swamps." So far, no one. ",
+"%c[default]Observe a wave of mutants, comes from the north-west, see the attached coordinates.",
+"%c[default]Watch a wave of mutants, comes from the northern gorge.",
+"%c[default]Watching a wave of mutants, coming from the east, presumably from the Dark Valley.",
+"%c[default]Mei Day, a pack of dogs pret on right to us, I apply the exact coordinates!",
+"%c[default]And the lamp does not burn ... and the calendars lie ... and if you went to the bloodsucker in the raid, then do not rev.",
+"%c[default]Marauders, creatures ... the whole of Pripyat was destroyed, I'm sorry, I grew up there.",
+"%c[default]Pseudo dog attacked, barely shot!",
+"%c[default]I saw a group of some kind of left-wing peasants, presumably -" Mercenaries. "They go towards Bar.",
+"%c[default]A group of five moves toward the Barrier, presumably the Monolith." Take action. ",
+"%c[default]Mei Day, the debtors were pinned on the Agroprom in the central complex!",
+"%c[default]Lukash, we shot him down, we go home.",
+"%c[default]Two-three-seven, we go home, meet.",
+"%c[default]Marauders squeezed, help out!",
+"%c[default]I heard the military talks, they are planning some kind of operation on Yantar.",
+"%c[255,160,160,160]Degtyarev\\n%c[default]Here again\"Mercenaries\"near the base of the shasta.\r\n I'll go and shoot some things in assholes,"
+"%c[255,160,160,160]Alkash Programmer\\n%c[default]You need an Internet connection. Do you have a bar in the bar or go to Sidorovich?",
+"%c[255,160,160,160]Sidorovich\\n%c[default]Today it is dangerous to live and be a trader, people are needed to protect me and my savings!",
+"%c[255,160,160,160]Romka\\n%c[default]A stalker is required, a specialist for code locks and with the experience of raids on the north of the zone.",
+"%c[default]I heard that the Kremlin sends in its zone, it will be interesting to look at them.",
+"%c[default]Do not go pouring into the cellars, there are plenty of creatures! Go around on top!",
+"%c[default]Hemul, urgently blow to the bar, it's there!",
+"%c[default]The people! Be careful in the village in warehouses - there the Burning Pooh has put on the pillars!",
+"%c[default]Allo, heroes, your mother! Hare trying to knock us out with ATP! If any paddle has not yet been cut, it's our territory and do not fuck it up to us!",
+"%c[default]Pancake! E-mine, again zombie is full on Yantar! More accurate there, people!",
+"%c[default]Stalkers! Sakharov gives good money for the hub! And everything is looking for whoever to send to X-16 ... I do not risk something." It's wild there, and zombies too. ",
+"%c[default]Warning: If in a village in the Dark Valley you are offered to buy some fancy rifle for 800 rubles - do not believe it, it's a kick-box!",
+"%c[255,160,160,160]Bald\\n%c[default]Bandits have disentangled at the dump, it's not right, we'll eradicate.",
+"%c[255,160,160,160]Bald\\n%c[default]Sponge Hop, athletic pants .You will see - shoot.",
+"%c[255,160,160,160]Mole\\n%c[default]I'm picking people up for a sortie into the catacombs.",
+"%c[255,160,160,160]Mole\\n%c[default]We need two stalkers to sail into the catacombs.",
+"%c[255,160,160,160]Suitcase\\n%c[default]Looking for stalkers with the experience of raids deep into the Zone.Paying the appropriate.Interested - knocking in a personal, we will discuss the meeting place.",
+"%c[255,160,160,160]Fan\\n%c[default]Who has not been in the village - do not miss the unique opportunity to learn the necessary survival skills from me.",
+"%c[255,160,160,160]Bartender\\n%c[default]So ... I explain once and for all - I will not say where the communication center is.",
+"%c[255,160,160,160]Fan\\n%c[default]The people, no one saw the Wolf?",
+"%c[255,160,160,160]Voronin\\n%c[default]Once again I find out that you take money from the stalkers for the passage to the base, take the order for the execution, print it out, sign it and put it in each coffin.",
+"%c[255,160,160,160]Ivan Szikun\\n%c[default]Heard the news: someone again wants to get through to the Burnout.",
+"%c[default]They say Sakharov has new detectors!",
+"%c[255,160,160,160]Fecle\\n%c[default]And we are drinking beer in the bar",
+"%c[255,160,160,160]Yarik Athlete\\n%c[default]At the dump some left-handed horse wanders, and the bagpipe is cool, if anyone makes it, I'll buy that bagpipe,"
+"%c[255,160,160,160]Gray\\n%c[default]Today, at 2 o'clock in the morning, from the bridges to the bar (from the landfill side) the Zaporozhye was stolen Color: rust with milk, no doors and trunk lid. about the constipation, the inspector was twisted (dressed in some torn trousers), for a long time, that my wreck was useless to anyone. "If, who saw this scumbag, tell me." The award is guaranteed. ",
+"%c[default]A flock of dogs is pushed directly to us, I attach the exact coordinates!",
+"%c[default]Marauders, creatures ...\\n%c[255,160,160,160]Vasyan228\\n%c[default]We guess.",
+"%c[default]The pseudo dog attacked, barely shot!\\n%c[255,160,160,160]Wasyan228\\n%c[default]Well done.",
+"%c[default]I saw a group of some left-wing peasants, supposedly" Bandits. "They go to the side of the Bar.\\n%c[default]Did not fall, fagot ..."
+"%c[default]I saw a group of some left-wing peasants, supposedly" Debt ", go to the side of the Landfill.\\n%c[default]Do not fall to the office, reptile ..."
+"%c[default]To the farm, which is for military, again\"Freedom\"is trapped.\Interesting, why?\\n%c[255,40,40,255]Kuznetsov\\n%c[default]Vidat want to base our base off. Nothing, the decisive changes in the alignment of forces are coming soon, and not in favor of Liberty.\\n%c[255,160,160,160]Lukash\\n%c[default]What else will you scare the staff rat ? ",
+"%c[default]Uh, m-mother ... in the vicinity of the Amber Lake, the helicopter was fired, and - in a capital way, they had a fire engine, they were masturbating on the air and laying somewhere off to the side!",
+"%c[255,160,160,160]Solid\\n%c[default]nappruglvlatmaop\\n%c[255,160,160,160]Lukash\\n%c[default]Again, the boyars devoured, bitch.",
+"%c[default]I had a helicopter on the Marsh, what the hell were they flying now? I did not hear about any planned sweeps or operations in these swamps, and the sources are reliable. Something serious happened. , boys. ",
+"%c[255,160,160,160]Father Peter\\n%c[default]Let's pray, brothers, for the peace of the soul of Yura Semetsky! Amen!",
+"%c[255,160,160,160]A miser\\n%c[default]There is a classy cannabis. <br /> <br />\n%c[255,160,160,160]Petrenko\\n%c[default]Dukes ...",
+"%c[default]In the shelter, m-mother! Here the turntable is looking for someone, if someone is noticed in passing, you will not get out alive!",
+"%c[255,160,160,160]Sakharov\\n%c[default]Stalkers In the bunker on Lake Amber, I can offer you anomaly detectors, a well-paid job, and we also buy artifacts at the best price.",
+"%c[default]What kind of reptile did I gut my vetch with vodka?\\n%c[255,160,160,160]Bruin\\n%c[default]We drank your vodka, horse))\\n%c[default]What would you she choked on, bastard. ",
+"%c[default]Army Depots." Apparently, there was nothing left of the pilots, so it's necessary to carry the helicopter in. Hmm ... "
+"%c[255,160,160,160]Rabinovich\\n%c[default]I offer a large assortment of weapons and armor at a market price. Interested - come to Yanov.\\n%c[255,40,40,255]Charon\\n%c[default]Rabi! Go into the private channel. There is an urgent conversation, "
+"%c[255,160,160,160]Petrenko\\n%c[default]So, well, everything to the parade quickly - who will truant fizuhu, instantly from"Duty\"will fly out,"
+"%c[255,160,160,160]Sakharov\\n%c[default]It is beneficial, for a good exchange rate, to exchange parts of rare mutants and those wishing to come to Yantar.",
+"%c[255,160,160,160]Informer\\n%c[default]There is a small work, just for the quick beginner, I'll pay the info.",
+"%c[255,160,160,160]Sidorovich\\n%c[default]Stalkers, gee-gee ... whom I deceive ... Puzzles! Come to me for work - you can gain experience, earn the first capital and purchase ammunition.",
+"%c[255,160,160,160]Tremor\\n%c[default]Blood donors are urgently needed for Skadovsk. The payment is appropriate. To all wishing to approach me on level 2 of the dry-cargo ship.",
+"%c[255,160,160,160]Digger\\n%c[default]Five to six stalkers are needed to go into the catacombs, as soon as I find my own PDA, we immediately advance.",
+"%c[default]Once again, at least one stalker in the scientific research institute will come, I'll give\"Duty\"to the arena in the cage.",
+"%c[255,160,160,160]Yoga\\n%c[default]Brotherhood, when you find Avoska - you can flip in place, pick up current from the PDA and pritarante me.",
+"%c[255,160,160,160]Petrenko\\n%c[default]I buy artifacts for science, go to the base\"Duty\", if there is no money, I'll change anything.",
+"%c[default]M-mother ... well, the mat is in the air right now, they have some sort of raid there, a helicopter was fired, but they order us to return urgently.",
+"%c[255,160,160,160]Petrenko\\n%c[default]There is work for the veteran, I will pay not only with tugriks.",
+"%c[255,160,160,160]Yoga\\n%c[default]Hogs, if I find out that you're stirring up the fraternity again, hanging it over the eggs over the Depot, kapish?\\n%c[255,160,160,160]Hogs\\n%c[default]And do not you scare, such as you, I drowned in the zone in the parash. You lost the reputation among the brothers, you will soon lose your life ... "
+"%c[255,160,160,160]The miser\\n%c[default]Who is going to go to the raid, can stock up on me with ammunition, so there is work, I'll pay a rare artifact.",
+"%c[255,160,160,160]Hog\\n%c[default]Please do not go to the Wild Territory, nothing good will be here.",
+"%c[255,160,160,160]Lukash\\n%c[default]Free stalkers! Grace please go to the base in the dark valley, here you will find yourself faithful friends and comrades, good attitude and much more. Zone is our house, think about it , do you see yourself outside the Zone and help us to deal with "Debt" once and for all. ",
+"%c[255,160,160,160]Arnie\\n%c[default]Captive gopotu have nowhere to go, no one shoots, if this goes on, I'll close the arena fuck!",
+"%c[255,160,160,160]Bartender\\n%c[default]So, who accidentally finds documents containing specific information in the area of ??Radar or Burner, pritarante me.",
+"%c[255,160,160,160]Countryman\\n%c[default]For the most gifted I repeat: Do not poke your nose on the Radar! Shoot you like a rabid dog! Truncated? Fucking adventurers ..."
+"%c[255,160,160,160]St. John's wort\\n%c[default]How did these fanatics zadrali ... So climb to us on Yanov wolves shameful. When you have already realized that Yanov - the territory of stalkers!",
+"%c[255,160,160,160]Sakharov\\n%c[default]Dear friends, stalkers! At the moment, our studies require a large number of artifacts, so you can bring in. We guarantee more than a decent payment.\\n%c[255,160,160,160]Sidorovich\\n%c[default]...- Dear -, - Friends -... Unfocused, egghead ... Brothers, but who took care of you first, and vodka repaired, eh? Science is your stubborn? Or uncle Sidor "Bring to me the artifacts found!",
+"%c[default]Yesterday on Yantar there was an impenetrable fog - zombies are hardly visible through it ...\\nDo not repeat my mistakes, it's very dangerous in the fog!",
+"%c[default]Stalkers! The scientists give good money for the hub! And again they are looking for someone to send to the X-16 ... I do not take risks, although artifacts and dead ones are wild there, and even zombies." ,
+"%c[default]There are rumors that the Controller lives in the X-16, and maybe even not one." Stalkers, the experienced guys went yesterday - and did not return! It seems like the truth is unclean there ... ",
+"%c[default]Yesterday I met my long-missing team-mate, and he does not recognize me, how do I shoot for me! I had to shoot ...\\nPin, people, neater with the psi-radiation! horseradish is not easy! ",
+"%c[default]Bitch ... you have there, that, laser target designators? Who you, nedonoskov, so competently taught from the RPG-something shmalyat.",
+"%c[default]Sidorovich sold trophy trunks here ... I think he cheated on me, old fuck .. People! Go better to the Bartender!\\n%c[255,160,160,160]Sidorovich\\n%c[default]A nickname is it your open, cattle, or scary? ",
+"%c[default]Has anyone on DT seen a black flying smoke? Heck, is this some kind of new poltergeist subspecies?",
+"%c[default]The people, I sit and look through the binoculars - the war party has arrived! Again, everything is combed, so that their Zone devoured. I advise a couple of days at the perimeter not to glow.",
+"%c[default]Gy-gy, horses .Why did you leave your farm? And we've already written it down.",
+"%c[255,160,160,160]Groaner\\n%c[default]Something bloodsuckers next to Skadovski every day more and more, see somewhere nearby the lair. Fucking pancake suckers ..."
+"%c[255,160,160,160]Bolt\\n%c[default]Something is not good for me, I have eaten canned goods from the warehouse called, and at the release date I looked like it was generally fucked.",
+"%c[255,160,160,160]Hakim\\n%c[default]Sanya, I'm shorter with the Snake going to the base,"
+"%c[255,160,160,160]Sultan\\n%c[default]I think the other day, along with the sidekicks rush to the center of the zone, to Zaton. The stalkers there say quite zazhralis.Nado to teach the loski.",
+"%c[default]Ah, in the RL there is a tank broken somewhere in the thicket of the forest, rumor there is still a PC with cartridges left, but one to go ochkuyu.",
+"%c[255,160,160,160]Fish\\n%c[default]The people, and the porn magazines from the perimeter have not been delivered yet?",
+"%c[255,160,160,160]Bartender\\n%c[default]Want a good gun? Want a lot of money? Would you like to have a drink and talk with reliable friends? Come to Bar 100 X-ray!",
+"%c[default]A sausage and fucking sticks now do steel,"
+"%c[default]And boots and shake",
+"%c[255,160,160,160]Maslak\\n%c[default]I heard it again at the checkpoint in the speakers, it's. Someone laughs and laughs louder and louder, laughter is all ominous.",
+"%c[255,160,160,160]Maslak\\n%c[default]I can not do this anymore, every day the blood in my veins gets cold!",
+"%c[255,160,160,160]Maslak\\n%c[default]PPC, koroche - at the roadblock terrible things happen - in the megaphone again crap sounds - to the bone picks,"
+"%c[255,160,160,160]Kurgan\\n%c[default]I put the fixes on the Unified Stalker Network: Search the bar",
+"%c[default]Washer, floor washer, under the table there is a garbage!",
+"%c[255,160,160,160]Leon\\n%c[default]Stop flooding! And without you it's not fun!",
+"%c[255,160,160,160]Mandarin\\n%c[default]Friends, I have a dnyukha in December, I invite everyone to Kaliningrad, I hope I will get to the 24th art and rock,"
+"%c[255,160,160,160]Screwdriver\\n%c[default]Who needs flash drives with Lootmoney, please contact!",
+"%c[255,160,160,160]Hogs\\n%c[default]There are big changes in the camp of the bandits he-he. Be ready to the sidekick ..."
+"%c[255,160,160,160]Bess\\n%c[default]Hunting is cool, I answer,"
+"%c[default]Blood group on the sleeve, my my serial number on the sleeve - wish me luck in the fight, wish me ... do not stay in this grass.",
+"%c[default]The fucking military registration and enlistment office was sailing in the bus window ... now you're fucking in the army, ooooo - now you're in the army, fuck!",
+"%c[255,160,160,160]Makar\\n%c[default]I wish I could leave this mess now, buy a flat in the city, and get some work in the studio.",
+"%c[default]We need to tick from the Zone, exactly",
+"%c[default]Eh, got rich chtol? Yes it looks like it,"
+"%c[default]Garik, lead me out of Jupiter, now on the outskirts, will soon arrive.",
+"%c[default]Sleeping as you want,"
+"%c[default]Hear, there Dark stalkers wake up, I do not feel good ..."
+"%c[default]Have you heard that there is some new person in the Dead City at the base of the basement?" I'm using a unique kit like you can order from him. ",
+"%c[default]Not those times went, not those",
+"%c[default]I'm leaving the Zone shorter, the adrenaline hit the potion, so I realized everything,"
+"%c[default]And what's the use of hanging around somewhere." Eh, there would be a bar on Cordon. ",
+"%c[default]I think which book to buy is better - Tolkien or Sapkowski?",
+"%c[default]If I had a house for a million four, how many artifacts will I have to collect?",
+"%c[255,160,160,160]A miser\\n%c[default]If you want some sort of foreign gun - to me,"
+"%c[255,160,160,160]A miser\\n%c[default]I got myself dressed in toilet paper, who's tired of mugs, run fast, the party is limited,"
+"%c[255,160,160,160]Petrenko\\n%c[default]We have temporary interruptions in the work of the private channel, if that - in a personal to me.",
+"%c[255,160,160,160]Countryman\\n%c[default]All dark in an hour to appear on the base. We have big postrelushki outlined hehe he ..."
+"%c[255,160,160,160]Loki\\n%c[default]Hey, dolaris - but we weakly put on Jupiter? I know that it's weak! Our snipers from you will instantly make heh heh ...",
+"%c[255,160,160,160]Petrenko\\n%c[default]Everyone! The delivery of equipment, ammunition at the specified hours! Am I supposed to spend the night here ?!"
+"%c[255,160,160,160]Petrenko\\n%c[default]3rd quad, no one canceled the cleanup of catacombs! Well, enough booze! Anarchists wanted?",
+"%c[default]Join the monolith! Friendship is magic, unity is the Monolith!",
+"%c[default]Who dares to invade our domain, we will severely punish.",
+"%c[default]Defend the Great Monolith together!",
+"%c[default]Death is wrong!",
+"%c[default]Know the infidels that we are strong, and you are weak, run and we will catch you, hide and we will find you.",
+"%c[default]Dark stalkers are absolutely ahueli.Vchera all my squad in the expense allowed, one I stayed. Well, nothing, how to be treated - I'll put you a lyule of cattle!",
+"%c[default]The command of the peacekeeping contingent to isolate the Zone of Alienation announces the recruitment into the ranks of military stalkers, it is guaranteed: lard, gorilka, endless cartridges and free burial.",
+"%c[255,160,160,160]Rogovets\\n%c[default]That's mlyat, again the vodka is over, well, what ... what do I grease the guys now?",
+"%c[default]Fucking weather this one. Then it's quiet, then it's raining, otherwise it's a blowout!",
+"%c[default]Then the huckster alone in the landfill was put in, the jitter is rare.",
+"%c[default]And what kind of bitch have I gotten the whole hack out of the hiding place? The one that's on DT, I know that you read this, come and sort it out one by one!",
+"%c[default]Ha, loshya how many rushing through the Landfill lately.",
+"%c[255,160,160,160]Potap\\n%c[default]I remind all stalkers that you need to subscribe to the newsletter regarding the emissions in the Zone, the Infa is always up-to-date and accurate.",
+"%c[255,160,160,160]Gunpowder\\n%c[default]Sanya, can you see it, too? And what is that dolboey there the third day already at the bushes is rubbing, can shmalnut on it?",
+"%c[default]The beast has multiplied - it's just fucked up, not breathing in. Where does" Debt "look?",
+"%c[default]The people, no one in the red forest did not go? One of these days I was going to, I think it's decent to naharabitsya there,"
+"%c[default]Devil's trunk, it's clinching again! And it's after the hands of a debt technician in the agro industry! Well, what about the liquor itself, do not go to him.",
+"%c[default]Che for the fufels near the farm are sitting there, the equipment is steep, not the mercenaries of tea?" Even and approach the ochkuyu. ",
+"%c[default]To all Dark stalkers! We together with the monolith plan one operation ... Everyone at 23:00 be on the base !?",
+"%c[default]SHCHas such a fucking thing found on such a little poobote, you can just fucking suck!",
+"%c[default]In the Moor today it's not easy.Moreover, it's possible to get bogged down to the ears, so still the beast somehow climbs out of the ground, digs from the ground, bitches.",
+"%c[default]nobody writes to the Colonel ... No one is waiting for the Colonel ..."
+"%c[default]Well, how many already before the base, these chas will run when the"Duty\"already sorts? Well, fuck you, I go to those who keep the word.",
+"%c[255,160,160,160]Zhurov\\n%c[default]So, punks - it's enough for my guys to provoke at the perimeter. See, soon our patience will burst and we'll cover the whole village with your mortars.",
+"%c[default]Hit, I thought ... hunting for mutants, new beautiful things I'll see ... and what in the end? I'm fucking here at the checkpoint and I do not fucking do it! Fucking!",
+"%c[255,160,160,160]Серёга\\n%c[default]Who has the tools for rough, thin and calibration - drag me.",
+"%c[default]Vladimirsky central, wind north ...",
+"%c[255,160,160,160]Ashot\\n%c[default]Attention sweeties! I can offer you wonderful products at the lowest prices. I'm looking for Jupiter,"
+"%c[default]It got me, how I got all ... creature ... stalkers these bastards, anomalies are nothings!",
+"%c[default]The meat would be smoked now ... but pancake is a meat! I'm ready to eat this stalker's sausage!",
+"%c[255,160,160,160]Kuznetsov\\n%c[default]Kombat, it's good to eat vodka, raid in 3 minutes! Prepare the squad and move forward!",
+"%c[255,160,160,160]Kuznetsov\\n%c[default]This morning there were no 5 rank-and-file soldiers on the drill, the bitches were deserting, who will find these nedolosks and bring them back, I will be grateful.",
+"%c[default]So to say as an advertisement Do you want to be a real kid in the Zone? To bend a loshar and shake a hub? Live like cheese in oil? Join the bandits! The real topic is only with us.",
+"%c[255,160,160,160]Owl\\n%c[default]I buy various PDAs with any valuable information, carry everything to me, do not offend money",
+"%c[255,160,160,160]Shrewd\\n%c[default]Stalkers, I accept various PDAs with any valuable information, carry everything to me, do not offend money",
+"%c[255,160,160,160]Transparent\\n%c[default]This is the boys who are schA in the raids, if you take off all the pdaaks from the corpses, drag them to me, we'll agree on the bubble.",
+"%c[255,160,160,160]Transparent\\n%c[default]The boys, if you find any set of tools, drag me to it!" And then the goalkeeper is full. ",
+"%c[255,160,160,160]Yoga\\n%c[default]Brother, there is a work, you have to remove the devil of one, please contact me!",
+"%c[255,160,160,160]Miserable\\n%c[default]I buy various PDAs with any valuable information, carry everything to me, do not offend money",
+"%c[255,160,160,160]Petrenko\\n%c[default]There is work for free stalkers, payment is appropriate.",
+"%c[255,160,160,160]Gromov\\n%c[default]This is the most ... I need tools, drag me if you find something suitable.",
+"%c[255,160,160,160]Hog\\n%c[default]I need various tools, those mercenaries who are not particularly busy, ask me to help with this case, the payment will be decent.",
+"%c[255,160,160,160]Peregrine Falcons\\n%c[default]Die, filth.",
+"%c[255,160,160,160]Sidorovich\\n%c[default]There is work, both for beginners and experienced, the payment is normal, heh.",
+"%c[255,160,160,160]Fan\\n%c[default]Need help in sweeping the camps of monsters, contact me.",
+"%c[255,160,160,160]Beard\\n%c[default]There is a work for those who wish, come to Skadovsk.",
+"%c[255,160,160,160]Havana\\n%c[default]Hola ese! There is a work for dudes who wander around the outskirts of Jupiter! Come to the station of Janov!",
+"%c[default]Colonel, a helicopter with an experimental suppression setting fell in the Radar area an hour ago. Immediately, I repeat, immediately send the group to the crash site." I do not care about the means, you will be provided with all the necessary equipment. ",
+"%c[default]Penetrated to the south tunnel of the object, it goes down, it will soon go down under the ground, the Red Forest is visible from the windows.\n%c[default]The radio is lost. text transfer, like you do now.\\n%c[default]Ok, yes, close the channel, we do not need extra listeners, right? ",
+"%c[default]Muzhiks, weird things are happening in the Zone ... have we heard talks about experiments and operations someday?\\n%c[default]Yeah. And it's not clear who it is ... what's going on there? Some experiments, operations ... and we do not know and only a part leaks out ...\\n%c[default]I think you better not know everything.
+"%c[255,160,160,160]Informer\\n%c[default]If you need infa, go to the Bar.",
+"%c[default]Some people do not want to learn anything, they do not want to learn anything, they see enough of the American kin or get rid of the roof from greed? You tell him about the anomalies, he tells you about the harbor - they do not want to think about anything except the grandmother, . ",
+"%c[default]Guys, Th do not you know when the release will be?",
+"%c[255,160,160,160]Sakharov\\n%c[default]Comrade general, could you send me another five of your men? We'll agree on the price.",
+"%c[default]I'll give you the exoskeleton for free! And now when you've paid attention, I'll sell the artifact Wyvert, the price is negotiable.",
+"%c[default]Have you heard that the sentinel has shot himself again? Something I look like on guard.",
+"%c[255,160,160,160]Yar\\n%c[default]Hey, Ashot, how's Yanov getting on with you? He's already gotten everything ready, fucking fighter.",
+"%c[default]I've been driving this zone and why did I just get here? Money ... yes, we have fattened fagots in the government and they do not blow a dick, and we are here obliged for pathetic crumbs.",
+"%c[default]That would be shcha koserylyh which poke, and then boring.",
+"%c[default]Zhurov, we do not have free hands, we need you and a couple of guys to prepare a couple of bodies for burial. They will be delivered to the South with a two-hundred cargo in a couple of days.\\n%c[255,160,160,160]Zhurov\\n%c[default]I will help with pleasure. ",
+"%c[default]Heard, some technology in the Zone still works? It seems that you can find such a sample in the cemetery and you can drive it without gasoline!" From miracles. ",
+"%c[255,160,160,160]Voronin\\n%c[default]Aspirin, to be near me at three o'clock, dealing with the illegal sale of government property, in particular medicines, to you.\\n%c[255,160,160,160]Petrenko\\n%c[default]Comrade General, he does not sell anything, honestly, and I do not sell anything either.\\n%c[255,160,160,160]Voronin\\n%c[default]And I'll talk with you later. ",
+"%c[255,160,160,160]Kitsenko\\n%c[default]PSS, where can I get some smoke?"
+}
+
+local death_fake_news ={
+--[[
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky died, Cordon, elect.\\n%c[255,160,160,160]Anonymus\\n%c[default]Heard? Time to hike. this is a good sign! ",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Wild Territory, meat grinder.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Dungeons Agroprom, poltergeist.\\n%c[255,160,160,160]Anonymus\\n%c[default]Have you heard? Well, it's good to drink vodka, It's time to earn money. Who's with me? ",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky Died, Dump, Mosquito Lash.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Sarcophagus, trampoline.\\n%c[255,160,160,160]Anonymus\\n%c[default]Have you heard? Well, it's good to drink vodka, it's time Who's with me? ",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Dark Valley, pseudo dog.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Pripyat, gravyconcentrate.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky, ChNPP, carousel perished.\\n%c[255,160,160,160]Anonymus\\n%c[default]Heard? It's time to hike. this is a good sign! ",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Army Depots, bloodsucker.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Dead City, bullet wound.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Red Forest, Carousel.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, anomaly Talon.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, Burer.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Zaton, the controller.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Zaton, bloodsucker.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, an anomaly of Circus.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, Chemical Factory.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky, Zaton, flesh died.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky, Zaton, Chimera Killed.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, an anomaly of the iron forest.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Zaton, the anomaly of pine nuts.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Jupiter, anomaly Concrete bath.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Jupiter, bloodsucker.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Jupiter, Burer.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Jupiter, a chimera.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Jupiter, the anomaly of the ashes.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, The outskirts of Pripyat, the bloodsucker.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Outskirts of Pripyat, an abnormal vine.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Pripyat outskirts, bullet wound.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, Generators, an anomalous canyon.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Cemetery Technique, Bloodsucker.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Cemetery Technique, Dog.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Cemetery of Engineering, springboard.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, unknown, chemical poisoning.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, unknown, burer.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, unknown, snork.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, unknown, the cause of death is unknown.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky, Radar, the cause of death is unknown.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky was killed, the center of Pripyat, the cause of death is unknown.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Killed Yuri Semetsky, Yantar, the cause of death is unknown.",
+"%c[255,160,160,160]Fatal Error\\n%c[default]Yuri Semetsky, Marsh, the cause of death is unknown."
+]]--
+""
+}
+
+local duty_fake_news ={
+"%c[255,255,1,1]\"Duty\"\\n%c[default]We have problems with the equipment, during a couple of days, it can mess with the base and quad.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]The ether is not hammered, your feats for the murder of the left-wing guys are of no interest to anyone.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]We go to a private channel, download a protection update.There will be a leak of information due to the fact that you were too lazy to patch - I'll choke.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Information on raids on mutants and other operations - in a private channel." There was not enough for a leak. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, enter into" Debt. "Protect the planet from the infection of the Zone!",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers for a raid on snork, payment is appropriate.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers for the raid on mutants, the payment is appropriate.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers to raid the mutant offspring." The payment is appropriate. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Petrenko, well, answer, fuck your mother! What do you have with the private channel ?!" Again fell? ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]All free quads! At the dump bandits have again become active, clean up the sector.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]New WDC arrives at the warehouse, wanting a lot, hurry.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Petrenko, this is Captain Sorokin from the dump, where are our ammunition?",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Watching some black flying smoke on the Agroprom, waiting for instructions." Intelligence. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]So, guys. It was informed that the group of standards had settled on the approaches to the central MBU,
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Says sergeant Saikin, fifth quartet, I appeal to those people who yesterday committed hooliganism in the territory of the Debt, on the Agroprom. again you will throw empty bottles in the room to Petrenko - shot on the spot. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]To all stalkers who can render all possible assistance in sweeping the territory on approaches to the Agroprom from mutants, we will be very grateful.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Attention fighters of all quads: on arrival at the base immediately appear at the command post for instructions on operating new models of equipment.",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, enter into "Duty" territory! Let's cure our Earth from a deadly disease called Zone!",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Grouping Debt informs about the passage of the set in its ranks, All those wishing to come to the Debt database on the Agroprom.With them, have weapons, equipment and supplies provisions for three days.The presence of documents is not necessary, good physical preparation is desirable. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Grouping Debt needs experienced and brave fighters to replenish its ranks and destroy mutants .All those who joined our ranks, we have on the base a special price policy will be carried out.The former bandits - do not apply! ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Petrenko, reception! Checking the connection. I have a radio station broke, I'm writing to the general channel." A soldier with a repair kit went to the place where the day before yesterday we were beating wild boars. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Once again we warn you, Anarchy.If you do not stop sending to the personal PDA of General Voronin vile insults, we'll just visit you on the database Do you think we do not know whose hands it is? ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, remember: anarchy is chaos, destruction and death. Join the Duty! Maintain order and purity in the Zone!",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Voronin says that he needs a detailed map of the territory where now the base of the IG, there is a bar there," 100 X-rays "is called. he planned this time? Is he not planning to capture the bar? ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Attention all quads located in the E-15 square or nearby! Immediately confirm the presence of especially dangerous mutants in this region! Information came from an unchecked source. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]This is Captain Simonov.I report about the discovery of a strange kind of mutant .I watched an unusual black chimera with my quad an hour ago in the B-15 square. Before our very eyes, the mutant attacked the controller and destroyed it with a few powerful blows.Our presence was not found by the beast, I await instructions for the subsequent actions. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]This is Petrenko., Semyonov, confirm the information that the 10th quadro did not appear yesterday after the raid. I think I found something that from them remains ... ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Attention all quads located in the H-23 square or nearby! Immediately confirm the presence of especially dangerous mutants in this region! Information came from an unchecked source. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, join in! Our duty is to protect and rid the world of invasion of mutants and abnormal contagion."
+}
+
+local freedom_fake_news ={
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Long live\"Freedom\"Let's make peace with the Zone better!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Enter\"Freedom\"! Stop the Zone Capture!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Today Agroprom, tomorrow the Verkhovna Rada, and the day after tomorrow the whole world!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Stalker, do not you like the Zone? Did you forget that she gave you money and a purpose in life? You want to work as an office clerk for kopecks after all this is over? Enter\"Freedom\", do not let them take from you the last thing you value, do not let them take your life away. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Something in my mood is creative today! And I'm expressing myself with me by hanging the debtors on branches to express!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]So, I can not fuck you up in glasses, I'll fuck you if I hear something like that again.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]We need experienced stalkers to raid artifacts.
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Singles! Says\"Freedom\"! If you want to live in normal conditions in the Zone and without army obligations, as in"Duty\"- move to us! Always welcome new faces.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]All of us - it's urgent to go into the private channel, update the protection, then do not complain that you learned about your raid\"Duty\". ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]If you are on a job, all the information is in a private channel." This is not only our read, do not palish. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]The data on the movement of the standards at once we throw in private, it's really important.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Dudes, calculate, grass, sho near Tramplin - it's sticking out hard! Ha-ha-ha !!!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Hey-hei-hey, Rasta! The most succulent and classy jambs only here! Join free and put on the order!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]New arrivals arrived at the warehouse G36. There are many who want to, hurry ..."
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Warning, most recently, our fighters were attacked by DEBTORS dressed in gopnik. Be careful, smacks of provocation ... Not that they knew about our alliance with the bandits? ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Downloading a new firmware for free so that there are fewer flights.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Leshy, where are you fucking? Talk is, go into the building.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Something dead war veterans on the Amber lake began to come across often.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Today, they destroyed a large group of zombies on Amber, in the shops, perhaps there still is.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Well yesterday they were examined by these researchers, they will know how to climb across the father.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Greetings, stalker, It's me - your Freedom! Come to me anytime. My address is Dark Valley, on the way straight , at the fork - to the left. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]All volunteers who entered\"Freedom\"will be given free of charge the newest survival kit in the Zone, the latest modern Western weapons, plus 2500 rubles lift! ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Singles! Says\"Freedom\"! Why do you deliberately limit yourself living in the barracks, performing excessive orders and marching under the commands of staff rats "Join us and you will be able to penetrate with our troops to the most treasured places of the Zone, feeling the real breath of Freedom!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Mishka, hello, I wanted to tell you yesterday, I forgot everything. In short, near the farm, I saw a group of some binoculars, then suspicious jumble.So give it to Lukash, so do not forget, otherwise you will smoke like a locomotive and you will score for everything. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]This is a miser. I was brought a small batch of American erotic magazines ...\\n%c[255,160,160,160]\"Anonymously\"\\n%c[default]Yes, who needs them here, down? All for a long time already from the big earth their punches are imported on hard. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Well, for dinner, shall we go or what?",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Chimera saw something black tonight, it's getting really dirty." "This is from what in general, who will explain?",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]A miser, where are you dealing with new podstvilniki, why do not I watch them in the warehouse?",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Loki, come with me on one frequency, an important conversation is." Lukash. ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Max, this is a Scraper. Supplies will arrive in a week, while you keep with the guys there, all the best, mood, health.",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Maine, would you like a friendly company, sincere conversations and a helping hand in campaigns? Join us, become free!"
+}
+
+local military_fake_news ={
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]All military men have an urgent need to get in touch! The general fee on the channel.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Sappers attention, you need to lay a few more mines in the square e3_16",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Citizens, Zone is deadly dangerous! We do not protect the Zone from you, but you from the Zone! Do not endanger your lives, do not try to enter the protected territory . ",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]The Security Service of Ukraine calls for the cooperation of all good and conscious citizens, report to us about all cases of stalkeries known to you, only with your help can we defeat this ugly phenomenon!",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]All military men in the area of ??the Dark Hollow and cordon will prepare and go to the sewed channel! This is an order!",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Base, this is the Owl's calculation, with the coding problem, so we throw off a message here, land in Limansk, in the construction site I consider impossible, large concentrations of enemy forces , 8 RPGs, 5 snipers and 4 with unknown weapons, we can not tell our coordinates, the enemies are also reading the general channel, what are the directions?\\n%c[default]The owl understood you, now listen to me, immediately return to the Red Forest, regroup with the Korshun and then decide. ",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]The base, this is the Delta squad, we took the entrance to the lab in the Dark Valley, what are the orders?\\n%c[default]Your mother Go to the closed channel! ",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Warning: When trying to cross the perimeter, the soldiers guarding it have the right to open fire on you without warning.Do not test fate and do not break the law.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]I ask the helicopter to square a1_6",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Radio frequencies in the square a4_4 are muffled, please report from other places, nearby the anomalous zone.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Kuznetsov, tomorrow you will be checked by two observers of the SBU.Prepare them a reception.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Contractors and military men - if anyone in one of the raids discovers the wreckage of a fallen helicopter, please grab an airborne recorder and send it to Kuznetsov.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Kestrel, I'm Peony - can you answer? No radio signal.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Guys, do not shit in the ravine, there we burned a box yesterday - some rabid bandits settled.",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]I want to strengthen the north passage, according to order # 231. When will the armor be sent?",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]I request mortar shelling of the square e2_12.\\n%c[255,160,160,160]\"Anonymously\"\\n%c[default]! ",
+"%c[255,160,160,160]\"Military stalkers\"\\n%c[default]Kuznetsov, immediately get in touch, you are waiting in the office number 3."
+}
+
+local ecolog_fake_news ={
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Newcomers to Yantar military to contact me, Professor Sakharov.",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Professor Ozersky, contact me immediately, it's about your recent developments.",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]This is Professor Herman. We have been waiting for results for two days to investigate variable psi radiation from Professor Sakharov, but he refuses to contact us. What does it mean?",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]The Militarized Scientific Research Groups remind military stalkers that the" Sova "class overalls will not provide you with adequate protection against abnormal effects. SSP\".",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Request the helicopter to the central MBU, square y6_4.",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]A burst of variable psi radiation in the square y2_4 is fixed, be extremely cautious.",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]The Militarized Scientific Research Groups remind all unregistered persons in the Abnormal Zone territory that you can at any time surrender to one of the Mobile Bunkers of Scientists. you will not be provided with the necessary medical assistance and shipment to the SBU at the earliest opportunity. ",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Northern MBU, how much should we expect from you abnormal samples for research? Stop organizing activities, quickly!",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Warning, the gas leak unknown in the square b41 has just been detected, take appropriate measures.",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]Dear soldiers and unrecognized persons! The Militarized Scientific Research Groups and the Scientific Research Institute of the Chernobyl Anomalous Zone want to remind you that vodka does not contribute to the excretion of radionuclides, use anti-radiation drugs. ",
+"%c[255,160,160,160]\"Scientific base\"\\n%c[default]If you are heavily weighted, the world begins to lose its colors, and the icteric veil appears in your eyes - try to leave this zone as soon as possible. They fell under the direct influence of the variable field of Psi-radiation! "
+}
+
+local icons = {
+"ecolog_fake_news_icon",
+"isg_fake_news_icon"
+}
+
+	local rnd = math.random(1,10)
+	if rnd == 1 then
+	send_tip(duty_fake_news[math.random(#duty_fake_news)],"duty_fake_news_icon")
+	elseif rnd == 2 then
+	send_tip(freedom_fake_news[math.random(#freedom_fake_news)],"freedom_fake_news_icon")
+	elseif rnd == 3 then
+	send_tip(military_fake_news[math.random(#military_fake_news)],"military_fake_news_icon")
+	elseif rnd == 4 then
+	send_tip(ecolog_fake_news[math.random(#ecolog_fake_news)],icons[math.random(#icons)])
+	--elseif rnd == 5 then
+	--send_tip(death_fake_news[math.random(#death_fake_news)],"death_fake_news_icon")
+	else
+	send_tip(spam[math.random(#spam)],"tourist")
+	end
+end
+
+function sunset_news()
+local time_morn ={ 
+"Dawn is beautiful, it's like in Sevastopol and not here!",
+"Oh, and it's beautiful all the same here!",
+"And at such moments of the morning I always remember my childhood." It's your village, you'll get up so early and you'll see the game of shadow and light in your room, and all that ... unreal, magical or something. ",
+"Horror, not the morning.",
+"Ah, earlier in the morning I had very different things.",
+"I made bricks all night in the camp, terribly at night!",
+"Get up again, eeeh.",
+"All the night, the banderlogists were shouting, like their ... borers? Not, I remembered - the kinks",
+"Evening as if",
+"It's morning already, I'm just sitting in the subway.",
+"Guys, it's dawning ... it's beautiful like that.",
+"It's dawning ...",
+"Soon the dawn, there is no way out - trust the key and le-te-li!",
+"The people, it's here, dawns - I think we can already advance, there's not much for whom now we'll come across, not that at night.",
+"It's fresher, we're moving forward, now it's more or less safe.",
+"Guys, rise! Morning is already!",
+"Well, finally, it's morning, you can crawl out of the subway." The beast fucked the fucking beast.",
+"Finally, it's getting light, or I'm already tired of shaking with fear in the dark ... It's better to shiver in the light of day ... ",
+"Somebody hears me?" A group of our guys were gone last night, they should have returned to the morning from Agroprom. No, no, we're going to search in an hour. ",
+"Damn, who came up with the morning ... Today they've been drinking all night ... A miser, a bastard, he brought vodka again from somewhere ..." Freedom, "we sleep further ... raid on the Duty base will wait ... ",
+"Guys, you would see what a dawn is on Amber, it's something ... And it's scary and beautiful ... And snork corpses are so cool drifting in the sparkling lake in the morning sun ... Romance ...",
+"Guys, it's dawning ... it's beautiful like that.",
+"Guys, what a beauty, so I would have admired ...",
+"A new day is a new walk!"
+}
+
+local time_night ={ 
+"Hell, the sun is already coming, I do not have time to get to the camp, I already feel the creature is following me.",
+"So, quietly return to the camps, at night in the Zone is not safe!",
+"Sunset ... ah, still beautiful in the Zone sunsets.",
+"Tonight, the peak of the mutant activity on Yantar, and indeed in all sectors, everyone is staying in the camps.",
+"Guys, is anyone around? And it's a dark pancake, scary, and I do not see the road ..."
+"I heard that at night the buremers come to the surface, so it's better to sleep in the camp.",
+"Yes you went fucking with your hunt! In the night." On snorkov, the extremals are fucked. ",
+"Damn, it's dark like a nigger in the ass, the devil pulled me into the depths of the Zone to pop, now even before the camp would have come!",
+"Damn, guys, you like what you want, and I'm not going to go to the hood today." The night is coming ... "
+"No, I'm not going anywhere." It is too late, soon everyone will piss off the rubbish ... "
+"So, the sunset is already ... come back quietly, now it is not safe in the Zone.",
+"Go, you guys, on the night of the bloodsuckers alone, morons, fucking.",
+"Here's a bitch, and I'm on guard at night.",
+"Well, you can shake the losers.",
+"Well, again, there will not be a rebound from zombare." Dushman, Th say? ",
+"Guys who are in the complex on the Agroprom - do not rub at the hatches of these sewers, they say snorkels climb from there at night,"
+"Well, who with me will go down a flock of pseudo-dogs?" And then I'm afraid to sleep in the tent at night, suddenly this dark water will ask again.It's better to wander somewhere ... "
+"The moon will soon rise, damn, I do not have time to get to the camp." "Guys, is anyone around?" I know, some creature is already following me. ",
+"All the attention! The scientists report suspicious activity of mutants on Yantar this night." All stay in the camps. " ,
+"Guys, weird things happen at night ...\\nhe talks have ever heard?",
+"Yeah ... And it's not clear who it is ... what's going on there? \\nSome experiments, operations ... but we do not know and only a part is leaking out ..."
+"I think you'd better not know everything." "It'll be easier to sleep.",
+"Penetrated into the southern tunnel of the Object.\\nIt goes down, will soon descend to the ground. \\nFrom the windows you see dense thickets of a strange reddish hue ..\\nAlways quiet.",
+"With you, radio communication is lost, put the remote translator \\non the output or continue to transmit the text as you do now.",
+"Yes, close the channel, we do not need any extra listeners, do we?",
+"... [transmission error] \\n... close the tunnel, break into groups and scour the underground part of the Object. \\nKeep an ongoing connection.\\nWith silence from one of the departed groups - return to everyone.",
+"Falcon that ... \\n[transmission error] \\n... which can appear?\\nAll the reconnaissance group disappeared during the last descent.",
+"As for the protective measures, there is a \\n[transmission error] ... here, then ... [transmission error] ... it is not found. Do not go far. \\nThe point of no return is two hours. We are leaving.",
+"Ajax, immediately get in touch, I repeat, immediately. \\nWe have to leave in six minutes, until it starts.",
+"Subjects demonstrate remarkable ingenuity.\\nWhat do you think about this, Andrei Ilyich?",
+"Candide, our equipment behaves strangely ...\\nAll all dosimeters and sensors are silenced, and Sergei has a broken PDA ... \\n... then the connection stalls ...\\nWhat will be the orders?" ,
+"Colonel,\\nvertor with the experimental setting of suppression fell in the area of ??the square 87 hours ago. \\nSlowly, I repeat, immediately send the group to the crash site.\\nI do not care about the means .You will be provided with all the necessary equipment.",
+"Damn, guys, you like what you want, and I'm not going to go to the hood today." The night is coming ... "
+"No, I'm not going anywhere." It is too late, soon everyone will piss off the rubbish ... "
+"So, the sunset is already ... come back quietly, now it is not safe in the Zone.",
+"Go, you guys ... in the night ... on the bloodsuckers ... alone., Extremals, pancake.",
+"Well, who with me will go down a flock of pseudo-dogs?\\nAnd then I'm afraid at night in a tent to sleep, suddenly this ... \\ndark ...\\nvid again ask ...\\nIt's better to wander somewhere, something ... "
+"The moon will soon rise ... Damn, I do not have time to get to the camp ...\\nMuski have someone nearby? I feel that some creature is already following me.",
+"All attention!\\nThe scientists report suspicious activity of mutants on Amber this night.\\nAll stay in the camps."
+}   
+	if level.get_time_hours()>=6 and level.get_time_hours()<9 then 
+		db.actor:give_game_news("Message:", (time_morn[math.random(#time_morn)]), "ui_icon_vs_news_all", 0, 10000)
+		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+        elseif level.get_time_hours()>=19 and level.get_time_hours()<22 then 
+		db.actor:give_game_news("Message:", (time_night[math.random(#time_night)]), "ui_icon_vs_news_all", 0, 10000)
+		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	end 
+end

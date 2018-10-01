@@ -1,0 +1,555 @@
+--[[ Новости о приближающемся выбросе (с реальным указанием возможного времени)  от VanoSanturi адаптированные для СоС. Удаление: просто удалите файл zone_surge_news.script  ]]
+
+-----------------------------------------------Шлём сообщение...
+function send_tip(news_text, header, sender)
+local tips_icons = {
+	dolg     	= "ui_icon_vs_news_news_dolg",
+	freedom  	= "ui_icon_vs_news_news_svoboda",
+	army     	= "ui_icon_vs_news_news_voen_stalk",
+    killer   	= "ui_icon_vs_news_news_naim",
+    bandit   	= "ui_icon_vs_news_news_bandos",
+    csky   	    = "ui_icon_vs_news_news_csky",
+    ecolog   	= "ui_icon_vs_news_news_ecolog",	
+	deth	 	= "ui_icon_vs_news_deth",
+	all		    = "ui_icon_vs_news_all"
+}
+  if news_text==nil then return end
+  if header==nil then header=game.translate_string("st_tip") end
+
+ if sender == nil then
+  sender = "all"
+ end
+  local ui_sender = tips_icons[sender]
+  local text = "%c[default]"..news_text
+  db.actor:give_game_news(header, game.translate_string(text), ui_sender, 0, 7000)
+  xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+
+-------------------------------------------- определяем время начала Emissionа
+local SurgeText={", trouble incoming.",", expect a cataclysm.",", storm soon.",", waiting for trouble."}
+
+function surge_news()
+	local SM = surge_manager and surge_manager.SurgeManager
+if (atmosfear_options.config:r_value("atmosfear_current_parameters","opt_enable_blowout",2,1)==1) and (SM ~= nil and SM._delta ~= nil and not SM.started) then
+	local g_time = game.get_game_time()
+	local last_surge_time = SM and SM.last_surge_time or game.get_game_time()
+	local surge_start = SM and math.floor(SM._delta - g_time:diffSec(last_surge_time))
+	if math.random(0,4)<1 then
+	do_blow_news(surge_start,"Emission")
+	else
+	get_time_next_storm(surge_start)
+	SurgeText={", incoming emission.",", expect emission.",", emission soon.",", waiting emission."}
+        SendSurgeNews()	
+	end
+end
+end
+
+function psi_storm_news()  -- определяем время начала пси шторма
+	local psi_manager = psi_storm_manager and psi_storm_manager.PsiStormManager
+if (atmosfear_options.config:r_value("atmosfear_current_parameters","opt_enable_psi_storm",2,1)==1)  and (psi_manager ~= nil and psi_manager._delta ~= nil and not psi_manager.started) then
+	local g_time = game.get_game_time()
+	local last_psi_storm_time = psi_manager and psi_manager.last_psi_storm_time or game.get_game_time()
+	local psi_storm_start = psi_manager and math.floor(psi_manager._delta - g_time:diffSec(last_psi_storm_time)) or 0
+	if math.random(0,4)<1 then
+	do_blow_news(psi_storm_start,"psy-storm")
+	else
+	get_time_next_storm(psi_storm_start)
+	SurgeText={", incoming psy-storm.",", expect psy-storm.",", psy-storm soon.",", waiting psy-storm."}
+        SendSurgeNews()
+	end
+end
+end
+----------------------------------------------------------------------
+function get_time_next_surge(delta,time)
+SurgeText={", trouble incoming.",", expect a cataclysm.",", storm soon.",", waiting for trouble."}
+end   --защиthat from дятлов
+----------------------------------------------------------------------
+local day
+local status
+local d_surge
+local h_surge
+--Считаем время до выброса
+function get_time_next_storm(delta_time)
+	--delta_time -промежуток в секундах (игровых) до следующего выброса
+	-- считаю время до выброса в часах (игровых)
+	local delta_all = math.floor(delta_time/3600)
+	
+	--текущее время
+	local d_t = return_time(3)
+	local h_t = return_time(4)
+	
+	--считаю день и приблизительно час следующего выброса
+	if delta_all < 24 - h_t then
+		--Выброс произойдет в этот же день
+		d_surge = d_t
+		h_surge = h_t + delta_all
+		status=true
+		day="Сегодня."
+	elseif (delta_all - 24 + h_t) < 24 then
+		--выброс произойдет в течении следующих суток
+		d_surge = d_t + 1
+		h_surge = delta_all - 24 + h_t
+		status=true
+		day="tomorrow."
+	elseif (delta_all - 24 + h_t) < 48 then
+		--выброс произойдет более, чем через одни сутки
+		d_surge = d_t + 2
+		h_surge = delta_all - 48 + h_t
+		status=true
+		day="after tomorrow."
+	elseif (delta_all - 24 + h_t) < 72 then
+		--выброс произойдет более, чем через двое суток
+		d_surge = d_t + 3
+		h_surge = delta_all - 72 + h_t
+		status=true
+		day="in two days."
+	elseif (delta_all - 24 + h_t) < 96 then
+		--выброс произойдет более, чем через трое суток
+		d_surge = d_t + 4
+		h_surge = delta_all - 96 + h_t
+		status=true
+		day="in three days."
+	else
+		status=false
+	end
+end
+
+
+--Функция дает новость...
+function SendSurgeNews()
+
+local Senders ={
+"dolg",
+"army",
+"freedom",
+"stalker",
+"killer",
+"ecolog",
+"cs",
+"bandit"
+}	
+   if status then
+	local SurT = SurgeText[math.random(#SurgeText)]
+        local SndCom = Senders[math.random(#Senders)]  --Берем имя из thatблички.
+	local str_time_surge = set_str_time_surge(SndCom)	-- определяю время Emissionа
+
+if SndCom == "stalker" then
+local Community = {"Sakharov passed the information","I learned from scientists, on Jupiter","The Swamp Doctor called","Heard from Stalkers","Heard at the Bar","Sidorovich transferred","From the Forester came info"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "all"
+	local SnDer = "Shared channel:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "monolith" then
+local Community = {"O-Consciousness have given signal","Monolith said","Scientists from O-Consciousness handed over","O-Consciousness have given signal","Monolith said","Scientists from O-Consciousness handed over","Monolith had"}  --ржач
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "all"
+	local SnDer = "Monolith:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "army" then
+local Community = {"Sensors reveal","Devices give a wrong answer","Commander reported","Commander warned","latest intels from headquarters","Squad handed over","Listened to the negotiations of scientists"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "army"
+	local SnDer = "APU:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "killer" then
+local Community = {"Intel arrived","Here's the news","From reliable sources it is known","One Stalker handed over","Info has passed","I heard","Intercepted communications of scientists"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "killer"
+	local SnDer = "Mercenaries:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "ecolog" then
+local Community = {"Sensors give accurate readings","Devices have become brutalized","Indications on devices reveal","Attention! Devices are mad","Information came from Sakharov","Information came from Yantar","Stalkers! Attention"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "ecolog"
+	local SnDer = "Nitic:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "dolg" then
+local Community = {"Intercepted communications of scientists","Из шthatба пришла инфа","От Петренко Information came","Devices are mad","С Кордона Information came from Сидоровича","Квад from ЧАЭС пришёл","Инфа from ЧАЭС пришла"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "dolg"
+	local SnDer = "Duty:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "freedom" then
+local Community = {"Doc called, said","Borov said","Duty на агропроме трепались","Из достоверных источников известно","signal from Темной долины пришел","Лукаш handed over послание","Ребяthat, весточку принесли"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "freedom"
+	local SnDer = "Freedom:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "bandit" then
+local Community = {"Инфа со Свалки пришла","Йога накумекал","Братва from севера handed overа","Слушок в баре прошел","Ребяthat from лощины шепнули","Кореш инфу подогнал","Народ, I heard трёп в баре"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "bandit"
+	local SnDer = "bandit:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "zombied" then
+local Community = {"O Monolith, give us an emission","Emission is near","О Monolith, give us our psi storm","Emission arrives","О Monolith, show your anger"} --Пасхалка для прикола...
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "deth"
+	local SnDer = "Zombies:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+
+elseif SndCom == "cs" then
+local Community = {"Sensors give accurate readings","Devices have become brutalized","Indications on devices reveal","Attention! Devices are mad","Information came from Базы","Information came from Borov","Stalkers! Attention"}
+	local SurWord = Community[math.random(#Community)]
+	local Icon = "csky"
+	local SnDer = "Clear Sky:"
+	local news_text = "%c[255,160,160,160]".."\\n%c[default]"..SurWord..SurT.." "..day.." "..str_time_surge
+	send_tip(news_text,SnDer,Icon)
+      end
+   end
+end
+
+--Уточнение времени выброса до часов.
+function set_str_time_surge(grouping)
+	local str_time_surge_table
+	if grouping == "dolg" or grouping == "army" then
+		if h_surge >= 23 or h_surge < 4 then
+			str_time_surge_table =
+			{
+			{str = "Estimated time from 23:00 to 4:00"},
+			{str = "Effective status from 23:00 to 4:00"},
+			{str = "Hide youself from 23:00 to 4:00"},
+			{str = "Stay in shelter from 23:00. until 4:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 4 and h_surge < 8  then
+			str_time_surge_table =
+			{
+			{str = "Estimated time from 4:00 to 8:00"},
+			{str = "Effective status from 4:00 to 8:00"},
+			{str = "Hide youself from 4:00 to 8:00"},
+			{str = "Stay in shelter from 4:00. until 8:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 8 and h_surge < 12  then
+			str_time_surge_table =
+			{
+			{str = "Estimated time from 8:00 to 12:00"},
+			{str = "Effective status from 8:00 to 12:00"},
+			{str = "Hide youself from 8:00 to 12:00"},
+			{str = "Stay in shelter from 8:00. until 12:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 12 and h_surge < 16  then
+			str_time_surge_table =
+			{
+			{str = "Estimated time from 12:00 to 16:00"},
+			{str = "Effective status from 12:00 to 16:00"},
+			{str = "Hide youself from 12:00 to 16:00"},
+			{str = "Stay in shelter from 12:00. until 16:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 16 and h_surge < 19  then
+			str_time_surge_table =
+			{
+			{str = "Estimated time from 16:00 to 19:00"},
+			{str = "Effective status from 16:00 to 19:00"},
+			{str = "Hide youself from 16:00 to 19:00"},
+			{str = "Stay in shelter from 16:00. until 19:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 19 and h_surge < 23  then
+			str_time_surge_table =
+			{
+			{str = "estimated time from 19:00 to 23:00"},
+			{str = "Effective status from 19:00 to 23:00"},
+			{str = "Hide youself from 19:00 to 23:00"},
+			{str = "Stay in shelter from 19:00. until 23:00"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		end
+	elseif grouping == "freedom" or grouping == "stalker" or grouping == "killer" or grouping == "monolith" then	
+		if h_surge >=23 or h_surge < 4 then
+			str_time_surge_table =
+			{
+			{str = "Yet night incoming"},
+			{str = "At night."},
+			{str = "In short, sleep it is not possible."},
+			{str = "At night disfigure incoming"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 4 and h_surge < 8  then
+			str_time_surge_table =
+			{
+			{str = "The morning will begin"},
+			{str = "In the morning"},
+			{str = "In short, it's time to wake-up!"},
+			{str = "Wait at dawn"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 8 and h_surge < 12  then
+			str_time_surge_table =
+			{
+			{str = "Before lunch, exactly."},
+			{str = "Sometime by noon"},
+			{str = "In short, will not have time to eat dinner."},
+			{str = "Wait to midday"}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 12 and h_surge < 16  then
+			str_time_surge_table =
+			{
+			{str = "Instead of an afternoon nap."},
+			{str = "Afternoon."},
+			{str = "In short, it will not work after dinner"},
+			{str = "In the afternoon. In the evening."}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 16 and h_surge < 19  then
+			str_time_surge_table =
+			{
+			{str = "In the evening. Exactly."},
+			{str = "After noon.In the evening."},
+			{str = "As soon as the evening turns."},
+			{str = "But to three days, go boldly."}
+			}
+			return str_time_surge_table[math.random (4)].str
+		elseif h_surge >= 19 and h_surge < 23  then
+			str_time_surge_table =
+			{
+			{str = "When sunset will begin"},
+			{str = "In the evening dawn."},
+			{str = "As soon as the candles burns"},
+			{str = "Closer to midnight."}
+			}
+			return str_time_surge_table[math.random (4)].str
+		end	
+	elseif grouping == "ecolog" or grouping == "cs" then
+		if h_surge >=23 or h_surge < 4 then
+			str_time_surge_table =
+			{
+			{str = "The highest probability from 23:00 to 4:00"},
+			{str = "Wait in the range from 23:00 to 4:00"},
+			{str = "Computer prevision: from 23:00 to 4:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 4 and h_surge < 8  then
+			str_time_surge_table =
+			{
+			{str = "The highest probability 4:00 to 8:00"},
+			{str = "Wait in the range from 4:00 to 8:00"},
+			{str = "Computer prevision: from 4:00 to 8:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 8 and h_surge < 12  then
+			str_time_surge_table =
+			{
+			{str = "The highest probability 8:00 to 12:00"},
+			{str = "Wait in the range from 8:00 to 12:00"},
+			{str = "Computer prevision: from 8:00. until 12:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 12 and h_surge < 16  then
+			str_time_surge_table =
+			{
+			{str = "The highest probability 12:00 to 16:00"},
+			{str = "Wait in the range from 12:00 to 16:00"},
+			{str = "Computer prevision: from 12:00. until 16:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 16 and h_surge < 19  then
+			str_time_surge_table =
+			{
+			{str = "The highest probability from 16:00 to 19:00"},
+			{str = "Wait in the range from 16:00 to 19:00"},
+			{str = "Computer prevision: from 16:00. until 19:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 19 and h_surge < 23  then
+			str_time_surge_table =
+			{
+			{str = "The highest probability from 19:00 to 23:00"},
+			{str = "Wait in the range from 19:00 to 23:00"},
+			{str = "Computer prevision: from 19:00. until 23:00"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		end
+	elseif grouping == "bandit" then	
+		if h_surge >=23 or h_surge < 4 then
+			str_time_surge_table =
+			{
+			{str = "Like, At night a delay will give."},
+			{str = "At night poking around."},
+			{str = "At night and wait."}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 4 and h_surge < 8  then
+			str_time_surge_table =
+			{
+			{str = "By utryanke, instead of stat gram."},
+			{str = "There is no time to reach for a sprint"},
+			{str = "Even the snot of the night to pick up do not have time."}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 8 and h_surge < 12  then
+			str_time_surge_table =
+			{
+			{str = "Since morning to lunch - its very time."},
+			{str = "In the afternoon it will be hot. to lunch."},
+			{str = "Since morning havchik shuffles, but you can not dine"}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 12 and h_surge < 16  then
+			str_time_surge_table =
+			{
+			{str = "Fucking now, not a quiet hour."},
+			{str = "Immediately after lunch, the age of will can not be seen!"},
+			{str = "After noon scruples. Although the evening without problems."}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 16 and h_surge < 19  then
+			str_time_surge_table =
+			{
+			{str = "In the evening zakachevryazhitsya."},
+			{str = "Before dinner - walk the flaw. But after four, at the bottom, kick."},
+			{str = "After lunch. In the evening the ears under the hat do not hold."}
+			}
+			return str_time_surge_table[math.random (3)].str
+		elseif h_surge >= 19 and h_surge < 23  then
+			str_time_surge_table =
+			{
+			{str = "By the evening and zagandurasit"},
+			{str = "In the evening. Tooth I give."},
+			{str = "In the darkness and get out."}
+			}
+			return str_time_surge_table[math.random (3)].str
+		end
+	elseif grouping == "zombied" then
+			str_time_surge_table =
+			{
+			{str = "Ma-a-acc-i-i-i ..."},
+			{str = "Mu-u-aaa ..."},
+			{str = "We were like you, and you will not be ka-a-to-we-s ..."}
+			}
+			return str_time_surge_table[math.random (3)].str
+	
+	end
+end
+
+--Возврат игрового времени
+function return_time(param)
+	local y,m,d,h,mint,sec,ms = game.get_game_time():get()
+	if param == 1 then
+		return y					--Год
+	elseif param == 2 then
+		return m					--Месяц
+	elseif param == 3 then
+		return d					--День
+	elseif param == 4 then
+		return h					--Час
+	elseif param == 5 then
+		return mint					--Минуты
+	elseif param == 6 then
+		return sec					--Секунды
+	elseif param == 7 then
+		return ms					--Милесекунды
+	end
+	return sec
+end
+
+----------------------------------------------------------------------
+
+
+function do_blow_news(delta_time,what)
+local blowout_templates = { 
+"Met with The Swamp Doctor... well, how Met with... he treated me a little from the bites of dogs of the blind, but it does not matter. What is important is that he is warned about Emission. Says that $what happens is $when, that to everyone in the burrows!",
+"I went to the ecologists in Yantar. They warned that according to their measurements, $what incoming $when.",
+"Saharov warned that $when $what incoming. You should look for a more comfortable shelter.",	
+"Herman warned that $when $what incoming. You should look for a more comfortable shelter.",	
+"Guys, I have already started off-kilter equipment. Likely, $what incoming $when.",
+"The beast started to move. soon $what. Most likely, $when.",
+"Look for shelter more reliable, $what - $when.",
+"Sakharov says that his equipment gives an approximate estimate of next $what - $when.",
+"When he was at Sakharov, he mentioned about $what. incoming $when.",
+"I was informed that $what - $when. I have reliable channels, so, most likely, that it is. Careful with that.",
+"А $what incoming $when. Exactly I say.",
+"trouble incoming, $what $when.",
+"expect a cataclysm, $what $when.",
+"storm soon, $what $when.",
+"waiting for trouble, $what $when.",
+}
+local diff = math.floor(delta_time/3600) -- Разница в игровых часах
+if diff < 1 then return end
+local stext = blowout_templates[math.random(table.getn(blowout_templates))]
+	local when = ""
+	if (diff < 2) then
+		when = "in an hour or two"
+	elseif (diff >= 2 and diff <=4) then	
+		when = "in a couple of hours"
+	elseif (diff > 4 and diff <=8) then	
+		when = "in 6 or 7 hours"
+	elseif (diff > 8) then
+		local m_h = return_time(4)
+		local n_h = m_h + diff
+		if (n_h >= 9 and n_h < 11) then when = "in the morning"
+		elseif (n_h >= 11 and n_h < 14) then when = "afternoon"
+		elseif (n_h >= 14 and n_h < 18) then when = "after lunch"
+		elseif (n_h >= 18 and n_h < 22) then when = "evening"
+		elseif (n_h >= 22 and n_h < 30) then when = "at night"
+		elseif (n_h >= 30 and n_h < 34) then when = "tomorrow In the morning"
+		elseif (n_h >= 34 and n_h < 38) then when = "tomorrow afternoon"
+		elseif (n_h >= 38 and n_h < 42) then when = "tomorrow after lunch"
+		elseif (n_h >= 42 and n_h < 46) then when = "tomorrow evening"
+		elseif (n_h >= 46 and n_h < 52) then when = "tomorrow At night"
+
+		elseif (n_h >= 52 and n_h < 72) then when = "tomorrow"
+		elseif (n_h >= 72 and n_h < 96) then when = "in two days"
+		elseif (n_h >= 96 and n_h < 120) then when = "in three days"
+		end 
+	end
+local m_s = ""
+local t = {["when"] = when,["what"]=what}
+	for key0, value in pairs(t) do
+		m_s = string.gsub(stext, "%$"..key0, value)
+		stext=m_s
+	end
+m_s = stext
+local Senders ={
+{"Duty", "dolg"},
+{"Freedom", "freedom"},
+{"Freestanding dealers", "all"},
+{"Mercenaries", "killer"}, 
+{"Clear Sky", "army"},
+{"bandit", "bandit"},
+}
+local n=math.random(1,6)
+local SnDer=Senders[n][1]
+local Icon=Senders[n][2]	
+send_tip(m_s,SnDer,Icon)
+
+end
+
+--[[
+Dinamic News COP 1.02 для SGM 2.2 + lasted Fix
+Автор: VanoSanturi (Vano_Santuri)  11.03.12
+-Повышена стабильность, уменьшена частота висов
+-из сендеров убраны квестовые и сидчие на базах нпс(те у которых есть story_id).)
+-большая детективация оружия(глушители и подствольники)
+-Добавлены сообщения о выстрелах и свидетелях при убийстве мутантов
+--Lotions from Vergas----------------------------
+--формирование динамических новостей
+-- о предстаящих выбросах
+Автор: Vergas
+--Переделка под вызов в любой момент, под любой день, а так же под реальных сталкеров -  VanoSanturi (Vano_Santuri)
+--Убрал работу с переменными, и апдейт - имхо это уже лишнее...
+--Так же сделал более менее адекватные фразы от группировок.
+--При использовании наработок и алгоритмов выдачи новостей не забывайте указывать авторов VanoSanturi (Vano_Santuri) & Vergas
+]]

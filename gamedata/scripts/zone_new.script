@@ -137,19 +137,19 @@ local pda_off = false
 local news_on = true
 
 connect_templates = {
-	"Связь восстановлена.",
-	"Приём сигнала возобновлён.",
-	"Подключение к сети...",
-	"Уровень сигнала восстановлен.",
-	"Подключение к серверу..."
+	"Connection is restored.",
+	"Reception signal resumed.",
+	"Connecting to network...",
+	"Signal level is restored.",
+	"Connecting to server..."
 }
 
 disconnect_templates = {
-	"Нет подключения к серверу.",
-	"Связь прервана.",
-	"Низкий уровень сигнала.",
-	"Прием невозможен, связь потеряна.",
-	"Сигнал отсутствует."
+	"There is no connection to the server.",
+	"Communication has been interrupted.",
+	"Low signal level.",
+	"Reception is impossible, communication is lost.",
+	"There is no signal."
 }
 
 function pda_status()
