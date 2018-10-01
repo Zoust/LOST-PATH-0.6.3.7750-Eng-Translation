@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="windows-1451" ?>
+<game_dialogs>
+		<dialog id="wolf_about_girl">
+		<dont_has_info>wolf_about_girl</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Hello, mentor! What interesting things can you tell?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hey. Yes, here we were alone in the camp. I did not go into details, I know that she needs help. If you want to help, do not be shy. Consider that she's new in the Zone and you'll have to deal with her very hard.</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+	<text>Hmm. sounds very interesting. I have nothing special to do, so come on.</text>
+				<give_info>wolf_about_girl</give_info> 
+				<next>4</next>
+            </phrase>
+			<phrase id="3">
+	<text>I do not want to bother with novices.</text>
+				<give_info>wolf_about_girl</give_info> 
+            </phrase>
+			<phrase id="4">
+	<text>In general, she lives somewhere in the camp. Coordinates, I'll throw you on the PDA.</text>
+				<action>lostpath_quest.start_wolf</action>
+            </phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_first_dialog">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<has_info>wolf_about_girl</has_info>
+		<dont_has_info>esc_girl_help_1</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Hello! You do not often meet new faces in our camp, let alone a girl.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hey. My name is Alice. I just came to the Zone.</text>
+				<next>2</next>
+            </phrase>
+			<phrase id="2">
+				<text>[...]</text>
+				<next>3</next>
+            </phrase>
+			<phrase id="3">
+	<text>I need help, at least for the first time. Will you help me?</text>
+				<next>4</next>
+            </phrase>
+			<phrase id="4">
+	<text>How can I help a person about whom I do not know anything?</text>
+				<next>5</next>
+            </phrase>
+			<phrase id="5">
+	<text>Oh, I'm sorry. Completely flew out of my head. In the Zone, I left myself and the reason I have is quite unusual. Here's how you think, from what people usually go to the Zone?</text>
+				<next>6</next>
+            </phrase>
+			<phrase id="6">
+	<text>Money to work, from the law to escape, well, or are looking for someone here. Have not you come here for these reasons?</text>
+				<next>7</next>
+            </phrase>
+			<phrase id="7">
+	<text>Just an adventure on the ass wanted. Haha. In fact, I read a lot about the Zone on the big earth and always wanted to get here. For me, the Zone is something unusual and interesting. I come from St. Petersburg, I just graduated from university and went here. I had to save money for passage in Zone and starting equipment.</text>
+				<next>8</next>
+            </phrase>
+			<phrase id="8">
+	<text>You paid for the passage?</text>
+				<next>9</next>
+            </phrase>
+			<phrase id="9">
+	<text>Well, of course. I'm not so experienced as to climb through the fence. Books are books, but I have no experience at all. I can only shoot and that's it. I only have a pass to the Zone, the PDA, the gun and everything.</text>
+				<next>10</next>
+            </phrase>
+			<phrase id="10">
+	<text>How come you're almost empty here?</text>
+				<next>12</next>
+            </phrase>
+			<phrase id="12">
+	<text>In fact, I had much more. I had accumulated enough money to buy Sidorovich. Before I entered the Zone, I agreed to pay for it, and at the checkpoint, I was billed that I did not have any money left. I escaped from the dogs and got here. I was greeted by the Wolf with the Fan, fed, watered, and the barrel was given.</text>
+				<next>13</next>
+            </phrase>
+			<phrase id="13">
+	<text>And how can I help you?</text>
+				<next>14</next>
+            </phrase>
+			<phrase id="14">
+	<text>I want to become a real stalker and to know the Zone as it is.</text>
+				<next>15</next>
+            </phrase>
+			<phrase id="15">
+	<text>Haha. Are you saying stalker? Oh well. Do you have any food at least?</text>
+				<next>16</next>
+            </phrase>
+			<phrase id="16">
+	<text>Nope.</text>
+				<next>17</next>
+            </phrase>
+			<phrase id="17">
+	<text>We'll have to get the food first. Together, any way to keep it interesting. the main thing listen to me and do not lag behind.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+				<action>lostpath_quest.girl_1</action>
+				<give_info>wolf_about_girl_done</give_info>
+				<give_info>esc_girl_help_1</give_info>
+				<next>18</next>
+            </phrase>
+			<phrase id="18">
+	<text>OK I understood you.</text>
+            </phrase>			
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_conserva">
+		<has_info>esc_girl_help_1</has_info>
+		<dont_has_info>wolf_search_eat_done</dont_has_info>
+		<precondition>lostpath_quest.has_conserva</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>Alice, I found a stew. Hold this to you for the first time.</text>
+				<action>lostpath_quest.transfer_conserva</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you.</text>
+                <give_info>wolf_search_eat_done</give_info>
+            </phrase>    
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_start_kit">
+		<has_info>wolf_search_eat_done</has_info>
+		<dont_has_info>esc_girl_start_kit</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Alice. We would get the equipment ready, so get ready and go for it.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>I'm ready, where shall we go?</text>
+                <action>lostpath_quest.girl_2</action>
+				<give_info>esc_girl_start_kit</give_info>
+				<next>2</next>
+            </phrase> 
+			<phrase id="2">
+	<text>I think we need to visit Sidorovich and ask him what is interesting.</text>
+				<next>3</next>
+            </phrase>	
+			<phrase id="3">
+	<text>OK, let's go.</text>
+            </phrase>		
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_sidor_dialog">
+		<has_info>esc_girl_start_kit</has_info>
+		<dont_has_info>esc_girl_sidor_start</dont_has_info>
+		<dont_has_info>esc_girl_sidor_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Hello, Sidorovich. Here such business. Do you have any interesting work for the company of beginners?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hello, stalker. What are you interested in?</text>
+				<next>2</next>
+            </phrase> 
+			<phrase id="2">
+	<text>We ourselves understand beginners, we do not have special equipment, so we need something simple to get hold of.</text>
+				<next>3</next>
+            </phrase>	
+			<phrase id="3">
+	<text>Oh well. There is one thing. I hope you can shoot. In general, at the checkpoint, the military has become so insolent that they constantly persecute us and keep us in the way. Constant raids on the village have already exhausted our guys. Can you force the military out of the roadblock?</text>
+				<next>4</next>
+			</phrase>	
+			<phrase id="4">
+	<text>Well, you gave, uncle. We have only two weapons out of weapons and that's all. Can you give us something?</text>
+				<next>5</next>
+            </phrase>
+			<phrase id="5">
+	<text>Hehe. You want trunks. Well, I have a couple of trunks that I do not mind. We will consider that this is your advance payment. Here you are.</text>
+				<next>6</next>
+            </phrase>	
+			<phrase id="6">
+	<text>That's how it would be right away. Thank you for the weapon, we undertake the task.</text>
+				<give_info>esc_girl_sidor_start</give_info>
+				<action>lostpath_quest.sidor_quest</action>
+            </phrase>	
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_sidor_wpn_2">
+		<has_info>esc_girl_sidor_start</has_info>
+		<dont_has_info>esc_girl_take_wpn_done</dont_has_info>
+		<precondition>lostpath_quest.has_sidor_wpn</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>Alisa, I talked with Sidorovich and he gave us a job. He gave us weapons, here, hold.</text>
+				<action>lostpath_quest.transfer_sidor_wpn</action>
+                <give_info>esc_girl_take_wpn_done</give_info>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you. And what is our job?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Sidorovich asked to clean the military checkpoint.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>What??? Have you seen how many of them? This is clearly suicide!</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+	<text>Such trunks will not be a problem. Especially since we can advance at night, then it will be easier for us to kill them. You do not want them to come here first and kill us?.</text>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+	<text>I understood you. I hope it's worth it.</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_sidor_kpp">
+		<has_info>esc_girl_take_wpn_done</has_info>
+		<has_info>esc_girl_sidor_start</has_info>
+		<dont_has_info>esc_girl_sidor_done</dont_has_info>
+		<precondition>xr_conditions.esc_kpp</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>We captured the checkpoint. Work is done.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Wow! Not bad for a gang of newbies. I am surprised.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>It was not difficult.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>As agreed, here is your fee.</text>
+				<action>lostpath_quest.tranfer_kpp</action>
+				<give_info>esc_girl_sidor_done</give_info>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+	<text>Thanks, is there any other work?</text>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+	<text>Of course.</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_sidor_kpp_nagrada">
+		<has_info>esc_girl_take_wpn_done</has_info>
+		<has_info>esc_girl_sidor_start</has_info>
+		<has_info>esc_girl_sidor_done</has_info>
+		<dont_has_info>esc_girl_take_kpp_nagrada</dont_has_info>
+		<precondition>lostpath_quest.has_kpp</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>Sidorovich paid us well, this will be enough for the first time.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>And how much did all this cost?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>He gave us two rucksacks, two sets of batteries and 10 thousand wooden. I think it will be fair to divide them equally.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>I support.</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+	<text>Here you are.</text>
+				<action>lostpath_quest.transfer_girl_kpp</action>
+				<action>lostpath_quest.girl_3</action>
+				<give_info>esc_girl_take_kpp_nagrada</give_info>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+	<text>Maybe he has something else?</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_sidor_smarts">
+		<has_info>esc_girl_take_kpp_nagrada</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_start</dont_has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>I about work.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Good. In general, I have a list of territories that need to be seized.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Well, send it to the flash-drive.</text>
+				<give_info>esc_girl_sidor_quest_1_start</give_info>
+				<action>lostpath_quest.sidor_quest_1</action>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>See you.</text>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_sidor_smart_1">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_1_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_1</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>We took over the territory. Work is done.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well done.</text>
+				<give_info>esc_girl_sidor_smart_1_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_sidor_smart_2">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_2_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_2</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>We took over the territory. Work is done.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well done.</text>
+				<give_info>esc_girl_sidor_smart_2_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_sidor_smart_3">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_3_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_3</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>We took over the territory. Work is done.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well done.</text>
+				<give_info>esc_girl_sidor_smart_3_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_sidor_smart_4">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_4_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_4</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>We took over the territory. Work is done.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well done.</text>
+				<give_info>esc_girl_sidor_smart_4_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_smarts">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_smarts_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Sidorovich gave us a new assignment. He asked to grab some list of territories.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>And what are they?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Swamp: Southern Farm, Dark Hollow: Refueling, Landfill: Depot, Army warehouses: Abandoned Farm.</text>
+				<give_info>esc_girl_smarts_done</give_info>
+				<next>3</next>
+            </phrase> 
+			<phrase id="3">
+	<text>Ok I got it.</text>
+				<action>lostpath_quest.go_to_matis</action>
+				<give_info>esc_girl_matis</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_smarts_help">
+		<has_info>esc_girl_smarts_done</has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Remind me the list of territories that you need to capture.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Swamp: Southern Farm, Dark Hollow: Refueling, Landfill: Depot, Army warehouses: Abandoned Farm.</text>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_detector">
+		<has_info>wolf_about_girl_done</has_info>
+		<dont_has_info>esc_girl_det</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Listen, Alice. Let's find you a detector. At least 'Response'.</text>
+				<give_info>esc_girl_det</give_info>
+				<action>lostpath_quest.girl_detector</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>And what is a detector?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>A device that allows you to collect artifacts.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_detector_1">
+		<precondition>lostpath_quest.has_detector_simple</precondition>
+		<dont_has_info>esc_girl_det1</dont_has_info>
+		<has_info>esc_girl_det</has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Listen, Alice. Here's a detector for you. It is better such than no.</text>
+				<give_info>esc_girl_det1</give_info>
+				<action>lostpath_quest.transfer_detector_simple</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you so much! I can now search for artifacts?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Yes. If you collect artifacts-let's go to the scientists to sell them.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_detector_2">
+		<precondition>lostpath_quest.has_detector_advanced</precondition>
+		<dont_has_info>esc_girl_det2</dont_has_info>
+		<has_info>esc_girl_det1</has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Alice, I found you a new detector. This is a bear '. Better than your 'Response' will be. Here, take it.</text>
+				<give_info>esc_girl_det2</give_info>
+				<action>lostpath_quest.transfer_detector_advanced</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you so much!</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>You're welcome.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_detector_3">
+		<precondition>lostpath_quest.has_detector_elite</precondition>
+		<dont_has_info>esc_girl_det3</dont_has_info>
+		<has_info>esc_girl_det2</has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>This is the best detector that stalkers can find. Veles is named after the ancient God. He'll come in handy.</text>
+				<give_info>esc_girl_det3</give_info>
+				<action>lostpath_quest.transfer_detector_elite</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you very much! I collect artifacts and we will be rich.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Oh, if all was so simple.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		<dialog id="esc_girl_matis_about">
+		<has_info>esc_girl_matis</has_info>
+		<dont_has_info>esc_girl_about_matis</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Listen, Alice. What is Mathis and how does he know you?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>I had a friend. In general, this is a long story.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>As far as I know we are in no hurry. Tell us, since we are one team.</text>
+				<next>3</next>
+            </phrase>  
+            <phrase id="3">
+	<text>Well, it's really not very interesting.</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+	<text>Alice, I'm waiting.</text>
+				<next>5</next>
+            </phrase>   
+            <phrase id="5">
+	<text>Okay. I had a friend Lyokha. We studied together at the institute. I learned about the Zone from him. He constantly spoke about her, very much wanted to go here. I discouraged him, they say it's dangerous, it's all Not known. He left without even saying goodbye. Only a couple of his notebooks with records remained, namely from there I found out with whom I had to agree, how much to pay and how to get here. While I was studying all the material, I decided to go here myself, but do not look for it, but just become a stalker. So I was inspired by his stories and records, that I decided to try myself in this role.</text>
+				<next>6</next>
+            </phrase>   
+            <phrase id="6">
+                <text>[...]</text>
+				<next>7</next>
+            </phrase>      
+            <phrase id="7">
+	<text>Half a year I saved money and decided to go here. It is very good that I met the Wolf and you. If it were not for you, you would surely be bent, for I am quite new here, and I do not shoot very well. In general, Lech asked him to go and help. He said something about a group of diggers. I did not fully understand his message, so let's go there quickly? Dell in general a dangerous place?</text>
+				<next>8</next>
+            </phrase>  
+            <phrase id="8">
+	<text>Well stalkers can rarely be found, there are only two parking lots. One is usually trying to keep the band its to shake the stalkers and grandmothers from them. But the mutants are full, you need to be more careful. Yes, and shotgun to get to make it easier to shoot them. Okay, good talking. Let's hit the road.</text>
+				<action>lostpath_quest.ds_matis</action>
+				<action>dialogs.break_dialog</action>
+				<give_info>esc_girl_about_matis</give_info>
+            </phrase>                     
+		</phrase_list>
+		</dialog>
+		
+		<!-- DARK SCAPE QUEST'S -->
+		
+		<!-- 
+		
+		Квестовая линейка Матиса.
+		Общая суть узнать кто такой Матис,
+		помочь ему по просьбе Алисы и получить
+		какой-то опыт и навык в игре.
+		
+		-->
+		
+		<dialog id="ds_matis_about">
+		<dont_has_info>ds_matis_about_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello, Alice and I heard your signal, you asked for help.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hey. I call Matisom, you can just Lech. I'm here Tipo for the elder. To get you a job, I need to make sure you're okay. Good?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>OK, let's try.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>So look. With you how? How is it with 'green' or do you have any skill?</text>
+				<next>31</next>
+				<next>32</next>
+			</phrase>
+			<phrase id="31">
+	<text>I'm quite 'green', let's all in detail.</text>
+				<give_info>quest_ds_matis_dogs_novice</give_info>
+				<next>41</next>
+			</phrase>
+			<phrase id="32">
+	<text>I have the skill, so let's do it all at once, without the extra chatter.</text>
+				<give_info>quest_ds_matis_dogs_master</give_info>
+				<next>42</next>
+			</phrase>
+			<phrase id="41">
+	<text>So look. This is our camp, you can find it in your PDA, there will be my mark and a mark of stalkers (because the camp belongs to us). I will give you assignments, only you'll remember, there are many anomalies around and animals are not friendly here. Be careful, we did not have one more corpse. If you need there will be help-you will run to the camp, they will help.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="42">
+	<text>Then without too much chatter, let's start.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Okay.</text>
+				<give_info>ds_matis_about_done</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_ak74_dialog">
+		<dont_has_info>quest_ds_ak74_done</dont_has_info>
+		<dont_has_info>quest_ds_ak74_give</dont_has_info>
+		<has_info>ds_matis_about_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>You said there was some sort of commission.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Yes, one of my people profukal his machine at pushka. He is very important to him, it's not far off, find it, huh? From the camp to the north you will go, you will find a push, there it lies.</text>
+				<give_info>quest_ds_ak74_give</give_info>
+				<action>dialogs_lostpath.give_ds_ak74_quest</action>
+				<action>dialogs_lostpath.spawn_ds_ak74u_q</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>And that's all for what you called us here?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>Sdurel or what? No, I just cannot send people out on a quest, since we are guarding the camp. You see that there are very few people here.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Okay, I'll look for your gun.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_ak74_done">
+		<dont_has_info>quest_ds_ak74_done</dont_has_info>
+		<has_info>quest_ds_ak74_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_ak74u_q</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<has_info>quest_has_ak74_ds</has_info>
+	<text>Well, the stench is there, so do not go yourself? Here you are. And for that the engraving on the machine?</text>
+				<action>dialogs_lostpath.transfer_ds_ak74u_q</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Yes for the old merits, somehow I'll tell later. Thank you very much for the machine gun.</text>
+				<give_info>quest_ds_ak74_done</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="ds_matis_dogs_dialog">
+		<has_info>quest_ds_ak74_done</has_info>
+		<dont_has_info>quest_ds_matis_dogs_done</dont_has_info>
+		<dont_has_info>quest_ds_matis_dogs_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>We brought you a machine, some more help is required from us?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Of course. Here's the trunk that you pulled out of the jerk. To the north of our camp a pack of dogs lives. It's not difficult, I want to test your shooting skill. the trunk does not lose, it is still useful to me.</text>
+				<give_info>quest_ds_matis_dogs_give</give_info>
+				<action>dialogs_lostpath.give_stvol</action>
+				<action>dialogs_lostpath.give_ds_dogs_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Oh, these checks. Okay, we'll be back soon.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="ds_matis_dogs_done">
+		<dont_has_info>quest_ds_matis_dogs_done</dont_has_info>
+		<has_info>quest_ds_matis_dogs_give</has_info>
+		<has_info>quest_ds_matis_dogs_death</has_info>
+		<precondition>dialogs_lostpath.has_ds_ak74u_q</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<has_info>quest_has_pm</has_info>
+	<text>the dogs are dead, and I stand before you. It was an uneven point and not difficult.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well done, it was for warming up. Here, keep the reward:</text>
+				<give_info>quest_ds_matis_dogs_done</give_info>
+				<action>dialogs_lostpath.transfer_ds_ak74u_q</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="ds_matis_boar_dialog">
+		<dont_has_info>quest_ds_matis_boar_give</dont_has_info>
+		<dont_has_info>quest_ds_matis_boar_done</dont_has_info>
+		<has_info>quest_ds_matis_dogs_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>What again you will think up on check? Again someone to poke?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Of course. Near the camp, boars organized a den, attacked at night. Kill them, please. You really excuse me for having so many checks, I want to prepare you for everything.</text>
+				<give_info>quest_ds_matis_boar_give</give_info>
+				<action>dialogs_lostpath.give_ds_boar_quest</action>
+				<action>dialogs_lostpath.give_shotgun</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Ha, it's easy.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="ds_matis_boar_done">
+		<dont_has_info>quest_ds_matis_boar_done</dont_has_info>
+		<has_info>quest_ds_matis_boar_give</has_info>
+		<has_info>quest_ds_matis_boar_death</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Boars will no longer bother your camp.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well done, leave a sawn-off bag for yourself.</text>
+				<give_info>quest_ds_matis_boar_done</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="dialog_matis_to_clesh">
+		<dont_has_info>matis_to_clesh</dont_has_info>
+		<has_info>quest_ds_matis_boar_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Listen, Matis. I started to run out of livestock here. Do you have something worthwhile or are we going?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Yes there is. Ticks needed hands free, ask him, he can find something for you.</text>
+				<give_info>matis_to_clesh</give_info>
+				<action>dialogs_lostpath.give_ds_search_clesh</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Good</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="clesh_hello">
+		<dont_has_info>clesh_start_dialog</dont_has_info>
+		<has_info>matis_to_clesh</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hey. Matis sent me to you. He said that you have a job.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hmm. Hey. Yes, I have a deal for you.</text>
+				<give_info>clesh_start_dialog</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="clesh_pda_dialog">
+		<dont_has_info>clesh_pda_give</dont_has_info>
+		<dont_has_info>clesh_pda_shulc</dont_has_info>
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_start_dialog</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>What do we have to do?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>A group of Diggers carried us very important information, but on the way they got on a pack of wild dogs and they were ripped. In general, I need these documents at any cost, you know? There is a bridge to the north, where they lay down. To hide far away they all did not have time, so look there and drag everything that you can find.</text>
+				<give_info>clesh_pda_give</give_info>
+				<action>dialogs_lostpath.give_ds_pda_quest</action>
+				<action>dialogs_lostpath.spawn_death_digger</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>I understood you.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_pda_to_shulc">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<dont_has_info>clesh_pda_shulc</dont_has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I found the PDA, but it's encrypted, I cannot see it.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>I see. Look, I myself cannot open it, we have this part Schultz. Go to him, let him look.</text>
+				<give_info>clesh_pda_shulc</give_info>
+				<give_info>ds_pda_back_lager</give_info>
+				<action>dialogs_lostpath.give_ds_pda_digger</action>
+				<action>dialogs_lostpath.give_ds_pda_shulc_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Okay</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_pda_shulc">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_pda_shulc</has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>Schultz, hello. I found the PDA, I sent it to you. Have a look, please.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>So so so. Agaaa. Just a second. I understood. Look, it says there that they hid everything on the bridge that we were carrying. So you look there. Tell Ticks about this and go look for it.</text>
+				<give_info>clesh_pda_shulc_info</give_info>
+				<action>dialogs_lostpath.give_ds_pda_digger_unlock</action>
+				<action>dialogs_lostpath.give_ds_pda_clesh_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Thank you.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_documents_dialog">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_pda_shulc_info</has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger_unlock</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>Mite, Schulz unblocked the PDAs, where it is indicated where to look for the documents that they carried to you. I'll go look for them, it's not far from the bridge. PDA take it to yourself.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, I'm waiting for you in the camp.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger_unlock</action>
+				<action>dialogs_lostpath.give_ds_documents_quest</action>
+				<action>dialogs_lostpath.spawn_ds_documents</action>
+				<give_info>clesh_pda_done</give_info>
+				<give_info>clesh_documents_give</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>See you.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="quest_ds_documents_done">
+		<dont_has_info>clesh_documents_done</dont_has_info>
+		<has_info>clesh_documents_give</has_info>
+		<has_info>clesh_pda_done</has_info>
+		<precondition>dialogs_lostpath.has_ds_documents</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>Mite, these are the documents that were there.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Give me a look. Interesting. Well-well, well.</text>
+				<action>dialogs_lostpath.transfer_ds_documents</action>
+				<give_info>clesh_documents_done</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Okay, I'll go.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="matis_end">
+		<has_info>clesh_documents_done</has_info>
+		<dont_has_info>matis_end</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Documents on hands, Alexey.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Thank you, buddy, I do not even know what we did without you. How do you know my name?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Well dak Alice told me. She said that you are old friends and very much asked to help you.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>It is very good that you still received a message from me. Yes, we studied together. I went to the Zone without her. As you see, I became a very experienced stalker and now I keep the whole Hollow. We are constantly attacked by bandits. Ah, if not that night. so sorry for the guys, they were still quite green.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>How did it happen that the rookies found themselves at night with documents far from the camp?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>I had a group of rookies, which we prepared for diggers. the barman asked these guys for me to work on a part-time job. Well, I did not refuse him, because in exchange he offered the very documents that you brought to me.</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>[...]</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>the route was clean and everything was calculated. But something happened and with them communication ceased, then the obituary in the ESS finally came. You were there, did not you notice something strange?</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+	<text>I saw the boys bites, similar to the work of a bloodsucker. One had a bullet.</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+	<text>Do you think it was a controller or a killer?</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+	<text>I can only assume that something like this exists. It's very strange that neither the flash-drive nor the documents were lost. Guys just killed.</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+	<text>So I cannot understand what's wrong. Well, do not bother the nonsense. Thank you for your help. Look after Alice, please. You cannot stay with us, it's dangerous.</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+	<text>I will do everything in my power.</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+	<text>Thank you friend, drop by the light.</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+	<text>See you.</text>
+				<give_info>matis_end</give_info>
+				<action>lostpath_quest.barman_sms</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="alisa_pered_barom">
+		<dont_has_info>alisa_pered_barom</dont_has_info>
+		<dont_has_info>bar_barman_done</dont_has_info>
+		<has_info>matis_end</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Did you see the message from Barkeep?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Did you get this message, too?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Yes, he wants to see us at the bar.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>Okay, let's go.</text>
+				<give_info>alisa_pered_barom</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<!-- 
+		
+		Квестовая линейка диггеров.
+		Немного информации о баре, бармене
+		и происходящем на свалке от местных ребят.
+		
+		-->
+		
+		<dialog id="shulc_zapravka">
+		<has_info>alisa_pered_barom</has_info>
+		<dont_has_info>shulc_zapravka</dont_has_info>
+		<dont_has_info>shulc_zapravka_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>Are there any special tasks?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Yes there is. Not far from our camp there is a camp of bandits. They often attack us at night. Can you get them out of there?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>I think it's not difficult.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>Okay, then I'll send you the coordinates.</text>
+				<action>lostpath_quest.ds_zapravka</action>
+				<give_info>shulc_zapravka</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		<dialog id="shulc_zapravka_nagrada">
+		<has_info>shulc_zapravka</has_info>
+		<dont_has_info>shulc_zapravka_done</dont_has_info>
+		<precondition>xr_conditions.ds_zapravka</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>Refueling is under our control.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well done. Good job. Here is your reward.</text>
+				<give_info>shulc_zapravka_done</give_info>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+	<text>Thank you.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+	<text>Hold on. At the Garbage there is a group of guys, their diggers are called. They need people to raid, they themselves are not particularly stretched, the green ones are still. Help them, maybe they'll give you an important information.</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+	<text>Thank you, Mite. Be.</text>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+	<text>Happily.</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		
+		<!-- BAR QUEST'S -->
+		
+		<!-- 
+		
+		Квестовая линейка Бармена.
+		Общая суть узнать про основные группировки,
+		помочь Бармену с перетаскиванием оборудования
+		и вступление в какой-нибудь клан.
+		
+		-->
+				
+		<dialog id="barman_jobs">
+		<dont_has_info>bar_barmans_done</dont_has_info>
+		<has_info>matis_end</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello, Barman. We received a message from you. What kind of work did you want to offer us?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>This is the territory of the Researchers. I want to check you, so you will need to go to them and prove yourself as a reliable person.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Okay, and who do I need?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>You need Goofy. This is a local trader of researchers. He sells mostly their equipment and some unique rags. I'll take off his coordinates, he's waiting for you.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Thank you. We will return to this conversation.</text>
+				<give_info>bar_barmans_done</give_info>
+				<action>lostpath_quest.gyfi</action>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		<dialog id="gyfi_start">
+		<has_info>bar_barmans_done</has_info>
+		<dont_has_info>bar_gyfi_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Goofy?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hello, stalker. You are on the basis of the IG.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Hmm. Hey. And what kind of clan are you?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>I will tell you about this later. While you have a great chance to prove yourself in this place.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>That sounds good. What do I need to do for this?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Go to Father Valerian. He's already waiting for you.</text>
+				<give_info>bar_gyfi_start</give_info>
+				<action>lostpath_quest.valerian</action>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		<dialog id="valerian_start">
+		<has_info>bar_gyfi_start</has_info>
+		<dont_has_info>bar_valerian_start</dont_has_info>
+		<dont_has_info>bar_valerian_fail</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello, did you want to see me?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>And I'm glad to see you, stalker. In general, this is the case. I here have broken through some channels. I was told that you are a very reliable person, there are very few people in the Zone who know you and this is our chance.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>What exactly do you want?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>I need someone who has not been exposed to the involvement of researchers and their allies. You perfectly suited this role. Especially you have a partner who no one knows. You know how the peasants react to the women in the zone.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>This frightens me.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>In general, I need help from you. Do you know the clan 'Freedom'?</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>No, I do not really know the clans.</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+	<text>I need you to gather some information. Since you are a free stalker, then you will be quietly allowed to the base. You will talk them, you will learn the information and report to me.</text>
+				<next>9</next>
+				<action>lostpath_quest.clans</action>
+			</phrase>
+			<phrase id="9">
+	<text>Have you decided to extinguish your opponent through a neutral stalker?</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+	<text>In war, all means are good. Well, will you help?</text>
+				<next>11</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+	<text>No, it's Game.</text>
+				<give_info>bar_valerian_fail</give_info>
+			</phrase>
+			<phrase id="11">
+	<text>Yes, you can count on me.</text>
+				<give_info>bar_valerian_start</give_info>
+				<action>lostpath_quest.freedom</action>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		<dialog id="alisa_sovet_1">
+		<dont_has_info>alisa_sovet_1</dont_has_info>
+		<has_info>bar_valerian_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Valerian offers to help us. I need your advice.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>What exactly did he ask?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>He wants us to make our way to 'Freedom' and learn from them some information.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>And what is the benefit to us?</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>I myself do not know yet. Do you think it's worth handing them to 'Freedom' or helping?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Well, Barmen said something about the solid work, but first we need to prove ourselves. Decide youself.</text>
+				<give_info>alisa_sovet_1</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="lukash_hello">
+		<dont_has_info>lukash_hello</dont_has_info>
+		<has_info>bar_valerian_start</has_info>
+		<has_info>alisa_sovet_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hey. I am new here.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hello, new one. My name is Lukash, I am the leader of 'Freedom'. Make yourself at home.</text>
+				<next>2</next>
+				<next>22</next>
+			</phrase>
+			<phrase id="2">
+	<text>Can you give us some kind of work?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="22">
+	<text>Father Valerian asked me to get into trust with you, since very few people know me. I think they want to storm your base.</text>
+				<next>33</next>
+			</phrase>
+			<phrase id="3">
+	<text>Nobody knows you yet, so no one will have anything to do. You can help the Liberty people and if you prove yourself-I'll give you a job.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="33">
+	<text>Thank you. We will know.</text>
+				<give_info>bar_valerian_freedom_fail</give_info>
+			</phrase>
+			<phrase id="4">
+	<text>OK I understood. See you.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>See you.</text>
+				<give_info>lukash_hello</give_info>
+				<give_info>bar_valerian_freedom_done</give_info>
+				<action>lostpath_quest.freedom_1</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="freedom_info_1">
+		<precondition>lostpath_quest.need_for_info</precondition>
+		<dont_has_info>freedom_info_1</dont_has_info>
+		<dont_has_info>shurm_fail</dont_has_info>
+		<has_info>bar_valerian_freedom_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello Friend. Tell me, please, what is your ideology?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hello, stalker. Grouping Freedom is an anarchist group consisting mainly of free stalkers. the goal of the group is to preserve the Zone as a free territory and to oppose the monopoly of the authorities. the representatives of Freedom believe that the Zone cannot be defeated-it is possible and necessary to coexist with it. the zone is an excellent opportunity for research and study, and it should in no way be a springboard for the military.</text>
+				<next>2</next>
+				<action>lostpath_quest.update_freedom_pda</action>
+			</phrase>
+			<phrase id="2">
+	<text>[.]</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>Well, how long will you be silent?</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>I'm sorry, thoughtful. Is there anywhere to have a drink?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Yeah, right in the bar.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="freedom_info_2">
+		<precondition>lostpath_quest.need_for_info</precondition>
+		<dont_has_info>freedom_info_2</dont_has_info>
+		<dont_has_info>shurm_fail</dont_has_info>
+		<has_info>freedom_info_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello Friend. Tell me about the ideology of Freedom.</text>
+				<next>1</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hello, stalker. Freedom is one of the strongest groupings of the Zone, as well as the only one of all large groups that openly opposes government forces and research groups. Freedom is the most numerous grouping in the Zone.</text>
+				<next>2</next>
+				<action>lostpath_quest.update_freedom_pda</action>
+			</phrase>
+			<phrase id="11">
+	<text>Everything is very simple for us. No laws and other shnyaga. Free life.</text>
+				<next>2</next>
+				<action>lostpath_quest.update_freedom_pda</action>
+			</phrase>
+			<phrase id="2">
+	<text>[.]</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>You'd better talk to the Leader about this.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Well thank you.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Happily.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="freedom_info_3">
+		<precondition>lostpath_quest.need_for_info</precondition>
+		<dont_has_info>freedom_info_3</dont_has_info>
+		<dont_has_info>shurm_fail</dont_has_info>
+		<has_info>freedom_info_2</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hello Friend. Tell me about the ideology of Freedom.</text>
+				<next>1</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="1">
+	<text>Hello, stalker. Freedom is one of the strongest groupings of the Zone, as well as the only one of all large groups that openly opposes government forces and research groups. Freedom is the most numerous grouping in the Zone.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="11">
+	<text>Everything is very simple for us. No laws and other shnyaga. Free life.</text>
+				<next>2</next>
+				<action>lostpath_quest.update_freedom_pda</action>
+			</phrase>
+			<phrase id="2">
+	<text>[.]</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>You'd better talk to the Leader about this.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Well thank you.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Happily.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="valerian_1">
+		<dont_has_info>valerian_1</dont_has_info>
+		<has_info>freedom_info_4</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>I cannot say that it was easy and fun, but I could not even imagine that something like that would happen. Why.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Slow down, friend. I understand that emotions overwhelm you and you want to tell me all this now, but I have a serious talk with you. I understand that we dragged you into this whole adventure.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Yeah, Alice and I did not expect this to happen. We only came to the Zone, but one of the clans managed to disintegrate.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>You did not ruin it, it's just a coup among the group. You noticed what kind of clothes were the storm troopers?</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>That's what embarrassed me. They were dressed in exoskeletons of freedom, they had all the distinctive signs of freedom.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>About this I say. Together with Voronin, we arranged a coup in freedom. Well, like a coup. Some Freedom fighters were dissatisfied with the current leader Lukash, after Miklukha left. You know who that is?</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Are you kidding? I hardly know you, and you ask me about leaders of other clans.</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>In short, the founder of Freedom was stalker Miklukha. After he went to the radar was replaced by Lukash. I'm not particularly vdovalsya into details, but after the arrival of Lukash. began what-that float within the team. Some supported the old regime, others new. Adherents of the old regime decided to appeal to a debt and to hand over some part of the important information. For information, these were not the last people in freedom. In general, General Voronin offered to help me in this to turn things around. But the whole difficulty was that it was necessary to find a proven beginner.</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+	<text>And you decided to take us?</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+	<text>We asked Sidorovich to organize us rookies who will be able to carry out this task and at the same time will be trusted people. Yes, we had to attract Matis as soon as we found out that Alice had come. We had to connect to all this intelligence 'Duty'. the operation to seize the base of freedom was a very well-planned operation. One thing we missed was the bug that you threw Lukash. people to.</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+	<text>Wait. You said that you had to count the information.</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+	<text>Everything is absolutely true. But you did not even understand how you did it. You threw the virus on the PDA people Lukash, and even so, that they did not suspect anything. This allowed us to do it all. I think you should talk to one of these people. Our clan appreciates your contribution and we will ready to take you into their ranks at any time. Now go to Voronin.</text>
+				<give_info>valerian_1</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		<dialog id="join_isg_2">
+		<dont_has_info>join_isg</dont_has_info>
+		<has_info>valerian_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>I'm ready to join your clan.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>It's very good, we need such trustworthy people as you.</text>
+				<next>2</next>
+            </phrase>	
+			<phrase id="2">
+	<text>[.]</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Well, then from now on a member of our clan. Our house is your home.</text>
+				<action>lostpath_factions.join_isg</action>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>I am very glad to join you.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		<dialog id="voronin_1">
+		<dont_has_info>voronin_1</dont_has_info>
+		<has_info>valerian_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Good health, Comrade General!</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Free, fighter. You-then I just waited. I need your help.</text>
+				<next>2</next>
+            </phrase>	
+			<phrase id="2">
+	<text>How can I help you?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>I got information about the dungeon of the Agroprom. There you need to find some information. But the paths are closed there, so you need to return to the Garbage and talk to a group of diggers.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>After the Garbage to return here?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Yes. After you take the information from them, I'll give you all the necessary introductions and you'll go there. Now go look for a group of diggers, I hope they are still alive.</text>
+				<give_info>voronin_1</give_info>
+				<action>lostpath_quest.gar_diggers</action>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		<dialog id="seriy_1">
+		<dont_has_info>seriy_1</dont_has_info>
+		<has_info>voronin_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Hey. I'm interested in information about the dungeons of the agro industry.</text>
+                <next>1</next>
+				<next>2</next>
+            </phrase>
+            <phrase id="1">
+			<precondition>lostpath_quest.gar_diggers_prec</precondition>
+	<text>Okay, keep these documents. I think you need them.</text>
+				<give_info>seriy_1</give_info>
+				<action>lostpath_quest.gar_diggers_doc</action>				
+            </phrase>	
+			<phrase id="2">
+	<text>We do not have any information, you probably made a mistake.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		<dialog id="voronin_2">
+		<dont_has_info>voronin_2</dont_has_info>
+		<has_info>seriy_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>I have the documents, here they are.</text>
+                <next>1</next>
+				<action>lostpath_quest.voronin_doc</action>
+				<give_info>voronin_2</give_info>
+            </phrase>
+            <phrase id="1">
+	<text>Hmm. interesting. There is a map pointing to the hiding place. It says that some documents are stashed. You need to go there and pick them up.</text>
+				<next>2</next>
+				<action>lostpath_quest.agr_u_info</action>
+            </phrase>	
+			<phrase id="2">
+	<text>OK I understood.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		<dialog id="spec_matvey_dialog">
+		<dont_has_info>spec_matvey_dialog</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+	<text>tell me about yourself</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Calling me Matvey as you probably guessed. Motey already called me here, I basically do not complain. I came to the zone like many here. for profit. Now the Zone has become my home.</text>
+				<give_info>spec_matvey_dialog</give_info>
+            </phrase> 	
+		</phrase_list>
+		</dialog>		
+</game_dialogs>

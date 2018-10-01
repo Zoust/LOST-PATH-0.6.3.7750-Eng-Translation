@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="windows-1251" ?> 
+<game_dialogs>
+<dialog id="thomas_history">
+<dont_has_info>thomas_history</dont_has_info>  
+<phrase_list> 
+<phrase id="0"> 
+	<text>Wow. It's not often you meet an intranza in the zone. In our at least you dare?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Better than you, young man.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Even so? Let us suppose. Can I ask you a few questions?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Of course, ask. I will respond to everything that I can.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Why did you come to the Zone?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>My idea seems insane, but I came here from Ireland to realize my old dream-to build a time machine. I myself would have thought myself crazy, but I knew about the so-called 'moleholes', it's kind of like portals in the Zone. If we learn at least an approximate molecular-atomic structure of such a 'burrows', then I'll be just a couple of steps on the way to creating a time machine.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Why are you so sure of your success?</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>I have four degrees, for several years I studied the most complicated formulas and solved previously difficult tasks, one of them follows- the journey through time is quite real. Of course, I could try to create a temporary nuclear reactor based on tritium and plutonium, but to obtain such components in the right amount-almost unreal. Tritium on the planet is too small, and plutonium is a dangerous radioactive substance, which no one will give me without the permission of the higher Irish institution and the general of our army. Therefore, my only hope is to find at least one 'mole cave'.</text>
+<next>8</next> 
+</phrase> 
+<phrase id="8"> 
+	<text>Interesting. Okay, good luck with your research.</text>
+<give_info>thomas_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="chess_history">
+<dont_has_info>chess_history</dont_has_info>   
+<phrase_list> 
+<phrase id="0"> 
+	<text>And you that, the grandmaster?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>World! Maybe you heard about me? My name is Alexander Murzo.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>No, have not heard. I'm actually more of a checker specialist.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>It's a pity. Well, I must go to mine. Good luck to you.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Yes, and you luck, maybe we'll see each other again.</text>
+<give_info>chess_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="konrad_history">
+<dont_has_info>konrad_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Where are you from? Obviously not from the CIS countries.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I'm from the United States. It came here with exclusively scientific purposes.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>May I ask what are these goals?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I'm studying mutants. And in general everything that is connected with them. Their behavior, migration, deceleration and all that.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And how, there are successes in research?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>How do you say. In the beginning there were, and when my assistants died-Martin and Weston-everything went to rubble. One is engaged in such a thing, and simple stalkers refuse to go to the center for mutants.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>And what exactly do you want to do?</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>I want to make measurements in several places closer to the center of the Zone, to be more exact: to Pripyat, both in the center and on the outskirts, in the south and north of the Chernobyl nuclear power plant, and also would like to look into the Neighborhood of Jupiter. In the localities there is the greatest activity of mutants of different breeds.</text>
+<next>8</next>
+</phrase> 
+<phrase id="8"> 
+	<text>I hope there are still some who will go with you to the center. Good luck.</text>
+<give_info>konrad_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="ben_history">
+<dont_has_info>ben_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Greetings.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>What?! A. Hello.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>You are somehow alarmed.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>There are reasons for that. I have a very strange feeling that I'm not the one everyone thinks about.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>What is it like?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Look, everyone calls me Benjamin Shepard, but I do not have any documents, and information in the flash-drive is stolen. My memories are rather vague, but I know the area very well, I understand very well the weapons and the natural sciences, but I do not remember anything about myself and my family.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>M-yes, a dilemma. And what, are there any guesses?</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>Well, there are a couple of options. While I remember one moment-I flew in an Oceanic815 plane, but it got into turbulence and fell on some island. Then- the fog, and I'm here, on the Moor. No more information at all. the guys say I've been here like a month. But why I do not remember this is a question.</text>
+<next>8</next>
+</phrase> 
+<phrase id="8"> 
+	<text>N-Yes, the situation. I hope this amnesia is temporary, you will soon remember everything. Come on, Ben.</text>
+<give_info>ben_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="demidov_history">
+<dont_has_info>demidov_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Good health, comrade captain.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>And you're awake well. With what he came?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Yes, I'm traveling. I want to go to the center of the Zone.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>And what's wrong with that? I know one thing-there is death. Therefore, it is better to take service away from the Chernobyl nuclear power plant.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>To each his own, Captain. Maybe you will tell something interesting on the path?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>In general, you can consider me crazy, but only I began to visit strange dreams. As if I see the world through the eyes of another person, and this only when I sleep, and what this means-I have no idea. the last thing I saw was tables, crowds of people. It looks like a bar or some kind of dining room.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Do you want to find this place?</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>Yes exactly. But somehow later, now my place is here. As there will be a free time-I shall visit there and I will understand, that to what.</text>
+<next>8</next>
+</phrase> 
+<phrase id="8"> 
+	<text>Clear. In that case, good luck in your search.</text>
+<give_info>demidov_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="orlan_history">
+<dont_has_info>orlan_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Wow a cad. How long have you been in the Zone?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hi brother. I've been in the Zone for almost a year and a half, and you seem to have been here quite recently.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tooting. Maybe we'll have an acquaintance? But I'm just empty.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>No problem! I always carry one with me just for such cases. Well, for an acquaintance!</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Uh, it's good. Maybe you will tell about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>As I said, I've been here almost half a year already, and since my arrival I just want to find the performer of desires. Yes, I've heard different rumors about him, but still I want to make sure of everything myself, and the boys make me ridiculous, they say, alcohol hit me in the head, go to the fucking Sarcophagus to fanatics and the military. In general, no one wants to come with me. Most likely, I myself will go there soon.</text>
+<next>6</next> 
+</phrase> 
+<phrase id="6"> 
+	<text>It's dangerous to go alone, brother. Sometimes, our dreams are not worth it to add their heads for them. Think over my words.</text>
+<give_info>orlan_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="sokol_history">
+<dont_has_info>sokol_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>And why did you suddenly want to escape for the perimeter?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>A year ago I was exposed to strong radiation and heard a voice. He called me to the sarcophagus itself. For a couple of days I got to him and our adept, Mervyn, told me that I should protect the Monolith at the cost of my life and not allow any of the infidels to join him.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>So, what is next?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Ten months later something happened at the station, an explosion of great strength. And for a few minutes I suddenly realized all my insignificance. Because only a miserable fool could believe the first person he met and believe in stories about the damned stone and its value. Also, I realized that someone was manipulating me, and during the explosion this control was lost. Since then, I've been thinking about an escape plan.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Here's how? Yeah. I would not want to be in your place.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Well, you know, since you make your way to the center of the Zone, then, most likely, you will prove to be. Therefore, good luck to you. Now go away, every minute of delay can cost me my life, I must as soon as possible get out of this damned Zone.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Good luck. And thanks for the information.</text>
+<give_info>sokol_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="zemlak_history">
+<dont_has_info>zemlak_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>What motivated you to escape?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Have you seen other dark stalkers? Did you see their faces? I do not want to be like this!</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>You mean.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Yes exactly! I've already started to mutate a bit, that's why I'm draining before it's too late! And now, off the road! I have to get to the Swamps, and find the Doctor.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Go better in the south-east direction, there are fewer patrols.</text>
+<give_info>zemlak_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="pokemon_history">
+<dont_has_info>pokemon_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Stupid you chased.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Yes, it's Sidor, that's him, dubbed me that way, when he came to the Zone!</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>What are you so annoyed him with?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Yes, he took from him the first task, to find the jellyfish artifact, he gave a term of two days.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>So, what is next?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Well, I come to him exactly two days later with an artifact. I spread it before him, and he is like this: 'Haha, well, you and the Pokemon, you cannot even distinguish the blood of a stone from a jellyfish!'. Since then, everyone calls me that.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Yes-well, that's the story.</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>Yes, I'm used to it already, I'm not so hurt, as it was before. the main thing is that I found friends among Freedom in my time, and stayed with them.</text>
+<next>8</next>
+</phrase> 
+<phrase id="8"> 
+	<text>I like your optimism. I think you're really happy.</text>
+<give_info>pokemon_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="filatov_history">
+<dont_has_info>filatov_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Commissar, why do we have potatoes instead of grenades?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Because we have too few real grenades! Ha-ha-ha, I see, you also know this topic.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>I know I know. Well, will you tell anything interesting?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Yes, recently liberated bastards from nearby territories. Losses are minimal, once again we have shown superiority of order over anarchism.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Well, congratulations. Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Yes, in truth, there's nothing to tell. I can only say that my name is Kirill Alexeyevich, and I was the company's Brigadier in my military unit. I learned about the faction Duty in the Chernobyl Exclusion Zone, so I decided to come here, to put things in order. And then the fumes were similar.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Thank you for your time, Cyril A..</text>
+<give_info>filatov_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="kvartet_history">
+<dont_has_info>kvartet_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Who are you?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>the major, true, was already. Now I'm a simple fighter, like everyone here.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Something happened?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Do not you see it yourself? They threw us!</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>What makes you decide, Quartet?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Where did I decide? And you look! Already as a week ChNPP under our control, and where is the shift group? It is not! the grunt is running out, there are not enough patrons, the soldiers are tired of constantly repelling the attacks of monoliths. For this week, I lost not one hundred brave guys, and these ugly staff do not even hurry us to take, but will they be taken at all?.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Do not lose heart, Major. I know, good people, there will be an opportunity-I will ask them to help you.</text>
+<give_info>kvartet_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="haletski_history">
+<dont_has_info>haletski_history</dont_has_info>
+<phrase_list> 
+<phrase id="0"> 
+	<text>Good health, Lieutenant Colonel. Then the rumor goes, they say, you were able to visit the stalkers in captivity. Tell me about this?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Are you kidding me?!! Vaughn, my former colleagues are already all with big stars, in the districts staffed. Do you think I have nothing to do, only for the stalker in the Zone to make a dash? Everything was up, all-and this zone, and stalkers, and Sidorovich, freak, and these creatures. Guys lay down their lives, and they all twig and rod. All around only yawn can: we will protect the civilized world, we shall not admit. What generals, what are these idiots in the TV: or are they flabbergasted, or are they flooded? But at least one asshole from the authorities in the raid go to try?!! So, on the way between anomalies?!! Or, say, the sector to clean?!! Or for stalkers in the Swamp drive?!! Wow, goats! Only they know that we have to plug holes!.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Among the stalkers, somehow the reference to you has slipped. You, like, like, before stalkers for babka through Cordon missed. Yes, and apparently, you are now doing this through mediators.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well, I miss possessions for babki through the cordon, and what? I myself live and give to others, understand?. Hey, smart guy, do you even know what my salary is officially? So you try to live on it, yeah. So for these tears I'm supposed to experience a fucking sense of pride in my work, the state, government, to it. Chiefs live, all as one from the Zone of profit have! So why cannot I, Khaletsky, be allowed?!! What kind of military is the task? Complete the order and survive! And I survive as I can! Oprst, this is what zwiznets around, some freaks? Another bit, and either shoot all, or I'll shoot myself.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Duck, how did you escape from prison?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>I had an anchor, a secret. At that time in the stalker camp the mercenary was, so we agreed with him: I told him the coordinates of the hiding place, and he told me- the gun. Under the cover of night, I killed the sentry and managed to get out of the snag, and from there through the tunnel to his moved. After promotion went here.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Maybe you will tell us something useful? I will soon be on assignment.</text>
+<next>7</next>  
+</phrase> 
+<phrase id="7"> 
+	<text>Okay, the land, they say, is round, but now it's due from me. All stalkers are drawn to the center of the Zone, all. So listen to me. I have old maps, and it turns out that the center coincides with the place where the Chernobyl nuclear power station was. Maybe it's just a coincidence, but in any case, you'll have to wind it up. Now this place even the satellites cannot see in any spectrum. And indeed, they say, they do not fly over the center already-after a couple of pieces burned to the dogs. True or empty chat, I do not know: I missed a familiar missile man on drunkenness. But my advice to you: do not go to the center of the Zone.</text>
+<next>8</next>  
+</phrase>
+ <phrase id="8"> 
+	<text>I'll take this into consideration. Be healthy.</text>
+<give_info>haletski_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="wolf_history">
+<dont_has_info>wolf_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Who are you?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I'm called a Wolf, and I'm a local tutor.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I teach the mind- the mind is greyishly pot-bellied, bespectacled of all sorts of greenhouses, so that they do not bite at the first approach. Oh, it's hard to teach! I myself have already trampled on the Zone, I left a piece of life here. Go away from here I think the Cordon already knows when God came. Only an evil witch is somehow enchanting, not otherwise - you cannot get out in any way: then the warriors with the raid will come on, then the discharge shibanet. And money, to be honest. Sometimes, they offer a profitable job, so why not take it? You know how it is: you think, well, there's this last way out, and that's it, I'm Garbageing it-and that's how time after time.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And about the local merchant, what can you tell?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Even strange to hear such a question. Yes, every dog ??in the Zone knows it! the most authoritative buy-sell. If Sidorovich cannot get something, it means that it is absolutely unreal.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Thanks for the interesting stories, Wolf. And now, I'm sorry, I must go.</text>
+<give_info>wolf_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="fekl_history">
+<dont_has_info>fekl_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Tell me about yourself?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>What can I tell you? Listen, I was born in an ordinary believing family and I have a corresponding nickname, as you understand. But not about this at all. I graduated from high school only, so there were problems in the family and for a while I could not just go to the upper classes-I worked. As a result, I was raped in the army, and as a result I have good skills. But, as you know, after I returned home, I was again mired in poverty, because finding a job with 9 classes is a disaster for the ordinary commoner.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Then what?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well, I was raped in the army, and now I have good skills. But, as you know, after I returned home, I was again mired in poverty, because finding a job with 9 classes is a disaster for the ordinary commoner.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And what in the end?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>I went to the Zone. Here you already see everything. But the idea was to go to Debt and get good survival and research skills.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Thank you. I, perhaps, will go about my business.</text>
+<give_info>fekl_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="sudar_history">
+<dont_has_info>sudar_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>I wish you good health.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Not every day you can find someone new in these places.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>It's a yes. Tell a story about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>My story begins in Ukraine and will end here most likely. I was born in Kharkov. A nice town, I'll say. I was not bad at school, but I did not like all this-I always dreamed of becoming like my father. He was a very good person. Fate threw me into the army, although I wanted somewhere higher. But there I met my good friend Fokl. Ah, we're still friends. I remember how we ran under the hole in the fence, in order to run into the store opposite the army. I remember that even prapors were brought by a couple of gingerbread cookies, so he himself chased us, and for this he gave out the best form.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>How did you end up in the Zone?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>We with Fockle and some others had an idea-to Garbage after the army here to quickly cash in and go back, but the Zone tightened us. Yes, it was not easy to get along, but our skills pulled us to this level, and now we are here and are thinking about the next step.</text>
+<next>6</next>  
+</phrase>
+ <phrase id="6"> 
+	<text>Good story. I will not distract you.</text>
+<give_info>sudar_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="bandikut_history">
+<dont_has_info>bandikut_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>How's the service, soldier?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Yes, so yourself, it's boring here sometimes. Did you want something?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Ah, let's talk. In short, this is: I was not the first child in the family, so I was not so fond of. in the end, I just wandered around the village called 'Lower' and studied for 3-something like, had no purpose in life, so I was taken into the army. My mother did not even accompany me to the train. As if. it was not there. But in the army it was excellent-I was taught to fight, fight and rub boots to the holes. But the most important thing is that I met friends, real ones, not what I had in my childhood. Vockl offered me the idea of ??Garbageing after the army, because what to lose? There are skills-there is. And so. It was interesting to know-what is this for the place-Zone. I found out and was surprised, like a fairy tale.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>How did you end up in Debt?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Vockl thought of listening to me and sticking to a good paramilitary group, otherwise we would have died like a simple stalker in a couple of days. Here they feed and warmly dress, not that in the army. And our main goal was simply to enrich ourselves. We're not from wealthy families. This is the historical the process of my becoming a person.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you. I will not distract from the service.</text>
+<give_info>bandikut_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="milutin_history">
+<dont_has_info>milutin_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Greetings.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Zdarov. What did you want?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Um. Well, briefly tell. I do not remember my childhood, but I will tell you that the most interesting thing was in the students. I wanted to become a doctor, but I was screwed up by an anatomy commission, because I did not pay the idiots-professors. Of course, I was immediately taken into the army. There they made me a muzhik, not a stupid youth. However, I forgot all the medical skills, and although I did not have them. Hmm, wasting so much effort. But in the army I met Fyokla. You know him, right?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Yes I know.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>He's here-talk to him, he can say anything. And I do not particularly want to talk to you-there's no mood. Old memories filled up.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I will not bother you anymore. Good luck.</text>
+<give_info>milutin_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="semen_history">
+<dont_has_info>semen_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hello, soldier. Tell me about yourself?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Are you serious? Well, hell. Okay, there's still no one to talk to. Was the best of its kind because it was the only one in the family who could feed it, but, alas, the family died of a disease that went through our village-a town that changed its name on several occasions, so I do not remember its name.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Served in the army?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I decided to join the army-I always wanted to be a sniper, but my vision was bad, so I became just an ordinary infantryman. Yes, thank you to Fyokla, tell me that I was persuaded to Garbage with him. Just at home, I would have been waiting for a driver's seat, but I do not like cars very much. And to earn in any way.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>What is the news in the 'Duty'?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>I heard recently that our part was sent here. Alas, no one has returned. Either the fanatics were killed. then anomalies.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Sorry guys. Well, come on.</text>
+<give_info>semen_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="ivantsov_history">
+<dont_has_info>ivantsov_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hello, Captain.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Go ahead, do not stop.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Not very polite.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>What do you want?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself, maybe?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Why would I tell you about my biography? I trust some people, you do not enter these lists. I will say a couple of well-known facts. I'm Russian by blood. I do not like canned cucumbers, I graduated from the Army. the rest you do not need to know, I do not trust you.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Oh well. Be.</text>
+<give_info>ivantsov_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="morgan_history">
+<dont_has_info>morgan_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>A real ensign? Am I in Moscow?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>No, soldier, you're in a canopy and got into trouble the most I do not want, once found myself here.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Why is this?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Duck Zone in fact!</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Ugh, I thought. Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>I cannot tell you much, but if it's interesting, I'll tell you that I had a lot of experience in my life. the beginning with the fact that he lived in a family of doctors, it was something-at home no one, loneliness. Well do not care, the main dream was to get an education and go quickly-there was a desire to become independent. However, it was difficult, but the 'trade' education was, and was able to pass a couple of courses on 'eloquence'. Rhetoric. Here, I got here. One debt helped me, when I tore and I spent a week at a local doctor. So I decided to make an appointment with them. There is a weapon, the goal is good. All right. I though answer for the supply of weapons, but I prefer teaching young people, that's why I remain praporom. And then. They will die out without experience.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Good luck to you then.</text>
+<give_info>morgan_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="plichko_history">
+<dont_has_info>plichko_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Zdrav.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I see you speak love? Spread a couple of words, or it's boring to stand here. I was born in Lviv. A nice town. Father was not in the family, but there was a loving mother. I would like to draw your attention to the fact that I was able to easily qualify for an education, to find a job, but I was tried to hang the charge, therefore I had to flee to the Zone to hide from Big Shivers. But I like it here. Respect from the commanders is, they feed, they dress, and you just do the tasks and everything.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Well well. I did not even have time to say anything.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>So here I am, hurried.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And why almost all the debtors talk about their families?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Almost every one of us has not been at home for more than a year. What does every soldier want? To be expected. And who should wait, but not for parents or girls? Such things, brother.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you for your time. Good luck.</text>
+<give_info>plichko_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="nalivaiko_history">
+<dont_has_info>nalivaiko_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Pour it in! Or are you driving? Hehe.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I do not see anything funny in my name. Another joke and I'll hit you in the face.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Come on, calm down. Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>If so, I'll explain to you that I'm from Krivoy Rog. I will not explain where it is. But the area is 'gangster'. So do not be surprised by my manners. From there I was only able to join the army. Well, at least I got what I dreamed of-weapons, impressions from the army. Now I'm almost 30, and by education I'm a locksmith, but now people with combat skills in the Debt are not enough.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Ponyatnenko.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Maybe you just write to us? I feel that you are a good man.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I'll think about it. Good luck, it's time for me.</text>
+<give_info>nalivaiko_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="prapor_history">
+<dont_has_info>prapor_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>How is the service?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>As usual.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>You are not too much-that is wordy. You will not tell about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Um. Okay. I'll tell you a little, but interesting for you. Local I, from Kiev. I will say that as a child I had a goal to get a military education and I achieved success. Now I am pleased with what I have, despite the fact that it is very difficult to conduct a dialogue with people of the current nature. And you know how difficult it is negotiate? No? It's good.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>I see.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Now go. I have something to do. If it is tight-turn.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I'll take this into consideration. See you.</text>
+<give_info>prapor_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="pyla_history">
+<dont_has_info>pyla_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>An interesting nickname.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I'm almost all told so, and very few people know why I was so nicknamed.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about this?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well. I was born in a family of 'soldiers'. My father was in the rank of Major, and his grandfather was Colonel, my mother, too, was not a bastard-she was a Lieutenant in the local Police, and my brother at the Academy of the FSB was studying. I grew up mischievous, my father called the Scout, as I was told. But this did not stop me from studying, but the dream of becoming a cook did not go down, so I fled to the Zone and worked in a local bar, but before that I had experience working in a restaurant. Then I wanted to travel and save people from the Zone and went to Debt. Everyone laughed, but they did not know that I was from the military family. Now I thank my father and grandfather for 'fighting skills', for example, do not die from cold without matches, etc.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>So why did they call the Poole?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>My necklace hangs around my neck, that's why.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Cool. But, unfortunately, it's time for me.</text>
+<give_info>pyla_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="barin_history">
+<dont_has_info>barin_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Have you come from the Russian Empire here?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Who cares.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>I have something to do. Tell me about yourself.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Why are you so interested? Are you looking for benefits? Well, at least I'll do something for free. Born in the family of a businessman, he worked in Kiev as a businessman. It's funny that I got my million at 24, while others drank and walked in every place, provided and provided the parents, but it was all covered up police and bandits. I copied everything to my parents, and those vipers did not get anything, but since they knew me-I ran here, it was easy-money is not a problem. But now I will say that I do not like it here, I'm almost there for the second year, but people are still aggressive and lazy. And I cannot stand the smell of blood, but it's full here. But there are many who can easily profit. And now to business. Do you need something on the 'business issue'? Or just decided to entertain me while I'm on duty?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Yes, nothing much wanted.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Well then go your way, stalker.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>And really, I, perhaps, will go.</text>
+<give_info>barin_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="brom_history">
+<dont_has_info>brom_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Do you like chemistry?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Something like that. And you then who?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Stalker. Just a stalker.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>What did you want?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>I wanted to hear a story about you.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Interestingly, that you decided to ask this. Well, I'll tell you a couple of events and break up on that one. In general, I'm from Russia, I came here because I was born in a very unpleasant family. And to escape from the 'relatives' who escaped, he fled with his brother to Ukraine on the offensive of 18 years. Money was fortunately, and there I worked as a security guard, but I was still taken by the army. Strange yes, ah. forgot, I was born in Ukraine, but how would my parents lived in Russia, so I was given 2 citizenships. Well, in short, I served myself quietly in the army, and then decided to move here to have money and establish a personal life, but I made the wrong choice. It all began with a meeting. but not important. I'm happy that the worst is over, now I'm living my own way.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you. And I, perhaps, will go.</text>
+<give_info>brom_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="loxmatiy_history">
+<dont_has_info>loxmatiy_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Is there time to spill a few words?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Let's assume. And what is the topic?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Yes, yes. Let's talk about life.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>And let's tell. In short, I was born in Ukraine, I lived in a nice family and decided to still get a lawyer education, only I was under 25 years of problems, so I decided to run to the Zone as the best place. Only during this trip my friend was piled up, I owe him a coffin. I was wrong for a long time and joined the hiring as a single agent. I wore food, sometimes just cartridges, and I did all sorts of things-artifacts, etc  but in a second I had to leave them, the demands were high for an introduction to them, and the commander-x. It does not matter. I went to duty, to fill the money, but then the collective was good and what I dreamed of was to be a military man. As a child, I wanted to be him, but I did not have the health for it, but here I grew stronger. Here's my story. Anyway, the chance that I'll stay alive is small, so that's it.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Interesting.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Come on, brother. I have to do my military duties. Be.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>And you are. Good luck.</text>
+<give_info>loxmatiy_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="cherep_history">
+<dont_has_info>cherep_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Who are you?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Colonel Boris Cherepanov. Does this mean anything to you?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Um, apparently, it's interesting so. Well, listen to me. They call the Skull, as you know, but what about your biography you say. He was born and lived in one place, which is called Belarus. Alas, I had to leave there for legitimate reasons. And the family was good. Yes, it was, because they ruined us and I drove to a relative to Ukraine. Well, that there was something to do. However, having received 11 classes I went to work, and there the army formalized me. I went to the contract regiment, so it was cool there, even you could safely leave the post sometimes.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>So what is next?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Here, and then already stayed there, but I got tired of longing and decided to leave and go with the old comrade to the Zone. I was too enticed by the idea to be enriched. So he enriched himself-he found friends and a 'lodge', hah. So I'm in Debt. If you have any questions, please contact us.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you for your time. Good luck to you.</text>
+<give_info>cherep_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="inkvizitor_history">
+<dont_has_info>inkvizitor_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Did the fires of the Inquisition ignite?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>What? Ah, but no, I used to look at the Agroprom for the Zoo, and then he did not give up anyone, now I'm sitting here.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell us about yourself or do you have no time?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>And my mustache does not say that I do not want to communicate? Okay. A few words I will say. My family was a kind of intellectual, but everything went to the bottom when the Reds came. Oh, that's not my biography. So what. I am an ordinary worker, like the rest of my family. True, he was a good hunter because of what the army sniper they took it, but my eyesight dropped there so that in the end there was no sense-they shot my eye on the field and froze my ass, so I was in the hospital and I was sent home. the houses were insulted and sent, they say, why such a miracle to us? And I left with grief here to find death. However, my skills the hunt helped me to advance here.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>So why the Inquisitor yet?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>In Debt there were few masters-hunters, so I was responsible for the 'liquidation' of all sorts of creatures. But I got a small bullet in the leg, so I left this case and now I'm helping rookies in business, and I also tell various secrets with stories. Like this. And the Inquisitor was called for being in my time Burned a couple of mutants and for their interest and help, scientists uncovered poor animals.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I about this and thought. OK see you.</text>
+<give_info>inkvizitor_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="zvyagintsev_history">
+<dont_has_info>zvyagintsev_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Since when did the top officers in the translation?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>I'm tired of watching my friends die. So I asked to come here. However, Voronin sent me closer to the base, they say, I'm important to him.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>It's nice to realize that you are appreciated?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Of course. This is an incentive to survival.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Hah, well, let's talk. I'm just happy to discuss. I'll start my story like this. I was taught to talk to strangers from childhood, but so it was. I was born in Ukraine, balakayu in Russian and Ukrainian, like a fish in the water. A was born in the family of Shakhtar. My father was a golden man. Knew how to drink and nail the nail, though sometimes with a loss in the form of a blue finger. So that's what, he studied diligently, but with the women was not very, huh. But I graduated from school and even was able to get education as a non-lawyer. However, then went to the army-life turned bad, but there I found good friends. And then I worked as a lawyer and already I could understand that this life is not for me and I moved to adventure. Like, what to lose, there is experience, there are military ties and I went to the Zone. How funny it sounds. Zone. Like, I'll sit there. Well, I'm not sitting here, I'm acting, but I see that you're not doing a damn thing, huh. On this all in essence, and now move and do your thing.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Well, I just have a couple of cases. See you.</text>
+<give_info>zvyagintsev_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="furgon_history">
+<dont_has_info>furgon_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Are you a mechanic?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Exactly. Fix the gun, patch up the armor, and just a word to spill-that's my part.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Just about the word. Is there time to talk?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Of course. What do you want to talk about?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself, to begin with.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Well, I'll tell the story. My hands are golden since childhood. Father and mother worked with gunsmiths. the father of the gun after the war repaired and sold. It was great to shoot from the mosaic of the 40s. mmm. So. I also studied his profession, often digging into mechanisms, spare parts. So I went to the master, was the best in his business, everything would be nothing, but they took me into the army. It's good that they let me sit in the gunsmith and dig in trunks, because there was not an experienced and suitable master in my part. And I moved to plow the plant. But the authorities were pressing and fired 50%, and there I was. I was not at a loss and moved to friends who always could not sit still. So I came to the Zone as a master of my own business, but, really, I do not use much skill now-I become blind and become old, huh. Thanks to my father for accustoming me to weapons and all that-I could not get along without this skill in the Zone. A now I'm sorry, brother. I here remembered about some work, it would be necessary to fulfill it.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Ok. I will not distract. Good luck.</text>
+<give_info>furgon_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="fanat_history">
+<dont_has_info>fanat_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Well hello.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hi brother.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I've been here recently, count the two summers as I make a mistake in this damned Zone. I keep an eye out for the village of rookies, after the Wolf has gone to the North. I passed the village by then, and now I look, a peasant, somehow familiar, calls me. Well, I approached, and it turned out to be my random fellow traveler-Wolf. He said something about a brief sortie to the Military Warehouses and about Mechin, who survived from the truck of death. That he did not like Wolf a lot and something else. the wolf asked me to stay here for the elder. I agreed. To me all the same it is already sickened by any trifles on harmful grooves to fumble. It's calm here, when eating always. So the local people recognized me right away.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And how did you meet Volk?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>We met Volk at Chernobyl in 2012. We accidentally met. Both went for the first run. Quite green. But where they met, they parted after a couple of kilometers. Well, after two weeks, the Wolf returned. Well,we are warm both here grow greens, but not without profit of course, especially good from a local trader.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>It's good that you made friends. Friends in the Zone are the most important, as I believe. And now it's time for me. Good luck to you.</text>
+<give_info>fanat_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="tolik_history">
+<dont_has_info>tolik_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>He's well.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hey.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>And let's talk, there's still no time to spend. My whole story begins in a nice village near Krivoy Rog. There was an interesting village dwelling. Eh, it was cool to drink milk in the morning and study in a small school. And there I already went to work as a driver, on the vegetable base. But I was bored with this life, and I even had a fiancee-Nadia was called. So that's it. I gave the duel to adventure. And the idea was good-I was very glad of such a development of events, however, I barely barely missed the warriors, but thanks to Eureka, who gave me a lot of dough for me to live He stayed, and did not rot in the pit. So I owe him his life and now he's my mentor. Sometimes it seems to me that he was familiar to me in his youth, though I cannot understand who he reminds me so much of his kindness. And I came to the Zone not only for the sake of adventure, but also to support my family, after all Do not really need the drivers at this time. But not about the sad. I'm a little glad that I escaped from this village and now I have something to remember. And yes.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Something else?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>If it's interesting with Yurik to talk, then he's going somewhere. Most often he likes to take a walk.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I'm understood, thank you.</text>
+<give_info>tolik_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="urik_history">
+<dont_has_info>urik_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Oh, it's healthy. Also new?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Yeah, but I've been here for a month now.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well, let's talk. My life is a very colorful thing, so I'll tell you a small part. I studied at the military lyceum, because my father was a 'big bumpkin', so without special desire and my participation he gave me to this school. There I studied well, got along fine with everything, but my dream is to be an explorer. Yes-yes, for a long time I tried to find myself, even graduate in psychology graduated, but, alas. My father was at important state. cases, so he tried to squeeze me into his sphere. Only, as I said, I did not particularly have an interest in this all. In the end, I left the house and already after 'my father's connections' I moved here. But on the way I met a poor guy. His name is Tolya. Barely persuaded the soldiers not to take him to the next world, gave part of the money and he went with me. He hammered at me in the 'comrades'. I taught him everything differently, well, for example: he can easily talk to Sidorovich and persuade him to make a discount. it high feat. And he taught me that one should not believe different people. In general, thanks to Volk for suggesting the right person-Petruha. He helped me and Tolik.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And what did Petruha do?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Let's say he instilled in us important skills of survival in this place. But I feel sorry for my father, who does not know where I am. Alas, I forgot to say that my mother had died, and my father had crept out of the skin. Only the news I left him and I think that he can understand my position and will not sulk until the end of his days, or mine. A zone is a dangerous thing. If it's boring, come on. Maybe I'll tell you something interesting. Or there are still questions?</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>But not, all I wanted, I found out. Thank you.</text>
+<give_info>urik_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="krot_history">
+<dont_has_info>krot_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Who are you?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Digger. Mouth is called.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I tell the story before you move on business. I was not the first child in the family, so they treated me without respect. I finished school on threes and fell from the family to the rank of private- the army raked, and my father was too lazy to help me with this And my brother was protecting, well, so he mowed from the army and became a good lawyer. I did not want to go to the family, so with my contracting skills I came here and with the first luck I went on patrol, where I escaped from my idiot squad. Well, he left for free, although it was difficult to establish contact, but eventually became entrenched, because to me 'liplat' information about different incidents, and he himself could easily get something. Thank you, of course, to the Marked, that I'm talking to you. He helped me fight back from 'my' warriors, who were very quickly destroyed, and just stalkers. the military still remember that day. And you-be careful if you mess with with them. If you meet the Tagged, then give him my regards.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Who is Labeled?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Honestly, I really do not know him. I was saved in my time by the Agroprom, and did not see me again.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Got it. Well, good luck to you.</text>
+<give_info>krot_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="petruxa_history">
+<dont_has_info>petruxa_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Oh, hi. They say you're a mentor?</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Aha. Are you new?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Exactly. Saves me your guys.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well, say thank you then. Usually it is rare to take risks for the sake of an unknown person.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Of course, I'm still a storyteller, but I'll tell you about it. I lived in Moscow, but because of the death of my father, my mother and I moved to Kiev, where our grandfather helped us along the line of his father. He was a military man, and my grandmother was a nurse. Alas, the formation of money was not enough, because to some rich Richie paid for his son, but I was moved to several positions forward from a budget place. And I did not want to join the army, so I had to hide in the Zone. But he still met the guys at the checkpoint, though they were drunk and I slipped past. It was funny. But here I got already with the help of the Wolf, who was more fussy in the locality. Well. he gave me new partners: Toliana and Eureka. Good guys, so let's say. Share the last bread, and a jar of water. Alas, I would have chatted more, but I want to rest. I did not get enough sleep.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Have a rest. And I'll go about my business.</text>
+<give_info>petruxa_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="lis_history">
+<dont_has_info>lis_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hey.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>He's well. What do you tell me?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Yes, nothing interesting. I'm here not so long ago.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>And I've been here for a year now. Somehow I'm spinning-I'm spinning here.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Oh, unexpected questions, but for you always please, amigo. I was born in a family of lawyers who taught me to use the laws, so I went to the lawyers myself, although I spent my childhood not for fairy tales, but for the Constitution and. mp. When I had problems, I could bring a couple of laws and people lowered it their hands where far away, so even at school I was nicknamed: Fox-Lawyer, or just-Fox. After University he worked in the office and was able to enrich himself, so to speak, with acquaintances. But I had a difficult affair, 'Stanislavsky,' but I was able to help him, though, then I had problems. Therefore, I already got here acquaintance, wanted to learn the laws of this world and escape from the invisible enemy. the military escorted me and I started on my way. There are a lot of all there, like knights, and a real scum, like band its who do not have a clue about life. In the end: they remain the very bottom of this society. Now I communicate with a small company-Gray, Demon and Mole. Good guys. But thanks to one person- the Stalker. He helped me a lot-we with him back-to-back shot a wave of mutants, and just helped me to patch the wound, for which I thank him. if not for him, but I stand and say this to you now. Alas, I do not know where he disappeared. If you find one, then tell me that his friend Fox is still alive and ready to help at the right time with his barrel.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Undoubtedly I will tell him. Good luck, Lis.</text>
+<give_info>lis_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="seriy_history">
+<dont_has_info>seriy_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Oh, the stalker. Hi.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>And you're awake awake, stranger. With what he came?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Yes, I'm traveling. Tell me about yourself? Yes, and the situation as a whole.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>My past? I do not remember him well. I lost my memory during the operation. I remember only that I was about 20 years old and I had an education as an oilman, although I lost everything when I got to the hospital. Well, I'm also Russian by country-everything I remember. I'll tell you about how I got here. All life was useless, I did not remember anyone and did not know, in the hospital I met a company of guys, well, we traveled with them. And in my 23rd I in the company of 'stalkers' suggested moving to the Zone for the sake of money, we were steep small and we moved through the detours. Only a little bit did not run into mines. There they came to the village and have established contact with the local. Our days dragged on, I got experience, and my comrades slowly perished. First-Kirsanov, then Buryat. But you do not know them, though I did not see the corpses. Then I moved here, here I met good people. Alas, I have not seen Marked for a long time. He is a legend, everyone on hearing, did a lot for me and many people. Therefore, suddenly you will find-give greetings to him from old comrades.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Who is Labeled?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>They say he's second, after Strelok, who turned off the burnout. But, it was switched on again. These freaks- the fanatics will not calm down.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thanks for the story. And I'll go on. Good luck.</text>
+<give_info>seriy_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="bes_history">
+<dont_has_info>bes_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Healthy.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hello, stalker.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>My name is Demon. I came here three years ago. Like many here-a fugitive. There are two murders and heavy bodily hanging on me. A few years ago, my friend was badly beaten in a strange area. He was collected in pieces in intensive care. I had to pay a courtesy call. When me came to detain cops, I had to shoot one of them and jump out from the third floor. Since then, I have been here. And his account, and the set of articles has increased decently. And here, as far as I can, I struggle with lawlessness. As in the Great Land. I train and organize young animals, I teach them here to survive.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And why in the 'Duty' do not go with such beliefs?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>'Duty' is fighting against the Zone, and I'm fighting for people. In addition, they are too much connected with the government and the army. I do not want to wake up in the bullpen one fine morning.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Good luck to you.</text>
+<give_info>bes_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="tachenko_history">
+<dont_has_info>tachenko_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Good health, General.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hello, stalker.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell us about yourself? You probably already saw a lot.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I'll tell you a little. Well, I come from North Asia, so to speak. the family lived according to custom, so I followed in the footsteps of my father straight into the warriors. Of course, it was difficult, boring, but I got a real buzz from when I passed this way, because I was considered a citizen by a citizen, although I had the potential. AT eventually they let me into this Zone, and there I already created my group. There were many who did not like the 'command'. It threw our troops into the darkest corners of the world and we survived.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>And how did you decide to create a 'Duty'?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>the idea of ??protecting people from the Zone inspired the creation. After all, we just died like flies and nobody knew about us. Now I am satisfied with my position and successes. But No more time to talk. There are a couple of cases.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thanks for the story, General. And it's time for me on business.</text>
+<give_info>tachenko_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="kosmach_history">
+<dont_has_info>kosmach_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hey.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>And you.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Stalker. A simple stalker.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>God alone knows who you really are. Okay, what did you want?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Okay, I'll tell you, zhurnalyug. Of course, I do not like to talk much, but I will. Comes from a family of weavers. Yes, my mother worked at the Weaving factory, they were still alive under the Soviets, and my father worked as a supervisor at the plant. At 16 I went to the technical school, where I quickly graduated with success and went to help relatives to have at least some money for a good life. But then the army turned and grabbed me. Hmm. the year was exhausted and I realized that my calling was an army and a weapon. I was a contractor, well, and as an 'elite' fighter sent to the Zone, where I already transferred to the Duty, because our Headquarters put on us dick, I have no words so far. If anything else, ask.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>There are such people. Good luck to you.</text>
+<give_info>kosmach_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="shulga_history">
+<dont_has_info>shulga_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>I greet you categorically.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>New faces. You will not see them here often.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Quite a boring story without a drop of heroism. When the Zone only appeared, my friend Leonid called him-they decided to get out, find out what's what. I then worked as an opera, and Lenya only-only in the reserve of his intelligence left. It seems they were not full mugs, but they did not want to do anything. Already puddles of reddish under us leaked, when we were picked up by the guys from Debt. They left me, but Lyonka.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>He died, yes?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Yes. I did not really have other friends in the Big Land, and he is alone in the Zone. In general, I thought and decided to stay with Dolg: the tooth I have on the Zone since then.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>My condolences. To me, unfortunately, it's time.</text>
+<give_info>shulga_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="chepurnoy_history">
+<dont_has_info>chepurnoy_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hey.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>And where did you come from?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Well, from Zaton came. What is the situation?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Fucking really. the general tries to be an optimist, but he also understands that 'bad' has long passed over the edge. What do you want then?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>I wanted to ask, can you tell something about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Oh. I do not like to remember this. Well, listen, I'll waste bikes. My family was not the best. Therefore, I will say that I ran away from them at 18 in the army. Yes-yes, do not say anything. I just hate them. My father did not give life, but his mother. Nevermind. Flew into the army and there remained a contractor, because it was easy money for me-kick novices, but teach them something. Once they sent me on a mission. on patrol, but something was not clear. the release, as it turned out later. Of course, mine were killed, and I was clever-I survived, but I had to tear my chevrons and go where my eyes look. There was a lot of things, for example, I worked the Band its had a bouncer at the bar, but quickly left because of the stupidity of these people. As a result, I came here and now in Debt. Everything is clear and clear.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you. Good luck to you.</text>
+<give_info>chepurnoy_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="zaharchuk_history">
+<dont_has_info>zaharchuk_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hi.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Hey.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Yes, I vpadlu to tell the truth.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Come on. Is there really no minute?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Is it really interesting to you? Come on. I was born here in Lviv. He dreamed of being a military Paramedic, because he was from a family of medical professors, it's funny, but I finished my studies and got an education, only at 28 I got a brain injury, so I lost my skills. the family did not throw me, but it was stress, Yes. but it occurred to him that he wanted to become strong and take revenge on those who had caused the trauma. I served a year in the army, I got skills. I was lucky with the commander, he was a real mentor. Those ugly creatures I found, but at that moment there was an attack and I killed them. Therefore, I fled here from the 'law'. Now the seizures then passed, but the term weighs. Am I to blame for the fact that the law was on their side? After all, money is the law. Here I got used to and understood several rules of the 'zone', which should be taken with dignity. Well, 
+ in order to improve something in life and protect people who go here by stupidity, I decided to go to Debt. Then I learned a lot. I even found true friends, not kiddies, who only knew how to come when I was happy. And listen, you do not have water in the jar, do you want to drink? Well, okay.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Thank you. Be.</text>
+<give_info>zaharchuk_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="bynchyk_history">
+<dont_has_info>bynchyk_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>He's well.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Aha.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Um. Born in a family of refugees. Yes, that's why I did not receive anything other than PTUshnogo education and flew into the army. Aha. He went here because I was kicked everywhere and did not respect for the appearance and race of the Caucasian. Yes, I speak Russian very accurately, but it did not work. In the end, I left here to get some money and find their shelter. I found him-now it's Duty and my mentor is General Tachenko.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>You are a bit wordy.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>I do not like to scratch my tongue. Talk to the others, if you want. And it's time for me to return to my duties.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I understood. Be.</text>
+<give_info>bynchyk_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="skelya_history">
+<dont_has_info>skelya_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hey.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>What? Ah, hello.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well with such questions to me it is necessary to climb? I'm not in the mood, but there are a few words for you. I'm from England, I was born in London and studied for a military officer. My father was an amusing type, for some reason he decided to learn from the Russians the military experience and we went off to serve with him for a couple. All, of course, by agreement countries. Mom really long asked me to stay, but I decided and went. As a result, I was taught how not to sleep and to make a real weapon from a shovel. Yes, and my skills to make a knife out of the bank, even were very appreciated by the Ukrainians. In the end, I liked it and decided to serve with them. Too much friends. And even more so they took in intelligence-it's a sin to refuse. I was able to collect my squad, and many people listened to me personally. But the first true baptism we went through during this terrible 
+ operation, which they did, we lost a lot of people, but my team and I were still alive. Oh, I'd rather be in England, just there had to give a flat.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Englishman? A hundred poods zvizdish.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Well, if so, then talk with others, they are much more interesting to tell. And, I hope, I get to speak in Russian and without accent.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Okay. See you.</text>
+<give_info>skelya_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="stetsenko_history">
+<dont_has_info>stetsenko_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>Hi.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>What did you want?</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Not very polite.</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Listen, I'm on duty, there's fanatics all around. So what did you want?</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Tell me about yourself?</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Oh. Well, let 's tell something. Let me introduce my autobiography. I was brought up by wonderful people, an ordinary family. Father is an engineer, and mother is a pediatrician. So that's it. I chose a military specialty. I went to my grandfather, and I was born in Ukraine, near Krivoy Rog. My grandfather taught me many interesting things-to survive in the forest, to make from a stick sharp spears and a bunch of other interesting things. With his help, I was able to get into the army and even the regiment that I needed. Our regiment was engaged in reconnaissance. Someone called us 'Huntsmen'. In the army it was nice and cozy, the commander was just a miracle. And there are still, Skele his last name. Here with him and also Merkulov and Yarm. Yarmoshuk we went to the reconnaissance, which ended in a battle. Fortunately, we knew each other and understood our actions, but I was not lucky. the 
+ abnormality tore off two fingers on my leg, it still hurts, but for me I got shoes and our local the medic, so to speak, all processed in the right spirit. I vaguely remember many moments. At the heart of it-shooting at the Monoliths, sort of called them? Well, just the moment when I almost fell unconscious because of a small, but ailing injury. Oh, hell, it hurts again.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I will not interfere any more, good luck.</text>
+<give_info>stetsenko_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="merkylov_history">
+<dont_has_info>merkylov_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>He's well.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Well type hello.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>Tell me about yourself?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Should I tell you about myself? Well, why not, I still feel that the end is near. No, it's just that I was born into a priest's family, and my mother was a singer in a choir. We lived in the village, which was called 'Jackdaw', but now it is no longer-all flooded, alas. However, I still had sad memories about the 'past' life. But I so did not want to be submissive and after 9 classes I moved into the army. I later went to school because of illness. They taught me intelligence there, I always liked to watch from the shadows how someone does something. In the army I was taught to do this unnoticed, but I also loved boldly to fight. I remember the day when we were sent to destroy the monolith. Such bitches, you will not believe. Knocked down the best pilots, goats. But Stetsenko generally tsepanuli. I do not know one thing-how we dragged it, just at some instant my eyes became cloudy, and I remember that he shot at the enemies, despite his wound. It seemed to me that he had lost a leg, but only two fingers.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>Yeah.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>Listen, I do not want to remember the day when the command threw us into the meat. you better tell me. When will the food be? I want to eat, haha.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>I do not know. Would you go to the laundry and find out. Well, come on.</text>
+<give_info>merkylov_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="yarmorshuk_history">
+<dont_has_info>yarmorshuk_history</dont_has_info>    
+<phrase_list> 
+<phrase id="0"> 
+	<text>I think I know you.</text>
+<next>1</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Yes, and I remember you, you are the informal who passed through the checkpoint. I was there that day.</text>
+<next>2</next> 
+</phrase> 
+<phrase id="2"> 
+	<text>It's nothing like a night, huh?</text>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>I'll meet you in a different place-you would have been nailed for a long time, then you raised such a noise that it's a fiasco.</text>
+<next>4</next>  
+</phrase> 
+<phrase id="4"> 
+	<text>the one who remembers the old is his eye. Let's forget about what happened. Tell me more about yourself.</text>
+<next>5</next>  
+</phrase> 
+<phrase id="5"> 
+	<text>My childhood and the past? I had it shitty. My father was sitting, although he was once an ordinary artist, as I thought. And my mother died in my 6 years of hunger. I lived near the Donbass, there were a couple of houses for the renegades there, like my father. Well, we lived on a couple and did not grieve, but I knew a lot, so with grief, but was able to finish as many as 11 classes, but there was no money and could not pass the exam alone, the teacher was very evil. Here. ' and they took me into the army here. One thing I've learned-one for all, yes all for one. Here in this command to Skele I got. A funny Englishman, haha, still spoke so slowly, but I taught him Russian. This subject I had at 5, when my 'smart' friend stood firm 3. So in gratitude he taught me to make bombs and all the same, well, so the English people taught me something that even in Ukraine or Russia they will not teach. As a result, I was appointed a bomb, as I was in A joke was sometimes called in the detachment. the first massacre was during the clearing of the terrain from the monolith. I remember the order was given, they say, fight to the last drop of blood. Fought-knocked out all the trash, as I thought and felt then, only one scared me. our group fell under an anomaly and many events were confused in the head, but, as you can see. I stand before you alive. Thanks to our commander, a good scout, got us out of these fucking reptiles. And the command threw us, freaks. If something is needed, it is better to Skele. He crap does not say.</text>
+<next>6</next>  
+</phrase>
+<phrase id="6"> 
+	<text>Okay, be well. I will go about my business.</text>
+<give_info>yarmorshuk_history</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+</game_dialogs>

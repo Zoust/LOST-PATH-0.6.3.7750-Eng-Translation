@@ -1,0 +1,4749 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+
+<dialog id="zat_b7_bandit_boss_sultan_task_3_trader_day">
+<has_info>zat_b7_bandit_boss_sultan_task_3_begin</has_info>
+<dont_has_info>zat_b7_bandit_boss_sultan_task_3_trader_day_1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Goblets and artifacts drive fast, fucking fuck!</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Take this, that he managed to haggle, there are not any artifices, believe me, I beg you:</text>
+<give_info>zat_b7_bandit_boss_sultan_task_3_trader_day_1</give_info>
+<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_trader_reward</action>	
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="zat_b7_bandit_boss_sultan_task_3_trader_night">
+<has_info>zat_b7_bandit_boss_sultan_task_3_begin</has_info>
+<dont_has_info>zat_b7_bandit_boss_sultan_task_3_trader_night_1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Goblets and artifacts drive fast, fucking fuck!</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Take what is, do not shoot only:</text>
+<give_info>zat_b7_bandit_boss_sultan_task_3_trader_night_1</give_info>
+<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_trader_reward</action>	
+<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_random_af</action>	
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="request_to_no_go_nimble_bar">
+<dont_has_info>request_to_no_go_nimble_bar1</dont_has_info>
+<precondition>xr_conditions.if_actor_not_powerful</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>And what about you interesting in those rooms behind the guard?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Not what, but who. A little man there is a veteran, he wants you to get whatever equipment you want can be unique. But now I will not let you go, first I have to make sure that you can be trusted, that is, you should have a good reputation.</text>
+<give_info>request_to_no_go_nimble_bar1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="request_to_no_go_nimble_bar_1">
+<has_info>request_to_no_go_nimble_bar1</has_info>
+<dont_has_info>request_to_no_go_nimble_bar2</dont_has_info>
+<precondition>xr_conditions.if_actor_powerful</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Well, now I can go to this man?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Hmm, yes. I'll warn Garik, that person's name is Shuster. Straight and right along the corridor.</text>
+<give_info>request_to_no_go_nimble_bar2</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="request_to_no_go_nimble_bar_2">
+<dont_has_info>request_to_no_go_nimble_bar1</dont_has_info>
+<dont_has_info>request_to_no_go_nimble_bar3</dont_has_info>
+<precondition>xr_conditions.if_actor_powerful</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>And what about you interesting in those rooms behind the guard?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Not what, but who. A little man there is a veteran, he wants you to get whatever equipment you want can be unique. Hmm, I know you as a reliable person with a good reputation. You can tell Garik that he missed you and go to this man whom the Shrew call to. Straight and right along the corridor.</text>
+<give_info>request_to_no_go_nimble_bar3</give_info>
+<give_info>request_to_no_go_nimble_bar2</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guard1_meet_mlr">		
+        <phrase_list>
+            <phrase id="0">
+                <text>...</text>
+            </phrase>		
+        </phrase_list>
+    </dialog>
+
+<dialog id="request_go_to_nimble">	
+        <has_info>request_to_no_go_nimble_bar2</has_info>	
+        <dont_has_info>actor_meet_nimble_room</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+	<text>I need to get through.</text>
+		    <give_info>actor_meet_nimble_room</give_info>	
+            <action>dialogs.break_dialog</action>				
+            </phrase>		
+        </phrase_list>
+    </dialog>	
+<dialog id="about_freedom_lider_miklyha">		
+        <dont_has_info>about_freedom_lider_miklyha</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+	<text>Wow, this is you and the detachment broke through the 'Burnout' and stayed there for half a year?</text>
+                <next>1</next>
+            </phrase>
+           <phrase id="1">
+	<text>Well, not half a year, but just over a month. Yes, it was me. Miklukha, it's nice to meet you.</text>
+                <next>2</next>								
+            </phrase>
+            <phrase id="2">
+	<text>And how was it, tell me, huh?</text>
+                <next>3</next>					
+            </phrase>
+            <phrase id="3">
+	<text>Listen, well, I do not want to stir up the past, I got out perfectly well.</text>
+                <next>4</next>					
+            </phrase>	
+            <phrase id="4">
+	<text>Oh, and thanks for that.</text>
+		    <give_info>about_freedom_lider_miklyha</give_info>				
+            </phrase>			
+        </phrase_list>
+    </dialog>
+<dialog id="bandit_main_base_medic_mlr_heal">
+        <phrase_list>
+            <phrase id="0">
+	<text>Feel me, just do not dismiss your hands, fuck!</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+           <phrase id="1">
+	<text>Kxx. So, fuck.</text>
+                <precondition>dialogs.actor_needs_bless</precondition>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+	<text>Hands/feet are there, dick in place-free.</text>
+                <precondition>dialogs.actor_is_damn_healthy</precondition>
+            </phrase>
+            <phrase id="3">
+	<text>[Further.]</text>
+                <action>dialogs.medic_magic_potion</action>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+	<text>I fucking of course in this fucking do not understand, but it seems like you should be better.</text>
+            </phrase>
+        </phrase_list>
+    </dialog>	
+<dialog id="ds_killer_medic_mlr_heal">
+        <phrase_list>
+            <phrase id="0">
+	<text>I need medical help.</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+           <phrase id="1">
+	<text>So, well, let 's look.</text>
+                <precondition>dialogs.actor_needs_bless</precondition>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+	<text>Are you all right.</text>
+                <precondition>dialogs.actor_is_damn_healthy</precondition>
+            </phrase>
+            <phrase id="3">
+	<text>[Further.]</text>
+                <action>dialogs.medic_magic_potion</action>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+	<text>Now with you is exactly the order, albeit not complete.</text>
+            </phrase>
+        </phrase_list>
+    </dialog>	
+<dialog id="mil_freedom_medic_heal">
+        <phrase_list>
+            <phrase id="0">
+	<text>I need medical help.</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+           <phrase id="1">
+	<text>Ah, let's see that.</text>
+                <precondition>dialogs.actor_needs_bless</precondition>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+	<text>Dude, you're healthier than a bloodsucker!</text>
+                <precondition>dialogs.actor_is_damn_healthy</precondition>
+            </phrase>
+            <phrase id="3">
+	<text>[Further.]</text>
+                <action>dialogs.medic_magic_potion</action>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+	<text>Uh-huh. understandably. Well, be healthy now.</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+<dialog id="meet_ds_killer_guide_main_base">
+<dont_has_info>meet_ds_killer_guide_main_base_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hi who are you?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I'm a guide,call 'Leopard.' As you can see,the 'Dead City' is surrounded on all sides by all sorts of enemies,but few know about the underground sewer network,but I know. And we can safely move out of the city,and then I can take you to one of our bases. the truth is that they are not very many: \n %c[255,238,153,26] • • Zaton['Waste Processing Station'] \n %c[255,238,153,26] • • Red Forest[outpost behind the bridge]</text>
+<give_info>meet_ds_killer_guide_main_base_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_ds_killer_guide_main_base_list">
+<has_info>meet_ds_killer_guide_main_base_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me, where are your routes going?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>See: \n %c[255,238,153,26] • • Zaton['Waste Processing Station',8000] \n %c[255,238,153,26] • • Red Forest[outpost before the bridge,2500]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_ds_killer_guide_main_base">
+<has_info>meet_ds_killer_guide_main_base_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to leave the city.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where are we keeping the way?</text>
+        <next>2</next>
+        <next>3</next>   
+        <next>4</next>            
+    </phrase>
+    <phrase id="2">
+	<text>At Zaton%c[255,238,153,26]['Waste Processing Station',8000]</text>
+    <precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+    <action>dialogs_mlr.sell_money_to_radar_guid_pri</action> 
+    <action>dialogs_mlr.zat_trash_station</action> 
+    </phrase>
+    <phrase id="3">
+	<text>In the Red Forest%c[255,238,153,26]['outpost before the bridge',2500]</text>
+    <precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action> 
+    <action>dialogs_mlr.red_forest_guid_mon</action>  
+    </phrase>
+    <phrase id="4">
+	<text>Perhaps I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_zaton_killer_guide_station">
+<precondition>dialogs_mlr.check_killer</precondition>
+<dont_has_info>meet_zaton_killer_guide_station_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarov, what are you doing?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I can ask you a perfectly reasonable question: 'Does he fuck you?'. But something is still your concern,namely,I provide services for 'their'- the services of the Guide. I know short and safe routes to: \n %c[255,238,153,26] • • 'Dead City'[trade cooperative] \n %c[255,238,153,26] • • Red Forest[outpost behind the bridge]</text>
+<give_info>meet_zaton_killer_guide_station_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_zaton_killer_guide_station_list">
+<has_info>meet_zaton_killer_guide_station_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me again where your routes lead?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Here: \n %c[255,238,153,26] • • 'Dead City'[trade cooperative,8000] \n %c[255,238,153,26] • • Red Forest[outpost before the bridge,2500]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_zaton_killer_guide_station_base">
+<has_info>meet_zaton_killer_guide_station_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I need your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where?</text>
+        <next>2</next>
+        <next>3</next>   
+        <next>4</next>            
+    </phrase>
+    <phrase id="2">
+	<text>In the 'Dead City'%c[255,238,153,26][trade cooperative,8000]</text>
+    <precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+    <action>dialogs_mlr.sell_money_to_radar_guid_pri</action> 
+    <action>dialogs_mlr.ds_soviet_store</action> 
+    </phrase>
+    <phrase id="3">
+	<text>In the Red Forest%c[255,238,153,26]['outpost before the bridge',2500]</text>
+    <precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action> 
+    <action>dialogs_mlr.red_forest_guid_mon</action>  
+    </phrase>
+    <phrase id="4">
+	<text>Perhaps I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="about_dog_marsh_part_two">
+<has_info>story_dog_inf</has_info>
+<has_info>noah_start_dialog2</has_info>
+<dont_has_info>about_dog_marsh_part_two_done</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I saw that freak with the dog and even talked to him.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Oh, how, and I already forgot about this request. Well, what is it?</text>
+    <next>2</next>		
+		<give_info>about_dog_marsh_part_two_done</give_info>		
+    </phrase>
+    <phrase id="2">
+	<text>Yes, as always, no specifics, Lassie her name is said, they say. Well, there are two more puppies with her, too, like the signs of aggression did not show.</text>
+    <next>3</next>
+    </phrase>	
+    <phrase id="3">
+	<text>Puppies? Oh, what only in the zone you will not see. Well, thanks, I'll know now that Not one Doc, we have such a 'dog breeder'. If necessary, take infu about the transition of one, from the military to the Red Forest. Got us the echo of the group's former adventures, well, and provisions a bit.</text>
+    <action>transitions.open_mil_space_restrictor_to_red_1</action>	
+    <action>dialogs_mlr.give_staff_about_dog_marsh_part_two</action>		
+	<give_info>about_dog_marsh_part_two_done</give_info>	
+    </phrase>	
+</phrase_list>
+</dialog>
+
+<dialog id="talk_to_inf_trader">
+<dont_has_info>talk_to_inf_trader1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Who are you?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I'm a local Informant and can offer you all kinds of services. At the moment it's different information and maps with ways to one or another location. Do not ask where I got this from.</text>
+		<give_info>talk_to_inf_trader1</give_info>		
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="buy_information_from_trader">
+<has_info>mar_doctor_found</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Do you have any fresh information?</text>
+    <next>1</next>
+    <next>2</next>
+    <next>3</next>
+    <next>4</next>
+    <next>5</next>
+    </phrase>
+    <phrase id="1">
+	<dont_has_info>buy_information_from_trader1</dont_has_info>		
+	<dont_has_info>yan_labx16_switcher_primary_off</dont_has_info>	
+	<has_info>mar_doctor_found</has_info>
+	<text>I'm ready to share with you information about the swamp doctor for 7000.</text>
+    <next>6</next>
+    <next>10</next>		
+    </phrase>
+    <phrase id="6">	
+	<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>	
+	<text>Come on.</text>
+    <action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+    <next>11</next>	
+    </phrase>
+    <phrase id="11">
+	<text>the old man is now in the Swamp, everything is waiting for his friend- 'Arrow'. Recently, some guy came to him, to whom the Doctor told his story and what is important- the history of the Strelok group itself! You can personally go to him and make sure.</text>
+	<give_info>buy_information_from_trader1</give_info>		
+    </phrase>	
+    <phrase id="2">
+	<dont_has_info>buy_information_from_trader2</dont_has_info>	
+	<dont_has_info>bar_deactivate_radar_done</dont_has_info>		
+	<has_info>yan_labx16_switcher_primary_off</has_info>	
+	<text>There is information about a strange stalker who is looking for the Arrow group for 10,000.</text>
+	<give_info>buy_information_from_trader2</give_info>
+    <next>7</next>
+    <next>10</next>		
+    </phrase>
+    <phrase id="7">	
+	<precondition>dialogs_mlr.have_mil_to_yant_on_heli</precondition>	
+	<text>Come on.</text>
+    <action>dialogs_mlr.give_mil_to_yant_on_heli</action>
+    <next>12</next>			
+    </phrase>
+    <phrase id="12">
+	<text>This very stalker who went to the Doctor is now looking for the tracks of the 'Arrow' group. He has already examined the laboratories in TD and on Yantar and it's clearly not going to stop there. Judging by proven sources, he wants to break into the center of the Zone and finish what the above-mentioned a group of stalkers for one reason or another.</text>
+	<give_info>buy_information_from_trader2</give_info>		
+    </phrase>	
+    <phrase id="3">
+	<dont_has_info>buy_information_from_trader3</dont_has_info>		
+	<dont_has_info>warlab_deactivate_generators_done</dont_has_info>		
+	<has_info>bar_deactivate_radar_done</has_info>	
+	<text>I have information that sheds light on the second turn-off of the Burnout for 15,000.</text>
+	<give_info>buy_information_from_trader3</give_info>			
+    <next>8</next>
+    <next>10</next>		
+    </phrase>
+    <phrase id="8">
+	<precondition>dialogs_mlr.have_information_about_stash_barmen</precondition>	
+	<text>Come on.</text>
+    <action>dialogs_mlr.give_information_about_stash_barmen</action>
+    <next>13</next>			
+    </phrase>
+    <phrase id="13">
+	<text>It's still the same stalker and he turns off the Burnout! It's interesting, when they will guess at somehow harm the control panel, instead of jerking the switch every time? There are rumors that now he is going to Pripyat and he had some assignment from the Doctor. I do not know if the old man wants this way find your friend or behind it is hidden something more.</text>
+	<give_info>buy_information_from_trader3</give_info>		
+    </phrase>	
+    <phrase id="4">
+	<dont_has_info>buy_information_from_trader4</dont_has_info>		
+	<has_info>warlab_deactivate_generators_done</has_info>	
+	<text>I post information about the adventures of a mysterious stalker on the 'Generators' for 24000.</text>
+	<give_info>buy_information_from_trader4</give_info>
+    <next>9</next>
+    <next>10</next>		
+    </phrase>	
+    <phrase id="9">	
+	<precondition>dialogs_mlr.have_pri_special_trader_mlr_11</precondition>	
+	<text>Come on.</text>
+    <action>dialogs_mlr.give_pri_special_trader_mlr_11</action>
+    <next>14</next>			
+    </phrase>
+    <phrase id="14">
+	<text>Have you ever heard of 'Generators'? Until recently, this place was considered only a myth, but after the second campaign of the group 'Arrow' to the center of the Zone all doubts were dispelled. There are persistent arguments about what is there, but the old satellite images indicate some kind of weird the infrastructure in honor of which this place was named. It is apparently from there that control is carried out both by the group 'Monolith' and by all important processes on the territory of the Zone. So our stalker has already gone there and I think he is serious, probably his interference can entail serious changes in the Zone, the leaders of some factions have already expressed their dissatisfaction with this information.</text>
+	<give_info>buy_information_from_trader4</give_info>		
+    </phrase>	
+    <phrase id="5">
+	<text>Not at the moment.</text>
+    </phrase>
+    <phrase id="10">	
+	<text>I'm not interested.</text>
+    </phrase>	
+</phrase_list>
+</dialog>
+
+<dialog id="inf_trader_buy_transitions">
+<has_info>talk_to_inf_trader1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to buy information on various transitions.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Look what I have:</text>
+    <next>2</next>
+    <next>3</next>
+    <next>4</next>
+    <next>5</next>
+    <next>6</next>
+    <next>7</next>
+    <next>8</next>	
+    </phrase>
+    <phrase id="2">
+	<dont_has_info>inf_trader_buy_transitions1</dont_has_info>
+	<text>From the military to Radar%c[255,238,153,26][25000]</text>
+	<next>9</next>
+    </phrase>
+    <phrase id="9">
+	<text>Have you got any money with you?</text>
+		<next>11</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="11">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions1</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions11</action>
+        <action>transitions.open_mil_space_restrictor_to_radar_1</action>		
+		<give_info>inf_trader_buy_transitions1</give_info>	
+    </phrase>	
+    <phrase id="3">
+	<dont_has_info>inf_trader_buy_transitions2</dont_has_info>
+	<text>From Radar to the bunker below it%c[255,238,153,26][37500]</text>
+	<next>12</next>		
+    </phrase>
+    <phrase id="12">
+	<text>Have you got any money with you?</text>
+		<next>13</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="13">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions2</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions22</action>
+        <action>transitions.open_rad_space_restrictor_to_bunker</action>		
+		<give_info>inf_trader_buy_transitions2</give_info>	
+    </phrase>	
+    <phrase id="4">
+	<dont_has_info>inf_trader_buy_transitions3</dont_has_info>
+	<text>From Radar to the central Pripyat%c[255,238,153,26][50000]</text>
+	<next>14</next>		
+    </phrase>
+    <phrase id="14">
+	<text>Have you got any money with you?</text>
+		<next>15</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="15">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions3</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions33</action>
+        <action>transitions.open_rad_space_restrictor_to_pripyat_01</action>		
+		<give_info>inf_trader_buy_transitions3</give_info>	
+    </phrase>		
+    <phrase id="5">
+	<dont_has_info>inf_trader_buy_transitions4</dont_has_info>
+	<text>From central Pripyat to the suburbs%c[255,238,153,26][100000]</text>
+	<next>16</next>		
+    </phrase>
+    <phrase id="16">
+	<text>Have you got any money with you?</text>
+		<next>17</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="17">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions4</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions44</action>
+        <action>transitions.open_pri_space_restrictor_to_cop_pripyat</action>		
+		<give_info>inf_trader_buy_transitions4</give_info>	
+    </phrase>	
+    <phrase id="6">
+	<dont_has_info>inf_trader_buy_transitions5</dont_has_info>
+	<text>From central Pripyat to the nuclear power plant%c[255,238,153,26][150000]</text>
+	<next>18</next>		
+    </phrase>
+    <phrase id="18">
+	<text>Have you got any money with you?</text>
+		<next>19</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="19">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions5</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions55</action>
+        <action>transitions.open_pri_space_restrictor_to_stancia</action>		
+		<give_info>inf_trader_buy_transitions5</give_info>	
+    </phrase>		
+    <phrase id="7">
+	<dont_has_info>inf_trader_buy_transitions6</dont_has_info>
+	<text>From the southern part of the nuclear power plant to the northern%c[255,238,153,26][175000]</text>
+	<next>20</next>		
+    </phrase>
+    <phrase id="20">
+	<text>Have you got any money with you?</text>
+		<next>21</next>
+	    <next>10</next>		
+    </phrase>
+    <phrase id="21">
+		<precondition>dialogs_mlr.inf_trader_buy_transitions6</precondition>
+	<text>Yes, take it.</text>
+        <action>dialogs_mlr.inf_trader_buy_transitions66</action>
+        <action>transitions.open_aes_space_restrictor_to_aes2</action>		
+		<give_info>inf_trader_buy_transitions6</give_info>	
+    </phrase>		
+    <phrase id="10">
+	<text>No.</text>
+    </phrase>	
+    <phrase id="8">
+	<text>I changed my mind.</text>
+    </phrase>	
+</phrase_list>
+</dialog>
+
+<dialog id="noah_start_dialog">
+<dont_has_info>noah_start_dialog1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Man, are you fucking shit out of anything? You almost killed me!</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>And fuck did you ever come here? well, come on, do not waste my time.</text>
+		    <next>2</next>
+    </phrase>
+	    <phrase id="2">
+	<text>Clear. Okay, you do not boil, maybe you need some help? Will you answer a couple of questions?</text>
+		    <next>3</next>
+    </phrase>
+	    <phrase id="3">
+	<text>Come on, do not be demonic only.</text>
+    <give_info>noah_start_dialog1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="noah_start_dialog1">
+<has_info>noah_start_dialog1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have a couple of questions.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>[.]</text>
+		    <next>2</next>
+			<next>3</next>
+			<next>4</next>
+			<next>5</next>		
+    </phrase>
+	<phrase id="2">
+	<dont_has_info>noah_start_dialog2</dont_has_info>
+	<text>Where did you get this dog?</text>
+		    <next>7</next>
+    </phrase>
+	<phrase id="7">
+	<text>This is Lassie. Glorious bitch. If it were not for her, I would have been devoured for a long time in a dream. Damned mutants. I hate it! Only your eyes will close-and they are already there, pulling claws, fangs, felt.</text>
+		    <next>8</next>	
+		    <next>9</next>				
+    </phrase>
+	<phrase id="8">
+	<text>Clear.</text>
+	    <give_info>noah_start_dialog2</give_info>	
+    </phrase>	
+	<phrase id="9">
+	<text>And puppies-then where does it come from, if she is standing next to you sticking out? Listen, are not you the one who happened to be there by chance? Well, well, you understand.[sarcasm]</text>
+		<give_info>noah_start_dialog2</give_info>
+		<give_info>zat_b18_actor_enemy</give_info>	
+        <action>dialogs.break_dialog</action>		
+    </phrase>		
+	<phrase id="3">
+		<dont_has_info>noah_start_dialog3</dont_has_info>
+	<text>Why do you live in this vessel?</text>
+		    <next>10</next>		
+    </phrase>
+	<phrase id="10">
+	<text>This is the Ark! Remember. If you want to live, remember! When Wave goes, be close. Here-you have a chance to survive. Not a single mutant coming through.</text>
+		    <next>11</next>		
+    </phrase>	
+	<phrase id="11">
+	<text>What a fucking wave, where did you get this from?</text>
+		    <next>12</next>		
+    </phrase>
+	<phrase id="12">
+	<text>Because these creatures are watching me day and night. You do not understand. those snorkers from the southern plateau followed me right up to the 'Ark'! I'm an experienced hunter and I know that they would not have fucked chasing the victim for so long. But here something is unclean, it seems to me that they have a mind. Collective, and maybe a protectorate of what looked, I do not know. and my guesses were only confirmed by the recent attack of these creatures on the barge.</text>
+		    <next>13</next>			
+    </phrase>
+	<phrase id="13">
+	<text>Okay, this is the Zone. There can be anything here, but if your guesses are correct, then we are now in deep ass.</text>
+			<give_info>noah_start_dialog3</give_info>	
+    </phrase>	
+	<phrase id="4">
+		<dont_has_info>noah_start_dialog4</dont_has_info>
+	<text>Why do not you trust people?</text>
+		    <next>14</next>			
+    </phrase>
+	<phrase id="14">
+	<text>I have experienced too much.</text>
+		<give_info>noah_start_dialog4</give_info>	
+    </phrase>	
+	<phrase id="5">
+	<text>I think I'll go.</text>
+    </phrase>		
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_3_start">
+<has_info>fanat_kmb_2_give1</has_info>
+<dont_has_info>fanat_kmb_3_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>And what is he, our 'final lesson'?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Now you will see. As you know, always and everywhere the most insidious enemy of man, strangely enough, remains a man. For a long time we beat out all the rubbish from the ATP, but they still came back. Here and now we are threatened by thugs with a number of 5-7 digs, let's deal with them.</text>
+        <action>dialogs_axr_companion.become_actor_companion</action>
+        <action>dialogs_mlr.give_task_fanat_kmb_3</action>
+    <give_info>fanat_kmb_3_give</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_3_start1">
+<has_info>fanat_kmb_3_give</has_info>
+<has_info>esc_5_9_atp_kmb_death</has_info>
+<dont_has_info>fanat_kmb_3_give1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Blah, the two of us against these. uh, yes we are real heroes!</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>What you called 'heroism' here is commonplace, true for more experienced stalkers. Well, let's go to the village.</text>
+    <give_info>fanat_kmb_3_give1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_3_start2">
+<has_info>fanat_kmb_3_give1</has_info>
+<has_info>visit_esc_5_9_atp_kmb</has_info>
+<dont_has_info>fanat_kmb_3_give2</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Listen, it's good that all of us jerks have a mentor like you.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Thank you, but I'm not the first here to tell the truth. the first was the Wolf before, after some kind of horseradish, not rushed to the center of the Zone. If you want, we'll try to find him together, only later. I need to translate the spirit, and it seems to me hooked. Ah, yes-keep info about the route useful from the Agroprom directly to the Amber! If you do not have it yet, of course.</text>
+    <action>dialogs_axr_companion.remove_companions_from_squad</action>
+    <action>dialogs.become_friend</action>
+	<action>transitions.open_kmb_fanat_way_mlr</action>
+    <give_info>fanat_kmb_3_give2</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_2_start">
+<has_info>fanat_kmb_1_give4</has_info>
+<dont_has_info>fanat_kmb_2_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I'm ready, what now?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>What respectful stalker, I tell you, could not find someone's secret? Zone-it's because the general, who managed, he ate. And sometimes to find a hiding place-not just any achievement, but the goal of survival! Look, somewhere in the village, I hid a rucksack, try to find it.</text>
+        <action>dialogs_mlr.give_task_fanat_kmb_2</action>
+    <give_info>fanat_kmb_2_give</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_2_start1">
+<has_info>fanat_kmb_2_give</has_info>
+<has_info>fanat_kmb_2_open</has_info>
+<dont_has_info>fanat_kmb_2_give1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Found, thanks for the artifact.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Well, I feel with your attentiveness in the Zone you will not perish. Prepare for the time being until the final lesson.</text>
+    <give_info>fanat_kmb_2_give1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_1_start">
+<dont_has_info>fanat_kmb_1_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Opa, a new face? Wait a minute, man, do not want to go through something like KMB?</text>
+    <next>1</next>
+    <next>2</next>
+    </phrase>
+    <phrase id="1">
+	<text>Come on.</text>
+    <next>3</next>
+    </phrase>
+    <phrase id="2">
+	<text>No, sorry-I do not have time for this.</text>
+    <give_info>fanat_kmb_1_give</give_info>		
+    </phrase>
+    <phrase id="3">
+	<text>So the first of the dangerous things that are here is mutants. In the ravine, a herd of hogs settled, we went down and cleaned. You just do not go on ahead of me, but keep the boars off!</text>
+        <action>dialogs_axr_companion.become_actor_companion</action>
+        <action>dialogs_mlr.give_task_fanat_kmb_1</action>
+    <give_info>fanat_kmb_1_give</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_1_start1">
+<has_info>esc_2_14_boars_kmb_death</has_info>
+<has_info>fanat_kmb_1_give</has_info>
+<dont_has_info>fanat_kmb_1_give1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Fuh, they've been overwhelmed. Now what?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>So, well done, did you collect all the trophies? Now move to the nearest anomalous zone.</text>
+    <give_info>fanat_kmb_1_give1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_1_start2">
+<has_info>visit_esc_1_11_kmb_restr</has_info>
+<has_info>fanat_kmb_1_give1</has_info>
+<dont_has_info>fanat_kmb_1_give2</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>What's next?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>So, here is full of gravitational. You take bolts, you pave the way before them. Look, there 'jellyfish' is lying, artifact such, you can get it? They have both positive and negative qualities, in our case we are quite lucky. Here's a simple detector for you, you can to find out some other artifacts, and even take an anti-radiance-there's a background radiatione there, be healthy. Come on, I'll cover you from here for now.</text>
+    <action>dialogs_mlr.give_det_adva_from_fanat</action>
+    <action>dialogs_mlr.give_antirad_from_fanat</action>	
+    <action>dialogs_mlr.spawn_1_11_af_medusa_kmb</action>	
+    <action>dialogs_axr_companion.remove_companions_from_squad</action>
+    <give_info>fanat_kmb_1_give2</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_1_start3">
+<precondition>dialogs_mlr.has_1_11_af_medusa_kmb</precondition>
+<has_info>fanat_kmb_1_give2</has_info>
+<dont_has_info>fanat_kmb_1_give3</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Look, I got a jellyfish!</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Aw, well done-a good stalker will come out of you, now you have moved back to the village, we will continue training there.</text>
+    <action>dialogs_axr_companion.become_actor_companion</action>
+    <give_info>fanat_kmb_1_give3</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="fanat_kmb_1_start4">
+<has_info>visit_esc_2_12_village_kmb_restr</has_info>
+<has_info>fanat_kmb_1_give3</has_info>
+<dont_has_info>fanat_kmb_1_give4</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Uf. it was fascinating.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Tired? Hehe, come, as you ripen-it's not all training yet. Well, keep a few useful things for the first time.</text>
+    <action>dialogs_axr_companion.remove_companions_from_squad</action>
+    <give_info>fanat_kmb_1_give4</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="zat_b3_stalker_tech_start_mlr">
+        <phrase_list>
+            <phrase id="0">
+	<text>Zdarova, the stalker. Need something?</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+<dialog id="rogovets_about_himself_1_6_army_mlr">
+<dont_has_info>rogovets_about_himself_1_6_army_mlr1</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+	<text>Tell me about yourself.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>I was military contractor here, and almost immediately I was assigned to the 'Fairway Group' after some preparation. We were stuck somehow transition Pripyat after the collapse of the operation, well, who lives was left. then SBUshnik helped us, and then they took us. From my mind still one case to throw out I can not: sent our immediate supervisor to the kindergarten me and a couple more guys, in which, according to preliminary information, there was a device that interfered with radio communication. Well, how come, so I do not know what came over me, it's not my own-where the guys have gone, I do not see any veil before some eyes. Well, right in this kindergarten I found a damn refrigerator and climbed there. Then I hear an explosion right above me and immediately felt better, but the refrigerator was locked for some reason and I could not get out without outside help. I do not remember if I myself locked myself or what a poltergeist was holding.</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+	<text>And then-why, why did not you quit?</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+	<text>Yes, money is needed, otherwise why would I have come here again. And the doctors are good, well, not very well in the army now in good standing. the good though not demoted for the failure of the operation, but also not praised, too, unlike the major, who by the way, too, somewhere in the Zone is mistaken.</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+	<text>Clearly, good luck to you. Now I will know in that kindergarten either with my foot.</text>
+            <give_info>rogovets_about_himself_1_6_army_mlr1</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+<dialog id="rogovets_hello_1_6_army_mlr">
+        <phrase_list>
+            <phrase id="0">
+	<text>A? It's you.</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+<dialog id="rogovets_heal_1_6_army_mlr">
+        <phrase_list>
+            <phrase id="0">
+	<text>I need medical help.</text>
+                <next>1</next>
+                <next>2</next>
+            </phrase>
+           <phrase id="1">
+	<text>So, let me take a look.</text>
+                <precondition>dialogs.actor_needs_bless</precondition>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+	<text>Do not be ridiculous, you're okay.</text>
+                <precondition>dialogs.actor_is_damn_healthy</precondition>
+            </phrase>
+            <phrase id="3">
+	<text>[Further.]</text>
+                <action>dialogs.medic_magic_potion</action>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+	<text>Well, that's all, you can go.</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+<dialog id="find_blackbox_mlr_reward_killer">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarov, I've dug up a recorder here and there.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Military? Come on. Good thing, take money for it.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+    <action>dialogs_mlr.goodwill_for_blackbox_killer_reward</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="find_blackbox_mlr_reward_freedom">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I found an airborne recorder here.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>So-so, give it here. Let's see what these reptiles are planning.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+    <action>dialogs_mlr.goodwill_for_blackbox_freedom_reward</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="find_blackbox_mlr_reward_csky">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Here, I found this recorder under the wreckage of a helicopter.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>An excellent find, maybe we will find the cause of these aerial raids in the Swamp.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+    <action>dialogs_mlr.goodwill_for_blackbox_csky_reward</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="find_blackbox_mlr_reward_haron">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Brother, I picked up a device under the wreck of a helicopter of infidels, intended to fix the last minutes of the life of the aircraft.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Give it here, let's see what the infidels are up to this time.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_haron_blackbox</action>
+    <action>dialogs_mlr.goodwill_for_blackbox_monolith_reward</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="find_blackbox_mlr_reward_owl">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Recorders from turntables are interested?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Of course, give it here.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_owl_blackbox</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="find_blackbox_mlr_reward_army">
+<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I picked up the recorder from the fallen helicopter.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Thanks, give it here.</text>
+    <action>dialogs_mlr.take_blackbox_mlr</action>
+    <action>dialogs_mlr.take_money_from_army_blackbox</action>
+    <action>dialogs_mlr.reward_for_blackbox_army</action>
+    <action>dialogs_mlr.goodwill_for_blackbox_army_reward</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barah_night">
+<dont_has_info>information_about_stash_barah_night1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, but you do not trade info on the caches?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>On the flea market, almost everyone is traded. Six thousand and I'll give you the coordinates.</text>
+<give_info>information_about_stash_barah_night1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barah_night1">
+<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+<has_info>information_about_stash_barah_night1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have money to buy a cache%c[255,238,153,26][6000]</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Catch the coordinates.</text>
+<action>dialogs_mlr.give_money_to_jupiter_guid_bar</action>
+<action>xr_effects.reward_stash</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barman_mil_7_7">
+<dont_has_info>information_about_stash_barman_mil_7_7_1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>And you can find infu about the location of any cache?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Oh, of course! Here at us who only was not. the most understandable thing for me is to walk around the Zone not solidly, so I sell six and a half for guidance.</text>
+<give_info>information_about_stash_barman_mil_7_7_1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barman_mil_7_7_1">
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_2</precondition>
+<has_info>information_about_stash_barman_mil_7_7_1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have money to buy a cache%c[255,238,153,26][6500]</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Catch the coordinates.</text>
+<action>dialogs_mlr.give_pri_special_trader_mlr_2</action>
+<action>xr_effects.reward_stash</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_owl_zat">
+<dont_has_info>information_about_stash_owl_zat1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, can you find information about the location of any cache?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Find something, then everything is possible, but do you have money? the blessing of the information from the flash-drive collected by the shaft, and I do not need these caches. Eight pieces for this and no less.</text>
+<give_info>information_about_stash_owl_zat1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_owl_zat1">
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_1</precondition>
+<has_info>information_about_stash_owl_zat1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have money to buy a cache%c[255,238,153,26][8000]</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Catch the coordinates.</text>
+<action>dialogs_mlr.give_pri_special_trader_mlr_1</action>
+<action>xr_effects.reward_stash</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_7_4_bandit_trader">
+<dont_has_info>information_about_stash_7_4_bandit_trader1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Evening in the closet, man. Do not you get information about all sorts of caches?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Both and from where did you smell this? Well, yes, that does not reach the pahan, then it settles. In general seven pieces and it's yours.</text>
+<give_info>information_about_stash_7_4_bandit_trader1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_7_4_bandit_trader1">
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+<has_info>information_about_stash_7_4_bandit_trader1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have money to buy a cache%c[255,238,153,26][7000]</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Catch the coordinates.</text>
+<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+<action>xr_effects.reward_stash</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barmen">
+<dont_has_info>information_about_stash_barmen1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarova, the Barman. You can buy information about the location of any cache?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Yes, often to me in the bar stalkers then in gratitude, they just drunk about their shrouds, but do not think that it will be cheap for you, even though I do not know what might be there. Seven thousand and your hiding place.</text>
+<give_info>information_about_stash_barmen1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="information_about_stash_barmen1">
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+<has_info>information_about_stash_barmen1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have money to buy a cache%c[255,238,153,26][7000]</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Catch the coordinates.</text>
+<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+<action>xr_effects.reward_stash</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="tech_a18_meet_dialog">
+<dont_has_info>tech_a18_meet_dialog1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, you're a local dealer, right? Do you provide any services?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Yes, what am I now an agent. No, I need more services. Apply a little later, I can give you a job in search of various ammunition and weapons for our guys.</text>
+<give_info>tech_a18_meet_dialog1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="grifon_meet_dialog">
+<precondition>dialogs_mlr.check_no_killer</precondition>
+<dont_has_info>grifon_meet_dialog1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Greetings, I saw your message. Why did you suddenly become so kind?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>That's why you are so on the move? Do not abuse our hospitality. We went after pussy, that's all. Because of the military, who used to be here before, we lost several important people, and could not find the information we needed and access to somewhere. If we return to Dusman, he will sexual organs will tear off and gobble will force, so that we have settled here so far, I do not see any reason for loners.</text>
+        <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>And what kind of help do you need?</text>
+        <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>Yes, everything. We have here no supplies, no normal equipment-just what was left of the mediators for the operation. You can also talk to our supplier, for a fee, he will share with you some surplus equipment. And by the way, if you decide to Garbage from this hole, my guys can help. We have already learned about the local underground network.</text>
+<give_info>grifon_meet_dialog1</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="task_find_inf_inx_8_mlr_1">
+<has_info>grifon_meet_dialog1</has_info>
+<dont_has_info>task_find_inf_inx_8_mlr_1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Is there any special work?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>There is. We came here for the info from the Laboratory x-8, it is in the CCD local, it's enough to go down to the 'minus first floor' in the elevator, but the damned military prevented us. And now because of them we are in such a deplorable situation. From Dusman, we still cunt, but maybe there are still any papers? So we would already have thought how to screw from here. I would go there with the guys, but we are not enough and so it is too much, but we have to break through somehow from the center of the fucking Zone somehow. \n I suggest you go to x-8, maybe there's more left, and you'll earn good money at the same time. I agree?</text>
+        <next>2</next>
+        <next>3</next>
+    </phrase>
+    <phrase id="2">
+	<text>I agree.</text>
+<give_info>task_find_inf_inx_8_mlr_1</give_info>    
+<action>dialogs_mlr.task_find_inf_inx_8_mlr_start</action>     
+<action>dialogs_mlr.spawn_x8_documents</action>
+<action>dialogs_mlr.spawn_x8_copybook</action>
+<action>dialogs_mlr.spawn_x8_copybook_2</action>
+    </phrase>
+    <phrase id="3">
+	<text>No.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="task_find_inf_inx_8_mlr_2">
+<has_info>task_find_inf_inx_8_mlr_1</has_info>
+<has_info>grifon_meet_dialog1</has_info>
+<precondition>dialogs_mlr.has_mlr_x8_documents</precondition>
+<precondition>dialogs_mlr.has_mlr_x8_copybook</precondition>
+<precondition>dialogs_mlr.has_mlr_x8_copybook_2</precondition>
+<dont_has_info>task_find_inf_inx_8_mlr_2</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>That's all that we managed to collect.</text>
+        <next>1</next>
+<action>dialogs_mlr.take_mlr_x8_documents</action>      
+<action>dialogs_mlr.take_mlr_x8_copybook</action>      
+<action>dialogs_mlr.take_mlr_x8_copybook_2</action>      
+    </phrase>
+    <phrase id="1">
+	<text>Well, I'm going to tell you 'not very thickly', but interesting moments are still present. Yes, and the buyer for such a good find is not difficult. Here, keep your fee:</text>
+<give_info>task_find_inf_inx_8_mlr_2</give_info>    
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_l11pri_mon_haron">
+<dont_has_info>meet_guid_l11pri_mon_haron_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Greetings, brother. Do you know the shorter ways to move to our advanced bases?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I know and I can ask the brothers to show,but for donating to the brotherhood. Here are our databases: \n %c[255,238,153,26] • • Outskirts of Pripyat \n %c[255,238,153,26] • • Surroundings of Jupiter</text>
+<give_info>meet_guid_l11pri_mon_haron_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_l11pri_mon_haron_list">
+<has_info>meet_guid_l11pri_mon_haron_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me, brother our routes and the cost of donations.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Listen: \n %c[255,238,153,26] • • Outskirts of Pripyat[1000] \n %c[255,238,153,26] • • Surroundings of Jupiter[1000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_l11pri_mon_haron">
+<has_info>meet_guid_l11pri_mon_haron_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Take me away.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where, brother?</text>
+        <next>2</next>
+        <next>3</next>     
+        <next>4</next>            
+    </phrase>
+    <phrase id="2">
+	<text>On the outskirts of Pripyat%c[255,238,153,26][1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.pripyat_guid_mon</action> 
+    </phrase>
+    <phrase id="3">
+	<text>In the vicinity of Jupiter%c[255,238,153,26][1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.jupiter_guid_mon</action> 
+    </phrase>
+    <phrase id="4">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+
+<dialog id="meet_guid_red_forest_mon">
+<dont_has_info>meet_guid_red_forest_mon_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Greetings, brother. Do you have information to get to our main bases as quickly as possible?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I can ask the brothers to show,but for the donation. Here are our databases: \n %c[255,238,153,26] • • Outskirts of Pripyat \n %c[255,238,153,26] • • Surroundings of Jupiter \n %c[255,238,153,26] • • Central Pripyat</text>
+<give_info>meet_guid_red_forest_mon_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_red_forest_mon_list">
+<has_info>meet_guid_red_forest_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me of our routes and the cost of donations.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Listen: \n %c[255,238,153,26] • • Outskirts of Pripyat[5000] \n %c[255,238,153,26] • • Surroundings of Jupiter[6000] \n %c[255,238,153,26] • • Central Pripyat[5000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_red_forest_mon">
+<has_info>meet_guid_red_forest_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I'm ready to sally.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where, brother?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>     
+        <next>5</next>            
+    </phrase>
+    <phrase id="2">
+	<text>On the outskirts of Pripyat%c[255,238,153,26][5000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action> 
+    <action>dialogs_mlr.pripyat_guid_mon</action> 
+    </phrase>
+    <phrase id="3">
+	<text>In the vicinity of Jupiter%c[255,238,153,26][6000]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action> 
+    <action>dialogs_mlr.jupiter_guid_mon</action> 
+    </phrase>
+    <phrase id="4">
+	<text>To the Central Pripyat%c[255,238,153,26][5000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action> 
+    <action>dialogs_mlr.l11_pripyat_guid_mon</action>  
+    </phrase>
+    <phrase id="5">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+
+<dialog id="meet_guid_prikbo_mon">
+<dont_has_info>meet_guid_prikbo_mon_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Brother, do you know how to get to these or those places as quickly as possible?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I cannot withdraw,but the brothers will show you where to go. Only not free. See here: \n %c[255,238,153,26] • • Surroundings of Jupiter \n %c[255,238,153,26] • • Central Pripyat</text>
+<give_info>meet_guid_prikbo_mon_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_prikbo_mon_list">
+<has_info>meet_guid_prikbo_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me, please once again, those places where you can take me and the material reward from me.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Listen: \n %c[255,238,153,26] • • Surroundings of Jupiter[2000] \n %c[255,238,153,26] • • the Central Pripyat[1000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_prikbo_mon_mon">
+<has_info>meet_guid_prikbo_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I need to use your ways.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Well brother, choose:</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>                
+    </phrase>
+    <phrase id="2">
+	<text>In the vicinity of Jupiter%c[255,238,153,26][2000]</text>
+    <precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_zaton_guid_jup</action> 
+    <action>dialogs_mlr.jupiter_guid_mon</action> 
+    </phrase>
+    <phrase id="3">
+	<text>To the Central Pripyat%c[255,238,153,26][1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.l11_pripyat_guid_mon</action>  
+    </phrase>
+    <phrase id="4">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+
+<dialog id="meet_guid_jupdepo_mon">
+<dont_has_info>meet_guid_jupdepo_mon_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Brother, are there any secret paths around here for faster and safer travel?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>And how. I will not take it myself,but you can go with your brothers. Only now you have to sacrifice money for the brotherhood. But I think it does not depress you at all. Here you go along the path: \n %c[255,238,153,26] • • Red Forest \n %c[255,238,153,26] • • Outskirts of Pripyat \n %c[255,238,153,26] • • Central Pripyat</text>
+<give_info>meet_guid_jupdepo_mon_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_jupdepo_mon_list">
+<has_info>meet_guid_jupdepo_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me of our routes and the cost of donations.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Listen: \n %c[255,238,153,26] • • Red Forest[6000] \n %c[255,238,153,26] • • Outskirts of Pripyat[2000] \n %c[255,238,153,26] • • the Central Pripyat[1000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_jupdepo_mon_mon">
+<has_info>meet_guid_jupdepo_mon_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can we move forward?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Of course, choose where:</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>     
+        <next>5</next>            
+    </phrase>
+    <phrase id="2">
+	<text>In the Red Forest%c[255,238,153,26][6000]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>  
+    <action>dialogs_mlr.red_forest_guid_mon</action> 
+    </phrase>
+    <phrase id="3">
+	<text>On the outskirts of Pripyat%c[255,238,153,26][2000]</text>
+    <precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_zaton_guid_jup</action> 
+    <action>dialogs_mlr.pripyat_guid_mon</action> 
+    </phrase>
+    <phrase id="4">
+	<text>To the Central Pripyat%c[255,238,153,26][1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.l11_pripyat_guid_mon</action>  
+    </phrase>
+    <phrase id="5">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="remember_dyx_barter">
+<has_info>meet_povar_army_inf</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Remind me again, what can you exchange vodka for?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Here, look: \n 5 bottles = 6 packs 9x18 \n 5 bottles = 3 packs 5.45x39 \n 10 bottles = 6 packs 5.45x39 \n 10 bottles = five packs 12x70 \n 10 bottles = two packs 7.62х54 \n 15 bubbles 7 thousand rubles = five boxes for PKP \n 20 bottles = bulletproof vest 'Beryl'</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="pri_special_trader_mlr1">
+<dont_has_info>pri_special_trader_mlr_1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hi, what are you doing?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>New client. So look, I'm not interested in who you are and where you came from, you choose what you need from the list and wait exactly a day until I get the goods. And more: I do not accept refusals, I am a serious person, I work without prepayment. Everything will be exactly on time, you can order no more than one sample.</text>
+<give_info>pri_special_trader_mlr_1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="pri_special_trader_mlr4">
+<has_info>pri_special_trader_mlr_1</has_info>
+<dont_has_info>pri_special_trader_mlr_2</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>How do you cooperate with 'Monolith' and how do you manage to get such a unique outfit?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>If I'm not interested in who you are, you should not be, either, right? Only for your peace of mind, I will say that I am an intermediary, and not some crazy walker in the Zone, like Nimble when it comes to havabra. It's just that you are lucky to be lucky to be here and I decided to cooperate with you. A I'm very selective, believe me.</text>
+<give_info>pri_special_trader_mlr_2</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="pri_special_trader_mlr2">
+<dont_has_info>cancel_new_orders_pri_mlr</dont_has_info>
+<has_info>pri_special_trader_mlr_1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I'd like to order.</text>
+		<disable_info>pri_special_trader_mlr_order_is_ready</disable_info>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Choose what interests you:</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+    </phrase>
+    <phrase id="2">
+	<text>Pistols.</text>
+        <next>7</next>
+    </phrase>
+    <phrase id="7">
+	<text>Look what I have for you, choose:</text>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>15</next>
+    </phrase>
+    <phrase id="8">
+<dont_has_info>pri_special_trader_mlr_SCI_DS3</dont_has_info>
+	<text>Steppe eagle-a more successful modification of the Desert Eagle,with hand-fitted details. \n %c[255,238,153,26] • • Price: 8000</text>
+<give_info>pri_special_trader_mlr_DS</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="11">
+	<text>Well,expect messages on the PDA. \n %c[255,238,153,26] • • Time of order: 24 hours.</text>
+	<give_info>cancel_new_orders_pri_mlr</give_info>	
+    </phrase>
+    <phrase id="9">
+<dont_has_info>pri_special_trader_mlr_SIG3</dont_has_info>
+	<text>the alpine is a modification of SIG220 with an increased capacity of the store. \n %c[255,238,153,26] • • Price: 6500</text>
+<give_info>pri_special_trader_mlr_SIG</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="10">
+<dont_has_info>pri_special_trader_mlr_USP3</dont_has_info>
+	<text>Marsh-quick-firing and slaughtering barrel,is a modification of the USP pistol. \n %c[255,238,153,26] • • Price: 7000</text>
+<give_info>pri_special_trader_mlr_USP</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="3">
+	<text>Shotguns/PP.</text>
+        <next>28</next>
+    </phrase>
+    <phrase id="28">
+	<text>Look what I have for you, choose:</text>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+    </phrase>
+    <phrase id="12">
+<dont_has_info>pri_special_trader_mlr_MP3</dont_has_info>
+	<text>MP-5 Milling machine-handmade. Tightened all the TTX weapons. \n %c[255,238,153,26] • • Price: 9500</text>
+<give_info>pri_special_trader_mlr_MP</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="13">
+<dont_has_info>pri_special_trader_mlr_SPAS3</dont_has_info>
+	<text>Carabinier is an army modification of SPAS-12 with reduced impact and automatic fire mode. \n %c[255,238,153,26] • • Price: 11000</text>
+<give_info>pri_special_trader_mlr_SPAS</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="14">
+<dont_has_info>pri_special_trader_mlr_STRIKE3</dont_has_info>
+	<text>Protecta-exclusive modification of the Striker shotgun. \n %c[255,238,153,26] • • Price: 17000</text>
+<give_info>pri_special_trader_mlr_STRIKE</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="15">
+	<text>I did not find what I was looking for.</text>
+    </phrase>
+    <phrase id="4">
+	<text>Sniper/Assault rifles.</text>
+        <next>29</next>
+    </phrase>
+    <phrase id="29">
+	<text>Look what I have for you, choose:</text>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>27</next>
+        <next>15</next>
+    </phrase>
+    <phrase id="16">
+<dont_has_info>pri_special_trader_mlr_STORM3</dont_has_info>
+	<text>Storm-modification OC-14 'Thunderstorm' from the special forces,the party secretly escaped to the masses. Of the advantages worth noting is the increased capacity of the store \n %c[255,238,153,26] • • Price: 19000</text>
+<give_info>pri_special_trader_mlr_STORM</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="17">
+<dont_has_info>pri_special_trader_mlr_G363</dont_has_info>
+        <text>H&K G36 - is a rare thing in the zone. \n %c[255,238,153,26] • • Price: 14000</text>
+<give_info>pri_special_trader_mlr_G36</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="18">
+<dont_has_info>pri_special_trader_mlr_FN3</dont_has_info>
+	<text>FN-2000-Belgian,a great rarity and quite a good assault rifle. \n %c[255,238,153,26] • • Price: 17000</text>
+<give_info>pri_special_trader_mlr_FN</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="19">
+<dont_has_info>pri_special_trader_mlr_VSS3</dont_has_info>
+	<text>Surf-an exclusive modification of the VSS 'Vintorez',also from specials. He has a lower rate of fire,but an increased lethal force. \n %c[255,238,153,26] • • Price: 20000</text>
+<give_info>pri_special_trader_mlr_VSS</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="20">
+<dont_has_info>pri_special_trader_mlr_SVY3</dont_has_info>
+	<text>SVU2-A-modification of the IED with an increased rate of fire,took it from 'Freedom'. \n %c[255,238,153,26] • • Price: 24000</text>
+<give_info>pri_special_trader_mlr_SVY</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="21">
+<dont_has_info>pri_special_trader_mlr_SVD3</dont_has_info>
+	<text>SVD Lynx is an army modification,combining precision and lethal force. \n %c[255,238,153,26] • • Price: 18000</text>
+<give_info>pri_special_trader_mlr_SVD</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="27">
+<dont_has_info>pri_special_trader_mlr_GAUSS3</dont_has_info>
+	<text>Gauss is a cannon. Trophy weapons,such in the Zone on the fingers count. Absolute accuracy and damage with almost complete lack of impact are attached. \n %c[255,238,153,26] • • Price: 150,000</text>
+<give_info>pri_special_trader_mlr_GAUSS</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="5">
+	<text>Equipment.</text>
+        <next>30</next>
+    </phrase>
+    <phrase id="30">
+	<text>Look what I have for you, choose:</text>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>25</next>
+        <next>26</next>
+        <next>15</next>
+    </phrase>
+    <phrase id="22">
+<dont_has_info>pri_special_trader_mlr_ECZ_MON3</dont_has_info>
+	<text>Exoskeleton 'Monolith'- the best combination of protective characteristics. In addition,this you will not get anywhere else,unless you are certainly a representative of the brotherhood. \n %c[255,238,153,26] • • Price: 100000</text>
+<give_info>pri_special_trader_mlr_ECZ_MON</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="23">
+<dont_has_info>pri_special_trader_mlr_ECZ_KIL3</dont_has_info>
+	<text>the exoskeleton of mercenaries is perhaps the most reliable means of defense. \n %c[255,238,153,26] • • Price: 75000</text>
+<give_info>pri_special_trader_mlr_ECZ_KIL</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="24">
+<dont_has_info>pri_special_trader_mlr_ECZ_BAN</dont_has_info>
+	<text>Banditsky exoskeleton. Exclusive in its pure form. \n %c[255,238,153,26] • • Price: 65000</text>
+<give_info>pri_special_trader_mlr_ECZ_BAN</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="25">
+<dont_has_info>pri_special_trader_mlr_SCI_MON3</dont_has_info>
+	<text>the 'Monolith' combination with a closed breathing system,as in the case of an exoskeleton,you are unlikely to see it anywhere else. \n %c[255,238,153,26] • • Price: 70000</text>
+<give_info>pri_special_trader_mlr_SCI_MON</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="26">
+<dont_has_info>pri_special_trader_mlr_SCI_KIL3</dont_has_info>
+	<text>Combat mercenaries with a closed breathing system. Excellent protection against anomalies,a real rarity for the layman. \n %c[255,238,153,26] • • Price: 50000</text>
+<give_info>pri_special_trader_mlr_SCI_KIL</give_info>
+<give_info>pri_special_trader_mlr_order_in_process</give_info>
+        <next>11</next>
+    </phrase>
+    <phrase id="6">
+	<text>Nothing, I've already changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="pri_special_trader_mlr3">
+<has_info>order_pri_mlr_is_done</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I'm behind the order.</text>
+        <next>1</next>		
+		<disable_info>cancel_new_orders_pri_mlr</disable_info>	
+    </phrase>
+    <phrase id="1">
+	<text>Do you have money with you?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>11</next>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>21</next>		
+    </phrase>		
+    <phrase id="2">
+<dont_has_info>pri_special_trader_mlr_DS3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_1</precondition>
+<has_info>pri_special_trader_mlr_DS</has_info>
+	<text>Yes, give my 'Steppe Eagle'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_1</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_1</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_DS3</give_info>
+<disable_info>pri_special_trader_mlr_DS</disable_info>
+    </phrase>
+    <phrase id="20">
+	<text>Come again.</text>
+<give_info>pri_special_trader_mlr_order_is_ready</give_info>
+<disable_info>order_pri_mlr_is_done</disable_info>
+<disable_info>cancel_new_orders_pri_mlr</disable_info>
+<disable_info>pri_special_trader_mlr_order_in_process</disable_info>
+    </phrase>
+    <phrase id="3">
+<dont_has_info>pri_special_trader_mlr_SIG3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_2</precondition>
+<has_info>pri_special_trader_mlr_SIG</has_info>
+	<text>Yes, give my SIG-220 'Alpie'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_2</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_2</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SIG3</give_info>
+<disable_info>pri_special_trader_mlr_SIG</disable_info>
+    </phrase>
+    <phrase id="4">
+<dont_has_info>pri_special_trader_mlr_USP3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+<has_info>pri_special_trader_mlr_USP</has_info>
+	<text>Yes, give my USP 'March'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_3</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_USP3</give_info>
+<disable_info>pri_special_trader_mlr_USP</disable_info>
+    </phrase>
+    <phrase id="5">
+<dont_has_info>pri_special_trader_mlr_MP3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_4</precondition>
+<has_info>pri_special_trader_mlr_MP</has_info>
+	<text>Yes, give my MP-5 'Fraser'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_4</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_4</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_MP3</give_info>
+<disable_info>pri_special_trader_mlr_MP</disable_info>
+    </phrase>
+    <phrase id="6">
+<dont_has_info>pri_special_trader_mlr_SPAS3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_5</precondition>
+<has_info>pri_special_trader_mlr_SPAS</has_info>
+	<text>Yes, give my pump carabiner.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_5</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_5</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SPAS3</give_info>
+<disable_info>pri_special_trader_mlr_SPAS</disable_info>
+    </phrase>
+    <phrase id="7">
+<dont_has_info>pri_special_trader_mlr_STRIKE3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_6</precondition>
+<has_info>pri_special_trader_mlr_STRIKE</has_info>
+	<text>Yes, give my shotgun 'Protecta'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_6</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_6</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_STRIKE3</give_info>
+<disable_info>pri_special_trader_mlr_STRIKE</disable_info>
+    </phrase>
+    <phrase id="8">
+<dont_has_info>pri_special_trader_mlr_STORM3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_7</precondition>
+<has_info>pri_special_trader_mlr_STORM</has_info>
+	<text>Yes, give my OC-14 'Storm'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_7</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_7</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_STORM3</give_info>
+<disable_info>pri_special_trader_mlr_STORM</disable_info>
+    </phrase>
+    <phrase id="9">
+<dont_has_info>pri_special_trader_mlr_G363</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_8</precondition>
+<has_info>pri_special_trader_mlr_G36</has_info>
+	<text>Yes, give my HK G36.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_8</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_8</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_G363</give_info>
+<disable_info>pri_special_trader_mlr_G36</disable_info>
+    </phrase>
+    <phrase id="10">
+<dont_has_info>pri_special_trader_mlr_FN3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_9</precondition>
+<has_info>pri_special_trader_mlr_FN</has_info>
+	<text>Yes, give my FN-2000.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_9</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_9</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_FN3</give_info>
+<disable_info>pri_special_trader_mlr_FN</disable_info>
+    </phrase>
+    <phrase id="11">
+<dont_has_info>pri_special_trader_mlr_VSS3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_10</precondition>
+<has_info>pri_special_trader_mlr_VSS</has_info>
+	<text>Yes, give my WBU 'Surf'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_10</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_10</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_VSS3</give_info>
+<disable_info>pri_special_trader_mlr_VSS</disable_info>
+    </phrase>
+    <phrase id="12">
+<dont_has_info>pri_special_trader_mlr_SVY3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_11</precondition>
+<has_info>pri_special_trader_mlr_SVY</has_info>
+	<text>Yes, give my 'SVU2-A'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_11</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_11</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SVY3</give_info>
+<disable_info>pri_special_trader_mlr_SVY</disable_info>
+    </phrase>
+    <phrase id="13">
+<dont_has_info>pri_special_trader_mlr_SVD3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_12</precondition>
+<has_info>pri_special_trader_mlr_SVD</has_info>
+	<text>Yes, give my SVD 'Lynx'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_12</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_12</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SVD3</give_info>
+<disable_info>pri_special_trader_mlr_SVD</disable_info>
+    </phrase>
+    <phrase id="14">
+<dont_has_info>pri_special_trader_mlr_ECZ_MON3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_13</precondition>
+<has_info>pri_special_trader_mlr_ECZ_MON</has_info>
+	<text>Yes, give my 'monolith' exoskeleton.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_13</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_13</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_ECZ_MON3</give_info>
+<disable_info>pri_special_trader_mlr_ECZ_MON</disable_info>
+    </phrase>
+    <phrase id="15">
+<dont_has_info>pri_special_trader_mlr_ECZ_KIL3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_14</precondition>
+<has_info>pri_special_trader_mlr_ECZ_KIL</has_info>
+	<text>Yes, give my exoskeleton 'mercenaries.'</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_14</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_14</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_ECZ_KIL3</give_info>
+<disable_info>pri_special_trader_mlr_ECZ_KIL</disable_info>
+    </phrase>
+    <phrase id="16">
+<dont_has_info>pri_special_trader_mlr_ECZ_BAN3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_15</precondition>
+<has_info>pri_special_trader_mlr_ECZ_BAN</has_info>
+	<text>Yes, give my Bandit exoskeleton.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_15</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_15</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_ECZ_BAN3</give_info>
+<disable_info>pri_special_trader_mlr_ECZ_BAN</disable_info>
+    </phrase>
+    <phrase id="17">
+<dont_has_info>pri_special_trader_mlr_SCI_MON3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_16</precondition>
+<has_info>pri_special_trader_mlr_SCI_MON</has_info>
+	<text>Yes, give my 'monolith' com-bat with a closed system.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_16</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_16</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SCI_MON3</give_info>
+<disable_info>pri_special_trader_mlr_SCI_MON</disable_info>
+    </phrase>
+    <phrase id="18">
+<dont_has_info>pri_special_trader_mlr_SCI_KIL3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_17</precondition>
+<has_info>pri_special_trader_mlr_SKI_KIL</has_info>
+	<text>Yes, let's go with my closed system.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_17</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_17</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_SCI_KIL3</give_info>
+<disable_info>pri_special_trader_mlr_SKI_KIL</disable_info>
+    </phrase>
+    <phrase id="19">
+<dont_has_info>pri_special_trader_mlr_GAUSS3</dont_has_info>
+<precondition>dialogs_mlr.have_pri_special_trader_mlr_18</precondition>
+<has_info>pri_special_trader_mlr_GAUSS</has_info>
+	<text>Yes, give here 'Gauss'.</text>
+        <next>20</next>
+<action>dialogs_mlr.give_pri_special_trader_mlr_18</action>
+<action>dialogs_mlr.take_pri_special_trader_mlr_18</action>
+<action>dialogs_mlr.disable_pri_special_trader_mlr_1</action>
+<give_info>pri_special_trader_mlr_GAUSS3</give_info>
+<disable_info>pri_special_trader_mlr_GAUSS</disable_info>
+    </phrase>
+    <phrase id="21">
+	<text>I forgot.</text>
+    </phrase>	
+</phrase_list>
+</dialog>
+
+<dialog id="mechanic_monolith_jup_depo_start">
+<phrase_list>
+    <phrase id="0">
+	<text>Greetings, brother. I am engaged in technical support of our colleagues in the area.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="mechanic_monolith_kbo_start">
+<phrase_list>
+    <phrase id="0">
+	<text>Greetings. I fulfill His will, helping our fellow with the equipment.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="trucks_cemetery_bandit_mechanic_start">
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarov, little brother. Bronky/barrel patch-all this to me.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="ashot_price_for_pathes_duty">
+<dont_has_info>ashot_price_for_pathes_duty1</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>They say you have interesting goods in exchange for stripes?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Of course! Look, dear, what I have here: \n 210 rounds of calibers 5.56 = 20 patches \n 50 rounds 7.62 = 15 patches \n 20 grenades, m209 = 50 stripes \n 'Svoboda' teacher = 50 patches \n 'Freedom exoskeleton '= 65 patches \n Unique SVD = 100 stripes</text>
+<give_info>ashot_price_for_pathes_duty1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="ashot_price_for_pathes_duty1">
+<has_info>ashot_price_for_pathes_duty1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have strips.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Choose: \n 210 cartridges caliber 5.56 = 20 patches \n 50 cartridges 7.62 = 15 patches \n 20 barrels of grenades m209 = 50 stripes \n 'Freedom' teacher = 50 patches \n 'Freedom' exoskeleton = 65 patches \n Unique SVD = 100 patches</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+<next>5</next>
+<next>6</next>
+<next>7</next>
+<next>8</next>
+    </phrase>
+    <phrase id="2">
+<precondition>dialogs_mlr.have_duty_patch_20</precondition>
+	<text>210 cartridges of caliber 5.56.</text>
+<action>dialogs_mlr.take_duty_patch_20</action>
+<action>dialogs_mlr.give_ammo_nato_from_ashot_mlr</action>
+    </phrase>
+    <phrase id="3">
+<precondition>dialogs_mlr.have_duty_patch_15</precondition>
+	<text>50 rounds of ammunition 7.62х54.</text>
+<action>dialogs_mlr.take_duty_patch_15</action>
+<action>dialogs_mlr.give_svd_ammo_from_ashot_mlr</action>
+    </phrase>
+    <phrase id="4">
+<precondition>dialogs_mlr.have_duty_patch_50</precondition>
+	<text>20 barrels.</text>
+<action>dialogs_mlr.take_duty_patch_50</action>
+<action>dialogs_mlr.give_ammo_m209_from_ashot_mlr</action>
+    </phrase>
+    <phrase id="5">
+<precondition>dialogs_mlr.have_duty_patch_50</precondition>
+	<text>Come on, the science teacher.</text>
+<action>dialogs_mlr.take_duty_patch_50</action>
+<action>dialogs_mlr.give_sso_from_ashot_mlr</action>
+    </phrase>
+    <phrase id="6">
+<precondition>dialogs_mlr.have_duty_patch_65</precondition>
+	<text>Exoskeleton come on.</text>
+<action>dialogs_mlr.take_duty_patch_65</action>
+<action>dialogs_mlr.give_seo_from_ashot_mlr</action>
+    </phrase>
+    <phrase id="7">
+<dont_has_info>ashot_price_for_pathes_duty2</dont_has_info>
+<precondition>dialogs_mlr.have_duty_patch_100</precondition>
+	<text>SVD come on.</text>
+<action>dialogs_mlr.take_duty_patch_100</action>
+<action>dialogs_mlr.give_wpn_svd_from_ashot_mlr</action>
+<give_info>ashot_price_for_pathes_duty2</give_info>
+    </phrase>
+    <phrase id="8">
+	<text>I do not take anything, I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="barter_povar_army">
+<has_info>barter_povar_start</has_info>
+<precondition>dialogs_mlr.have_vodka5</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I brought vodka.</text>
+<next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, choose:</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+<next>5</next>
+<next>6</next>
+<next>7</next>
+<next>8</next>
+<next>9</next>
+    </phrase>
+    <phrase id="2">
+<precondition>dialogs_mlr.have_vodka5</precondition>
+	<text>6 packs 9x18</text>
+<action>dialogs_mlr.take_vodka5</action>
+<next>10</next>
+    </phrase>
+    <phrase id="3">
+<precondition>dialogs_mlr.have_vodka5</precondition>
+	<text>3 packs 5.45</text>
+<action>dialogs_mlr.take_vodka5</action>
+<next>11</next>
+    </phrase>
+    <phrase id="4">
+<precondition>dialogs_mlr.have_vodka10</precondition>
+	<text>6 packs 5.45</text>
+<action>dialogs_mlr.take_vodka10</action>
+<next>12</next>
+    </phrase>
+    <phrase id="5">
+<precondition>dialogs_mlr.have_vodka10</precondition>
+	<text>Fractions to me otsyp.</text>
+<action>dialogs_mlr.take_vodka10</action>
+<next>13</next>
+    </phrase>
+    <phrase id="6">
+<precondition>dialogs_mlr.have_vodka10</precondition>
+	<text>Two packs of 7.62</text>
+<action>dialogs_mlr.take_vodka10</action>
+<next>14</next>
+    </phrase>
+    <phrase id="7">
+<precondition>dialogs_mlr.have_money_povars_ammo_pkm_100</precondition>
+<precondition>dialogs_mlr.have_vodka15</precondition>
+	<text>5 boxes for control panel, come on.</text>
+<action>dialogs_mlr.take_vodka15</action>
+<action>dialogs_mlr.sell_money_povars_ammo_pkm_100</action>
+<next>15</next>
+    </phrase>
+    <phrase id="8">
+<precondition>dialogs_mlr.have_vodka20</precondition>
+	<text>'Beryl' come on.</text>
+<action>dialogs_mlr.take_vodka20</action>
+<next>16</next>
+    </phrase>
+    <phrase id="10">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_9_18_6</action>
+    </phrase>
+    <phrase id="11">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_5_45_3</action>
+    </phrase>
+    <phrase id="12">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_5_45_6</action>
+    </phrase>
+    <phrase id="13">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_12_70</action>
+    </phrase>
+    <phrase id="14">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_7_62</action>
+    </phrase>
+    <phrase id="15">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_ammo_pkm_100</action>
+    </phrase>
+    <phrase id="16">
+	<text>Beacon his own, take it.</text>
+<action>dialogs_mlr.spawn_povars_berill</action>
+    </phrase>
+    <phrase id="9">
+	<text>Yes, I somehow changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_povar_army">
+<dont_has_info>meet_povar_army_inf</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, and you.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Cook local, type. Although I cannot even cook an omelette, but what can I do? This is an army. Army in the zone. the fighter from me is not very, so they set it up. Although in fact not because of this. 'Spirit' I, by the way. Well, in general for alcohol-then I lean, depressnjachok here still that. And a place like that. Well, the camp of scientists and sometimes the check comes in here. By this, we have a tight supply of vodka, the last time my dearly in front of me they have merged, c-cattle.</text>
+        <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>[Further.]</text>
+        <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>In general, dude. I know that it is tight here with cartridges, Sugar-they do not sell them! I can fit, though SOVDEPOV's only, excuse me. Well, the reservation that I had time to wander-all mine. Well, how? In general, my price: \n 5 bubbles = 6 packs 9x18. \n 5 bubbles = 3 packs 5. 45 or \n For 10 bottles I will fit you 6 packs. \n For 10 bubbles I will fit you two packs of cartridges 7.62 or 5 packs 12x70. \n For 15 bubbles and an additional charge of 7,000 rubles I will fit you 5 boxes for the control panel. \n Well, for 20 I'll get a whole 'Beryl' from the bins! \n Do not think, I'm not so bad, the lion's share goes to the guys. They leave me in the well your equipment. How to make a deal, here at the base, behind the containers and boxes, that behind my back, between the hangars- the goods will be there.</text>
+        <next>4</next>
+    </phrase>
+    <phrase id="4">
+	<text>Well, I'll take it into consideration. Thank you.</text>
+<give_info>meet_povar_army_inf</give_info>
+<give_info>barter_povar_start</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="baraholka_trader_talking">
+<dont_has_info>zat_b7_bandit_boss_sultan_task_3_begin</dont_has_info>
+<dont_has_info>baraholka_trader_talk</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>What kind of place is it?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>This, the guy-Flea market. And we are here, respectively, the flea marketers. We sell little by little than God sent. True, I will tell you the goods I have really frank stuff. But at least somehow floundering. And how did you come to trade, or so?</text>
+        <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>Are you the only trader here?</text>
+        <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>No, you are! Here and other guys are haggling, we just have a rule: big deals-only after sunset. In the daytime, one, I trade: I have a low-cost commodity, and a little of it. But at night here the real life begins, because the goods are already going completely different.</text>
+<give_info>baraholka_trader_talk</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="army_yan_mec_about_tool">
+<dont_has_info>army_yan_talk</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarova, who are you?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>And for me it is not visible? Military I, Peregrine my callsign. Here our guys are helping out with the equipment. Technician part-time. It broke that, so I pull.</text>
+        <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>And do you need any tools?</text>
+        <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>No, it's not! Me than it was necessary to provide, here at scientists the equipment not idle time, here also demands qualitative technical intervention. the old receiver has now repaired, though it drives some sort of turbidity. Year two already as our guys in the warehouses have fallen, and he broadcasts their voices.</text>
+     <next>4</next>
+    </phrase>
+    <phrase id="4">
+	<text>Well, she's a zone, you never know what you can fancy. In general, I realized, good luck to you here.</text>
+<give_info>army_yan_talk</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="bar_dolg_medic_dialog"> 
+<phrase_list> 
+<phrase id="0"> 
+	<text>Somehow I feel bad, look.</text>
+<next>1</next> 
+<next>4</next> 
+</phrase> 
+<phrase id="1"> 
+	<text>Tux, yeah. Now correct, you'll be as good as new.</text>
+<precondition>dialogs.actor_needs_bless</precondition>
+<next>2</next> 
+</phrase> 
+<phrase id="4"> 
+	<text>With you everything is in order, do not distract from work.</text>
+<precondition>dialogs.actor_is_damn_healthy</precondition>
+</phrase> 
+<phrase id="2"> 
+	<text>[Further.]</text>
+<action>dialogs.medic_magic_potion</action>
+<next>3</next> 
+</phrase> 
+<phrase id="3"> 
+	<text>Well, that's all, you can go. And do not forget the medicine.</text>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="bar_dolg_medic_hello"> 
+<phrase_list> 
+<phrase id="0"> 
+	<text>What do you want?</text>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="brain_on_staff_1"> 
+<dont_has_info>brain_on_staff_1_done</dont_has_info>
+<phrase_list> 
+<phrase id="0"> 
+	<text>Professor, do you have anything interesting to be stronger than the rest?</text>
+<next>1</next>
+</phrase> 
+<phrase id="1"> 
+	<text>Yes, there is such a thing. I need fresh samples of the controller's brains for a more in-depth study of the phenomenon of psi radiation. In general, see what I can offer for this: \n 10 first-aid k its \n 10 army first-aid k its \n Veles class detector \n Three anabiotics.</text>
+<give_info>brain_on_staff_1_done</give_info>
+</phrase> 
+</phrase_list> 
+</dialog>
+
+<dialog id="brain_on_staff">
+<has_info>brain_on_staff_1_done</has_info>
+<precondition>dialogs_mlr.has_controller_brain</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Here's your brain, professor.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Good. I can offer you for this 10 scientific first-aid kits, or as many army, or a class 'Veles' detector, and I can also have three anabiotics. Choose:</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+<next>5</next>
+<next>6</next>
+    </phrase>
+    <phrase id="2">
+	<text>I'll take 10 scientific.</text>
+<action>dialogs_mlr.take_part_controller_glass</action>
+<action>dialogs_mlr.give_ecolog_grugs</action>
+    </phrase>
+    <phrase id="3">
+	<text>I'll take 10 army.</text>
+<action>dialogs_mlr.take_part_controller_glass</action>
+<action>dialogs_mlr.give_army_grugs</action>
+    </phrase>
+    <phrase id="4">
+	<text>Better 'Veles' let's.</text>
+<action>dialogs_mlr.take_part_controller_glass</action>
+<action>dialogs_mlr.give_veles</action>
+    </phrase>
+    <phrase id="5">
+	<text>Anabiotics would be very useful to me.</text>
+<action>dialogs_mlr.take_part_controller_glass</action>
+<action>dialogs_mlr.give_anabionic_drug</action>
+    </phrase>
+    <phrase id="6">
+	<text>Oh, I probably changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="first_meet_to_barman_mil_7_7">
+<dont_has_info>first_meet_to_barman_mil_7_7_done</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Oh, hi. I look at you here a dining room or. bar?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Well, the dining room in the Zone is only for 'Duty', though nobody saw it. I greet you here, man-I'm called Kulinar, I'm in charge of the local grub, after Cooks were allowed to enter the minefield, hehe.</text>
+    <give_info>first_meet_to_barman_mil_7_7_done</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="talk_to_barman_mil_7_7_about_lottery">
+<has_info>first_meet_to_barman_mil_7_7_done</has_info>
+<dont_has_info>talk_to_barman_mil_7_7_about_lottery_done</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Do you have anything interesting in the bar?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Besides Russian roulette? I'm running a lottery. You need to bring as many rare patches as possible and I'll give you a random prize for this. If you bring 10, there is only a 50-50 chance and you will not win much, of course. But if with a half, uh! But here by the way for the scientists and the monolith demand is greater, hence reward and a chance to get higher. And the option to all is win-win. 'Svobodovskie' by the way is not listed, I have them and so full.</text>
+    <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>And what are you doing with them all?</text>
+        <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>Plaid of them I embroider! Well, you have questions, dude.</text>
+    <give_info>talk_to_barman_mil_7_7_about_lottery_done</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="lottery_barman_mil_7_7_mlr">
+<has_info>talk_to_barman_mil_7_7_about_lottery_done</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I have strips.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, what?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>
+        <next>8</next>
+        <next>9</next>
+        <next>11</next>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>10</next>
+    </phrase>
+    <phrase id="2">
+<precondition>dialogs_mlr.have_csky_patch_for_lottery_10</precondition>
+	<text>'Clear Sky', 10 pieces.</text>
+        <action>dialogs_mlr.take_csky_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="3">
+<precondition>dialogs_mlr.have_merc_patch_for_lottery_10</precondition>
+	<text>Mercenaries, 10 pieces.</text>
+        <action>dialogs_mlr.take_merc_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="4">
+<precondition>dialogs_mlr.have_stalker_patch_for_lottery_10</precondition>
+	<text>Stalkersky, 10 pieces.</text>
+        <action>dialogs_mlr.take_stalker_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="5">
+<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_10</precondition>
+	<text>Naukhnikov, 10 pieces in all.</text>
+        <action>dialogs_mlr.take_ecolog_patch_for_lottery_10</action>
+        <next>22</next>
+        <next>24</next>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="6">
+<precondition>dialogs_mlr.have_bandit_patch_for_lottery_10</precondition>
+	<text>Bandits, 10 pieces.</text>
+        <action>dialogs_mlr.take_bandit_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="7">
+<precondition>dialogs_mlr.have_duty_patch_for_lottery_10</precondition>
+	<text>Dutiers, 10 pieces.</text>
+        <action>dialogs_mlr.take_duty_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="8">
+<precondition>dialogs_mlr.have_monolith_patch_for_lottery_10</precondition>
+	<text>Monolitovskie, 10 pieces in total.</text>
+        <action>dialogs_mlr.take_monolith_patch_for_lottery_10</action>
+        <next>22</next>
+        <next>24</next>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="9">
+<precondition>dialogs_mlr.have_army_patch_for_lottery_10</precondition>
+	<text>Screws, 10 pieces.</text>
+        <action>dialogs_mlr.take_army_patch_for_lottery_10</action>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="11">
+<precondition>dialogs_mlr.have_csky_patch_for_lottery_50</precondition>
+	<text>'Clear Sky', 50 pieces.</text>
+        <action>dialogs_mlr.take_csky_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="12">
+<precondition>dialogs_mlr.have_merc_patch_for_lottery_50</precondition>
+	<text>Merkov, 50 pieces.</text>
+        <action>dialogs_mlr.take_merc_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="13">
+<precondition>dialogs_mlr.have_stalker_patch_for_lottery_50</precondition>
+	<text>Stalkersky, 50 pieces.</text>
+        <action>dialogs_mlr.take_stalker_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="14">
+<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_50</precondition>
+	<text>Nauchnikov, 50 pieces.</text>
+        <action>dialogs_mlr.take_ecolog_patch_for_lottery_50</action>
+        <next>31</next>
+        <next>30</next>
+        <next>25</next>
+        <next>34</next>
+        <next>35</next>
+        <next>36</next>
+        <next>40</next>
+        <next>41</next>
+    </phrase>
+    <phrase id="15">
+<precondition>dialogs_mlr.have_bandit_patch_for_lottery_50</precondition>
+	<text>Bandits, 50 pieces.</text>
+        <action>dialogs_mlr.take_bandit_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="16">
+<precondition>dialogs_mlr.have_duty_patch_for_lottery_50</precondition>
+	<text>Dutiers, 50 pieces.</text>
+        <action>dialogs_mlr.take_duty_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="17">
+<precondition>dialogs_mlr.have_monolith_patch_for_lottery_50</precondition>
+	<text>Monolithovskie, 50 pieces.</text>
+        <action>dialogs_mlr.take_monolith_patch_for_lottery_50</action>
+        <next>31</next>
+        <next>30</next>
+        <next>25</next>
+        <next>34</next>
+        <next>35</next>
+        <next>36</next>
+        <next>40</next>
+        <next>41</next>
+    </phrase>
+    <phrase id="18">
+<precondition>dialogs_mlr.have_army_patch_for_lottery_50</precondition>
+	<text>Suction, 50 pieces.</text>
+        <action>dialogs_mlr.take_army_patch_for_lottery_50</action>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+        <next>31</next>
+        <next>38</next>
+        <next>37</next>
+        <next>39</next>
+    </phrase>
+    <phrase id="10">
+	<text>I probably changed my mind.</text>
+    </phrase>
+    <phrase id="19">
+	<text>Here, take your artifact.</text>
+        <action>dialogs_mlr.lottery_present_low_1</action>
+    </phrase>
+    <phrase id="20">
+	<text>Here you go.</text>
+        <action>dialogs_mlr.lottery_present_low_2</action>
+    </phrase>
+    <phrase id="21">
+	<text>Take it.</text>
+        <action>dialogs_mlr.lottery_present_low_3</action>
+    </phrase>
+    <phrase id="22">
+	<text>Keep your artifact.</text>
+        <action>dialogs_mlr.lottery_present_low_4</action>
+    </phrase>
+    <phrase id="23">
+	<text>Someone was lucky today.</text>
+        <action>dialogs_mlr.lottery_present_low_5</action>
+    </phrase>
+    <phrase id="24">
+	<text>Not a bad gift you get.</text>
+        <action>dialogs_mlr.lottery_present_low_6</action>
+    </phrase>
+    <phrase id="25">
+	<text>Here, take a good artifact.</text>
+        <action>dialogs_mlr.lottery_present_medium_1</action>
+    </phrase>
+    <phrase id="26">
+	<text>And you're lucky! Antiradiation.</text>
+        <action>dialogs_mlr.lottery_present_medium_2</action>
+    </phrase>
+    <phrase id="27">
+	<text>Good art. Hold:</text>
+        <action>dialogs_mlr.lottery_present_medium_3</action>
+    </phrase>
+    <phrase id="28">
+	<text>Two whole artefacts! Yes you are lucky.</text>
+        <action>dialogs_mlr.lottery_present_medium_4</action>
+    </phrase>
+    <phrase id="29">
+	<text>And here is the jackpot!</text>
+        <action>dialogs_mlr.lottery_present_medium_5</action>
+    </phrase>
+    <phrase id="30">
+	<text>Lucky you.</text>
+        <action>dialogs_mlr.lottery_present_medium_6</action>
+    </phrase>
+    <phrase id="31">
+	<text>An excellent kit for the artifact hunter!</text>
+        <action>dialogs_mlr.lottery_present_medium_7</action>
+    </phrase>
+    <phrase id="34">
+	<text>Rare and wonderful artifact.</text>
+        <action>dialogs_mlr.lottery_present_hight_1</action>
+    </phrase>
+    <phrase id="35">
+	<text>This is luck!</text>
+        <action>dialogs_mlr.lottery_present_hight_2</action>
+    </phrase>
+    <phrase id="36">
+	<text>Jackpot!!!!</text>
+        <action>dialogs_mlr.lottery_present_hight_3</action>
+    </phrase>
+    <phrase id="37">
+	<text>Alas, you do not get anything.</text>
+    </phrase>
+    <phrase id="38">
+	<text>You were not lucky this time.</text>
+    </phrase>
+    <phrase id="39">
+	<text>This time nothing.</text>
+    </phrase>
+    <phrase id="40">
+	<text>Excellent equipment for an excellent shooter.</text>
+        <action>dialogs_mlr.lottery_present_hight_4</action>
+    </phrase>
+    <phrase id="41">
+	<text>Perfect choice for long trips.</text>
+        <action>dialogs_mlr.lottery_present_hight_5</action>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="mil_freedom_guid_meet">
+<dont_has_info>mil_freedom_guid_meet_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarova is a man, what is he doing?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Nothing, but you wanted something? By the way, I call Leshim, we'll be acquainted. I'm a local guide and scout.</text>
+    <next>2</next>
+    </phrase>
+    <phrase id="2">
+	<text>And how do you local intelligence, I suppose I've visited a lot?</text>
+    <next>3</next>
+    </phrase>
+    <phrase id="3">
+	<text>Yes, he even visited the anomaly. This is when I was a mercenary yet, we pleased with the detachment in the 'space bubble,' in general, a long story.</text>
+    <next>4</next>
+    </phrase>
+    <phrase id="4">
+	<text>Well, I will not stuff myself into listeners. Good luck.</text>
+    <give_info>mil_freedom_guid_meet_give</give_info>				
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="mil_freedom_guid_go">
+<has_info>mil_freedom_guid_meet_give</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Spend me somewhere.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Choose:</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+<next>12</next>
+    </phrase>
+    <phrase id="2">
+	<text>On Yanov%c[255,238,153,26][6000]</text>
+<next>5</next>
+    </phrase>
+    <phrase id="5">
+	<text>And you did not forget the money?</text>
+	<next>8</next>
+    <next>11</next>	
+    </phrase>	
+    <phrase id="8">
+<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>	
+	<text>Here you are:</text>
+<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action> 
+<action>dialogs_mlr.jupiter_guid</action> 		
+    </phrase>		
+    <phrase id="3">
+	<text>To Cordon%c[255,238,153,26][Rookie Village,4500]</text>
+<next>6</next> 
+    </phrase>
+    <phrase id="6">
+	<text>And you did not forget the money?</text>
+    <next>9</next>	
+    <next>11</next>	
+    </phrase>
+    <phrase id="9">
+<precondition>dialogs_mlr.have_money_to_escp_guid_mil</precondition>	
+	<text>Here you are:</text>
+<action>dialogs_mlr.sell_money_to_escp_guid_mil</action> 
+<action>dialogs_mlr.escape_guid</action>		
+    </phrase>		
+    <phrase id="4">
+	<text>On Amber%c[255,238,153,26][5000]</text>
+<next>7</next> 
+    </phrase>
+    <phrase id="7">
+	<text>And you did not forget the money?</text>
+    <next>10</next>	
+    <next>11</next>	
+    </phrase>
+    <phrase id="10">
+<precondition>dialogs_mlr.totaliz_5</precondition>	
+	<text>Here you are:</text>
+<action>dialogs_mlr.take_totaliz_5</action> 
+<action>dialogs_mlr.yantar_guid_from_freedom_base</action>		
+    </phrase>		
+    <phrase id="11">
+	<text>I forgot</text>
+    </phrase>	
+    <phrase id="12">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_esc_mlr_military">
+<precondition>dialogs_mlr.check_no_neutral</precondition>
+<precondition>dialogs_mlr.check_no_dolg</precondition>
+<precondition>dialogs_mlr.check_no_freedom</precondition>
+<precondition>dialogs_mlr.check_no_monolith</precondition>
+<precondition>dialogs_mlr.check_no_bandit</precondition>
+<precondition>dialogs_mlr.check_no_zombied</precondition>
+<precondition>dialogs_mlr.check_no_killer</precondition>
+<precondition>dialogs_mlr.check_no_csky</precondition>
+<dont_has_info>guid_esc_mlr_military_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Good health, Commander! I really, really need to fly somewhere, is this really possible to organize?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Really, but only to transfer tons of fuel to you, we will not. But as soon as we learn that you are an experienced soldier, always please. For the future: we fly to the Agroprom, Amber and to the Dark Hollow.</text>
+    <give_info>guid_esc_mlr_military_give</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_esc_mlr_military_list">
+<precondition>dialogs_mlr.request_to_fly</precondition>
+<has_info>guid_esc_mlr_military_give</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>You can ask again, where do you fly?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>On: \n %c[255,238,153,26] • • Agroprom[5000,military base] \n %c[255,238,153,26] • • the Dark Hollow[refueling,3000] \n %c[255,238,153,26] • • Amber[scientific base,10000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_esc_mlr_military_vert">
+<precondition>dialogs_mlr.request_to_fly</precondition>
+<precondition>dialogs_mlr.have_money_darkscape_guid_military</precondition>
+<has_info>guid_esc_mlr_military_give</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I need a helicopter.</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where?</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+<next>5</next>
+    </phrase>
+    <phrase id="2">
+	<text>On the Agroprom%c[255,238,153,26][military base,5000]</text>
+<precondition>dialogs_mlr.have_money_agroprom_guid_military</precondition>
+<action>dialogs_mlr.sell_money_agroprom_guid_military</action> 
+<action>dialogs_mlr.agroprom_guid_military</action> 
+    </phrase>
+    <phrase id="3">
+	<text>In the Dark Hollow%c[255,238,153,26][refueling,3000]</text>
+    <precondition>dialogs_mlr.have_money_darkscape_guid_military</precondition>
+    <action>dialogs_mlr.sell_money_darkscape_guid_military</action> 
+    <action>dialogs_mlr.darkscape_guid_military</action> 
+    </phrase>
+    <phrase id="4">
+	<text>On Amber%c[255,238,153,26][scientific base,10000]</text>
+    <precondition>dialogs_mlr.have_mil_to_yant_on_heli</precondition>
+    <action>dialogs_mlr.give_mil_to_yant_on_heli</action> 
+    <action>dialogs_mlr.mil_to_yant_on_heli</action> 
+    </phrase>
+    <phrase id="5">
+	<text>I changed my mind, wait.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_agr_mlr_military">
+<dont_has_info>guid_agr_mlr_military_give</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarov, and you with flights Nothing 'nahimichit' you can not? Well, in short, I need something to fly to, suddenly it will be on the way.</text>
+<next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I can, but as long as you're here and no one wants to call you-do not even dream. That's how you will become an experienced soldier, they will talk about you, stack up. For the future: we fly only to Cordon and Amber.</text>
+<give_info>guid_agr_mlr_military_give</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_agr_mlr_military_list">
+<precondition>dialogs_mlr.request_to_fly</precondition>
+<has_info>guid_agr_mlr_military_give</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>You can ask again, where do you fly?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Only on: \n %c[255,238,153,26] • • Kordon[South roadblock,5000] \n %c[255,238,153,26] • • Amber[scientific base,7000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="guid_agr_mlr_military_vert">
+<precondition>dialogs_mlr.request_to_fly</precondition>
+<precondition>dialogs_mlr.have_money_agroprom_guid_military</precondition>
+<has_info>guid_agr_mlr_military_give</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use the services of a pilot.</text>
+<next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Now I'll link the schedule. Where?</text>
+<next>2</next>
+<next>3</next>
+<next>4</next>
+    </phrase>
+    <phrase id="2">
+	<text>To Cordon%c[255,238,153,26][southern roadblock,5000]</text>
+<action>dialogs_mlr.sell_money_agroprom_guid_military</action> 
+<action>dialogs_mlr.escape_guid_military</action> 
+    </phrase>
+    <phrase id="3">
+	<text>On Amber%c[255,238,153,26][scientific base,7000]</text>
+    <precondition>dialogs_mlr.have_mil_to_yant_on_heli2</precondition>
+    <action>dialogs_mlr.give_mil_to_yant_on_heli2</action> 
+    <action>dialogs_mlr.mil_to_yant_on_heli</action> 
+    </phrase>
+    <phrase id="4">
+	<text>Anywhere.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_marsh_csky">
+<dont_has_info>meet_guid_marsh_csky_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, what are you standing here for?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Yes,No time to sit,I have to be constantly in the field of view,since I am a Guide local. You're on my gear-then do not look,I'm so easy to navigate. I can also take you somewhere,namely: \n %c[255,238,153,26] • • Swamp[Observation post] \n %c[255,238,153,26] • • Swamp[Water pump] \n %c[255,238,153,26] • • Swamp[Old church] \n %c[255,238,153,26] • • Swamp[Fur. yard] \n %c[255,238,153,26] • • Cordon[Village of the Cubs] \n %c[255,238,153,26] • • Agroprom \n %c[255,238,153,26] • • Bar</text>
+<give_info>meet_guid_marsh_csky_over</give_info>   
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_marsh_csky_list">
+<has_info>meet_guid_marsh_csky_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can I specify your routes again?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>On: \n %c[255,238,153,26] • • Swamp[Observation post,300] \n %c[255,238,153,26] • • Swamp[Waterpipe,500] \n %c[255,238,153,26] • • Swamp[Old church,500] \n %c[255,238,153,26] • • Swamp[Fur. yard,800] \n %c[255,238,153,26] • • Kordon[Village of the Beginners,1500] \n %c[255,238,153,26] • • Agroprom[2000]] \n %c[255,238,153,26] • • Bar[4000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_marsh_csky">
+<precondition>dialogs_mlr.have_money_to_marsh_post_guid_marsh</precondition>
+<has_info>meet_guid_marsh_csky_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Well, where?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>     
+        <next>7</next>   
+        <next>8</next>     
+        <next>9</next>      
+        <next>10</next>    		
+    </phrase>
+    <phrase id="2">
+	<text>Swamp%c[255,238,153,26][Observation post,300]</text>
+    <precondition>dialogs_mlr.have_money_to_marsh_post_guid_marsh</precondition>
+    <action>dialogs_mlr.sell_money_to_marsh_post_guid_marsh</action> 
+    <action>dialogs_mlr.marsh_post_guid</action> 
+    <action>dialogs.break_dialog</action>
+    </phrase>
+    <phrase id="3">
+	<text>Swamp%c[255,238,153,26][Refuge of the Swamp Doctor,1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.tuzla_tonnel_guid_marsh</action> 
+    <action>dialogs.break_dialog</action>
+    </phrase>	
+    <phrase id="4">
+	<text>Swamp%c[255,238,153,26][Waterpipe,500]</text>
+    <precondition>dialogs_mlr.have_money_to_marsh_pump_water_guid_marsh</precondition>
+    <action>dialogs_mlr.sell_money_to_marsh_pump_water_guid_marsh</action> 
+    <action>dialogs_mlr.marsh_pump_water_guid</action> 
+    <action>dialogs.break_dialog</action>
+    </phrase>
+    <phrase id="5">
+	<text>Swamp%c[255,238,153,26][the Old Church,500]</text>
+    <precondition>dialogs_mlr.have_money_to_marsh_pump_water_guid_marsh</precondition>
+    <action>dialogs_mlr.sell_money_to_marsh_pump_water_guid_marsh</action> 
+    <action>dialogs_mlr.marsh_old_church_guid</action> 
+    <action>dialogs.break_dialog</action>
+    </phrase>
+    <phrase id="6">
+	<text>Swamp%c[255,238,153,26][Fur. yard,800]</text>
+    <precondition>dialogs_mlr.have_money_to_tech_yard_guid_marsh</precondition>
+    <action>dialogs_mlr.sell_money_to_tech_yard_guid_marsh</action> 
+    <action>dialogs_mlr.marsh_tech_yard_guid</action> 
+    <action>dialogs.break_dialog</action>
+    </phrase>
+    <phrase id="7">
+	<text>To Cordon%c[255,238,153,26][Village of Beginners,1500]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_underground_guid_jup</action> 
+    <action>dialogs_mlr.escape_village_guid</action> 
+    </phrase>
+   <phrase id="8">
+	<text>In the Agroprom%c[255,238,153,26][2000]</text>
+    <precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_zaton_guid_jup</action> 
+    <action>dialogs_mlr.agroprom_guid</action> 
+    </phrase>
+   <phrase id="9">
+	<text>In the Bar%c[255,238,153,26][4000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action> 
+    <action>dialogs_mlr.l05_bar_guid</action> 
+    </phrase>
+    <phrase id="10">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_dv_bandit">
+<dont_has_info>meet_guid_dv_bandit_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Who is Opa and who do we have?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Khuli eyes hatch,I'm here like a local postman,I can take you somewhere. Here: \n %c[255,238,153,26] • • Cemetery technique[Car Park bandits,1500] \n %c[255,238,153,26] • • Surroundings of Jupiter[container warehouse,8000]</text>
+    <give_info>meet_guid_dv_bandit_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_dv_bandit">
+<has_info>meet_guid_dv_bandit_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Well,drove.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Where are we stomping?</text>
+        <next>2</next>   
+        <next>3</next>      
+        <next>4</next>            
+    </phrase>
+    <phrase id="2">
+	<text>At the cemetery of technology%c[255,238,153,26][1500]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_underground_guid_jup</action> 
+    <action>dialogs_mlr.trucks_cemetery_guid</action> 
+    </phrase>
+    <phrase id="3">
+	<text>Warehouse containers in the vicinity of 'Jupiter'%c[255,238,153,26][8000]</text>
+    <precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+    <action>dialogs_mlr.sell_money_to_radar_guid_pri</action> 
+    <action>dialogs_mlr.jup_guid_bandit_cont</action> 
+    </phrase>
+    <phrase id="4">
+	<text>Westfall.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_pri_stalker_list">
+<has_info>grifon_meet_dialog1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can I specify your routes again?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>On: \n %c[255,238,153,26] • • NPP[12000] \n %c[255,238,153,26] • • Pripyat[3000]] \n %c[255,238,153,26] • • Surroundings of Jupiter['Yanov',4000] \n %c[255,238,153,26] • • Radar[8000] \n %c[255,238,153,26] • • Overpass[1000] \n %c[255,238,153,26] • • Zaton[through Garik,4000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_pri_stalker">
+<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+<has_info>grifon_meet_dialog1</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, where?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>                
+    </phrase>
+    <phrase id="2">
+	<text>At Chernobyl%c[255,238,153,26][12000]</text>
+    <precondition>dialogs_mlr.have_money_to_stancia_guid_pri</precondition>
+    <action>dialogs_mlr.sell_money_to_stancia_guid_pri</action> 
+    <action>dialogs_mlr.stancia_guid</action> 
+    </phrase>
+    <phrase id="3">
+	<text>transition Pripyat%c[255,238,153,26][3000]</text>
+    <precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_escape_guid_bar</action> 
+    <action>dialogs_mlr.pripyat_2_guid</action> 
+    </phrase>
+    <phrase id="4">
+	<text>At Radar%c[255,238,153,26][8000]</text>
+    <precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+    <action>dialogs_mlr.sell_money_to_radar_guid_pri</action> 
+    <action>dialogs_mlr.radar_guid</action> 
+    </phrase>
+    <phrase id="5">
+	<text>In the Neighborhood of Jupiter%c[255,238,153,26][4000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action> 
+    <action>dialogs_mlr.jupiter_guid</action> 
+    </phrase>
+    <phrase id="6">
+	<text>At Zaton%c[255,238,153,26][4000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action> 
+    <action>dialogs_mlr.zaton_guid</action> 
+    </phrase>
+    <phrase id="7">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_jup">
+<dont_has_info>meet_guid_jup_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Zdarova, who are you?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Hello bro. I'm called Garik,I drive back and forth,mainly in the center of the Zone. I'll post in: \n %c[255,238,153,26] • • Bar \n %c[255,238,153,26] • • Pripyat \n %c[255,238,153,26] • • Outskirts of Pripyat \n %c[255,238,153,26] • • Red Forest[dwelling of Forester] \n %c[255,238,153,26] • • Zaton[Skadovsk] \n %c[255,238,153,26] • • Pursuit</text>
+<give_info>meet_guid_jup_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_jup_list">
+<has_info>meet_guid_jup_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can I specify your routes again?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Q: \n %c[255,238,153,26] • • Bar[6000] \n %c[255,238,153,26] • • Pripyat[3000]] \n %c[255,238,153,26] • • Outskirts of Pripyat[Laundry,4000] \n %c[255,238,153,26] • • Red Forest[dwelling of Forester,2500] \n %c[255,238,153,26] • • Zaton[Skadovsk,2000] \n %c[255,238,153,26] • • Overpass[1500]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_jup">
+<precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+<has_info>meet_guid_jup_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, where?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>        
+    </phrase>
+    <phrase id="2">
+	<text>In the Bar%c[255,238,153,26][6000]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action> 
+    <action>dialogs_mlr.l05_bar_guid</action> 
+    </phrase>
+    <phrase id="3">
+	<text>transition Pripyat%c[255,238,153,26][3000]</text>
+    <precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_escape_guid_bar</action> 
+    <action>dialogs_mlr.l11_pripyat_guid</action> 
+    </phrase>
+    <phrase id="4">
+	<text>On the outskirts of Pripyat%c[255,238,153,26][4000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action> 
+    <action>dialogs_mlr.pripyat_guid</action> 
+    </phrase>
+    <phrase id="5">
+	<text>In the Red Forest%c[255,238,153,26][2500]</text>
+    <precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action> 
+    <action>dialogs_mlr.red_forest_guid</action> 
+    </phrase>
+    <phrase id="6">
+	<text>At Zaton%c[255,238,153,26][2000]</text>
+    <precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_zaton_guid_jup</action> 
+    <action>dialogs_mlr.zaton_guid</action> 
+    </phrase>
+    <phrase id="7">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+
+<dialog id="meet_guid_zat">
+<dont_has_info>meet_guid_zat_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, and you?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Explorer Pilot is at your service. There are not a lot of places I can hold,but it will definitely be much faster and safer. I'll post in: \n %c[255,238,153,26] • • Pripyat[through Garik] \n %c[255,238,153,26] • • Outskirts of Pripyat[laundry,through Garik] \n %c[255,238,153,26] • • Surroundings of Jupiter[station 'Yanov']</text>
+<give_info>meet_guid_zat_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_zat_list">
+<has_info>meet_guid_zat_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can I specify your routes again?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Q: \n %c[255,238,153,26] • • Pripyat[through Garik,4000] \n %c[255,238,153,26] • • Outskirts of Pripyat[through Garik,5000] \n %c[255,238,153,26] • • Neighborhoods of Jupiter[Yanov station,2000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_zat">
+<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+<has_info>meet_guid_zat_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, where?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>         
+    </phrase>
+    <phrase id="2">
+	<text>transition Pripyat%c[255,238,153,26][4000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action> 
+    <action>dialogs_mlr.l11_pripyat_guid</action> 
+    </phrase>
+    <phrase id="3">
+	<text>On the outskirts of Pripyat%c[255,238,153,26][5000]</text>
+    <precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+    <action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action> 
+    <action>dialogs_mlr.pripyat_guid</action>  
+    </phrase>
+    <phrase id="4">
+	<text>In the vicinity of Jupiter%c[255,238,153,26][2000]</text>
+    <precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+    <action>dialogs_mlr.sell_money_to_zaton_guid_jup</action> 
+    <action>dialogs_mlr.jupiter_guid</action> 
+    </phrase>
+    <phrase id="5">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_bar">
+<dont_has_info>meet_guid_bar_over</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, what are you doing?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>I conduct the Guide,I drive there-here for a modest fee,I'm called 'Navigator'. Basically,greens certainly use services,but experienced stalkers are not neglected. the deal is this: you pay,I leave you near the named area and go back. I'll pass on: \n %c[255,238,153,26] • • Amber \n %c[255,238,153,26] • • Swamp \n %c[255,238,153,26] • • Army warehouses \n %c[255,238,153,26] • • Garbage \n %c[255,238,153,26] • • Cordon[Neutral base] \n %c[255,238,153,26] • • Surroundings of Jupiter[station 'Yanov']</text>
+<give_info>meet_guid_bar_over</give_info>         
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="meet_guid_bar_list">
+<has_info>meet_guid_bar_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Can I specify your routes again?</text>
+    <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>On: \n %c[255,238,153,26] • • Amber[3500] \n %c[255,238,153,26] • • Mires[6000] \n %c[255,238,153,26] • • Army warehouses[1000] \n %c[255,238,153,26] • • Garbage[700] \n %c[255,238,153,26] • • Cordon[Beginner's Village,3000] \n %c[255,238,153,26] • • Surroundings of Jupiter[station 'Yanov',6000]</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="travel_guid_bar">
+<precondition>dialogs_mlr.have_money_to_garbage_guid_bar</precondition>
+<has_info>meet_guid_bar_over</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>I want to use your services.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Excellent, where?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>
+        <next>8</next>         
+    </phrase>
+    <phrase id="2">
+	<text>To Cordon%c[255,238,153,26][3000]</text>
+    <precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_escape_guid_bar</action> 
+    <action>dialogs_mlr.escape_guid</action> 
+    </phrase>
+    <phrase id="3">
+	<text>On the Garbage%c[255,238,153,26][700]</text>
+    <precondition>dialogs_mlr.have_money_to_garbage_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_garbage_guid_bar</action> 
+    <action>dialogs_mlr.garbage_guid</action> 
+    </phrase>
+    <phrase id="4">
+	<text>Warehouses%c[255,238,153,26][1000]</text>
+    <precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_military_guid_bar</action> 
+    <action>dialogs_mlr.military_guid</action> 
+    </phrase>
+    <phrase id="5">
+	<text>On Amber%c[255,238,153,26][3500]</text>
+    <precondition>dialogs_mlr.have_money_to_yantar_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_yantar_guid_bar</action> 
+    <action>dialogs_mlr.yantar_guid</action> 
+    </phrase>
+    <phrase id="6">
+	<text>In the Neighborhood of Jupiter%c[255,238,153,26][6000]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action> 
+    <action>dialogs_mlr.jupiter_guid</action> 
+    </phrase>
+    <phrase id="7">
+	<text>At the Swamp%c[255,238,153,26][6000]</text>
+    <precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+    <action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action> 
+    <action>dialogs_mlr.marsh_guid</action> 
+    </phrase>
+    <phrase id="8">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="hunter_trader_meet">
+<dont_has_info>hunter_trader_meet_info</dont_has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Hello, what are you dressed up as a bandit?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Oh you. I'm a hunter, but you can understand that there are not many of us left. Here's a bar here holding a small, safe and generally good, and if you have questions, ask. By the way, Myasnik is called.</text>
+    <next>2</next>  
+    </phrase>
+    <phrase id="2">
+	<text>Who are the hunters within the 'zone'?</text>
+     <next>3</next>  
+    </phrase>
+    <phrase id="3">
+	<text>Well, we are doing a rather specific leisure here. We do not collect artifacts, do not adhere to any common views on the zone and do not try to unravel its secrets. We just hunt for mutants and not because they represent in our opinion any threat, as it seems 'Duty', but because we can and do. Many of us were former hunters, both amateurs and professionals on the big earth, though many disappeared. \n About the raincoat, by the way, you noticed, and so in them it's much more convenient to hunt, and in armed conflicts we try not to join, well, plus we have it as a private uniform or something.</text>
+   <next>4</next>     
+    </phrase>
+    <phrase id="4">
+	<text>And what can you offer?</text>
+    <next>5</next>     
+    </phrase>
+    <phrase id="5">
+	<text>Yes, so, what trophy guys bring, so and pritorgovyvayu. Well and on a trifle to another, provision there for example, by medicines and equipment. I can offer you a job hunting all sorts of mutants.</text>
+    <next>6</next>     
+    </phrase>
+    <phrase id="6">
+	<text>I understand that I will definitely take the job from you.</text>
+    <give_info>hunter_trader_meet_info</give_info>   
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="about_baraholka_hunter_trader">
+<dont_has_info>about_baraholka_hunter_trader_info</dont_has_info>
+<has_info>hunter_trader_meet_info</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Why do not they also live in a hangar? It seems to be somehow safer here, and even more habitable.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Flea market-it's been a few years already, and we just came. Though they were dispelled by the 'Duty' for the fact that they 'sell dangerous goods', but they somehow agreed with them. Yes, and they do it right here-there is really nothing, they do not understand us, and we them. We're hunting not for the sake of mutants, and they collect these color spoons, and sit in their own flea market as owls. Strange guys in general, but adequate.</text>
+<give_info>about_baraholka_hunter_trader_info</give_info>     
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="about_monsters_trader_hangar">
+<has_info>hunter_trader_meet_info</has_info>
+<phrase_list>
+    <phrase id="0">
+	<text>Tell me about some mutants.</text>
+        <next>1</next>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+        <next>5</next>
+        <next>6</next>
+        <next>7</next>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>11</next>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+    </phrase>
+    <phrase id="1">
+	<text>Well, there are such nice rodents, they are called 'tushkans' in the people. You saw them for sure. It seems not dangerous, but in a pack zagryzt can easily at least a seasoned stalker, though a whole group. There was such a case when a special detachment of 'Duty' went to the sweep of the den of bloodsuckers. Well so estimate, these idiots camp somewhere in the middle of the complex on the 'Agroprom' broke up, one sent him down somewhere, and another jerked into his flash-drive, well, there were literally 10 minutes of no one guarding the sleeping ones. Morning already means-it's time for the guys to wake up, but there's no one. Well, something wrong, think something, went into room, and there are krovischi- the sea and throats in all 'gnawed.' the characteristic traces of the tushkans are listed, but they themselves have already fallen down. Dog knows why they did not stay at the meal, but to see clever, louse. Well, the sentries decided to go to the lair themselves, and to write off the death of their comrades for the bloodsucking. So and disappeared, and their flash-drive stalker picked up, but came with a new story in the bar neighing. So that.</text>
+    </phrase>
+    <phrase id="2">
+	<text>Well, with dogs, every rookie on the cordon encounters, but what can we say-and on the big earth. These from their, say, 'prototypes' are not much different. Blinded only, but it's encouraging is not enough, the rest of the feelings are exacerbated. Especially the scent. Such inexperienced beginners at times take, and under hour and more experienced stalkers, in turn maneuverability and suddenness. \n Well, listen is history. Someone got into a pussy at the bar at night. There they raised everything to their ears, they defended the people of Lyuli, all the cases. Invited even debtors to protect, but see who is stealing, well, they are clear horseradish the dog saw, which ran through a hole in the fence and shot. In the morning the stalker dejected comes to the bar, asks for the dog, and the Barkeep immediately smiles and tells him to address the debtors. So, in general, the dude from the big land with this mongrel got through the cordon, she's home. Well, they have experienced much with her, and he is also an orphan, and here it is. Since then, who is so clever with his livestock for the cordon moves or knocks back, or lets his 'pal' for dinner brothers-stalkers. And then Nothing to frighten the nervous people. A sausage by the way a local alcoholic stole.</text>
+    </phrase>
+    <phrase id="3">
+	<text>Here are the dogs, and there are pseudo dogs. Why 'pseudo'? Yes, they are only partly similar to dogs, well, because of the ability of some to affect the human brain in the most negative way, causing him to hallucinate. the dog knows whether they are from normal dogs, whether from wolves or from this is some kind of secret experiment, at least the experiments of the scientists have not illuminated anything in this area. Jump these creatures be healthy, can swallow a man in flight to bite, well, these Ghosts are them. If you are lucky enough to run into such a psi-shavk, then carefully follow her and her copies, to take the most cautious, which does not hurry into battle and rushes along it. This will be the original, because these creatures are very reasonable, even legends go that they can be tamed. the Dog of the Swamp Doctor is an example for you, you can ask around the Swamps about him.</text>
+    </phrase>
+    <phrase id="4">
+	<text>About snorkers, let's tell. the most common theory is that these are former military men, who guarded the ChZO before the second explosion, and so 'digested' their brains to a mushy state. Something like a Zombie, only these and from animals there is something, primitive such. They crawl on all fours, very flexible creatures that can jump for a few meters and hook, and even worse, grab a stalker on the fly and devour. Another theory is about the testing of a gas, which explains why they are wearing gas masks. the Emission struck, who on earth so directly from his post evaporated, and someone under the earth had a hard time, that's how this gas broke out because of a malfunction in some secret complex. And some people generally think that these gas masks are just like wearing snows on muzzle, so they feel more like people, well, they have such a fetish.</text>
+    </phrase>
+    <phrase id="5">
+	<text>About Zombies I can. Well, here it is quite a common phenomenon, although unlike the cheap American kink, many of their 'dummies' have preserved some human hab its and are able to use weapons, even retained the speech. True, their phrases are incoherent in most cases. Sakharov you will learn more about their appearance, he has long been studying the phenomenon of psi-radiation. In the majority they are led by inspectors and are used by them for various purposes, although he rarely uses his 'dummies' in food. There is also a more typical subspecies of these creatures, which in the people 'civilian' is called because they do not know how to use these weapons, although it is more difficult to kill them, they need to damage the ligaments, while ordinary Zombies can even make cries of pain. \n Still very likely some types of civilian Zombies are the originators of secret laboratories, on the remains of clothing, this can easily be determined. This uniform, apparently experimental and this theory is confirmed by the information that Metheny obtained in his wanderings through underground complexes, and later other stalkers.</text>
+    </phrase>
+    <phrase id="6">
+	<text>And let me tell you about the bloodsuckers. Creepy creatures with tentacles at the mouth, humanoid type. Presumably they are a mutation of a man, well, I'm so-scientists have perverted. In fact, you cannot figure out any nichets, and despite the jokes around the campfire, they are sexless and have no genitals. How to multiply-too it is not known, for it is hardly possible to leave such a 'trace' in a man in a couple of hours or days. It is better to shoot these creatures in the most toothy jaws, of course, because if such a cling, it sucks so much blood that you lose consciousness in a moment. Complicated by the fact that they have an excellent masking, somehow becoming invisible, however, experiments conducted by scientists have revealed nothing, except that their tentacles are isolated by special glands that prevent clotting of blood. Such a creature as soon as you notice it will be around you rush, circles reel until you get tired or you will not squander your ammunition. Beginners and find with empty shops and characteristic wounds. You'd better find a place higher or close to some object, so that you do not steal up behind and look at both of them, because suddenly this bastard will appear before you, but tighten your arms tight and shoot. the best tactic is if he finds you alone. Running away from them is problematic.</text>
+    </phrase>
+    <phrase id="7">
+	<text>Buhrer. There are such creatures, even more legendary, about the existence of which it is better not to know much, or you can get away with fear. the best advice I can give is not to scamper around dungeons and all kinds of raw empty complexes, labs as well, because these creatures are such places love. But recently they have been noticed everywhere and this is due primarily to the actions of the Marked, who switched off the burnout. Chimera, too, for example, lived only close to the center of the zone, but then suddenly migrated sharply and increased their population. Apparently someone who runs it all in the center of the zone has influence over these creatures and used them as a kind of Cerberus on the last approaches to its 'citadel'. If I got into trouble and could not escape, I advise you to take care of your head, since they have a relatively powerful telekinesis, they can also send a directed momentum and knock you off your feet, can take away your weapons or exhaust you, influencing somehow the gravity. They look like fat and disgusting dwarfs who wear huge shoes that produce characteristic sounds and black cloaks, strangely enough sewn to them almost in size. I think, that they, too, are a consequence of experiments in secret laboratories. \n There are also different subspecies of these creatures. For example, fire or electric, like poltergeists. In general, some agree that the poltergeist is the evolutionary stage of the burer. However, if the electric poltergeist affects you only with telekinesis, then a burer of the corresponding type can easily throw a ball lightning into you or a whole electrum, the size of a substation.</text>
+    </phrase>
+    <phrase id="8">
+	<text>Here with the supervisors, real jokes are bad, these creatures have a steady psi background and can manipulate the consciousness of any person. Without adequate protection, it is strictly forbidden to climb to them, and in general it is better to avoid such places by the side. Most likely they just scorch your brains out, not even hovering over the Zombies to immediately prepare from you juicy chops. There are legends that they can even talk, but I believe that this is just not more than legends. But their mental faculties cannot be disputed. Sometimes they can skillfully arrange ambushes, well, by the way most often walk alone, greedy to see food or philosophize at home in a delirious head. \n I myself had to face this. Stalker came to us somehow and said that they say so and so, on Rostok in one of the complexes a beast some strange settled. Wanted to say closer to approach and consider, but the head began to ache wildly, so that the weapon almost fell out of hands, well, he spat on this matter, writing off everything on some site with radiation. Well, we went there means, we go in and so my head began to crack so start! Well, we have prepared it yet, tablets special drank. I look, and there the figure in the darkness of the human is sitting, I'll let you shoot there, and she disappeared. And then once and this bastard behind my back was, well, I shot. I heard only the edge of my ear, far away-somewhere far from familiar voice, and was dumbfounded. Vasyuk shot his friend. Then we were finished with this creature, but with a desire I have already tied up and opened a bar here. I was not killed by a miracle, by the way, it was lucky that the Red had a strong mind on this matter, well, he threw himself to the North on this occasion.</text>
+    </phrase>
+    <phrase id="9">
+	<text>Have you seen cats? Oh, Christmas trees. That only the zone with domestic animals will not do. At them from radiation all shchitovidka was swelled up and these vile tumors have left, I do not know, why cats especially. Well, in short, the creatures are larger than steel, their claws are sharper and they run like mad-it's not your domestic bastard from a tree to remove, and for those chasing it is necessary, adjoining efforts. Cats-these creatures are free and you can meet them anywhere, so more often look at the neighborhood, and then come running, grab your ass careless in the ass and grab a piece.</text>
+    </phrase>
+    <phrase id="10">
+	<text>In the paranormal, many do not believe here, and in general there is another faith in everyone. At whom in the forces, at whom in Owners there all, and at whom in an alien intervention. But certainly not in God. However, there is still such a monster called 'poltergeist', because how else to call a translucent flying garbage, which objects are thrown at you? the truth is that No anything similar to the religious theme on the subject of unhidden souls in this mutant. He kills himself in a very ordinary way, does not react to salt (we already had one such dolbo, who checked) and looks like flying electric, or less often a fire essence. Electric, like a burer, shower you with all sorts of things, but the fireball is already capable of somehow creating a stream of fire right in front of your fuck, similar in impact and parameters with fries. Shoot straight into the essence-do not miss, but kill him it is very difficult because of its speed and maneuverability. \n Sometimes there have been stalkers of a black or smoky poltergeist. Certainly nothing is known about its properties, but it is quite a rare specimen and in many respects probably because meeting with such means death in the overwhelming majority of cases, and to kill this is even more difficult, because the smoke is much less localized and it is very difficult to track its 'core'.</text>
+    </phrase>
+    <phrase id="11">
+	<text>There are also such creatures, about whom a lot of tales by the fire are composed. And these are kinks. Creatures of the humanoid type with hypertrophic arm and neck, with this hand they can easily break your chest, while 'ordinary' does not show any abnormal properties. There were a lot of stories that kinks often like to enter into contact with stalkers and ask for all kinds of garbage from a tin can to an imported toothpaste. If you are not lucky and you did not have the necessary thing, then be ready for battle or death. Often, to death, because kinks often come into contact with a favorable situation for them, for example if you are a loner and he already holds you with his bucket-like hand from behind. If the desired object is yours, then do not rush and give him what he asks, and then go in peace with all four, he will not touch you. Well this is a story. Some freaks even leave provisions in the places where the last time they saw a kink, in vain translating usable products.</text>
+    </phrase>
+    <phrase id="12">
+	<text>Here's another psvedogigant. Usually its growth does not exceed the human, however its powerful paws can cause local earthquakes, that's why people called it so. Until recently, again, nothing about him was known and most likely we have again a Laboratory geek. Thank you assholes who like to scam about underground complexes and do not close the door behind them. In the North, too, had his own hero, whether military, or SBU, which, under the local substation, the steel door did not cover. As there is her. 'Ironwood', sort of. Since then, these giants have been observed even in vicinities in the plant 'Jupiter'. By the form it can be determined that sometime 'this' was a man because of the hanging behind the legs, the skin of the creature and some other features. Zubasny, but do not be afraid of it, since he is likely to just knock you down and crush. And yet do not take it awkwardly appearance in consideration, he never falls and does not get lost. Before hiking into the zone where the last time such a creature was seen, it's best to grab a pair of underbarrel grenades and a machine gun, as the skin and bones of this mutant show excellent resistance to small arms, and itself the creature is very tenacious.</text>
+    </phrase>
+    <phrase id="13">
+	<text>Chimera by right can be called the top of the food chain of the zone. Why? This is a very clever creature, mostly a night predator, who can fly at you in a jump from a distance of several tens of meters. A four-legged mutant, has two heads, for which he received his nickname. Also very Strong and sharp claws, capable of breaking even the skin of a pseudo giant. They publish a characteristic roar in the jump, they also remind a person of something, they met such zones mostly in the North in open spaces, with some objects. As the local hunter, St. John's Wort said, they have their own the sphere of influence, where they rest, and later organize hunting at night. \n There is also a subspecies, namely a black chimera. Such in the dark cannot be seen at all and this makes it much more dangerous than the relatives (the usual ones have almost human skin color), it is also said that it is stronger and more enduring. It is impossible to escape from the chimera, it is better to find some narrow room that will reduce its ability to maneuver or try to jump aside while it flies to you.</text>
+    </phrase>
+    <phrase id="14">
+	<text>Wild boars and flesh. \n the flesh is a sample of a terribly raspyedorashenoy pig (as shown by the experiments of scientists), rather slow and weak, only a complete moron can get under her 'klinkoobraznye' paws, by which she will certainly knock almost any bulletproof vest through and through. \n Wild boars little differ from their relatives outside the zone, except that larger and more dangerous. Well, their hooves are much stronger and can cut any fabric without problems, like human flesh. It's enough just to jump aside when this carcass rushes to you somewhere in a couple of meters from a collision with her fangs. Often the meat of both wild boars and flesh is consumed, unless, of course, the possibility of radiation poisoning is minimized.</text>
+    </phrase>
+    <phrase id="15">
+    <has_info>hunter_gar_trader_task_2_inf</has_info>
+	<text>Dwarfs. \n Thank you for helping me gather information about them, see what I wrote: \n Dwell mainly in underground complexes, somehow used earlier for experiments on people. Apparently they are the result of such experiments. Have supernatural power, good speed and attack most often by the group. At the moment, only one dwarf subspecies is found-smoked. Dirty, mutated radiation from radiation with the characteristic radiation for them, it is better not to allow such to oneself without a 'wrench' or 'bubble' in the pocket.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="request_to_no_trade_dialog">
+<dont_has_info>request_to_no_trade1</dont_has_info>
+<precondition>dialogs_mlr.request_to_no_trade</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>Is it possible to buy equipment in bulk anywhere?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Of course you can, but now with you no one will have anything to do and sell something at a cost price. You will become more experienced, people will be more confident in you and then you will look at wholesale merchants to buy things.</text>
+<give_info>request_to_no_trade1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="request_to_no_trade_dialog_monolith">
+<dont_has_info>request_to_no_trade1</dont_has_info>
+<precondition>dialogs_mlr.request_to_no_trade</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>My brother, can I buy from you at once a lot of equipment?</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>Of course you can, but not immediately. First, I must see that you regularly bear his Will in the mass of the infidels. Become more experienced and talk.</text>
+<give_info>request_to_no_trade1</give_info>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="low_level_of_buy_equpments">
+<precondition>dialogs_mlr.request_to_trade</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I would like to buy some equipment in bulk.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>What are you interested in?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+    </phrase>
+    <phrase id="2">
+	<text>Medicines.</text>
+        <next>5</next>
+    </phrase>
+    <phrase id="3">
+	<text>Provisions.</text>
+        <next>6</next>
+    </phrase>
+    <phrase id="4">
+	<text>Ammunition.</text>
+        <next>7</next>
+    </phrase>
+    <phrase id="5">
+	<text>Choose:</text>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>25</next>
+    </phrase>
+    <phrase id="6">
+	<text>Choose:</text>
+        <next>11</next>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+        <next>25</next>
+    </phrase>
+    <phrase id="7">
+	<text>Choose:</text>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>25</next>
+    </phrase>
+    <phrase id="8">
+<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text> 
+<action>dialogs_mlr.sell_to_buy_opt_bandage</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="9">
+<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_medkit</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="10">
+<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_antirad</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="11">
+<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_bread</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="12">
+<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="13">
+<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_conserva</action> 
+<action>dialogs.break_dialog</action>  
+    </phrase>
+    <phrase id="14">
+<precondition>dialogs_mlr.have_to_buy_opt_vodka</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_vodka</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_vodka</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="15">
+<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="16">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="17">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="18">
+<precondition>dialogs_mlr.have_to_buy_opt_9_19_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_19_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="19">
+<precondition>dialogs_mlr.have_to_buy_opt_9_19_pbp</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_pbp</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_19_pbp</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="20">
+<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="21">
+<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="22">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="23">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_ap</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_ap</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_ap</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="24">
+<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="25">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="ussr_level_of_buy_equpments">
+<precondition>dialogs_mlr.request_to_trade</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I would like to buy some equipment in bulk.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>What are you interested in?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+    </phrase>
+    <phrase id="2">
+	<text>Medicines.</text>
+        <next>5</next>
+    </phrase>
+    <phrase id="3">
+	<text>Provisions.</text>
+        <next>6</next>
+    </phrase>
+    <phrase id="4">
+	<text>Ammunition.</text>
+        <next>7</next>
+    </phrase>
+    <phrase id="5">
+	<text>Choose:</text>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>11</next>
+        <next>28</next>
+    </phrase>
+    <phrase id="6">
+	<text>Choose:</text>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+        <next>28</next>
+    </phrase>
+    <phrase id="7">
+	<text>Choose:</text>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+    </phrase>
+    <phrase id="8">
+<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_bandage</action> 
+<action>dialogs.break_dialog</action>  
+    </phrase>
+    <phrase id="9">
+<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_medkit</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="10">
+<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_antirad</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="11">
+<precondition>dialogs_mlr.have_to_buy_opt_medkit_army</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_medkit_army</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_medkit_army</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="12">
+<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_bread</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="13">
+<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="14">
+<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_conserva</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="15">
+<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="16">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="17">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="18">
+<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="19">
+<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="20">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="21">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_ap</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_ap</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_ap</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="22">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_9_39_pab9</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_39_pab9</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_9_39_pab9</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="23">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_9_39_ap</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_39_ap</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_9_39_ap</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="24">
+<precondition>dialogs_mlr.have_to_buy_opt_7_62_54_7h1</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62_54_7h1</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_7_62_54_7h1</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="25">
+<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="26">
+<precondition>dialogs_mlr.have_to_buy_opt_grenade_f1</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_grenade_f1</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_grenade_f1</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="27">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_vog_25</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_vog_25</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_ammo_vog_25</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="28">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="euro_level_of_buy_equpments">
+<precondition>dialogs_mlr.request_to_trade</precondition>
+<phrase_list>
+    <phrase id="0">
+	<text>I would like to buy some equipment in bulk.</text>
+        <next>1</next>
+    </phrase>
+    <phrase id="1">
+	<text>What are you interested in?</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+    </phrase>
+    <phrase id="2">
+	<text>Medicines.</text>
+        <next>5</next>
+    </phrase>
+    <phrase id="3">
+	<text>Provisions.</text>
+        <next>6</next>
+    </phrase>
+    <phrase id="4">
+	<text>Ammunition.</text>
+        <next>7</next>
+    </phrase>
+    <phrase id="5">
+	<text>Choose:</text>
+        <next>8</next>
+        <next>9</next>
+        <next>10</next>
+        <next>11</next>
+        <next>30</next>
+    </phrase>
+    <phrase id="6">
+	<text>Choose:</text>
+        <next>12</next>
+        <next>13</next>
+        <next>14</next>
+        <next>15</next>
+        <next>30</next>
+    </phrase>
+    <phrase id="7">
+	<text>Choose:</text>
+        <next>16</next>
+        <next>17</next>
+        <next>18</next>
+        <next>19</next>
+        <next>20</next>
+        <next>21</next>
+        <next>22</next>
+        <next>23</next>
+        <next>24</next>
+        <next>25</next>
+        <next>26</next>
+        <next>27</next>
+        <next>28</next>
+        <next>29</next>
+        <next>30</next>
+    </phrase>
+    <phrase id="8">
+<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_bandage</action> 
+<action>dialogs.break_dialog</action>
+    </phrase>
+    <phrase id="9">
+<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_medkit</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="10">
+<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_antirad</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="11">
+<precondition>dialogs_mlr.have_to_buy_opt_medkit_scientic</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_medkit_scientic</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_medkit_scientic</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="12">
+<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_bread</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="13">
+<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="14">
+<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_conserva</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="15">
+<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="16">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="17">
+<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="18">
+<precondition>dialogs_mlr.have_to_buy_opt_9_19_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_fmj</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_9_19_fmj</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="19">
+<precondition>dialogs_mlr.have_to_buy_opt_9_19_pbp</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_pbp</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_9_19_pbp</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="20">
+<precondition>dialogs_mlr.have_to_buy_opt_11_43_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_11_43_23_fmj</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_11_43_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="21">
+<precondition>dialogs_mlr.have_to_buy_opt_11_43_hyd</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_11_43_23_hydro</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_11_43_hyd</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="22">
+<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action>  
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="23">
+<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action> 
+<action>dialogs.break_dialog</action>  
+    </phrase>
+    <phrase id="24">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_56_45_fmj</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_56_45_ss190</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_56_45_fmj</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="25">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_56_45_ap</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_56_45_ap</script_text>	
+<action>dialogs_mlr.sell_to_buy_opt_ammo_5_56_45_ap</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="26">
+<precondition>dialogs_mlr.have_to_buy_opt_7_62_54_7h1</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62_54_7h1</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_7_62_54_7h1</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="27">
+<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="28">
+<precondition>dialogs_mlr.have_to_buy_opt_grenade_f1</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_grenade_f1</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_grenade_f1</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="29">
+<precondition>dialogs_mlr.have_to_buy_opt_ammo_m209</precondition>
+        <script_text>dialogs_mlr.get_phrase_buy_opt_ammo_m209</script_text>		
+<action>dialogs_mlr.sell_to_buy_opt_ammo_m209</action> 
+<action>dialogs.break_dialog</action> 
+    </phrase>
+    <phrase id="30">
+	<text>I changed my mind.</text>
+    </phrase>
+</phrase_list>
+</dialog>
+
+	<dialog id="story_dolg_p">
+	<dont_has_info>story_dolg_p_over</dont_has_info>	
+    <phrase_list>
+	    <phrase id="0">
+        <text>story_dolg_p_0</text>
+    <next>1</next>
+    </phrase>
+	    <phrase id="1">
+        <text>story_dolg_p_1</text>
+    <next>2</next>
+    </phrase>
+	    <phrase id="2">
+        <text>story_dolg_p_2</text>
+    <next>3</next>
+    </phrase>
+	    <phrase id="3">
+        <text>story_dolg_p_3</text>
+    <next>4</next>
+    </phrase>
+	    <phrase id="4">
+        <text>story_dolg_p_4</text>
+	<give_info>story_dolg_p_over</give_info>	
+    </phrase>	
+    </phrase_list>
+</dialog>
+
+	<dialog id="story_dolg_m">
+	<dont_has_info>story_dolg_m</dont_has_info>	
+    <phrase_list>
+	    <phrase id="0">
+        <text>story_dolg_m_0</text>
+    <next>1</next>
+    </phrase>
+	    <phrase id="1">
+        <text>story_dolg_m_1</text>
+    <next>2</next>
+    </phrase>
+	    <phrase id="2">
+        <text>story_dolg_m_2</text>
+    <next>3</next>
+    </phrase>
+	    <phrase id="3">
+        <text>story_dolg_m_3</text>
+    <next>4</next>
+    </phrase>
+	    <phrase id="4">
+        <text>story_dolg_m_4</text>
+	<give_info>story_dolg_m</give_info>	
+    </phrase>	
+    </phrase_list>
+</dialog>
+
+    <dialog id="story_b_cs">
+	<dont_has_info>story_b_cs</dont_has_info>		
+        <phrase_list>
+            <phrase id="0">
+                <text>story_b_cs_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>story_b_cs_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>story_b_cs_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>story_b_cs_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>story_b_cs_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>story_b_cs_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>story_b_cs_6</text>
+				<next>7</next>
+            </phrase>			
+            <phrase id="7">
+                <text>story_b_cs_7</text>
+				<next>8</next>
+            </phrase>  
+            <phrase id="8">
+                <text>story_b_cs_8</text>
+	        <give_info>story_b_cs</give_info>					
+            </phrase>			
+        </phrase_list>		
+    </dialog>
+
+    <dialog id="story_dog">
+	<dont_has_info>story_dog_inf</dont_has_info>		
+        <phrase_list>
+            <phrase id="0">
+                <text>story_dog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>story_dog_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>story_dog_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>story_dog_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>story_dog_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>story_dog_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="6">
+                <text>story_dog_6</text>
+				<next>7</next>
+            </phrase>			
+            <phrase id="7">
+                <text>story_dog_7</text>
+				<next>8</next>
+            </phrase>  
+            <phrase id="8">
+                <text>story_dog_8</text>
+            <give_info>story_dog_inf</give_info>					
+            </phrase>			
+        </phrase_list>		
+    </dialog>	
+
+    <dialog id="talk_to_maps">
+    <has_info>talk_to_inf_trader1</has_info>	
+	<dont_has_info>talk_to_maps_inf</dont_has_info>		
+	<phrase_list>
+	    <phrase id="0">
+        <text>talk_to_maps_0</text>
+    <next>1</next>
+    </phrase>
+	    <phrase id="1">
+        <text>talk_to_maps_1</text>
+    <next>2</next>            
+    </phrase>
+	    <phrase id="2">
+        <text>talk_to_maps_2</text>
+    <next>3</next>
+    </phrase>
+	    <phrase id="3">
+        <text>talk_to_maps_3</text>
+    <next>4</next>
+    </phrase>	
+	    <phrase id="4">
+        <text>talk_to_maps_4</text>
+    <next>5</next>		
+    </phrase>
+	    <phrase id="5">
+        <text>talk_to_maps_5</text>
+    <next>6</next>		
+    </phrase>
+	    <phrase id="6">
+        <text>talk_to_maps_6</text>
+            <give_info>talk_to_maps_inf</give_info>			
+    </phrase>	
+    </phrase_list>
+</dialog>	
+
+<dialog id="aslan_st_about_job">
+<precondition>dialogs_mlr.check_killer</precondition>	
+<dont_has_info>aslan_st_over</dont_has_info>
+<phrase_list> 
+<phrase id="0">
+<text>aslan_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>aslan_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>aslan_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>aslan_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>aslan_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>aslan_st_5</text>
+ <next>6</next>
+</phrase>
+<phrase id="6">
+<text>aslan_st_6</text>
+ <next>7</next>
+</phrase>
+<phrase id="7">
+<text>aslan_st_7</text>
+ <next>8</next>
+</phrase>
+<phrase id="8">
+<text>aslan_st_8</text>
+<give_info>aslan_st_over</give_info>	
+</phrase>
+</phrase_list> 
+</dialog>
+	
+<dialog id="bandit_mechanic_st">
+<dont_has_info>bandit_mechanic_st_over</dont_has_info>
+<phrase_list> 
+<phrase id="0">
+<text>bandit_mechanic_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>bandit_mechanic_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>bandit_mechanic_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>bandit_mechanic_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>bandit_mechanic_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>bandit_mechanic_st_5</text>
+ <next>6</next>
+</phrase>
+<phrase id="6">
+<text>bandit_mechanic_st_6</text>
+<next>7</next>
+</phrase>
+<phrase id="7">
+<text>bandit_mechanic_st_7</text> 
+<next>8</next>
+</phrase>
+<phrase id="8">
+<text>bandit_mechanic_st_8</text>
+ <next>9</next>
+</phrase>
+<phrase id="9">
+<text>bandit_mechanic_st_9</text>
+ <next>10</next>
+</phrase>
+<phrase id="10">
+<text>bandit_mechanic_st_10</text>
+ <next>11</next>
+</phrase>
+<phrase id="11">
+<text>bandit_mechanic_st_11</text>
+ <next>12</next>
+</phrase>
+<phrase id="12">
+<text>bandit_mechanic_st_12</text>
+<give_info>bandit_mechanic_st_over</give_info>	
+</phrase>
+</phrase_list> 
+</dialog>	
+
+<dialog id="bandit_trader_st">
+<dont_has_info>bandit_trader_st_over</dont_has_info>
+<phrase_list> 
+<phrase id="0">
+<text>bandit_trader_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>bandit_trader_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>bandit_trader_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>bandit_trader_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>bandit_trader_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>bandit_trader_st_5</text>
+ <next>6</next>
+</phrase>
+<phrase id="6">
+<text>bandit_trader_st_6</text>
+<next>7</next>
+</phrase>
+<phrase id="7">
+<text>bandit_trader_st_7</text> 
+<next>8</next>
+</phrase>
+<phrase id="8">
+<text>bandit_trader_st_8</text>
+ <next>9</next>
+</phrase>
+<phrase id="9">
+<text>bandit_trader_st_9</text>
+ <next>10</next>
+</phrase>
+<phrase id="10">
+<text>bandit_trader_st_10</text>
+ <next>11</next>
+</phrase>
+<phrase id="11">
+<text>bandit_trader_st_11</text>
+ <next>12</next>
+</phrase>
+<phrase id="12">
+<text>bandit_trader_st_12</text>
+<give_info>bandit_trader_st_over</give_info>	
+</phrase>
+</phrase_list> 
+</dialog>
+
+<dialog id="sultan_st">
+<dont_has_info>sultan_st_over</dont_has_info>
+<phrase_list> 
+<phrase id="0">
+<text>sultan_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>sultan_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>sultan_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>sultan_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>sultan_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>sultan_st_5</text>
+ <next>6</next>
+</phrase>
+<phrase id="6">
+<text>sultan_st_6</text>
+<next>7</next>
+</phrase>
+<phrase id="7">
+<text>sultan_st_7</text> 
+<next>8</next>
+</phrase>
+<phrase id="8">
+<text>sultan_st_8</text>
+ <next>9</next>
+</phrase>
+<phrase id="9">
+<text>sultan_st_9</text>
+ <next>10</next>
+</phrase>
+<phrase id="10">
+<text>sultan_st_10</text>
+<give_info>sultan_st_over</give_info>	
+</phrase>
+</phrase_list> 
+</dialog>	
+
+<dialog id="army_south_mechan_mlr_st">
+<dont_has_info>army_south_mechan_mlr_st_over</dont_has_info>
+<phrase_list> 
+<phrase id="0">
+<text>army_south_mechan_mlr_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>army_south_mechan_mlr_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>army_south_mechan_mlr_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>army_south_mechan_mlr_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>army_south_mechan_mlr_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>army_south_mechan_mlr_st_5</text>
+ <next>6</next>  
+</phrase>
+<phrase id="6">
+<text>army_south_mechan_mlr_st_6</text>
+ <next>7</next>
+</phrase>
+<phrase id="7">
+<text>army_south_mechan_mlr_st_7</text>
+ <next>8</next>
+</phrase>
+<phrase id="8">
+<text>army_south_mechan_mlr_st_8</text>
+ <next>9</next>
+</phrase>
+<phrase id="9">
+<text>army_south_mechan_mlr_st_9</text>
+ <next>10</next>
+</phrase>
+<phrase id="10">
+<text>army_south_mechan_mlr_st_10</text>
+<give_info>army_south_mechan_mlr_st_over</give_info>
+</phrase>
+</phrase_list> 
+</dialog>
+	
+<dialog id="loki_st">
+<dont_has_info>loki_st_done</dont_has_info>	
+<phrase_list> 
+<phrase id="0">
+<text>loki_st_0</text> 
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>loki_st_1</text> 
+<next>2</next>
+</phrase>
+<phrase id="2">
+<text>loki_st_2</text> 
+<next>3</next>
+</phrase>
+<phrase id="3">
+<text>loki_st_3</text> 
+<next>4</next>
+</phrase>
+<phrase id="4">
+<text>loki_st_4</text>
+ <next>5</next>
+</phrase>
+<phrase id="5">
+<text>loki_st_5</text> 
+<next>6</next>
+</phrase>
+<phrase id="6">
+<text>loki_st_6</text>
+<next>7</next>
+</phrase>
+<phrase id="7">
+<text>loki_st_7</text>
+<next>8</next>
+</phrase>
+<phrase id="8">
+<text>loki_st_8</text> 
+<next>9</next>
+</phrase>
+<phrase id="9">
+<text>loki_st_9</text>
+<next>10</next>
+</phrase>
+<phrase id="10">
+<text>loki_st_10</text>
+ <next>11</next>
+</phrase>
+<phrase id="11">
+<text>loki_st_11</text>
+ <next>12</next>  
+</phrase>
+<phrase id="12">
+<text>loki_st_12</text> 
+<give_info>loki_st_done</give_info>	
+</phrase>
+</phrase_list> 
+</dialog>		
+	
+<!------------- сопровождение ----------->
+
+    <dialog id="ecolog_companion_task_mlr_1_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text/>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text/>
+                <next>111</next>
+                <next>112</next>
+                <next>113</next>
+            </phrase>
+            <phrase id="111">
+                <dont_has_info>ecolog_companion_task_mlr_1_started</dont_has_info>
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_1_not_complete</precondition>
+                <text>ecolog_companion_task_mlr_1_start_dialog_1</text>
+                <give_info>ecolog_companion_task_mlr_1_started</give_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="112">
+                <has_info>ecolog_companion_task_mlr_1_started</has_info>
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_1_not_complete</precondition>
+                <text>ecolog_companion_task_mlr_1_start_dialog_2</text>
+                <give_info>ecolog_companion_task_mlr_1_started</give_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="113">
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_1_complete</precondition>
+                <text>ecolog_companion_task_mlr_1_complete</text>
+                <next>1113</next>
+            </phrase>
+            <phrase id="1111">
+                <text>ecolog_companion_task_mlr_1_actor_reply</text>
+            </phrase>
+            <phrase id="1113">
+                <text>ecolog_companion_task_mlr_1_actor_reply</text>
+                <action>dialogs_mlr.ecolog_companion_task_mlr_1_give_reward</action>
+                <action>dialogs_mlr.ecolog_companion_task_mlr_1_complete_task</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <dialog id="ecolog_companion_task_mlr_2_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text/>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text/>
+                <next>111</next>
+                <next>112</next>
+                <next>113</next>
+            </phrase>
+            <phrase id="111">
+                <dont_has_info>ecolog_companion_task_mlr_2_started</dont_has_info>
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_2_not_complete</precondition>
+                <text>ecolog_companion_task_mlr_2_start_dialog_1</text>
+                <give_info>ecolog_companion_task_mlr_2_started</give_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="112">
+                <has_info>ecolog_companion_task_mlr_2_started</has_info>
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_2_not_complete</precondition>
+                <text>ecolog_companion_task_mlr_2_start_dialog_2</text>
+                <give_info>ecolog_companion_task_mlr_2_started</give_info>
+                <next>1111</next>
+            </phrase>
+            <phrase id="113">
+                <precondition>dialogs_mlr.ecolog_companion_task_mlr_2_complete</precondition>
+                <text>ecolog_companion_task_mlr_2_complete</text>
+                <next>1113</next>
+            </phrase>
+            <phrase id="1111">
+                <text>ecolog_companion_task_mlr_2_actor_reply</text>
+            </phrase>
+            <phrase id="1113">
+                <text>ecolog_companion_task_mlr_2_actor_reply</text>
+                <action>dialogs_mlr.ecolog_companion_task_mlr_2_give_reward</action>
+                <action>dialogs_mlr.ecolog_companion_task_mlr_2_complete_task</action>
+            </phrase>
+        </phrase_list>
+    </dialog>		
+	
+	<dialog id="stalker_companion_task_mlr_1_dialog">
+        <phrase_list>
+		    <phrase id="0">
+                <text />
+                <next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text />
+				<next>111</next>
+				<next>112</next>
+				<next>113</next>
+			</phrase>
+		    <phrase id="111">
+				<dont_has_info>stalker_companion_task_mlr_1_started</dont_has_info>
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_not_complete</precondition>
+                <text>stalker_companion_task_mlr_1_start_dialog_1</text>
+				<give_info>stalker_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+            </phrase>
+		    <phrase id="112">
+				<has_info>stalker_companion_task_mlr_1_started</has_info>
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_not_complete</precondition>
+                <text>stalker_companion_task_mlr_1_start_dialog_2</text>
+				<give_info>stalker_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+            </phrase>
+		    <phrase id="113">
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_complete</precondition>
+                <text>stalker_companion_task_mlr_1_complete</text>
+				<action>dialogs_mlr.stalker_companion_task_mlr_1_give_reward</action>
+				<next>1113</next>
+            </phrase>
+			<phrase id="1111">
+				<text>stalker_companion_task_mlr_1_actor_reply</text>
+			</phrase>
+			<phrase id="1113">
+				<text>stalker_companion_task_mlr_1_actor_reply</text>
+				<action>dialogs_mlr.stalker_companion_task_mlr_1_complete_task</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+</game_dialogs>

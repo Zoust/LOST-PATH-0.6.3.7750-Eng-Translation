@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>	
+	
+		<dialog id="tm_reward_task">
+		<phrase_list>
+			<phrase id="2">
+	<text>While you do not have to give a reward.</text>
+				<precondition>task_objects.rewarder_hasnt_reward</precondition>
+			</phrase>
+			<phrase id="1">
+	<text>Yes, take it.</text>
+				<precondition>task_objects.rewarder_has_reward</precondition>
+				<action>task_objects.rewarder_give_reward</action>
+			</phrase>
+			<phrase id="0">
+	<text>Is there something for me?</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+		</phrase_list>
+		</dialog>
+	
+		<!-- Закупка фильтров и аккумуляторов -->
+		
+		<dialog id="buy_filter"> 
+			<init_func>dialog_manager.script_trade</init_func>
+        </dialog>
+		
+		<!-- Компаньоны -->
+		
+		<!-- Базовый -->
+		
+		<dialog id="companion_dialog"> 
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+        <phrase_list>
+            <phrase id="0">
+	<text>Listen, how about acting together?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Come on, together-it's safer.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+	<text>Come after me.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        <phrase id="3">
+	<text>I changed my mind, we'll talk later.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Зулус  -->
+		
+		<dialog id="companion_dialog_zulus_help">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<dont_has_info>companion_quest_zulus_give</dont_has_info>
+		<dont_has_info>companion_quest_zulus_done</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+	<text>Listen, how about acting together?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>I do not mind, but I do not have a patron left at all. Could you bring me cartridges?</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+			<phrase id="2">
+	<text>No problem, how much do you need?</text>
+				<next>4</next>
+				</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+				<action>dialogs.break_dialog</action>
+				</phrase>
+			<phrase id="4">
+	<text>Bring me 3 packs.</text>
+				<next>5</next>
+				</phrase>
+			<phrase id="5">
+	<text>Good</text>
+				<action>dialogs_lostpath.companion_quest_zulus</action>
+				<give_info>companion_quest_zulus_give</give_info>
+				</phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="companion_dialog_zulus">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>dialogs_lostpath.check_ammo_zulus</precondition>
+		<has_info>companion_quest_zulus_give</has_info>
+		<dont_has_info>companion_quest_zulus_done</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+	<text>I brought your ammunition</text>
+				<give_info>companion_quest_zulus_done</give_info>
+				<action>dialogs_lostpath.transfer_ammo_zulus</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Thank you very much. I'm ready to go</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+                <next>2</next>
+            </phrase>
+			<phrase id="2">
+	<text>Excellent. Behind me.</text>
+				<action>dialogs.break_dialog</action>
+				</phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Платный Шрам  -->
+		
+		<dialog id="companion_dialog_shram"> <!-- ГГ не Ветеран -->
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>lostpath_check_money.shram_have_money</precondition>
+		<precondition>lostpath_companions.check_rank_actor_no_veteran</precondition>
+        <phrase_list>
+            <phrase id="0">
+	<text>Hello, Scar. I need escort.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hello, I'm driving for money. It will cost you 150 thousand wooden.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+	<text>Good. Here you are.</text>
+				<action>dialogs_lostpath.give_money_150000</action>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+				<action>lostpath_message.send_message_shram</action>
+            </phrase>
+        <phrase id="3">
+	<text>I changed my mind, we'll talk later.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="companion_dialog_shram_no_money">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>lostpath_check_money.shram_no_money</precondition>
+		<precondition>lostpath_companions.check_rank_actor_no_veteran</precondition>
+        <phrase_list>
+            <phrase id="0">
+	<text>Hello, Scar. Remind me how much maintenance costs?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hello, I'm driving for money. It will cost you 150 thousand wooden.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+	<text>I do not have so much.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Йога -->
+		
+		<dialog id="companion_dialog_yoga"> 
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+        <phrase_list>
+            <phrase id="0">
+	<text>Opa. What people. Yoga, listen, and drove with me on the Zone guyov cheat?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Well, come on, it's all the same, there's nothing to do.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+	<text>Come after me.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        <phrase id="3">
+	<text>I changed my mind, we'll talk later.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="chu_info">
+		<phrase_list>
+            <phrase id="0">
+                <text>chu_info_1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>chu_info_2</text>
+                <next>2</next>
+            </phrase>
+		<phrase id="2">
+                <text>chu_info_3</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="master_info">
+		<phrase_list>
+            <phrase id="0">
+                <text>master_info_1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>master_info_2</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+                <text>master_info_3</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+                <text>master_info_4</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+                <text>master_info_5</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="tiran_info">
+		<phrase_list>
+            <phrase id="0">
+	<text>tell me about yourself</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>As you see the Tyrant I am. I had a detachment in the Wild Territory, now they are commanded by the Wolfhound. the detachment was larger, this is all that was left after the breakthrough of the debtors.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+	<text>What happened?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+	<text>We mastered the Wild Territory and did not know that there is another approach to amber-from the Institute of Agroprom. Then he was occupied by the debtors before moving to the Bar. They went to amber and ended up in the Dead City. Hmm. Many then our fellows. I and a part of my detachment rushed to chase with Dikoy territory on the Amber. It's good that we had time. A small part of the debt went to the Dead City. There first the reconnaissance unit passed, and then the main forces had to go. In general, we interrupted the entire shock group 'Duty', and then went to finish scouts. In general, many of my people fell. Going to Yantar, I left the command of the Volkodava detachment, they call themselves 'Psa'. I do not know how they are, I should go back to them.</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+	<text>Interestingly, thanks for the story.</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="volkodav_group">
+		<phrase_list>
+            <phrase id="0">
+	<text>tell me about yourself</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>I'm a sniper from the squad 'Dogs'. We with Volkodav are keeping approaches to wild territory from the side of Bar.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+	<text>And from whom are you guarded?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+	<text>Here Dolgovtsy or stalkers often try to pass, but we do not let them. Nothing to do here. Outside the territory is Amber with scientists. Well, there is an exit to the Dead City to our base. There's nothing for strangers to do here. As several un its of duty came to our base, they sent us here to guard.</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+	<text>Interestingly, thanks for the story.</text>
+        </phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="cherep_group">
+		<phrase_list>
+            <phrase id="0">
+	<text>Hello, who are you?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hey. We are from the Skull-elite 'Duty'.</text>
+                <next>2</next>
+				<next>4</next>
+            </phrase>
+        <phrase id="2">
+	<text>And with whom you can talk about cooperation?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+	<text>And our commander stands there- the Skull. Here you go to him and go.</text>
+            </phrase>
+		<phrase id="4">
+	<text>Happily.</text>
+            </phrase>				
+        </phrase_list>
+		</dialog>
+
+		
+		
+		<!-- BAR "100" RENTGEN QUEST'S -->
+		
+		<dialog id="bar_zulus_about">
+		<dont_has_info>bar_zulus_about_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Em. Hi who are you?</text>
+					<next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Oh, hi. I'm Zulus, and you seem to have been here recently?</text>
+					<next>2</next>
+			</phrase>
+			<phrase id="2">
+	<text>Well yes. Listen, what is this place?</text>
+					<next>3</next>
+			</phrase>
+			<phrase id="3">
+	<text>This is the 'Duty' Base. There is a bar nearby, you can go there, relax.</text>
+					<next>4</next>
+			</phrase>
+			<phrase id="4">
+	<text>Mmm, relax. That sounds good</text>
+					<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>[.]</text>
+					<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>And you can earn money there?</text>
+					<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>Well, that's another matter. You just look around, but I'll look for you. Good?</text>
+					<give_info>bar_zulus_about_done</give_info>
+					<next>8</next>
+			</phrase>
+			<phrase id="8">
+	<text>Well, be well!</text>
+					<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="bar_zulus_svoboda_docs_0">
+		<dont_has_info>bar_zulus_svoboda_docs_start</dont_has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Zdarov. Did you find anything interesting for me?</text>
+				<next>1</next>	
+			</phrase>
+			<phrase id="1">
+	<text>Of course. So it is. I need some Freedom documents. I warn you at once: Voronin does not vkurse, I help the Skull. And I need your help. In general, look. You will have to get to the Farm and, in the guise of an ordinary stalker, find documents in one of the houses. There are usually detachments on the Farm freedom patrols, so the Skull and cannot go there quietly, our hope is you. I'll give you a stalker suit, dress them and they'll think that you're an ordinary stalker, they will not touch you. Try to do everything very carefully. As soon as we receive the documents, the Skull will immediately go off to fight countryside. Understood me?</text>
+				<action>dialogs_lostpath.zulus_svoboda_docs_start</action>
+				<next>2</next>	
+			</phrase>
+			<phrase id="2">
+	<text>I got it</text>
+				<next>3</next>	
+			</phrase>
+			<phrase id="3">
+	<text>Here you are:</text>
+				<action>dialogs_lostpath.give_stalker_outfit</action>
+				<next>4</next>	
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="bar_zulus_svoboda_docs_1">
+		<has_info>bar_zulus_svoboda_docs_start</has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+	<text>Look, I found the documents. Interesting stuff.</text>
+				<next>1</next>	
+			</phrase>
+			<phrase id="1">
+	<text>Well-let's see. Mmm. they have some kind of disagreement in the grouping.</text>
+				<next>2</next>	
+			</phrase>
+			<phrase id="2">
+	<text>[.]</text>
+				<next>3</next>	
+			</phrase>
+			<phrase id="3">
+	<text>This is our chance. In short, you have to help the Skull. Catch his coordinates. All, before the meeting.</text>
+				<action>dialogs_lostpath.zulus_svoboda_docs_stop</action>
+				<action>dialogs_lostpath.zulus_to_cherep_start</action>
+				<next>4</next>	
+			</phrase>
+		</phrase_list>
+		</dialog>
+	
+	<dialog id="yoga"> 
+<phrase_list>
+<phrase id="0">
+   <text>yoga_0</text>
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>yoga_1</text>
+</phrase>
+ </phrase_list>
+    </dialog>
+
+<dialog id="yoga_start"> 
+<phrase_list>
+<phrase id="0">
+   <text>yoga_start_0</text>
+</phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="buy_rep">
+		<precondition>dialogs_lostpath.buy_prec</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to contribute to the development of the clan.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Good. Donations are accepted for 100 thousand wooden.</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+	<text>Here you are.</text>
+				<action>dialogs_lostpath.buy_rep</action>
+				<next>4</next>
+            </phrase>
+			<phrase id="3">
+	<text>I changed my mind, I'm sorry</text>
+            </phrase>
+			<phrase id="4">
+	<text>Thank you, the clan appreciates your contribution!</text>
+            </phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="friendly_to_actor">
+		<precondition>dialogs_axr_companion.is_actor_companion</precondition>
+		<precondition>lostpath_companions.is_not_actor_group</precondition>
+		<phrase_list>
+            <phrase id="0">
+	<text>Listen, how about joining my clan?</text>
+                <next>10</next>
+                <next>11</next>
+            </phrase>
+            <phrase id="10">
+                <precondition>lostpath_companions.random_to_actor</precondition> 
+	<text>Sounds interesting. Why not.</text>
+				<action>lostpath_companions.change_group_hero</action>
+            </phrase>
+			<phrase id="11">
+	<text>You know, I feel good here.</text>
+			</phrase>		
+			</phrase_list>
+		</dialog>
+		
+		<dialog id="cherep_friendly_dialog">
+		<precondition>xr_conditions.is_squad_commander</precondition>	
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_actor_friend</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>axr_phrase_friend_companion_ask_join</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>axr_phrase_friend_companion_answer_join</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+		
+		<dialog id="dolg_barter">
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to exchange a reputation for weapons</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, choose.</text>
+				<action>lostpath_barter_dolg.run_gui</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="army_barter">
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to exchange a reputation for weapons</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, choose.</text>
+				<action>lostpath_barter_army.run_gui</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="freedom_barter">
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to exchange a reputation for weapons</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, choose.</text>
+				<action>lostpath_barter_freedom.run_gui</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="killer_barter">
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to exchange a reputation for weapons</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, choose.</text>
+				<action>lostpath_barter_killer.run_gui</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="isg_barter">
+		<phrase_list>
+            <phrase id="0">
+	<text>I would like to exchange a reputation for weapons</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+	<text>Well, choose.</text>
+				<action>lostpath_barter_isg.run_gui</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="darkstalker_about">
+		<phrase_list>
+            <phrase id="0">
+	<text>Listen, I would like to ask</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Ask what's interesting</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+	<text>What happened to you?</text>
+                <next>6</next>
+            </phrase>
+			<phrase id="6">
+	<text>Well, as you see, I mutated. He lived in the territory of the current ChZO, mutated, thought his life was over. Then came the 'parents' and promised me a normal life if I fight with those who spoil it. So I help my brothers monoliths and the same mutants.</text>
+            </phrase>
+			<phrase id="3">
+	<text>Why do you collaborate with 'IG'?</text>
+                <next>7</next>
+            </phrase>
+			<phrase id="7">
+	<text>Because only they do not touch us and help us. We were able to agree with their leadership on mutually beneficial cooperation. Parents approved it.</text>
+            </phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="isg_history">
+		<phrase_list>
+            <phrase id="0">
+	<text>Tell us a story</text>
+                <next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs_wth.isg_history_1</precondition> 
+				<text>isg_history_1</text>
+				<next>10</next>
+            </phrase>
+		<phrase id="2">
+                <precondition>dialogs_wth.isg_history_2</precondition> 
+				<text>isg_history_2</text>
+				<next>10</next>
+        </phrase>	
+		<phrase id="3">
+                <precondition>dialogs_wth.isg_history_3</precondition> 
+				<text>isg_history_3</text>
+				<next>10</next>
+        </phrase>
+		<phrase id="4">
+                <precondition>dialogs_wth.isg_history_4</precondition> 
+				<text>isg_history_4</text>
+				<next>10</next>
+        </phrase>		
+		<phrase id="5">
+                <precondition>dialogs_wth.isg_history_5</precondition> 
+				<text>isg_history_5</text>
+				<next>10</next>
+        </phrase>		
+		<phrase id="10">
+	<text>Very interesting, thanks for the story</text>
+            </phrase>		
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="wth_history">
+		<phrase_list>
+            <phrase id="0">
+	<text>Tell us a story</text>
+                <next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+                <next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+                <next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+        </phrase>
+        <phrase id="1">
+        <precondition>dialogs_wth.history_1</precondition> 
+			<text>history_1</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="2">
+        <precondition>dialogs_wth.history_2</precondition> 
+			<text>history_2</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="3">
+        <precondition>dialogs_wth.history_3</precondition> 
+			<text>history_3</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="4">
+        <precondition>dialogs_wth.history_4</precondition> 
+			<text>history_4</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="5">
+        <precondition>dialogs_wth.history_5</precondition> 
+			<text>history_5</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="6">
+        <precondition>dialogs_wth.history_6</precondition> 
+			<text>history_6</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="7">
+        <precondition>dialogs_wth.history_7</precondition> 
+			<text>history_7</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="8">
+        <precondition>dialogs_wth.history_8</precondition> 
+			<text>history_8</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="9">
+        <precondition>dialogs_wth.history_9</precondition> 
+			<text>history_9</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="10">
+        <precondition>dialogs_wth.history_10</precondition> 
+			<text>history_10</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="11">
+        <precondition>dialogs_wth.history_11</precondition> 
+			<text>history_11</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="12">
+        <precondition>dialogs_wth.history_12</precondition> 
+			<text>history_12</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="13">
+        <precondition>dialogs_wth.history_13</precondition> 
+			<text>history_13</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="14">
+        <precondition>dialogs_wth.history_14</precondition> 
+			<text>history_14</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="15">
+        <precondition>dialogs_wth.history_14</precondition> 
+			<text>history_15</text>
+			<next>20</next>
+        </phrase>
+		
+        <phrase id="20">
+	<text>Very interesting, thanks for the story</text>
+        </phrase>
+		
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_dolg">
+		<dont_has_info>join_dolg</dont_has_info>
+		<precondition>lostpath_factions.join_dolg_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I would like to become a soldier of Debt.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>You're a free stalker, right? What, I felt all the same, that the Zone is a tumor on the body of the Earth? Good. Debt is always ready to accept into its ranks a person who is true to certain ideals. One of our ideals is discipline, so after joining Duty you will not be slobbering anymore. Not scared? Ready to become one of us?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Ready. Waiting for the order!</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, I'm not.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Good. First of all, we have here an iron discipline and strict subordination. Orders are not discussed, but are carried out. Our main task is to combat the spawning of the Zone and the anarchists from Freedom. Someday we will cleanse the world of monsters, anomalies and Freedom. If you do not, tomorrow Zone can come to our homes and clean up our loved ones. Our duty is to free the world from this plague! Is it clear, fighter?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Yes sir. I am ready to serve the Duty!</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Excellent. Soldier, congratulations on joining Duty. You have a code that allows you to listen to the radio exchange between our un its and receive my orders. So, like everything. Get down to duty!</text>
+				<action>lostpath_factions.join_dolg</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>There is!</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_free">
+		<dont_has_info>join_free</dont_has_info>
+		<precondition>lostpath_factions.join_free_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I want to join Freedom.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>You are a free stalker, as I see. Well, most of my guys are former stalkers. There is a lot of similarity between our clans. But still we are different. So think carefully: if you enter Freedom, you will lose everything that the stalkers have achieved. I agree to this?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>I agree. Well, now you can brea the  the air of Freedom!</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Brea the full of life, brother, but do not forget: freedom is a conscious necessity.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>[.]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Well, then from now on you are a fighter of our clan! the Freedom base is your home. In your PDA, I will download a codec to receive radio waves from our other un its and fighters.</text>
+				<action>lostpath_factions.join_free</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>There is!</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_csky">
+		<dont_has_info>join_csky</dont_has_info>
+		<precondition>lostpath_factions.join_csky_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I want to join Clear Sky.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>We are a little-known clan that hides in its native harbor. After the last breakthrough at the Chernobyl nuclear power station, we still have less. Are you ready to join the clan of hermits?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes I agree.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Hmm. not expected. commendable.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>[.]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Well, then from now on you are a fighter of our little clan! the Clear Sky Base is your home. I have already filled in the flash-drive for you the codes for negotiations on the frequency of our grouping.</text>
+				<action>lostpath_factions.join_csky</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>Thank you</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_army">
+		<dont_has_info>join_army</dont_has_info>
+		<precondition>lostpath_factions.join_army_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I want to become a soldier.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>A fighter, we have the main discipline. After joining our ranks, you cannot be sloppy, are you ready?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes sir.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Good. First of all, we have here an iron discipline and strict subordination. Orders are not discussed, but are carried out. Is it clear, fighter?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>[.]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Well, then from now on you are a regular army fighter! Our main bases are your home. the key for negotiating on the frequency of our clan you have already received. So, like everything. To carry out their duties, proceed!</text>
+				<action>lostpath_factions.join_army</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>Yes sir.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_merc">
+		<dont_has_info>join_merc</dont_has_info>
+		<precondition>lostpath_factions.join_merc_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I want to join the mercenaries.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hmm, stalker. We live by the concepts, are you ready?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Good. Then get orders and execute them. No witnesses should be.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>[.]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Well, then from now on you are a fighter of our clan. You can go now.</text>
+				<action>lostpath_factions.join_merc</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>Thank you.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_isg">
+		<dont_has_info>join_isg</dont_has_info>
+		<precondition>lostpath_factions.join_isg_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I want in the IG.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Hmm, stalker. You have proved that you can be of use. Are you ready?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Well, then from now on a member of our clan. Our house is your home.</text>
+				<action>lostpath_factions.join_isg</action>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Thank you.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_ecolog">
+		<dont_has_info>join_ecolog</dont_has_info>
+		<precondition>lostpath_factions.join_ecolog_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I would like to become a research associate.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Are you sure?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Good. From now on, you are one of us.</text>
+				<action>lostpath_factions.join_ecolog</action>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Thank you.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_darkstalker">
+		<dont_has_info>join_darkstalker</dont_has_info>
+		<precondition>lostpath_factions.join_darkstalker_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+	<text>I would like to join the dark stalkers.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+	<text>Stalker, you have not healed your life. Are you ready for the life of a hermit and wanderings in the Zone?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+	<text>Yes.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+	<text>No, sorry.</text>
+			</phrase>
+			<phrase id="4">
+	<text>Good. Then remember that the Monolith is our brothers, and the JIH are our friends.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+	<text>Got it.</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+	<text>Well, then from now on you are a member of our clan of hermits. Remember your parents and do not forget your brothers.</text>
+				<action>lostpath_factions.join_darkstalker</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+	<text>Got it.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+</game_dialogs>
