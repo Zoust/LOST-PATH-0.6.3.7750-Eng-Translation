@@ -54,10 +54,10 @@ function actor_on_update()
 	
 	if flag_RO == true then
 		drop(rifleone)
-		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
 	elseif flag_RT == true then
 		drop(rifletwo)
-		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,0,0]Can not use:\\n%c[255,160,160,160]To use, you need an exoskeleton with an installed battery.", nil, nil, nil, nil)
 	end
 end
 

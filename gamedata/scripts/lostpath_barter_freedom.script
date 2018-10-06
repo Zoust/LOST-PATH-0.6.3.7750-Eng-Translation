@@ -22,7 +22,7 @@ end
 
 local credit, hst
 local str = ""
-local text = "Purchase history:\n"
+local text = "Purchase history:\\n"
 lostpath.string_freedom = text
 lostpath.operations_freedom = 0
 
@@ -140,18 +140,18 @@ function barter(count, item)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", -count}) 
 		local t = db.actor:community_goodwill("freedom")
 		local inv_name = alun_utils.get_inv_name(item)
-		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		dialogs.relocate_item_section(second_speaker, item, "in") 
 		
 		--printf("%s", lostpath.operations_freedom)
 		
 		if lostpath.operations_freedom >= 25 then
-			lostpath.string_freedom = "Purchase history:\n"
+			lostpath.string_freedom = "Purchase history:\\n"
 			lostpath.operations_freedom = 0
 		end
 		
-		str = "Obtained item: "..game.translate_string(inv_name).." | -"..tostring(count)..".\n"
+		str = "Obtained item: "..game.translate_string(inv_name).." | -"..tostring(count)..".\\n"
 		lostpath.string_freedom = lostpath.string_freedom .. str
 		lostpath.operations_freedom = lostpath.operations_freedom + 1
 		
@@ -167,7 +167,7 @@ function Reputation_freedom:UpdBalance()
 	
 	if db.actor then balance = db.actor:community_goodwill("freedom") end
 	
-	local string = "Current balance: "..balance..".\n"
+	local string = "Current balance: "..balance..".\\n"
 	
 	credit:SetText(string)
 end

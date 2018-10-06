@@ -22,7 +22,7 @@ end
 
 local credit, hst
 local str = ""
-local text = "Purchase history:\n"
+local text = "Purchase history:\\n"
 lostpath.string_isg = text
 lostpath.operations_isg = 0
 
@@ -140,18 +140,18 @@ function barter(count, item)
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -count}) 
 		local t = db.actor:community_goodwill("isg")
 		local inv_name = alun_utils.get_inv_name(item)
-		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		dialogs.relocate_item_section(second_speaker, item, "in") 
 		
 		--printf("%s", lostpath.operations_isg)
 		
 		if lostpath.operations_isg >= 25 then
-			lostpath.string_isg = "Purchase history:\n"
+			lostpath.string_isg = "Purchase history:\\n"
 			lostpath.operations_isg = 0
 		end
 		
-		str = "Obtained item: "..game.translate_string(inv_name).." | -"..tostring(count)..".\n"
+		str = "Obtained item: "..game.translate_string(inv_name).." | -"..tostring(count)..".\\n"
 		lostpath.string_isg = lostpath.string_isg .. str
 		lostpath.operations_isg = lostpath.operations_isg + 1
 		
@@ -167,7 +167,7 @@ function Reputation_isg:UpdBalance()
 	
 	if db.actor then balance = db.actor:community_goodwill("isg") end
 	
-	local string = "Current balance: "..balance..".\n"
+	local string = "Current balance: "..balance..".\\n"
 	
 	credit:SetText(string)
 end
