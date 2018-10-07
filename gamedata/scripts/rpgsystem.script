@@ -1,0 +1,1922 @@
+--[[ -----------------------------------
+ #  Модуль РПГ системы прокачки
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 09.03.2018
+ #  file   : lostpath_*.script  
+]]-- -----------------------------------
+
+-----------------------------------------
+--	   Written by pupochek-dinozavr    --
+--      and b4d1k for Lost Path :D 	   --
+-----------------------------------------
+
+
+local mode = 1
+local mode_chenged = 0
+local hint = {}
+local spell = {}                       --- 0 - неизвестно. 1 - включено. 2 - не включено. 3 - можно включить. 4 - нельзя включить.
+local spell_clicked
+local ochki = {0,0,0,0,0,0}
+local SINGLETON = nil
+
+-- ==============================================================================================
+-- //////////////////////////////////////////////////////////////////////////////////////////////
+--											GUI Part
+-- //////////////////////////////////////////////////////////////////////////////////////////////
+-- ==============================================================================================
+
+local SINGLETON = nil
+
+-- get called from pressing the tab
+function get_ui()		
+	SINGLETON = SINGLETON or RPGSystem()
+	SINGLETON:Reset()
+	return SINGLETON
+end
+
+function run_gui()
+	_g.run_gui(RPGSystem(), false)
+end
+
+local point = db.actor:get_point()
+local exp = db.actor:get_exp()
+local level = db.actor:get_level()
+
+local config = ini_file("rpg.ltx")
+
+class "RPGSystem" (CUIScriptWnd)
+
+function RPGSystem:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function RPGSystem:__finalize()
+	SINGLETON = nil
+end
+
+function RPGSystem:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	xml:ParseFile("RPGSystem.xml")
+		
+	self.caption = xml:InitStatic("frame2:caption", self)
+	
+	self:Register(xml:Init3tButton("button", self), "button")
+	self.current_level = xml:InitStatic("current_level", self)
+	self.current_point = xml:InitStatic("current_point", self)
+	self.current_exp = xml:InitStatic("current_exp", self)
+	
+	self.mode_1 = xml:Init3tButton("button_mode_1", self)
+	self:Register(self.mode_1, "button_mode_1")
+	
+	self.mode_2 = xml:Init3tButton("button_mode_2", self)
+	self:Register(self.mode_2, "button_mode_2")
+		
+	self.mode_3 = xml:Init3tButton("button_mode_3", self)
+	self:Register(self.mode_3, "button_mode_3")
+	
+	self.mode_4 = xml:Init3tButton("button_mode_4", self)
+	self:Register(self.mode_4, "button_mode_4")
+	
+	self.mode_5 = xml:Init3tButton("button_mode_5", self)
+	self:Register(self.mode_5, "button_mode_5")
+		
+	self.mode_1:Enable(false)
+		
+	
+	self.exp_static_bar = xml:InitStatic("exp_static_bar", self)
+	self.exp_bar = xml:InitProgressBar("exp_bar", self)
+	self.exp_cur = xml:InitStatic("exp_cur", self)
+	self.exp_ost = xml:InitStatic("exp_ost", self)
+		
+	self.strong = xml:Init3tButton("strong", self)
+	self:Register(self.strong, "strong")
+	self.strong_text = xml:InitStatic("strong_text", self)
+	self.strong_text2 = xml:InitStatic("strong_text2", self)
+	self.strong_img = xml:InitStatic("strong_img", self)
+	self.strong_static_bar = xml:InitStatic("strong_static_bar", self)
+	self.strong_bar = xml:InitProgressBar("strong_bar", self)
+	
+	self.speed = xml:Init3tButton("speed", self)
+	self:Register(self.speed, "speed")
+	self.speed_text = xml:InitStatic("speed_text", self)
+	self.speed_text2 = xml:InitStatic("speed_text2", self)
+	self.speed_img = xml:InitStatic("speed_img", self)
+	self.speed_static_bar = xml:InitStatic("speed_static_bar", self)
+	self.speed_bar = xml:InitProgressBar("speed_bar", self)
+	
+	self.luck = xml:Init3tButton("luck", self)
+	self:Register(self.luck, "luck")
+	self.luck_text = xml:InitStatic("luck_text", self)
+	self.luck_text2 = xml:InitStatic("luck_text2", self)
+	self.luck_img = xml:InitStatic("luck_img", self)
+	self.luck_static_bar = xml:InitStatic("luck_static_bar", self)
+	self.luck_bar = xml:InitProgressBar("luck_bar", self)
+	
+	self.vospr = xml:Init3tButton("vospr", self)
+	self:Register(self.vospr, "vospr")
+	self.vospr_text = xml:InitStatic("vospr_text", self)
+	self.vospr_text2 = xml:InitStatic("vospr_text2", self)
+	self.vospr_img = xml:InitStatic("vospr_img", self)
+	self.vospr_static_bar = xml:InitStatic("vospr_static_bar", self)
+	self.vospr_bar = xml:InitProgressBar("vospr_bar", self)
+	
+	self.intellect = xml:Init3tButton("intellect", self)
+	self:Register(self.intellect, "intellect")
+	self.intellect_text = xml:InitStatic("intellect_text", self)
+	self.intellect_text2 = xml:InitStatic("intellect_text2", self)
+	self.intellect_img = xml:InitStatic("intellect_img", self)
+	self.intellect_static_bar = xml:InitStatic("intellect_static_bar", self)
+	self.intellect_bar = xml:InitProgressBar("intellect_bar", self)
+	
+	self.current_money = xml:InitStatic("current_money", self)
+	
+	self.current_level:TextControl():SetText("Current Level: "..db.actor:get_level())
+	self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	self.current_exp:TextControl():SetText("Current experience: "..db.actor:get_exp())
+	
+	self.strong_text:TextControl():SetText("Level: "..(db.actor:get_level_weight()))
+	self.speed_text:TextControl():SetText("Level: "..(db.actor:get_level_sprint()))
+	self.luck_text:TextControl():SetText("Level: "..(db.actor:get_level_luck()))
+	self.vospr_text:TextControl():SetText("Level: "..(db.actor:get_level_vospr()))
+	self.intellect_text:TextControl():SetText("Level: "..(db.actor:get_level_intellect()))
+	self.current_money:TextControl():SetText("Money in account : ".. db.actor:money() .." RU")
+	
+	self.exp_cur:TextControl():SetText("experience : " .. db.actor:get_exp())
+	if db.actor:get_level() == 30 then
+		self.exp_ost:TextControl():SetText("left : 0")
+	else
+		self.exp_ost:TextControl():SetText("left : " .. (config:r_float_ex("exp_for_up", db.actor:get_level() + 1) - db.actor:get_exp()) )
+	end
+	
+	self.perk_1 = xml:Init3tButton("perk_1", self)
+	self:Register(self.perk_1, "perk_1")
+	
+	self.perk_2 = xml:Init3tButton("perk_2", self)
+	self:Register(self.perk_2, "perk_2")
+	
+	self.perk_3 = xml:Init3tButton("perk_3", self)
+	self:Register(self.perk_3, "perk_3")
+	
+	self.perk_4 = xml:Init3tButton("perk_4", self)
+	self:Register(self.perk_4, "perk_4")
+	
+	self.perk_5 = xml:Init3tButton("perk_5", self)
+	self:Register(self.perk_5, "perk_5")
+
+	self.perk_11 = xml:Init3tButton("perk_11", self)
+	self:Register(self.perk_11, "perk_11")
+	
+	self.perk_12 = xml:Init3tButton("perk_12", self)
+	self:Register(self.perk_12, "perk_12")
+	
+	self.perk_13 = xml:Init3tButton("perk_13", self)
+	self:Register(self.perk_13, "perk_13")
+	
+	self.perk_14 = xml:Init3tButton("perk_14", self)
+	self:Register(self.perk_14, "perk_14")
+	
+	self.perk_15 = xml:Init3tButton("perk_15", self)
+	self:Register(self.perk_15, "perk_15")
+
+	self.perk_21 = xml:Init3tButton("perk_21", self)
+	self:Register(self.perk_21, "perk_21")
+	
+	self.perk_22 = xml:Init3tButton("perk_22", self)
+	self:Register(self.perk_22, "perk_22")
+	
+	self.perk_23 = xml:Init3tButton("perk_23", self)
+	self:Register(self.perk_23, "perk_23")
+	
+	self.perk_24 = xml:Init3tButton("perk_24", self)
+	self:Register(self.perk_24, "perk_24")
+	
+	self.perk_25 = xml:Init3tButton("perk_25", self)
+	self:Register(self.perk_25, "perk_25")
+	
+	self.perk_101 = xml:Init3tButton("perk_1", self)
+	self:Register(self.perk_101, "perk_101")
+	
+	self.perk_102 = xml:Init3tButton("perk_2", self)
+	self:Register(self.perk_102, "perk_102")
+	
+	self.perk_103 = xml:Init3tButton("perk_3", self)
+	self:Register(self.perk_103, "perk_103")
+	
+	self.perk_104 = xml:Init3tButton("perk_4", self)
+	self:Register(self.perk_104, "perk_104")
+	
+	self.perk_105 = xml:Init3tButton("perk_5", self)
+	self:Register(self.perk_105, "perk_105")
+
+	self.perk_111 = xml:Init3tButton("perk_11", self)
+	self:Register(self.perk_111, "perk_111")
+	
+	self.perk_112 = xml:Init3tButton("perk_12", self)
+	self:Register(self.perk_112, "perk_112")
+	
+	self.perk_113 = xml:Init3tButton("perk_13", self)
+	self:Register(self.perk_113, "perk_113")
+	
+	self.perk_114 = xml:Init3tButton("perk_14", self)
+	self:Register(self.perk_114, "perk_114")
+	
+	self.perk_115 = xml:Init3tButton("perk_15", self)
+	self:Register(self.perk_115, "perk_115")
+
+	self.perk_121 = xml:Init3tButton("perk_21", self)
+	self:Register(self.perk_121, "perk_121")
+	
+	self.perk_122 = xml:Init3tButton("perk_22", self)
+	self:Register(self.perk_122, "perk_122")
+	
+	self.perk_123 = xml:Init3tButton("perk_23", self)
+	self:Register(self.perk_123, "perk_123")
+	
+	self.perk_124 = xml:Init3tButton("perk_24", self)
+	self:Register(self.perk_124, "perk_124")
+	
+	self.perk_125 = xml:Init3tButton("perk_25", self)
+	self:Register(self.perk_125, "perk_125")
+	
+	self.perk_201 = xml:Init3tButton("perk_1", self)
+	self:Register(self.perk_201, "perk_201")
+	
+	self.perk_202 = xml:Init3tButton("perk_2", self)
+	self:Register(self.perk_202, "perk_202")
+	
+	self.perk_203 = xml:Init3tButton("perk_3", self)
+	self:Register(self.perk_203, "perk_203")
+	
+	self.perk_204 = xml:Init3tButton("perk_4", self)
+	self:Register(self.perk_204, "perk_204")
+	
+	self.perk_205 = xml:Init3tButton("perk_5", self)
+	self:Register(self.perk_205, "perk_205")
+
+	self.perk_211 = xml:Init3tButton("perk_11", self)
+	self:Register(self.perk_211, "perk_211")
+	
+	self.perk_212 = xml:Init3tButton("perk_12", self)
+	self:Register(self.perk_212, "perk_212")
+	
+	self.perk_213 = xml:Init3tButton("perk_13", self)
+	self:Register(self.perk_213, "perk_213")
+	
+	self.perk_214 = xml:Init3tButton("perk_14", self)
+	self:Register(self.perk_214, "perk_214")
+	
+	self.perk_215 = xml:Init3tButton("perk_15", self)
+	self:Register(self.perk_215, "perk_215")
+
+	self.perk_221 = xml:Init3tButton("perk_21", self)
+	self:Register(self.perk_221, "perk_221")
+	
+	self.perk_222 = xml:Init3tButton("perk_22", self)
+	self:Register(self.perk_222, "perk_222")
+	
+	self.perk_223 = xml:Init3tButton("perk_23", self)
+	self:Register(self.perk_223, "perk_223")
+	
+	self.perk_224 = xml:Init3tButton("perk_24", self)
+	self:Register(self.perk_224, "perk_224")
+	
+	self.perk_225 = xml:Init3tButton("perk_25", self)
+	self:Register(self.perk_225, "perk_225")
+	
+	xml:InitFrame("frame1", self)
+	xml:InitFrame("frame2", self)
+	
+	-- Hint Window
+	self.hint_wnd = xml:InitFrame("hint_wnd:background", self)
+	self.hint_wnd:SetAutoDelete(false)
+	self.hint_wnd_text = xml:InitTextWnd("hint_wnd:text", self.hint_wnd)
+	self.hint_wnd:Show(false)
+end
+
+function RPGSystem:InitCallBacks()
+	self:AddCallback("button", ui_events.BUTTON_CLICKED, self.button_button_clicked, self)
+	self:AddCallback("strong", ui_events.BUTTON_CLICKED, self.strong_button_clicked, self)
+	self:AddCallback("speed", ui_events.BUTTON_CLICKED, self.speed_button_clicked, self)
+	self:AddCallback("luck", ui_events.BUTTON_CLICKED, self.luck_button_clicked, self)
+	self:AddCallback("vospr", ui_events.BUTTON_CLICKED, self.vospr_button_clicked, self)
+	self:AddCallback("intellect", ui_events.BUTTON_CLICKED, self.intellect_button_clicked, self)
+	self:AddCallback("button_mode_1", ui_events.BUTTON_CLICKED, self.button_mode_1_button_clicked, self)
+	self:AddCallback("button_mode_2", ui_events.BUTTON_CLICKED, self.button_mode_2_button_clicked, self)
+	self:AddCallback("button_mode_3", ui_events.BUTTON_CLICKED, self.button_mode_3_button_clicked, self)
+	self:AddCallback("button_mode_4", ui_events.BUTTON_CLICKED, self.button_mode_4_button_clicked, self)
+	self:AddCallback("button_mode_5", ui_events.BUTTON_CLICKED, self.button_mode_5_button_clicked, self)
+	
+	self:AddCallback("perk_1", ui_events.BUTTON_CLICKED, self.perk_1_button_clicked, self)
+	self:AddCallback("perk_2", ui_events.BUTTON_CLICKED, self.perk_2_button_clicked, self)
+	self:AddCallback("perk_3", ui_events.BUTTON_CLICKED, self.perk_3_button_clicked, self)
+	self:AddCallback("perk_4", ui_events.BUTTON_CLICKED, self.perk_4_button_clicked, self)
+	self:AddCallback("perk_5", ui_events.BUTTON_CLICKED, self.perk_5_button_clicked, self)
+	
+	self:AddCallback("perk_11", ui_events.BUTTON_CLICKED, self.perk_11_button_clicked, self)
+	self:AddCallback("perk_12", ui_events.BUTTON_CLICKED, self.perk_12_button_clicked, self)
+	self:AddCallback("perk_13", ui_events.BUTTON_CLICKED, self.perk_13_button_clicked, self)
+	self:AddCallback("perk_14", ui_events.BUTTON_CLICKED, self.perk_14_button_clicked, self)
+	self:AddCallback("perk_15", ui_events.BUTTON_CLICKED, self.perk_15_button_clicked, self)
+	
+	self:AddCallback("perk_21", ui_events.BUTTON_CLICKED, self.perk_21_button_clicked, self)
+	self:AddCallback("perk_22", ui_events.BUTTON_CLICKED, self.perk_22_button_clicked, self)
+	self:AddCallback("perk_23", ui_events.BUTTON_CLICKED, self.perk_23_button_clicked, self)
+	self:AddCallback("perk_24", ui_events.BUTTON_CLICKED, self.perk_24_button_clicked, self)
+	self:AddCallback("perk_25", ui_events.BUTTON_CLICKED, self.perk_25_button_clicked, self)
+	
+	self:AddCallback("perk_101", ui_events.BUTTON_CLICKED, self.perk_101_button_clicked, self)
+	self:AddCallback("perk_102", ui_events.BUTTON_CLICKED, self.perk_102_button_clicked, self)
+	self:AddCallback("perk_103", ui_events.BUTTON_CLICKED, self.perk_103_button_clicked, self)
+	self:AddCallback("perk_104", ui_events.BUTTON_CLICKED, self.perk_104_button_clicked, self)
+	self:AddCallback("perk_105", ui_events.BUTTON_CLICKED, self.perk_105_button_clicked, self)
+	
+	self:AddCallback("perk_111", ui_events.BUTTON_CLICKED, self.perk_111_button_clicked, self)
+	self:AddCallback("perk_112", ui_events.BUTTON_CLICKED, self.perk_112_button_clicked, self)
+	self:AddCallback("perk_113", ui_events.BUTTON_CLICKED, self.perk_113_button_clicked, self)
+	self:AddCallback("perk_114", ui_events.BUTTON_CLICKED, self.perk_114_button_clicked, self)
+	self:AddCallback("perk_115", ui_events.BUTTON_CLICKED, self.perk_115_button_clicked, self)
+	
+	self:AddCallback("perk_121", ui_events.BUTTON_CLICKED, self.perk_121_button_clicked, self)
+	self:AddCallback("perk_122", ui_events.BUTTON_CLICKED, self.perk_122_button_clicked, self)
+	self:AddCallback("perk_123", ui_events.BUTTON_CLICKED, self.perk_123_button_clicked, self)
+	self:AddCallback("perk_124", ui_events.BUTTON_CLICKED, self.perk_124_button_clicked, self)
+	self:AddCallback("perk_125", ui_events.BUTTON_CLICKED, self.perk_125_button_clicked, self)
+	
+	self:AddCallback("perk_201", ui_events.BUTTON_CLICKED, self.perk_201_button_clicked, self)
+	self:AddCallback("perk_202", ui_events.BUTTON_CLICKED, self.perk_202_button_clicked, self)
+	self:AddCallback("perk_203", ui_events.BUTTON_CLICKED, self.perk_203_button_clicked, self)
+	self:AddCallback("perk_204", ui_events.BUTTON_CLICKED, self.perk_204_button_clicked, self)
+	self:AddCallback("perk_205", ui_events.BUTTON_CLICKED, self.perk_205_button_clicked, self)
+	
+	self:AddCallback("perk_211", ui_events.BUTTON_CLICKED, self.perk_211_button_clicked, self)
+	self:AddCallback("perk_212", ui_events.BUTTON_CLICKED, self.perk_212_button_clicked, self)
+	self:AddCallback("perk_213", ui_events.BUTTON_CLICKED, self.perk_213_button_clicked, self)
+	self:AddCallback("perk_214", ui_events.BUTTON_CLICKED, self.perk_214_button_clicked, self)
+	self:AddCallback("perk_215", ui_events.BUTTON_CLICKED, self.perk_215_button_clicked, self)
+end
+
+function RPGSystem:Visible_vkladka_1(bool)
+	self.exp_static_bar:Show(bool)
+	self.exp_bar:Show(bool)
+	
+	if db.actor:get_level() == 30 then
+		self.exp_bar:SetProgressPos(100)
+		printf("100")
+	else
+		local a = config:r_float_ex("exp_for_up", db.actor:get_level())
+		local b = config:r_float_ex("exp_for_up", db.actor:get_level() + 1)
+		local c = db.actor:get_exp() - a
+		local d = b - a
+		local p = math.ceil(c / d * 100)
+		self.exp_bar:SetProgressPos(p)
+		printf("%s", p)
+	end
+	
+	self.exp_cur:Show(bool)
+	self.exp_ost:Show(bool)
+	
+	self.strong_text:Show(bool)
+	self.strong_text2:Show(bool)
+	self.speed_text:Show(bool)
+	self.speed_text2:Show(bool)
+	self.luck_text:Show(bool)
+	self.luck_text2:Show(bool)
+	self.vospr_text:Show(bool)
+	self.vospr_text2:Show(bool)
+	self.intellect_text:Show(bool)	
+	self.intellect_text2:Show(bool)	
+	self.strong:Show(bool)
+	self.strong_img:Show(bool)
+	self.speed:Show(bool)
+	self.speed_img:Show(bool)
+	self.luck:Show(bool)
+	self.luck_img:Show(bool)
+	self.vospr:Show(bool)
+	self.vospr_img:Show(bool)
+	self.intellect:Show(bool)
+	self.intellect_img:Show(bool)
+	self.strong_static_bar:Show(bool)
+	self.strong_bar:Show(bool)
+	local pos = db.actor:get_level_weight() * 10
+	self.strong_bar:SetProgressPos(pos)
+	
+	self.speed_static_bar:Show(bool)
+	self.speed_bar:Show(bool)
+	local pos = db.actor:get_level_sprint() * 10
+	self.speed_bar:SetProgressPos(pos)
+	
+	self.luck_static_bar:Show(bool)
+	self.luck_bar:Show(bool)
+	local pos = db.actor:get_level_luck() * 10
+	self.luck_bar:SetProgressPos(pos)
+	
+	self.vospr_static_bar:Show(bool)
+	self.vospr_bar:Show(bool)
+	local pos = db.actor:get_level_vospr() * 10
+	self.vospr_bar:SetProgressPos(pos)
+	
+	self.intellect_static_bar:Show(bool)
+	self.intellect_bar:Show(bool)
+	local pos = db.actor:get_level_intellect() * 10
+	self.intellect_bar:SetProgressPos(pos)
+end
+
+function RPGSystem:Visible_vkladka_2(bool)
+	for i = 1, 5 do
+		self["perk_"..i]:Show(bool)
+	end
+	
+	for k = 1, 2 do
+		for i = 1, 5 do
+			self["perk_"..k..i]:Show(bool)
+		end
+	end
+end
+
+function RPGSystem:Visible_vkladka_3(bool)
+	for i = 1, 5 do
+		self["perk_10"..i]:Show(bool)
+	end
+	
+	for k = 1, 2 do
+		for i = 1, 5 do
+			self["perk_1"..k..i]:Show(bool)
+		end
+	end
+end
+
+function RPGSystem:Visible_vkladka_4(bool)
+	for i = 1, 5 do
+		self["perk_20"..i]:Show(bool)
+	end
+	
+	for k = 1, 2 do
+		for i = 1, 5 do
+			self["perk_2"..k..i]:Show(bool)
+		end
+	end
+end
+
+function RPGSystem:Reset()
+	self.current_level:TextControl():SetText("Current Level: "..db.actor:get_level())
+	self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	self.current_exp:TextControl():SetText("Current experience: "..db.actor:get_exp())
+	
+	self.strong_text:TextControl():SetText("Level: "..(db.actor:get_level_weight()))
+	self.speed_text:TextControl():SetText("Level: "..(db.actor:get_level_sprint()))
+	self.luck_text:TextControl():SetText("Level: "..(db.actor:get_level_luck()))
+	self.vospr_text:TextControl():SetText("Level: "..(db.actor:get_level_vospr()))
+	self.intellect_text:TextControl():SetText("Level: "..(db.actor:get_level_intellect()))
+	self.current_money:TextControl():SetText("Money in account : ".. db.actor:money() .." RU")
+	
+	self.exp_cur:TextControl():SetText("experience : " .. db.actor:get_exp())
+
+	if db.actor:get_level() == 30 then
+		self.exp_ost:TextControl():SetText("left : 0")
+	else
+		self.exp_ost:TextControl():SetText("left : " .. (config:r_float_ex("exp_for_up", db.actor:get_level() + 1) - db.actor:get_exp()) )
+	end
+	
+	if mode == 1 then
+		self.mode_1:Enable(false)
+		self.mode_2:Enable(true)
+		self.mode_3:Enable(true)
+		self.mode_4:Enable(true)
+		self.mode_5:Enable(true)
+		self:Visible_vkladka_1(true)
+		self:Visible_vkladka_2(false)
+		self:Visible_vkladka_3(false)
+		self:Visible_vkladka_4(false)
+		self.caption:TextControl():SetText("Player characteristics")
+		self.hint_wnd:Show(false)
+	elseif mode == 2 then
+		self.mode_1:Enable(true)
+		self.mode_2:Enable(false)
+		self.mode_3:Enable(true)
+		self.mode_4:Enable(true)
+		self.mode_5:Enable(true)
+		self:Visible_vkladka_1(false)
+		self:Visible_vkladka_2(true)
+		self:Visible_vkladka_3(false)
+		self:Visible_vkladka_4(false)
+		self.caption:TextControl():SetText("Power skills")
+		self.hint_wnd:Show(false)
+		
+			local pos = GetCursorPosition()
+			local rect = Frect():set(0, 0, 0, 0)
+			self.perk_1:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Gunsmith I\\n \\nProtect yourself from the hazards of the Zone by gaining access to weapon repair kits..\\n \\nRequired:\\n- Level : 3\\n- Force : 1\\n- Points : 1", pos)
+			end
+					
+			if db.actor:has_perk_1() then
+				self.perk_1:InitTexture("ui_rpg_on")
+				self.perk_1:Enable(false)
+			elseif db.actor:get_level() >= 3 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+				self.perk_1:Enable(true)
+				self.perk_1:InitTexture("ui_rpg_can")
+			else
+				self.perk_1:Enable(false)
+				self.perk_1:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_2:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Gunsmith II\\n \\nWhen using repair kits you get a 3% more condition.\\n \\nRequired:\\n- Level : 8\\n- Force : 1\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_2() then
+				self.perk_2:InitTexture("ui_rpg_on")
+				self.perk_2:Enable(false)
+			elseif db.actor:get_level() >= 8 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 and db.actor:has_perk_1() then
+				self.perk_2:Enable(true)
+				self.perk_2:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_1() then
+				self.perk_2:Enable(false)
+				self.perk_2:InitTexture("ui_rpg_off")
+			else
+				self.perk_2:Enable(false)
+				self.perk_2:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_3:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Gunsmith III\\n \\nWhen using repair kits you get a 7% more condition.\\n \\nRequired:\\n- Level : 14\\n- Force : 3\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_3() then
+				self.perk_3:InitTexture("ui_rpg_on")
+				self.perk_3:Enable(false)
+			elseif db.actor:get_level() >= 14 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 1 and db.actor:has_perk_2() then
+				self.perk_3:Enable(true)
+				self.perk_3:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_2() then
+				self.perk_3:Enable(false)
+				self.perk_3:InitTexture("ui_rpg_off")
+			else
+				self.perk_3:Enable(false)
+				self.perk_3:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_4:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Gunsmith IV\\n \\nWhen using repair kits you get a 10% more condition.\\n \\nRequired:\\n- Level : 19\\n- Force : 3\\n- Points : 2", pos)
+			end
+			
+			if db.actor:has_perk_4() then
+				self.perk_4:InitTexture("ui_rpg_on")
+				self.perk_4:Enable(false)
+			elseif db.actor:get_level() >= 19 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 2 and db.actor:has_perk_3() then
+				self.perk_4:Enable(true)
+				self.perk_4:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_3() then
+				self.perk_4:Enable(false)
+				self.perk_4:InitTexture("ui_rpg_off")
+			else
+				self.perk_4:Enable(false)
+				self.perk_4:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_5:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Gunsmith V\\n \\nWhen using repair kits you get a 15% more condition.\\n \\nRequired:\\n- Level : 24\\n- Force : 3\\n- Points : 2", pos)
+			end
+			
+			if db.actor:has_perk_5() then
+				self.perk_5:InitTexture("ui_rpg_on")
+				self.perk_5:Enable(false)
+			elseif db.actor:get_level() >= 24 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 2 and db.actor:has_perk_4() then
+				self.perk_5:Enable(true)
+				self.perk_5:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_4() then
+				self.perk_5:Enable(false)
+				self.perk_5:InitTexture("ui_rpg_off")
+			else
+				self.perk_5:Enable(false)
+				self.perk_5:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_11:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Blacksmith I\\n \\nProtect yourself from the hazards of the Zone by gaining access to armor repair kits.\\n \\nRequired:\\n- Level : 3\\n- Force : 1\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_11() then
+				self.perk_11:InitTexture("ui_rpg_on")
+				self.perk_11:Enable(false)
+			elseif db.actor:get_level() >= 3 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 2 then
+				self.perk_11:Enable(true)
+				self.perk_11:InitTexture("ui_rpg_can")
+			else
+				self.perk_11:Enable(false)
+				self.perk_11:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_12:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Blacksmith II\\n \\nWhen using repair kits you get a 5% more condition.\\n \\nRequired:\\n- Level : 12\\n- Force : 2\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_12() then
+				self.perk_12:InitTexture("ui_rpg_on")
+				self.perk_12:Enable(false)
+			elseif db.actor:get_level() >= 12 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 1 and db.actor:has_perk_11() then
+				self.perk_12:Enable(true)
+				self.perk_12:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_11() then
+				self.perk_12:Enable(false)
+				self.perk_12:InitTexture("ui_rpg_off")
+			else
+				self.perk_12:Enable(false)
+				self.perk_12:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_13:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Blacksmith III\\n \\nWhen using repair kits you get a 10% more condition.\\n \\nRequired:\\n- Level : 17\\n- Force : 3\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_13() then
+				self.perk_13:InitTexture("ui_rpg_on")
+				self.perk_13:Enable(false)
+			elseif db.actor:get_level() >= 17 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 1 and db.actor:has_perk_12() then
+				self.perk_13:Enable(true)
+				self.perk_13:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_12() then
+				self.perk_13:Enable(false)
+				self.perk_13:InitTexture("ui_rpg_off")
+			else
+				self.perk_13:Enable(false)
+				self.perk_13:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_14:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Blacksmith IV\\n \\nWhen using repair kits you get a 15% more condition.\\n \\nRequired:\\n- Level : 22\\n- Force : 4\\n- Points : 2", pos)
+			end
+			
+			if db.actor:has_perk_14() then
+				self.perk_14:InitTexture("ui_rpg_on")
+				self.perk_14:Enable(false)
+			elseif db.actor:get_level() >= 22 and db.actor:get_level_weight() >= 4 and db.actor:get_point() >= 2 and db.actor:has_perk_13() then
+				self.perk_14:Enable(true)
+				self.perk_14:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_13() then
+				self.perk_14:Enable(false)
+				self.perk_14:InitTexture("ui_rpg_off")
+			else
+				self.perk_14:Enable(false)
+				self.perk_14:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_15:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Strong ridge\\n \\nDo you have mules in your kin? +5 to carry goods.\\n \\nRequired:\\n- Level : 12\\n- Force : 2\\n- Points : 3", pos)
+			end
+			
+			if db.actor:has_perk_15() then
+				self.perk_15:InitTexture("ui_rpg_on")
+				self.perk_15:Enable(false)
+			elseif db.actor:get_level() >= 12 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 1 then
+				self.perk_15:Enable(true)
+				self.perk_15:InitTexture("ui_rpg_can")
+			else
+				self.perk_15:Enable(false)
+				self.perk_15:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_21:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Fan of big guns I\\n \\nThe possibility of using light machine guns and grenade launchers.\\n \\nRequired:\\n- Level : 15\\n- Force : 2\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_21() then
+				self.perk_21:InitTexture("ui_rpg_on")
+				self.perk_21:Enable(false)
+			elseif db.actor:get_level() >= 15 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 2 then
+				self.perk_21:Enable(true)
+				self.perk_21:InitTexture("ui_rpg_can")
+			else
+				self.perk_21:Enable(false)
+				self.perk_21:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_22:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Fan of big guns II\\n \\nThe ability to use heavy machine guns and grenade launchers.\\n \\nRequired:\\n- Level : 20\\n- Force : 6\\n- Points : 2", pos)
+			end
+			
+			if db.actor:has_perk_22() then
+				self.perk_22:InitTexture("ui_rpg_on")
+				self.perk_22:Enable(false)
+			elseif db.actor:get_level() >= 20 and db.actor:get_level_weight() >= 6 and db.actor:get_point() >= 2 and db.actor:has_perk_21() then
+				self.perk_22:Enable(true)
+				self.perk_22:InitTexture("ui_rpg_can")
+			elseif not db.actor:has_perk_21() then
+				self.perk_22:Enable(false)
+				self.perk_22:InitTexture("ui_rpg_off")
+			else
+				self.perk_22:Enable(false)
+				self.perk_22:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_23:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Sniper\\n \\nThe ability to use heavy sniper rifles.\\n \\nRequired:\\n- Level : 16\\n- Force : 3\\n- Points : 4", pos)
+			end
+			
+			if db.actor:has_perk_23() then
+				self.perk_23:InitTexture("ui_rpg_on")
+				self.perk_23:Enable(false)
+			elseif db.actor:get_level() >= 16 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 4 then
+				self.perk_23:Enable(true)
+				self.perk_23:InitTexture("ui_rpg_can")
+			else
+				self.perk_23:Enable(false)
+				self.perk_23:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_24:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Cold-blooded killer\\n \\nThe possibility of using an axe.\\n \\nRequired:\\n- Level : 6\\n- Force : 1\\n- Points : 1", pos)
+			end
+			
+			if db.actor:has_perk_24() then
+				self.perk_24:InitTexture("ui_rpg_on")
+				self.perk_24:Enable(false)
+			elseif db.actor:get_level() >= 6 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+				self.perk_24:Enable(true)
+				self.perk_24:InitTexture("ui_rpg_can")
+			else
+				self.perk_24:Enable(false)
+				self.perk_24:InitTexture("ui_rpg_cant")
+			end
+			
+			self.perk_25:GetAbsoluteRect(rect)
+			if (utils.pos_in_rect(pos, rect)) then 
+				self:SetHint("Strength training\\n \\nYou have received specialized training that allows you to wear exoskeletons and power armor.\\n \\nRequired:\\n- Level : 18\\n- Force : 6\\n- Points : 5", pos)
+			end
+			
+			if db.actor:has_perk_25() then
+				self.perk_25:InitTexture("ui_rpg_on")
+				self.perk_25:Enable(false)
+			elseif db.actor:get_level() >= 18 and db.actor:get_level_weight() >= 6 and db.actor:get_point() >= 5 then
+				self.perk_25:Enable(true)
+				self.perk_25:InitTexture("ui_rpg_can")
+			else
+				self.perk_25:Enable(false)
+				self.perk_25:InitTexture("ui_rpg_cant")
+			end
+	elseif mode == 3 then
+		self.mode_1:Enable(true)
+		self.mode_2:Enable(true)
+		self.mode_3:Enable(false)
+		self.mode_4:Enable(true)
+		self.mode_5:Enable(true)
+		self:Visible_vkladka_1(false)
+		self:Visible_vkladka_2(false)
+		self:Visible_vkladka_3(true)
+		self:Visible_vkladka_4(false)
+		self.caption:TextControl():SetText("Good luck skills")
+		self.hint_wnd:Show(false)
+		
+		local pos = GetCursorPosition()
+		local rect = Frect():set(0, 0, 0, 0)
+		
+		self.perk_101:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Treasure hunter\\n \\nYou are able to find money even in the corpses of dead stalkers.\\n \\nRequired:\\n- Level : 0\\n- Luck : 1\\n- Points : 1", pos)
+		end
+				
+		if db.actor:has_perk_101() then
+			self.perk_101:InitTexture("ui_rpg_on")
+			self.perk_101:Enable(false)
+		elseif db.actor:get_level() >= 0 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+			self.perk_101:Enable(true)
+			self.perk_101:InitTexture("ui_rpg_can")
+		else
+			self.perk_101:Enable(false)
+			self.perk_101:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_102:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Freeloader\\n \\nYou are able to find more money from the PDA of dead stalkers.\\n \\nRequired:\\n- Level : 0\\n- Luck : 1\\n- Points : 1", pos)
+		end
+				
+		if db.actor:has_perk_102() then
+			self.perk_102:InitTexture("ui_rpg_on")
+			self.perk_102:Enable(false)
+		elseif db.actor:get_level() >= 0 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+			self.perk_102:Enable(true)
+			self.perk_102:InitTexture("ui_rpg_can")
+		else
+			self.perk_102:Enable(false)
+			self.perk_102:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_103:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Baker I\\n \\nThe weapons you find on dead stalkers are 5% in better condition\\n \\nRequired:\\n- Level : 5\\n- Luck : 1\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_103() then
+			self.perk_103:InitTexture("ui_rpg_on")
+			self.perk_103:Enable(false)
+		elseif db.actor:get_level() >= 5 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 2 then
+			self.perk_103:Enable(true)
+			self.perk_103:InitTexture("ui_rpg_can")
+		else
+			self.perk_103:Enable(false)
+			self.perk_103:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_104:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Baker II\\n \\nThe weapons you find on dead stalkers are 10% in better condition\\n \\nRequired:\\n- Level : 12\\n- Luck : 3\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_104() then
+			self.perk_104:InitTexture("ui_rpg_on")
+			self.perk_104:Enable(false)
+		elseif db.actor:get_level() >= 12 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 2 and db.actor:has_perk_103() then
+			self.perk_104:Enable(true)
+			self.perk_104:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_103() then
+			self.perk_104:Enable(false)
+			self.perk_104:InitTexture("ui_rpg_off")
+		else
+			self.perk_104:Enable(false)
+			self.perk_104:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_105:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Baker III\\n \\nThe weapons you find on dead stalkers are 15% in better condition\\n \\nRequired:\\n- Level : 18\\n- Luck : 5\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_105() then
+			self.perk_105:InitTexture("ui_rpg_on")
+			self.perk_105:Enable(false)
+		elseif db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 and db.actor:has_perk_104() then
+			self.perk_105:Enable(true)
+			self.perk_105:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_104() then
+			self.perk_105:Enable(false)
+			self.perk_105:InitTexture("ui_rpg_off")
+		else
+			self.perk_105:Enable(false)
+			self.perk_105:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_111:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Grabber I\\n \\nYou find 5% more ammo on corpses.\\n \\nRequired:\\n- Level : 6\\n- Luck : 1\\n- Points : 1", pos)
+		end
+				
+		if db.actor:has_perk_111() then
+			self.perk_111:InitTexture("ui_rpg_on")
+			self.perk_111:Enable(false)
+		elseif db.actor:get_level() >= 5 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+			self.perk_111:Enable(true)
+			self.perk_111:InitTexture("ui_rpg_can")
+		else
+			self.perk_111:Enable(false)
+			self.perk_111:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_112:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Grabber II\\n \\nYou find 7% more ammo on corpses.\\n \\nRequired:\\n- Level : 9\\n- Luck : 1\\n- Points : 1", pos)
+		end
+				
+		if db.actor:has_perk_112() then
+			self.perk_112:InitTexture("ui_rpg_on")
+			self.perk_112:Enable(false)
+		elseif db.actor:get_level() >= 9 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 and db.actor:has_perk_111() then
+			self.perk_112:Enable(true)
+			self.perk_112:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_111() then
+			self.perk_112:Enable(false)
+			self.perk_112:InitTexture("ui_rpg_off")
+		else
+			self.perk_112:Enable(false)
+			self.perk_112:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_113:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Grabber III\\n \\nYou find 10% more ammo on corpses.\\n \\nRequired:\\n- Level : 12\\n- Luck : 3\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_113() then
+			self.perk_113:InitTexture("ui_rpg_on")
+			self.perk_113:Enable(false)
+		elseif db.actor:get_level() >= 12 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 2 and db.actor:has_perk_112() then
+			self.perk_113:Enable(true)
+			self.perk_113:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_112() then
+			self.perk_113:Enable(false)
+			self.perk_113:InitTexture("ui_rpg_off")
+		else
+			self.perk_113:Enable(false)
+			self.perk_113:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_114:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Grabber IV\\n \\nYou find batteries on dead bodies.\\n \\nRequired:\\n- Grabber III\\n- Baker III \\n- Level : 18\\n- Luck : 5\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_114() then
+			self.perk_114:InitTexture("ui_rpg_on")
+			self.perk_114:Enable(false)
+		elseif db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 and db.actor:has_perk_113() and db.actor:has_perk_105() then
+			self.perk_114:Enable(true)
+			self.perk_114:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_105() then
+			self.perk_114:Enable(false)
+			self.perk_114:InitTexture("ui_rpg_off")
+		else
+			self.perk_114:Enable(false)
+			self.perk_114:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_115:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Grabber V\\n \\nYou find filters on corpses\\n \\nRequired:\\n- Grabber III\\n- Baker III \\n- Level : 18\\n- Luck : 5\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_115() then
+			self.perk_115:InitTexture("ui_rpg_on")
+			self.perk_115:Enable(false)
+		elseif db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 and db.actor:has_perk_113() and db.actor:has_perk_105() then
+			self.perk_115:Enable(true)
+			self.perk_115:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_105() then
+			self.perk_115:Enable(false)
+			self.perk_115:InitTexture("ui_rpg_off")
+		else
+			self.perk_115:Enable(false)
+			self.perk_115:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_121:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Marauder I\\n \\nYou find helmet and masks on corpses\\n \\nRequired:\\n- Level : 14\\n- Luck : 3\\n- Points : 1", pos)
+		end
+				
+		if db.actor:has_perk_121() then
+			self.perk_121:InitTexture("ui_rpg_on")
+			self.perk_121:Enable(false)
+		elseif db.actor:get_level() >= 14 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 1 then
+			self.perk_121:Enable(true)
+			self.perk_121:InitTexture("ui_rpg_can")
+		else
+			self.perk_121:Enable(false)
+			self.perk_121:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_122:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Marauder II\\n \\nYou find light armor on corpses.\\n \\nRequired:\\n- Level : 18\\n- Luck : 6\\n- Points : 3", pos)
+		end
+				
+		if db.actor:has_perk_122() then
+			self.perk_122:InitTexture("ui_rpg_on")
+			self.perk_122:Enable(false)
+		elseif db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 6 and db.actor:get_point() >= 3 then
+			self.perk_122:Enable(true)
+			self.perk_122:InitTexture("ui_rpg_can")
+		else
+			self.perk_122:Enable(false)
+			self.perk_122:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_123:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Marauder III\\n \\nYou find heavy armor on corpses.\\n \\nRequired:\\n- Level : 24\\n- Luck : 8\\n- Points : 6", pos)
+		end
+				
+		if db.actor:has_perk_123() then
+			self.perk_123:InitTexture("ui_rpg_on")
+			self.perk_123:Enable(false)
+		elseif db.actor:get_level() >= 24 and db.actor:get_level_luck() >= 8 and db.actor:get_point() >= 6 then
+			self.perk_123:Enable(true)
+			self.perk_123:InitTexture("ui_rpg_can")
+		else
+			self.perk_123:Enable(false)
+			self.perk_123:InitTexture("ui_rpg_cant")
+		end
+		
+	elseif mode == 4 then
+		self.mode_1:Enable(true)
+		self.mode_2:Enable(true)
+		self.mode_3:Enable(true)
+		self.mode_4:Enable(false)
+		self.mode_5:Enable(true)
+		self:Visible_vkladka_1(false)
+		self:Visible_vkladka_2(false)
+		self:Visible_vkladka_3(false)
+		self:Visible_vkladka_4(true)
+		self.caption:TextControl():SetText("Perception skills")
+		self.hint_wnd:Show(false)
+		
+		local pos = GetCursorPosition()
+		local rect = Frect():set(0, 0, 0, 0)
+		
+		self.perk_201:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Orator I\\n \\nYour Orator skills are enough for other Stalkers to join you.\\n \\nRequired:\\n- Level : 13\\n- Perception : 4\\n- Points : 3", pos)
+		end
+				
+		if db.actor:has_perk_201() then
+			self.perk_201:InitTexture("ui_rpg_on")
+			self.perk_201:Enable(false)
+		elseif db.actor:get_level() >= 13 and db.actor:get_level_vospr() >= 4 and db.actor:get_point() >= 3 then
+			self.perk_201:Enable(true)
+			self.perk_201:InitTexture("ui_rpg_can")
+		else
+			self.perk_201:Enable(false)
+			self.perk_201:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_202:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Herald\\n \\nWith this skill, you can recruit all stalkers, not only friendly ones\\n \\nRequired:\\n- Level : 15\\n- Perception : 5\\n- Points : 4", pos)
+		end
+				
+		if db.actor:has_perk_202() then
+			self.perk_202:InitTexture("ui_rpg_on")
+			self.perk_202:Enable(false)
+		elseif db.actor:get_level() >= 15 and db.actor:get_level_vospr() >= 5 and db.actor:get_point() >= 4 then
+			self.perk_202:Enable(true)
+			self.perk_202:InitTexture("ui_rpg_can")
+		else
+			self.perk_202:Enable(false)
+			self.perk_202:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_203:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Companion I\\n \\nWith this skill, you can take more stalkers as companions (+2)\\n \\nRequired:\\n- Level : 5\\n- Perception : 1\\n- Points : 2", pos)
+		end
+				
+		if db.actor:has_perk_203() then
+			self.perk_203:InitTexture("ui_rpg_on")
+			self.perk_203:Enable(false)
+		elseif db.actor:get_level() >= 5 and db.actor:get_level_vospr() >= 1 and db.actor:get_point() >= 2 then
+			self.perk_203:Enable(true)
+			self.perk_203:InitTexture("ui_rpg_can")
+		else
+			self.perk_203:Enable(false)
+			self.perk_203:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_204:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Companion II\\n \\nWith this skill, you can take more stalkers as companions (+3)\\n \\nRequired:\\n- Level : 11\\n- Perception : 3\\n- Points : 3", pos)
+		end
+				
+		if db.actor:has_perk_204() then
+			self.perk_204:InitTexture("ui_rpg_on")
+			self.perk_204:Enable(false)
+		elseif db.actor:get_level() >= 11 and db.actor:get_level_vospr() >= 3 and db.actor:get_point() >= 3 and db.actor:has_perk_203() then
+			self.perk_204:Enable(true)
+			self.perk_204:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_203() then
+			self.perk_204:Enable(false)
+			self.perk_204:InitTexture("ui_rpg_off")
+		else
+			self.perk_204:Enable(false)
+			self.perk_204:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_205:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Companion III\\n \\nWith this skill, you can take more stalkers as companions (+5)\\n \\nRequired:\\n- Level : 16\\n- Perception : 6\\n- Points : 5", pos)
+		end
+				
+		if db.actor:has_perk_205() then
+			self.perk_205:InitTexture("ui_rpg_on")
+			self.perk_205:Enable(false)
+		elseif db.actor:get_level() >= 16 and db.actor:get_level_vospr() >= 6 and db.actor:get_point() >= 5 and db.actor:has_perk_204() then
+			self.perk_205:Enable(true)
+			self.perk_205:InitTexture("ui_rpg_can")
+		elseif not db.actor:has_perk_204() then
+			self.perk_205:Enable(false)
+			self.perk_205:InitTexture("ui_rpg_off")
+		else
+			self.perk_205:Enable(false)
+			self.perk_205:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_211:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Insider I\\n \\nThanks to this skill, you can call for reinforcements through the Special menu.\\n \\nRequired:\\n- Level : 14\\n- Perception : 4\\n- Points : 5", pos)
+		end
+		
+		if db.actor:has_perk_211() then
+			self.perk_211:InitTexture("ui_rpg_on")
+			self.perk_211:Enable(false)
+		elseif db.actor:get_level() >= 14 and db.actor:get_level_vospr() >= 4 and db.actor:get_point() >= 5 then
+			self.perk_211:Enable(true)
+			self.perk_211:InitTexture("ui_rpg_can")
+		else
+			self.perk_211:Enable(false)
+			self.perk_211:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_212:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Insider II\\n \\nThanks to this skill, you can call for reinforcements through the Special menu.\\n \\nRequired:\\n- Level : 16\\n- Perception : 6\\n- Points : 5", pos)
+		end
+		
+		if db.actor:has_perk_212() then
+			self.perk_212:InitTexture("ui_rpg_on")
+			self.perk_212:Enable(false)
+		elseif db.actor:get_level() >= 16 and db.actor:get_level_vospr() >= 6 and db.actor:get_point() >= 5 and db.actor:has_perk_211() then
+			self.perk_212:Enable(true)
+			self.perk_212:InitTexture("ui_rpg_can")
+		else
+			self.perk_212:Enable(false)
+			self.perk_212:InitTexture("ui_rpg_cant")
+		end
+		
+		self.perk_213:GetAbsoluteRect(rect)
+		if (utils.pos_in_rect(pos, rect)) then 
+			self:SetHint("Insider III\\n \\nThanks to this skill, you can call for reinforcements through the Special menu.\\n \\nRequired:\\n- Level : 18\\n- Perception : 7\\n- Points : 8", pos)
+		end
+		
+		if db.actor:has_perk_213() then
+			self.perk_213:InitTexture("ui_rpg_on")
+			self.perk_213:Enable(false)
+		elseif db.actor:get_level() >= 18 and db.actor:get_level_vospr() >= 7 and db.actor:get_point() >= 8 and db.actor:has_perk_212() then
+			self.perk_213:Enable(true)
+			self.perk_213:InitTexture("ui_rpg_can")
+		else
+			self.perk_213:Enable(false)
+			self.perk_213:InitTexture("ui_rpg_cant")
+		end
+		
+	elseif mode == 5 then 
+		self.mode_1:Enable(true)
+		self.mode_2:Enable(true)
+		self.mode_3:Enable(true)
+		self.mode_4:Enable(true)
+		self.mode_5:Enable(false)
+		self:Visible_vkladka_1(false)
+		self:Visible_vkladka_2(false)
+		self:Visible_vkladka_3(false)
+		self:Visible_vkladka_4(false)
+		self.caption:TextControl():SetText("Intelligence skills")
+		self.hint_wnd:Show(false)
+	end
+end
+
+function visible_level(level, perk_level)
+	if perk_level <= 1 then return true 
+	elseif perk_level == 2 then
+		if level >= 3 then return true
+		else return false end
+	elseif perk_level == 3 then
+		if level >= 6 then return true
+		else return false end
+	elseif perk_level == 4 then
+		if level >= 10 then return true
+		else return false end
+	elseif perk_level == 5 then
+		if level >= 15 then return true
+		else return false end
+	elseif perk_level == 6 then
+		if level >= 18 then return true
+		else return false end
+	elseif perk_level == 7 then
+		if level >= 20 then return true
+		else return false end
+	elseif perk_level == 8 then
+		if level >= 24 then return true
+		else return false end
+	elseif perk_level == 9 then
+		if level >= 28 then return true
+		else return false end
+	elseif perk_level == 10 then
+		if level >= 30 then return true
+		else return false end
+	end
+end
+
+function RPGSystem:SetHint(text, pos)
+	if (text == "") then 
+		return
+	end
+	self.hint_wnd:Show(true)
+	self.hint_wnd_text:SetText(text)
+	self.hint_wnd_text:AdjustHeightToText()
+	self.hint_wnd:SetWndSize(vector2():set(self.hint_wnd:GetWidth(), self.hint_wnd_text:GetHeight() + 44))
+	pos.y = pos.y - self.hint_wnd:GetHeight()
+	pos.x = pos.x - self.hint_wnd:GetWidth()
+	self.hint_wnd:SetWndPos(pos)
+	FitInRect(self.hint_wnd,Frect():set(0,0,1024,768),0,100)
+end
+
+function RPGSystem:button_mode_1_button_clicked()
+	if mode ~= 1 then
+		mode = 1
+		mode_chenged = 1
+		--printf("mode = 1")
+	end
+end
+function RPGSystem:button_mode_2_button_clicked()
+	if mode ~= 2 then
+		mode = 2
+		mode_chenged = 1
+		--printf("mode = 2")
+	end
+end
+function RPGSystem:button_mode_3_button_clicked()
+	if mode ~= 3 then
+		mode = 3
+		mode_chenged = 1
+		--printf("mode = 3")
+	end
+end
+function RPGSystem:button_mode_4_button_clicked()
+	if mode ~= 4 then
+		mode = 4
+		mode_chenged = 1
+		--printf("mode = 4")
+	end
+end
+function RPGSystem:button_mode_5_button_clicked()
+	if mode ~= 5 then
+		mode = 5
+		mode_chenged = 1
+		--printf("mode = 5")
+	end
+end
+
+function RPGSystem:Update()
+	CUIScriptWnd.Update(self)
+	
+	self:Reset()
+	local count 
+	point = db.actor:get_point()
+	
+	count = config:r_float_ex("point_count", db.actor:get_level_weight() + 1)
+	if db.actor:get_level_weight() == 10 then
+		self.strong_text:TextControl():SetText("You have reached the maximum level")
+		self.strong:Show(false)
+	else
+		if point < count then 
+			self.strong:Enable(false) 
+		else 
+			self.strong:Enable(visible_level(db.actor:get_level(), db.actor:get_level_weight()+1)) 
+		end
+		self.strong_text:TextControl():SetText("Level: "..(db.actor:get_level_weight()))
+	end	
+	
+	count = config:r_float_ex("point_count", db.actor:get_level_sprint() + 1)
+	if db.actor:get_level_sprint() == 10 then
+		self.speed_text:TextControl():SetText("You have reached the maximum level")
+		self.speed:Show(false)
+	else
+		if point < count then 
+			self.speed:Enable(false) 
+		else 
+			self.speed:Enable(visible_level(db.actor:get_level(), db.actor:get_level_sprint()+1)) 
+		end
+		self.speed_text:TextControl():SetText("Level: "..(db.actor:get_level_sprint()))
+	end	
+	
+	count = config:r_float_ex("point_count_luck", db.actor:get_level_luck() + 1)
+	if db.actor:get_level_luck() == 10 then
+		self.luck_text:TextControl():SetText("You have reached the maximum level")
+		self.luck:Show(false)
+	else
+		if point < count then 
+			self.luck:Enable(false) 
+		else 
+			self.luck:Enable(visible_level(db.actor:get_level(), db.actor:get_level_luck()+1))  
+		end
+		self.luck_text:TextControl():SetText("Level: "..(db.actor:get_level_luck()))
+	end	
+	
+	count = config:r_float_ex("point_count", db.actor:get_level_vospr() + 1)
+	if db.actor:get_level_vospr() == 10 then
+		self.vospr_text:TextControl():SetText("You have reached the maximum level")
+		self.vospr:Show(false)
+	else
+		if point < count then 
+			self.vospr:Enable(false) 
+		else 
+			self.vospr:Enable(visible_level(db.actor:get_level(), db.actor:get_level_vospr()+1))  
+		end
+		self.vospr_text:TextControl():SetText("Level: "..(db.actor:get_level_vospr()))
+	end	
+	
+	count = config:r_float_ex("point_count", db.actor:get_level_intellect() + 1)
+	if db.actor:get_level_intellect() == 10 then
+		self.intellect_text:TextControl():SetText("You have reached the maximum level")
+		self.intellect:Show(false)
+	else
+		if point < count then 
+			self.intellect:Enable(false) 
+		else 
+			self.intellect:Enable(visible_level(db.actor:get_level(), db.actor:get_level_intellect()+1))  
+		end
+		self.intellect_text:TextControl():SetText("Level: "..(db.actor:get_level_intellect()))
+	end	
+end
+
+function RPGSystem:button_button_clicked()
+	if not db.actor then return end
+	self:Update()
+	if db.actor:money() < 100000 then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough money!")) end
+	
+	local function on_yes(owner,p)
+		if db.actor:money() >= 100000 then
+			db.actor:give_money(-100000)
+			db.actor:add_point(1)
+			--printf("Current points : %s", db.actor:get_point())
+			self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+			self.current_money:TextControl():SetText("Money in account : ".. db.actor:money() .." RU")
+		end
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to buy a skill point? 100.000 RU will be debited from your account.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function level_up(str)
+	SetHudMsg(game.translate_string(str),5)
+	local snd = [[skillup]]
+	lostpath.play_sound(snd)
+end
+
+function RPGSystem:strong_button_clicked()
+	if not db.actor or db.actor:get_level_weight() == 10 then return end
+	point = db.actor:get_point()
+	
+	local boost = config:r_float_ex("weight_boost", db.actor:get_level_weight() + 1)
+	local count = config:r_float_ex("point_count", db.actor:get_level_weight() + 1)
+	
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+	
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_weight(1)
+			db.actor:add_point(-count)
+			--printf(boost)
+			db.actor:add_rpg_weight(boost)
+			
+			if db.actor:get_level_weight() == 10 then
+				level_up("Congratulations! You have reached the maximum level strength.")
+			else
+				level_up("Skill Force enhanced!")
+			end
+		end
+		
+		self.strong_text:TextControl():SetText("Current Level: "..db.actor:get_level_weight() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+		
+	----printf("%s %s", db.actor:get_level_weight(), db.actor:get_point())
+end
+
+function RPGSystem:speed_button_clicked()
+	if not db.actor or db.actor:get_level_sprint() == 10 then return end
+	point = db.actor:get_point()
+
+	boost = config:r_float_ex("sprint_boost", db.actor:get_level_sprint() + 1)
+	count = config:r_float_ex("point_count", db.actor:get_level_sprint() + 1)
+	--printf(count)
+	--printf("1 boost : %s", boost)
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_sprint(1)
+			db.actor:add_point(-count)
+			--printf("2 boost : %s", boost)
+			db.actor:set_actor_sprint_koef(db.actor:get_actor_sprint_koef() + boost)
+			
+			if db.actor:get_level_sprint() == 10 then
+				level_up("Congratulations! You have reached the maximum level endurance.")
+			else
+				level_up("Skill endurance enhanced!")
+			end
+		end
+		
+		self.speed_text:TextControl():SetText("Current Level: "..db.actor:get_level_sprint() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+	
+	--printf("%s %s", db.actor:get_level_sprint(), db.actor:get_point())
+end
+
+function RPGSystem:health_button_clicked()
+	if not db.actor or db.actor:get_level_health() == 10 then return end
+	point = db.actor:get_point()
+
+	boost = config:r_float_ex("health_add_boost", db.actor:get_level_health() + 1)
+	count = config:r_float_ex("point_count", db.actor:get_level_health() + 1)
+	--printf(count)
+	--printf("1 boost : %s", boost)
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_health(1)
+			db.actor:add_point(-count)
+			--printf("2 boost : %s", boost)
+			db.actor:add_health_add(boost)
+			
+			if db.actor:get_level_health() == 10 then
+				level_up("Congratulations! You have reached the maximum level живучести.")
+			else
+				level_up("Skill vitality enhanced!")
+			end
+		end
+		
+		self.health_text:TextControl():SetText("Current Level: "..db.actor:get_level_health() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function RPGSystem:stamina_button_clicked()
+	if not db.actor or db.actor:get_level_stamina() == 10 then return end
+	point = db.actor:get_point()
+
+	boost = config:r_float_ex("health_add_boost", db.actor:get_level_stamina() + 1)
+	count = config:r_float_ex("point_count", db.actor:get_level_stamina() + 1)
+	--printf(count)
+	--printf("1 boost : %s", boost)
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_health(1)
+			db.actor:add_point(-count)
+			--printf("2 boost : %s", boost)
+			db.actor:add_health_add(boost)
+		
+			if db.actor:get_level_stamina() == 10 then
+				level_up("Congratulations! You have reached the maximum level endurance.")
+			else
+				level_up("Skill endurance enhanced!")
+			end
+		end
+		
+		self.health_text:TextControl():SetText("Current Level: "..db.actor:get_level_stamina() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function RPGSystem:luck_button_clicked()
+	if not db.actor or db.actor:get_level_luck() == 10 then return end
+	point = db.actor:get_point()
+	count = config:r_float_ex("point_count", db.actor:get_level_luck() + 1)
+
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_luck(1)
+			db.actor:add_point(-count)
+			
+			if db.actor:get_level_luck() == 10 then
+				level_up("Congratulations! You have reached the maximum level удачи.")
+			else
+				level_up("Skill Luck enhanced!")
+			end
+		end
+		
+		self.luck_text:TextControl():SetText("Current Level: "..db.actor:get_level_luck() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+		
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function RPGSystem:vospr_button_clicked()
+	if not db.actor or db.actor:get_level_vospr() == 10 then return end
+	point = db.actor:get_point()
+	count = config:r_float_ex("point_count", db.actor:get_level_vospr() + 1)
+
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_vospr(1)
+			db.actor:add_point(-count)
+		
+			if db.actor:get_level_vospr() == 10 then
+				level_up("Congratulations! You have reached the maximum level восприятия.")
+			else
+				level_up("Skill Perception enhanced!")
+			end
+		end
+		
+		self.vospr_text:TextControl():SetText("Current Level: "..db.actor:get_level_vospr() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function RPGSystem:intellect_button_clicked()
+	if not db.actor or db.actor:get_level_intellect() == 10 then return end
+	point = db.actor:get_point()
+	count = config:r_float_ex("point_count", db.actor:get_level_intellect() + 1)
+
+	if point < count then ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Not enough Points!")) end
+			
+	local function on_yes(owner,p)
+		if point >= count then
+			db.actor:add_level_intellect(1)
+			db.actor:add_point(-count)
+		
+			if db.actor:get_level_intellect() == 10 then
+				level_up("Congratulations! You have reached the maximum level intelligence.")
+			else
+				level_up("Skill intelligence enhanced!")
+			end
+		end
+		
+		self.intellect_text:TextControl():SetText("Current Level: "..db.actor:get_level_intellect() .. " / 10")
+		self.current_point:TextControl():SetText("Available Points: "..db.actor:get_point())
+	end
+	
+	local function on_no(owner,p)
+		
+	end
+	
+	local msg = strformat("Do you want to upgrade Skill? It will cost ".. count .. " Points.")
+	ui_dyn_msg_box.msg_box_ui("message_box_yes_no",true,msg,on_yes,on_no)
+end
+
+function RPGSystem:perk_1_button_clicked()
+	if db.actor:get_level() >= 3 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_1:InitTexture("ui_rpg_on")
+		db.actor:give_perk_1()
+	end
+end
+
+function RPGSystem:perk_2_button_clicked()
+	if db.actor:get_level() >= 8 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_2:InitTexture("ui_rpg_on")
+		db.actor:give_perk_2()
+	end
+end
+
+function RPGSystem:perk_3_button_clicked()
+	if db.actor:get_level() >= 14 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_3:InitTexture("ui_rpg_on")
+		db.actor:give_perk_3()
+	end
+end
+
+function RPGSystem:perk_4_button_clicked()
+	if db.actor:get_level() >= 19 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_4:InitTexture("ui_rpg_on")
+		db.actor:give_perk_4()
+	end
+end
+
+function RPGSystem:perk_5_button_clicked()
+	if db.actor:get_level() >= 24 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_5:InitTexture("ui_rpg_on")
+		db.actor:give_perk_5()
+	end
+end
+
+function RPGSystem:perk_11_button_clicked()
+	if db.actor:get_level() >= 3 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_11:InitTexture("ui_rpg_on")
+		db.actor:give_perk_11()
+	end
+end
+
+function RPGSystem:perk_12_button_clicked()
+	if db.actor:get_level() >= 12 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_12:InitTexture("ui_rpg_on")
+		db.actor:give_perk_12()
+	end
+end
+
+function RPGSystem:perk_13_button_clicked()
+	if db.actor:get_level() >= 17 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_13:InitTexture("ui_rpg_on")
+		db.actor:give_perk_13()
+	end
+end
+
+function RPGSystem:perk_14_button_clicked()
+	if db.actor:get_level() >= 22 and db.actor:get_level_weight() >= 4 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_14:InitTexture("ui_rpg_on")
+		db.actor:give_perk_14()
+	end
+end
+
+function RPGSystem:perk_15_button_clicked()
+	if db.actor:get_level() >= 12 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 3 then
+		db.actor:add_point(-3)
+		self.perk_15:InitTexture("ui_rpg_on")
+		db.actor:give_perk_15()
+		db.actor:add_rpg_weight(5)
+	end
+end
+
+function RPGSystem:perk_21_button_clicked()
+	if db.actor:get_level() >= 15 and db.actor:get_level_weight() >= 2 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_21:InitTexture("ui_rpg_on")
+		db.actor:give_perk_21()
+	end
+end
+
+function RPGSystem:perk_22_button_clicked()
+	if db.actor:get_level() >= 20 and db.actor:get_level_weight() >= 6 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_22:InitTexture("ui_rpg_on")
+		db.actor:give_perk_22()
+	end
+end
+
+function RPGSystem:perk_23_button_clicked()
+	if db.actor:get_level() >= 16 and db.actor:get_level_weight() >= 3 and db.actor:get_point() >= 4 then
+		db.actor:add_point(-4)
+		self.perk_23:InitTexture("ui_rpg_on")
+		db.actor:give_perk_23()
+	end
+end
+
+function RPGSystem:perk_24_button_clicked()
+	if db.actor:get_level() >= 6 and db.actor:get_level_weight() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_24:InitTexture("ui_rpg_on")
+		db.actor:give_perk_24()
+	end
+end
+
+function RPGSystem:perk_25_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_weight() >= 6 and db.actor:get_point() >= 5 then
+		db.actor:add_point(-5)
+		self.perk_25:InitTexture("ui_rpg_on")
+		db.actor:give_perk_25()
+	end
+end
+
+function RPGSystem:perk_101_button_clicked()
+	if db.actor:get_level() >= 0 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_101:InitTexture("ui_rpg_on")
+		db.actor:give_perk_101()
+	end
+end
+
+function RPGSystem:perk_102_button_clicked()
+	if db.actor:get_level() >= 0 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_102:InitTexture("ui_rpg_on")
+		db.actor:give_perk_102()
+	end
+end
+
+function RPGSystem:perk_103_button_clicked()
+	if db.actor:get_level() >= 5 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_103:InitTexture("ui_rpg_on")
+		db.actor:give_perk_103()
+	end
+end
+
+function RPGSystem:perk_104_button_clicked()
+	if db.actor:get_level() >= 12 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_104:InitTexture("ui_rpg_on")
+		db.actor:give_perk_104()
+	end
+end
+
+function RPGSystem:perk_105_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_105:InitTexture("ui_rpg_on")
+		db.actor:give_perk_105()
+	end
+end
+
+function RPGSystem:perk_111_button_clicked()
+	if db.actor:get_level() >= 6 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_111:InitTexture("ui_rpg_on")
+		db.actor:give_perk_111()
+	end
+end
+
+function RPGSystem:perk_112_button_clicked()
+	if db.actor:get_level() >= 9 and db.actor:get_level_luck() >= 1 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_112:InitTexture("ui_rpg_on")
+		db.actor:give_perk_112()
+	end
+end
+
+function RPGSystem:perk_113_button_clicked()
+	if db.actor:get_level() >= 12 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_113:InitTexture("ui_rpg_on")
+		db.actor:give_perk_113()
+	end
+end
+
+function RPGSystem:perk_114_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_114:InitTexture("ui_rpg_on")
+		db.actor:give_perk_114()
+	end
+end
+
+function RPGSystem:perk_115_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 5 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_115:InitTexture("ui_rpg_on")
+		db.actor:give_perk_115()
+	end
+end
+
+function RPGSystem:perk_121_button_clicked()
+	if db.actor:get_level() >= 14 and db.actor:get_level_luck() >= 3 and db.actor:get_point() >= 1 then
+		db.actor:add_point(-1)
+		self.perk_121:InitTexture("ui_rpg_on")
+		db.actor:give_perk_121()
+	end
+end
+
+function RPGSystem:perk_122_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_luck() >= 6 and db.actor:get_point() >= 3 then
+		db.actor:add_point(-3)
+		self.perk_122:InitTexture("ui_rpg_on")
+		db.actor:give_perk_122()
+	end
+end
+
+function RPGSystem:perk_123_button_clicked()
+	if db.actor:get_level() >= 24 and db.actor:get_level_luck() >= 8 and db.actor:get_point() >= 6 then
+		db.actor:add_point(-6)
+		self.perk_123:InitTexture("ui_rpg_on")
+		db.actor:give_perk_123()
+	end
+end
+
+function RPGSystem:perk_201_button_clicked()
+	if db.actor:get_level() >= 13 and db.actor:get_level_vospr() >= 4 and db.actor:get_point() >= 3 then
+		db.actor:add_point(-3)
+		self.perk_201:InitTexture("ui_rpg_on")
+		db.actor:give_perk_201()
+	end
+end
+
+function RPGSystem:perk_202_button_clicked()
+	if db.actor:get_level() >= 15 and db.actor:get_level_vospr() >= 5 and db.actor:get_point() >= 4 then
+		db.actor:add_point(-5)
+		self.perk_202:InitTexture("ui_rpg_on")
+		db.actor:give_perk_202()
+	end
+end
+
+function RPGSystem:perk_203_button_clicked()
+	if db.actor:get_level() >= 5 and db.actor:get_level_vospr() >= 1 and db.actor:get_point() >= 2 then
+		db.actor:add_point(-2)
+		self.perk_203:InitTexture("ui_rpg_on")
+		db.actor:give_perk_203()
+		--printf(axr_companions.max_actor_squad_size)
+		axr_companions.max_actor_squad_size = axr_companions.max_actor_squad_size + 2
+		--printf(axr_companions.max_actor_squad_size)
+	end
+end
+
+function RPGSystem:perk_204_button_clicked()
+	if db.actor:get_level() >= 11 and db.actor:get_level_vospr() >= 3 and db.actor:get_point() >= 3 then
+		db.actor:add_point(-3)
+		self.perk_204:InitTexture("ui_rpg_on")
+		db.actor:give_perk_204()
+		--printf(axr_companions.max_actor_squad_size)
+		axr_companions.max_actor_squad_size = axr_companions.max_actor_squad_size + 3
+		--printf(axr_companions.max_actor_squad_size)
+	end
+end
+
+function RPGSystem:perk_205_button_clicked()
+	if db.actor:get_level() >= 16 and db.actor:get_level_vospr() >= 6 and db.actor:get_point() >= 5 then
+		db.actor:add_point(-5)
+		self.perk_205:InitTexture("ui_rpg_on")
+		db.actor:give_perk_205()
+		--printf(axr_companions.max_actor_squad_size)
+		axr_companions.max_actor_squad_size = axr_companions.max_actor_squad_size + 5
+		--printf(axr_companions.max_actor_squad_size)
+	end
+end
+
+function RPGSystem:perk_211_button_clicked()
+	if db.actor:get_level() >= 14 and db.actor:get_level_vospr() >= 4 and db.actor:get_point() >= 5 then
+		db.actor:add_point(-5)
+		self.perk_211:InitTexture("ui_rpg_on")
+		db.actor:give_perk_211()
+	end
+end
+
+function RPGSystem:perk_212_button_clicked()
+	if db.actor:get_level() >= 16 and db.actor:get_level_vospr() >= 6 and db.actor:get_point() >= 5 then
+		db.actor:add_point(-5)
+		self.perk_212:InitTexture("ui_rpg_on")
+		db.actor:give_perk_212()
+	end
+end
+
+function RPGSystem:perk_213_button_clicked()
+	if db.actor:get_level() >= 18 and db.actor:get_level_vospr() >= 7 and db.actor:get_point() >= 8 then
+		db.actor:add_point(-8)
+		self.perk_213:InitTexture("ui_rpg_on")
+		db.actor:give_perk_213()
+	end
+end
+
+function RPGSystem:Hide()
+	self:HideDialog()
+end
+
+function RPGSystem:OnKeyboard(dik, keyboard_action)
+	if (dik == DIK_keys.DIK_ESCAPE) then
+		self:HideDialog()
+	end
+end
+
+function RPGSystem:Hide()
+	self:HideDialog()
+end
+
+local luck = get:level_luck()
+
+function need_for_up(level)
+	local exp_for_up = config:r_float_ex("exp_for_up", level + 1)	
+	return exp_for_up
+end

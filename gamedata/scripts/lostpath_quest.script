@@ -1,0 +1,406 @@
+local esc_3_16_id, mar_11_11_id, ds_kem2_id, gar_3_5_id, mil_7_4_id
+
+function freedom_1()
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,160,160]I am sending you a program for remote reading of information. Your first goal is Cech, he is one of the trusted representatives of Lukas. He may have the information we need.", "ui_icon_news_trx_common", 0, 10000)
+	task_manager.get_task_manager():give_task("val_freedom_work")
+	task_manager.get_task_manager():give_task("val_freedom_work_1")
+	db.actor:give_game_news("Drakoshin", "%c[255,160,160,160]For the further passage of the plot, your player will need V level of luck and V level of perception, otherwise the NPC will not want to talk to you on the topic you need.", "ui_icon_news_drakowin", 5000, 30000)
+end
+
+function need_for_info()
+	if db.actor:get_level_luck() >= 5 and db.actor:get_level_vospr() >= 5 then 
+		return true
+	else
+		return false
+	end
+end
+
+function update_freedom_pda(npc, actor)
+	db.actor:give_game_news("System", "%c[255,160,160,160]Initialization of the program", "ui_icon_news_trx_common", 0, 10000)
+	db.actor:give_game_news("System", "%c[255,160,160,160]Connection established", "ui_icon_news_trx_common", 250, 10000)
+	local temp = math.random(0, 10) + db.actor:get_level_vospr()
+	
+	if temp > 9 then 
+		db.actor:give_game_news("System", "%c[255,160,200,160]Reading information from the PDA was successful", "ui_icon_news_trx_common", 2000, 10000)
+		if not has_alife_info("freedom_info_1") then
+			update_freedom_to_valerian_1()
+			db.actor:give_info_portion("freedom_info_1")
+		elseif has_alife_info("freedom_info_1") and not has_alife_info("freedom_info_2") then
+			update_freedom_to_valerian_2()
+			db.actor:give_info_portion("freedom_info_2")
+		elseif has_alife_info("freedom_info_2") and not has_alife_info("freedom_info_3") then
+			update_freedom_to_valerian_3()
+			db.actor:give_info_portion("freedom_info_3")
+		end
+		db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+		db.actor:add_point(1)
+		return true 
+	else 
+		db.actor:give_game_news("System", "%c[255,200,160,160]The signal from the PDA is lost. Try again.", "ui_icon_news_trx_common", 2000, 10000)
+		if math.random(0, 10) + db.actor:get_level_vospr() <= 12 then
+			game_relations.change_factions_community_num("actor_stalker", "freedom", -5000)
+			game_relations.change_factions_community_num("freedom", "actor_stalker", -5000)
+			db.actor:give_game_news("Freedom, Base", "%c[255,160,200,160]Attention! There is a spy in our base!", "ui_icon_news_trx_freedom", 0, 10000)
+			db.actor:give_game_news("Freedom, Lukash", "%c[255,160,200,160]I order all the troops to immediately destroy the enemy!", "ui_icon_news_trx_freedom", 100, 10000)
+			db.actor:give_info_portion("shurm_fail")
+			actor:kill(npc)
+		end
+		return false 
+	end
+end
+
+function update_freedom_to_valerian_1()
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Valerian, send the first part of the information.", "ui_icon_news_trx_common", 2500, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Well, the information received. We work on.", "ui_icon_news_trx_common", 5000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Your next goal is a trader and mechanic. One of them is called the miser, the other is Yar.", "ui_icon_news_trx_common", 10000, 10000)
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Got it, work. End of communication.", "ui_icon_news_trx_common", 12500, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Ok. No delay. End of communication.", "ui_icon_news_trx_common", 15000, 10000)
+	task_manager.get_task_manager():give_task("val_freedom_work_2")
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function update_freedom_to_valerian_2()
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Valerian, I send the second part of the information.", "ui_icon_news_trx_common", 2500, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Well, the information received, we need another excerpt. He is at the mechanic Yar.", "ui_icon_news_trx_common", 5000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]It remains a little bit. We have already received the main locations of the fighting detachments of freedom, and now we are ready to storm.", "ui_icon_news_trx_common", 10000, 10000)
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Understood a little more. End of communication.", "ui_icon_news_trx_common", 12500, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Ok. End of communication.", "ui_icon_news_trx_common", 15000, 10000)
+	task_manager.get_task_manager():give_task("val_freedom_work_3")
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function update_freedom_to_valerian_3()
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Valerian, I send the last part of the information.", "ui_icon_news_trx_common", 500, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]Well, the information received. We are ready to storm, wait for us.", "ui_icon_news_trx_common", 1250, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]I advise you to prepare for the slaughter, or take away the legs.", "ui_icon_news_trx_common", 2000, 10000)
+	db.actor:give_game_news("Closed communication channel", "%c[255,160,200,160]Understood. End of communication.", "ui_icon_news_trx_common", 3000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "%c[255,160,200,160]End of communication.", "ui_icon_news_trx_common", 3500, 10000)
+	task_manager.get_task_manager():give_task("val_freedom_work_4")
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+	
+	local function set_target()
+		local smart_id
+		local k = math.random(0, 2)
+		if k == 0 then smart_id = sim_smart.smart_ids["val_smart_terrain_7_3"]
+		elseif k == 1 then smart_id = sim_smart.smart_ids["val_smart_terrain_7_4"]
+		else smart_id = sim_smart.smart_ids["val_smart_terrain_7_5"] end
+		
+		local squad
+		if k == 1 then 
+			squad = alun_utils.create_squad("dolg_shurm_squad", "val_smart_terrain_7_3")
+		elseif k == 2 then
+			squad = alun_utils.create_squad("dolg_shurm_squad", "val_smart_terrain_7_4")
+		else
+			squad = alun_utils.create_squad("dolg_shurm_squad", "val_smart_terrain_7_5")
+		end
+		
+		sim_squad.set_target(squad, smart_id)
+		squad.current_action = 0
+		squad.current_target_id = smart_id
+		squad.assigned_target_id = smart_id
+		squad.rush_to_target = true
+		
+		squad = alun_utils.create_squad("isg_sim_squad_veteran", "val_smart_terrain_7_4")
+		sim_squad.set_target(squad, smart_id)
+		squad.current_action = 0
+		squad.current_target_id = smart_id
+		squad.assigned_target_id = smart_id
+		squad.rush_to_target = true
+	end
+	
+	set_target()
+	set_target()
+	set_target()
+	set_target()
+	set_target()
+	
+	if math.random(0, 10) + db.actor:get_level_luck() <= 14 then
+		game_relations.change_factions_community_num("actor_stalker", "freedom", -5000)
+		game_relations.change_factions_community_num("freedom", "actor_stalker", -5000)
+		db.actor:give_game_news("Freedom, Base", "%c[255,160,200,160]Attention! There is a spy in our base!", "ui_icon_news_trx_freedom", 0, 10000)
+		db.actor:give_game_news("Freedom, Lukash", "%c[255,160,200,160]I order all the troops to immediately destroy the enemy!", "ui_icon_news_trx_freedom", 100, 10000)
+	end
+	
+	db.actor:give_game_news("Freedom, Czech", "Duty detachments and IIG were observed and approaches the base.", "ui_icon_news_trx_freedom", 4000, 1000)
+	db.actor:give_game_news("Duty, Major Zakharov", "Uh, Freedom. Is there anyone at home?", "ui_icon_news_trx_dolg", 4500, 1000)
+	db.actor:give_game_news("Freedom, Lukash", "What the fuck is this? Everybody get ready for battle! I order all units to immediately move to the base!", "ui_icon_news_trx_freedom", 5000, 1000)
+	db.actor:give_game_news("Freedom, Angle", "Our sensors have detected a leak ... psh ... inform..mmmm ... ation. No .. ppppod .... far away op ... blows a specialist .... duty technician! Close all exits to the base!", "ui_icon_news_trx_freedom", 6000, 1000)
+	db.actor:give_game_news("Duty, Major Zakharov", "Shut off the air fuck. They do not need a connection.", "ui_icon_news_trx_dolg", 7000, 1000)
+	db.actor:give_game_news("Freedom, Kapets", "Everyone go to closed communication channel!", "ui_icon_news_trx_freedom", 7200, 1000)
+	db.actor:give_game_news("Freedom", "Attention to all fighters! Duty attacked our base, reinforcement required!", "ui_icon_news_trx_freedom", 8200, 1000)
+	
+	db.actor:give_game_news("Closed communication channel, Voronin", "Valerian, I understand this is our scout?", "ui_icon_news_trx_dolg", 10000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "Yes. It was he who helped us get the right information.", "ui_icon_news_trx_common", 12000, 10000)
+	db.actor:give_game_news("Closed communication channel, Voronin", "Stalker, after the assault come to my base. The conversation is serious.", "ui_icon_news_trx_dolg", 14000, 10000)
+	db.actor:give_game_news("Closed communication channel", "Ok.", "ui_icon_news_trx_common", 16000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "Fighter, after the assault, look to our bar.", "ui_icon_news_trx_common", 18000, 10000)
+	db.actor:give_game_news("Closed communication channel, Voronin", "Skull, wilderness freedom. End of communication.", "ui_icon_news_trx_dolg", 20000, 10000)
+	db.actor:give_game_news("Closed communication channel, Skull", "Ay!", "ui_icon_news_trx_dolg", 21000, 10000)
+	db.actor:give_game_news("Freedom", "%c[255,160,160,160]Connection unavailable...", "ui_icon_news_trx_common", 21100, 10000)
+	
+	db.actor:give_game_news("System", "Two skill points gained", "ui_icon_news_trx_common", 25000, 10000)
+	db.actor:add_point(2)
+end
+
+function shurm_final()
+	task_manager.get_task_manager():give_task("bar_valerian2")	
+	task_manager.get_task_manager():give_task("agr_voronin")
+	db.actor:give_game_news("Closed communication channel, Valerian", "Waiting for you at the bar. There is a conversation.", "ui_icon_news_trx_common", 0, 10000)
+	db.actor:give_game_news("Closed communication channel, Voronin", "Valerian, do not forget to send me this fighter then.", "ui_icon_news_trx_dolg", 2000, 10000)
+	db.actor:give_game_news("Closed communication channel, Valerian", "I'll send him to you. End of communication.", "ui_icon_news_trx_common", 4000, 10000)
+	db.actor:give_game_news("Closed communication channel, Voronin", "Do not linger there. End of communication.", "ui_icon_news_trx_dolg", 6000, 10000)
+end
+
+function agr_u_info()
+	db.actor:give_game_news("Drakoshin", "I advise you to prepare before going to the dungeons, it can be very expensive...", "ui_icon_news_drakowin", 0, 10000)
+	db.actor:give_game_news("System", "Three skill points gained", "ui_icon_news_trx_common", 5000, 10000)
+	db.actor:add_point(3)
+end
+
+function update_freedom_pda_false(bool)
+	if bool == true then return false
+	else return true end
+end
+
+function freedom_valerian_fail()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 1000}) 
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -5000}) 
+end
+
+function start_wolf()
+	local squad = alun_utils.create_squad("esc_girl_squad", "esc_smart_terrain_2_12")
+	task_manager.get_task_manager():give_task("wolf_about_girl")
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function girl_1()
+	task_manager.get_task_manager():give_task("wolf_search_eat")	
+end
+
+function girl_2()
+	task_manager.get_task_manager():give_task("esc_girl_sidor")
+end
+
+function girl_3()
+	task_manager.get_task_manager():give_task("esc_girl_sidor2")
+end
+
+function sidor_quest_1()
+	task_manager.get_task_manager():give_task("esc_sidor_smarts")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_1")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_2")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_3")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_4")
+end
+
+function ds_zapravka()
+	task_manager.get_task_manager():give_task("ds_zapravka")
+	alun_utils.create_squad("bandit_sim_squad_novice", "ds_kem2")
+	alun_utils.create_squad("bandit_sim_squad_novice", "ds_kem2")
+end
+
+function sidor_quest(first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "wpn_mp5sd", "in") 
+    dialogs.relocate_item_section(second_speaker, "wpn_mp5sd", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_fmj", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_fmj", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_pbp", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_pbp", "in") 
+	
+	task_manager.get_task_manager():give_task("esc_girl_take_wpn_1")
+	task_manager.get_task_manager():give_task("esc_girl_kpp")
+	
+	local smart_id = sim_smart.smart_ids["esc_smart_terrain_3_16"]
+	
+	local squad = alun_utils.create_squad("stalker_sim_squad_novice", "esc_smart_terrain_2_12")
+	sim_squad.set_target(squad, smart_id)
+	squad.current_action = 0
+	squad.current_target_id = smart_id
+	squad.assigned_target_id = smart_id
+	
+	squad = alun_utils.create_squad("stalker_sim_squad_novice", "esc_smart_terrain_2_12")
+	sim_squad.set_target(squad, smart_id)
+	squad.current_action = 0
+	squad.current_target_id = smart_id
+	squad.assigned_target_id = smart_id
+	
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+end
+
+function gar_diggers()
+	if has_alife_info("gar_digger_1_squad_death") then
+		db.actor:disable_info("gar_digger_1_squad_death")
+		alun_utils.create_squad("gar_digger_1_squad", "gar_smart_terrain_5_4")
+	end
+	task_manager.get_task_manager():give_task("gar_diggers_info")	
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function gar_diggers_prec()
+	if db.actor:get_level_vospr() >= 6 then return true else return false end
+end
+
+function gar_diggers_doc(first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "gar_diggers_doc", "in") 
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function voronin_doc(first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "gar_diggers_doc", "out") 
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function girl_detector()
+	task_manager.get_task_manager():give_task("esc_girl_detectors")	
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function go_to_matis()
+	db.actor:give_game_news("Matis", "%c[255,160,160,160]Alice, if you hear me - answer me. I'm in your private messages...", "ui_icon_news_trx_common", 100, 5000)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	if has_alife_info("stalker_ds_squad_death") then 
+		alun_utils.create_squad("stalker_ds_squad", "ds2_domik_st")
+		db.actor:disable_info("stalker_ds_squad_death")
+	end
+end
+
+function ds_matis()
+	task_manager.get_task_manager():give_task("quest_go_to_matis")	
+end
+
+function barman_sms()
+	db.actor:give_game_news("Barman", "Stalker, there is a job. Waiting for you and Alice in the Bar 'Rad 100'", "ui_icon_news_barman", 100, 5000)
+	db.actor:give_game_news("Barman", "Alice, take your friend and blow me to the Bar 'Rad 100'.", "ui_icon_news_barman", 100, 5000)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	task_manager.get_task_manager():give_task("bar_barman")	
+end
+
+function isg_bar_sms()
+	if not has_alife_info("bar_barmans_done") then
+		db.actor:give_game_news("Goofy", "Stalker, this is the territory of researchers. We let come all the neutrals in the bar, but we will keep an eye on you. Be cultural and everything will be fine. I heard that Barman is waiting for you, blow to him.", "ui_icon_news_trx_common", 5000, 5000)
+		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	end
+end
+
+function gyfi()
+	db.actor:give_game_news("Goofy", "Stalker. Come to me, there is a conversation.", "ui_icon_news_trx_common", 100, 5000)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	task_manager.get_task_manager():give_task("bar_gyfi")	
+end
+
+function transfer_safes(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_1")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_2")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_3")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_4")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_5")
+end
+
+function valerian()
+	task_manager.get_task_manager():give_task("bar_valerian")
+	db.actor:give_game_news("System", "Gained a skill point", "ui_icon_news_trx_common", 20000, 10000)
+	db.actor:add_point(1)
+end
+
+function clans()
+	task_manager.get_task_manager():give_task("clans")	
+end
+
+function freedom()
+	task_manager.get_task_manager():give_task("bar_valerian_freedom")	
+end
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия трофейного АКС-74У
+function has_conserva()
+    if db.actor:object("conserva") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+function has_sidor_wpn()
+    if db.actor:object("wpn_mp5sd") and db.actor:object("ammo_9x19_fmj") and db.actor:object("ammo_9x19_pbp") then
+        return true
+    end
+    return false
+end
+
+function has_detector_simple()
+	if db.actor:object("detector_simple") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_simple(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_simple")
+end
+
+function has_detector_advanced()
+	if db.actor:object("detector_advanced") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_advanced(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_advanced")
+end
+
+function has_detector_elite()
+	if db.actor:object("detector_elite") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_elite(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_elite")
+end
+
+function transfer_sidor_wpn(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "wpn_mp5sd")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ammo_9x19_fmj")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ammo_9x19_pbp")
+end
+
+function tranfer_kpp(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "batteries_cell", "in") 
+    dialogs.relocate_item_section(second_speaker, "batteries_cell", "in") 
+	dialogs.relocate_item_section(second_speaker, "itm_backpack", "in") 
+	dialogs.relocate_item_section(second_speaker, "itm_backpack", "in") 
+	dialogs.relocate_money(second_speaker, 10000, "in")
+	
+	task_manager.get_task_manager():give_task("esc_girl_take_nagrada_1")
+end
+
+function has_kpp()
+    if db.actor:object("batteries_cell") and db.actor:object("itm_backpack") and xr_conditions.actor_has_money_5000() == true then
+        return true
+    end
+    return false
+end
+
+function transfer_girl_kpp(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "batteries_cell")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "itm_backpack")
+	dialogs.relocate_money(second_speaker, 5000, "out")
+end
+
+-- ---------------------------------------------------------------------------------
+-- Передача трофейного АКС-74У
+function transfer_conserva(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "conserva")
+end
+-- ---------------------------------------------------------------------------------

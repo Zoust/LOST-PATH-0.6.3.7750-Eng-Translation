@@ -1,0 +1,862 @@
+--[[
+------------------------------------------------------------------------------------------------------------------
+-- Treasure randomizer (modified)
+--	author: b4d1k
+--	project: Lost Path
+--	date: 11.07.2018
+------------------------------------------------------------------------------------------------------------------
+--]]
+
+caches = {}
+temps = {}
+local caches_count = 1
+local temps_count = 0
+
+local k = lostpath_main.config:r_value("scripts","treasure_k",2)
+
+local ltx = ini_file("plugins\\treasure_blacklist.ltx")
+local valid_item_list = nil
+local valid_map_spots = {
+	["treasure"] = true,
+	["treasure_player"] = true,
+	["treasure_searched"] = true,
+	["treasure_unique"] = true,
+}
+------------------------------------------------------------------------------------------------------------------
+--							PRIVATE
+------------------------------------------------------------------------------------------------------------------
+local tbl_art = {}
+local tbl_outfit = {}
+local tbl_helmet = {}
+local tbl_misc = {}
+local tbl_consumable = {}
+local tbl_addon = {}
+local tbl_pistol = {}
+local tbl_rifle = {}
+local tbl_ammo = {}
+local tbl_test = {}
+local tbl_shotgun = {}
+local tbl_pp = {}
+local tbl_sniper = {}
+local tbl_heavy = {}
+local tbl_items = {}
+local tbl_grenade = {}
+
+local function on_game_load()
+	local ini = ini_file("plugins\\debug_spawner.ltx")
+	local sec = nil
+	sec = "debug_spawner_artefact"
+	local n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_art, id)
+	end
+	sec = "debug_spawner_outfit"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_outfit, id)
+	end
+	sec = "debug_spawner_helmet"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_helmet, id)
+	end
+	sec = "debug_spawner_item_misc"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_misc, id)
+	end
+	sec = "debug_spawner_item_consumable"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_consumable, id)
+	end
+	sec = "debug_spawner_weapon_addon"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_addon, id)
+	end
+	sec = "debug_spawner_weapon_pistol"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_pistol, id)
+	end
+	sec = "debug_spawner_weapon_rifle"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_rifle, id)
+	end
+	sec = "debug_spawner_ammo"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_ammo, id)
+	end
+	sec = "debug_spawner_test"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_test, id)
+	end
+	sec = "debug_spawner_weapon_shotgun"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_shotgun, id)
+	end
+	sec = "debug_spawner_weapon_pp"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_pp, id)
+	end
+	sec = "debug_spawner_weapon_sniper_rifle"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_sniper, id)
+	end		
+	sec = "debug_spawner_weapon_heavy"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_heavy, id)
+	end
+	sec = "debug_spawner_item_misc"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_items, id)
+	end
+	sec = "debug_spawner_weapon_misc"
+	n = ini:section_exist(sec) and ini:line_count(sec) or 0
+	for i=0, n-1 do
+		local result, id, value = ini:r_line(sec, i, "", "")
+		table.insert(tbl_grenade, id)
+	end
+end
+
+local function actor_on_item_take_from_box(box,itm)
+	if (caches[box:id()] == true) then
+		-- Remove all existing map spots from the cache.
+		-- Remember that this will only apply to randomly generated stashes.
+		for k, v in pairs(valid_map_spots) do
+			level.map_remove_object_spot(box:id(), k)
+		end
+
+		-- Mark the stash as "partially looted".
+		local id = alife_object(box:id()).id
+		level.map_add_object_spot_ser(id, "treasure_searched", game.translate_string("st_ui_pda_secret_searched"))
+		
+		-- Remove the cache from the treasure manager.
+		caches[box:id()] = false
+		xr_statistic.inc_counter("stashes_found")
+		news_manager.send_treasure(1)
+	end
+	
+	-- If no items remain; remove the "partially looted" marker.
+	if box:is_inv_box_empty() then
+		if level.map_has_object_spot(box:id(), "treasure_searched") then
+			level.map_remove_object_spot(box:id(), "treasure_searched")
+		end
+	end
+	
+end
+
+local function save_state(data)
+
+	if not (data.coc_treasure_manager) then
+		data.coc_treasure_manager = {}
+	end
+
+	data.coc_treasure_manager.caches_count = caches_count
+	data.coc_treasure_manager.caches = caches
+	data.coc_treasure_manager.temps = temps
+	
+	--store_table(temps)
+	--store_table(data.coc_treasure_manager.temps)
+end
+
+local function load_state(data)
+	if not (data.coc_treasure_manager) then
+		return
+	end
+
+	caches_count = data.coc_treasure_manager.caches_count or caches_count
+	caches = data.coc_treasure_manager.caches or caches
+	temps = data.coc_treasure_manager.temps or temps
+
+	--store_table(temps)
+	--store_table(data.coc_treasure_manager.temps)
+	
+	data.coc_treasure_manager.caches_count = nil
+	data.coc_treasure_manager.caches = nil
+	data.coc_treasure_manager.temps = nil
+end
+
+local function physic_object_on_use_callback(box,who)
+	if (IsInvbox(box)) then
+		local id = box:id()
+		printf("create stash %s %s", temps[id], id)
+		if not temps[id] or temps[id] == false then 
+			--printf("create stash %s", temps[id])
+			create_stash(box)
+		end
+		--printf("box %s", temps[id])
+	end
+end
+
+function add_temps(id)
+	temps[id] = true
+	--printf("%s %s", id, temps[id])
+end
+
+function remove_temps(id)
+	temps[id] = nil
+end
+
+------------------------------------------------------------------------------------------------------------------
+--							ON GAME START
+------------------------------------------------------------------------------------------------------------------
+function on_game_start()
+	RegisterScriptCallback("on_game_load",on_game_load)
+	RegisterScriptCallback("actor_on_item_take_from_box",actor_on_item_take_from_box)
+	RegisterScriptCallback("save_state",save_state)
+	RegisterScriptCallback("load_state",load_state)
+	RegisterScriptCallback("physic_object_on_use_callback",physic_object_on_use_callback)
+end
+
+-------------------------------------------------------------------------------------------------------------------
+
+function get_valid_table(name)
+	local ini = ini_file("plugins\\debug_spawner.ltx")
+	local tbl = {}
+	local sec = nil
+	
+	-- Will tidy this later.
+	if (name == "Artifacts") then
+		return tbl_art
+	elseif (name == "Armor") then
+		return tbl_outfit
+	elseif (name == "Helmet") then
+		return tbl_helmet
+	elseif (name == "Various items") then
+		return tbl_misc
+	elseif (name == "Consumables") then
+		return tbl_consumable
+	elseif (name == "Modifications for weapons") then
+		return tbl_addon
+	elseif (name == "Pistols") then
+		return tbl_pistol
+	elseif (name == "Assault rifles") then
+		return tbl_rifle
+	elseif (name == "Ammunition") then
+		return tbl_ammo
+	elseif (name == "Special") then
+		return tbl_test
+	elseif (name == "Shotguns") then
+		return tbl_test
+	elseif (name == "Automatic machines") then
+		return tbl_pp
+	elseif (name == "Sniper rifles") then
+		return tbl_sniper
+	elseif (name == "Machine guns") then
+		return tbl_heavy
+	elseif (name == "Items") then
+		return tbl_items
+	elseif (name == "Grenades") then
+		return tbl_grenade
+	end
+end
+
+local names = {
+	[1] = "Artifacts",
+	[2] = "Armor",
+	[3] = "Helmet", 
+	[4] = "Various items",
+	[5] = "Consumables",
+	[6] = "Modifications for weapons",
+	[7] = "Pistols",
+	[8] = "Assault rifles",
+	[9] = "Ammunition",
+	[10] = "Special",
+	[11] = "Shotguns",
+	[12] = "Automatic machines",
+	[13] = "Sniper rifles",
+	[14] = "Machine guns",
+	[15] = "Items",
+	[16] = "Grenades",	
+	}
+
+--[[
+	Таблица с шансами на спавн оружия. Если слишком много,
+	то нужно лишь убавить процент спавна. 1% = 0.01
+]]--
+	
+local chance = {
+	[1] = 0.01,
+	[2] = 0.05,
+	[3] = 0.05,
+	[4] = 1.0,
+	[5] = 1.0,
+	[6] = 0.06,
+	[7] = 0.12,
+	[8] = 0.10,
+	[9] = 0.8,
+	[10] = 0.14,
+	[11] = 0.3,
+	[12] = 0.2,
+	[13] = 0.02,
+	[14] = 0.02,
+	[15] = 1.0,
+	[16] = 0.8,
+	}
+
+--[[ 
+	Таблица задает ценовые пределы спавнящихся предметов.	
+	Т.е на вход мы закидываем get_level_luck() и получаем
+	обратно cost, больше которого предмет нельзя спавнить.
+]]--
+
+local cost_items = {
+	[0] = 1000,
+	[1] = 1500,
+	[2] = 2500,
+	[3] = 3000,
+	[4] = 5000,
+	[5] = 7000,
+	[6] = 12000,
+	[7] = 30000,
+	[8] = 50000,
+	[9] = 200000,
+	[10] = 10000000,
+}
+	
+function get_cost(level)
+	return cost_items[level]
+end
+
+local weight = {
+	[1] = 600,
+	[2] = 400,
+	[3] = 350,
+	[4] = 40,
+	[5] = 40,
+	[6] = 120,
+	[7] = 80,
+	[8] = 180,
+	[9] = 60,
+	[10] = 80,
+	[11] = 100,
+	[12] = 100,
+	[13] = 400,
+	[14] = 600,
+	[15] = 40,
+	[16] = 75,	
+	}
+
+
+last_secret = nil
+function create_stash(box)
+	map_spot = "treasure"
+	
+	local sim = alife()
+
+	-- create a temporary table to use math.random
+	local t = {}
+	local size_t = 0
+	local id = box:id()
+	local se_box = id and sim:object(id)
+	if not (se_box) then 
+		caches[id] = nil
+		caches_count = caches_count - 1
+		temps[id] = nil
+		temps_count = temps_count - 1
+		return
+	end
+	
+	local spawned_item = {}
+	local luck_bonus = db.actor:get_level_luck()
+	
+	if luck_bonus <= 2 then luck_bonus = luck_bonus * 1.1
+	elseif luck_bonus <= 4 then luck_bonus = luck_bonus * 0.9
+	elseif luck_bonus <= 7 then luck_bonus = luck_bonus * 0.8
+	elseif luck_bonus == 10 then luck_bonus = luck_bonus * 0.75
+	end
+	
+	local max_weight = math.random(5*k*db.actor:get_level()*luck_bonus,5*k*db.actor:get_level()*luck_bonus) + 200
+	--printf("# Max weight : %s", max_weight)
+	if (has_alife_info("achieved_rag_and_bone")) then
+		max_weight = max_weight + 100
+	end
+	
+	local ini = system_ini()
+	
+	local function try_spawn_item(sec,min,max,chance,weight)
+		if (max_weight >= weight) then 
+			local new_max = math.random(min,max)
+			for i=1,new_max do
+				if ((math.random(1,100)/100) <= chance) then 
+					spawned_item[#spawned_item+1] = sec
+					max_weight = max_weight - weight
+				end
+			end
+		end
+	end
+	
+	local allow_item = true
+	-- iterate most expensive to least expensive or visa versa. Highest cost has highest weight. Consumables have higher max. Outfits have high weights.
+	local functor = random_choice(function(t,a,b) return t[a] > t[b] end,function(t,a,b) return t[a] < t[b] end)
+	
+	local boost = db.actor:get_level() * db.actor:get_level_luck() / 200
+	local max_cost = get_cost(db.actor:get_level_luck())
+	
+--[[
+	author: b4d1k
+	project: Lost Path
+	date: 11.07.2018
+	В цикле перебираем рандомные категории предметов, пока в тайник можно
+	помещать какие-то предметы. Причем добавлять предметы можно пока не 
+	заполнится тайник полностью, но нельзя добавлять предметы так, чтобы
+	это могло вызвать переполнение тайника. Т.е нельзя кинуть последнюю 
+	вещь так, чтобы это могло превысить вместимость тайника.
+]]--
+	--get_console():execute("flush")
+	local it = 1
+	while max_weight > 0 do
+		--get_console():execute("flush")
+		local cou = #chance
+		local i = math.random(1, cou)
+		local t = (math.random(1,100)/100) - boost
+		--printf("%s %s %s", names[i], t, chance[i])
+		if t <= chance[i] and max_weight - weight[i] >= 0 then
+			local table = get_valid_table(names[i])
+			local rt = #table
+			local f = math.random(1, rt)
+			local section = table[f]
+			--printf("%s %s %s", rt, f, section)
+			if section ~= "" and ini:section_exist(section) and not ltx:line_exist("ignore_sections",section) then
+				local cost = ini:r_float_ex(section,"cost")
+				if cost <= max_cost then
+					spawned_item[#spawned_item+1] = section
+					local delta = math.random(0,  cost/ 500)
+					max_weight = max_weight - weight[i] - delta
+					--printf("# New item to treasure : %s | weight : %s", section, weight[i] + delta)
+				else
+					printf("# This section : %s cost : %s max_cost : %s", section, cost, max_cost)
+				end
+			end
+		end
+		if it > 150 then break end
+		it = it + 1
+	end
+	
+	--store_table(spawned_item)
+	if (#spawned_item > 0) then
+		-- create map spot
+		local ignore = nil
+		for k, v in pairs(valid_map_spots) do
+			if (level.map_has_object_spot(id,k) ~= 0) then
+				ignore = true
+			end
+		end
+		if (no_spot ~= true and not ignore) then
+			hint = stash_names(hint,id)
+			level.map_add_object_spot_ser(id, map_spot or "treasure", hint or game.translate_string("st_ui_pda_secret"))
+			news_manager.send_treasure(0)
+		end
+		caches[id] = table.concat(spawned_item,",")
+		temps[id] = true
+		temps_count = temps_count + 1
+		box.stash = true
+	else
+		caches[id] = false
+		temps[id] = false
+		box.stash = false
+		temps_count = temps_count - 1
+	end
+
+	for i=1,#spawned_item do
+		sec = spawned_item[i]
+		if (sec ~= "" and ini:section_exist(sec) and not string.find(sec, "fake")) then
+			--printf("spawn item : %s", sec)
+			if (utils.is_ammo(sec)) then 
+				local box_size = system_ini():r_string_ex(sec,"box_size","")
+				--printf("sec %s %s", sec, box_size)
+				create_ammo(sec,box:position(),box:level_vertex_id(),box:game_vertex_id(),id,math.random(1,box_size))
+			else
+				-- since we spawning on parent, we don't want to register object or packetdata will be inaccurate
+				local se_obj = sim:create(sec,box:position(),box:level_vertex_id(),box:game_vertex_id(),id)
+			end
+		else
+			printf("coc_treasure_manager.script: invalid section %s",sec)
+		end
+	end
+end
+
+function create_random_stash(no_spot,hint,bonus_items, map_spot)
+	map_spot = valid_map_spots[map_spot] and map_spot or "treasure"
+	
+	last_secret = nil
+
+	if (caches_count <= 0) then
+		return
+	end
+
+	last_secret = true
+	
+	local sim = alife()
+
+	-- create a temporary table to use math.random
+	local t = {}
+	local size_t = 0
+	for id,v in pairs(caches) do
+		-- false means box is available
+		if (v == false) then
+			size_t = size_t + 1
+			t[size_t] = id
+		end
+	end
+
+	local index = size_t > 0 and math.random(size_t)
+	if not (index) then
+		return
+	end
+
+	local id = t[index]
+	local se_box = id and sim:object(id)
+	if not (se_box) then 
+		caches[id] = nil
+		caches_count = caches_count - 1
+		return
+	end
+	
+	if not (valid_item_list) then 
+		valid_item_list = get_valid_item_sections()
+	end
+	
+	local spawned_item = bonus_items or {}
+	local max_weight = math.random(100*k,125*k)
+	
+	if (has_alife_info("achieved_rag_and_bone")) then
+		max_weight = max_weight + 100
+	end
+	
+	local ini = system_ini()
+	local function is_consumable(section)
+		local v = ini:r_string_ex(section,"class","")
+		return v == "S_FOOD" or v == "II_FOOD"
+	end
+	
+	local function is_outfit(section)
+		local v = ini:r_string_ex(section,"class","")
+		return v == "EQU_STLK" or v == "E_STLK" or v == "EQU_HLMET" or v == "E_HLMET"
+	end
+	
+	local function is_weapon(section)
+		local v = ini:r_string_ex(section,"class","")
+		return string.find(v,"WP_") ~= nil
+	end
+	
+	local function is_art(section)
+		local v = ini:r_string_ex(section,"class","")
+		return v == "ARTEFACT" or v == "SCRPTART"
+	end
+	
+	local function try_spawn_item(sec,min,max,chance,weight)
+		if (max_weight >= weight) then 
+			local new_max = math.random(min,max)
+			for i=1,new_max do
+				if ((math.random(1,100)/100) <= chance) then 
+					spawned_item[#spawned_item+1] = sec
+					max_weight = max_weight - weight
+				end
+			end
+		end
+	end
+	
+	local allow_item = true
+	-- iterate most expensive to least expensive or visa versa. Highest cost has highest weight. Consumables have higher max. Outfits have high weights.
+	local functor = random_choice(function(t,a,b) return t[a] > t[b] end,function(t,a,b) return t[a] < t[b] end)
+		
+	
+	for section,cost in spairs(valid_item_list,functor) do
+		
+		-- prevent a stash from having more than a single outfit or weapon
+		local skip = false
+		local bWeapon = is_weapon(section)
+		local bART = is_art(section)
+		local bOutfit = not bWeapon and is_outfit(section)
+		if (bWeapon or bOutfit) then
+			if (allow_item) then
+				allow_item = false
+			else 
+				skip = true
+			end
+		end
+		
+		if not (skip) then
+			-- decide for each section based on chance, weight and item classification
+			if (cost <= 500) then
+				if (is_consumable(section)) then
+					try_spawn_item(section,1,4,0.35,30)
+				elseif (bOutfit) then
+					try_spawn_item(section,1,1,0.35,30)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.35,30)
+				else
+					try_spawn_item(section,1,1,0.35,30)
+				end
+			elseif (cost <= 1000) then
+				if (is_consumable(section)) then
+					try_spawn_item(section,1,4,0.25,40)
+				elseif (bOutfit) then
+					try_spawn_item(section,1,1,0.25,40)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.25,40)
+				else
+					try_spawn_item(section,1,1,0.25,40)
+				end
+			elseif (cost <= 3000) then
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,45)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.25,35)
+				else 
+					try_spawn_item(section,1,1,0.30,35)
+				end
+			elseif (cost <= 5000) then
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,50)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.45,40)
+				elseif (bART) then
+					try_spawn_item(section,1,1,0.01,80)
+				else 
+					try_spawn_item(section,1,1,0.25,40)
+				end
+			elseif (cost <= 10000) then
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,55)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.45,45)
+				elseif (bART) then
+					try_spawn_item(section,1,1,0.01,80)
+				else 
+					try_spawn_item(section,1,1,0.17,45)
+				end
+			elseif (cost <= 15000) then 
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,60)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.45,50)
+				elseif (bART) then
+					try_spawn_item(section,1,1,0.01,80)
+				else 
+					try_spawn_item(section,1,1,0.20,50)
+				end
+			elseif (cost <= 20000) then
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,60)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.45,60)
+				elseif (bART) then
+					try_spawn_item(section,1,1,0.01,80)
+				else 
+					try_spawn_item(section,1,1,0.15,60)
+				end
+			else
+				if (bOutfit) then
+					try_spawn_item(section,1,1,0.25,100)
+				elseif (bWeapon) then
+					try_spawn_item(section,1,1,0.25,100)
+				elseif (bART) then
+					try_spawn_item(section,1,1,0.01,100)
+				else 
+					try_spawn_item(section,1,1,0.25,100)
+				end
+			end
+		end 
+		
+		if (max_weight <= 0) then
+			break
+		end
+	end
+	
+	if (#spawned_item > 0) then
+		-- create map spot
+		local ignore = nil
+		for k, v in pairs(valid_map_spots) do
+			if (level.map_has_object_spot(id,k) ~= 0) then
+				ignore = true
+			end
+		end
+		if (no_spot ~= true and not ignore) then
+			hint = stash_names(hint,id)
+			level.map_add_object_spot_ser(id, map_spot or "treasure", hint or game.translate_string("st_ui_pda_secret"))
+			news_manager.send_treasure(0)
+		end
+		caches[id] = table.concat(spawned_item,",")
+	else
+		caches[id] = false
+	end
+end
+
+function try_spawn_treasure(box)
+	local id = box:id()
+	
+	--printf("try_spawn_treasure [%s]",caches[id])
+
+	if not (caches[id]) then 
+		return 
+	end 
+
+	if not (type(caches[id]) == "string") then 
+		return
+	end
+	
+	local spawned_item = alun_utils.str_explode(caches[id],",")
+	caches[id] = true
+	
+	local sec,ammos,ct,ammo_type
+	local ini = system_ini()
+	local sim = alife()
+	for i=1,#spawned_item do
+		sec = spawned_item[i]
+		if (sec ~= "" and ini:section_exist(sec)) then
+			if (utils.is_ammo(sec)) then 
+				local box_size = system_ini():r_string_ex(sec,"box_size","")
+				create_ammo(sec,box:position(),box:level_vertex_id(),box:game_vertex_id(),id,math.random(0,box_size))
+			else
+				-- since we spawning on parent, we don't want to register object or packetdata will be inaccurate
+				local se_obj = sim:create(sec,box:position(),0,0,id)
+				--[[
+				if (se_obj) then
+					local cls = se_obj:clsid()
+					if (IsWeapon(nil,cls) and cls ~= clsid.wpn_knife_s) then
+						se_obj.condition = (math.random(70)+30)/100
+
+						local flags = se_obj:get_addon_flags()
+						if (math.random() <= 0.3 and se_obj.scope_status == cse_alife_item_weapon.eAddonAttachable) then 
+							flags:set(cse_alife_item_weapon.eWeaponAddonScope,true)
+						end
+
+						if (math.random() <= 0.3 and se_obj.grenade_launcher_status == cse_alife_item_weapon.eAddonAttachable) then
+							flags:set(cse_alife_item_weapon.eWeaponAddonGrenadeLauncher,true)
+						end
+
+						if (math.random() <= 0.3 and se_obj.silencer_status == cse_alife_item_weapon.eAddonAttachable) then
+							flags:set(cse_alife_item_weapon.eWeaponAddonSilencer,true)
+						end
+						
+						-- Create random ammo type
+						ammos = alun_utils.parse_list(ini,sec,"ammo_class")
+						ct = ammos and #ammos
+						ammo_type = ammos and ct and math.random(0,ct-1) or 0
+							
+						se_obj.ammo_type = ammo_type
+					end
+				end
+				]]
+			end
+		else
+			printf("coc_treasure_manager.script: invalid section %s",sec)
+		end
+	end
+end
+
+function save(pk)
+	if (USE_MARSHAL) then 
+		return 
+	end
+	pk:w_u16(caches_count)
+	for id,v in pairs(caches) do
+		pk:w_u16(id)
+		pk:w_bool(v)
+	end
+	pk:w_u16(temps_count)
+	for id, v in pairs(temps) do
+		pk:w_u16(id)
+		pk:w_bool(v)
+	end
+end
+
+function load(pk)
+	if (USE_MARSHAL) then 
+		return 
+	end
+	caches_count = pk:r_u16()
+	for i=1,caches_count do
+		caches[pk:r_u16()] = pk:r_bool()
+	end
+	caches_count = pk:r_u16()
+	for i=1, temps_count do
+		temps[pk:r_u16()] = pk:r_bool()
+	end
+end
+
+function get_valid_item_sections()
+	local t = {}
+	local ini = system_ini()
+	ini:section_for_each(function(section)
+		if not (ltx:line_exist("ignore_sections",section)) then
+			if (ini:line_exist(section,"cform")) then
+				if (ini:r_bool_ex(section,"can_trade",true) == true) then
+					if (ini:r_bool_ex(section,"quest_item",false) == false) then
+						if not (string.find(section,"mp_")) then
+							local name = ini:r_string_ex(section,"inv_name")
+							if (name and name ~= "" and name ~= "default") then
+								local cost = ini:r_float_ex(section,"cost") or 0
+								if (cost > 0) then
+									t[section] = cost
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	)
+	
+	-- List of all items in game that are not quest items
+	if (DEV_DEBUG_DEV) then
+		local cfg = io.open("valid_item_sections.ltx","w+")
+		for k,v in pairs(t) do 
+			cfg:write(k.."\n")
+		end
+		cfg:close()
+	end
+	return t
+end
+
+function stash_names(hint,id)
+local sim = alife()
+local stash = sim:object(id)
+local stash_name = tostring(stash:name())
+	if string.find(stash_name,"level_prefix") ~= nil then
+	local level = sim:level_name(game_graph():vertex(stash.m_game_vertex_id):level_id())
+	local new_name = string.gsub(stash_name,"level_prefix",level,1)
+	stash_name = new_name
+	end
+
+local name = "st_" .. stash_name .. "_name"
+local descr = "st_" .. stash_name .. "_descr"
+local name1 = game.translate_string("st_" .. stash_name .. "_name")
+local descr1 = game.translate_string("st_" .. stash_name .. "_descr")
+
+	if name1 == name or descr == descr1 then
+	return hint
+	end
+
+stash_name = "%c[255,255,160,0]" .. name1 .. "\\n%c[default]" .. descr1 .. "\\n%c[160,100,100,200]" .. (hint or "")
+
+	return stash_name
+end
