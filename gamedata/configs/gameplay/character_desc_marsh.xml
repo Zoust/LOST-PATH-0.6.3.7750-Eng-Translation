@@ -59,7 +59,7 @@
     <icon>ui_inGame2_librarian</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Îïûòíûé ñòàëêåð. Äåòàëüíàÿ èíôîðìàöèÿ îòñóòñòâóåò.</bio>
+    <bio>An experienced stalker. No other information available.</bio>
     <class>mar_base_stalker_barmen</class>
     <community>csky</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -128,7 +128,7 @@
         <icon>ui_inGame2_Novikov</icon>
         <map_icon x="1" y="0">
         </map_icon>
-        <bio>Îïûòíûé ñòàëêåð. Òåõíèê Àçîò.</bio>
+        <bio>An experienced stalker. No other information available.</bio>
         <class>mar_base_stalker_tech</class>
         <community>csky</community>
         <mechanic_mode>1</mechanic_mode>

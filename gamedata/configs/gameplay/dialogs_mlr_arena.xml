@@ -10,7 +10,7 @@
 		<next>1</next>	
     </phrase>
     <phrase id="1">
-	<text>I see you earned a good reputation in the arena, which means that you can bet and watch the battles! Yes-yes, on a par with large debt shishkas, consider this my gift to you, as an excellent fighter. Bets for you are purely symbolic from 1 to 5 thousand, the win depends on the number participants, winners/losers, in general you can win clean both from 40 %of your bet, and 3 times more.</text>
+	<text>I see you earned a good reputation in the arena, which means that you can bet and watch the battles! Yes-yes, on a par with large Duty shishkas, consider this my gift to you, as an excellent fighter. Bets for you are purely symbolic from 1 to 5 thousand, the win depends on the number participants, winners/losers, in general you can win clean both from 40 %of your bet, and 3 times more.</text>
 		<give_info>totaliz_pre</give_info>	
     </phrase>	
 </phrase_list>
@@ -303,7 +303,7 @@
 	<next>54</next>			
     </phrase>
     <phrase id="45">
-	<text>the bloodsucker</text>
+	<text>The bloodsucker</text>
 	<give_info>total_bloodsucker_with_group_bandits</give_info>
 	<give_info>total_fight_7</give_info>	
     <action>dialogs_mlr.total_battle_7_random</action>	
@@ -359,7 +359,7 @@
 	<next>54</next>			
     </phrase>
     <phrase id="49">
-	<text>the snork on the right</text>
+	<text>The snork on the right</text>
 	<give_info>total_snork_right</give_info>	
 	<give_info>total_fight_10</give_info>			
 	<next>54</next>			

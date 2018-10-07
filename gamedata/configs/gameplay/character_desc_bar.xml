@@ -241,7 +241,7 @@
     
     <!------------ bar_visitors_stalker_mechanic ---------------------------->
     <specific_character id="bar_visitors_stalker_mechanic" team_default = "1">
-    <name>Азот</name>
+    <name>Soot</name>
     <icon>ui_inGame2_Azot</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>An experienced stalker. No other information available.</bio>
