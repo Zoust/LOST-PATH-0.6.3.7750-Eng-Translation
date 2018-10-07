@@ -1,0 +1,41 @@
+--[[ -----------------------------------
+ #  ћодуль вывода на экран оставшегос€ 
+ #  времени использовани€ новых слотов
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 20.02.2018
+]]-- -----------------------------------
+
+--[[
+ # TODO :
+ # 
+]]--
+
+function get_str(cond)
+	local r = lostpath_batteries_cell.count_aaa() * 10000
+	local s = 0
+	local min = 0
+	local sec = 0
+	if r == 0 then return "" end
+	
+	if r then 
+		s = math.floor(cond * 100 / r)
+		min = math.floor(s / 60)
+		sec = math.floor(s - min * 60)
+	end
+
+	local msg = ""
+	
+	if s then
+		if sec < 10 and min < 10 then 
+			msg = msg .. "0" .. min .. " м : 0" .. sec .. " с"
+		elseif sec < 10 then
+			msg = msg .. "" .. min .. " м : 0" .. sec .. " с" 
+		elseif min < 10 then
+			msg = msg .. "0" .. min .. " м : " .. sec .. " с" 
+		else msg = msg .. "" .. min .. " м : " .. sec .. " с" end
+	end
+
+	msg = "Batteries : " .. msg
+	return msg
+end

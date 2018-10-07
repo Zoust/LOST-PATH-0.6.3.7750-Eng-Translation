@@ -26,7 +26,7 @@ function msg_box_ui:__init(obj,disable_msg,item) super()
 	if (axr_main.config:r_value("mm_options","enable_transitions_closed_disable",1,true) == false) then
 	if not ((transitions.show_transition(self.name)) or
     mlr_utils.load_var('transitions_'..self.name)) then
-		SetHudMsg(game.translate_string('You do not know the way'),5)
+		SetHudMsg(game.translate_string('You do not know the road'),5)
 		self:InitCallBacks()
 		self:OnMsgCancel()
 		return

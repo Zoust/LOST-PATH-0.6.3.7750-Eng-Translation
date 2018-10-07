@@ -1,0 +1,49 @@
+--[[ -----------------------------------
+ #  ћодуль вывода на экран оставшегос€ 
+ #  времени использовани€ новых слотов
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 20.02.2018
+]]-- -----------------------------------
+
+--[[
+ # TODO :
+ # 
+]]--
+
+function actor_on_update()	
+	local itm = db.actor:item_in_slot(15)
+	local r = 1 / 90000
+	if itm then itm:set_condition(itm:condition() - r) end
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+end
+
+function get_str(cond)
+	local r = 1 / 9
+	local s = 0
+	local min = 0
+	local sec = 0
+	
+	if r then 
+		s = math.floor(cond * 100 / r)
+		min = math.floor(s / 60)
+		sec = math.floor(s - min * 60)
+	end
+
+	local msg = ""
+	
+	if s then
+		if sec < 10 and min < 10 then 
+			msg = msg .. "0" .. min .. " м : 0" .. sec .. " с"
+		elseif sec < 10 then
+			msg = msg .. "" .. min .. " м : 0" .. sec .. " с" 
+		elseif min < 10 then
+			msg = msg .. "0" .. min .. " м : " .. sec .. " с" 
+		else msg = msg .. "" .. min .. " м : " .. sec .. " с" end
+	end
+	msg = "Drive unit : " .. msg
+	return msg
+end

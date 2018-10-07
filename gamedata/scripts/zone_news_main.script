@@ -2,7 +2,7 @@ function send_tip(news_id, sender)
 
 local tips_icons = {
 	duty_fake_news_icon     	= "ui_icon_vs_news_news_dolg",
-	freedom_fake_news_icon  	= "ui_icon_vs_news_news_svoboda",
+	freedom_fake_news_icon  	= "ui_icon_vs_news_news_Freedom",
 	military_fake_news_icon     = "ui_icon_vs_news_news_voen_stalk",
     killer_fake_news_icon   	= "ui_icon_vs_news_news_naim",
     ecolog_fake_news_icon   	= "ui_icon_vs_news_news_ecolog",	
@@ -40,7 +40,7 @@ local spam ={
 "%c[default]Pseudo dog attacked, barely shot!",
 "%c[default]I saw a group of some kind of left-wing peasants, presumably -" Mercenaries. "They go towards Bar.",
 "%c[default]A group of five moves toward the Barrier, presumably the Monolith." Take action. ",
-"%c[default]Mei Day, the debtors were pinned on the Agroprom in the central complex!",
+"%c[default]Mei Day, the Dutiers were pinned on the Agroprom in the central complex!",
 "%c[default]Lukash, we shot him down, we go home.",
 "%c[default]Two-three-seven, we go home, meet.",
 "%c[default]Marauders squeezed, help out!",
@@ -75,7 +75,7 @@ local spam ={
 "%c[default]Marauders, creatures ...\\n%c[255,160,160,160]Vasyan228\\n%c[default]We guess.",
 "%c[default]The pseudo dog attacked, barely shot!\\n%c[255,160,160,160]Wasyan228\\n%c[default]Well done.",
 "%c[default]I saw a group of some left-wing peasants, supposedly" Bandits. "They go to the side of the Bar.\\n%c[default]Did not fall, fagot ..."
-"%c[default]I saw a group of some left-wing peasants, supposedly" Debt ", go to the side of the Landfill.\\n%c[default]Do not fall to the office, reptile ..."
+"%c[default]I saw a group of some left-wing peasants, supposedly from " Duty ", go to the side of the Landfill.\\n%c[default]Do not fall to the office, reptile ..."
 "%c[default]To the farm, which is for military, again\"Freedom\"is trapped.\Interesting, why?\\n%c[255,40,40,255]Kuznetsov\\n%c[default]Vidat want to base our base off. Nothing, the decisive changes in the alignment of forces are coming soon, and not in favor of Liberty.\\n%c[255,160,160,160]Lukash\\n%c[default]What else will you scare the staff rat ? ",
 "%c[default]Uh, m-mother ... in the vicinity of the Amber Lake, the helicopter was fired, and - in a capital way, they had a fire engine, they were masturbating on the air and laying somewhere off to the side!",
 "%c[255,160,160,160]Solid\\n%c[default]nappruglvlatmaop\\n%c[255,160,160,160]Lukash\\n%c[default]Again, the boyars devoured, bitch.",
@@ -101,7 +101,7 @@ local spam ={
 "%c[255,160,160,160]Yoga\\n%c[default]Hogs, if I find out that you're stirring up the fraternity again, hanging it over the eggs over the Depot, kapish?\\n%c[255,160,160,160]Hogs\\n%c[default]And do not you scare, such as you, I drowned in the zone in the parash. You lost the reputation among the brothers, you will soon lose your life ... "
 "%c[255,160,160,160]The miser\\n%c[default]Who is going to go to the raid, can stock up on me with ammunition, so there is work, I'll pay a rare artifact.",
 "%c[255,160,160,160]Hog\\n%c[default]Please do not go to the Wild Territory, nothing good will be here.",
-"%c[255,160,160,160]Lukash\\n%c[default]Free stalkers! Grace please go to the base in the dark valley, here you will find yourself faithful friends and comrades, good attitude and much more. Zone is our house, think about it , do you see yourself outside the Zone and help us to deal with "Debt" once and for all. ",
+"%c[255,160,160,160]Lukash\\n%c[default]Free stalkers! Grace please go to the base in the dark valley, here you will find yourself faithful friends and comrades, good attitude and much more. Zone is our house, think about it , do you see yourself outside the Zone and help us to deal with "Duty" once and for all. ",
 "%c[255,160,160,160]Arnie\\n%c[default]Captive gopotu have nowhere to go, no one shoots, if this goes on, I'll close the arena fuck!",
 "%c[255,160,160,160]Bartender\\n%c[default]So, who accidentally finds documents containing specific information in the area of ??Radar or Burner, pritarante me.",
 "%c[255,160,160,160]Countryman\\n%c[default]For the most gifted I repeat: Do not poke your nose on the Radar! Shoot you like a rabid dog! Truncated? Fucking adventurers ..."
@@ -170,9 +170,9 @@ local spam ={
 "%c[default]Ha, loshya how many rushing through the Landfill lately.",
 "%c[255,160,160,160]Potap\\n%c[default]I remind all stalkers that you need to subscribe to the newsletter regarding the emissions in the Zone, the Infa is always up-to-date and accurate.",
 "%c[255,160,160,160]Gunpowder\\n%c[default]Sanya, can you see it, too? And what is that dolboey there the third day already at the bushes is rubbing, can shmalnut on it?",
-"%c[default]The beast has multiplied - it's just fucked up, not breathing in. Where does" Debt "look?",
+"%c[default]The beast has multiplied - it's just fucked up, not breathing in. Where does" Duty "look?",
 "%c[default]The people, no one in the red forest did not go? One of these days I was going to, I think it's decent to naharabitsya there,"
-"%c[default]Devil's trunk, it's clinching again! And it's after the hands of a debt technician in the agro industry! Well, what about the liquor itself, do not go to him.",
+"%c[default]Devil's trunk, it's clinching again! And it's after the hands of a Duty technician in the agro industry! Well, what about the liquor itself, do not go to him.",
 "%c[default]Che for the fufels near the farm are sitting there, the equipment is steep, not the mercenaries of tea?" Even and approach the ochkuyu. ",
 "%c[default]To all Dark stalkers! We together with the monolith plan one operation ... Everyone at 23:00 be on the base !?",
 "%c[default]SHCHas such a fucking thing found on such a little poobote, you can just fucking suck!",
@@ -273,7 +273,7 @@ local duty_fake_news ={
 "%c[255,255,1,1]\"Duty\"\\n%c[default]The ether is not hammered, your feats for the murder of the left-wing guys are of no interest to anyone.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]We go to a private channel, download a protection update.There will be a leak of information due to the fact that you were too lazy to patch - I'll choke.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Information on raids on mutants and other operations - in a private channel." There was not enough for a leak. ",
-"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, enter into" Debt. "Protect the planet from the infection of the Zone!",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, enter into" Duty. "Protect the planet from the infection of the Zone!",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers for a raid on snork, payment is appropriate.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers for the raid on mutants, the payment is appropriate.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]We need experienced stalkers to raid the mutant offspring." The payment is appropriate. ",
@@ -283,12 +283,12 @@ local duty_fake_news ={
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Petrenko, this is Captain Sorokin from the dump, where are our ammunition?",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Watching some black flying smoke on the Agroprom, waiting for instructions." Intelligence. ",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]So, guys. It was informed that the group of standards had settled on the approaches to the central MBU,
-"%c[255,255,1,1]\"Duty\"\\n%c[default]Says sergeant Saikin, fifth quartet, I appeal to those people who yesterday committed hooliganism in the territory of the Debt, on the Agroprom. again you will throw empty bottles in the room to Petrenko - shot on the spot. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Says sergeant Saikin, fifth quartet, I appeal to those people who yesterday committed hooliganism in the territory of the Duty, on the Agroprom. again you will throw empty bottles in the room to Petrenko - shot on the spot. ",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]To all stalkers who can render all possible assistance in sweeping the territory on approaches to the Agroprom from mutants, we will be very grateful.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Attention fighters of all quads: on arrival at the base immediately appear at the command post for instructions on operating new models of equipment.",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, enter into "Duty" territory! Let's cure our Earth from a deadly disease called Zone!",
-"%c[255,255,1,1]\"Duty\"\\n%c[default]Grouping Debt informs about the passage of the set in its ranks, All those wishing to come to the Debt database on the Agroprom.With them, have weapons, equipment and supplies provisions for three days.The presence of documents is not necessary, good physical preparation is desirable. ",
-"%c[255,255,1,1]\"Duty\"\\n%c[default]Grouping Debt needs experienced and brave fighters to replenish its ranks and destroy mutants .All those who joined our ranks, we have on the base a special price policy will be carried out.The former bandits - do not apply! ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Duty faction informs about the passage of the set in its ranks, All those wishing to come to the Duty database on the Agroprom.With them, have weapons, equipment and supplies provisions for three days.The presence of documents is not necessary, good physical preparation is desirable. ",
+"%c[255,255,1,1]\"Duty\"\\n%c[default]Duty faction needs experienced and brave fighters to replenish its ranks and destroy mutants .All those who joined our ranks, we have on the base a special price policy will be carried out.The former bandits - do not apply! ",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Petrenko, reception! Checking the connection. I have a radio station broke, I'm writing to the general channel." A soldier with a repair kit went to the place where the day before yesterday we were beating wild boars. ",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Once again we warn you, Anarchy.If you do not stop sending to the personal PDA of General Voronin vile insults, we'll just visit you on the database Do you think we do not know whose hands it is? ",
 "%c[255,255,1,1]\"Duty\"\\n%c[default]Stalkers, remember: anarchy is chaos, destruction and death. Join the Duty! Maintain order and purity in the Zone!",
@@ -305,7 +305,7 @@ local freedom_fake_news ={
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Enter\"Freedom\"! Stop the Zone Capture!",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Today Agroprom, tomorrow the Verkhovna Rada, and the day after tomorrow the whole world!",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Stalker, do not you like the Zone? Did you forget that she gave you money and a purpose in life? You want to work as an office clerk for kopecks after all this is over? Enter\"Freedom\", do not let them take from you the last thing you value, do not let them take your life away. ",
-"%c[255,1,255,1]\"Freedom\"\\n%c[default]Something in my mood is creative today! And I'm expressing myself with me by hanging the debtors on branches to express!",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Something in my mood is creative today! And I'm expressing myself with me by hanging the Dutiers on branches to express!",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]So, I can not fuck you up in glasses, I'll fuck you if I hear something like that again.",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]We need experienced stalkers to raid artifacts.
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Singles! Says\"Freedom\"! If you want to live in normal conditions in the Zone and without army obligations, as in"Duty\"- move to us! Always welcome new faces.",
@@ -315,7 +315,7 @@ local freedom_fake_news ={
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Dudes, calculate, grass, sho near Tramplin - it's sticking out hard! Ha-ha-ha !!!",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Hey-hei-hey, Rasta! The most succulent and classy jambs only here! Join free and put on the order!",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]New arrivals arrived at the warehouse G36. There are many who want to, hurry ..."
-"%c[255,1,255,1]\"Freedom\"\\n%c[default]Warning, most recently, our fighters were attacked by DEBTORS dressed in gopnik. Be careful, smacks of provocation ... Not that they knew about our alliance with the bandits? ",
+"%c[255,1,255,1]\"Freedom\"\\n%c[default]Warning, most recently, our fighters were attacked by Dutiers dressed in gopnik. Be careful, smacks of provocation ... Not that they knew about our alliance with the bandits? ",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Downloading a new firmware for free so that there are fewer flights.",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Leshy, where are you fucking? Talk is, go into the building.",
 "%c[255,1,255,1]\"Freedom\"\\n%c[default]Something dead war veterans on the Amber lake began to come across often.",

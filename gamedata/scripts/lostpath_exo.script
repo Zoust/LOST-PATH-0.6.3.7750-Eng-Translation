@@ -46,7 +46,7 @@ function servoprivod_equip()
 	end
 	
 	if (luck + intellect_bonus) < 75 then
-		SetHudMsg(game.translate_string("Luck!"),5)
+		SetHudMsg(game.translate_string("Failure!"),5)
 		return
 	end
 	
@@ -77,7 +77,7 @@ function servoprivod_drop()
 	end
 	
 	if (luck + intellect_bonus) < 75 then
-		SetHudMsg(game.translate_string("Luck!"),5)
+		SetHudMsg(game.translate_string("Failure!"),5)
 		return
 	end
 	
