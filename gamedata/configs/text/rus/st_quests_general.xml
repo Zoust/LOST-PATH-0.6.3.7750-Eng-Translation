@@ -136,7 +136,7 @@
 	<text>Find weapons: %s</text>
 	</string>
 	<string id="simulation_task_36_text">
-	<text>the scientist needs a weapon: %s, in excellent condition.</text>
+	<text>The scientist needs a weapon: %s, in excellent condition.</text>
 	</string>
 	<string id="simulation_task_36_about">
 	<text>Young man, could you help get me a gun? And then we were given no idea what, even from the tuskans it's difficult to fight back, I'll be indebted to you!</text>
@@ -476,10 +476,10 @@
 	<text>Destroy the enemy at the key point</text>
 	</string>
 	<string id="simulation_task_22_about">
-	<text>the infidels have captured one of our strongholds in the region, you need to beat them, will you help brother?</text>
+	<text>The infidels have captured one of our strongholds in the region, you need to beat them, will you help brother?</text>
 	</string>
 	<string id="simulation_task_22_finish">
-	<text>the point is behind us, the infidels have fallen, keep the reward:</text>
+	<text>The point is behind us, the infidels have fallen, keep the reward:</text>
         </string>
 
 	<string id="simulation_task_24_name">
@@ -592,7 +592,7 @@
 	<text>Freedom asked to avenge the death of a friend, who was killed by a dolgovetz.</text>
 	</string>
 	<string id="simulation_task_37_about">
-	<text>I need your help, one rotten debtor killed my friend when he went to the raid, I even know where this bitch is, but I just cannot kill the whole camp he is in, I see you are a grated dude, and you can handle it with such a task, so how can you help? I will be very must.</text>
+	<text>I need your help, one rotten Dutier killed my friend when he went to the raid, I even know where this bitch is, but I just cannot kill the whole camp he is in, I see you are a grated dude, and you can handle it with such a task, so how can you help? I will be very must.</text>
 	</string>
 	<string id="simulation_task_37_finish">
 	<text>A friend is now avenged, thank you man, here we receive from a pure heart:</text>
@@ -601,7 +601,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="simulation_task_41_text">
-	<text>To get cartridges for the commander of the 'Freedom' unit %s.</text>
+	<text>Get cartridges for the commander of the 'Freedom' unit %s.</text>
 	</string>
 	<string id="simulation_task_41_about">
 	<text>Listen to the Maine, help pliz, we have territorial fights here, and the cartridges of the detachment are running out! Can you get us ammo? In debt will not stay!</text>

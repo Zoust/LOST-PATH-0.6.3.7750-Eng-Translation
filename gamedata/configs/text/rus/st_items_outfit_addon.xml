@@ -57,16 +57,16 @@
 </string>
 
 <string id="dolg_radiation_outfit_name">
-<text>Heavy bronekostyum "Debt"</text>
+<text>Heavy bronekostyum "Duty"</text>
 </string>
 <string id="dolg_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Not equipped with containers for artifacts.</text>
 </string>
 
-<string id="svoboda_radiation_outfit_name">
+<string id="Freedom_radiation_outfit_name">
 <text>Heavy bronekostyum "Freedom"</text>
 </string>
-<string id="svoboda_radiation_outfit_description">
+<string id="Freedom_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Has a built-in container for artifacts.</text>
 </string>
 
@@ -163,7 +163,7 @@
 	</string>
 
 	<string id="st_helm_respirator_gp5_descr">
-	<text>the gas mask GP-5 was intended to protect the civilian population of the Soviet Union from radioactive fallout, and was manufactured during the Cold War from 1962 to 1989. It is a helmet-a mask of white and black rubber, the lenses are held in place by a crimping rim. Bottom part the mask is made of metal, there are valves and a filter holder in it. GP-5 is widely used by singles and band its because of their availability and cheap price.</text>
+	<text>The gas mask GP-5 was intended to protect the civilian population of the Soviet Union from radioactive fallout, and was manufactured during the Cold War from 1962 to 1989. It is a helmet-a mask of white and black rubber, the lenses are held in place by a crimping rim. Bottom part the mask is made of metal, there are valves and a filter holder in it. GP-5 is widely used by singles and band its because of their availability and cheap price.</text>
 	</string>
 
 </string_table>

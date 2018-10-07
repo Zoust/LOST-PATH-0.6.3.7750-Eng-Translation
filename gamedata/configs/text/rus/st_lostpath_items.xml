@@ -32,7 +32,7 @@
 </string>
 
 <string id="pda_volkodav">
-<text>PDA Wolfhound</text>
+<text>Wolfhound PDA</text>
 </string>
 <string id="pda_volkodav_descr">
 <text>This PDA belonged to Wolfhound, the leader of the group "Dogs". There are a lot of valuable information about the group of Mercenaries.</text>
@@ -41,7 +41,7 @@
  <text>PDA of the Skull</text>
 </string>
 <string id="pda_cherep_descr">
-<text>This PDA belonged to the Skull, the leader of the shock troops of the Debt. There are a lot of valuable information about the group's Debt.</text>
+<text>This PDA belonged to the Skull, the leader of the shock troops of the Duty. There are a lot of valuable information about the  Duty faction.</text>
 </string>
 <string id="pda_tiran">
 <text>PDA of a Tyrant</text>

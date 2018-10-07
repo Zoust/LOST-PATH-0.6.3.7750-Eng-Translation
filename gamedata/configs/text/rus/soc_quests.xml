@@ -96,7 +96,7 @@
 		<text>Kill the leader of the bandits who crossed the road to the merchant. Most likely, he will not be alone, but with protection... The work is complicated, but they also pay adequately.</text>
 	</string>
 	<string id="tm_kill_stalker_1_text">
-		<text>You'll have to finish off one handsome man - he's one of the bandits. Recently, the bandits, by his order, intercepted my courier and gutted it to zero, and with those who touched my people, the conversation was short... In general, I will not stay in debt. So how do you take?</text>
+		<text>You'll have to finish off one handsome man - he's one of the bandits. Recently, the bandits, by his order, intercepted my courier and gutted it to zero, and with those who touched my people, the conversation was short... In general, I will not stay in Duty. So how do you take?</text>
 	</string>
 	<string id="tm_kill_stalker_2">
 		<text>Kill the stalker-huckster</text>
@@ -318,7 +318,7 @@
 		<text>Bring part of a snork</text>
 	</string>
 	<string id="ecolog_monster_part_1_descr">
-		<text>To get a snork part in these places should not be a problem.</text>
+		<text>Get a snork part in these places should not be a problem.</text>
 	</string>
 	<string id="ecolog_monster_part_1_text">
 		<text>We met Semenov when I was giving lectures on genetics at the university, and he was my student. So I became his scientific adviser. Then we just opened the veil of the mystery of modifying the genome. What am I talking about? Oh yes. For genetic studies, we need samples of fresh cells of the muscular tissue of a snorkel. For genetic material you will have to go to the marshes. There is a hypothesis that snorkel as a species is a new stage of human development. To know for sure, you need a DNA test!</text>
@@ -366,25 +366,25 @@
 		<text>Kill the "Duty" security chief, trying to do it as quietly as possible.</text>
 	</string>
 	<string id="freedom_kill_stalker_1_text">
-		<text>It would be nice if the security chief of the "Debt" quietly disappeared. Then they will have a small mess, and I will be able to introduce several guys into their grouping. And then, and the devil is not joking... Okay, I will not roll my lip ahead of time. I advise you to work the client from afar and quietly, without making a fuss.</text>
+		<text>It would be nice if the security chief of "Duty" quietly disappeared. Then they will have a small mess, and I will be able to introduce several guys into their grouping. And then, and the devil is not joking... Okay, I will not roll my lip ahead of time. I advise you to work the client from afar and quietly, without making a fuss.</text>
 	</string>
 	<string id="freedom_kill_stalker_2">
 		<text>Kill Captain Ivantsov.</text>
 	</string>
 	<string id="freedom_kill_stalker_2_descr">
-		<text>Kill the close assistant leader of the "Duty" - Captain Ivantsov.</text>
+		<text>Kill the close assistant leader of "Duty" - Captain Ivantsov.</text>
 	</string>
 	<string id="freedom_kill_stalker_2_text">
-		<text>The task is difficult, I warn you right away, but it's worth it. It is necessary to punish Ivantsov - there is such a henchman in the commander of this "Debt". He is engaged in the most dirty work: punitive campaigns, raids... You would know how many of our guys he vzdernul! It's time to deal with this rubbish finally. If you decide, I advise you first of all to arm yourself well.</text>
+		<text>The task is difficult, I warn you right away, but it's worth it. It is necessary to punish Ivantsov - there is such a henchman in the commander of "Duty". He is engaged in the most dirty work: punitive campaigns, raids... You would know how many of our guys he vzdernul! It's time to deal with this rubbish finally. If you decide, I advise you first of all to arm yourself well.</text>
 	</string>
 	<string id="freedom_kill_stalker_3">
 		<text>Kill Colonel Petrenko</text>
 	</string>
 	<string id="freedom_kill_stalker_3_descr">
-		<text>Kill Colonel Petrenko - one of the founding fathers of the group "Debt".</text>
+		<text>Kill Colonel Petrenko - one of the founding fathers of the group "Duty".</text>
 	</string>
 	<string id="freedom_kill_stalker_3_text">
-		<text>Colonel Petrenko... I do not know if you heard this name, met him or not, but it's good to meet you. This man is one of the founders of "Debt" and one of the most terrible of our enemies. Make sure your conversation ends sooner... for him. Will you pull it?</text>
+		<text>Colonel Petrenko... I do not know if you heard this name, met him or not, but it's good to meet you. This man is one of the founders of "Duty" and one of the most terrible of our enemies. Make sure your conversation ends sooner... for him. Will you pull it?</text>
 	</string>
 	<string id="freedom_kill_stalker_4">
 		<text>Kill the neutral-stalker</text>
@@ -417,10 +417,10 @@
 		<text>Kill the stalker, nicknamed Barin.</text>
 	</string>
 	<string id="freedom_kill_stalker_7_descr">
-		<text>Kill the stalker, nicknamed Barin - the main intendant of the group "Debt".</text>
+		<text>Kill the stalker, nicknamed Barin - the main intendant of the group "Duty".</text>
 	</string>
 	<string id="freedom_kill_stalker_7_text">
-		<text>Ham, a sycophant, a hypocrite, a coward... He's a stalker, Barin. As you see, a man of remarkable spiritual qualities, which helped him to get into the upper echelons of the "Debt". Now he is engaged in providing supplies and food to the group, although from time to time he is still involved in raids. It is necessary to get rid of it - especially since almost all the connections of the "Debt" in the sense of supply are tied to Barin.</text>
+		<text>Ham, a sycophant, a hypocrite, a coward... He's a stalker, Barin. As you see, a man of remarkable spiritual qualities, which helped him to get into the upper echelons of the "Duty". Now he is engaged in providing supplies and food to the group, although from time to time he is still involved in raids. It is necessary to get rid of it - especially since almost all the connections of the "Duty" in the sense of supply are tied to Barin.</text>
 	</string>
 	<string id="freedom_monster_part_1">
 		<text>Bring a boar leg</text>

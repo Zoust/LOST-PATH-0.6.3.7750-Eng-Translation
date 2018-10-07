@@ -16,7 +16,7 @@
 	<text>Go back to Cook</text>
 	</string> 
 	<string id="mil_freedom_barman_mlr_task_1_text">
-	<text>Cook was asked to climb onto the roof of the water tower in order to download some information of entertaining character for "Svoboda".</text>
+	<text>Cook was asked to climb onto the roof of the water tower in order to download some information of entertaining character for "Freedom".</text>
 	</string>
 	<string id="mil_freedom_barman_mlr_task_1_about">
 	<text>Oh, Hey dude! Look, network you know what we have is local here in the Area, and so bitch acting out shamelessly. We usually have someone climbs up a water tower in krovososov and shakes all drunk-ass drunk for the guys, as there scoresthe good. If you want, it could be you. I opened this one you already need it, from here to swing, okay? Well, help?</text>
@@ -34,7 +34,7 @@
 	<text>coverall "prospector"</text>
 	</string>
 	<string id="st_stalker_baraholka_outfit_descr">
-	<text>the Prototype of this "product" was common in the Stalker environment, "dawn". Its main advantages can undoubtedly be attributed to the reduced weight as body armor, and supplied clothing (rubber in many places just cut) and an additional installed container for the artifact. Unfortunately for combat operations this sample mediocre thoughts is not able, but it will help in the hunt for artifacts in the initial path of becoming a Stalker.</text>
+	<text>The Prototype of this "product" was common in the Stalker environment, "dawn". Its main advantages can undoubtedly be attributed to the reduced weight as body armor, and supplied clothing (rubber in many places just cut) and an additional installed container for the artifact. Unfortunately for combat operations this sample mediocre thoughts is not able, but it will help in the hunt for artifacts in the initial path of becoming a Stalker.</text>
 	</string>
 	<string id="st_wpn_baraholka_groza">
 	<text>OTS-14 "Groza"</text>
@@ -55,10 +55,10 @@
 	<text>Sidorovich offers a simple job to search the body parts of mutants.</text>
 	</string>
 	<string id="esc_m_trader_task_7_about">
-	<text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short, I give a tip, you drag. Ready?</text>
+	<text>The Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short, I give a tip, you drag. Ready?</text>
 	</string>
 	<string id="esc_m_trader_task_7_fetch_about">
-	<text>the Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short I need [%s]. Taken?</text>
+	<text>The Work is always there. Body parts of the local fauna are often interested in various private organizations or individuals, the focus of their activities often varies... Hrrm something I got carried away. In short I need [%s]. Taken?</text>
 	</string>
 	<string id="esc_m_trader_task_7_fetch_finish">
 	<text>yeah, give me this shit. Here's your loot:</text>
@@ -67,7 +67,7 @@
 	<text>Roof</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_text">
-	<text>the Godfather wanted me jolted huckster in the dump.</text>
+	<text>The Godfather wanted me jolted huckster in the dump.</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_about">
 	<text>So, you need to caper. Though our roof those assholes at the flea market do not recognize, you have to show them that our services they very much need. Well, you never know what happens in life? Board immediately and take. There they are on the lookout pair of devils only, I don't think you will have any problems. And look, I rats you shoot, if it turns out that even pissing myself clutching a penny in the gutter will find. Well, are you coming?</text>
@@ -121,7 +121,7 @@
 	<text>Good.</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_3_name">
-	<text>the PM in a haystack</text>
+	<text>The PM in a haystack</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_3_text">
 	<text>Fan asked me to help frustrated Stalker PM to find his father on the ATP.</text>
@@ -229,7 +229,7 @@
 	<text>a Night to relax at the hot around one of the anomalous zones out burer. The more they come should not.</text>
 	</string>
 	<string id="hunter_gar_trader_task_3_about">
-	<text>the Job is dangerous and must be done until the morning. Not far from here in the place of accumulation of abandoned vehicles crawl some strange burer and terrorizing the local stalkers. Many are already afraid now to hunt for artifacts at night and a job in General difficult, so you will go concerned a couple of stalkers. Will that help them?</text>
+	<text>The Job is dangerous and must be done until the morning. Not far from here in the place of accumulation of abandoned vehicles crawl some strange burer and terrorizing the local stalkers. Many are already afraid now to hunt for artifacts at night and a job in General difficult, so you will go concerned a couple of stalkers. Will that help them?</text>
 	</string>
 	<string id="hunter_gar_trader_task_3_finish">
 	<text>Well done, here's the payout:</text>
@@ -457,7 +457,7 @@
 	<text>go Ahead.</text>
 	</string>
 	<string id="story_dog_5">
-	<text>"Pseudodog", 'Psi-Dogs' and 'Chernobyl' are not dogs at all, from wolves they kind of happened. In 'the Debt' were taught.</text>
+	<text>"Pseudodog", 'Psi-Dogs' and 'Chernobyl' are not dogs at all, from wolves they kind of happened. In 'the Duty' were taught.</text>
 	</string>
 	<string id="story_dog_6">
 	<text>In both, it is necessary to write down, and what's the request?</text>
@@ -610,7 +610,7 @@
 	<text>"Hello", as I understand it technician South Checkpoint?</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_1">
-	<text>the way it is.</text>
+	<text>The way it is.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_2">
 	<text>As you can apply?</text>
@@ -643,25 +643,25 @@
 	<text>You're in charge here?</text>
 	</string>
 	<string id="loki_st_1">
-	<text>the way it is - my name is Loki, Deputy Mikluho at this Station.</text>
+	<text>The way it is - my name is Loki, Deputy Mikluho at this Station.</text>
 	</string>
 	<string id="loki_st_2">
 	<text>Interesting name - like the Scandinavian deity so called.</text>
 	</string>
 	<string id="loki_st_3">
-	<text>the way it is. Clung to me during the break through the 'Burner.' Dashing times were.</text>
+	<text>The way it is. Clung to me during the break through the 'Burner.' Dashing times were.</text>
 	</string>
 	<string id="loki_st_4">
 	<text>Tell?</text>
 	</string>
 	<string id="loki_st_5">
-	<text>Good. When turned off 'the Burner", my detachment marched North. Long went wild place around. Both on the horizon loomed Chernobyl, a place for the camp to look for started. Found this station abandoned and settled here. Further fever Zone start and there was 'Debt". Unfamiliar places, people few, and emissions are frequent. Signing the truce, agreed to at the Station to keep guns holstered and knives sheathed.</text>
+	<text>Good. When turned off 'the Burner", my detachment marched North. Long went wild place around. Both on the horizon loomed Chernobyl, a place for the camp to look for started. Found this station abandoned and settled here. Further fever Zone start and there was 'Duty". Unfamiliar places, people few, and emissions are frequent. Signing the truce, agreed to at the Station to keep guns holstered and knives sheathed.</text>
 	</string>
 	<string id="loki_st_6">
 	<text>And where are these dolgovtsev?</text>
 	</string>
 	<string id="loki_st_7">
-	<text>No their who to shoot did not, they ran. Not so long ago we got the real Stalker one, Sasha called. Robust design has helped us a lot of good things done. But the last straw was the information of the CCP of their founder, according to which the Debt was founded by former military on compulsory basis. Their captain (the late General) simply cut off communication with the headquarters. This infuriated the local stalking, exactly as puzzled by some enemy fighters. All we had at the station was purely a balance. And then using the stalkers and soldiers have appeared, well, like straight from the air, and defectors with sympathetic was full. Here we force a 'Debt' hence banished.</text>
+	<text>No their who to shoot did not, they ran. Not so long ago we got the real Stalker one, Sasha called. Robust design has helped us a lot of good things done. But the last straw was the information of the CCP of their founder, according to which the Duty was founded by former military on compulsory basis. Their captain (the late General) simply cut off communication with the headquarters. This infuriated the local stalking, exactly as puzzled by some enemy fighters. All we had at the station was purely a balance. And then using the stalkers and soldiers have appeared, well, like straight from the air, and defectors with sympathetic was full. Here we force a 'Duty' hence banished.</text>
 	</string> 
 	<string id="loki_st_8">
 	<text>where is this Stalker go away?</text>
@@ -757,7 +757,7 @@
 	<text>We agreed! Pay the penalty in %s rubles.</text>
 	</string>
 	<string id="st_jg_19">
-	<text>the length of the path(including the starting and ending level): </text>
+	<text>The length of the path(including the starting and ending level): </text>
 	</string> 
 	<string id="fanat_kmb_3_1">
 	<text>KMB: to clean ATP</text>
@@ -820,7 +820,7 @@
 	<text>Listen with his ears.</text>
 	</string>
 	<string id="talk_to_maps_3">
-	<text>... Hmm. \nSmotri is a Bar. It is completely safe for the 'Friends of duty' and neutrals. \nIn wild Territory, this is the former Western part of the plant 'germ.' According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best 'friends' of 'Debt' - 'Svobodovets' to keep them. Nothing special there, except that this is the last 'Bastion' normalnomyslyaschih do people. \nFor Cemetery, get equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \nThe Dump, complete anarchy out there, mutants, criminals, but there is the 'flea market' where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
+	<text>... Hmm. \nSmotri is a Bar. It is completely safe for the 'Friends of duty' and neutrals. \nIn wild Territory, this is the former Western part of the plant 'germ.' According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best 'friends' of 'Duty' - 'Freedomers' to keep them. Nothing special there, except that this is the last 'Bastion' normalnomyslyaschih do people. \nFor Cemetery, get equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \nThe Dump, complete anarchy out there, mutants, criminals, but there is the 'flea market' where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. msgid same time in the neighboring territories. What else can I tell?</text>
 	</string>
 	<string id="talk_to_maps_4">
 	<text>All basically is clear, but you talked about 'normalnomyslyaschih do' and 'Bastion".</text>
@@ -835,7 +835,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_text">
-	<text>the Technician at the lumber yard asked me to get him %s</text>
+	<text>The Technician at the lumber yard asked me to get him %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_about">
 	<text>As you know, the utter wilderness here. Though it is a former sawmill, but as you can see in addition to the logs there's nothing left. I could use some tools, bring?</text>
@@ -850,7 +850,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_text">
-	<text>the Technician at the lumber yard asked me to get him %s</text>
+	<text>The Technician at the lumber yard asked me to get him %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_about">
 	<text>since you're one set of tools found, it can be know where to get a second?</text>
@@ -865,7 +865,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_text">
-	<text>the Technician at the lumber yard asked me to get him %s</text>
+	<text>The Technician at the lumber yard asked me to get him %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_about">
 	<text>I understand that too much to ask for in this godforsaken place, but maybe would help with the third kit?</text>
@@ -1075,13 +1075,13 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_text">
-	<text>the Technique at the depot required %s for more complex modernization of weapons and armor.</text>
+	<text>The Technique at the depot required %s for more complex modernization of weapons and armor.</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_about">
-	<text>the Base was a here recently, but has already raised the issue of lack of tools for our brothers. For starters, I could use some tools for rough work. Get?</text>
+	<text>The Base was a here recently, but has already raised the issue of lack of tools for our brothers. For starters, I could use some tools for rough work. Get?</text>
 	</string> 
 	<string id="mechanic_monolith_jup_depo_task_1_fetch_about">
-	<text>the Base was a here recently, but has already raised the issue of lack of tools for our brothers. For starters, I could use some tools for rough work. Get?</text>
+	<text>The Base was a here recently, but has already raised the issue of lack of tools for our brothers. For starters, I could use some tools for rough work. Get?</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_fetch_finish">
 	<text>Great, this will help us to gain a foothold and become even stronger. I think you deserve a discount.</text>
@@ -1090,7 +1090,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_text">
-	<text>the Technique at the depot required %s for more complex modernization of weapons and armor.</text>
+	<text>The Technique at the depot required %s for more complex modernization of weapons and armor.</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_about">
 	<text>As shown, our weapons inferior to the weapons of the infidels only by a few points. They also have a lot of good techies. I need tools for fine work to free our brothers from these needs. Taken?</text>
@@ -1105,7 +1105,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_text">
-	<text>the Technique at the depot required %s for more complex modernization of weapons and armor.</text>
+	<text>The Technique at the depot required %s for more complex modernization of weapons and armor.</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_about">
 	<text>We will be able to surpass them all, brother! And for that I will need tools for calibration. Bring them to me?</text>
@@ -1120,7 +1120,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_1_text">
-	<text>the Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
+	<text>The Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_1_about">
 	<text>Listen, bro. Help me to get the tools to help our brothers on the battlefield, so they could more effectively carry His word to the masses of unbelievers.</text>
@@ -1135,13 +1135,13 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_text">
-	<text>the Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
+	<text>The Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_about">
-	<text>the Previous set was not enough, I need the tools for fine work. Will serve our cause again?</text>
+	<text>The Previous set was not enough, I need the tools for fine work. Will serve our cause again?</text>
 	</string> 
 	<string id="mechanic_monolith_kbo_task_2_fetch_about">
-	<text>the Previous set was not enough, I need the tools for fine work. Will serve our cause again?</text>
+	<text>The Previous set was not enough, I need the tools for fine work. Will serve our cause again?</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_fetch_finish">
 	<text>Great, brother. All the money from the improvements go to the charity, your contribution was deserves another discounts.</text>
@@ -1150,7 +1150,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_text">
-	<text>the Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
+	<text>The Technician in the 'Jubilee' of the BWC asked for him to bring %s to conduct more complex operations on the modernization of weapons in the glory of the Monolith!</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_about">
 	<text>These tools was enough, but why stop there when you can make it even better? I think is calibration tools, can you get them?</text>
