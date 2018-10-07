@@ -1,0 +1,190 @@
+--This script file is part of "Faction Commander Mod", a personal production of rgggclp.
+--Please read the EULA if you want to copy, modify or redistribute this file.
+--Copyright (c) 2008-2009
+--All rights reserved by rgggclp.
+--You could contact the author at quake_clp@hotmail.com
+
+config = ini_file_ex("settings\\faction_commander_setting.ltx",true)
+
+function run_gui()
+	_g.run_gui(UIFactionCommander(), false)
+end
+
+class "UIFactionCommander" ( CUIScriptWnd )
+function UIFactionCommander:__init() super()
+    self:InitControls()
+    self:InitCallBacks()
+end
+
+function UIFactionCommander:getValue( name )
+	return config:r_value("faction_commander", name, 0, "default")
+end
+
+function UIFactionCommander:setValue( name, value )
+	config:w_value("faction_commander", name, value)
+	config:save()
+end
+
+function UIFactionCommander:__finalize()
+end
+
+function UIFactionCommander:logs()
+	printf("UIFactionCommander")
+end
+
+function UIFactionCommander:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	xml:ParseFile("ui_faction_commander.xml")
+	
+	self.frame = xml:InitFrame("faction_commander:frame", self)
+	self.main_text = xml:InitStatic("faction_commander:main_text", self)
+	self.button_spawn_squad = xml:Init3tButton("faction_commander:btn_spawn_squad", self)
+	self:Register(self.button_spawn_squad, "button_spawn_squad")
+	self.cap_spawn_squad = xml:InitStatic("faction_commander:cap_spawn_squad", self)
+	
+	self.commands_ai = xml:InitTab("faction_commander:commands_ai", self.frame )
+	self:Register( self.commands_ai, "radio_commands_ai" )
+	self.cap_commands_ai = xml:InitStatic( "faction_commander:cap_commands_ai", self.commands_ai )
+	local commandSettingAI = self:getValue( "command_ai" )
+	if self.commands_ai:GetButtonById( commandSettingAI ) ~= nil then
+		self.commands_ai:SetActiveTab( commandSettingAI )
+	end
+	
+	self.commands_ai:Enable(false)
+	
+	self.commands = xml:InitTab("faction_commander:commands", self.frame)
+	self:Register(self.commands, "radio_commands")
+	self.cap_commands = xml:InitStatic("faction_commander:cap_commands", self.commands)
+	local commandSetting = self:getValue( "command" )
+	if self.commands:GetButtonById( commandSetting ) ~= nil then
+		self.commands:SetActiveTab( commandSetting )
+	end
+	
+	self.commands:Enable(false)
+	
+	-- Hint Window
+	self.hint_wnd = xml:InitFrame("faction_commander:hint_wnd:background", self)
+	self.hint_wnd:SetAutoDelete(false)
+	self.hint_wnd_text = xml:InitTextWnd("faction_commander:hint_wnd:text", self.hint_wnd)
+	self.hint_wnd:Show(false)
+end
+
+function UIFactionCommander:Update()
+	CUIScriptWnd.Update(self)
+	
+	self:Reset()
+end
+
+function UIFactionCommander:Reset()
+	if db.actor:has_perk_212() then
+		self.commands_ai:Enable(true)
+	else
+		self.commands_ai:Enable(false)
+		self:setValue("command", "default")
+	end
+	
+	if db.actor:has_perk_213() then
+		self.commands:Enable(true)
+	else
+		self.commands:Enable(false)
+		self:setValue("command", "default")
+	end
+	
+	local pos = GetCursorPosition()
+	local rect = Frect():set(0, 0, 0, 0)
+	
+	self.cap_commands:GetAbsoluteRect(rect)
+	if (utils.pos_in_rect(pos, rect)) then 
+		self:SetHint("Faction Commander\\n \\nThe ability to control the AI of your group is not available. Required Skill «Insider 3»", pos)
+	end
+	
+	self.cap_commands_ai:GetAbsoluteRect(rect)
+	if (utils.pos_in_rect(pos, rect)) then 
+		self:SetHint("Faction Commander\\n \\nThe ability to control enemy AI is not available. Required Skill «Insider 2»", pos)
+	end
+	
+	self.cap_spawn_squad:GetAbsoluteRect(rect)
+	if (utils.pos_in_rect(pos, rect)) then 
+		self:SetHint("Faction Commander\\n \\nThe ability to call reinforcements is not available. Required Skill «Insider»", pos)
+	end
+end
+
+function UIFactionCommander:InitCallBacks()
+	self:AddCallback( "button_spawn_squad", ui_events.BUTTON_CLICKED, self.OnButtonSpawnSquad, self )
+	self:AddCallback( "radio_commands_ai",	ui_events.TAB_CHANGED,		self.OnRadioCommandChangedAI,	self )
+	self:AddCallback( "radio_commands",	ui_events.TAB_CHANGED,		self.OnRadioCommandChanged,	self )
+end
+
+function UIFactionCommander:SetHint(text, pos)
+	if (text == "") then 
+		return
+	end
+	self.hint_wnd:Show(true)
+	self.hint_wnd_text:SetText(text)
+	self.hint_wnd_text:AdjustHeightToText()
+	self.hint_wnd:SetWndSize(vector2():set(self.hint_wnd:GetWidth(), self.hint_wnd_text:GetHeight() + 44))
+	pos.y = pos.y - self.hint_wnd:GetHeight()
+	pos.x = pos.x - self.hint_wnd:GetWidth()
+	self.hint_wnd:SetWndPos(pos)
+	FitInRect(self.hint_wnd,Frect():set(0,0,1024,768),0,100)
+end
+
+function UIFactionCommander:OnButtonSpawnSquad()
+	local smart = alife_object(smart_terrain.nearest_to_actor_smart.id)
+	local faction = sim_brain.actor_faction
+	if not db.actor:has_perk_211() then
+		db.actor:give_game_news("Faction Commander", "The ability to call reinforcements is not available. Required Skill «Insider»", "ui_icon_news_trx_common", 0, 10000)
+		return
+	end
+	
+	local type = "novice"
+	local money = 1000
+	
+	if db.actor:has_perk_212() then 
+		type = "advanced" 
+		money = 4000
+	end
+	
+	if db.actor:has_perk_213() then 
+		type = "veteran" 
+		money = 9000
+	end
+	
+	local npc_in_smart = sim_smart.npc_count_passive(smart, faction)
+	--printf("npc_in_smart : %s", npc_in_smart)
+	if npc_in_smart >= smart.max_population then
+		db.actor:give_game_news("Faction Commander", "Unable to call a squad. There are already enough people in this region.", "ui_icon_news_trx_common", 0, 10000)
+		return
+	end
+	
+	if db.actor:money() < money then
+		db.actor:give_game_news("Faction Commander", "Not enough money for the transaction.", "ui_icon_news_trx_common", 0, 10000)
+		return
+	end
+	
+	--store_table(SIMBOARD.smarts[smart.id].squads)
+	
+	local squad = alun_utils.create_squad(faction.."_sim_squad_"..type, smart:name())
+	
+	--store_table(SIMBOARD.smarts[smart.id].squads)
+	--printf("squad : %s", squad.current_action)
+	db.actor:give_money(-money)
+	db.actor:give_game_news("Faction Commander", "The squad arrived at the destination. Cost: "..money..".", "ui_icon_news_trx_common", 0, 10000)
+end
+
+function UIFactionCommander:OnKeyboard(dik, keyboard_action)
+	if (dik == DIK_keys.DIK_ESCAPE) then
+		self:HideDialog()
+	end
+end
+
+function UIFactionCommander:OnRadioCommandChanged()
+	local value = self.commands:GetActiveId()
+	self:setValue("command", value )
+end
+
+function UIFactionCommander:OnRadioCommandChangedAI()
+	local value = self.commands_ai:GetActiveId()
+	self:setValue("command_ai", value )
+end

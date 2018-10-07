@@ -1,0 +1,27 @@
+local config = ini_file("rpg.ltx")
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+end
+
+function actor_on_update()
+	if db.actor:get_level() >= 30 then return end
+	
+	local exp_for_up = config:r_float_ex("exp_for_up", db.actor:get_level() + 1)
+	local points = config:r_float_ex("point_for_up", db.actor:get_level() + 1)
+	
+	if db.actor:get_exp() > exp_for_up then
+		db.actor:add_point(points)
+		db.actor:add_level(1)
+		local string, snd
+		if db.actor:get_level() < 30 then
+			snd = [[levelup]]
+			string = "Welcome to the new Level!"
+		elseif db.actor:get_level() == 30 then
+			snd = [[30lvl]]
+			string = "You have reached the maximum level!"
+		end
+		lostpath.play_sound(snd)
+		SetHudMsg(game.translate_string(string),5)
+	end
+end

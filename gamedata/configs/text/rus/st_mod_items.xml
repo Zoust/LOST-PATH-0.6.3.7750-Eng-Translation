@@ -84,13 +84,13 @@
 	
 	<!--Окно ремкомплектов-->
 	<string id="st_no_donor_repair">
-		<text>The item could not be repaired, \ n because you do not have a matching donor.</text>
+		<text>The item could not be repaired,\n because you do not have a matching donor.</text>
 	</string>
 	<string id="st_no_repair_title">
 		<text>Repair failure:</text>
 	</string>
 	<string id="st_no_repair">
-		<text>The item could not be repaired, \ n because it's not in the slot.</text>
+		<text>The item could not be repaired,\n because it's not in the slot.</text>
 	</string>
 	<string id="st_repair_items">
 		<text>Repair</text>

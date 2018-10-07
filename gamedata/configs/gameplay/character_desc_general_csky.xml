@@ -1,0 +1,1563 @@
+	<!--  Clear Sky Rookie  -->
+    <specific_character id="sim_default_csky_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_0</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>4004</rank>
+    <reputation>-1960</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_0</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>5154</rank>
+    <reputation>1630</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_0</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>4464</rank>
+    <reputation>1159</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r_mas2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_gas</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_0</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>3365</rank>
+    <reputation>2195</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r_gas</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_0</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>2819</rank>
+    <reputation>1735</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  Clear Sky Experienced  -->
+    <specific_character id="sim_default_csky_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>9782</rank>
+    <reputation>-1231</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9227</rank>
+    <reputation>272</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>9567</rank>
+    <reputation>-1690</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_a</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>9622</rank>
+    <reputation>-1673</reputation>
+    <visual>actors\stalker_nebo\stalker_neboa2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_2_gas</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9087</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>546</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9032</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1718</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9656</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>587</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_smask1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9983</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1702</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_smask2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_oldgas</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9145</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1482</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_old</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_merc</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9005</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-463</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_merc</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_gp5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9616</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-2076</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_gp5</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9953</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-667</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_1_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_1</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>9528</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>381</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas3</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  Clear Sky Experienced 2  -->
+    <specific_character id="sim_default_csky_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15296</rank>
+    <reputation>-1641</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15814</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_a</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15090</rank>
+    <reputation>-173</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_b</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15513</rank>
+    <reputation>461</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15749</rank>
+    <reputation>-1601</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_b</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+    <specific_character id="sim_default_csky_2_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15703</rank>
+    <reputation>-667</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo2a</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15967</rank>
+    <reputation>-147</reputation>
+    <visual>actors\stalker_nebo\stalker_nebob2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15739</rank>
+    <reputation>1093</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo2b</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>15447</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>908</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>15266</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>705</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_smask1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>16919</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1746</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_smask2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_oldgas</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15303</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-979</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_old</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_merc</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15444</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1546</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_merc</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_13" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_gp5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>15169</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>2351</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_gp5</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_14" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>15966</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1636</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_15" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>15804</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-1313</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas3</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_16" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_neboa2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_17" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_18" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_19" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_20" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_21" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask3</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_22" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask4</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_csky_2_default_23" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_15_mask5</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_24" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_25" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_26" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_27" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_28" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask3</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_2_default_29" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask4</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+	<specific_character id="sim_default_csky_2_default_30" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_2</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>15007</rank>
+    <reputation>-108</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_16_mask5</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+	<!--  Clear Sky Veteran  -->
+    <specific_character id="sim_default_csky_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18832</rank>
+    <reputation>-291</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18677</rank>
+    <reputation>-1991</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_3</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18197</rank>
+    <reputation>1018</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo2a</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18103</rank>
+    <reputation>383</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo3a</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18062</rank>
+    <reputation>-2173</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo2b</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18538</rank>
+    <reputation>720</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo3b</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18671</rank>
+    <reputation>2040</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_seva_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18245</rank>
+    <reputation>712</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_seva_2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+	<specific_character id="sim_default_csky_3_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>18219</rank>
+    <reputation>837</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_20</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_3_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_3</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>5219</rank>
+    <reputation>837</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_19</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    
+    
+    <!--  Clear Sky Master  -->
+    <specific_character id="sim_default_csky_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_blue_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>20404</rank>
+    <reputation>1028</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_13</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_blue_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>20449</rank>
+    <reputation>2433</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_11</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>19837</rank>
+    <reputation>-1642</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_19</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>19083</rank>
+    <reputation>-1183</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_20</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>20444</rank>
+    <reputation>-1403</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_seva_2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>21583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_exo_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>21583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\stalker_nebo\stalker_csky_exo_1</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_csky_4_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>21583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\stalker_nebo\stalker_csky_exo_2</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    	
+	<specific_character id="sim_default_csky_4_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>19583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_12</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+		
+	<specific_character id="sim_default_csky_4_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>19583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_14</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_csky_4_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nebo_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_csky_4</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>19583</rank>
+    <reputation>-1481</reputation>
+    <visual>actors\my\seva_csky</visual>
+    <supplies>
+#include "gameplay\loadouts\csky\base.ltx"
+#include "gameplay\loadouts\csky\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

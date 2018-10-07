@@ -1,0 +1,102 @@
+--[[ -----------------------------------
+ #  Модуль сервоприводов
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 26.11.2017
+ #  file   : lostpath_exo.script 
+]]-- -----------------------------------
+
+--[[
+ # TODO
+ # Расширение для костюмов
+ # с замкнутой системой дыхания
+]]--
+
+local config = ini_file("rpg.ltx")
+
+function actor_on_item_use(item)
+	if item:section() == 'itm_servoprivod' then
+		if db.actor:get_level_intellect() < 3 then
+			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Your knowledge is not enough to work with this subject."))
+			give_object_to_actor("itm_servoprivod", 1)
+			return
+		else
+			servoprivod_equip()
+		end
+	elseif item:section() == 'itm_rem_serv' then
+		if db.actor:get_level_intellect() < 3 then
+			ui_dyn_msg_box.msg_box_ui("message_box_ok",true,game.translate_string("Your knowledge is not enough to work with this subject."))
+			give_object_to_actor("itm_rem_serv", 1)
+			return
+		else
+			servoprivod_drop()
+		end
+	end
+end
+
+function servoprivod_equip()
+	local actor = db.actor
+	local armor = actor:item_in_slot(7)
+	local luck = math.random(1, 100)
+	local intellect_bonus = config:r_float_ex("intellect_bonus", db.actor:get_level_intellect())
+	
+	if not armor then 
+		give_object_to_actor("itm_servoprivod")
+		return
+	end
+	
+	if (luck + intellect_bonus) < 75 then
+		SetHudMsg(game.translate_string("Luck!"),5)
+		return
+	end
+	
+	local arm_sec = armor:section()
+	local arm_new_sec = arm_sec
+	
+	if system_ini():r_string_ex(arm_sec,"can_serv","") == "installing" then
+		if string.find(arm_sec, "radiation") then
+			arm_new_sec = string.gsub(arm_sec, "radiation", "exo")
+		elseif not string.find(arm_sec, "proto") then 
+			arm_new_sec = arm_sec.."_proto"
+		end
+		lostpath_montage.start(arm_sec, arm_new_sec, armor)
+	else
+		lostpath_montage.error()
+	end
+end
+
+function servoprivod_drop()
+	local actor = db.actor
+	local armor = actor:item_in_slot(7)
+	local luck = math.random(1, 100)
+	local intellect_bonus = config:r_float_ex("intellect_bonus", db.actor:get_level_intellect())
+	
+	if not armor then 
+		give_object_to_actor("itm_servoprivod")
+		return
+	end
+	
+	if (luck + intellect_bonus) < 75 then
+		SetHudMsg(game.translate_string("Luck!"),5)
+		return
+	end
+	
+	local arm_sec = armor:section()
+	local arm_new_sec = arm_sec
+	
+	if system_ini():r_string_ex(arm_sec,"can_serv","") == "installed" then
+		if string.find(arm_sec, "proto") then 
+			arm_new_sec = string.gsub(arm_sec, "_proto", "")
+		elseif string.find(arm_sec, "exo") then
+			arm_new_sec = string.gsub(arm_sec, "exo", "radiation")
+		end
+		lostpath_demontage.start(arm_sec, arm_new_sec, armor)
+	else
+		lostpath_demontage.error()
+	end
+	
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_item_use",actor_on_item_use) 
+end

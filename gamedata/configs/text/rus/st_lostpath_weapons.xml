@@ -14,7 +14,7 @@
 <text>Axe</text>
 </string>
 <string id="st_axe_descr">
-<text>\n \n%c[0,170,170,170]Axe - a tool used for thousands of years working with wood. In the FDS is used by stalkers for chopping firewood, rarely for finishing large mutants. Is a formidable weapon in the hands of a Stalker. \n \n%c[0,170,170,170]FEATURES:\n%c[0,153,255,255] • %c[0,140,140,140] melee weapons\n%c[0,153,255,255] • %c[0,140,140,140] universal application\n%c[0,204,0,51] • %c[0,140,140,140] is not suitable for cutting mutants</text>
+<text>\n\n%c[0,170,170,170]Axe - a tool used for thousands of years working with wood. In the FDS is used by stalkers for chopping firewood, rarely for finishing large mutants. Is a formidable weapon in the hands of a Stalker.\n\n%c[0,170,170,170]FEATURES:\n%c[0,153,255,255] • %c[0,140,140,140] melee weapons\n%c[0,153,255,255] • %c[0,140,140,140] universal application\n%c[0,204,0,51] • %c[0,140,140,140] is not suitable for cutting mutants</text>
 </string>
  <string id="st_wpn_vintorez_sk1">
 <text>VSS Vintorez "Kink"</text>

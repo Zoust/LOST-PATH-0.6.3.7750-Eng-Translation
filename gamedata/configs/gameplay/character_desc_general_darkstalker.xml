@@ -1,0 +1,365 @@
+	<!-- darkstalker novice -->
+	<specific_character id="sim_default_darkstalker_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_0</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>4000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_krovosos\krovosos_in_black_plash</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_0</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>4000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_5</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_0</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>4000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_2</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<!-- darkstalker experience -->
+	<specific_character id="sim_default_darkstalker_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_1</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>10000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_3</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_1</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>10000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_krovosos\krovosos_in_brown_plash</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_1</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>10000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_monolith\monolith_shadow</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<!-- darkstalker professional -->
+	<specific_character id="sim_default_darkstalker_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_2</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>15000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_3</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_2</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>15000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_krovosos\krovosos_in_brown_plash</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_2</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>15000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_3</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<!-- darkstalker veteran -->
+	<specific_character id="sim_default_darkstalker_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_3</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>18000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_krovosos\krovosos_in_black_plash</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_3</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>18000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\dark_stalker\dark_stalker_3</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+
+	<specific_character id="sim_default_darkstalker_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_3</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>18000</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_monolith\monolith_shadow</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<!-- darkstalker master -->
+	<specific_character id="sim_default_darkstalker_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_darkk</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_4</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>21981</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\npc_controler</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_darkstalker_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_darkk</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_4</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>21984</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\npc_controler</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+
+	<specific_character id="sim_default_darkstalker_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_dark6</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_darkstalker_4</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\darkstalker\</snd_config>
+    <rank>21295</rank>
+    <money min="2500" max="5000" infinitive="0"/>
+    <reputation>2000</reputation>
+    <visual>actors\stalker_neutral\stalker_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\darkstalker\base.ltx"
+#include "gameplay\loadouts\darkstalker\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_dialogs_wth_darkstalker.xml"
+    </specific_character>
+	

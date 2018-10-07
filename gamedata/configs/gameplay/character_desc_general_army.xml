@@ -1,0 +1,1685 @@
+	<!--  military novice  -->
+    <specific_character id="sim_default_military_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo_paint</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6521</rank>
+    <reputation>-2421</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_1</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo_paint</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6902</rank>
+    <reputation>1929</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_1</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6714</rank>
+    <reputation>2422</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1b</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6555</rank>
+    <reputation>174</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1c</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6876</rank>
+    <reputation>-1333</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1d</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_5" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo_paint</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6595</rank>
+    <reputation>567</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1e</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_6" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6839</rank>
+    <reputation>-2370</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1f</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_0_default_7" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_0</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>6088</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier1g</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_a.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  military expirienced  -->
+    <specific_character id="sim_default_military_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_1</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>9828</rank>
+    <reputation>1070</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_26_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_b.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_1</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>9597</rank>
+    <reputation>-1786</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_26</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_b.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  military expirienced 2  -->
+    <specific_character id="sim_default_military_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_2</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>13435</rank>
+    <reputation>298</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_57</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_b.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_2</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>14715</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_58</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_b.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  military veteran  -->
+    <specific_character id="sim_default_military_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>19009</rank>
+    <reputation>9457</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_49</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19395</rank>
+    <reputation>-968</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_48</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19409</rank>
+    <reputation>245</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_47</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_sci</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19384</rank>
+    <reputation>1570</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_37</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19705</rank>
+    <reputation>1990</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_5" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19188</rank>
+    <reputation>1781</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_mask1</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_6" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19296</rank>
+    <reputation>-1734</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_mask2</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_7" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>19294</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_respirator</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_8" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19184</rank>
+    <reputation>-754</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_31_respirator</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_9" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19223</rank>
+    <reputation>-562</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_35_respirator</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_10" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19751</rank>
+    <reputation>414</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_17</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_11" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19257</rank>
+    <reputation>623</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_16</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_12" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19436</rank>
+    <reputation>452</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_15</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_13" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_sci</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19603</rank>
+    <reputation>1953</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_30</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_14" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_14</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19434</rank>
+    <reputation>-2307</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_14</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_15" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_13</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19752</rank>
+    <reputation>-2284</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_13</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_16" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_12</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19394</rank>
+    <reputation>-351</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_12</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_17" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_13</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>18822</rank>
+    <reputation>1314</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_11</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_18" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19136</rank>
+    <reputation>-2346</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_10</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_19" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19721</rank>
+    <reputation>-1151</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_8</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_20" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_seva</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19191</rank>
+    <reputation>-2322</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_7</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+   
+	<specific_character id="sim_default_military_3_default_21" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_19_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_22" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_19</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+    <specific_character id="sim_default_military_3_default_23" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>16677</rank>
+    <reputation>4483</reputation>
+    <visual>actors\stalker_soldier\stalker_army_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_24" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_sci</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19850</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_60</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_3_default_25" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>17837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_34</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+	<specific_character id="sim_default_military_3_default_26" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_army_scientific</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_army_nauchniy</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_27" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_12</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_neutral_reinforced</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_28" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_25</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_29" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_25_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_30" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_25_face</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>>
+	
+	<specific_character id="sim_default_military_3_default_31" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19837</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_23_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_32" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_23</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_33" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_22_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_34" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_22</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_35" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_21_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_36" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_21</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_37" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_20_mask</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_3_default_38" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_military_3</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>19454</rank>
+    <reputation>1920</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_20</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_c.xml"
+    </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <!--  military master  -->
+    <specific_character id="sim_default_military_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21000</rank>
+    <reputation>2346</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21051</rank>
+    <reputation>94</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21406</rank>
+    <reputation>2315</reputation>
+    <visual>actors\stalker_soldier\stalker_military_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>22510</rank>
+    <reputation>-183</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_5</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_4" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21150</rank>
+    <reputation>-1226</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_5</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_5" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>23159</rank>
+    <reputation>-1301</reputation>
+    <visual>actors\stalker_soldier\stalker_military_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_6" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21641</rank>
+    <reputation>-1003</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier4a</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_7" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21905</rank>
+    <reputation>-1801</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier4a</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_8" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21894</rank>
+    <reputation>-1138</reputation>
+    <visual>actors\stalker_soldier\stalker_military_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_9" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21694</rank>
+    <reputation>1674</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier5a</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_10" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21145</rank>
+    <reputation>-2469</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier5a</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_military_4_default_11" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21700</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_military_exo</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_12" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_army_exo_proto_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21385</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_9_proto</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_13" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_army_exo_proto_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21285</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_strela.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+	<specific_character id="sim_default_military_4_default_14" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_army_exo_proto_skat</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>20785</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_2</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_strela.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_15" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21782</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_strela\stalker_merc_specnaz</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_16" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21735</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_strela\stalker_merc_vdv</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_17" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_36</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21781</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_strela.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_18" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21785</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_como\stalker_como_tigra</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_como.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_19" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_nodata_army</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21785</rank>
+    <reputation>2191</reputation>
+    <visual>actors\stalker_como\stalker_como_voeni</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_como.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+	
+	<specific_character id="sim_default_military_4_default_20" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_sci</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_4</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>21001</rank>
+    <reputation>2191</reputation>
+    <visual>actors\my\seva_soldier</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_4.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <!--  military sniper  -->
+    <specific_character id="sim_default_military_3_default_sniper" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_military_3_sniper</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>18000</rank>
+    <reputation>256</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2</visual>
+    <supplies>
+#include "gameplay\loadouts\army\base.ltx"
+#include "gameplay\loadouts\army\tier_s.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_s.xml"
+    </supplies>
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    

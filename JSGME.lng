@@ -1,6 +1,6 @@
 [Info]
 Language=English
-Translator=Zoust (www.moddb.com/members/zoust), demer (www.sacred.net.ru)
+Translator=Zoust, demer (www.sacred.net.ru)
 Version=2.6.0z
 
 [frmMFNm]
@@ -91,7 +91,7 @@ strCannotBeDisabled="%0:s" can not be disabled, because when mod %1:s was instal
 strNoInstLogTitle=Problem with disabling the mod
 strNoInstLog=Can not find the installation log for the mod "%s". Files can not be deleted from the game folder! Do you want to delete this mod from the active list?
 strAlreadyAltered="%0:s" has already been changed by the mod "%1:s".
-strAlreadyAdded=ΓΓ Γ―ΓªΓ  "%0:s" has already been added by mod "%1:s".
+strAlreadyAdded=Οΰοκΰ "%0:s" has already been added by mod "%1:s".
 strDisableAllMods=Are you sure you want to disable all active mods?
 strReplaceSnapshotTitle=Generate informations about the files structure
 strReplaceSnapshot=Informations about the file structure already exists. Are you sure you want to replace them?

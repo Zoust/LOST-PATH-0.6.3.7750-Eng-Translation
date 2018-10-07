@@ -1,0 +1,342 @@
+<!-------------------------ECOLOG------------------------------>
+    <specific_character id="sim_default_ecolog_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_orange</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>4238</rank>
+    <reputation>-400</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog</visual>
+    <snd_config>characters_voice\human_01\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>4270</rank>
+    <reputation>-370</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_blue</visual>
+    <snd_config>characters_voice\human_01\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_brown</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>4408</rank>
+    <reputation>-2202</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_brown</visual>
+    <snd_config>characters_voice\human_02\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_green</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>4213</rank>
+    <reputation>-2244</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_military</visual>
+    <snd_config>characters_voice\human_02\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_white</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>8746</rank>
+    <reputation>-1001</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_white</visual>
+    <snd_config>characters_voice\human_02\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_0_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_yellow</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Member of mobile science camp. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9458</rank>
+    <reputation>487</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_yellow</visual>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_0.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  Ecolog Guides 1  -->
+    <specific_character id="sim_default_ecolog_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Researcher. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_1</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9536</rank>
+    <reputation>-1655</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_medic</visual>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Researcher. Detailed information is missing.</bio>
+    <class>sim_default_ecolog_1</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9757</rank>
+    <reputation>419</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog</visual>
+    <snd_config>characters_voice\human_01\newbie\</snd_config>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_1</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>9526</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-542</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_2_blue_2</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_1_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_1</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>9526</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-542</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_2_blue</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_1.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_1.xml"
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  Ecolog Guides 2  -->
+    <specific_character id="sim_default_ecolog_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nodata_ecolog</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_2</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>14259</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>1485</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_4_light</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_2.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_2</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>15247</rank>
+    <money min="250" max="1750" infinitive="0"/>
+    <reputation>1795</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog_1</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_2.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_2</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>14369</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>2018</reputation>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog_2</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_2.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_2.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  Ecolog Guides 3  -->
+    <specific_character id="sim_default_ecolog_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nodata_ecolog</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_3</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>18097</rank>
+    <reputation>-811</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_02_02_01</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_items_e.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ecolog_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_nodata_ecolog</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>An experienced stalker. No other information available.</bio>
+    <class>sim_default_ecolog_3</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\newbie\</snd_config>
+    <rank>16147</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>1960</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_02_01_02</visual>
+    <supplies>
+#include "gameplay\loadouts\ecolog\base.ltx"
+#include "gameplay\loadouts\ecolog\tier_3.ltx"
+		[spawn] \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_3.xml"
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_items_e.xml"
+    </specific_character>
+    	

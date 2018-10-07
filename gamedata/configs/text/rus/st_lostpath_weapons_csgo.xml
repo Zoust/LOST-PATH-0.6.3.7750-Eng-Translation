@@ -34,13 +34,13 @@
 		<text>AK 47</text>
 	</string>
 	<string id="st_wpn_ak127_descr">
-		<text>\n%c[255,1,255,255] •% c[default] Old shabby AK-47 \n Occurs in the Zone with updated appearance and technical improvements: \n \n \n%c[255,1,255,255] •%c[ default] Aquamarine Revenge (Stalkers): Increased 5-round magazine, increased damage and caliber: 5.56x45 \n \n \n%c[255,1,255,255] •%c[default] Cartel (Bandits): Changing the caliber to 5.45x39 \n \n \n%c[255,1,255,255] •%c[default] Elite equipment (Duty): Changing the caliber to 9x39, increased damage \n \n \n%c[255,1,255,255] •%c[default ] Emerald Swirls (Bandits) \n \n \n%c[255,1,255,255] •%c[default] Fire Serpent (Clear Sky): Increased the 15-round magazine, increased damage, caliber change 5.45x39 \n \n \n%c [255,1,255,255] •%c[default] Snow Vortex (Clear Sky): increased store for 10 rounds, increased damage, 9x39 caliber change \n \n \n%c[255,255,255] •%c[default] Jaguar (Monolith): Increased damage, enlarged store by 15 bullets \n \n \n%c[255,1,255,255] •%c[default] Red Line (Duty): Increased damage, enlarged magazine for 15 cartridges, change of caliber to 9x39 \n \n \n%c[255,1,255,255] •%c[default] Volcano (Freedom): increased damage, increased store by 15 bullets, change of caliber to 5.56x45 \n \n \n%c[255,1,255,255] •%c[default] Deserted rebel (Mercenaries): increased damage, increased store by 15 rounds, shifts but the caliber of 9x39</text>
+		<text>\n%c[255,1,255,255] •% c[default] Old shabby AK-47\n Occurs in the Zone with updated appearance and technical improvements:\n\n\n%c[255,1,255,255] •%c[ default] Aquamarine Revenge (Stalkers): Increased 5-round magazine, increased damage and caliber: 5.56x45\n\n\n%c[255,1,255,255] •%c[default] Cartel (Bandits): Changing the caliber to 5.45x39\n\n\n%c[255,1,255,255] •%c[default] Elite equipment (Duty): Changing the caliber to 9x39, increased damage\n\n\n%c[255,1,255,255] •%c[default ] Emerald Swirls (Bandits)\n\n\n%c[255,1,255,255] •%c[default] Fire Serpent (Clear Sky): Increased the 15-round magazine, increased damage, caliber change 5.45x39\n\n\n%c [255,1,255,255] •%c[default] Snow Vortex (Clear Sky): increased store for 10 rounds, increased damage, 9x39 caliber change\n\n\n%c[255,255,255] •%c[default] Jaguar (Monolith): Increased damage, enlarged store by 15 bullets\n\n\n%c[255,1,255,255] •%c[default] Red Line (Duty): Increased damage, enlarged magazine for 15 cartridges, change of caliber to 9x39\n\n\n%c[255,1,255,255] •%c[default] Volcano (Freedom): increased damage, increased store by 15 bullets, change of caliber to 5.56x45\n\n\n%c[255,1,255,255] •%c[default] Deserted rebel (Mercenaries): increased damage, increased store by 15 rounds, shifts but the caliber of 9x39</text>
 	</string>
 	<string id="st_wpn_ak127_aquamarinerevenge">
 		<text>AK 47 "Aquamarine revenge"</text>
 	</string>
 	<string id="st_wpn_ak127_aquamarinerevenge_descr">
-		<text>\n%c[255,1,255,255] •%c[default] Camouflage "Aquamarine Revenge" \n%c[255,1,255,255] •%c[default] Increased the store by 5 cartridges \n%c[255,1,255,255] •%c[default] Increased damage by 6.66% \n%c[255,1,255,255] •%c[default] Changing the caliber to 5.56x45</text>
+		<text>\n%c[255,1,255,255] •%c[default] Camouflage "Aquamarine Revenge"\n%c[255,1,255,255] •%c[default] Increased the store by 5 cartridges\n%c[255,1,255,255] •%c[default] Increased damage by 6.66%\n%c[255,1,255,255] •%c[default] Changing the caliber to 5.56x45</text>
 	</string>
 	<string id="st_wpn_ak127_cartel">
 		<text>AK 47 "Cartel"</text>
@@ -52,7 +52,7 @@
 		<text>AK 47 "Elite outfit"</text>
 	</string>
 	<string id="st_wpn_ak127_elitebuild_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Elite outfit"\n \n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39 \n%c[255,1,255,255]•%c[default] Increased damage by 10%</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Elite outfit"\n\n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39\n%c[255,1,255,255]•%c[default] Increased damage by 10%</text>
 	</string>
 	<string id="st_wpn_ak127_emeraldpinstripe">
 		<text>AK 47 "Emerald curls"</text>
@@ -64,37 +64,37 @@
 		<text>AK 47 "The Fiery Serpent"</text>
 	</string>
 	<string id="st_wpn_ak127_fireserpent_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "The Fire Serpent"\n%c[255,1,255,255]•%c[default] Increased damage by 5% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 5.45x39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "The Fire Serpent"\n%c[255,1,255,255]•%c[default] Increased damage by 5%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges\n%c[255,1,255,255]•%c[default] Changing the caliber to 5.45x39</text>
 	</string>
 	<string id="st_wpn_ak127_frontsidemisty">
 		<text>AK 47 "Snow whirlwind"</text>
 	</string>
 	<string id="st_wpn_ak127_frontsidemisty_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Snow whirlwind"\n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 10 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Snow whirlwind"\n%c[255,1,255,255]•%c[default] Increased damage by 10%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 10 cartridges\n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
 	</string>
 	<string id="st_wpn_ak127_jaguar">
 		<text>AK 47 "Jaguar"</text>
 	</string>
 	<string id="st_wpn_ak127_jaguar_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Jaguar" \n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Jaguar"\n%c[255,1,255,255]•%c[default] Increased damage by 10%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges</text>
 	</string>
 	<string id="st_wpn_ak127_redline">
 		<text>AK 47 "Red line"</text>
 	</string>
 	<string id="st_wpn_ak127_redline_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage Red Line\n%c[255,1,255,255]•%c[default] Increased damage by 20% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage Red Line\n%c[255,1,255,255]•%c[default] Increased damage by 20%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges\n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
 	</string>
 	<string id="st_wpn_ak127_vulcan">
 		<text>AK 47 "Valcano"</text>
 	</string>
 	<string id="st_wpn_ak127_vulcan_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Volcano"\n%c[255,1,255,255]•%c[default] Increased damage by 10% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Volcano"\n%c[255,1,255,255]•%c[default] Increased damage by 10%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges\n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
 	</string>
 	<string id="st_wpn_ak127_wastelandrebel">
 		<text>AK 47 "The Deserted Rebel"</text>
 	</string>
 	<string id="st_wpn_ak127_wastelandrebel_descr">
-		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Deserted Rebel"\n%c[255,1,255,255]•%c[default] Increased damage by 20% \n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges \n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
+		<text>\n%c[255,1,255,255]•%c[default] Camouflage "Deserted Rebel"\n%c[255,1,255,255]•%c[default] Increased damage by 20%\n%c[255,1,255,255]•%c[default] Enlarged magazine for 15 cartridges\n%c[255,1,255,255]•%c[default] Changing the caliber to 9x39</text>
 	</string>
 	<string id="st_wpn_m4a4_asiimov">
 		<text>M4A4 "Azimov"</text>

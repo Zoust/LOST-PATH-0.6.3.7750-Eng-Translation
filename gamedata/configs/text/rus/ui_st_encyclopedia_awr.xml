@@ -10,7 +10,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_1_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94 (camouflaged)\n
@@ -62,7 +62,7 @@
 	%c[0,100,100,255]Х %c[0,140,140,140] AKS-74 (worn)\n
 	%c[0,100,100,255]Х %c[0,140,140,140] OC-14-1a Groza-1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PKM\n
-	%c[0,100,100,255]Х %c[0,140,140,140] Zulu's PKM \n
+	%c[0,100,100,255]Х %c[0,140,140,140] Zulu's PKM\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PKP Pecheng\n
 	%c[0,100,100,255]Х %c[0,140,140,140] RPK\n
 	%c[0,100,100,255]Х %c[0,140,140,140] RPK-74\n
@@ -89,7 +89,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_2_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] 9A-91\n
 	%c[0,100,100,255]Х %c[0,140,140,140] OC-14-4A\n
@@ -113,7 +113,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_3_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Steyr AUG A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Steyr AUG A1 (custom)\n
@@ -181,7 +181,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_4_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] SKS-45\n
 	%c[0,100,100,255]Х %c[0,140,140,140] SKS-45 (modernized)\n
@@ -200,7 +200,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_5_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] HK G3\n
 	%c[0,100,100,255]Х %c[0,140,140,140] HK G3 (worn)\n
@@ -224,7 +224,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_6_text">
 	<text>\n%c[0,93,0,116]Used with:  
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 43\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 98 "Kurz"\n
@@ -247,7 +247,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_10_text">
 	<text>\n%c[0,143, 188, 143]Sliding bolt with sliding lock [NATO] used in: 
-	\n \n
+	\n\n
 
 	%c[0,215,215,215]Х %c[0,140,140,140] Galil ACE-21\n
 	%c[0,215,215,215]Х %c[0,140,140,140] Galil AR\n
@@ -264,7 +264,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_11_text">
 	<text>\n%c[0,143, 188, 143]Longitudinal sliding sliding shutter [PP] is used in: 
-	\n \n
+	\n\n
 
 	%c[0,215,215,215]Х %c[0,140,140,140] PP-19 "Buffalo"\n
 	%c[0,215,215,215]Х %c[0,140,140,140] OC-02 "Cypress"\n
@@ -294,7 +294,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_7_text">
 	<text>\n%c[0,143, 188, 143]A lever type lock with a wedge lock, used in: 
-	\n \n
+	\n\n
 
 	%c[0,215,215,215]Х %c[0,140,140,140] Mossberg 590A1\n
 	%c[0,215,215,215]Х %c[0,140,140,140] Mossberg 590A1 (worn out)\n
@@ -323,7 +323,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_2_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1 (worn)\n
@@ -343,7 +343,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_1_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] MP-153\n
 	%c[0,100,100,255]Х %c[0,140,140,140] MP-153 (rusty)\n
@@ -366,7 +366,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_3_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] SKS-45\n
 	%c[0,100,100,255]Х %c[0,140,140,140] SKS-45 (modernized)\n
@@ -387,7 +387,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_4_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] 9A-91\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PP-19 Bizon\n
@@ -432,7 +432,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_5_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94 (camouflaged)\n
@@ -504,7 +504,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_6_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Galil ACE-21\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Steyr AUG A1\n
@@ -580,7 +580,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_7_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] M249 SAW\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PKM\n
@@ -595,7 +595,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_11_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] MP5A3\n
 	%c[0,100,100,255]Х %c[0,140,140,140] MP5A3 (alternative)\n
@@ -614,7 +614,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_8_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 43\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 98 "Kurz"\n
@@ -636,7 +636,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_8_text">
 	<text>\n%c[0,143, 188, 143] олодка от бокфлинта [–] используетс€ в: 
-	\n \n
+	\n\n
 
 	%c[0,215,215,215]Х %c[0,140,140,140] Tќ«-34\n
 	%c[0,215,215,215]Х %c[0,140,140,140] Tќ«-34 (custom)\n
@@ -658,7 +658,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_carrier_9_text">
 	<text>\n%c[0,143, 188, 143]The pad from the hatch [R] is used in: 
-	\n \n
+	\n\n
 
 	%c[0,215,215,215]Х %c[0,140,140,140] “ќ«-66 (obrez)\n
 	%c[0,215,215,215]Х %c[0,140,140,140] “ќ«-66 (improved obrez)\n
@@ -677,7 +677,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_9_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34 (custom)\n
@@ -699,7 +699,7 @@
 	</string>
 	<string id="encyclopedia_awr_gas_tube_10_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (obrez)\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (refined obrez)\n
@@ -718,7 +718,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_1_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34 (custom)\n
@@ -740,7 +740,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_2_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (obrez)\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (refined obrez)\n
@@ -759,7 +759,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_3_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1 (worn)\n
@@ -791,7 +791,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_4_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] L96A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] L96A1 (worn)\n
@@ -821,7 +821,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_5_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 43\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 98 "Kurz"\n
@@ -834,7 +834,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_6_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] MP5SD\n
 	%c[0,100,100,255]Х %c[0,140,140,140] MP5SD (custom)\n
@@ -859,7 +859,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_7_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Galil ACE-21\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AK\n
@@ -905,7 +905,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_8_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94 (camouflaged)\n
@@ -953,7 +953,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_9_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AK-101\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AK-101 (camouflaged)\n
@@ -1020,7 +1020,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_10_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] PKM\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Zulu's PKM\n
@@ -1034,7 +1034,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_11_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] 9A-91\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PP-19 Bizon\n
@@ -1067,7 +1067,7 @@
 	</string>
 	<string id="encyclopedia_awr_barrel_12_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] PPSh-41\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PPSh-41 (camouflaged)\n
@@ -1083,7 +1083,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_1_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1 (worn)\n
@@ -1111,7 +1111,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_2_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] M249 SAW\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PKM\n
@@ -1126,7 +1126,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_3_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Saiga-12S\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Saiga-12S (worn)\n
@@ -1141,7 +1141,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_4_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 43\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 98 "Kurz"\n
@@ -1171,7 +1171,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_5_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] SVD\n
 	%c[0,100,100,255]Х %c[0,140,140,140] SVD (Modified)\n
@@ -1192,7 +1192,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_6_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94 (camouflaged)\n
@@ -1255,7 +1255,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_7_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] 9A-91\n
 
@@ -1267,7 +1267,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_8_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] OC-14-4A\n
 	%c[0,100,100,255]Х %c[0,140,140,140] OC-14-1a Groza-1\n
@@ -1295,7 +1295,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_9_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] FN F2000\n
 	%c[0,100,100,255]Х %c[0,140,140,140] FN F2000 (camouflaged)\n
@@ -1353,7 +1353,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_10_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Steyr AUG A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Steyr AUG A1 (custom)\n
@@ -1370,7 +1370,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_11_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-34 (custom)\n
@@ -1392,7 +1392,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_12_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (obrez)\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (refined obrez)\n
@@ -1411,7 +1411,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_13_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Galil ACE-21\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Galil AR\n
@@ -1427,7 +1427,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_14_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] HK G3\n
 	%c[0,100,100,255]Х %c[0,140,140,140] HK G3 (worn)\n
@@ -1451,7 +1451,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_15_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] PP-19 Bizon\n
 	%c[0,100,100,255]Х %c[0,140,140,140] OC-02 Kiparis\n
@@ -1473,7 +1473,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_16_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Ќ  UMP 45\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Ќ  UMP 45 (custom)\n
@@ -1487,7 +1487,7 @@
 	</string>
 	<string id="encyclopedia_awr_bolt_17_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] PPSh-41\n
 	%c[0,100,100,255]Х %c[0,140,140,140] PPSh-41 (camouflaged)\n
@@ -1503,7 +1503,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_1_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Mossberg 590A1 (worn)\n
@@ -1552,7 +1552,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_2_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] 9A-91\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Galil ACE-21\n
@@ -1677,7 +1677,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_3_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AN-94 (camouflaged)\n
@@ -1730,7 +1730,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_4_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 43\n
 	%c[0,100,100,255]Х %c[0,140,140,140] Karabiner 98 "Kurz"\n
@@ -1752,7 +1752,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_5_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] AS Val\n
 	%c[0,100,100,255]Х %c[0,140,140,140] AS Val (modernized)\n
@@ -1772,7 +1772,7 @@
 	</string>
 	<string id="encyclopedia_awr_trigger_components_6_text">
 	<text>\n%c[0,93,0,116]Used with: 
-	\n \n
+	\n\n
 
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (obrez)\n
 	%c[0,100,100,255]Х %c[0,140,140,140] TOZ-66 (refined obrez)\n

@@ -4,7 +4,7 @@
 		<text>Loner</text>
 	</string>
 	<string id="st_faction_stalker_desc">
-		<text>%c[0,245,245,220]Loners, or free stalkers, are unaligned with any of the factions that operate within the Zone.\n \nDespite being frequently harassed by mutants and other stalkers, small groups have managed to establish strong trading outposts throughout the Zone.</text>
+		<text>%c[0,245,245,220]Loners, or free stalkers, are unaligned with any of the factions that operate within the Zone.\n\nDespite being frequently harassed by mutants and other stalkers, small groups have managed to establish strong trading outposts throughout the Zone.</text>
 	</string>
 	<string id="st_faction_bandit">
 		<text>Bandit</text>
@@ -16,7 +16,7 @@
 		<text>Duty</text>
 	</string>
 	<string id="st_faction_dolg_desc">
-		<text>%c[0,245,245,220]Duty is a paramilitary faction at odds with everyone seeking to exploit the Zone and, as Duty sees it, spread its corruption.\n \nThey have long been in fierce conflict with Freedom due to their conflicting ideals.</text>
+		<text>%c[0,245,245,220]Duty is a paramilitary faction at odds with everyone seeking to exploit the Zone and, as Duty sees it, spread its corruption.\n\nThey have long been in fierce conflict with Freedom due to their conflicting ideals.</text>
 	</string>
 	<string id="st_faction_freedom">
 		<text>Freedom</text>
@@ -46,19 +46,19 @@
 		<text>Monolith</text>
 	</string>
 	<string id="st_faction_monolith_desc">
-		<text>%c[0,245,245,220]Monolith are a fanatical religious cult hostile to all but their own.\n \nDespite the destruction of the C-Conciousness they have since re-emerged as a resurgent force, retaking many of their former territories.</text>
+		<text>%c[0,245,245,220]Monolith are a fanatical religious cult hostile to all but their own.\n\nDespite the destruction of the C-Conciousness they have since re-emerged as a resurgent force, retaking many of their former territories.</text>
 	</string>
 	<string id="st_faction_csky">
 		<text>Clear Sky</text>
 	</string>
 	<string id="st_faction_csky_desc">
-		<text>%c[0,245,245,220]Clear Sky is an independent scientific and military organisation focused on researching and understanding the Zone.\n \nFacing almost complete collapse after a failed and costly assault on Chernobyl NPP, a handful of the few remaining survivors managed to rebuild the faction to its former stature.</text>
+		<text>%c[0,245,245,220]Clear Sky is an independent scientific and military organisation focused on researching and understanding the Zone.\n\nFacing almost complete collapse after a failed and costly assault on Chernobyl NPP, a handful of the few remaining survivors managed to rebuild the faction to its former stature.</text>
 	</string>
 	<string id="st_faction_zombied">
 		<text>Zombified</text>
 	</string>
 	<string id="st_faction_zombied_desc">
-		<text>%c[0,245,245,220]Braaaiiinnnsss!!!\n \nZombified stalkers are mindless husks of their previous selves reduced to their most basic animal-like instincts and will attack almost anything that gets too close.</text>
+		<text>%c[0,245,245,220]Braaaiiinnnsss!!!\n\nZombified stalkers are mindless husks of their previous selves reduced to their most basic animal-like instincts and will attack almost anything that gets too close.</text>
 	</string>
 	<string id="st_mm_faction_back">
 		<text>Back</text>

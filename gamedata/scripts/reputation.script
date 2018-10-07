@@ -1,0 +1,152 @@
+class "Reputation" (CUIScriptWnd)
+
+function Reputation:__init() super()
+	self:InitControls()
+	self:InitCallBacks()
+end
+
+function Reputation:__finalize()
+end
+
+function Reputation:InitControls()
+	local xml = CScriptXmlInit()
+	self:SetWndRect(Frect():set(0,0,1024,768))
+	self:Enable					(true)
+	xml:ParseFile("Reputation.xml")
+	self.background = xml:InitStatic("background", self)
+	xml:InitFrame("background:frame", self.background)
+	self:Register(xml:Init3tButton("background:button1", self.background), "button1")
+	self:Register(xml:Init3tButton("background:button2", self.background), "button2")
+	self:Register(xml:Init3tButton("background:button3", self.background), "button3")
+	self:Register(xml:Init3tButton("background:button4", self.background), "button4")
+	self:Register(xml:Init3tButton("background:button5", self.background), "button5")
+	self:Register(xml:Init3tButton("background:button6", self.background), "button6")
+	self:Register(xml:Init3tButton("background:button7", self.background), "button7")
+	self:Register(xml:Init3tButton("background:button8", self.background), "button8")
+	self:Register(xml:Init3tButton("background:button9", self.background), "button9")
+	self:Register(xml:Init3tButton("background:button10", self.background), "button10")
+	self:Register(xml:Init3tButton("background:button11", self.background), "button11")
+	self:Register(xml:Init3tButton("background:button12", self.background), "button12")
+	self:Register(xml:Init3tButton("background:button13", self.background), "button13")
+	self:Register(xml:Init3tButton("background:button14", self.background), "button14")
+	self:Register(xml:Init3tButton("background:button15", self.background), "button15")
+	self:Register(xml:Init3tButton("background:button16", self.background), "button16")
+	self:Register(xml:Init3tButton("background:button17", self.background), "button17")
+	self:Register(xml:Init3tButton("background:button18", self.background), "button18")
+	self:Register(xml:Init3tButton("background:exit", self.background), "exit")
+	self.info = xml:InitTextWnd("background:info", self.background)
+	self.money = xml:InitTextWnd("background:money", self.background)
+	
+	--//
+	local balance = 0
+	
+	if db.actor then balance = db.actor:community_goodwill("isg") end
+	
+	local string = "Current balance: "..balance..".\\n"--.."Current Level: "..level..".\\n".."total barter amount: "..all_balance..".\\n".."transition to the next Level Required: "..count.."."
+	--//
+	
+	self.money:SetText(string)
+end
+
+function Reputation:InitCallBacks()
+	self:AddCallback("button1", ui_events.BUTTON_CLICKED, self.button1_button_clicked, self)
+	self:AddCallback("button2", ui_events.BUTTON_CLICKED, self.button2_button_clicked, self)
+	self:AddCallback("button3", ui_events.BUTTON_CLICKED, self.button3_button_clicked, self)
+	self:AddCallback("button4", ui_events.BUTTON_CLICKED, self.button4_button_clicked, self)
+	self:AddCallback("button5", ui_events.BUTTON_CLICKED, self.button5_button_clicked, self)
+	self:AddCallback("button6", ui_events.BUTTON_CLICKED, self.button6_button_clicked, self)
+	self:AddCallback("button7", ui_events.BUTTON_CLICKED, self.button7_button_clicked, self)
+	self:AddCallback("button8", ui_events.BUTTON_CLICKED, self.button8_button_clicked, self)
+	self:AddCallback("button9", ui_events.BUTTON_CLICKED, self.button9_button_clicked, self)
+	self:AddCallback("button10", ui_events.BUTTON_CLICKED, self.button10_button_clicked, self)
+	self:AddCallback("button11", ui_events.BUTTON_CLICKED, self.button11_button_clicked, self)
+	self:AddCallback("button12", ui_events.BUTTON_CLICKED, self.button12_button_clicked, self)
+	self:AddCallback("button13", ui_events.BUTTON_CLICKED, self.button13_button_clicked, self)
+	self:AddCallback("button14", ui_events.BUTTON_CLICKED, self.button14_button_clicked, self)
+	self:AddCallback("button15", ui_events.BUTTON_CLICKED, self.button15_button_clicked, self)
+	self:AddCallback("button16", ui_events.BUTTON_CLICKED, self.button16_button_clicked, self)
+	self:AddCallback("button17", ui_events.BUTTON_CLICKED, self.button17_button_clicked, self)
+	self:AddCallback("button18", ui_events.BUTTON_CLICKED, self.button18_button_clicked, self)
+	self:AddCallback("exit", ui_events.BUTTON_CLICKED, self.exit_button_clicked, self)
+end
+
+function Reputation:button1_button_clicked()
+	
+end
+
+function Reputation:button2_button_clicked()
+	
+end
+
+function Reputation:button3_button_clicked()
+	
+end
+
+function Reputation:button4_button_clicked()
+	
+end
+
+function Reputation:button5_button_clicked()
+	
+end
+
+function Reputation:button6_button_clicked()
+	
+end
+
+function Reputation:button7_button_clicked()
+	
+end
+
+function Reputation:button8_button_clicked()
+	
+end
+
+function Reputation:button9_button_clicked()
+	
+end
+
+function Reputation:button10_button_clicked()
+	
+end
+
+function Reputation:button11_button_clicked()
+	
+end
+
+function Reputation:button12_button_clicked()
+	
+end
+
+function Reputation:button13_button_clicked()
+	
+end
+
+function Reputation:button14_button_clicked()
+	
+end
+
+function Reputation:button15_button_clicked()
+	
+end
+
+function Reputation:button16_button_clicked()
+	
+end
+
+function Reputation:button17_button_clicked()
+	
+end
+
+function Reputation:button18_button_clicked()
+	
+end
+
+function Reputation:exit_button_clicked()
+	self:HideDialog()
+end
+
+function Reputation:Hide()
+	self:HideDialog()
+end
+
