@@ -241,7 +241,7 @@
     
     <!------------ bar_visitors_stalker_mechanic ---------------------------->
     <specific_character id="bar_visitors_stalker_mechanic" team_default = "1">
-    <name>Soot</name>
+    <name>Азот</name>
     <icon>ui_inGame2_Azot</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>An experienced stalker. No other information available.</bio>
@@ -267,6 +267,7 @@
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_2</actor_dialog>
+		<actor_dialog>trade_for_mechanic</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
         </specific_character>
         

@@ -242,7 +242,7 @@
                 <next>1</next>
             </phrase>
             <phrase id="1">
-	<text>As you see the Tyrant I am. I had a detachment in the Wild Territory, now they are commanded by the Wolfhound. the detachment was larger, this is all that was left after the breakthrough of the Dutiers.</text>
+	<text>As you see the Tyrant I am. I had a detachment in the Wild Territory, now they are commanded by the Wolfhound. the detachment was larger, this is all that was left after the breakthrough of the debtors.</text>
                 <next>2</next>
             </phrase>
         <phrase id="2">
@@ -250,7 +250,7 @@
 				<next>3</next>
             </phrase>
         <phrase id="3">
-	<text>We mastered the Wild Territory and did not know that there is another approach to amber-from the Institute of Agroprom. Then he was occupied by the Dutiers before moving to the Bar. They went to amber and ended up in the Dead City. Hmm. Many then our fellows. I and a part of my detachment rushed to chase with Dikoy territory on the Amber. It's good that we had time. A small part of the Duty went to the Dead City. There first the reconnaissance unit passed, and then the main forces had to go. In general, we interrupted the entire shock group 'Duty', and then went to finish scouts. In general, many of my people fell. Going to Yantar, I left the command of the Volkodava detachment, they call themselves 'Psa'. I do not know how they are, I should go back to them.</text>
+	<text>We mastered the Wild Territory and did not know that there is another approach to amber-from the Institute of Agroprom. Then he was occupied by the debtors before moving to the Bar. They went to amber and ended up in the Dead City. Hmm. Many then our fellows. I and a part of my detachment rushed to chase with Dikoy territory on the Amber. It's good that we had time. A small part of the debt went to the Dead City. There first the reconnaissance unit passed, and then the main forces had to go. In general, we interrupted the entire shock group 'Duty', and then went to finish scouts. In general, many of my people fell. Going to Yantar, I left the command of the Volkodava detachment, they call themselves 'Psa'. I do not know how they are, I should go back to them.</text>
 				<next>4</next>
 			</phrase>
 		<phrase id="4">
@@ -354,9 +354,9 @@
 		</phrase_list>
 		</dialog>
 		
-		<dialog id="bar_zulus_Freedom_docs_0">
-		<dont_has_info>bar_zulus_Freedom_docs_start</dont_has_info>
-		<dont_has_info>bar_zulus_Freedom_docs_done</dont_has_info>
+		<dialog id="bar_zulus_svoboda_docs_0">
+		<dont_has_info>bar_zulus_svoboda_docs_start</dont_has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
 	<text>Zdarov. Did you find anything interesting for me?</text>
@@ -364,7 +364,7 @@
 			</phrase>
 			<phrase id="1">
 	<text>Of course. So it is. I need some Freedom documents. I warn you at once: Voronin does not vkurse, I help the Skull. And I need your help. In general, look. You will have to get to the Farm and, in the guise of an ordinary stalker, find documents in one of the houses. There are usually detachments on the Farm freedom patrols, so the Skull and cannot go there quietly, our hope is you. I'll give you a stalker suit, dress them and they'll think that you're an ordinary stalker, they will not touch you. Try to do everything very carefully. As soon as we receive the documents, the Skull will immediately go off to fight countryside. Understood me?</text>
-				<action>dialogs_lostpath.zulus_Freedom_docs_start</action>
+				<action>dialogs_lostpath.zulus_svoboda_docs_start</action>
 				<next>2</next>	
 			</phrase>
 			<phrase id="2">
@@ -379,9 +379,9 @@
 		</phrase_list>
 		</dialog>
 		
-		<dialog id="bar_zulus_Freedom_docs_1">
-		<has_info>bar_zulus_Freedom_docs_start</has_info>
-		<dont_has_info>bar_zulus_Freedom_docs_done</dont_has_info>
+		<dialog id="bar_zulus_svoboda_docs_1">
+		<has_info>bar_zulus_svoboda_docs_start</has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
 	<text>Look, I found the documents. Interesting stuff.</text>
@@ -397,7 +397,7 @@
 			</phrase>
 			<phrase id="3">
 	<text>This is our chance. In short, you have to help the Skull. Catch his coordinates. All, before the meeting.</text>
-				<action>dialogs_lostpath.zulus_Freedom_docs_stop</action>
+				<action>dialogs_lostpath.zulus_svoboda_docs_stop</action>
 				<action>dialogs_lostpath.zulus_to_cherep_start</action>
 				<next>4</next>	
 			</phrase>
@@ -728,11 +728,11 @@
 		<precondition>lostpath_factions.join_dolg_prec</precondition>
 		<phrase_list>
 			<phrase id="0">
-	<text>I would like to become a soldier of Duty.</text>
+	<text>I would like to become a soldier of Debt.</text>
                 <next>1</next>
             </phrase>
             <phrase id="1">
-	<text>You're a free stalker, right? What, I felt all the same, that the Zone is a tumor on the body of the Earth? Good. Duty is always ready to accept into its ranks a person who is true to certain ideals. One of our ideals is discipline, so after joining Duty you will not be slobbering anymore. Not scared? Ready to become one of us?</text>
+	<text>You're a free stalker, right? What, I felt all the same, that the Zone is a tumor on the body of the Earth? Good. Debt is always ready to accept into its ranks a person who is true to certain ideals. One of our ideals is discipline, so after joining Duty you will not be slobbering anymore. Not scared? Ready to become one of us?</text>
 				<next>2</next>
 				<next>3</next>
             </phrase>	

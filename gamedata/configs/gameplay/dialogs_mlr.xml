@@ -389,7 +389,7 @@
     <next>11</next>	
     </phrase>
     <phrase id="11">
-	<text>The old man is now in the Swamp, everything is waiting for his friend- 'Arrow'. Recently, some guy came to him, to whom the Doctor told his story and what is important- the history of the Strelok group itself! You can personally go to him and make sure.</text>
+	<text>the old man is now in the Swamp, everything is waiting for his friend- 'Arrow'. Recently, some guy came to him, to whom the Doctor told his story and what is important- the history of the Strelok group itself! You can personally go to him and make sure.</text>
 	<give_info>buy_information_from_trader1</give_info>		
     </phrase>	
     <phrase id="2">
@@ -1589,7 +1589,7 @@
     </phrase>
     <phrase id="9">
 <dont_has_info>pri_special_trader_mlr_SIG3</dont_has_info>
-	<text>The alpine is a modification of SIG220 with an increased capacity of the store. \n %c[255,238,153,26] • • Price: 6500</text>
+	<text>the alpine is a modification of SIG220 with an increased capacity of the store. \n %c[255,238,153,26] • • Price: 6500</text>
 <give_info>pri_special_trader_mlr_SIG</give_info>
 <give_info>pri_special_trader_mlr_order_in_process</give_info>
         <next>11</next>
@@ -1722,7 +1722,7 @@
     </phrase>
     <phrase id="23">
 <dont_has_info>pri_special_trader_mlr_ECZ_KIL3</dont_has_info>
-	<text>The exoskeleton of mercenaries is perhaps the most reliable means of defense. \n %c[255,238,153,26] • • Price: 75000</text>
+	<text>the exoskeleton of mercenaries is perhaps the most reliable means of defense. \n %c[255,238,153,26] • • Price: 75000</text>
 <give_info>pri_special_trader_mlr_ECZ_KIL</give_info>
 <give_info>pri_special_trader_mlr_order_in_process</give_info>
         <next>11</next>
@@ -1736,7 +1736,7 @@
     </phrase>
     <phrase id="25">
 <dont_has_info>pri_special_trader_mlr_SCI_MON3</dont_has_info>
-	<text>The 'Monolith' combination with a closed breathing system,as in the case of an exoskeleton,you are unlikely to see it anywhere else. \n %c[255,238,153,26] • • Price: 70000</text>
+	<text>the 'Monolith' combination with a closed breathing system,as in the case of an exoskeleton,you are unlikely to see it anywhere else. \n %c[255,238,153,26] • • Price: 70000</text>
 <give_info>pri_special_trader_mlr_SCI_MON</give_info>
 <give_info>pri_special_trader_mlr_order_in_process</give_info>
         <next>11</next>
@@ -2044,7 +2044,7 @@
         <next>1</next>
     </phrase>
     <phrase id="1">
-	<text>Of course! Look, dear, what I have here: \n 210 rounds of calibers 5.56 = 20 patches \n 50 rounds 7.62 = 15 patches \n 20 grenades, m209 = 50 stripes \n 'Freedom' teacher = 50 patches \n 'Freedom exoskeleton '= 65 patches \n Unique SVD = 100 stripes</text>
+	<text>Of course! Look, dear, what I have here: \n 210 rounds of calibers 5.56 = 20 patches \n 50 rounds 7.62 = 15 patches \n 20 grenades, m209 = 50 stripes \n 'Svoboda' teacher = 50 patches \n 'Freedom exoskeleton '= 65 patches \n Unique SVD = 100 stripes</text>
 <give_info>ashot_price_for_pathes_duty1</give_info>
     </phrase>
 </phrase_list>
@@ -2398,7 +2398,7 @@
         <next>1</next>
     </phrase>
     <phrase id="1">
-	<text>Besides Russian roulette? I'm running a lottery. You need to bring as many rare patches as possible and I'll give you a random prize for this. If you bring 10, there is only a 50-50 chance and you will not win much, of course. But if with a half, uh! But here by the way for the scientists and the monolith demand is greater, hence reward and a chance to get higher. And the option to all is win-win. 'Freedom' by the way is not listed, I have them and so full.</text>
+	<text>Besides Russian roulette? I'm running a lottery. You need to bring as many rare patches as possible and I'll give you a random prize for this. If you bring 10, there is only a 50-50 chance and you will not win much, of course. But if with a half, uh! But here by the way for the scientists and the monolith demand is greater, hence reward and a chance to get higher. And the option to all is win-win. 'Svobodovskie' by the way is not listed, I have them and so full.</text>
     <next>2</next>
     </phrase>
     <phrase id="2">
@@ -3513,7 +3513,7 @@
 	<text>Well, there are such nice rodents, they are called 'tushkans' in the people. You saw them for sure. It seems not dangerous, but in a pack zagryzt can easily at least a seasoned stalker, though a whole group. There was such a case when a special detachment of 'Duty' went to the sweep of the den of bloodsuckers. Well so estimate, these idiots camp somewhere in the middle of the complex on the 'Agroprom' broke up, one sent him down somewhere, and another jerked into his flash-drive, well, there were literally 10 minutes of no one guarding the sleeping ones. Morning already means-it's time for the guys to wake up, but there's no one. Well, something wrong, think something, went into room, and there are krovischi- the sea and throats in all 'gnawed.' the characteristic traces of the tushkans are listed, but they themselves have already fallen down. Dog knows why they did not stay at the meal, but to see clever, louse. Well, the sentries decided to go to the lair themselves, and to write off the death of their comrades for the bloodsucking. So and disappeared, and their flash-drive stalker picked up, but came with a new story in the bar neighing. So that.</text>
     </phrase>
     <phrase id="2">
-	<text>Well, with dogs, every rookie on the cordon encounters, but what can we say-and on the big earth. These from their, say, 'prototypes' are not much different. Blinded only, but it's encouraging is not enough, the rest of the feelings are exacerbated. Especially the scent. Such inexperienced beginners at times take, and under hour and more experienced stalkers, in turn maneuverability and suddenness. \n Well, listen is history. Someone got into a pussy at the bar at night. There they raised everything to their ears, they defended the people of Lyuli, all the cases. Invited even Dutiers to protect, but see who is stealing, well, they are clear horseradish the dog saw, which ran through a hole in the fence and shot. In the morning the stalker dejected comes to the bar, asks for the dog, and the Barkeep immediately smiles and tells him to address the Dutiers. So, in general, the dude from the big land with this mongrel got through the cordon, she's home. Well, they have experienced much with her, and he is also an orphan, and here it is. Since then, who is so clever with his livestock for the cordon moves or knocks back, or lets his 'pal' for dinner brothers-stalkers. And then Nothing to frighten the nervous people. A sausage by the way a local alcoholic stole.</text>
+	<text>Well, with dogs, every rookie on the cordon encounters, but what can we say-and on the big earth. These from their, say, 'prototypes' are not much different. Blinded only, but it's encouraging is not enough, the rest of the feelings are exacerbated. Especially the scent. Such inexperienced beginners at times take, and under hour and more experienced stalkers, in turn maneuverability and suddenness. \n Well, listen is history. Someone got into a pussy at the bar at night. There they raised everything to their ears, they defended the people of Lyuli, all the cases. Invited even debtors to protect, but see who is stealing, well, they are clear horseradish the dog saw, which ran through a hole in the fence and shot. In the morning the stalker dejected comes to the bar, asks for the dog, and the Barkeep immediately smiles and tells him to address the debtors. So, in general, the dude from the big land with this mongrel got through the cordon, she's home. Well, they have experienced much with her, and he is also an orphan, and here it is. Since then, who is so clever with his livestock for the cordon moves or knocks back, or lets his 'pal' for dinner brothers-stalkers. And then Nothing to frighten the nervous people. A sausage by the way a local alcoholic stole.</text>
     </phrase>
     <phrase id="3">
 	<text>Here are the dogs, and there are pseudo dogs. Why 'pseudo'? Yes, they are only partly similar to dogs, well, because of the ability of some to affect the human brain in the most negative way, causing him to hallucinate. the dog knows whether they are from normal dogs, whether from wolves or from this is some kind of secret experiment, at least the experiments of the scientists have not illuminated anything in this area. Jump these creatures be healthy, can swallow a man in flight to bite, well, these Ghosts are them. If you are lucky enough to run into such a psi-shavk, then carefully follow her and her copies, to take the most cautious, which does not hurry into battle and rushes along it. This will be the original, because these creatures are very reasonable, even legends go that they can be tamed. the Dog of the Swamp Doctor is an example for you, you can ask around the Swamps about him.</text>

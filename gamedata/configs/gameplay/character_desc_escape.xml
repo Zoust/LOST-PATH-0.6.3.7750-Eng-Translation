@@ -45,6 +45,8 @@
     <actor_dialog>work_vip_10</actor_dialog>
     <actor_dialog>work_vip_11</actor_dialog>
     <actor_dialog>work_vip_12</actor_dialog>
+<!--	<actor_dialog>proba_pera_start</actor_dialog>
+		<actor_dialog>proba_pera_done</actor_dialog>	-->
     </specific_character>
     
     <!-------------------------- NIMBLE TRADER ------------------------>
@@ -53,7 +55,7 @@
     <icon>ui_inGame2_nimble</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>An experienced stalker. No other information available.</bio>
+    <bio>Îïûòíûé ñòàëêåð. Äåòàëüíàÿ èíôîðìàöèÿ îòñóòñòâóåò.</bio>
     <class>esc_2_12_stalker_nimble</class>
     <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -143,6 +145,7 @@
     </supplies>
 #include "gameplay\character_criticals_4.xml"
     <actor_dialog>fanat_history</actor_dialog>
+	<actor_dialog>wolf_about_girl</actor_dialog>
     <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     
@@ -177,6 +180,7 @@
     <actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
     <actor_dialog>actor_break_dialog</actor_dialog>
     <actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>trade_for_mechanic</actor_dialog>
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_2</actor_dialog>

@@ -35,11 +35,11 @@
     </specific_character>
     
     <specific_character id="zat_b106_stalker_gonta" team_default="1">
-    <name>Danila</name>
+    <name>Данила</name>
     <icon>ui_inGame2_danila</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Experienced stalker. Mutant Hunter.</bio>
+    <bio>Опытный сталкер. Охотник на мутантов.</bio>
     <class>zat_b106_stalker_gonta</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -65,11 +65,11 @@
 <actor_dialog>actor_break_dialog</actor_dialog>
 </specific_character>
     <specific_character id="zat_b106_stalker_garmata" team_default="1">
-		<name>Myron</name>
+		<name>Майрон</name>
 		<icon>ui_inGame2_myron</icon>
 		<map_icon x="1" y="0">
 		</map_icon>
-		<bio>Experienced stalker. Former gangster.</bio>
+		<bio>Опытный сталкер. Бывший бандит.</bio>
 		<class>zat_b106_stalker_garmata</class>
 		<community>stalker</community>
 		<terrain_sect>stalker_terrain</terrain_sect>
@@ -100,11 +100,11 @@
 
         
     <specific_character id="zat_b106_stalker_crab" team_default="1">
-    <name>Wood grouse</name>
+    <name>Глухарь</name>
     <icon>ui_inGame2_Gluhar</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Stalker master. Sheriff Skadovska.</bio>
+    <bio>Сталкер мастер. Шериф Скадовска.</bio>
     <class>zat_b106_stalker_crab</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -551,7 +551,7 @@
     
     <!--командир сталкеров-->
     <specific_character id="zat_b5_stalker_commander" team_default="1">
-    <name>Fang</name>
+    <name>Клык</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
@@ -579,7 +579,7 @@
     </specific_character>
     
     <specific_character id="zat_b5_stalker_commander_b7" team_default="1">
-    <name>Hermit</name>
+    <name>Отшельник</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
@@ -607,7 +607,7 @@
     </specific_character>
     
     <specific_character id="zat_b5_stalker_1" team_default="1">
-    <name>Joker</name>
+    <name>Шутник</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
@@ -634,7 +634,7 @@
     </specific_character>
     
     <specific_character id="zat_b5_stalker_2" team_default="1">
-    <name>Barge</name>
+    <name>Баржа</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
@@ -750,11 +750,11 @@
     <!-- Медик-вампир -->
       
     <specific_character id="zat_b22_stalker_medic" team_default="1">
-    <name>Tremor</name>
+    <name>Тремор</name>
     <icon>ui_inGame2_tremor</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Experienced stalker. Medic on Skadovsk.</bio>
+    <bio>Опытный сталкер. Медик на Скадовске.</bio>
     <class>zat_b22_stalker_medic</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -808,6 +808,7 @@
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_2</actor_dialog>
+		<actor_dialog>trade_for_mechanic</actor_dialog>
         <actor_dialog>actor_break_dialog</actor_dialog>
         </specific_character>
         
@@ -1216,6 +1217,7 @@
     </supplies>
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_criticals_4.xml"
+    <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     
     <!-- Zaton B28 -->
@@ -1243,6 +1245,7 @@
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
 #include "gameplay\character_criticals_4.xml"
+    <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     
     <specific_character id="zat_b28_umerov" team_default="1">
@@ -1269,6 +1272,7 @@
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
 #include "gameplay\character_criticals_4.xml"
+    <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     
     <specific_character id="zat_b28_smoliak" team_default="1">
@@ -1295,6 +1299,7 @@
 #include "gameplay\character_drugs_mil.xml"
     </supplies>
 #include "gameplay\character_criticals_4.xml"
+    <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     
     <!-- Zaton B29 -->

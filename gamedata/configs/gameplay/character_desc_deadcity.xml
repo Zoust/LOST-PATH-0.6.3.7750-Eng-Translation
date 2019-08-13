@@ -71,6 +71,7 @@
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_1</actor_dialog>
 		<actor_dialog>awr_tech_dialog_forgot_2</actor_dialog>
+		<actor_dialog>trade_for_mechanic</actor_dialog>
     <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
     

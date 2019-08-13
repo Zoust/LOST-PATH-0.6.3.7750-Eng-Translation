@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="windows-1451" ?>
 <game_dialogs>
+
+		<dialog id="trade_for_mechanic">
+		<phrase_list>
+            <phrase id="0">
+                <text>Let's bargain.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Come on.</text>
+				<action>dialogs_lostpath.trade_for_mechanic</action>
+            </phrase>
+		</phrase_list>
+		</dialog>
+		
 		<dialog id="wolf_about_girl">
 		<dont_has_info>wolf_about_girl</dont_has_info>
 		<phrase_list>
@@ -665,7 +679,7 @@
 		<phrase_list>
 			<phrase id="0">
 				<has_info>quest_has_pm</has_info>
-	<text>The dogs are dead, and I stand before you. It was an uneven point and not difficult.</text>
+	<text>the dogs are dead, and I stand before you. It was an uneven point and not difficult.</text>
 				<next>1</next>
 			</phrase>
 			<phrase id="1">
@@ -896,7 +910,7 @@
 				<next>7</next>
 			</phrase>
 			<phrase id="7">
-	<text>The route was clean and everything was calculated. But something happened and with them communication ceased, then the obituary in the ESS finally came. You were there, did not you notice something strange?</text>
+	<text>the route was clean and everything was calculated. But something happened and with them communication ceased, then the obituary in the ESS finally came. You were there, did not you notice something strange?</text>
 				<next>8</next>
 			</phrase>
 			<phrase id="8">
@@ -1356,7 +1370,7 @@
 				<next>7</next>
 			</phrase>
 			<phrase id="7">
-	<text>In short, the founder of Freedom was stalker Miklukha. After he went to the radar was replaced by Lukash. I'm not particularly vdovalsya into details, but after the arrival of Lukash. began what-that float within the team. Some supported the old regime, others new. Adherents of the old regime decided to appeal to Duty and to hand over some part of the important information. For information, these were not the last people in freedom. In general, General Voronin offered to help me in this to turn things around. But the whole difficulty was that it was necessary to find a proven beginner.</text>
+	<text>In short, the founder of Freedom was stalker Miklukha. After he went to the radar was replaced by Lukash. I'm not particularly vdovalsya into details, but after the arrival of Lukash. began what-that float within the team. Some supported the old regime, others new. Adherents of the old regime decided to appeal to a debt and to hand over some part of the important information. For information, these were not the last people in freedom. In general, General Voronin offered to help me in this to turn things around. But the whole difficulty was that it was necessary to find a proven beginner.</text>
 				<next>8</next>
 			</phrase>
 			<phrase id="8">
@@ -1478,7 +1492,7 @@
 		<dont_has_info>spec_matvey_dialog</dont_has_info>
 		<phrase_list>
             <phrase id="0">
-	<text>tell me about yourself</text>
+	<text>Tell me about yourself</text>
                 <next>1</next>
             </phrase>
             <phrase id="1">
@@ -1486,5 +1500,43 @@
 				<give_info>spec_matvey_dialog</give_info>
             </phrase> 	
 		</phrase_list>
-		</dialog>		
+		</dialog>
+
+		<!--dialog id="proba_pera_start">
+		<dont_has_info>proba_pera_start</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Сидорович, я бы хотел на тебя поработать.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Ну что, воин? Что интересует? Бабки? Товар? За всем не вопрос, но кто ты таков и чего стоишь? Я тебя в первый раз вижу, и уж прости, не первый день живу на свете, так что крутизну свою доказывать придется делом. А то таких крутых последнее время в наших краях развелось, сам знаешь. Ну а там, если чего стоишь, то и отношение другое, и цены повкуснее, да и товар поинтереснее. Логично, согласен? Ну и ладушки. А раз согласен, то для начала давай так - привали-ка, скажем, трех паразитов в районе Кордона и в качестве доказательства притащи мне три любые "Ксюхи".</text>
+				<give_info>proba_pera_start</give_info>
+				<action>lostpath_quest.proba_pera</action>
+				<next>2</next>
+			</phrase> 	
+			<phrase id="2">
+				<text>Хорошо.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="proba_pera_done">
+		<has_info>proba_pera_start</has_info>
+		<dont_has_info>proba_pera_done</dont_has_info>
+		<precondition>task_status_functor.proba_pera</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Работа выполнена. Жмуры мертвы, вот твои "Ксюхи".</text>
+				<action>lostpath_quest.transfer_ak74u</action>
+				<give_info>proba_pera_done</give_info>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Хорошая работа.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase> 	
+		</phrase_list>
+		</dialog-->			
 </game_dialogs>
