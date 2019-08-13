@@ -27,7 +27,7 @@ local config = ini_file("rpg.ltx")
 -- Играем звук в голове ГГ
 function play_sound(snd)
 	if snd then
-		local snd_obj = xr_sound.get_safe_sound_object(snd)
+		local snd_obj = sound_object(snd)
 		snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 	end
 end
@@ -135,7 +135,7 @@ function on_item_drag_dropped(itm1,itm2,from_slot,to_slot)
 	end
 	
 	ActorMenu.get_actor_menu():refresh_current_cell_item()
-		
+	
 	if itm1:section() == 'itm_servoprivod' then
 		
 		if db.actor:get_level_intellect() < 3 then
@@ -281,183 +281,28 @@ function update_pda(itm1, itm2)
 end
 
 function on_game_start()
+	CreateTimeEvent('rpg','update', 0.5, lostpath_rpg_system.update_rpg)
+	CreateTimeEvent('scripts','name', 1, lostpath_name.update)
+	--CreateTimeEvent('magma','update', 1, lostpath_magma.update)
+	--CreateTimeEvent('magma','ammo', 120, lostpath_magma.ammo)
+	--CreateTimeEvent('faction','res', 10, lostpath_faction_resource.update)
+	CreateTimeEvent('faction','kick', 5, lostpath_faction_change.update)
+	
+	if level.name() == "l08_yantar" then
+		CreateTimeEvent('zombie','update', 54000, lostpath_zombie.update)		
+	end
+	
 	RegisterScriptCallback("on_game_load",on_game_load)
-	RegisterScriptCallback("actor_on_item_use",actor_on_item_use) 
+	RegisterScriptCallback("actor_on_item_use",actor_on_item_use)
 	RegisterScriptCallback("CUIActorMenu_OnItemDropped",on_item_drag_dropped)
 end
 
 -- вызывается биндером, а не отсюда
 function actor_on_before_death()
-	if alife_storage_manager.get_state().enable_azazel_mode then
-		return
-	end
-	printf("actor death")
-	
-	-- вывод на экран
-	--[[xr_statistic.actor_statistic.deaths = xr_statistic.actor_statistic.deaths + 1
-	SetHudMsg(strformat(game.translate_string("st_death_count"),xr_statistic.actor_statistic.deaths),8)
-	db.actor:disable_death_effector()
-	]]--
-	
-	level.disable_input()
-	level.add_cam_effector("camera_effects\\prison_1.anm", 210409, false, "azazel_mode.cam_effector_end")
-	bind_stalker_ext.invulnerable_time = time_global() + 30000
-	level.show_indicators()
-	printf("show indic")
-	
-	-- Transition
-	level.remove_cam_effector(210409)
-	printf("remove cam eff")
-		
-	-- удаление предметов ГГ
-	
-	local ignore_list = {
-	["bolt"] = true,
-	["device_torch"] = true,
-	["device_pda"] = true,
-	["wpn_binoc"] = true,
-	["medkit_script"] = true,
-	["guitar_a"] = true,
-	["guitar_a2"] = true,
-	["harmonica_a"] = true,
-	["anim_binoc"] = true,
-	["anim_knife"] = true,
-	["hand_radio"] = true,
-	["hand_radio_r"] = true,
-	["stick_bred"] = true,
-	["stick_kolbasa"] = true,
-	["stick_kolbasa_bred"] = true,
-	["wpn_knife"] = true,
-	["wpn_knife_colt"] = true,
-	["wpn_knife_extrema"] = true,
-	["wpn_knife_hunting"] = true,
-	["wpn_knife_spetsnaz"] = true,
-	["wpn_knife_survival"] = true,
-	["wpn_knife_tanto"] = true,
-	}
-	
-	
-	local sim = alife()
-	local se_actor = sim:actor()
-	local function release_actor_item(temp, item)
-		if not (ignore_list[item:section()]) then
-			local se_item = sim:object(item:id())
-			if (se_item) then
-				local sec = se_item:section_name()
-				sim:release(se_item,true)
-			end
-		end
-	end
-	db.actor:iterate_inventory(release_actor_item,nil)
-
-	
-	
-	--[[ actor corpse 
-	local sim = alife()
-	local se_actor = sim:actor()
-	local se_mimic = sim:create("stalker_azazel",se_actor.position,se_actor.m_level_vertex_id,se_actor.m_game_vertex_id)
-	if (se_mimic) then 
-		se_mimic:set_character_name(se_actor:character_name())
-		se_mimic:set_profile_name(se_actor:profile_name())
-		se_mimic:kill()
-		
-		local m_data = alife_storage_manager.get_se_obj_state(se_mimic,true)
-		if (m_data) then
-			m_data.icon_name = se_actor:character_icon()
-			m_data.visual = db.actor:get_visual_name()
-		end
-		
-		local function release_actor_item(temp, item)
-			if not (ignore_list[item:section()]) then
-				local se_item = sim:object(item:id())
-				if (se_item) then
-					local sec = se_item:section_name()
-					sim:release(se_item,true)
-					sim:create(sec,se_mimic.position,se_mimic.m_level_vertex_id,se_mimic.m_game_vertex_id,se_mimic.id)
-				end
-			end
-		end
-		db.actor:iterate_inventory(release_actor_item,nil)
-	end
-	]]--
-	
-	-- skip surge due to bug with killing actor on switch
-	surge_manager.stop_surge()
-	if psi_storm_manager.get_psi_storm_manager().started then
-		psi_storm_manager.get_psi_storm_manager().finish(true)
-	end
-		
-	-- восстановление всех статов
-	db.actor:set_health_ex(1)
-	db.actor.power = 1
-	db.actor.radiation = -1
-	db.actor.bleeding = 1
-	db.actor.satiety = 1
-	
-	-- Телепортация 
-	local x,y,z,gvid,lvid
-	
-	db.actor:give_info_portion("actor_death")
-	
-	if level.name() == "l01_escape" then
-		db.actor:give_info_portion("tele_to_kordon")
-		JumpToLevel("l12u_control_monolith")
-		
-		local hud = get_hud()
-		hud:HidePdaMenu()
-		hud:HideActorMenu()
-		lvid	=	37820
-		gvid	=	386
-		x		=	-218.41719055176
-		y		=	-10.119417190552
-		z		=	-44.798683166504
-		--db.actor:set_actor_position(vector():set(X,Y,Z),gvid,lvid)
-		level.remove_cam_effector(210409)		
-		level.add_pp_effector("deimos1.ppe", 210410, false)
-		--db.actor:give_info_portion("tele_kordon") 
-	else
-		JumpToLevel("l01_escape")
-		lvid	=	37820
-		gvid	=	386
-		x		=	-218.41719055176
-		y		=	-10.119417190552
-		z		=	-44.798683166504
-		db.actor:set_actor_position(vector():set(X,Y,Z),gvid,lvid) 
-	end
-	
-	level.show_indicators()
-	
-	-- Transition
-	level.remove_cam_effector(210409)
-	level.disable_input()
-	level.add_cam_effector("camera_effects\\prison_1.anm", 210409, false, "azazel_mode.cam_effector_end")
-	bind_stalker_ext.invulnerable_time = time_global() + 1000
-	level.add_pp_effector("deimos1.ppe", 210410, false)
-	
-	-- Force update of xr_statistic records.
-	xr_statistic.check_actor_rank_change(true)
-	xr_statistic.check_actor_reputation_change(true)
-	
-	db.actor:set_character_community("actor_stalker", 0, 0)	-- сменить группировку на сталкера
-	game_relations.set_community_goodwill_for_faction("actor_stalker")
-	reset_relations()
-end
-
-function actor_on_update()
-	if level.name() == "l01_escape" and has_alife_info("tele_kordon") then
-		lvid	=	37820
-		gvid	=	386
-		x		=	-218.41719055176
-		y		=	-10.119417190552
-		z		=	-44.798683166504
-		db.actor:set_actor_position(vector():set(X,Y,Z),gvid,lvid)
-		db.actor:disable_info_portion("tele_kordon")
-	end
+	actor_die.respawn()
 end
 
 function on_game_load()
-	printf("game load")
-	store_table(db.smart_terrain_by_id)
 	
 	local con = get_console()
 	local config = ini_file_ex("axr_options.ltx",true)
@@ -475,63 +320,14 @@ function on_game_load()
 		con:execute("ai_aim_predict_time 1.00")
 	end
 	
-	--[[if level.name() == "l01_escape" and has_alife_info("tele_to_kordon") then
-		JumpToLevel("l12u_control_monolith")
-		
-		local hud = get_hud()
-		hud:HidePdaMenu()
-		hud:HideActorMenu()
-		lvid	=	37820
-		gvid	=	386
-		x		=	-218.41719055176
-		y		=	-10.119417190552
-		z		=	-44.798683166504
-		--db.actor:set_actor_position(vector():set(X,Y,Z),gvid,lvid)
-end
-	]]--
-	
-	if level.name() ~= "l01_escape" and has_alife_info("tele_to_kordon") then
-		printf("tele_to_kordon")
-		JumpToLevel("l01_escape")
-		
-		db.actor:disable_info_portion("tele_to_kordon")
-	end
-	
-	con:execute("g_god on")
-	
-	if has_alife_info("actor_death") then
-		if alife_storage_manager.get_state().enable_azazel_mode then
-			return
-		end
-		
-		SetHudMsg(strformat(game.translate_string("st_death_count"),xr_statistic.actor_statistic.deaths),8)
-		xr_statistic.actor_statistic.deaths = xr_statistic.actor_statistic.deaths + 1
-		
-		-- восстановление всех статов
-		db.actor:set_health_ex(1)
-		db.actor.power = 1
-		db.actor.radiation = -1
-		db.actor.bleeding = 1
-		db.actor.satiety = 1
-		level.show_indicators()
-		
-		-- Transition
-		level.remove_cam_effector(210409)
-		level.disable_input()
-		level.add_cam_effector("camera_effects\\prison_1.anm", 210409, false, "azazel_mode.cam_effector_end")
-		bind_stalker_ext.invulnerable_time = time_global() + 1000
-		level.add_pp_effector("deimos1.ppe", 210410, false)
-		
-		db.actor:disable_info_portion("actor_death")
-	end
-	
 	con:execute("g_god off")
+	
+	local function release_actor_item(temp, item)
+		local se_item = alife():object(item:id())
+		if (se_item) then
+			local sec = se_item:section_name()
+			--printf("%s", sec)
+		end
+	end
+	db.actor:iterate_inventory(release_actor_item,nil)
 end
-
-local last_update
-
--- ---------------------------------------------------------------------------------
--- Функция добавления репутации к долгу (системная для тестов)
-function goodwill_to_dolg_100()
-end
--- ---------------------------------------------------------------------------------

@@ -215,7 +215,7 @@ end
 local time_news = 40000
 local time_pda_news = 0
 function actor_on_update()
-if not_news then return end
+	if not_news then return end
     if (axr_main.config:r_value("mm_options","enable_fake_news_option",1,true) == true) then
     local time = time_global()
 	if show_glonass==true and time_pda_news < time then

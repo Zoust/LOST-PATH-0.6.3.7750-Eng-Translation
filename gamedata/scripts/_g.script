@@ -16,9 +16,11 @@ if string.find(command_line(), "-cmd") then
 	DBG = true
 end
 
+SPECIAL_DBG = false
+
 DEV_DEBUG = true
 
-GAME_VERSION = "0.5.9.4130 Beta version"
+GAME_VERSION = "0.6.3.7750 Beta Version - Translation by Zoust"
 
 USE_INI_MEMOIZE = true
 
@@ -64,6 +66,17 @@ function start_game_callback()
 	sim_objects.clear()
 	sr_light.clean_up ()
 	pda.add_quick_slot_items_on_game_start()
+end
+
+function wars_start()
+	lostpath_factions.wars()
+	printf("Режим все против всех включен")
+end
+
+function sdbg(fmt,...)
+	if SPECIAL_DBG then
+		printf(fmt,...)
+	end
 end
 
 function alife_object(id)
@@ -135,6 +148,41 @@ end
 -- This does not persists through saves! So only use for non-important things.
 -- For example, do not try to destroy npcs unless you do not care that it can fail before player saved then loaded.
 ----------------------------------------------------------------------------------------------
+function RestartEvents()
+	RemoveTimeEvent('rpg','update')
+	RemoveTimeEvent('scripts','name')
+	RemoveTimeEvent('magma','update')
+	RemoveTimeEvent('magma','ammo')
+	RemoveTimeEvent('faction','kick')
+	
+	if level.name() == "l08_yantar" then
+		RemoveTimeEvent('zombie','update')	
+	end
+	
+	RemoveTimeEvent('faction','update')
+	RemoveTimeEvent('brain','update')
+	
+	ev_queue2 = {}
+	
+	CreateTimeEvent('rpg','update', 0.5, lostpath_rpg_system.update_rpg)
+	CreateTimeEvent('scripts','name', 1, lostpath_name.update)
+	--CreateTimeEvent('magma','update', 1, lostpath_magma.update)
+	--CreateTimeEvent('magma','ammo', 120, lostpath_magma.ammo)
+	--CreateTimeEvent('faction','res', 10, lostpath_faction_resource.update)
+	CreateTimeEvent('faction','kick', 5, lostpath_faction_change.update)
+	
+	if level.name() == "l08_yantar" then
+		CreateTimeEvent('zombie','update', 54000, lostpath_zombie.update)		
+	end
+	
+	CreateTimeEvent('faction','update', 1, sim_factions.update2)
+	CreateTimeEvent('brain','update', 1, sim_brain.update)
+	--RemoveUniqueCall(ProcessEventQueue2)
+	--AddUniqueCall(ProcessEventQueue2)
+	
+	printf("Restart Events")
+end
+
 local ev_queue = {}
 function CreateTimeEvent(ev_id,act_id,timer,f,...)
 	if not (ev_queue[ev_id]) then
@@ -163,6 +211,67 @@ function ResetTimeEvent(ev_id,act_id,timer)
 	end
 end
 
+
+local ev_queue2 = {}
+function CreateTimeEvent2(ev_id,act_id,timer,f,...)
+	if not (ev_queue2[ev_id]) then
+		ev_queue2[ev_id] = {}
+		ev_queue2[ev_id].__size = 0
+	end
+
+	if not (ev_queue2[ev_id][act_id]) then
+		ev_queue2[ev_id][act_id] = {}
+		ev_queue2[ev_id][act_id].timer = time_global() + timer*1000
+		ev_queue2[ev_id][act_id].f = f
+		ev_queue2[ev_id][act_id].p = {...}
+		ev_queue2[ev_id].__size = ev_queue2[ev_id].__size + 1
+	end
+end
+function RemoveTimeEvent2(ev_id,act_id)
+	if (ev_queue2[ev_id] and ev_queue2[ev_id][act_id]) then
+		ev_queue2[ev_id][act_id] = nil
+		ev_queue2[ev_id].__size = ev_queue2[ev_id].__size - 1
+	end
+end
+function ResetTimeEvent2(ev_id,act_id,timer)
+	if (ev_queue2[ev_id] and ev_queue2[ev_id][act_id]) then
+		ev_queue2[ev_id][act_id].timer = time_global() + timer*1000
+	end
+end
+
+function ProcessEventQueue2(force)
+	-- if (has_alife_info("sleep_active")) then
+		-- return false
+	-- end
+	
+	for event_id,actions in pairs(ev_queue2) do
+		for action_id,act in pairs(actions) do
+			--alun_utils.debug_write(strformat("event_queue: event_id=%s action_id=%s",event_id,action_id))
+			if (action_id ~= "__size") then
+				if (force) or (time_global() >= act.timer) then
+					if (act.f(unpack(act.p)) == true) then
+						ev_queue2[event_id][action_id] = nil
+						ev_queue2[event_id].__size = ev_queue2[event_id].__size - 1
+					end
+				end
+			end
+		end
+
+		if (ev_queue2[event_id].__size == 0) then
+			ev_queue2[event_id] = nil
+		end
+	end
+	
+	return false
+end
+function ProcessEventQueueState2(m_data,save)
+	if (save) then
+		m_data.event_queue2 = ev_queue2
+	else
+		ev_queue2 = m_data.event_queue2 or ev_queue2
+	end
+end
+
 function ProcessEventQueue(force)
 	-- if (has_alife_info("sleep_active")) then
 		-- return false
@@ -173,6 +282,7 @@ function ProcessEventQueue(force)
 			--alun_utils.debug_write(strformat("event_queue: event_id=%s action_id=%s",event_id,action_id))
 			if (action_id ~= "__size") then
 				if (force) or (time_global() >= act.timer) then
+					--alun_utils.debug_write(strformat("event_queue: event_id=%s action_id=%s timer=%s",event_id,action_id, act.timer))
 					if (act.f(unpack(act.p)) == true) then
 						ev_queue[event_id][action_id] = nil
 						ev_queue[event_id].__size = ev_queue[event_id].__size - 1
@@ -1570,6 +1680,7 @@ local ini_cache = { [system_ini()] = {} }
 function clear_ini_cache(ini)
 	ini_cache[ini] = empty_table(ini_cache[ini])
 end
+
 if (USE_INI_MEMOIZE) then
 	-- memoize ini results
 	local function r_memoize(ini,s,k,def,typ)

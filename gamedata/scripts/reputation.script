@@ -40,9 +40,9 @@ function Reputation:InitControls()
 	--//
 	local balance = 0
 	
-	if db.actor then balance = db.actor:community_goodwill("isg") end
+	if db.actor then balance = relation_registry.community_relation("isg", alife():actor():community()) end
 	
-	local string = "Current balance: "..balance..".\\n"--.."Current Level: "..level..".\\n".."total barter amount: "..all_balance..".\\n".."Needed for next level: "..count.."."
+	local string = "Current balance: "..balance..".\\n"--.."Current Level: "..level..".\\n".."total barter amount: "..all_balance..".\\n".."transition to the next Level Required: "..count.."."
 	--//
 	
 	self.money:SetText(string)

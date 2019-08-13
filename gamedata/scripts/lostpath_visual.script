@@ -15,6 +15,14 @@ local ini = ini_file("settings\\exo_seva.ltx")
 local act = false
 local deact = false
 
+function actor_item_to_slot(item)
+
+end
+
+function actor_item_to_ruck(item)
+	
+end
+
 function actor_on_update()
 	local armor  = db.actor:item_in_slot(7)
 	local helmet = db.actor:item_in_slot(12)
@@ -82,5 +90,6 @@ function actor_on_update()
 end
 
 function on_game_start()
-	RegisterScriptCallback("actor_on_update",actor_on_update)
+	RegisterScriptCallback("actor_item_to_ruck",actor_item_to_ruck)
+	RegisterScriptCallback("actor_item_to_slot",actor_item_to_slot)
 end

@@ -84,86 +84,115 @@ function squad_control(squad)
 	end
 end
 
-function need_count()
-	if not sim_factions.faction_information[faction] then return 1000000 end
+level_sections = {
+[1] = "novice",
+[2] = "novice",
+[3] = "advanced",
+[4] = "advanced",
+[5] = "veteran"
+}
 
+max_count = {
+[1] = 5,
+[2] = 8,
+[3] = 5,
+[4] = 8,
+[5] = 8
+}
+
+function need_count(faction, param)
+	if not sim_factions.faction_information[faction] then printf("need count no info %s", faction)
+	return end
+	
 	local tp = sim_factions.faction_information[faction].total_power
-	local fl = 1
-	local bot = 0
-	local r = 1
-	
-	local nubmer = ""
-	local p = "_"
-	local section = "novice"
-	
-	if tp < 420 then
-		return 1000000
-	elseif tp >= 420 and tp < 1500 then
-		section = "novice"
-		bot = tp / 140
-		bot = math.floor(bot)
-		fl = 1
-	elseif tp >= 1500 and tp < 2500 then
-		section = "advanced"
-		bot = tp / 500
-		bot = math.floor(bot)
-		fl = 2
-	elseif tp >= 2500 then
-		section = "veteran"
-		bot = tp / 1000
-		bot = math.floor(bot)
-		fl = 3
-	end
-	
-	return fl * bot * 10
+	local level = sim_factions.faction_information[faction].level
+	local fl = level
+	local section = level_sections[level]
+	local bot = max_count[level]
+	local k = 150
+	if level == 3 then k = k * 1.2 end
+	if level == 4 then k = k * 1.2 end
+	if param == 2 then k = k / 2 end
+	k = math.ceil(k)	
+	return (fl * bot * k)
 end
 
-function create_squad_advanced(smart, faction, target, type, number, param)
+function create_rush_squad(smart, faction, target, param)
+
     local squad
 
-	if not sim_factions.faction_information[faction] then return end
-		
+	if not sim_factions.faction_information[faction] then 
+	--printf("no faction info %s", faction)
+	return end
+	
 	local tp = sim_factions.faction_information[faction].total_power
 	local fl = 1
 	local bot = 0
 	local r = 1
 	
-	local nubmer = ""
+	local number = ""
 	local p = "_"
 	local section = "novice"
 	
-	if tp < 500 then
-		section = "novice"
-		bot = tp / 100
-		bot = math.floor(bot)
-		fl = 1
-	elseif tp >= 1500 and tp < 2500 then
-		section = "advanced"
-		bot = tp / 500
-		bot = math.floor(bot)
-		fl = 2
-	elseif tp >= 2500 then
-		section = "veteran"
-		bot = tp / 750
-		bot = math.floor(bot)
-		fl = 3
-	end
-		
+	local level = sim_factions.faction_information[faction].level
+	section = level_sections[level]
+	bot = max_count[level]
+	fl = level
 	number = tostring(bot)
 	
-	if nubmer ~= "" then
+	local k = 150
+	if level == 3 then k = k * 1.2 end
+	if level == 4 then k = k * 1.2 end
+	if param == 2 then k = k / 2 end
+	k = math.ceil(k)
+	
+	if sim_factions.faction_information[faction].total_power < (fl * bot * k) and spawns == true then 
+	--printf("no res faction %s %s %s", faction, sim_factions.faction_information[faction].total_power, fl * bot * k)
+	return end
+	
+	
+	if math.random(1,2) == 1 then
+		squad = create_squad(smart, faction, target, faction .."_sim_squad_".. section ..p..number, nil, 0)
+	else
+		squad = create_squad(smart, faction, target, faction .."_sim_squad_".. section, nil, 0)
+	end
+	
+	if squad then
+		--printf("! created rush squad %s %s", faction, sim_factions.faction_information[faction].rush_squads)
+		sim_factions.faction_information[faction].rush_squads = sim_factions.faction_information[faction].rush_squads + 1
+		--printf("%s", sim_factions.faction_information[faction].rush_squads)
+		squad.rush_faction = 1
+	end
+	
+	if spawns == true then sim_factions.faction_information[faction].total_power = sim_factions.faction_information[faction].total_power - (fl * bot * k) end
+	
+	--printf("spawned faction %s: -%s points. Bots: %s, section: %s target %s", faction, fl * bot * k, bot, section, target:name())
+	
+	--[[
+	if math.random(1,2) == 1 then
 		squad = alun_utils.create_squad(faction .."_sim_squad_".. section ..p..number, smart:name())
 	else
 		squad = alun_utils.create_squad(faction .."_sim_squad_".. section, smart:name())
 	end
 	
-	if squad then
-		squad.scripted_target = "actor"
-		squad.current_action = 1
-		squad.current_target_id = nil
-	end	
+	if spawns == true then sim_factions.faction_information[faction].total_power = sim_factions.faction_information[faction].total_power - (fl * bot * k) end
 	
-	printf("# thugs went on a hunt for a prey from %s", smart:name())
+	printf("spawned faction %s: -%s points. Bots: %s, section: %s target %s", faction, fl * bot * k, bot, section, target:name())
+	
+	if squad then
+	    if target then		
+			if math.random(100) > 70 and attack_news == true then			
+			   sim_offline_to_online.target_news(squad, smart, target)
+			end		
+			set_target(squad, target.id)
+			--printf("### SIM: Создан атакующий сквад ".. squad:name() .." на ".. smart:name().." цель сквада ".. target:name().." ###")					
+	    end	
+
+		sim_factions.faction_information[faction].rush_squads = sim_factions.faction_information[faction].rush_squads + 1
+		squad.rush_faction = 1
+	end	
+	]]--
+	return squad
 end
 
 function create_squad(smart, faction, target, type, number, param)
@@ -195,41 +224,37 @@ function create_squad(smart, faction, target, type, number, param)
 		local bot = 0
 		local r = 1
 		
-		local nubmer = ""
+		local number = ""
 		local p = "_"
 		local section = "novice"
 		
-		if tp < 1500 then
-			section = "novice"
-			bot = tp / 140
-			bot = math.floor(bot)
-			fl = 1
-		elseif tp >= 1500 and tp < 2500 then
-			section = "advanced"
-			bot = tp / 500
-			bot = math.floor(bot)
-			fl = 2
-		elseif tp >= 2500 then
-			section = "veteran"
-			bot = tp / 1000
-			bot = math.floor(bot)
-			fl = 3
-		end
-		
+		local level = sim_factions.faction_information[faction].level
+		section = level_sections[level]
+		bot = math.random(1, max_count[level])
+		fl = level
 		number = tostring(bot)
 		
-		local lid = game_graph():vertex(smart.m_game_vertex_id):level_id()
-		if (lid <= 3) and section == "veteran" then section = "advanced" end
+		--local lid = game_graph():vertex(smart.m_game_vertex_id):level_id()
+		--if (lid <= 3) and section == "veteran" then section = "advanced" end
 		
-		if sim_factions.faction_information[faction].total_power < (fl * bot * 10) and spawns == true then return end
+		local k = 150
+		if level == 3 then k = k * 1.2 end
+		if level == 4 then k = k * 1.2 end
+		if param == 2 then k = k / 2 end
+		k = math.ceil(k)
+
 		
-		if nubmer ~= "" then
+		if sim_factions.faction_information[faction].total_power < (fl * bot * k) and spawns == true then return end
+		
+		if math.random(1,2) == 1 then
 			squad = alun_utils.create_squad(faction .."_sim_squad_".. section ..p..number, smart:name())
 		else
 			squad = alun_utils.create_squad(faction .."_sim_squad_".. section, smart:name())
 		end
-
-		if spawns == true then sim_factions.faction_information[faction].total_power = sim_factions.faction_information[faction].total_power - (fl * bot * 10) end
+		
+		if spawns == true then sim_factions.faction_information[faction].total_power = sim_factions.faction_information[faction].total_power - (fl * bot * k) end
+		
+		--printf("spawned faction %s: -%s points. Bots: %s, section: %s", faction, fl * bot * k, bot, section)
 	end
 	
 	if (squad) and param == 2 then
@@ -258,6 +283,16 @@ function create_squad(smart, faction, target, type, number, param)
                    sim_offline_to_online.target_news(squad, smart, target)
 	            end		
 			    set_target(squad, target.id)
+				
+				squad.spawned_smart = smart.id
+				
+				if not smart.updating_squad then
+					smart.updating_squad = {}
+				end
+								
+				table.insert(smart.updating_squad, squad.id)
+				--printf("Smart %s add squad to update : %s [#%s]", smart:name(), squad.id, #smart.updating_squad)
+				
 		        --printf("### SIM: Создан атакующий сквад ".. squad:name() .." на ".. smart:name().." цель сквада ".. target:name().." ###")					
             end	
 	    else
@@ -275,11 +310,23 @@ function remove_squad(squad)
 		return
 	end
 	
+	if squad.spawned_smart then
+		local smart = squad.spawned_smart and alife_object(squad.spawned_smart)
+		if smart then
+			table.remove(smart.updating_squad, squad.id)
+		end
+	end
+	
 	local f = squad:get_squad_community()
 
 	sim_tables.registered_squads[f][squad.id] = nil
 	sim_offline_control.ocs_power_table[squad.id] = nil
 	squad.registered_in_simultaion = false
+	
+	if squad.rush_faction then
+		sim_factions.faction_information[f].rush_squads = sim_factions.faction_information[f].rush_squads - 1
+		squad.rush_faction = nil
+	end
 	
 	if (squad:clsid() == clsid.online_offline_group_s) then
 		squad:remove_squad()
@@ -289,7 +336,6 @@ end
 time_alife = (lostpath_main.config:r_value("war_options","alife_time",2))
 
 function squad_update(squad)
-
 	if (squad.current_action) then
 		local se_target = squad.current_target_id and simulation_objects.get_sim_obj_registry().objects[squad.current_target_id]
 		
@@ -319,25 +365,25 @@ function squad_update(squad)
 					end
 				end
 			end
-
+			
 			local time = level.get_time_days()*60*24+level.get_time_hours()*60+level.get_time_minutes()
-
+			
 			local smart = squad.smart_id and alife_object(squad.smart_id)
 			local faction = smart.owning_faction
-
+			
 			if typ == "defend" and faction == sim_brain.actor_faction then return end
 			if typ_ai == "defend" and faction ~= sim_brain.actor_faction then return end
-
+			
 			local delta = time_alife
-	
+			
 			if typ == "attack" and faction == sim_brain.actor_faction then
 				delta = delta * 0.5
-    end
-	
+			end
+			
 			if typ_ai == "attack" and faction ~= sim_brain.actor_faction then
 				delta = delta * 0.5
-	end
-
+			end
+			
 			if string.find(squad:name(), "trader") or
 			string.find(squad:name(), "medik") or
 			string.find(squad:name(), "mechanic") or
@@ -348,7 +394,7 @@ function squad_update(squad)
 			if time < squad.timer then return end
 	
 			local npc_in_smart = sim_smart.npc_count_passive(smart, faction)
-	
+			
 			if not squad.protect and squad.current_action == 1 and not squad.combat_target_id 
 			and squad.smart_id and npc_in_smart > (0.5 * smart.max_population) then
 				local targets_id = sim_smart.find_targets_all(smart, "smart")
@@ -356,29 +402,29 @@ function squad_update(squad)
 				set_target(squad, targets_id)
 				squad.smart_id = targets_id
 				squad.timer = time + delta
-    end
+			end
+		end
+	end	
 end
-    end
-	end
 
 function sim_squad_scripted.sim_squad_scripted.show(self)
-    end
-	
+end
+
 function sim_squad_scripted.sim_squad_scripted.hide(self)
-    end 
-	
-    
+end
+
+
 function get_squad_relation(squad_id)
     local squad = alife_object(squad_id)
 	local s = game_relations.get_squad_goodwill_to_actor2(squad)
-    printf(s)
+    --printf(s)
 	return s
-    end
-	
+end
+
 function squad_relation(squad_id)
     local squad = alife_object(squad_id)
 	local s = game_relations.get_squad_goodwill_to_actor2(squad)
-    printf(s)
+    --printf(s)
 	return s
 end
 
@@ -777,7 +823,7 @@ function set_target(squad, target)
 	if not (squad) or axr_companions.companion_squads[squad.id] or (sim_tables.ignore[squad:section_name()])then
  	    return
     end
-	
+	if not target or target == nil then return end
 	if target < 0 or target >= 65535 then return end
 	
     local obj = target and alife_object(target)

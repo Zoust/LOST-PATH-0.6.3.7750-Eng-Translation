@@ -123,7 +123,7 @@ function Reputation_army:InitCallBacks()
 end
 
 function prec(value)
-	if (db.actor:community_goodwill("army") >= value) then
+	if (lostpath_factions.prec("army", value)) then
 		return true
 	else
 		return false
@@ -136,9 +136,9 @@ function text(item)
 end
 
 function barter(count, item)
+	local t = relation_registry.community_relation("army", alife():actor():community())-1000
 	if prec(count) == true then 
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", -count}) 
-		local t = db.actor:community_goodwill("army")
 		local inv_name = alun_utils.get_inv_name(item)
 		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
@@ -157,7 +157,7 @@ function barter(count, item)
 		
 		hst:SetText(lostpath.string_army)
 	else
-		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (db.actor:community_goodwill("army") - count)..".")
+		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (t - count)..".")
 	end
 	Reputation_army:UpdBalance()
 end
@@ -165,7 +165,7 @@ end
 function Reputation_army:UpdBalance()
 	local balance = 0
 	
-	if db.actor then balance = db.actor:community_goodwill("army") end
+	if db.actor then balance = relation_registry.community_relation("army", alife():actor():community())-1000 end
 	
 	local string = "Current balance: "..balance..".\\n"
 	
@@ -174,7 +174,7 @@ end
 
 function Reputation_army:button1_button_clicked()
 	local count = 1200
-	local item = "wpn_groza_5x45"
+	local item = "wpn_fal"
 	barter(count, item)
 end
 
@@ -186,7 +186,7 @@ end
 
 function Reputation_army:button3_button_clicked()
 	local count = 1350
-	local item = "ak12"
+	local item = "wpn_ak12"
 	barter(count, item)
 end
 

@@ -111,7 +111,7 @@ function Reputation_isg:InitCallBacks()
 end
 
 function prec(value)
-	if (db.actor:community_goodwill("isg") >= value) then
+	if (relation_registry.community_relation("isg", alife():actor():community())) then
 		return true
 	else
 		return false
@@ -126,9 +126,9 @@ end
 function barter(count, item)
 	if prec(count) == true then 
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -count}) 
-		local t = db.actor:community_goodwill("isg")
+		local t = relation_registry.community_relation("isg", alife():actor():community())
 		local inv_name = alun_utils.get_inv_name(item)
-		news_manager.send_tip(db.actor, "%c[255,255,160,0] Reputation Exchange:\\n%c[255,160,160,160] Received item : "..game.translate_string(inv_name)..". Spent reputation : ["..count.."]", nil, nil, nil, nil)
+		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160] Received item : "..game.translate_string(inv_name)..". Spent reputation : ["..count.."]", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
 		dialogs.relocate_item_section(second_speaker, item, "in") 
 		
@@ -145,7 +145,7 @@ function barter(count, item)
 		
 		hst:SetText(lostpath.string)
 	else
-		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (db.actor:community_goodwill("isg") - count)..".")
+		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (relation_registry.community_relation("isg", alife():actor():community()) - count)..".")
 	end
 	Reputation_isg:UpdBalance()
 end
@@ -153,7 +153,7 @@ end
 function Reputation_isg:UpdBalance()
 	local balance = 0
 	
-	if db.actor then balance = db.actor:community_goodwill("isg") end
+	if db.actor then balance = relation_registry.community_relation("isg", alife():actor():community()) end
 	
 	local string = "Current balance: "..balance..".\\n"
 	

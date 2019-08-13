@@ -35,7 +35,7 @@ end
 
 function send_tip(actor, news_id, timeout, sender, showtime, sender_id)
 	if news_id == nil then return false end
-
+	
 	timeout = timeout or 0
 	showtime = showtime or 5000
 
@@ -64,7 +64,7 @@ function send_tip(actor, news_id, timeout, sender, showtime, sender_id)
 
 
 	--' Играем дефолтный звук
-		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 	
 	-- play script sound with matching section name to news id string
 	if (sound_theme.theme[news_id]) then

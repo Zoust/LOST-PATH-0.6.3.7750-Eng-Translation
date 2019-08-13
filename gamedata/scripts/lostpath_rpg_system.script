@@ -1,27 +1,42 @@
 local config = ini_file("rpg.ltx")
 
-function on_game_start()
-	RegisterScriptCallback("actor_on_update",actor_on_update)
-end
+local exp_for_up = 0
+local points = 0
+local timer = 0
+max_level = config:r_float_ex("settings", "max_rank")
 
-function actor_on_update()
-	if db.actor:get_level() >= 30 then return end
+function update_rpg()
+	if db.actor:get_level() >= max_level then
+		RemoveTimeEvent('rpg','update')
+		return 
+	end
 	
-	local exp_for_up = config:r_float_ex("exp_for_up", db.actor:get_level() + 1)
-	local points = config:r_float_ex("point_for_up", db.actor:get_level() + 1)
+	if exp_for_up == 0 then
+		exp_for_up = config:r_float_ex("exp_for_up", db.actor:get_level() + 1)
+	end
 	
+	if points == 0 then
+		points = config:r_float_ex("point_for_up", db.actor:get_level() + 1)
+	end
+		
 	if db.actor:get_exp() > exp_for_up then
 		db.actor:add_point(points)
 		db.actor:add_level(1)
 		local string, snd
-		if db.actor:get_level() < 30 then
+		if db.actor:get_level() < max_level then
 			snd = [[levelup]]
-			string = "Welcome to the new Level!"
-		elseif db.actor:get_level() == 30 then
+			string = "Welcome to the next Level!"
+			exp_for_up = config:r_float_ex("exp_for_up", db.actor:get_level() + 1)
+			points = config:r_float_ex("point_for_up", db.actor:get_level() + 1)
+		elseif db.actor:get_level() == max_level then
 			snd = [[30lvl]]
 			string = "You have reached the maximum level!"
+			exp_for_up = nil
+			points = nil
 		end
 		lostpath.play_sound(snd)
 		SetHudMsg(game.translate_string(string),5)
 	end
+	
+	ResetTimeEvent('rpg','update', 0.5)
 end

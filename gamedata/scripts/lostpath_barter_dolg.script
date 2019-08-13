@@ -37,7 +37,7 @@ function Reputation_dolg:InitControls()
 	
 	self.button1 = xml:Init3tButton("background:button1", self.background)
 	self:Register(self.button1, "button1")
-	self.button1:TextControl():SetText(text("wpn_groza_5x45"))
+	self.button1:TextControl():SetText(text("wpn_kar98k"))
 	self.button2 = xml:Init3tButton("background:button2", self.background)
 	self:Register(self.button2, "button2")
 	self.button2:TextControl():SetText(text("wpn_rpd"))
@@ -123,7 +123,7 @@ function Reputation_dolg:InitCallBacks()
 end
 
 function prec(value)
-	if (db.actor:community_goodwill("dolg") >= value) then
+	if (lostpath_factions.prec("dolg", value)) then
 		return true
 	else
 		return false
@@ -136,9 +136,9 @@ function text(item)
 end
 
 function barter(count, item)
+	local t = relation_registry.community_relation("dolg", alife():actor():community())-1000
 	if prec(count) == true then 
 		xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -count}) 
-		local t = db.actor:community_goodwill("dolg")
 		local inv_name = alun_utils.get_inv_name(item)
 		news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation exchange:\\n%c[255,160,160,160]Obtained item: "..game.translate_string(inv_name)..". Spent reputation: ["..count.."]", nil, nil, nil, nil)
 		xr_sound.set_sound_play(db.actor:id(), "pda_news")
@@ -157,7 +157,7 @@ function barter(count, item)
 		
 		hst:SetText(lostpath.string_dolg)
 	else
-		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (db.actor:community_goodwill("dolg") - count)..".")
+		ui_dyn_msg_box.msg_box_ui("message_box_ok",true,"Insufficient Reputation Points: ".. (t - count)..".")
 	end
 	Reputation_dolg:UpdBalance()
 end
@@ -165,7 +165,7 @@ end
 function Reputation_dolg:UpdBalance()
 	local balance = 0
 	
-	if db.actor then balance = db.actor:community_goodwill("dolg") end
+	if db.actor then balance = relation_registry.community_relation("dolg", alife():actor():community())-1000 end
 	
 	local string = "Current balance: "..balance..".\\n"
 	
@@ -173,8 +173,8 @@ function Reputation_dolg:UpdBalance()
 end
 
 function Reputation_dolg:button1_button_clicked()
-	local count = 1200
-	local item = "wpn_groza_5x45"
+	local count = 2000
+	local item = "wpn_kar98k"
 	barter(count, item)
 end
 
@@ -186,7 +186,7 @@ end
 
 function Reputation_dolg:button3_button_clicked()
 	local count = 1350
-	local item = "ak12"
+	local item = "wpn_ak12"
 	barter(count, item)
 end
 
@@ -203,8 +203,8 @@ function Reputation_dolg:button5_button_clicked()
 end
 
 function Reputation_dolg:button6_button_clicked()
-	local count = 1700
-	local item = "wpn_vsk94"
+	local count = 700
+	local item = "zf39"
 	barter(count, item)
 end
 

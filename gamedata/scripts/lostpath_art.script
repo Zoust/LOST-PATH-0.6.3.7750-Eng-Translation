@@ -1,4 +1,4 @@
---[[ -----------------------------------
+ --[[ -----------------------------------
  #  Неизвестный скрипт
  #  for Lost Path
  #  author : b4d1k
@@ -32,20 +32,20 @@ function actor_item_to_belt(obj)
 	if not string.find(obj:section(), "af") then 
 		return 
 	end 
-	
-	if arts[ids] == true then return end
 			
-				printf("# -------------------------------------------- #")
+	if arts[ids] == true then return end
+	
+	printf("# -------------------------------------------- #")
 	printf("# --           U. P. D. A. T. E.            -- #")
-				printf("# -------------------------------------------- #")
-				printf("# art : %s", obj:section())
-		
+	printf("# -------------------------------------------- #")
+	printf("# art : %s", obj:section())
+	
 	obj:set_artefact_health(delta(obj:get_artefact_health()))	
 	obj:set_artefact_radiation(delta(obj:get_artefact_radiation()))
 	obj:set_artefact_satiety(delta(obj:get_artefact_satiety()))
 	obj:set_artefact_power(delta(obj:get_artefact_power()))
 	obj:set_artefact_bleeding(delta(obj:get_artefact_bleeding()))
-		
+	
 	--[[obj:set_af_additional_weight(100)
 	obj:set_af_rank(0)
 	obj:set_af_cost(100000)
@@ -72,7 +72,7 @@ function actor_item_to_belt(obj)
 	printf("# satiety : %s", obj:get_artefact_satiety())
 	printf("# power : %s", obj:get_artefact_power())
 	printf("# bleeding : %s", obj:get_artefact_bleeding())
-
+		
 	printf("# -------------------------------------------- #")
 		
 	local gs = game.translate_string("st_"..obj:section().."_name")
@@ -104,12 +104,10 @@ end
 
 function load_state(m_data)
 
-	if not m_data.arts then
-		return
+	if m_data.arts then
+		arts = m_data.arts
 	end
-	
-	arts = m_data.arts
-	
+		
 	m_data.arts = nil
 end
 

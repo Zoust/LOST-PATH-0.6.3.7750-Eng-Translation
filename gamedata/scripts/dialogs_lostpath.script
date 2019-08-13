@@ -95,9 +95,9 @@ function buy_rep(actor, npc)
 	local group = character_community(npc)
 	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {group, 100}) 
 	dialogs.relocate_money(npc,100000,"out")
-	sim_factions.faction_information[group].total_power = sim_factions.faction_information[group].total_power + 50
+	sim_factions.faction_information[group].total_power = sim_factions.faction_information[group].total_power + 500
 	group = game.translate_string(group)
-	news_manager.send_tip(db.actor, "%c[255,255,160,0]System:\\n%c[255,160,160,160]The faction " .. group .. " have received 50 resources for development.", nil, nil, nil, nil)
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]System:\\n%c[255,160,160,160]The faction " .. group .. " have received 500 resources for development.", nil, nil, nil, nil)
 	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 end
 

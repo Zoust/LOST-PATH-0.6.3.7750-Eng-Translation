@@ -13,6 +13,10 @@ end
 
 local dynamic_relations = (lostpath_main.config:r_value("scripts","enable_dynamic_relations",1))
 
+function set_dynamic_relations(value)
+	dynamic_relations = value
+end
+
 allowed_relation_change = {
 	stalker = {
 		'dolg',

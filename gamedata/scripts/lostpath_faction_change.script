@@ -6,19 +6,10 @@
  #  file   : lostpath_faction_change.script 
 ]]-- ----------------------------------------------
 
-local last_update
-
-function actor_on_update()
+function update()
 	local actor = db.actor
 	local actor_faction = character_community(actor)
 	local actor_reputation = actor:character_reputation()
-	local tg = time_global()
-	
-	if not last_update then last_update = tg + 1000 end
-	
-	if tg < last_update then return end 
-	
-	last_update = tg + 1000
 	
 	if(actor_faction == "actor_stalker" and actor_reputation <= -2000) then
 		actor:set_character_community("actor_bandit", 0, 0)	-- сменить группировку на бандита
@@ -51,8 +42,4 @@ function play_sound(snd)
 		local snd_obj = xr_sound.get_safe_sound_object(snd)
 		snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 	end
-end
-
-function on_game_start() 
-	RegisterScriptCallback("actor_on_update",actor_on_update)
 end

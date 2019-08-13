@@ -6,24 +6,6 @@
  #  file   : lostpath_detector.script 
 ]]-- -----------------------------------
 
-function actor_on_update()	
-	local actor = db.actor
-	local item = actor:item_in_slot(9)
-	if not item then return end
-	local energy = actor:item_in_slot(16)
-	if not energy then return end
-	local lost = tonumber(system_ini():r_string_ex(item:section(),"cond_loss",""))*100
-
-	if item and db.actor:active_detector() and energy then
-		--item:set_condition(item:condition() - lost)
-		--printf("%s %s", item:condition(), lost)
-	end
-end
-
-function on_game_start()
-	--RegisterScriptCallback("actor_on_update",actor_on_update) 
-end
-
 function disassembly(obj)
 	local c = tonumber(system_ini():r_string_ex(obj:section(),"af_vis_radius","")) - 2
 	local name = system_ini():r_string_ex(obj:section(),"inv_name","")

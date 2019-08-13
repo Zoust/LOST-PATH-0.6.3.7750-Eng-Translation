@@ -11,15 +11,11 @@ local upd
 local old_name = ""
 local t
 
-function actor_on_update()
-	if lostpath_main.config:r_value("scripts","enable_rename",1,true) == false then return end
-
-	local _tmp = time_global()
-	
-	if not upd then upd = _tmp + 1000 end
-	if _tmp < upd then return end
-	
-	upd = upd + 1000
+function update()
+	if lostpath_main.config:r_value("scripts","enable_rename",1,true) == false then 
+		RemoveTimeEvent('scripts','name')
+		return 
+	end
 	
 	local actor = db.actor
 	local sim = alife()
@@ -34,9 +30,6 @@ function actor_on_update()
 	if not string.find(af, "dolg") and not string.find(af, "army") then
 		return 
 	end
-	
-	--rank = rank + 100
-	--actor:set_character_rank(rank)
 	
 	if rank <= 250 then i = "Private"
 	elseif rank <= 500 then i = "Corporal"
@@ -75,6 +68,8 @@ function actor_on_update()
 		db.actor:give_money(rank)
 		t = i
 	end
+	
+	ResetTimeEvent('script','name', 1)
 end
 
 function save_state(m_data)
@@ -88,16 +83,14 @@ end
 
 function load_state(m_data)
 
-	if not m_data.old_name then
-		return
+	if m_data.old_name then
+		old_name = m_data.old_name
 	end
 	
-	old_name = m_data.old_name
 	m_data.old_name = nil
 end
 
 function on_game_start()
-	RegisterScriptCallback("actor_on_update",actor_on_update)
 	RegisterScriptCallback("save_state", save_state)
 	RegisterScriptCallback("load_state", load_state)
 end
