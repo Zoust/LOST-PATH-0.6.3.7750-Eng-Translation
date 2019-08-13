@@ -126,135 +126,135 @@
 	<string id="st_gen_2c_01_ss_anomaly_spot_name">
 		<text>Soul Stairway anomaly</text>
 	</string>
-	<string id="st_mar_smart_terrain_11_3_anomaly_spot_name">
+  <string id="st_mar_smart_terrain_11_3_anomaly_spot_name">
 		<text>Fault anomaly</text>
-	</string>
-	<string id="st_mar_smart_terrain_12_2_anomaly_spot_name">
+  </string>
+  <string id="st_mar_smart_terrain_12_2_anomaly_spot_name">
 		<text>Teravolt anomaly</text>
-	</string>
-	<string id="st_mar_smart_terrain_10_10_anomaly_spot_name">
+  </string>
+  <string id="st_mar_smart_terrain_10_10_anomaly_spot_name">
 		<text>Thunderclap anomaly</text>
-	</string>
-	<string id="st_mar_smart_terrain_base_anomaly_spot_name">
+  </string>
+  <string id="st_mar_smart_terrain_base_anomaly_spot_name">
 		<text>Bog Pounder anomaly</text>
-	</string>
-	<string id="st_mar_smart_terrain_8_8_anomaly_spot_name">
+  </string>
+  <string id="st_mar_smart_terrain_8_8_anomaly_spot_name">
 		<text>Fermi anomaly</text>
-	</string>
-	 <string id="st_mar_smart_terrain_3_7_anomaly_spot_name">
+  </string>
+   <string id="st_mar_smart_terrain_3_7_anomaly_spot_name">
 		<text>Stomper anomaly</text>
-	</string>
-	<string id="st_mar_smart_terrain_3_3_anomaly_spot_name">
+  </string>
+  <string id="st_mar_smart_terrain_3_3_anomaly_spot_name">
 		<text>Lungrot anomaly</text>
-	</string>
-	 <string id="st_esc_smart_terrain_1_11_anomaly_spot_name">
+  </string>
+  <string id="st_esc_smart_terrain_1_11_anomaly_spot_name">
 		<text>Trash Compactor anomaly</text>
-	</string>
-	<string id="st_esc_smart_terrain_8_9_anomaly_spot_name">
+  </string>
+  <string id="st_esc_smart_terrain_8_9_anomaly_spot_name">
 		<text>Rock Crusher anomaly</text>
-	</string>
-	<string id="st_esc_smart_terrain_5_4_anomaly_spot_name">
+  </string>
+  <string id="st_esc_smart_terrain_5_4_anomaly_spot_name">
 		<text>Rookie Eater anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_3_7_anomaly_spot_name">
+  </string>
+  <string id="st_gar_smart_terrain_3_7_anomaly_spot_name">
 		<text>Hot Hind anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_3_7_anomaly_spot_2_name">
+  </string>
+  <string id="st_gar_smart_terrain_3_7_anomaly_spot_2_name">
 		<text>Molten Lada anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_2_4_anomaly_spot_name">
+  </string>
+  <string id="st_gar_smart_terrain_2_4_anomaly_spot_name">
 		<text>Synapse anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_6_7_anomaly_spot_name">
+  </string>
+  <string id="st_gar_smart_terrain_6_7_anomaly_spot_name">
 		<text>Mauler anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_5_6_anomaly_spot_name">
+  </string>
+  <string id="st_gar_smart_terrain_5_6_anomaly_spot_name">
 		<text>Witches' Jelly anomaly</text>
-	</string>
-	<string id="st_gar_smart_terrain_1_7_anomaly_spot_name">
+  </string>
+  <string id="st_gar_smart_terrain_1_7_anomaly_spot_name">
 		<text>Slammer anomaly</text>
-	</string>
-	<string id="st_agr_smart_terrain_1_3_anomaly_spot_name">
+  </string>
+  <string id="st_agr_smart_terrain_1_3_anomaly_spot_name">
 		<text>Bedrock Claws anomaly</text>
-	</string>
-	<string id="st_agr_smart_terrain_4_4_near_3_anomaly_spot_name">
+  </string>
+  <string id="st_agr_smart_terrain_4_4_near_3_anomaly_spot_name">
 		<text>Nerve Wracker anomaly</text>
-	</string>
-	<string id="st_agr_smart_terrain_5_7_anomaly_spot_name">
+  </string>
+  <string id="st_agr_smart_terrain_5_7_anomaly_spot_name">
 		<text>Bushwhacker anomaly</text>
-	</string>
-	<string id="st_agr_smart_terrain_5_2_anomaly_spot_name">
+  </string>
+  <string id="st_agr_smart_terrain_5_2_anomaly_spot_name">
 		<text>Dog Mincer anomaly</text>
-	</string>
-	<string id="st_agr_smart_terrain_1_2_anomaly_spot_name">
+  </string>
+  <string id="st_agr_smart_terrain_1_2_anomaly_spot_name">
 		<text>Toxic Swamp anomaly</text>
-	</string>	
-	<string id="st_val_smart_terrain_9_10_anomaly_spot_name">
+  </string>  
+  <string id="st_val_smart_terrain_9_10_anomaly_spot_name">
 		<text>Glowing Pit anomaly</text>
-	</string>
-	<string id="st_val_smart_terrain_6_4_anomaly_spot_name">
+  </string>
+  <string id="st_val_smart_terrain_6_4_anomaly_spot_name">
 		<text>Basher anomaly</text>
-	</string>
-	<string id="st_val_smart_terrain_8_6_anomaly_spot_name">
+  </string>
+  <string id="st_val_smart_terrain_8_6_anomaly_spot_name">
 		<text>Bug Zapper anomaly</text>
-	</string>
-	<string id="st_val_smart_terrain_9_4_anomaly_spot_name">
+  </string>
+  <string id="st_val_smart_terrain_9_4_anomaly_spot_name">
 		<text>Bubble Bath anomaly</text>
-	</string>
-	<string id="st_val_smart_terrain_8_9_anomaly_spot_name">
+  </string>
+  <string id="st_val_smart_terrain_8_9_anomaly_spot_name">
 		<text>Maimer anomaly</text>
-	</string>
-	<string id="st_mil_smart_terrain_4_7_anomaly_spot_name">
+  </string>
+  <string id="st_mil_smart_terrain_4_7_anomaly_spot_name">
 		<text>Corpse Disposer anomaly</text>
-	</string>
-	<string id="st_mil_smart_terrain_2_1_anomaly_spot_name">
+  </string>
+  <string id="st_mil_smart_terrain_2_1_anomaly_spot_name">
 		<text>Shock Therapy anomaly</text>
-	</string>
-	<string id="st_mil_smart_terrain_2_6_anomaly_spot_name">
+  </string>
+  <string id="st_mil_smart_terrain_2_6_anomaly_spot_name">
 		<text>Newton anomaly</text>
-	</string>
-	<string id="st_mil_smart_terrain_7_4_anomaly_spot_name">
+  </string>
+  <string id="st_mil_smart_terrain_7_4_anomaly_spot_name">
 		<text>Masher anomaly</text>
-	</string>
-	<string id="st_mil_smart_terrain_8_3_anomaly_spot_name">
+  </string>
+  <string id="st_mil_smart_terrain_8_3_anomaly_spot_name">
 		<text>Lignite Weeds anomaly</text>
-	</string>
-	<string id="st_yan_smart_terrain_2_5_anomaly_spot_name">
+  </string>
+  <string id="st_yan_smart_terrain_2_5_anomaly_spot_name">
 		<text>Tesla anomaly</text>
-	</string>
-	<string id="st_yan_smart_terrain_zombi_spawn_anomaly_spot_name">
+  </string>
+  <string id="st_yan_smart_terrain_zombi_spawn_anomaly_spot_name">
 		<text>Edison anomaly</text>
-	</string>
-	<string id="st_yan_smart_terrain_5_3_anomaly_spot_name">
+  </string>
+  <string id="st_yan_smart_terrain_5_3_anomaly_spot_name">
 		<text>Blackwater anomaly</text>
-	</string>
-	<string id="st_yan_smart_terrain_4_2_anomaly_spot_name">
+  </string>
+  <string id="st_yan_smart_terrain_4_2_anomaly_spot_name">
 		<text>Bonfire anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_6_3_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_6_3_anomaly_spot_name">
 		<text>Symbiont anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_4_5_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_4_5_anomaly_spot_name">
 		<text>Superconductor anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_monsters_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_monsters_anomaly_spot_name">
 		<text>Swingset anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_3_2_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_3_2_anomaly_spot_name">
 		<text>Dead Canary anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_6_6_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_6_6_anomaly_spot_name">
 		<text>Carousel anomaly</text>
-	</string>
-	<string id="st_red_smart_terrain_3_1_anomaly_spot_name">
+  </string>
+  <string id="st_red_smart_terrain_3_1_anomaly_spot_name">
 		<text>Slutsky's Rest anomaly</text>
-	</string>
-	<string id="st_gen_smart_terrain_urod_anomaly_spot_name">
+  </string>
+  <string id="st_gen_smart_terrain_urod_anomaly_spot_name">
 		<text>Meat Grinder anomaly</text>
-	</string>
-	<string id="st_trc_sim_13_anomal_zone_spot_name">
+  </string>
+  <string id="st_trc_sim_13_anomal_zone_spot_name">
 		<text>Zealot's Maze anomaly</text>
-	</string>
+  </string>
 	<string id="st_zat_b55_name">
 		<text>"Claw" anomaly</text>
 	</string>
@@ -443,5 +443,5 @@
 	</string>
 	<string id="st_pri_b302_name">
 		<text>"Vine" anomaly</text>
-	</string>
+	</string>	
 </string_table>

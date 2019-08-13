@@ -16,7 +16,9 @@
 	<string id="manowar_ssss">
 		<text>Mrmnwar SS</text>
 	</string>
-	
+	<string id="ui_mm_circle_crosshair">
+		<text>Round crosshair</text>
+	</string>
 	<string id="rename">
 	<text>Military rank in the name</text>
 	</string>
@@ -193,7 +195,7 @@
    	</string>
     <string id="ui_mm_detail_height">
 		<text>Grass size</text>
-    </string>
+   	</string>
 	<string id="ui_mm_difficulty">
 		<text>Difficulty</text>
 	</string>
@@ -223,6 +225,9 @@
 	</string>
 	<string id="ui_mm_gameplay">
 		<text>Game</text>
+	</string>
+	<string id="ui_mm_gameplay_ui">
+		<text>UI/HUD</text>
 	</string>
 	<string id="ui_mm_gamma">
 		<text>Gamma</text>
@@ -338,9 +343,9 @@
 	<string id="ui_mm_r2_gloss_factor">
 		<text>Specular (gloss factor)</text>
 	</string>
-    <string id="ui_mm_r__actor_shadow">
+    	<string id="ui_mm_r__actor_shadow">
     <text>Actor shadow</text>
-    </string>
+    	</string>
 	<string id="ui_mm_r2_sun_quality">
 		<text>Sun quality</text>
 	</string>
@@ -508,7 +513,10 @@
 		<text>Hardcore AI aim</text>
 	</string>
 	<string id="ui_mm_debug_hud">
-		<text>Debug HUD</text>
+		<text>Debug Hud</text>
+	</string>
+	<string id="ui_mm_debug_map_hud">
+		<text>Debug HUD Mapspots</text>
 	</string>
 	<string id="ui_mm_dynamic_news">
 		<text>Dynamic news</text>
@@ -520,7 +528,7 @@
 		<text>Delayed repairs</text>
 	</string>
 	<string id="ui_mm_big_head_mode">
-		<text>Big head mode</text>
+		<text>Big Head Mode</text>
 	</string>
 	<string id="ui_mm_heli_engine_sound">
 		<text>Helicopter sounds</text>
@@ -570,9 +578,9 @@
 	<string id="ui_mm_weapon_mags">
 		<text>Weapon magazines</text>
 	</string>
-    <string id="ui_mm_excl_dist">
+	<string id="ui_mm_excl_dist">
         <text>Online exclusion radius</text>
-    </string>
+        </string>
 	<string id="ui_mm_char_portrait">
 		<text>Default portrait</text>
 	</string>
@@ -584,6 +592,9 @@
 	</string>
 	<string id="ui_mm_quicksave_cnt">
 		<text>Quicksave count</text>
+	</string>
+	<string id="ui_mm_actor_hud">
+		<text>Mask Overlay</text>
 	</string>
 	<string id="ui_mm_alife_mutant_pop">
 		<text>Population factor (mutants)</text>
@@ -609,19 +620,10 @@
 	<string id="ui_mm_localization">
 		<text>Localization</text>
 	</string>
-	<string id="ui_mm_actor_hud">
-		<text>Mask Overlay</text>
-	</string>
 	<string id="ui_mm_r__enable_grass_shadow">
 		<text>Grass shadow</text>
 	</string>
 	<string id="ui_mm_cod_pickup_mode">
 		<text>AoE pickup mode</text>
-	</string>
-	<string id="ui_mm_gameplay_ui">
-		<text>UI/HUD</text>
-	</string>
-	<string id="ui_mm_debug_map_hud">
-		<text>Debug HUD Mapspots</text>
 	</string>
 </string_table>

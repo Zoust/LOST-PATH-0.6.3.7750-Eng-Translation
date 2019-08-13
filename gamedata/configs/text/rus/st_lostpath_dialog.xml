@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<string_table>
+<string_table>	
 	<string id="scripts_trade">
 	<text>I would like to buy something.</text>
 	</string>
@@ -26,7 +26,7 @@
 	<string id="chu_info_3">
 	<text>Okay.</text>
 	</string>
-
+	
 	<string id="master_info_1">
 	<text>How did you get to the Mercenaries?</text>
 	</string>

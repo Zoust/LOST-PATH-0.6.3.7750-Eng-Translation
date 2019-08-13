@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 <!--ITEM SOUP-->
-
 	<string id="st_paperscrap">
 	<text>Paper</text>
 	</string>
@@ -44,15 +43,12 @@
 	<string id="st_armor_repair_fa_descr">
 	<text>\n\n %c[0,140,140,140] COMPATIBILITY:\n\n %c[255,238,153,26] • %c[0,140,140,140] all costumes and light helmets\n\n %c[0,170,170,170] Due to the relatively low strength of the materials provided,the kit can only be used for minor work.\n\n %c[0,140,140,140] PROPERTIES:\n %c[0,153,255,255] • %c[0,140,140,140] technological element\n %c[0,153,255,255] • %c[0,140,140,140] fast use (adhesive tape)\n %c[255,238,153,26] • %c[0,140,140,140] application: repair of equipment\n %c[255,238,153,26] • %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 85 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 6 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS:\n %c[255,238,153,26] • %c[0,140,140,140] additional repair kits%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] • %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] • %c[0,140,140,140] adhesives %c[0,170,170,170] +2-6 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] • %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +3-4 %\n %c[255,238,153,26] • %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3%</text>
 	</string>
-
-
 	<string id="st_solvent">
 	<text>Cleaner</text>
 	</string>
 	<string id="st_solvent_descr">
 	<text>\n\n %c[0,140,140,140] COMPATIBILITY:\n\n %c[255,238,153,26] • %c[0,140,140,140] suitable for all weapons\n\n %c[0,170,170,170] Western-made,high-quality firearm cleaner,specially adapted for use in harsh environments.\n\n %c[0,140,140,140] PROPERTIES:\n %c[0,153,255,255] • %c[0,140,140,140] technological element\n %c[0,153,255,255] • %c[0,140,140,140] cleaner\n %c[0,153,255,255] • %c[0,140,140,140] high quality\n %c[0,153,255,255] • %c[0,140,140,140] value\n %c[255,238,153,26] • %c[0,140,140,140] application: repair of equipment\n %c[255,238,153,26] • %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 78 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 7 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS:\n %c[255,238,153,26] • %c[0,140,140,140] gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] • %c[0,140,140,140] other cleaners%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] • %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] • %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] • %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] • %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4%</text>
 	</string>
-
 	<string id="st_gun_oil">
 	<text>Spray oiler</text>
 	</string>
@@ -71,7 +67,6 @@
 	<string id="st_gun_oil_ru_descr">
 	<text>\n\n %c[0,140,140,140] COMPATIBILITY:\n\n %c[255,238,153,26] • %c[0,140,140,140] suitable for all weapons\n\n %c[0,170,170,170] According to the manufacturer,'Rusak' is especially effective for automatic weapons because of the low coefficient of friction. It also contains various anti-corrosion additives.\n\n %c[0,140,140,140] PROPERTIES:\n %c[0,153,255,255] • %c[0,140,140,140] technological element\n %c[0,153,255,255] • %c[0,140,140,140] liquid gun oil\n %c[255,238,153,26] • %c[0,140,140,140] application: repair of equipment\n %c[255,238,153,26] • %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 90 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 3 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS:\n %c[255,238,153,26] • %c[0,140,140,140] other gun oils%c[0,170,170,170] +3-6 %\n %c[255,238,153,26] • %c[0,140,140,140] purifier%c[0,170,170,170] +3-7 %\n %c[255,238,153,26] • %c[0,140,140,140] lightweight tools%c[0,170,170,170] +2-5 %\n %c[255,238,153,26] • %c[0,140,140,140] paper%c[0,170,170,170] +1-2 %\n %c[255,238,153,26] • %c[0,140,140,140] the cloth%c[0,170,170,170] +2-4 %\n %c[255,238,153,26] • %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +2-4%</text>
 	</string>
-
 	<string id="st_glue_b">
 	<text>Clay 'Star'</text>
 	</string>
@@ -90,16 +85,6 @@
 	<string id="st_glue_e_descr">
 	<text>\n\n %c[0,140,140,140] COMPATIBILITY:\n %c[255,238,153,26] • %c[0,140,140,140] all costumes and helmets\n\n %c[0,170,170,170] Extremely powerful,one-glue adhesive that can be used in any situation,regardless of purpose and materials. the glue uses strong methacrylate,in addition,the adhesive has received a significant impulse of versatility due to its hydrated form: it can be diluted water and used in any concentration,depending on the desired result. Almost no such damage,which glue,in combination with the relevant materials,cannot be restored.\n\n %c[0,140,140,140] PROPERTIES:\n %c[0,153,255,255] • %c[0,140,140,140] technological element\n %c[0,153,255,255] • %c[0,140,140,140] high quality\n %c[0,153,255,255] • %c[0,140,140,140] value\n %c[255,238,153,26] • %c[0,140,140,140] application: repair of equipment\n %c[255,238,153,26] • %c[0,140,140,140] cannot be used below level: %c[0,170,170,170] 60 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforcement of the baseline: %c[0,170,170,170] 6 %\n\n %c[0,140,140,140] SUPPORTED MATERIALS:\n %c[255,238,153,26] • %c[0,140,140,140] repair k its for armor%c[0,170,170,170] +6-18 %\n %c[255,238,153,26] • %c[0,140,140,140] Sewing Sets%c[0,170,170,170] +3-9 %\n %c[255,238,153,26] • %c[0,140,140,140] additional adhesives%c[0,170,170,170] +2-6 %\n %c[255,238,153,26] • %c[0,140,140,140] reinforced fabric%c[0,170,170,170] +5-6 %\n %c[255,238,153,26] • %c[0,140,140,140] cloth,tarpaulin%c[0,170,170,170] +3-4 %\n %c[255,238,153,26] • %c[0,140,140,140] the cloth%c[0,170,170,170] +2-3 %\n %c[255,238,153,26] • %c[0,140,140,140] Kevlar plates%c[0,170,170,170] +12 %\n %c[255,238,153,26] • %c[0,140,140,140] steel plates%c[0,170,170,170] +18%</text>
 	</string>
-
-
-
-
-
-
-
-
-
-
 	<string id="st_goldencoin">
 	<text>Tsarist chervonets</text>
 	</string>
@@ -390,7 +375,6 @@ UNUSED
 	<string id="st_can_food_8_descr">
 	<text>Ukrainian smoked salmon. Delicious.</text>
 	</string>
-
 	-->
 	<string id="st_water_large_1">
 	<text>'Borjomi'</text>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
+
+	<!-- UI STRINGS FOR CLOSED CAPTION MODS -->
+
 	<string id="ui_mm_cc_icc">
 		<text>Closed captions</text>
 	</string>
@@ -18,6 +21,10 @@
 	<string id="ui_mm_cc_all">
 		<text>All subtitles</text>
 	</string>
+
+
+	<!-- STRING TABLE ADDITIONS FOR GAME -->
+
 	<string id="st_sending_msg">
 		<text>Sending Message</text>
 	</string>
@@ -45,6 +52,10 @@
 	<string id="st_ssu_commander_name">
 		<text>USS Command</text>
 	</string>
+
+
+	<!-- CLOSED CAPTIONS FOR GAME -->
+
 	<string id="cc_effect-ambient-blowout_begin">
 		<text>[emission begins]</text>
 	</string>
@@ -120,12 +131,14 @@
 	<string id="cc_effect-device-wood_large_close_start">
 		<text>[wooden door closes]</text>
 	</string>
+
 	<string id="cc_effect-anomaly-steam_blowout">
 		<text>[steam hiss]</text>
 	</string>
 	<string id="cc_effect-weapons-n_desert_eagle_shot">
 		<text>[pistol shot]</text>
 	</string>
+
 	<string id="cc_effect-music-guitar_">
 		<text>[guitar music]</text>
 	</string>
@@ -135,6 +148,7 @@
 	<string id="cc_effect-laughter_">
 		<text>[laughter]</text>
 	</string>
+
 	<string id="cc_wounded-bandit-help">
 		<text>[wounded bandit asks for help]</text>
 	</string>
@@ -156,6 +170,7 @@
 	<string id="cc_wounded-stalker-help">
 		<text>[wounded stalker asks for help]</text>
 	</string>
+
 	<string id="cc_fight-bandit-attack">
 		<text>[bandit attack]</text>
 	</string>
@@ -177,6 +192,11 @@
 	<string id="cc_fight-stalker-attack">
 		<text>[stalker attack]</text>
 	</string>
+
+	<!-- CLOSED CAPTIONS FOR 'CALL OF PRIPYAT' -->
+
+	<!-- Zaton -->
+
 	<string id="zat_a2_base_alarm">
 		<text>Attention stalkers, Skadovsk is under attack! We've been forced to batten down the hatches until things quiet down.</text>
 	</string>
@@ -349,7 +369,7 @@
 		<text>Oh it's you... Well, I need cash as much as you do.</text>
 	</string>
 	<string id="zat_b18_noah_breakdown">
-		<text>Aah... This is it! This is the end! It's here... Mutants... Mutants everywhere!</text>
+		<text>Aah... This is it! This is the end! It's here... Mutants... mutants everywhere!</text>
 	</string>
 	<string id="zat_b18_noah_gave_first_artefact">
 		<text>This crap won't save you when the muties crawl out of the woodwork. Here, take this and get out of my face!</text>
@@ -520,7 +540,7 @@
 		<text>Your footsies still intact? Let's check out this basement then.</text>
 	</string>
 	<string id="zat_b38_stalker_cop_fear_end">
-		<text>Phew... We made it. And didn't even disturb their nap time.</text>
+		<text>Phew... we made it. And didn't even disturb their nap time.</text>
 	</string>
 	<string id="zat_b38_stalker_cop_find_lair_pda">
 		<text>I think I found the lair. Get over here, ASAP!</text>
@@ -753,6 +773,10 @@
 	<string id="zat_b7_stalkers_attack">
 		<text>Kill them all!</text>
 	</string>
+
+
+	<!-- Jupiter -->
+
 	<string id="jup_a10_bandit_leader_hello">
 		<text>Would you look at that! The man himself!</text>
 	</string>
@@ -913,7 +937,7 @@
 		<text>Hey, man! Time is money. We're done waiting for you, the squad is going back now.</text>
 	</string>
 	<string id="jup_b1_stalker_warning">
-		<text>Wat... Watch... Watch out, contro... Control... Controller!</text>
+		<text>Wat... watch... watch out, contro... control... controller!</text>
 	</string>
 	<string id="jup_b1_stalkers_aftershock_1">
 		<text>Uhm... Holy... What... What is...? What... aAgain...</text>
@@ -931,7 +955,7 @@
 		<text>So you're the hole expert, eh? He-he-he... Don't worry, you can count on the boys to take the muties out, nice and quick.</text>
 	</string>
 	<string id="jup_b1_stalkers_lair_check">
-		<text>Hmm... It looks quiet. We can advance.</text>
+		<text>Hmm... it looks quiet. We can advance.</text>
 	</string>
 	<string id="jup_b1_stalkers_monsters_beat_off">
 		<text>It's all good. There were a few hamsters in there, but we dealt with them.</text>
@@ -967,7 +991,7 @@
 		<text>Ok, it's a deal: we'll go together. Whatever fighters you see, send them my way and I'll make a team out of them. Once everything is ready, give me a shout. We'll pick up Nitro and head for Jupiter.</text>
 	</string>
 	<string id="jup_b19_freedom_yar_about_zombie_1">
-		<text>Looks like a quiet village... Unless we disturb the local residents.</text>
+		<text>Looks like a quiet village... unless we disturb the local residents.</text>
 	</string>
 	<string id="jup_b19_freedom_yar_about_zombie_2">
 		<text>So peaceful, it's like a resort.</text>
@@ -1054,7 +1078,7 @@
 		<text>'Sup!</text>
 	</string>
 	<string id="jup_b217_stalker_tech_welcome">
-		<text>First time here? I'm relatively new here myself. The name's Nitro. I work with equipment. I can repair anything you need. But... Getting some good tools is a problem around here. If you see anything, bring it straight to me. And if you need any technical help, come see me, and I'll be glad to do what I can for you.</text>
+		<text>First time here? I'm relatively new here myself. The name's Nitro. I work with equipment. I can repair anything you need. But... getting some good tools is a problem around here. If you see anything, bring it straight to me. And if you need any technical help, come see me, and I'll be glad to do what I can for you.</text>
 	</string>
 	<string id="jup_b219_actor_go">
 		<text>That's good. Go.</text>
@@ -1333,13 +1357,13 @@
 		<text>... Whichever way we go, we always end up at the same exact spot. I still can't get used to this fog. It's weird that Chepurnoy disappeared without a trace. Maybe he found a way out... Day six. We've ran out of water. The Colonel flipped his lid and shot two people at point blank range, and then himself. Now I'm on my own in this damn anomaly. If I hadn't fixed for our communications with HQ to go down, they could've rescued us. And Duty wouldn't have existed. I wonder how things would've turned out... Ah, screw it! That Captain Tkachenko died a long time ago. And this General Tkachenko of Duty will follow him. That's... Justice, I suppose.</text>
 	</string>
 	<string id="jup_b46_spatial_bubble_sos_1">
-		<text>... Find a way out. Help! We're running low on...</text>
+		<text>...find a way out. Help! We're running low on...</text>
 	</string>
 	<string id="jup_b46_spatial_bubble_sos_2">
-		<text>... Much longer. We've been without water for two day. Requesting a rescue mission! Hel...</text>
+		<text>...much longer. We've been without water for two day. Requesting a rescue mission! Hel...</text>
 	</string>
 	<string id="jup_b46_spatial_bubble_sos_3">
-		<text>... Require immediate assistance! We won't hold out for more than three...</text>
+		<text>...require immediate assistance! We won't hold out for more than three...</text>
 	</string>
 	<string id="jup_b47_merc_leader_regret">
 		<text>You shouldn't have come here, stalker! Now you'll be wormfood.</text>
@@ -1434,6 +1458,10 @@
 	<string id="jup_b9_heli_1_blackbox">
 		<text>Two bodies... Looks like they died in the crash... Everything of value has been looted and the on-board computer has been wiped clean. But the black box is still intact... Interesting... I reckon a decent technician will be able to extract the information on it and then decode it.</text>
 	</string>
+
+
+	<!-- Underpass -->
+
 	<string id="pas_b400_sokolov_about_control_gates_1">
 		<text>It's blocked, and there's no button. I get the feeling someone's going to have to make for the control room to solve this one.</text>
 	</string>
@@ -1471,10 +1499,10 @@
 		<text>Man, they don't let up, do they.</text>
 	</string>
 	<string id="pas_b400_sokolov_about_train_1">
-		<text>Mmmh... Something doesn't feel right.</text>
+		<text>Mmmh... something doesn't feel right.</text>
 	</string>
 	<string id="pas_b400_sokolov_about_train_gates_1">
-		<text>Mmmh... Something feels wrong here too.</text>
+		<text>Mmmh... something feels wrong here too.</text>
 	</string>
 	<string id="pas_b400_sokolov_about_transformer_1">
 		<text>Hey, you'll be careful with that thing, all right?</text>
@@ -1507,13 +1535,13 @@
 		<text>Are you crazy?!</text>
 	</string>
 	<string id="pas_b400_sokolov_on_actor_hit_1">
-		<text>Ooh... Watch it, asshole!</text>
+		<text>Ooh... watch it, asshole!</text>
 	</string>
 	<string id="pas_b400_sokolov_on_actor_hit_2">
-		<text>Ooh... Stop it! You're hurting me!</text>
+		<text>Ooh... stop it! You're hurting me!</text>
 	</string>
 	<string id="pas_b400_sokolov_on_actor_hit_3">
-		<text>Ugh... Friggin' psycho!</text>
+		<text>Ugh... friggin' psycho!</text>
 	</string>
 	<string id="pas_b400_sokolov_on_death_1">
 		<text>[Sokolov dies]</text>
@@ -1552,7 +1580,7 @@
 		<text>Another anomaly. Let's see.</text>
 	</string>
 	<string id="pas_b400_vano_about_anomaly_second_2">
-		<text>Hm... Go this way once, it may be your last.</text>
+		<text>Hm... go this way once, it may be your last.</text>
 	</string>
 	<string id="pas_b400_vano_about_anomaly_second_3">
 		<text>Okay, there's a way through here. Let's hope it leads somewhere a little less deadly.</text>
@@ -1561,7 +1589,7 @@
 		<text>Okay, let's move.</text>
 	</string>
 	<string id="pas_b400_vano_about_control_gates_1">
-		<text>So... The gate is blocked, huh? Hmm... I don't know... Maybe it can be opened from the control room?</text>
+		<text>So... the gate is blocked, huh? Hmm... I don't know... Maybe it can be opened from the control room?</text>
 	</string>
 	<string id="pas_b400_vano_about_cover_1">
 		<text>Keep moving, buddy! I've got your rear covered. Don't you worry.</text>
@@ -1585,7 +1613,7 @@
 		<text>Look! It's open now!</text>
 	</string>
 	<string id="pas_b400_vano_about_sniper_first_1">
-		<text>Muzzle flash on the right... Er... I mean, left.</text>
+		<text>Muzzle flash on the right... er... I mean, left.</text>
 	</string>
 	<string id="pas_b400_vano_about_snorks_1">
 		<text>Nice, they're all dead.</text>
@@ -1711,7 +1739,7 @@
 		<text>Traitor!</text>
 	</string>
 	<string id="pas_b400_wanderer_on_actor_hit_1">
-		<text>Uhm, that's... Unnecessary.</text>
+		<text>Uhm, that's... unnecessary.</text>
 	</string>
 	<string id="pas_b400_wanderer_on_actor_hit_2">
 		<text>I suggest you stop that right now!</text>
@@ -1765,7 +1793,7 @@
 		<text>Damn!</text>
 	</string>
 	<string id="pas_b400_zulus_about_obstacle_1">
-		<text>Hm... Looks like the direct route is not an option.</text>
+		<text>Hm... looks like the direct route is not an option.</text>
 	</string>
 	<string id="pas_b400_zulus_about_obstacle_2">
 		<text>No worries. Real men often take the backdoor.</text>
@@ -1774,16 +1802,16 @@
 		<text>Well, at least the protective suits will get some use.</text>
 	</string>
 	<string id="pas_b400_zulus_about_railway_1">
-		<text>Hm... The power to the gate has been cut.</text>
+		<text>Hm... the power to the gate has been cut.</text>
 	</string>
 	<string id="pas_b400_zulus_about_sniper_first_1">
 		<text>Snipers!</text>
 	</string>
 	<string id="pas_b400_zulus_about_snorks_1">
-		<text>Stay calm. Open... Fire!</text>
+		<text>Stay calm. Open... fire!</text>
 	</string>
 	<string id="pas_b400_zulus_about_train_gates_1">
-		<text>Well, bro... Let's rock and roll!</text>
+		<text>Well, bro... let's rock and roll!</text>
 	</string>
 	<string id="pas_b400_zulus_about_train_gates_2">
 		<text>Mess with the best, die like the rest.</text>
@@ -1851,6 +1879,10 @@
 	<string id="pas_b400_zulus_wait_for_me_1">
 		<text>Come back, bro! We don't need a scout on this mission.</text>
 	</string>
+
+
+	<!-- Pripyat -->
+
 	<string id="pri_a15_actor_introduce">
 		<text>I'm Major Degtyarev, USS. I'm here to investigate the failure of operation 'Fairway'.</text>
 	</string>
@@ -1894,13 +1926,13 @@
 		<text>You know Kovalsky?</text>
 	</string>
 	<string id="pri_a15_vano_speech_one">
-		<text>What do you think we're here for, fun? Why so trigger-happy? Can't you see that we're all friends here? Me and agent D-De... Have been through a lot. Trust me on that.</text>
+		<text>What do you think we're here for, fun? Why so trigger-happy? Can't you see that we're all friends here? Me and agent D-De... have been through a lot. Trust me on that.</text>
 	</string>
 	<string id="prI_a15_wanderer_about_actor">
 		<text>And I don't give a rat's ass who's working for who.</text>
 	</string>
 	<string id="pri_a15_zulus_go">
-		<text>... Or the USS.</text>
+		<text>...or the USS.</text>
 	</string>
 	<string id="pri_a15_zulus_no_business_with_army">
 		<text>I have no business with the army...</text>
@@ -2326,7 +2358,7 @@
 		<text>Major Degtyarev, we're taking heavy fire from an unidentified enemy! We cannot hold out for long!</text>
 	</string>
 	<string id="pri_a28_medic_about_snork">
-		<text>Those... Bastards again. Maybe we should go around the building.</text>
+		<text>Those... bastards again. Maybe we should go around the building.</text>
 	</string>
 	<string id="pri_a28_signaller_after_surge_1">
 		<text>Roger!</text>
@@ -2413,7 +2445,7 @@
 		<text>Thanks for your help! By the way, the Colonel wants you to pay him a visit.</text>
 	</string>
 	<string id="pri_b305_kirilov_give_coordinates">
-		<text>Yes, I have the coordinates, but the signal is intermitting and... It's moving!</text>
+		<text>Yes, I have the coordinates, but the signal is intermitting and... it's moving!</text>
 	</string>
 	<string id="pri_b305_kirilov_give_new_coordinates">
 		<text>The signal is back! Transmitting coordinates.</text>
@@ -2491,10 +2523,10 @@
 		<text>Where did I find it...? I'd like to see you find anything in my state.</text>
 	</string>
 	<string id="pri_b305_medik_in_freezer">
-		<text>You're not going to believe me anyway, but... In a fridge.</text>
+		<text>You're not going to believe me anyway, but... in a fridge.</text>
 	</string>
 	<string id="pri_b305_medik_talk_later">
-		<text>Whew... It's a long story... I'll tell you another time.</text>
+		<text>Whew... it's a long story... I'll tell you another time.</text>
 	</string>
 	<string id="pri_b305_strelok_about_anomaly_randomize">
 		<text>That's odd... You're telling me you haven't noticed that anomalies move around after an emission? Some disappear, and new ones show up in different places, which makes your map of anomalies effectively useless.</text>
@@ -2503,7 +2535,7 @@
 		<text>The reasons are obvious. There are many anomalies in the air, especially in the center of the Zone.</text>
 	</string>
 	<string id="pri_b305_strelok_about_zone_destroying">
-		<text>Yes... But my plan didn't work. I came here to speak with your commanders. I have information that will allow the Army to take control of the Zone and destroy it.</text>
+		<text>Yes... but my plan didn't work. I came here to speak with your commanders. I have information that will allow the Army to take control of the Zone and destroy it.</text>
 	</string>
 	<string id="pri_b305_strelok_give_up">
 		<text>Don't shoot, I'm headed to the main entrance!</text>

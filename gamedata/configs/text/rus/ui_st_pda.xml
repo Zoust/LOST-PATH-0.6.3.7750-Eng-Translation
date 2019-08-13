@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="Time">
 		<text>Time</text>
@@ -267,6 +267,9 @@
 	<string id="st_ui_pda_legend_vip">
 		<text>Important character</text>
 	</string>
+	<string id="st_ui_pda_companion">
+		<text>Companion</text>
+	</string>
 	<string id="zombie_name">
 		<text>John Doe</text>
 	</string>
@@ -440,7 +443,7 @@
     <string id="pda_msg_all">
         <text>All</text>
     </string>
-	
+
 	<string id="st_mm_pda_statistics">
 		<text>Statistics</text>
 	</string>
@@ -493,18 +496,13 @@
 	<string id="st_pda_display_values">
 		<text>Display Values</text>
 	</string>
-
-	<string id="st_distance_to">
-		<text>Distance to</text>
-	</string>
-
 	<string id="st_pda_change_spot_hint">
 		<text>Edit</text>
 	</string>
 	<string id="st_pda_delete_spot">
 		<text>Remove</text>
 	</string>
-	<string id="st_ui_pda_companion">
-		<text>Companion</text>
+	<string id="st_distance_to">
+		<text>Distance to</text>
 	</string>
 </string_table>

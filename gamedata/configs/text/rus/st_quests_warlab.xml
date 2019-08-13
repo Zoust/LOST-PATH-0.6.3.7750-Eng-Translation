@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+
+	<!-- FIND AND ENTER THE WARLAB -->
 	<string id="sar_perception">
 		<text>Northern passage</text>
 	</string>
 	<string id="sar_perception_1">
-		<text>Meet whomever or whatever is behind the Monolith.</text>
+		<text>Meet whomever - or whatever - is behind the Monolith.</text>
 	</string>
 	<string id="sar_perception_2">
 		<text>Find the laboratory mentioned in the manuscript and discover what it is hiding.</text>
@@ -17,7 +19,7 @@
 	</string>
     <string id="sar_perception_5">
 		<text>Find out the entry code from the documents.</text>
-	</string>		
+	</string>	
 	<string id="warlab_kill_crazy_entity_title">
 		<text>Deal with the unknown entity</text>
 	</string>

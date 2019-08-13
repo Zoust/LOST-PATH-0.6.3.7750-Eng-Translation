@@ -14,7 +14,7 @@
 			</string>
 	<string id="st_itm_sleepbag_name">
 		<text>Sleeping bag</text>
-			</string>
+	</string>
 	<string id="st_itm_sleepbag_desc">
 		<text>A portable sleeping bag designed to keep the user warm and hidden at night.\n\n%c[255,255,255,0]Double-click to place on the ground.</text>
 			</string>

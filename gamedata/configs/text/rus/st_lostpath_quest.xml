@@ -20,8 +20,8 @@
 	</string>
 	<string id="matis_search_title">
 <text>Find Mathis</text>
-</string>
-<string id="matis_search_descr">
+	</string>
+	<string id="matis_search_descr">
 <text>on the Basis of the received message on the PDA I need the Stalker is in the area of the Sawmill. Need to meet and talk to him.</text>
 	</string>
 
@@ -114,98 +114,98 @@
 	</string>
 	<string id="esc_girl_matis_about_descr">
 	<text>Alice on the flash-drive in the general chat sent a message to a stalker Mathis. I know that his name is Lech and he is Alice's friend. He asked to get to him quickly and help him.</text>
-</string>
-
-<string id="ds_matis_title">
+	</string>
+		
+	<string id="ds_matis_title">
 <text>Find Mathis</text>
-</string>
-<string id="ds_matis_descr">
+	</string>
+	<string id="ds_matis_descr">
 <text>Necessary to find and to meet with Mathis</text>
-</string>
-
-<string id="ds_ak74_deliver">
+	</string>
+	
+	<string id="ds_ak74_deliver">
 <text>to Bring the AKS-74U Mathis</text>
-</string>
-<string id="ds_ak74_search">
+	</string>
+	<string id="ds_ak74_search">
 <text>Find the AKS-74U Mathis</text>
-</string>
- <string id="quest_ds_ak74_descr">
+	</string>
+	<string id="quest_ds_ak74_descr">
 <text>Mathis was asked to find them a AKS-74U</text>
-</string>
-
-<string id="kill_bandit_ds_name">
+	</string>
+	
+	<string id="kill_bandit_ds_name">
 <text>to Destroy the detachment of the bandits</text>
-</string>
-<string id="kill_bandit_ds_descr">
+	</string>
+	<string id="kill_bandit_ds_descr">
 <text>Mathis was asked to destroy a squad of bandits at the gas station</text>
-</string>
-
-<string id="quest_ds_matis_dogs_title">
+	</string>
+		
+	<string id="quest_ds_matis_dogs_title">
 <text>to Destroy a squad of dogs,</text>
-</string>
-<string id="quest_ds_matis_dogs_descr">
+	</string>
+	<string id="quest_ds_matis_dogs_descr">
 <text>Mathis gave me my first combat mission. You need to check your shooting skill on dogs.</text>
-</string>
-
-<string id="quest_ds_matis_boar_title">
+	</string>
+	
+	<string id="quest_ds_matis_boar_title">
  <text>Destroy the boar squad</text>
-</string>
-<string id="quest_ds_matis_boar_descr">
+	</string>
+	<string id="quest_ds_matis_boar_descr">
 <text>Mathis gave me second combat mission. You have to fight with a group of wild boars nearby.</text>
-</string>
-
-<string id="ds_back_name">
+	</string>
+	
+	<string id="ds_back_name">
 <text>to return to camp</text>
-</string>
-<string id="ds_back_descr">
+	</string>
+	<string id="ds_back_descr">
 <text>the Job is done. Need to get back to camp.</text>
-</string>
-
-<string id="ds_pda_back">
+	</string>
+	
+	<string id="ds_pda_back">
 <text>to return to camp</text>
-</string>
-<string id="ds_pda_back_descr">
+	</string>
+	<string id="ds_pda_back_descr">
 <text>Found the PDA Digger. Now it needs to show the Tick. I will not be unblocked.</text>
-</string>
-
- <string id="ds_pda_search">
+	</string>
+	
+	<string id="ds_pda_search">
 <text>PDA of a group of diggers</text>
-</string>
-<string id="ds_pda_search_descr">
+	</string>
+	<string id="ds_pda_search_descr">
 <text>Tick instructed to find the missing PDA group of diggers in a Dark Hollow. Landmark - destroyed bridge to the North.</text>
-</string>
-
-<string id="ds_pda_shulc_title">
+	</string>
+	
+	<string id="ds_pda_shulc_title">
 <text>Meet with Shultz</text>
-</string>
-<string id="ds_pda_shulc_descr">
+	</string>
+	<string id="ds_pda_shulc_descr">
 <text>you Need to show PDA Schulz. Tick said he understands.</text>
-</string>
-
-<string id="ds_pda_clesh_unlock_title">
+	</string>
+	
+	<string id="ds_pda_clesh_unlock_title">
 <text>Show PDA Tick</text>
-</string>
-<string id="ds_pda_clesh_unlock_descr">
+	</string>
+	<string id="ds_pda_clesh_unlock_descr">
  <text>Schultz unlock my PDA diggers. Now you need to give it to the Mite and to tell about information that gave Schultz.</text>
-</string>
-<string id="ds_clesh_start_title">
+	</string>
+	<string id="ds_clesh_start_title">
 <text>Find the Tick</text>
-</string> 
-<string id="ds_clesh_start_descr">
+	</string>	
+	<string id="ds_clesh_start_descr">
 <text>Mathis referred me to a Tick. He goes somewhere in the camp.</text>
-</string> 
-
-<string id="ds_documents_search">
+	</string>	
+	
+	<string id="ds_documents_search">
 <text>search for documents</text>
-</string> 
-<string id="ds_documents_search_descr">
+	</string>	
+	<string id="ds_documents_search_descr">
 <text>the PDA has been said that the documents under a bridge. Need to find these documents and bring them to the Tick.</text>
-</string>
-
- <string id="ds_documents_back">
+	</string>
+	
+	<string id="ds_documents_back">
 <text>back to the Tick</text>
-</string> 
-<string id="ds_documents_back_descr">
+	</string>	
+	<string id="ds_documents_back_descr">
 <text>Documents found, you need to go back to camp and give the documents to the Tick.</text>
 	</string>
 	
@@ -220,14 +220,14 @@
 	</string>	
 	<string id="ds_zapravka_done_descr">
 	<text>the Ticket job is complete. We must return for the reward.</text>
-</string>
-
-<string id="companion_quest_zulus_title">
+	</string>
+	
+	<string id="companion_quest_zulus_title">
 <text>the Request of the Zulus</text>
-</string>
-<string id="companion_quest_zulus_descr">
+	</string>
+	<string id="companion_quest_zulus_descr">
 <text>Zulu has asked me to find him three boxes for a PKM</text>
-</string>
+	</string>
 	
 	<string id="bar_barman_title">
 	<text>Bar 100 X-ray: Barman</text>
@@ -344,5 +344,10 @@
 	<text>This folder contains information about stalker Strelok and a non-doctor. Very little can be understood from the text, because the pages are clearly not new. Somewhere there are scrapes, somewhere they are torn, but the general essence can be understood. Here are some of the excerpts:\n 'Shooter, in the dungeons of the agro industry I have something left for you. '\n ' You can enter the dungeons through the western Entrance to the research institute. '\n ' the doctor is waiting for you, hurry.'</text>
 	</string>
 	
-	
+	<string id="proba_pera_title">
+		<text>Attempt at writing</text>
+	</string>
+	<string id="proba_pera_descr">
+		<text>Attempt at writing</text>
+	</string>
 </string_table>

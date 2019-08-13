@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- yan_ecolog_semenov -->
+	<!-- ESCORT ECOGS TASK -->
 	<string id="yan_ecolog_semenov_task_1_name">
 		<text>Semenov Research Hunt</text>
 	</string>
@@ -13,7 +13,7 @@
 	<string id="yan_ecolog_semenov_task_1_finish">
 		<text>Thank you for your assistance, friend. I have all the tissue samples I need. Here is your payment. Come back and see me again some time.</text>
 	</string>
-
+	<!-- FIND MUTANT PARTS FOR ECOGS TASK -->
 	<string id="yan_stalker_sakharov_task_1_name">
 		<text>Procure %s</text>
 	</string>
@@ -29,15 +29,14 @@
 	<string id="yan_stalker_sakharov_task_1_fetch_finish">
 		<text>Thank you, sir. This will help immensely in my research.</text>
 	</string>
-
-	<!-- yan_stalker_sakharov -->
+	<!-- WAIT FOR PSI HELMET CALIBRATION TASK -->
 	<string id="yan_stalker_sakharov_psi_helmet_upgrade_name">
 		<text>Collect the psi-helmet</text>
 	</string>
 	<string id="yan_stalker_sakharov_psi_helmet_upgrade_text">
-		<text>Professor Sakharov has agreed to recalibrate the psi-protection helmet. He has asked you to return to pick it up in a couple days.</text>
+		<text>Professor Sakharov has agreed to recalibrate the psi-protection helmet. He asked you to come back to pick it up in a couple days.</text>
 	</string>
-
+	<!-- TURN OFF MIRACLE MACHINE TASK -->
 	<string id="brain_machine_deactivate_name">
 		<text>Disable the Miracle Machine</text>
 	</string>

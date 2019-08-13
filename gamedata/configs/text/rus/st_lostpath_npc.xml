@@ -2,17 +2,17 @@
 <string_table>
 	<string id="esc_father_name">
 <text>Father Valerian</text>
-</string>
-
-<string id="mil_bodyguard_1">
+	</string>
+	
+	<string id="mil_bodyguard_1">
 <text>Corner</text>
-</string>
-
-<string id="mil_bodyguard_2">
+	</string>
+	
+	<string id="mil_bodyguard_2">
 <text>Toast</text>
-</string>
-
-<string id="general_kuznetsov">
+	</string>
+	
+	<string id="general_kuznetsov">
 <text>General Kuznetsov</text>
-</string>
+	</string>
 </string_table>

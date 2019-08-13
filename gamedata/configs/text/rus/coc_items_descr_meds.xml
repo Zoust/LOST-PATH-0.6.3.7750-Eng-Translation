@@ -1,61 +1,61 @@
 <string_table>
-<string id="st_psy_complex">
+	<string id="st_psy_complex">
 <text>Psihodelik</text>
-</string>
-<string id="st_psy_complex_descr">
+	</string>
+	<string id="st_psy_complex_descr">
 <text>Useful properties: restores the psi-health, stops the mental effects on the brain, and removes toxins.</text>
-</string>
-<string id="st_medkit_elite">
+	</string>
+	<string id="st_medkit_elite">
 <text>the Elite medkomplekt</text>
-</string>
-<string id="st_medkit_elite_descr">
+	</string>
+	<string id="st_medkit_elite_descr">
  <text>Elite medical kit, designed specifically for use in the Zone. The set picked up for combat wounds, and for the withdrawal of radionuclides from the body. Prevents the development of radiation sickness and restores energy, and reduces the dose of accumulated radiation.</text>
-</string>
-<string id="st_bio_bandage">
+	</string>
+	<string id="st_bio_bandage">
 <text>bandage</text>
-</string>
-<string id="st_bio_bandage_descr">
+	</string>
+	<string id="st_bio_bandage_descr">
 <text>Improved bandaging material. Stops bleeding and reduces the radiation level in the blood.</text>
 </string>
-<string id="st_drug_engine">
+	<string id="st_drug_engine">
 <text>LSD protector</text>
-</string>
-<string id="st_drug_engine_descr">
+	</string>
+	<string id="st_drug_engine_descr">
 <text>Composition: artificial steroids, Enderlin-B 190, hydrochloride, menadione, metoclopramide, pyridoxine, thiamine, Riboxin and others. Enters into the blood of substances capable of decomposing protein toxins, as well as the absorbents of synthetic poisons. The drug is the most powerful among his kind. The drug is long-acting.</text>
-</string>
-<string id="st_bag_medkit_1_title">
+	</string>
+	<string id="st_bag_medkit_1_title">
 <text>Bag CMB</text>
-</string>
-<string id="st_bag_medkit_1_descr">
+	</string>
+	<string id="st_bag_medkit_1_descr">
  <text>Is a set of medical equipment and medicines for first aid.</text>
-</string>
-<string id="st_bag_medkit_2_title">
+	</string>
+	<string id="st_bag_medkit_2_title">
 <text>Army messenger bag CMB</text>
-</string>
-<string id="st_bag_medkit_2_descr">
+	</string>
+	<string id="st_bag_medkit_2_descr">
 <text>Is a set of medical equipment and medicines for first aid in the conduct of special operations.</text>
-</string>
-<string id="st_bag_medkit_3_title">
+	</string>
+	<string id="st_bag_medkit_3_title">
 <text>Bag CMB scientists</text>
-</string>
-<string id="st_bag_medkit_3_descr">
+	</string>
+	<string id="st_bag_medkit_3_descr">
  <text>Is a set of medical equipment and medicines for first aid in scientific expeditions.</text>
-</string>
-<string id="st_bag_medkit_4_title">
+	</string>
+	<string id="st_bag_medkit_4_title">
 <text>a Special bag CMB</text>
-</string>
-<string id="st_bag_medkit_4_descr">
+	</string>
+	<string id="st_bag_medkit_4_descr">
 <text>Is a set of medical equipment and medicines for first aid in extreme conditions of the Exclusion Zone.</text>
-</string>
-<string id="st_cat_eye">
+	</string>
+	<string id="st_cat_eye">
 <text>Cat's eye</text>
-</string>
-<string id="st_cat_eye_descr">
- <text>the new drug, developed by scientists in the Zone. Increases the pupil to epic proportions, thus allows you to see better in the dark. The drug is the eyes of the Chernobyl Cat. Very popular among the Mercenaries and night patrols of the Duty. Method of use: open package, eat contents. Side effects: temporary loss of vision. Duration - one hour.</text>
-</string>
+	</string>
+	<string id="st_cat_eye_descr">
+ <text>the new drug, developed by scientists in the Zone. Increases the pupil to epic proportions, thus allows you to see better in the dark. The drug is the eyes of the Chernobyl Cat. Very popular among the Mercenaries and night patrols of the Debt. Method of use: open package, eat contents. Side effects: temporary loss of vision. Duration - one hour.</text>
+	</string>
 <string id="TGZ_medo">
 <text>Moonshine</text>
-</string>
+	</string>
 <string id="TGZ_medo_desc">
  <text>Home vodka , swissarena to discover the Area. Contains some special ingredients, which is transmitted from the Stalker to the Stalker.</text>
 </string>

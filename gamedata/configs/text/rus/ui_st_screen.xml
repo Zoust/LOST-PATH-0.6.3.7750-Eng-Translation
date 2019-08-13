@@ -306,7 +306,7 @@
 	<string id="st_make_a_wish">
 		<text>Make a wish ($$ACTION_USE$$)</text>
 	</string>
-	<string id="st_lx18_pda">
+               <string id="st_lx18_pda">
 		<text>Listen to PDA recording</text>
 	</string>
 	<string id="dar_poltergeist_hold_the_door">
@@ -412,7 +412,7 @@
 	<string id="st_nobody_left_to_replace">
 		<text>There are no replacements.</text>
 	</string>
-	
+
 	<string id="st_nothing_useful">
 		<text>Nothing useful</text>
 	</string>

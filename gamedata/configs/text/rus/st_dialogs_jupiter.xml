@@ -5,7 +5,7 @@
 	</string>
 	<string id="jup_b19_freedom_yar_start_dialog_0">
 		<text>Hello, stalker. What do you need?</text>
-	</string>
+	</string>	
 	<string id="jup_b220_trapper_start_11">
 		<text>I'm Trapper... There's no need to introduce yourself.</text>
 	</string>
@@ -96,11 +96,11 @@
 	<string id="jup_b16_biochemist_oasis_start_11">
 		<text>What brings you here?</text>
 	</string>
-	
+
 	<string id="jup_b6_scientist_medic_start_11">
 		<text>What brings you here?</text>
 	</string>
-	
+
 	<!-- Ashot and Yar -->
 	<string id="st_jup_yar_reply_1">
 		<text>You go tell %s to get his fat ass over here.</text>
@@ -219,4 +219,6 @@
 	<string id="gonta_1116">
 		<text>Nevermind.</text>
 	</string>
+
+
 </string_table>

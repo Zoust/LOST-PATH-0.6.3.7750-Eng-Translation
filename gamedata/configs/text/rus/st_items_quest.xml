@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="drx_sl_quest_item_1_name">
 		<text>Documents</text>
@@ -6,19 +6,22 @@
 	<string id="drx_sl_quest_item_1_desc">
 		<text>Important documents. Return them for your reward.</text>
 	</string>
+
 	<string id="drx_sl_quest_item_2_name">
 		<text>Locked Case</text>
 	</string>
 	<string id="drx_sl_quest_item_2_desc">
 		<text>A locked case. Not sure what's inside but it's heavy. Better be worth it lugging this thing around.</text>
 	</string>
+
 	<string id="drx_sl_quest_item_3_name">
 		<text>PDA</text>
 	</string>
 	<string id="drx_sl_quest_item_3_desc">
 		<text>An encrypted PDA. You have been promised a reward for its return.</text>
 	</string>
-	<string id="bad_psy_helmet_desc">
+
+        <string id="bad_psy_helmet_desc">
 		<text>Prototype developed by scientists to protect people from psi-emissions. Needs adjusting.</text>
 	</string>
 	<string id="bad_psy_helmet_name">
@@ -40,7 +43,7 @@
 		<text>A key with 'Hotel Polissya – Room 26' engraved on side.</text>
 	</string>
 	<string id="item_docs_hiden_pri_desc">
-		<text>Worn manuscript in leather binding. Written by Strelok himself. \nJudging by the headings alone, it might explain some of the Zone's secrets.</text>
+		<text>Worn manuscript in leather binding. Written by Strelok himself.\nJudging by the headings alone, it might explain some of the Zone's secrets.</text>
 	</string>
 	<string id="cit_doctors_pda_name">
 		<text>Doctor's notes</text>
@@ -85,7 +88,7 @@
 		<text>Rainbow emitter documents</text>
 	</string>
 		<string id="item_doc_x8_desc">
-		<text>The document refers to the transfer of the research team and all materials to another laboratory far in the north, which will be used to research matters relating to the influence of the noosphere. To enter the lab, use the date of the accident as the code (ddmmyyyy).\n \nThe research team comprised: N.A. Lebedev, E.F. Kalancha and V.I. Suslov.</text>
+		<text>The document refers to the transfer of the research team and all materials to another laboratory far in the north, which will be used to research matters relating to the influence of the noosphere. To enter the lab, use the date of the accident as the code (ddmmyyyy).\n\nThe research team comprised: N.A. Lebedev, E.F. Kalancha and V.I. Suslov.</text>
 	</string>
 	<string id="item_doc_x8_name">
 		<text>Order of Transfer</text>
@@ -102,12 +105,11 @@
 	<string id="item_doc_mon_con_name_desc">
 		<text>Documents which describe the operating mechanism and main technical characteristics of a more advanced electromagnetic device.\nThere is a note inside the documents which reads: 'Documents must be returned to X8, the central laboratory. I will be busy, so deliver them yourself. — N. Lebedev'</text>
 	</string>
-
 <string id="jup_b47_merc_pda">
 	<text>PDA Digger</text>
 	</string>
 	<string id="jup_b47_merc_pda_desc">
-	<text>Band its settled in the cemetery of technology. Recently, some Sultan came, looked at the preparation of the brothers and the strengthening of the point. They said something about Valerian and Zvezdochet, I was far away, did not quite hear. How to get my affairs to the Landfill-I'll go along with Gray's group to the Barman. He surely will clarify the situation. \n Wild Ex.</text>
+	<text>Band its settled in the cemetery of technology. Recently, some Sultan came, looked at the preparation of the brothers and the strengthening of the point. They said something about Valerian and Zvezdochet, I was far away, did not quite hear. How to get my affairs to the Landfill-I'll go along with Gray's group to the Barman. He surely will clarify the situation.\n Wild Ex.</text>
 	</string>
 <string id="st_device_flash_snag">
 	<text>PDA Valeriana</text>
@@ -119,28 +121,28 @@
 	<text>KPK Voronin</text>
 	</string>
 	<string id="st_device_pda_port_bandit_leader_descr">
-	<text>I order you to block all the ex its from the dungeon, so that no creature from there crawls out! To send a detachment of professional fighters to the burrow to deter evil spirits, the next day will come a replacement group. \n General Voronin.</text>
+	<text>I order you to block all the ex its from the dungeon, so that no creature from there crawls out! To send a detachment of professional fighters to the burrow to deter evil spirits, the next day will come a replacement group.\n General Voronin.</text>
 	</string>
 	<string id="st_device_pda_zat_b5_dealer_desc">
-	<text>A stalker came to us, called Fang. In appearance, like, a mercenary, but stripe wore stalker. He asked Novikov to give him a pair of capacitors and textolite plates. I do not know why the hell they are to him, but he paid well. I'll send a scout for him, let him trace it to the border of the Swamp. \n Cold.</text>
+	<text>A stalker came to us, called Fang. In appearance, like, a mercenary, but stripe wore stalker. He asked Novikov to give him a pair of capacitors and textolite plates. I do not know why the hell they are to him, but he paid well. I'll send a scout for him, let him trace it to the border of the Swamp.\n Cold.</text>
 	</string>
 	<string id="st_device_pda_zat_b5_dealer_name">
 	<text>PDA Coldness</text>
 	</string>
 	<string id="st_jup_b10_notes_01_desc">
-	<text>Ghost, I'm taking my stuff. Special thanks for the machine-I without it as without hands. In return I leave the kit of medicines from the Doctor. Now I'm going to a meeting with Zvezdochet: he managed to assemble the decoder. If you manage, we'll meet in our safe house. \n Arrows.</text>
+	<text>Ghost, I'm taking my stuff. Special thanks for the machine-I without it as without hands. In return I leave the kit of medicines from the Doctor. Now I'm going to a meeting with Zvezdochet: he managed to assemble the decoder. If you manage, we'll meet in our safe house.\n Arrows.</text>
 	</string>
 	<string id="st_jup_b10_notes_01_name">
 	<text>Note to the Ghost</text>
 	</string>
 	<string id="st_jup_b10_notes_02_desc">
-	<text>Fang, the second decoder crashed when I fell into the hole at the exit of X-16. If there were not one stalker, I would have died. While I'm sitting at Sakharov's place, I'll patch up my wounds. Before going to the Laboratory, I spoke with the Guide, he said that he would stay with the Steller for a while with Zvezdochet. I hope, you will have time to catch him there. \n Ghost.</text>
+	<text>Fang, the second decoder crashed when I fell into the hole at the exit of X-16. If there were not one stalker, I would have died. While I'm sitting at Sakharov's place, I'll patch up my wounds. Before going to the Laboratory, I spoke with the Guide, he said that he would stay with the Steller for a while with Zvezdochet. I hope, you will have time to catch him there.\n Ghost.</text>
 	</string>
 	<string id="st_jup_b10_notes_02_name">
 	<text>Note to Fang</text>
 	</string>
 	<string id="st_jup_b10_notes_03_desc">
-	<text>Shooter, I cannot wait for you anymore-I have a whole pack on my tail. I'm on my way to Pripyat. If I do not come back, tap the Ghost and say, let it also stomp on our apartment. Everything, be it! \n Fang.</text>
+	<text>Shooter, I cannot wait for you anymore-I have a whole pack on my tail. I'm on my way to Pripyat. If I do not come back, tap the Ghost and say, let it also stomp on our apartment. Everything, be it!\n Fang.</text>
 	</string>
 	<string id="st_jup_b10_notes_03_name">
 	<text>Arrow note</text>
@@ -158,37 +160,37 @@
 	<text>Ghost's Handheld</text>
 	</string>
 <string id="st_jup_b46_duty_founder_pda_desc">
-	<text>The flash-drive has a recent correspondence with Zvezdochet and Rifleman. In one of the dialogues there are transitions to the Red Forest, Limansk, the Hospital and the Overpass. Reverse transitions are also included.</text>
+	<text>the flash-drive has a recent correspondence with Zvezdochet and Rifleman. In one of the dialogues there are transitions to the Red Forest, Limansk, the Hospital and the Overpass. Reverse transitions are also included.</text>
 	</string>
 	<string id="st_jup_b46_duty_founder_pda_name">
 	<text>PDA Fang</text>
 	</string>
 <string id="st_pri_b306_envoy_pda_desc">
-	<text>The last entry on the flash-drive reads: Garin returned not so long ago, he said that he was on the road to Zaton, that he had a cement plant. It will be necessary to collect an expedition group and study the local anomalies there. \n German.</text>
+	<text>the last entry on the flash-drive reads: Garin returned not so long ago, he said that he was on the road to Zaton, that he had a cement plant. It will be necessary to collect an expedition group and study the local anomalies there.\n German.</text>
 	</string>
 	<string id="st_pri_b306_envoy_pda_name">
 	<text>Herman's PDA</text>
 	</string>
 <string id="st_pri_b36_monolith_hiding_place_pda_desc">
-	<text>There are a lot of records in the flash-drive that do not have an obvious meaning, but one still attracts attention: Recently, Skadovsk himself came to the Guide himself. He told the group of 'Dutiers' and the military transition Pripyat. Reported to this beard, he wants to carry out the operation to clean up, in order to avoid attacks from both sides. Coordinates I'll write down the transition, I'll never forget it. \n Pilot.</text>
+	<text>There are a lot of records in the flash-drive that do not have an obvious meaning, but one still attracts attention: Recently, Skadovsk himself came to the Guide himself. He told the group of 'Debtors' and the military transition Pripyat. Reported to this beard, he wants to carry out the operation to clean up, in order to avoid attacks from both sides. Coordinates I'll write down the transition, I'll never forget it.\n Pilot.</text>
 	</string>
 	<string id="st_pri_b36_monolith_hiding_place_pda_name">
 	<text>KPK of the Pilot</text>
 	</string>
 <string id="st_zat_b20_noah_pda_desc">
-	<text>Arranged along the perimeter of small groups, for safety. Monoliths every day try to take us by storm, but we still keep the defenses. Sooner or later we will have to go on the offensive, I'm afraid only that losses cannot be avoided. \n Colonel Kowalski.</text>
+	<text>Arranged along the perimeter of small groups, for safety. Monoliths every day try to take us by storm, but we still keep the defenses. Sooner or later we will have to go on the offensive, I'm afraid only that losses cannot be avoided.\n Colonel Kowalski.</text>
 	</string>
 	<string id="st_zat_b20_noah_pda_name">
 	<text>Kovalsky's handheld computer</text>
 	</string>
 	<string id="st_zat_b40_notebook_desc">
-	<text>The last outgoing message: \n A fanatic attack was committed a few hours ago. We take everything we can, and we go to the Chernobyl nuclear power plant, through the center of Pripyat. Suslov managed to find a short road to the west, we move there. I hope that's enough for us to stop the Arrow. \n D. Lebedev.</text>
+	<text>the last outgoing message:\n A fanatic attack was committed a few hours ago. We take everything we can, and we go to the Chernobyl nuclear power plant, through the center of Pripyat. Suslov managed to find a short road to the west, we move there. I hope that's enough for us to stop the Arrow.\n D. Lebedev.</text>
 	</string>
 	<string id="st_zat_b40_notebook_name">
 	<text>Laptop Lebedev</text>
 	</string>
 	<string id="st_zat_b40_pda_1_desc">
-	<text>I'm scared. Kowalski does everything necessary for the security of our camp, but the monoliths will not stop! the Shooter came recently, gave us some supplies and left somewhere. We sit here as if on needles, and these staff freaks do not even plan to take us away from here! When it's all over, I'm gone. in civil aviation. I've had enough of this damned Zone! \n Sokolov ON</text>
+	<text>I'm scared. Kowalski does everything necessary for the security of our camp, but the monoliths will not stop! the Shooter came recently, gave us some supplies and left somewhere. We sit here as if on needles, and these staff freaks do not even plan to take us away from here! When it's all over, I'm gone. in civil aviation. I've had enough of this damned Zone!\n Sokolov ON</text>
 	</string>
 	<string id="st_zat_b40_pda_1_name">
 	<text>PDA Sokolov</text>
@@ -197,10 +199,10 @@
 	<text>KPK Rogovets</text>
 	</string>
 <string id="st_zat_b40_pda_2_desc">
-	<text>Every day I look at the wounded, and every twelve hours new sacrifices come to me. Lord, give me strength not to go insane.. \n Lieutenant Rogovets.</text>
+	<text>Every day I look at the wounded, and every twelve hours new sacrifices come to me. Lord, give me strength not to go insane..\n Lieutenant Rogovets.</text>
 	</string>
 <string id="zat_b39_joker_pda_description">
-	<text>The shooter Capt a lot of information related to the Zone. She certainly will be interested in influential merchants.</text>
+	<text>the shooter Capt a lot of information related to the Zone. She certainly will be interested in influential merchants.</text>
 	</string>
 	<string id="zat_b39_joker_pda_name">
 	<text>PDA Arrow</text>
@@ -221,6 +223,6 @@
 	<text>PDA Vasil</text>
 	</string>
 	<string id="st_jup_b202_bandit_pda_descr">
-	<text>Heck! the quartet appointed me as the curator of the Chernobyl clean-up operation, but I'm not ready for such a thing! I spat on everything, I go to the Cordon. \n Brigadier Vasil.</text>
+	<text>Heck! the quartet appointed me as the curator of the Chernobyl clean-up operation, but I'm not ready for such a thing! I spat on everything, I go to the Cordon.\n Brigadier Vasil.</text>
 	</string>
 </string_table>

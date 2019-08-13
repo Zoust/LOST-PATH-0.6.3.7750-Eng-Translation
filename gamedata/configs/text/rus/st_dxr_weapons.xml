@@ -45,7 +45,7 @@
     <string id="st_dxr_knife_hunting_descr">
         <text>A modern hunting knife with a camouflage pattern. Roughly half a dozen barbs run along the top of the blade, making its removal from flesh very difficult.</text>
     </string>
-	
+
 	<!-- ----------------->
 	<!----- GRENADES ----->
 	<!-------------------->
@@ -132,7 +132,7 @@
     </string>
 	
     <string id="st_dxr_wpn_fn57_name">
-        <text>FN Five-seveN</text>
+        <text>FN Five-seven</text>
     </string>
     <string id="st_dxr_wpn_fn57_descr">
         <text>The FN Five-seveN is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol was developed in conjunction with the FN P90 and the FN 5.7x28 mm cartridge.</text>
@@ -256,7 +256,7 @@
     <string id="st_dxr_wpn_walther_descr">
         <text>The Walther P99 is a semi-automatic pistol developed for law enforcement, security forces and the civilian shooting market as a replacement for the Walther P5 and the P88.</text>
     </string>
-	
+
 	<!-- --------------->
 	<!----- RIFLES ----->
 	<!------------------>
@@ -396,7 +396,7 @@
     <string id="st_dxr_wpn_ak74m_nimble_descr">
         <text>A woodland camouflage pattern and a unique PK-A optical sight adorn this rifle. It is obvious that its original owner must have been a professional stalker, although there is little to no indication left as to who that was.</text>
     </string>
-	
+
     <string id="st_dxr_wpn_ak74m_raifu_name">
         <text>"Raifu"</text>
     </string>

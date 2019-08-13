@@ -950,7 +950,6 @@
 	<string id="st_dyn_news_comm_freedom_14">
 		<text>Shit, help!</text>
 	</string>
-	
 	<!-- weapon class description -->
 	<string id="st_dyn_news_wpn_cls_1_1">
 		<text>Unknown</text>
@@ -1693,8 +1692,8 @@
 	<string id="st_dyn_l02_garbage_daleko_7">
 		<text>the road to Cordon</text>
 	</string>
-	
-	<!-- blizko -->
+
+	        <!-- blizko -->
 	<string id="st_dyn_l09_deadcity_blizko_1">
 		<text>near the tunnel to the Army Warehouses</text>
 	</string>
@@ -2136,7 +2135,6 @@
 	<string id="st_dyn_l02_garbage_blizko_7">
 		<text>at the exit to Cordon</text>
 	</string>	
-	
 	<!-- Bounty gossip -->
 	<string id="st_dyn_news_gossip_bounty_1">
 		<text>I just seen $who, $where. I heard someone put a bounty on his head.</text>
@@ -2150,7 +2148,6 @@
 	<string id="st_dyn_news_gossip_bounty_4">
 		<text>I heard Sidorovich is looking for $who. I just saw him $where.</text>
 	</string>
-	
 	<!-- Arte gossip -->
 	<string id="st_dyn_news_gossip_arte_1">
 		<text>My lucky day! I just found a $what</text>
@@ -2187,29 +2184,29 @@
 		<text>Ground-unit to Air-unit, requesting aid $where. We are being assaulted by $what!</text>
 	</string>
 	<!-- buy gossip -->
-	<string id="st_dyn_news_gossip_buy_1">
-		<text>$who has some very shitty deals. I think he ripped me off on a $what.</text>
+	<string id="st_dyn_news_gossip_buy_1_1">
+		<text>I think %s pinned me. %s at such a price - what's the fuck!</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_2">
-		<text>Anyone know when $who will get more $what in stock?</text>
+	<string id="st_dyn_news_gossip_buy_1_2">
+		<text>When will %s update its product range? %s have at least other merchants?</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_3">
-		<text>$who has some good deals on $what, today.</text>
+	<string id="st_dyn_news_gossip_buy_1_3">
+		<text>If someone does not know -%s today is not bad at trading. %s at a reasonable price.</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_4">
-		<text>I'll be broke in no time if $who keeps raising his prices.</text>
+	<string id="st_dyn_news_gossip_buy_1_4">
+		<text>I will go broke if %s raises prices.</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_5">
-		<text>$what costs too much... Damn.</text>
+	<string id="st_dyn_news_gossip_buy_2_1">
+		<text>%s today for too high a price... That's bad luck.</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_6">
-		<text>Anyone know where I can buy $what? $who is out of them.</text>
+	<string id="st_dyn_news_gossip_buy_2_2">
+		<text>Is there %s anywhere on sale? %s said he didn’t.</text>
 	</string>	
-	<string id="st_dyn_news_gossip_buy_7">
-		<text>Shit... Good deals on $what, today.</text>
+	<string id="st_dyn_news_gossip_buy_2_3">
+		<text>Damn... I can’t afford %s today.</text>
 	</string>
-	<string id="st_dyn_news_gossip_buy_8">
-		<text>I just bought $what, just don't hope some asshole doesn't takes it from my stash...</text>
+	<string id="st_dyn_news_gossip_buy_2_4">
+		<text>%s! This is a find! And don’t even hope to rob my cache.</text>
 	</string>
 	<!-- kill wounded -->
 	<string id="st_dyn_news_gossip_kill_wounded_1">
@@ -3052,7 +3049,7 @@
 	<string id="st_dyn_news_spam_faction_bandit_17">
 		<text>Fucking state. You don't get shit from them, you turn the other direction and they ruin your life for nothing.</text>
 	</string>
-	
+
 	
 	
 	<string id="st_dyn_news_spam_faction_dolg_1">
@@ -3453,7 +3450,7 @@
 	<string id="st_dyn_news_spam_faction_killer_18">
 		<text>I've noticed an increased number of visitors lately. Any suspicious activity near our base will be met with fire, you've been warned.</text>
 	</string>
-	
+
 	<string id="st_dyn_news_spam_faction_csky_1">
 		<text>To all of us, it's urgent to go into the private channel. update the defense, otherwise, do not complain that the renegades have learned about your little secrets.</text>
 	</string>
@@ -4984,7 +4981,7 @@
 	<string id="st_dyn_news_time_night_19">
 		<text>Damn, the sun's already going down... I can already feel something unsettling in the vicinity.</text>
 	</string>
-	
+
 	
 	<string id="st_dyn_news_time_morning_1">
 		<text>It's during moments like this in the morning that I remember my childhood. My village. You get up so early and watch the shadow and light play in your room... It's unreal. Magical.</text>
@@ -5100,10 +5097,7 @@
 		<text>It's a good time to gather around campfires, what you guys say?</text>
 	</string>
 	<string id="st_dyn_news_time_evening_8">
-		<text>Sun is going down, mutants are waking up.</text>
-	</string>
-	<string id="st_dyn_news_time_evening_8">
-		<text>Huh, am I the only one who felt the day was short?.</text>
+		<text>Huh, am I the only one who felt the day was short...</text>
 	</string>
 	<string id="st_dyn_news_time_evening_9">
 		<text>What a view, won't mind sticking around.</text>

@@ -1,64 +1,64 @@
 <string_table>
 	<string id="st_sardina">
 <text>Sardines "Pirate"</text>
-</string>
-<string id="st_sardina_descr">
+	</string>
+	<string id="st_sardina_descr">
 <text>a Very tasty fish, caught in the Pacific ocean, and transported some stalkers to the exclusion zone. Shelf life 1.5 months.</text>
-</string>
-<string id="st_nuts_2">
+	</string>
+	<string id="st_nuts_2">
 <text>Bank with nuts "BIM BOM"</text>
-</string>
-<string id="st_nuts_2_descr">
+	</string>
+	<string id="st_nuts_2_descr">
 <text>the Bank of nuts with increased amounts of vitamins. They can be quickly filled and a bit to regain energy.</text>
-</string>
-<string id="st_wild_drink">
+	</string>
+	<string id="st_wild_drink">
 <text>"Wild" beverage</text>
-</string>
- <string id="st_wild_drink_descr">
+	</string>
+	<string id="st_wild_drink_descr">
 <text>the Drink is called "Wild" because it contains alcohol. The drink contains 5% alcohol, and drugs, causing the release of adrenaline in the blood.</text>
-</string>
-<string id="st_olivki">
+	</string>
+	<string id="st_olivki">
 <text>Olives</text>
-</string>
-<string id="st_olivki_descr">
+	</string>
+	<string id="st_olivki_descr">
 <text>Fresh jar of olives in the Area the other does not exist. A popular and very marketable stalkers, but perishable in the zone. Slightly reduces the impact of radiation on the body.</text>
-</string>
-<string id="st_cheese">
+	</string>
+	<string id="st_cheese">
 <text>Processed cheese "Yantar"</text>
-</string>
- <string id="st_cheese_descr">
+	</string>
+	<string id="st_cheese_descr">
 <text>Normal processed cheese with local underground plant. Despite the fact that preparing in the Area, nobody has poisoned.</text>
-</string>
-<string id="st_galet">
+	</string>
+	<string id="st_galet">
 <text>Biscuits</text>
-</string>
-<string id="st_galet_descr">
+	</string>
+	<string id="st_galet_descr">
 <text>Quite nutritious, allowing long storage of the product, but they are not particularly satisfied.</text>
-</string>
-<string id="st_shokolad">
+	</string>
+	<string id="st_shokolad">
 <text>the Chocolate "Alenka"</text>
-</string>
-<string id="st_shokolad_descr">
+	</string>
+	<string id="st_shokolad_descr">
 <text>a Favorite treat of many stalkers. An excellent remedy against bad mood.</text>
-</string>
- <string id="st_batonchik">
+	</string>
+	<string id="st_batonchik">
 <text>Chocolate</text>
-</string>
-<string id="st_batonchik_descr">
+	</string>
+	<string id="st_batonchik_descr">
 <text>Delicious bar of milk chocolate with cream filling. An excellent remedy against bad mood.</text>
-</string>
-<string id="st_beer">
+	</string>
+	<string id="st_beer">
 <text>Beer "Zhigulevskoe"</text>
-</string>
-<string id="st_beer_descr">
+	</string>
+	<string id="st_beer_descr">
 <text>Good to drink, uplifting. Barely noticeable to reduce the effect of radiation on the body.</text>
-</string>
-<string id="st_juice">
+	</string>
+	<string id="st_juice">
 <text>Orange juice "Default"</text>
-</string>
-<string id="st_juice_descr">
+	</string>
+	<string id="st_juice_descr">
  <text>a Nutritional product, perfectly restoring health.</text>
-</string>
+	</string>
 
 
 <string id="TGZ_jerky">
@@ -75,7 +75,7 @@
 </string>
 <string id="TGZ_hash">
 <text>Biscuits with hashish</text>
-</string>
+	</string>
 <string id="TGZ_hash_desc">
 <text>Eating them, you'll find that it's not so bad.</text>
 </string>

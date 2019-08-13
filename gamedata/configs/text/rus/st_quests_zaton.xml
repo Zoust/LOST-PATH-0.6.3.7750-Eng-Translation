@@ -39,7 +39,7 @@
 	<string id="zat_a2_stalker_barmen_task_3_finish">
 		<text>Ah, you killed him! Well, that's effective diplomacy! Good man! Free drinks for you!</text>
 	</string>
-    <string id="zat_a2_stalker_barmen_task_14_name">
+        <string id="zat_a2_stalker_barmen_task_14_name">
 		<text>Obtain part of the monster's body</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_14_text">
@@ -48,13 +48,14 @@
 	<string id="zat_a2_stalker_barmen_task_14_about">
 		<text>There was an order for a part of monsters from scientists, you undertake?</text>
 	</string>
-    <string id="zat_a2_stalker_barmen_task_14_fetch_about">
+        <string id="zat_a2_stalker_barmen_task_14_fetch_about">
 		<text>Please, please %s.</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_14_finish">
 		<text>Keep the profits.</text>
 	</string>
-    <string id="zat_a2_stalker_barmen_task_15_name">
+
+        <string id="zat_a2_stalker_barmen_task_15_name">
 		<text>Get the meat of the monster</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_15_text">
@@ -63,7 +64,7 @@
 	<string id="zat_a2_stalker_barmen_task_15_about">
 		<text>I decided to try something that is edible from the meat of the local fauna, so you need to go and get meat mutants. You take?</text>
 	</string>
-    <string id="zat_a2_stalker_barmen_task_15_fetch_about">
+        <string id="zat_a2_stalker_barmen_task_15_fetch_about">
 		<text>Please, please %s.</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_15_finish">
@@ -126,7 +127,10 @@
 	<string id="zat_a2_stalker_mechanic_task_3_fetch_finish">
 		<text>Fantastic! Feel free to stop by any time for a drink or if you need me to take a look at your gear.</text>
 	</string>
-	<string id="zat_a2_reach_base_name">
+
+
+
+<string id="zat_a2_reach_base_name">
 		<text>Safe place: get to Skadovsk</text>
 	</string>
 	<string id="zat_a2_reach_base_text">

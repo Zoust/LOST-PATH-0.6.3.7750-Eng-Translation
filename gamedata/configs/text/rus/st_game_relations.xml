@@ -7,40 +7,40 @@
 	<!-- Actor Factions -->
 	<string id="actor">
 		<text>Loner</text>
-	</string>
-	<string id="actor_bandit">
+  </string>
+  <string id="actor_bandit">
 		<text>Bandit</text>
-	</string>
-	<string id="actor_csky">
+  </string>
+  <string id="actor_csky">
 		<text>Clear Sky</text>
-	</string>
-	<string id="actor_dolg">
+  </string>
+  <string id="actor_dolg">
 		<text>Duty</text>
-	</string>
-	<string id="actor_ecolog">
+  </string>
+  <string id="actor_ecolog">
 		<text>Ecologist</text>
 	</string>
-	<string id="actor_freedom">
+  <string id="actor_freedom">
 		<text>Freedom</text>
-	</string>
-	<string id="actor_killer">
+  </string>
+  <string id="actor_killer">
 		<text>Mercenary</text>
-	</string>
-	<string id="actor_stalker">
+  </string>
+   <string id="actor_stalker">
 		<text>Loner</text>
-	</string>
-	<string id="actor_army">
+  </string>
+  <string id="actor_army">
 		<text>Military</text>
-	</string>
-	<string id="actor_monolith">
+  </string>
+  <string id="actor_monolith">
 		<text>Monolith</text>
 	</string>
 	<string id="actor_monster">
 		<text>Mutant</text>
   </string>
-	<string id="actor_zombied">
+  <string id="actor_zombied">
 		<text>Zombified</text>
-	</string>
+  </string>
 	
 	<!-- NPC Factions -->
 	<string id="army">
@@ -51,7 +51,7 @@
 	</string>
 	<string id="csky">
 		<text>Clear Sky</text>
-	</string>
+  	</string>
 	<string id="dolg">
 		<text>Duty</text>
 	</string>

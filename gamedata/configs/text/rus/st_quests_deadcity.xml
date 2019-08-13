@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-
-<!--===========================================================
-<
-< TEXT  STRINGS FOR TASKS ON DEAD CITY MAP
-<	CoC 1.4.08 - DoctorX Questlines 1.6
-<
-<	Modified by: DoctorX
-<	Last revised: October 07, 2016
-<
-<===========================================================-->
-
 <string_table>
-
-
 	<!-- ASSASSINATION FOR MERCS TASK -->
 	<string id="cit_killers_merc_trader_stalker_task_1_name">
 		<text>Contract killer</text>
@@ -25,9 +12,7 @@
 	</string>
 	<string id="cit_killers_merc_trader_stalker_task_1_finish">
 		<text>It is done? Great. Here's your percentage.</text>
-	</string>
-
-
+	</string>	
 	<!-- ASSAULT TERRITORY FOR MERCS TASK -->
 	<string id="cit_killers_merc_trader_stalker_task_2_name">
 		<text>Assault territory</text>
@@ -41,7 +26,6 @@
 	<string id="cit_killers_merc_trader_stalker_task_2_finish">
 		<text>Excellent work. You are a fine warrior.</text>
 	</string>
-
 	<!-- FIND LEVEL 1 TOOLS FOR HOG TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_1_name">
 		<text>Find %s</text>
@@ -58,9 +42,7 @@
 	<string id="cit_killers_merc_mechanic_stalker_task_1_fetch_finish">
 		<text>Brilliant! This is what I've been looking for. Thanks!</text>
 	</string>
-
-
-
+	<!-- FIND LEVEL 2 TOOLS FOR HOG TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_2_name">
 		<text>Find %s</text>
 	</string>
@@ -76,9 +58,7 @@
 	<string id="cit_killers_merc_mechanic_stalker_task_2_fetch_finish">
 		<text>Everything I need is here. Thank you.</text>
 	</string>
-
-
-
+	<!-- FIND LEVEL 3 TOOLS FOR HOG TASK -->
 	<string id="cit_killers_merc_mechanic_stalker_task_3_name">
 		<text>Find %s</text>
 	</string>
@@ -93,7 +73,5 @@
 	</string>
 	<string id="cit_killers_merc_mechanic_stalker_task_3_fetch_finish">
 		<text>Everything I need is here. Thank you.</text>
-	</string>
-
-
+	</string>		
 </string_table>

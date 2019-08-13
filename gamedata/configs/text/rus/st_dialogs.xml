@@ -8,7 +8,8 @@
     </string>
 	<string id="dm_dialog_character_history">
 		<text>Tell me about yourself.</text>
-	</string>
+    </string>
+<!-- General -->
 	<string id="actor_break_dialog_0">
 		<text>Goodbye.</text>
 	</string>
@@ -21,6 +22,7 @@
 	<string id="actor_break_dialog_3">
 		<text>Bye.</text>
 	</string>
+<!-- Wish Granter -->
 	<string id="st_wish_1">
 		<text>I want the Zone to disappear!</text>
 	</string>
@@ -39,6 +41,7 @@
 	<string id="st_wish_99">
 		<text>[Say nothing]</text>
 	</string>
+<!-- About Quests Bandit -->
 	<string id="about_quests_dialog_bandit_0">
 		<text>Heard any news around here lately?</text>
 	</string>
@@ -237,6 +240,7 @@
 	<string id="about_quests_dialog_bandit_98">
 		<text>Okay, forget about it.</text>
 	</string>
+<!-- About Quests Duty -->
 	<string id="about_quests_dialog_dolg_0">
 		<text>Heard any news around here lately?</text>
 	</string>
@@ -447,6 +451,7 @@
 	<string id="about_quests_dialog_dolg_98">
 		<text>Okay, forget about it.</text>
 	</string>
+<!-- About Quests Freedom -->
 	<string id="about_quests_dialog_freedom_0">
 		<text>Heard any news around here lately?</text>
 	</string>
@@ -657,6 +662,7 @@
 	<string id="about_quests_dialog_freedom_98">
 		<text>Okay, forget about it.</text>
 	</string>
+<!-- About Quests Stalker -->
 	<string id="about_quests_dialog_stalkers_0">
 		<text>Heard any news around here lately?</text>
 	</string>
@@ -1002,6 +1008,7 @@
 	<string id="about_quests_dialog_stalkers_503">
 		<text>Dude, you talk about it like it's office supplies or something... No one knows for sure. Pieces like that are few and far between... Consider yourself lucky if you snatch one.</text>
 	</string>
+<!-- Alundaio -->
 	<string id="axr_phrase_npc_start_wounded">
 		<text>Help... Me.</text>
 	</string>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<!-- Характеристики улучшений для костюмов -->
+	
+	<!-- Энергетические системы -->
 	<string id="st_up_add_energy_system_name">
 	<text>the energy system.</text>
 	</string>
@@ -615,11 +618,14 @@
 	<string id="st_up_add_b3_descr">
 		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allow its calibre to be changed at the cost of reliability.</text>
 	</string>
-	<string id="st_up_add_b4_name">
-		<text>Change of calibre to 9x19</text>
+	<string id="st_up_add_b3_name">
+		<text>Change of calibre to 9x18</text>
 	</string>
 	<string id="st_up_add_b4_descr">
 		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allow its calibre to be changed at the cost of reliability.</text>
+	</string>
+	<string id="st_up_add_b4_name">
+		<text>Change of calibre to 9x19</text>
 	</string>
 	<string id="st_up_add_b5_name">
 	<text>Alteration for the caliber 5.7x28mm</text>
@@ -1437,11 +1443,23 @@
 	<string id="st_up_opt_a3_name">
 		<text>5.0x optical scope</text>
 	</string>
+	<string id="st_up_opt_a3_nimble_descr">
+		<text>Mounting of an optical scope for a very long range combat.</text>
+	</string>
+	<string id="st_up_opt_a3_nimble_name">
+		<text>10.0x optical scope</text>
+	</string>
 	<string id="st_up_opt_a4_descr">
 		<text>Mounting of an optical scope for long range combat.</text>
 	</string>
 	<string id="st_up_opt_a4_name">
 		<text>6.0x optical scope</text>
+	</string>
+	<string id="st_up_opt_a4_nimble_descr">
+		<text>Mounting of an optical scope for a very long range combat.</text>
+	</string>
+	<string id="st_up_opt_a4_nimble_name">
+		<text>12.0x optical scope</text>
 	</string>
 	<string id="st_up_opt_c2_descr">
 		<text>Night vision devices have saved many a sniper since their inception.</text>
@@ -1526,6 +1544,9 @@
 	</string>
 	<string id="st_up_pris_c1_name">
 		<text>Hydraulic stock recoil buffer</text>
+	</string>
+	<string id="st_up_res_a3_descr">
+		<text>A mask used in contaminated air or critical air temperature conditions, which are too low or too high for breathing.</text>
 	</string>
 	<string id="st_up_res_a4_name">
 	<text>Reinforced construction</text>
@@ -2235,9 +2256,6 @@
 	<string id="st_upgr_enough_money">
 		<text>Not enough money</text>
 	</string>
-	<string id="st_up_opt_a3_nimble_descr">
-		<text>Mounting of an optical scope for a very long range combat.</text>
-	</string>
 	<string id="st_upgr_vodka">
 		<text>The technician needs vodka</text>
 	</string>
@@ -2256,8 +2274,17 @@
 	<string id="st_upgr_parents">
 		<text>Preceding modifications required</text>
 	</string>
+	<string id="st_prop_autolock">
+		<text>Automatic target acquisition system</text>
+	</string>
 	<string id="st_prop_autolockscope">
 		<text>Automatic target acquisition system</text>
+	</string>
+	<string id="st_prop_scope_10x">
+		<text>x10 optical scope</text>
+	</string>
+	<string id="st_prop_scope_12x">
+		<text>x12 optical scope</text>
 	</string>
 	<string id="st_prop_scanner">
 		<text>Infrared scanner</text>
@@ -2288,6 +2315,9 @@
 	</string>
 	<string id="st_prop_restore_health">
 		<text>Health restoration</text>
+	</string>
+	<string id="st_prop_night_vision">
+		<text>First generation night vision device</text>
 	</string>
 	<string id="st_prop_night_vision_1">
 		<text>First generation night vision device</text>
@@ -2345,53 +2375,5 @@
 	</string>
 	<string id="st_up_kom_a5_name">
 		<text>Rubberised cloth under-layer</text>
-	</string>
-	<string id="st_up_tch_b3_descr">
-		<text>This wave emitter is mounted on the chest and considerably increases bleeding control speed, immune system strength and the wearer's pain barrier when in constant use.</text>
-	</string>
-	<string id="st_prop_autolock">
-		<text>Automatic target acquisition system</text>
-	</string>
-	<string id="st_up_add_b3_name">
-		<text>Change of calibre to 9x18</text>
-	</string>
-	<string id="st_up_kom_b10_descr">
-		<text>A number of ergonomic adjustments that use a rubber construction, which allow mobility to be retained even when wearing bulky armour.</text>
-	</string>
-	<string id="st_up_kom_b10_name">
-		<text>A rubber mobility bodysuit</text>
-	</string>
-	<string id="st_up_opt_a4_nimble_descr">
-		<text>Mounting of an optical scope for a very long range combat.</text>
-	</string>
-	<string id="st_up_opt_a4_nimble_name">
-		<text>12.0x optical scope</text>
-	</string>
-	<string id="st_up_res_a3_descr">
-		<text>A mask used in contaminated air or critical air temperature conditions, which are too low or too high for breathing.</text>
-	</string>
-	<string id="st_up_resp_b3_descr">
-		<text>Scientific wave-based device developed for work in anomalous areas with psi-emissions.</text>
-	</string>
-	<string id="st_up_resp_b3_name">
-		<text>Oracle psi-stimulator</text>
-	</string>
-	<string id="st_prop_scope_5x">
-		<text>x5 optical scope</text>
-	</string>
-	<string id="st_prop_scope_6x">
-		<text>x6 optical scope</text>
-	</string>
-	<string id="st_prop_scope_10x">
-		<text>x10 optical scope</text>
-	</string>
-	<string id="st_prop_scope_12x">
-		<text>x12 optical scope</text>
-	</string>
-	<string id="st_prop_night_vision">
-		<text>First generation night vision device</text>
-	</string>
-	<string id="st_up_opt_a3_nimble_name">
-		<text>10.0x optical scope</text>
 	</string>
 </string_table>

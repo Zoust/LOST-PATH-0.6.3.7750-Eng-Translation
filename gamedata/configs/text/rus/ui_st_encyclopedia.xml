@@ -21,8 +21,10 @@
 	<string id="pda_btn_encyclopedia_locked">
 		<text>
 			You have not yet unlocked this article.\n
-			\nArticles can be unlocked through the following:\n
+			\n Articles can be unlocked through the following:\n
 			\n• Finding and using memory sticks.
+			\n• Unlocked by completing various tasks.
+			\n• Buying informations from various informants.
 		</text>
 	</string>
 	

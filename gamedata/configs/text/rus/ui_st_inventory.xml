@@ -48,6 +48,12 @@
 	<string id="st_detach_silencer">
 		<text>detach silencer</text>
 	</string>
+	<string id="st_use_iron">
+		<text>use iron sights</text>
+	</string>
+	<string id="st_use_scope">
+		<text>use optical sights</text>
+	</string>
 	<string id="st_dress_outfit">
 		<text>wear suit</text>
 	</string>
@@ -321,8 +327,11 @@
 	<string id="st_unequip">
 		<text>unequip</text>
 	</string>
-	<string id="st_open">
+		<string id="st_open">
 		<text>open</text>
+	</string>
+	<string id="st_close">
+		<text>close</text>
 	</string>
 	<string id="ui_inv_af_condition">
 		<text>Efficiency</text>
@@ -333,16 +342,7 @@
 	<string id="ui_st_repairable_equipment">
 		<text>Repairable</text>
 	</string>
-	<string id="st_close">
-		<text>close</text>
-	</string>
 	<string id="ui_st_create_stash">
 		<text>Create stash</text>
-	</string>
-	<string id="st_use_iron">
-		<text>use iron sights</text>
-	</string>
-	<string id="st_use_scope">
-		<text>use optical sights</text>
 	</string>
 </string_table>

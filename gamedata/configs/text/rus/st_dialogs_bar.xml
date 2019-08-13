@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-    <string id="bar_arena_man_job_0">
+<string id="bar_arena_man_job_0">
         <text>Who do you have for me to fight?</text>
-    </string>
-    <string id="bar_arena_man_job_11">
+	</string>
+	<string id="bar_arena_man_job_11">
         <text>So, your first fight? Your opponent is a piece of meat just like you. He's here because of his debts and he only has two options: to come out and fight, or to land himself in the nearest anomaly. He's gonna fight like a cornered animal. Equipment for today... Lemme think... How about you two use basic pistols, two boxes of ammo should be plenty. Either kick his ass or we feed you to the dogs - not much of a choice. Go on now.</text>
-    </string>
-    <string id="bar_arena_man_job_111">
+	</string>
+	<string id="bar_arena_man_job_111">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_112">
+	</string>
+	<string id="bar_arena_man_job_112">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_12">
+	</string>
+	<string id="bar_arena_man_job_12">
         <text>Your last fight didn't mean shit, you're still the same piece of meat you were before and no self-respecting person will bet a single mag on you. If you wanna earn some proper cash you're gonna have to make a few more appearances in the arena. Your new opponent also got through the first round, and his fight was a lot harder than yours. I don't like him, to be honest - he kills too quickly and the crowd doesn't like that. So, go and show us what you can do! The stakes will increase after this fight - all you gotta do is stay alive. Move it!</text>
-    </string>
-    <string id="bar_arena_man_job_121">
+	</string>
+	<string id="bar_arena_man_job_121">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_122">
+	</string>
+	<string id="bar_arena_man_job_122">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_13">
+	</string>
+	<string id="bar_arena_man_job_13">
         <text>Well, well... You're not as much of a pussy as you first seemed. Now it's time to test you out in a real fight. You're up against two guys. The first one's called Swede and I don't remember the second one's name. They were paired up intentionally as they hate each other's guts so don't worry about them working as a team - they're more likely to shoot each other. Today is rifle day so don't let them get too close or we'll have to pick you up piece by piece. The odds are 10:1 so if you win you'll make a fair amount. Off you go!</text>
-    </string>
-    <string id="bar_arena_man_job_131">
+	</string>
+	<string id="bar_arena_man_job_131">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_132">
+	</string>
+	<string id="bar_arena_man_job_132">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_14">
+	</string>
+	<string id="bar_arena_man_job_14">
         <text>Well, now I can safely say that you're a fighter, a real fighter. Now it's time for a team fight. You get to fight with two rookies - two brothers - on your side. They haven't fought yet but they're brothers, so I had to put them into a team fight. I wouldn't expect any real help from them if I were you. You're fighting an experienced team, they're contenders for the final this season. A dangerous lot. They use different weapons but one has an automatic shotgun - be very careful with him. Good luck, pal... You're gonna need it.</text>
-    </string>
-    <string id="bar_arena_man_job_141">
+	</string>
+	<string id="bar_arena_man_job_141">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_142">
+	</string>
+	<string id="bar_arena_man_job_142">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_15">
+	</string>
+	<string id="bar_arena_man_job_15">
         <text>You've got a special fight today. Even the army has heard about you! Don't be surprised, they fight here too - there's even a general in the crowd. These guys are from the Spetsnaz or OMON. They're well armed and their armour is as good as you'd expect. Don't worry though, I ain't gonna leave you out in the rain, either. You'll get a vest used by Freedom - it's light so it won't slow you down. Go on, show them that stalkers ain't no whipping boys. Good luck!</text>
-    </string>
-    <string id="bar_arena_man_job_151">
+	</string>
+	<string id="bar_arena_man_job_151">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_152">
+	</string>
+	<string id="bar_arena_man_job_152">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_16">
+	</string>
+	<string id="bar_arena_man_job_16">
         <text>Time for you to show what you can do. Duty captured a group of bandits that had been causing problems for stalkers near Rostok. Duty took 'em at night so most of the bandits were taken alive. They were all gonna be executed anyway so I convinced Duty to give them a chance. If any of them survive, they'll go in the can outside the Zone, which is better than dying here. They're not well-armed - probably just a few pistols and sawn-offs - but there's six of them so watch yourself. Go on now!</text>
-    </string>
-    <string id="bar_arena_man_job_161">
+	</string>
+	<string id="bar_arena_man_job_161">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_162">
+	</string>
+	<string id="bar_arena_man_job_162">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_17">
+	</string>
+	<string id="bar_arena_man_job_17">
         <text>Well, you're almost in the final. Now you'll be fighting a real stalker. He's alone but he's got an assault rifle and he's inside an exoskeleton. Catch one burst and you're toast. There will be a surprise that I can't tell you about too... Here's my advice: be prepared, it's gonna be tough. The winner makes it through to the final. Fight to the death, go!</text>
-    </string>
-    <string id="bar_arena_man_job_171">
+	</string>
+	<string id="bar_arena_man_job_171">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_172">
+	</string>
+	<string id="bar_arena_man_job_172">
         <text>I'm not ready.</text>
-    </string>
-    <string id="bar_arena_man_job_18">
+	</string>
+	<string id="bar_arena_man_job_18">
         <text>Congratulations, you're in the final! One more to go and this one is to the death, every man for himself. There will be 4 other stalkers in the arena: all real pros in exoskeletons but it's a fair deal this time - you'll get exactly what they have. The only thing is, you don't get medkits or bandages in a fight to the death. Ready? Go prove you're the best, GO!</text>
-    </string>
-    <string id="bar_arena_man_job_181">
+	</string>
+	<string id="bar_arena_man_job_181">
         <text>I'm ready.</text>
-    </string>
-    <string id="bar_arena_man_job_182">
+	</string>
+	<string id="bar_arena_man_job_182">
         <text>I'm not ready.</text>
     </string>
     <string id="bar_arena_man_start_111112">
         <text>Yo! You paid me for a fight but you just walked away!</text>
-    </string>
-    <string id="bar_arena_man_start_11">
+	</string>
+	<string id="bar_arena_man_start_11">
         <text>Yo! I've got a new fight for you.</text>
-    </string>
-    <string id="bar_arena_man_start_21">
+	</string>
+	<string id="bar_arena_man_start_21">
         <text>Go have a drink or something. The Arena ain't ready yet.</text>
-    </string>
-    <string id="bar_arena_man_start_31">
+	</string>
+	<string id="bar_arena_man_start_31">
         <text>You've already become a pro!!!</text>
-    </string>
-    <string id="bar_arena_man_start_41">
+	</string>
+	<string id="bar_arena_man_start_41">
         <text>You won! Here's your reward.</text>
-    </string>
-    <string id="bar_arena_man_start_51">
+	</string>
+	<string id="bar_arena_man_start_51">
         <text>You're not experienced enough for this fight.</text>
-    </string>
+	</string>
     <string id="bar_arena_manager_game_0">
         <text>What challenge do you have for me?</text>
     </string>
@@ -292,23 +292,23 @@
         <text>Sorry, bro, but you lose. Come again next time if you want.</text>
     </string>
 <!------------------ bar_visitors_barman_stalker_trader ----------->
-    <string id="bar_visitors_barman_stalker_trader_start_dialog_11">
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_11">
         <text>Oh, hello. What's up?</text>
-    </string>
-    <string id="bar_visitors_barman_stalker_trader_start_dialog_12">
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_12">
         <text>What do you need, stalker?.</text>
-    </string>
-    <string id="bar_visitors_barman_stalker_trader_start_dialog_13">
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_13">
         <text>You here to buy some shit?</text>
-    </string>
+	</string>
 <!------------------------- bar_visitors_stalker_mechanic ------------------------>
-    <string id="bar_visitors_stalker_mechanic_start_dialog_1">
+	<string id="bar_visitors_stalker_mechanic_start_dialog_1">
         <text>Hey guy, how goes the Zone? So...I hope you have repair work that needs done... Heh, I need some cash bad.</text>
-    </string>
+	</string>
 
 
 <string id="vano_0">
-		<text>Salut. Tell me about yourself.</text>
+		<text>Hello. Tell me about yourself.</text>
 	</string>
 
 <string id="vano_1">

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+
+	<!-- FIND THE WISH GRANTER (FALSE ENDING) -->
 	<string id="sar_monolith">
 		<text>Call from the North</text>
 	</string>
@@ -12,6 +14,8 @@
 	<string id="sar_monolith_2">
 		<text>The voice calling you must be from the Wish Granter. You should be able to find it somewhere in the sarcophagus.</text>
 	</string>
+	
+	<!-- FIND THE WISH GRANTER (TRUE ENDING) -->
 	<string id="sar_monolith_destroy">
 		<text>A concrete tomb</text>
 	</string>

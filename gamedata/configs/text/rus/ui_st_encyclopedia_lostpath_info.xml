@@ -2,31 +2,31 @@
 <string_table>
 	<string id="encyclopedia_lostpath_info">
 <text>Basic information on the mod</text>
-</string>
-
-<string id="encyclopedia_lostpath_info_eoc">
+	</string>
+	
+	<string id="encyclopedia_lostpath_info_eoc">
 <text>a New full A-Life</text>
-</string>
-<string id="encyclopedia_lostpath_info_eoc_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_eoc_text">
  <text>With the installation EOC is added freedom of action to the NPC, all the stalkers and mutants is now active regardless of what range they player, it adds more randomness in the passing game. Stalkers, mutants, factions are no longer static. Stalkers explore the Zone, gather resources for yourself and your group mutants day guarding their territory, and night gathering and attacking Stalker camps, grouping're no longer sitting in one place, each group is trying to consolidate its region, capture resource points and destroy the enemy. In General, the Area lives its own life and will not hesitate to take the life of a single NPC or a group.
-</text>
-</string>
-
-<string id="encyclopedia_lostpath_info_mlr">
+		</text>
+	</string>
+	
+	<string id="encyclopedia_lostpath_info_mlr">
 <text>New arrival</text>
-</string>
-<string id="encyclopedia_lostpath_info_mlr_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_mlr_text">
  <text>the Concept of the addon is primarily based on events taking place after the plot of all three games in the series. The addon does not bear any global ideas and are not affected by the styling, it just extends and complements the original Call of Chernobyl. However, do not expect expansion of the globality or direct route to the plot narrative of the trilogy as this is not a standalone project, and is entirely independent from the Call of Chernobyl and its future updates.
-</text>
-</string>
-
-<string id="encyclopedia_lostpath_info_squad">
+		</text>
+	</string>
+	
+	<string id="encyclopedia_lostpath_info_squad">
 <text>units of</text>
-</string>
- <string id="encyclopedia_lostpath_info_squad_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_squad_text">
 <text>• Added "sparkle" [Janov, the bunker scientists]: Topol and his gang protect the bunker scientists. Mace provides free medical care.\n
 • Added Thekla [Zaton Skadovsk]: help beginners to defend\n
-• Added the Colonel Shulga [Zaton Station processing]: took a base of mercenaries from the RFP, active respawn units of the Duty, in order to capture neighboring locations, armed with special Assault Abakan, also have a couple of snipers with SVD.\n
+• Added the Colonel Shulga [Zaton Station processing]: took a base of mercenaries from the RFP, active respawn units of the Debt, in order to capture neighboring locations, armed with special Assault Abakan, also have a couple of snipers with SVD.\n
 • Added Tyrant [Dead city Base] (cut from PM) + unique dialogue, a unique prototype of Exo-skeleton.\n
 • Added the Wizard and the Scarecrow [MG Base] (moved to mercenaries) + unique dialogue to everyone\n
 • Added Father Valerian [Dump, Depot] works as a mechanic\n
@@ -35,13 +35,13 @@
 • Added separate sniper Wolfhound with unique dialogue\n
 • Added visualization of different groups, normal NPCs.\n
 • Added Bear [Red forest, Limansk Bridge] (familiar SN: Bear, Torba, Mitya): all the new exoskeleton\n
-</text>
-</string>
-
-<string id="encyclopedia_lostpath_info_unique_weapons">
+		</text>
+	</string>
+	
+	<string id="encyclopedia_lostpath_info_unique_weapons">
 <text>New weapons</text>
-</string>
-<string id="encyclopedia_lostpath_info_unique_weapons_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_unique_weapons_text">
 <text>• Added an-94 "Assault" (familiar to us on PM): differs from a conventional fixed underbarrel grenade launcher GP-25, issued to the two best fighters of the General, the General himself is such a machine installed with PSO adjustable expansion (removable).\n
 • Added LR300 "Sniper" (familiar to us on PM): single fire, 35 cartridge, minimal recoil, the acog + silencer, no slot, no grenade launcher and modifications issued by the Wolfhound.\n
 • Added an-94 "Dolgovtsa" (we know CHN): cartridge 45, PSO with dynamic magnification + GP-25, no modifications, reduced recoil, slightly increased damage, issued by one of the troopers Skull.\n
@@ -51,13 +51,13 @@
 • Sewn CSGO Weapon Pack [AWP + M4A4 + AK]: no modifications, add ons, then textures from cs will change to Stalker and will only model (I was asked to remove csgo wp or replace)\n
 • Started to be developed the puck "Kink": the weapon in camouflage "kink". Available: C14 Groza, VSS Vintorez\n
 • Added the Storm "Magma": a unique weapon that uses the quieter sound of the shot and shoot.\n
-</text>
-</string>
-
-<string id="encyclopedia_lostpath_info_weapons_npc">
+		</text>
+	</string>
+	
+	<string id="encyclopedia_lostpath_info_weapons_npc">
 <text>a New system of equipment of NPS</text>
-</string>
-<string id="encyclopedia_lostpath_info_weapons_npc_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_weapons_npc_text">
 <text>For all factions-added new visuals and portraits, as key characters and ordinary. Now the area has become more diverse. Greatly reduced the number of visuals don't match the model.\n
 Now no bandits masters with poor weapons and without armor. Now the rank corresponds to the visual and weapons. For some masters left the visuals the North, many tucked away in veterans.\n
 
@@ -71,18 +71,18 @@ All weapons are divided by categories:\n
 [grenade]: grenade (g)\n
 [Gaussian]: monolith (ss)\n
 For each group generated its list of weapons, which you can read in another block.
-</text>
-</string> 
-
- <string id="encyclopedia_lostpath_info_upgrades">
+		</text>
+	</string>	
+	
+	<string id="encyclopedia_lostpath_info_upgrades">
 <text>New upgrades</text>
-</string>
-<string id="encyclopedia_lostpath_info_upgrades_text">
+	</string>
+	<string id="encyclopedia_lostpath_info_upgrades_text">
 <text>• New system of upgrades for weapons. Now you not only have money, but some resource for unique modifications (imager, night vision, dynamic zoom).\n
 • Added new upgrades: dynamic zoom, auto-target, auto fire mode of the guns, integrated silencer, etc\n
 • Added new SCHEMA upgrades: before ten weapons used odninakovo scheme, and I added a new schema and icons with a description thereof.\n
 • Heavy weapons there is no possibility of running, now you need to install the modification.\n
 • Armor not yet implemented the new system, it will be.\n
 • In the future all mechanics will be able to make any upgrades, even with all the right tools. Each mechanic has its own specialization (in the RFP this was implemented).\n</text>
-</string>
+	</string>
 </string_table>

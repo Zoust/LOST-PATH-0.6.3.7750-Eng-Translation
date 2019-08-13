@@ -26,10 +26,10 @@
 	</string>
 	<string id="st_knife">
 		<text>Combat knife</text>
-   </string>
+    </string>
 	<string id="st_knife_short">
         <text>Knife</text>
-	</string>
+    </string>
 	<string id="st_bread">
 		<text>Bread</text>
 	</string>
@@ -110,14 +110,14 @@
 	</string>
 	<string id="st_drug_radioprotector">
 		<text>Radioprotectant</text>
-	</string>	
-<string id="st_drug_radioprotector_short">
+	</string>
+	<string id="st_drug_radioprotector_short">
 		<text>Radioprot.</text>
 	</string>
 	<string id="st_energy_drink">
 		<text>Energy drink</text>
-	</string>	
-<string id="st_energy_drink_short">
+	</string>
+	<string id="st_energy_drink_short">
 		<text>Drink</text>
 	</string>
 	<string id="st_energy_drink_descr">
@@ -202,7 +202,7 @@
 	<string id="st_itm_deployable_mgun_desc">
 		<text>This belt-fed machine gun is a portable modification with a complex two-stage feeding system. Despite its weight and low precision, this LMG has found admirers in the Zone. Used primarily to fight off outnumbering enemy forces during faction conflicts and clear out mutant lairs.</text>
 	</string>
-
+	
 	<string id="st_memory_stick_name">
 		<text>Memory stick</text>
 	</string>

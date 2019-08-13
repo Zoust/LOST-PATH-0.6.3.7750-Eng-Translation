@@ -2,66 +2,66 @@
 <string_table>
 	<string id="st_cev_plastin_1_name">
 <text>"Kevlar implant 1 level"</text>
-</string>
-<string id="st_cev_plastin_1_descr">
+	</string>
+	<string id="st_cev_plastin_1_descr">
 <text>%c[default]Bonus item:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installing mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, which you can use to increase protection from bullet wounds. Kevlar this item allows you to reduce polipropylenowe.</text>
-</string>
-<string id="st_cev_plastin_2_name">
+	</string>
+	<string id="st_cev_plastin_2_name">
 <text>"Kevlar implant 2 level"</text>
-</string>
- <string id="st_cev_plastin_2_descr">
+	</string>
+	<string id="st_cev_plastin_2_descr">
 <text>%c[default]Bonus item:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installing mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, which you can use to increase protection from bullet wounds. Kevlar this item allows you to reduce polipropylenowe.</text>
-</string>
-<string id="st_cev_plastin_3_name">
+	</string>
+	<string id="st_cev_plastin_3_name">
 <text>"Kevlar implant 3-level"</text>
-</string>
-<string id="st_cev_plastin_3_descr">
+	</string>
+	<string id="st_cev_plastin_3_descr">
  <text>%c[default]Bonus item:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installing mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, which you can use to increase protection from bullet wounds. Kevlar this item allows you to reduce polipropylenowe.</text>
-</string>
-<string id="st_cev_plastin_4_name">
+	</string>
+	<string id="st_cev_plastin_4_name">
 <text>"Kevlar implant 4 level"</text>
-</string>
-<string id="st_cev_plastin_4_descr">
+	</string>
+	<string id="st_cev_plastin_4_descr">
  <text>%c[default]Bonus item:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installing mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, which you can use to increase protection from bullet wounds. Kevlar this item allows you to reduce polipropylenowe.</text>
-</string>
-<string id="st_cev_plastin_5_name">
+	</string>
+	<string id="st_cev_plastin_5_name">
 <text>"Kevlar implant 5-level"</text>
-</string>
-<string id="st_cev_plastin_5_descr">
+	</string>
+	<string id="st_cev_plastin_5_descr">
  <text>%c[default]Bonus item:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installing mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, which you can use to increase protection from bullet wounds. Kevlar this item allows you to reduce polipropylenowe.</text>
-</string>
-
-<string id="st_up_binoc_1_name">
+	</string>
+	
+	<string id="st_up_binoc_1_name">
 <text>Carbon-components</text>
-</string>
-<string id="st_up_binoc_1_descr">
+	</string>
+	<string id="st_up_binoc_1_descr">
 <text>Replacement of metal ugleplastika allows to reduce the weight of the binoculars without losing functionality.</text>
-</string>
-
- <string id="st_up_binoc_2_name">
+	</string>
+	
+	<string id="st_up_binoc_2_name">
 <text>high contrast optics</text>
-</string>
-<string id="st_up_binoc_2_descr">
+	</string>
+	<string id="st_up_binoc_2_descr">
 <text>Modification Attiki, which is to increase the contrast. Helps to monitor when there is insufficient lighting.\n----------------------------------------\n%c[255,238,153,26]Enable/disable highlighting of binoculars, you can press "$$ACTION_NIGHT_VISION$$".%c[default]</text>
-</string>
-
-<string id="st_up_binoc_3_name">
+	</string>
+	
+	<string id="st_up_binoc_3_name">
 <text>multiples</text>
-</string>
-<string id="st_up_binoc_3_descr">
+	</string>
+	<string id="st_up_binoc_3_descr">
  <text>Installation of more powerful lenses to monitor for a few long distances.</text>
-</string>
-
-<string id="st_up_charge">
+	</string>
+	
+	<string id="st_up_charge">
 <text>charge</text>
-</string>
-<string id="st_upgr_enough_materials">
+	</string>
+	<string id="st_upgr_enough_materials">
 <text>is not enough</text>
-</string>
-<string id="ammo-gauss_u">
+	</string>
+	<string id="ammo-gauss_u">
 <text>battery</text>
-</string>
-<string id="st_upgr_required_materials">
+	</string>
+	<string id="st_upgr_required_materials">
 <text>Necessary materials</text>
-</string>
+	</string>
 </string_table>

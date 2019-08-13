@@ -2,145 +2,145 @@
 <string_table>
 	<string id="trenchcoat_brown_outfit_name">
 <text>Jumpsuit "Authority"</text>
-</string>
-<string id="trenchcoat_brown_outfit_description">
+	</string>
+	<string id="trenchcoat_brown_outfit_description">
 <text>the Usual leather coat with sewn under it is a Stalker suit. The jumpsuit is equipped with reinforced body armor made bandit techniques, making the suit not only provides good protection against anomalies, but is capable of stopping a pistol bullet. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.</text>
-</string>
+	</string>
 
-<string id="army_outfit_name">
+	<string id="army_outfit_name">
  <text>Army body armor</text>
-</string>
-<string id="army_outfit_description">
+	</string>
+	<string id="army_outfit_description">
 <text>Weak armor made with the filing of the government bureaucrats at the lowest possible price. Has a very insufficient protection from bullets, splinters and bites, and does not provide adequate protection against anomalous activity. In the harsh conditions of the Zone to wander in such a suit - it's like walking around naked.</text>
-</string>
+	</string>
 
-<string id="barmerc_outfit_name">
+ 	<string id="barmerc_outfit_name">
 <text>Uniform protection Bar</text>
-</string>
-<string id="barmerc_outfit_description">
+  	</string>
+  	<string id="barmerc_outfit_description">
  <text>Uniform protection bar "100 x-ray". The basis is the standard outfitting of stalkers, the group of "Mercenaries". Due to a special fabric treatment enhanced the stability of the armor in the physical displacement of the plates. On the protective characteristics slightly superior army armor series PSZ-7.</text>
-</string>
+  	</string>
 
-<string id="cs_scientific_outfit_name">
+	<string id="cs_scientific_outfit_name">
 <text>Science jumpsuit "clear Sky"</text>
-</string>
-<string id="cs_scientific_outfit_description">
+	</string>
+	<string id="cs_scientific_outfit_description">
  <text>Manufactured in one of Kiev's defense research institutes, provides a great alternative to overalls stalkers, manufactured in makeshift conditions. Built-in body armor is able to stop a pistol bullet, but the system of protection against abnormal impacts is considered to be unsurpassed. Because of the possibility of an independent upgrade and two built-in containers for artifacts many experienced stalkers prefer this model.</text>
-</string>
-
-<string id="nbc_outfit_name">
+	</string>
+	
+	<string id="nbc_outfit_name">
 <text>Jumpsuit "CRBH"</text>
-</string>
-<string id="nbc_outfit_description">
+	</string>
+	<string id="nbc_outfit_description">
  <text>"Costume, Radio-, Bio - and chemical protection" is a modified jumpsuit "dawn" with kamuflirovannaya UGC, Kevlar body armor third grade and the unloading of the five pouches. The suit also has a built-in hose, gas mask GP-5. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="cs_nbc_outfit_name">
+	</string>
+	
+	<string id="cs_nbc_outfit_name">
 <text>"CRBH-CHN"</text>
-</string>
-<string id="cs_nbc_outfit_description">
+	</string>
+	<string id="cs_nbc_outfit_description">
  <text>Option "Costume, Radio-, Bio - and chemical protection" of the group "Clean Sky". Is a modified jumpsuit "ERS-1", equipped with kamuflirovannaya UGC, Kevlar body armor third grade and the unloading of the five pouches. The suit also has a built-in hose, gas mask GP-5. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="monolith_nbc_outfit_name">
+	</string>
+	
+	<string id="monolith_nbc_outfit_name">
 <text>"CRBH" Monolith</text>
-</string>
-<string id="monolith_nbc_outfit_description">
+	</string>
+	<string id="monolith_nbc_outfit_description">
  <text>"Costume, Radio-, Bio - and chemical defense" group "Monolith". Is a modified jumpsuit "Monolith" with kamuflirovannaya UGC, Kevlar body armor third grade and the unloading of the five pouches. The suit also has a built-in hose, gas mask GP-5. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="radiation_outfit_name">
+	</string>
+	
+	<string id="radiation_outfit_name">
 <text>Heavy armor</text>
-</string>
-<string id="radiation_outfit_description">
+	</string>
+	<string id="radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="dolg_radiation_outfit_name">
-<text>Heavy bronekostyum "Duty"</text>
-</string>
-<string id="dolg_radiation_outfit_description">
+	</string>
+	
+	<string id="dolg_radiation_outfit_name">
+<text>Heavy bronekostyum "Debt"</text>
+	</string>
+	<string id="dolg_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Not equipped with containers for artifacts.</text>
-</string>
-
-<string id="Freedom_radiation_outfit_name">
+	</string>
+	
+	<string id="svoboda_radiation_outfit_name">
 <text>Heavy bronekostyum "Freedom"</text>
-</string>
-<string id="Freedom_radiation_outfit_description">
+	</string>
+	<string id="svoboda_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="merc_radiation_outfit_name">
+	</string>
+	
+	<string id="merc_radiation_outfit_name">
 <text>Heavy armor of mercenaries</text>
-</string>
-<string id="merc_radiation_outfit_description">
+	</string>
+	<string id="merc_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Equipped with two built-in containers for artifacts.</text>
-</string>
-
-<string id="monolith_radiation_outfit_name">
+	</string>
+	
+	<string id="monolith_radiation_outfit_name">
 <text>Heavy bronekostyum "Monolith"</text>
-</string>
-<string id="monolith_radiation_outfit_description">
+	</string>
+	<string id="monolith_radiation_outfit_description">
  <text>by far the best example of modern technology. The costume consists of three elements: reinforced jumpsuit, heavy body armor and an integrated tactical helmet. The vest consists of several thick layers of Kevlar and can be further strengthened using composite or titanium plates for improved protection against bullets and shrapnel. Equipped with two built-in containers for artifacts.</text>
-</string>
+	</string>
 
-<string id="isg_outfit_name">
+	<string id="isg_outfit_name">
 <text>Jumpsuit "IIG"</text>
-</string>
-<string id="isg_outfit_description">
+	</string>
+	<string id="isg_outfit_description">
  <text>the Jumpsuit is a combination of the two-layer rubberized fabric lined in plexiglass with built-in vest. Created specifically for members of the now-defunct "International Research Group" on the basis of the Stalker suit "dawn". Features built-in containers for artifacts.</text>
-</string>
-
-<string id="isg_scientific_outfit_name">
+	</string>
+	
+	<string id="isg_scientific_outfit_name">
 <text>Science jumpsuit "IIG"</text>
-</string>
-<string id="isg_scientific_outfit_description">
+	</string>
+	<string id="isg_scientific_outfit_description">
  <text>Costume for scientists no longer existing organization is "IIG", working in areas with high anomalous activity. Has a closed breathing system and an integrated system of suppression of the anomalous fields. Provides good protection from bullets and shrapnel, but very inadequate for the conduct of major combat. Is equipped with two built-in containers for artifacts.</text>
-</string>
-
-<string id="bandit_specops_outfit_name">
+	</string>
+	
+	<string id="bandit_specops_outfit_name">
 <text>Bandit "Beryl"</text>
-</string>
-<string id="bandit_specops_outfit_description">
+	</string>
+	<string id="bandit_specops_outfit_description">
  <text>a Modified version of the standard bandit overalls. Added military vest series PS3-9a, as well as numerous modifications that significantly improve the protection of media from anomalies and radiation.</text>
-</string>
-
-<string id="cs_exo_outfit_name">
+	</string>
+	
+	<string id="cs_exo_outfit_name">
 <text>Exoskelett "clear Sky"</text>
-</string>
-<string id="cs_exo_outfit_description">
+	</string>
+	<string id="cs_exo_outfit_description">
 <text>Experimental model of military exoskeleton, painted in sky blue camouflage "Clean Sky". Popular among veterans groups. Equipped with containers for artifacts.</text>
-</string>
-
- <string id="st_helm_tactic_2">
+	</string>
+	
+	<string id="st_helm_tactic_2">
 <text>Helmet M12 Tactical</text>
-</string>
-<string id="st_helm_tactic_2_descr">
+	</string>
+	<string id="st_helm_tactic_2_descr">
 <text>fabric Finished with aluminum-titanium helmet with pockets for steel armor elements and bruneleschi. Usually comes complete with body armor class PS3 for special forces. Quite popular in the Area thanks to the respirator and the integrated night vision device and a good protection of the head. Is possible to install the electronics.</text>
-</string>
-
-<string id="st_helm_respirator_2_descr">
+	</string>
+	
+	<string id="st_helm_respirator_2_descr">
  <text>the Old model of a standard gas mask designed to filter from the air of radioactive dust and toxic substances. Widely used by both beginners and veterans of all the factions due to their low cost and functional indispensability. Not equipped with protection against bullets, fragments and mechanical effects.</text>
-</string>
-
-<string id="st_helm_facemask">
+	</string>
+	
+	<string id="st_helm_facemask">
 <text>Mask</text>
-</string>
-<string id="st_helm_facemask_descr">
+	</string>
+	<string id="st_helm_facemask_descr">
  <text>a Piece of cloth covering part of his face. Besides the fact that hides the identity of the bearer, it also protects it from dust inhalation. However, for this purpose the best is the gas mask.</text>
-</string>
-
-<string id="cs_stalker_outfit_name">
+	</string>
+	
+	<string id="cs_stalker_outfit_name">
 <text>coverall "dawn-ERS"</text>
-</string>
-<string id="cs_stalker_outfit_description">
+	</string>
+	<string id="cs_stalker_outfit_description">
  <text>coverall "dawn", painted in camouflage group "Clean Sky". Despite the fact that the suit barely protects from pistol bullets, is popular because of low prices and high potential for modification. Has a built-in container for artifacts.</text>
-</string>
-
-<string id="scientific_heavy_outfit_name">
+	</string>
+	
+	<string id="scientific_heavy_outfit_name">
 <text>Reinforced jumpsuit "SEVA"</text>
-</string>
-<string id="scientific_heavy_outfit_description">
+	</string>
+	<string id="scientific_heavy_outfit_description">
 	<text>Modified overalls SEVA, with a greater emphasis on armor protection. Because of such a change of Charonities, the anti-anomalous properties of the costume slightly suffered. It is equipped with two built-in containers for artifacts.</text>
 	</string>
 	
@@ -163,7 +163,7 @@
 	</string>
 
 	<string id="st_helm_respirator_gp5_descr">
-	<text>The gas mask GP-5 was intended to protect the civilian population of the Soviet Union from radioactive fallout, and was manufactured during the Cold War from 1962 to 1989. It is a helmet-a mask of white and black rubber, the lenses are held in place by a crimping rim. Bottom part the mask is made of metal, there are valves and a filter holder in it. GP-5 is widely used by singles and band its because of their availability and cheap price.</text>
+	<text>the gas mask GP-5 was intended to protect the civilian population of the Soviet Union from radioactive fallout, and was manufactured during the Cold War from 1962 to 1989. It is a helmet-a mask of white and black rubber, the lenses are held in place by a crimping rim. Bottom part the mask is made of metal, there are valves and a filter holder in it. GP-5 is widely used by singles and band its because of their availability and cheap price.</text>
 	</string>
 
 </string_table>
