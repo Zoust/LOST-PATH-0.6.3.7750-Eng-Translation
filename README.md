@@ -1,32 +1,50 @@
-- https://github.com/Zoust/LOST-PATH-0.5.9.4330-Eng-Translation/tree/v0.2
-
-# LOST-PATH-0.5.9.4330-Eng-Translation
-
--
-
-Mod link : https://www.moddb.com/mods/lost-path
-
--
-
-!! 			Put ALL content from archive in game ROOT folder, not in gamedata 		 !!
-
-!!!								Overwrite files when prompted						!!!
-
-!!						Don't use the old translation, just this one				 !!
-
-!!!									Good hunting Stalker							!!!
+Github :
+https://github.com/Zoust/LOST-PATH-0.5.9.4330-Eng-Translation/tree/v0.4
 
 
+
+08/2019 update : include some updated files of the mod. mod is still crashy
+
+  "Not enough IDs" stack trace occure very quickly ingame 
+  (like 15/20mn after starting a new game)
+  (even with lowered population values)
 
 Zoust
-	
--
 
-Made using Stalker Dialog 'XML' Helper, by Stalkerstein (on www.gsc-game.com forums)
 
--
+
+//-----------------------------------------------------------------------------------------
+	LOST-PATH-0.6.3.7750-Eng Translation v0.4
+//-----------------------------------------------------------------------------------------
+
+
+    			Put ALL content from archive in game ROOT folder, not in gamedata
+
+   								Overwrite files when prompted
+
+  						Don't use the old translation, just this one
+
+					In launcher, select RUSSIAN language to get ENGLISH
+					( russian language is overwritten by translation )
+  
+
+   									Good hunting Stalker
+
+								
+								
+//-----------------------------------------
+
+This is mostly a machine (and partial) translation so don't expect much from it.								
+If you know how to translate what's still in russian, please share at moddb.
+Feel free to contribute to the github repository aswell.
+Zoust
+https://www.moddb.com/members/zoust
+
+//-----------------------------------------	
+
 
 Google translated readme files : 	
+
 
 //-----------------------------------------
 	  Lost Path 0.5.9.4330 	  by b4d1k
