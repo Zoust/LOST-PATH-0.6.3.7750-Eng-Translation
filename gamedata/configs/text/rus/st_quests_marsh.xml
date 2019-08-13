@@ -139,14 +139,13 @@
 	<string id="ecolog_companion_task_1_actor_reply">
 		<text>Okay.</text>
 	</string>
-	<!-- FIND SWAMP DOCTOR -->
+		<!-- FIND SWAMP DOCTOR -->
 	<string id="mar_doctor_task">
 		<text>Mysteries of the Zone</text>
 	</string>
 	<string id="mar_doctor_task_0">
 		<text>You came to the Zone seeking to unravel its many mysteries. A familiar face may hold the answers that you seek.</text>
 	</string>
-	
 	<!-- MARSH DOCTOR STASH IN PRIPYAT -->
 	<string id="cit_doctor_task">
 		<text>The Hotel Polissya</text>
@@ -203,4 +202,4 @@
 	<string id="st_main_7_search_mon_con_text">
 		<text>Investigate the Chernobyl NPP and search for hard evidence of a conspiracy.</text>
 	</string>
-</string_table>
+	</string_table>

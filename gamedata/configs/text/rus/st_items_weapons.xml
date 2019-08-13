@@ -1,1728 +1,1680 @@
-п»ї<?xml version="1.0" encoding="windows-1251" ?>
+<?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-<string id="ammo-12x70-buck">
+	<string id="st_addon_sil_aps">
+		<text>Глушитель для ОЦ-33 «Пернач»</text>
+	</string>
+	<string id="st_addon_sil_aps_descr">
+		<text>Прибор бесшумной стрельбы для пистолета ОЦ-33 «Пернач».</text>
+	</string>
+	<string id="st_wpn_aps">
+		<text>АPS</text>
+	</string>
+	<string id="st_wpn_aps_descr">
+		<text>\n%c[255,1,255,255]•%c[default] спец-глушитель для ОЦ-33\n \n9-мм автоматический пистолет Стечкина - автоматический пистолет, разработанный в конце 1940-х - начале 1950-х годов конструктором И. Я. Стечкиным и принятый на вооружение Вооружённых Сил СССР в 1951 году, одновременно с пистолетом Макарова. АПС предназначен для вооружения офицеров, принимающих непосредственное участие в боевых действиях, а также для солдат и сержантов некоторых специальных подразделений.</text>
+	</string>
+	<string id="st_wpn_fal">
+		<text>FN FAL</text>
+	</string>
+	<string id="st_wpn_fal_descr">
+		<text>\n%c[255,1,255,255]•%c[default] прицелы ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] глушитель НАТО\n \nFN FAL - огнестрельное оружие НАТО, производимое в Бельгии компанией Fabrique Nationale de Herstal. Одна из наиболее признанных и распространённых автоматических винтовок. FN FAL первоначально разрабатывалась под промежуточный патрон 7,92x33 мм, использовавшийся немцами в течение Второй мировой войны, затем появились прототипы под английский патрон .280 British. Позже была переделана под патрон 7,62x51 мм НАТО, принятый в качестве единого патрона для стран НАТО. В годы Холодной войны получила прозвище «правая рука свободного мира».</text>
+	</string>
+	<string id="st_wpn_aug_a3">
+		<text>Steyr AUG A3</text>
+	</string>
+	<string id="st_wpn_aug_a3_descr">
+		<text>\n%c[255,1,255,255]•%c[default] прицелы ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] подствольный гранатомёт M203\n \n\n%c[255,1,255,255]•%c[default] глушитель НАТО\n \nSteyr AUG (Armee Universal Gewehr - армейская универсальная винтовка) - комплекс стрелкового оружия, выпущенный в 1977 году австрийской компанией Steyr-Daimler-Puch. Steyr AUG A3 отличается от базовой модели наличием четырёх планок Пикатинни: верхняя служит для крепления прицелов, к нижней может быть прикреплён подствольный гранатомёт или вертикальная передняя рукоятка, а к боковым крепится лазерный целеуказатель или другое необходимое дополнительное оборудование.</text>
+	</string>
+	<string id="st_wpn_mk14">
+		<text>Mk 14 EBR</text>
+	</string>
+	<string id="st_wpn_mk14_descr">
+		<text>\n%c[255,1,255,255]•%c[default] прицелы ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech\n \n\n%c[255,1,255,255]•%c[default] глушитель НАТО\n \nUnited States Navy Mark 14 Enhanced Battle Rifle (Mk 14 Enhanced Battle Rifle, «улучшенная боевая винтовка») - американская марксманская винтовка, созданная силами специальных операций ВМФ США на основе винтовки М14. Используется рядом спецподразделений ВМФ, в том числе SEAL.</text>
+	</string>
+	<string id="st_wpn_kar98k">
+		<text>Kar98k</text>
+	</string>
+	<string id="st_wpn_kar98k_descr">
+		<text>\n%c[255,1,255,255]•%c[default] Прицел ZF 39\n \nMauser 98k - магазинная винтовка (в немецких источниках: Karabiner 98k, Kar98k или K98k), официально принятая на вооружение в 1935 году. Являлась основным и наиболее массовым стрелковым оружием вермахта. Конструктивно является укороченной и незначительно изменённой модификацией винтовки Mauser 98.</text>
+	</string>
+	<string id="ammo-12x70-buck">
 	<text>12x70 shot rounds</text>
-</string>
-<string id="ammo-12x70-buck_s">
-<text>12x70 Shot</text>
-</string>
-<string id="ammo-12x70-buck_descr">
+	</string>
+	<string id="ammo-12x70-buck_descr">
 	<text>Standard 12-calibre round filled with 6 mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons.</text>
-</string>
-<string id="ammo-12.7x55-fmj">
+	</string>
+	<string id="ammo-12x70-buck_s">
+<text>12x70 Shot</text>
+	</string>
+	<string id="ammo-12.7x55-fmj">
 <text>Cartridges 12,7x55 mm SC-130</text>
-</string>
-<string id="ammo-12.7x55-fmj_s">
+	</string>
+	<string id="ammo-12.7x55-fmj_s">
 <text>SC-130</text>
-</string>
-<string id="ammo-12.7x55-fmj_descr">
+	</string>
+	<string id="ammo-12.7x55-fmj_descr">
 <text>12.7x55 mm SC-130 is a Russian rifle ammunition with subsonic bullet speed, created in the TsKIB SOO for low-noise and flameless defeat of protected targets and manpower in heavy body armor at ranges up to 600 meters.</text>
-</string>
-<string id="ammo-50-bmg">
+	</string>
+	<string id="ammo-50-bmg">
 <text>Cartridges 12,7x99 mm NATO</text>
-</string>
-<string id="ammo-50-bmg_s">
-	<text>BMG</text>
-</string>
-<string id="ammo-50-bmg_descr">
+	</string>
+	<string id="ammo-50-bmg_s">
+		<text>BMG</text>
+	</string>
+	<string id="ammo-50-bmg_descr">
 <text>12, 7x99 mm (known as 50 BMG, 12, 7x99 mm NATO) is a large-caliber cartridge of NATO armies. It was created in the 1920s as an ammunition for the Browning M1921 large-caliber machine gun. After the Second World War, the cartridge is standardized in NATO and is produced by various member countries NATO on uniform technical conditions.</text>
-</string>
-<string id="ammo-12x76-zhekan">
+	</string>
+	<string id="ammo-12x76-zhekan">
 	<text>12x76 slug rounds</text>
-</string>
-<string id="ammo-12x76-zhekan_s">
+	</string>
+	<string id="ammo-12x76-zhekan_s">
 <text>12x76 Slug</text>
-</string>
-<string id="ammo-12x76-zhekan_descr">
+	</string>
+	<string id="ammo-12x76-zhekan_descr">
 	<text>This heavy 12 calibre slug round is normally used for hunting big game, but is also good for other purposes. Instead of piercing, this hefty slug simply crushes through armour.</text>
-</string>
-<string id="ammo-12x76-dart">
+	</string>
+	<string id="ammo-12x76-dart">
 <text>Cartridges 12/76 (dart)</text>
-</string>
-<string id="ammo-12x76-dart_s">
+	</string>
+	<string id="ammo-12x76-dart_s">
 <text>12/76 dart</text>
-</string>
-<string id="ammo-12x76-dart_descr">
+	</string>
+	<string id="ammo-12x76-dart_descr">
 <text>the bullet is a dart. Plumage stabilizes the bullet, which increases the accuracy of the battle. the massive steel body of the bullet can penetrate any bulletproof vest.</text>
-</string>
-<string id="ammo-9x18-fmj">
+	</string>
+	<string id="ammo-9x18-fmj">
 	<text>9x18 mm rounds</text>
-</string>
-<string id="ammo-9x18-fmj_s">
+	</string>
+	<string id="ammo-9x18-fmj_s">
 <text>9x18</text>
-</string>
-<string id="ammo-9x18-fmj_descr">
+	</string>
+	<string id="ammo-9x18-fmj_descr">
 	<text>A full metal jacket round with a steel penetrator and a lead core under a metal jacket. Provides good stopping power but is ineffective against body armour.</text>
-</string>
-<string id="ammo-9x18-pmm">
+	</string>
+	<string id="ammo-9x18-pmm">
 	<text>9x18 mm +P+ rounds</text>
-</string>
-<string id="ammo-9x18-pmm_s">
+	</string>
+	<string id="ammo-9x18-pmm_s">
 <text>9x18 +P+</text>
-</string>
-<string id="ammo-9x18-pmm_descr">
+	</string>
+	<string id="ammo-9x18-pmm_descr">
 	<text>This round contains a bullet with enhanced stopping power, while its European +P+ designation indicates "overpressure ammunition" with a 30% increase in muzzle velocity. Ineffective against body armour.</text>
-</string>
-<string id="ammo-9x19-fmj">
+	</string>
+	<string id="ammo-9x19-fmj">
 	<text>9x19 mm FMJ rounds</text>
-</string>
-<string id="ammo-9x19-fmj_s">
+	</string>
+	<string id="ammo-9x19-fmj_s">
 <text>9x19 FMJ</text>
-</string>
-<string id="ammo-9x19-fmj_descr">
+	</string>
+	<string id="ammo-9x19-fmj_descr">
 	<text>This basic 9x19 calibre round with a jacketed bullet has good characteristics while being simple to produce. The round is popular due to the fact that international conventions prohibit the use of expanding ammunition in combat. Ineffective against body armour.</text>
-</string>
-<string id="ammo-9x19-pbp">
+	</string>
+	<string id="ammo-9x19-pbp">
 	<text>9x19 mm JHP rounds</text>
-</string>
-<string id="ammo-9x19-pbp_s">
+	</string>
+	<string id="ammo-9x19-pbp_s">
 <text>9x19 JHP</text>
-</string>
-<string id="ammo-9x19-pbp_descr">
+	</string>
+	<string id="ammo-9x19-pbp_descr">
 	<text>This 9x19 calibre jacketed hollow point bullet with an expanding hollow provides high stopping power and low ricochet propensity. Used by police and for self-defence. Ineffective against body armour due to its low penetration potential.</text>
-</string>
-<string id="ammo-5.7x28-fmj">
+	</string>
+	<string id="ammo-5.7x28-fmj">
 <text>Cartridges 5,7x28 mm SS190</text>
-</string>
-<string id="ammo-5.7x28-fmj_s">
-	<text>SS190</text>
-</string>
-<string id="ammo-5.7x28-fmj_descr">
+	</string>
+	<string id="ammo-5.7x28-fmj_s">
+		<text>SS190</text>
+	</string>
+	<string id="ammo-5.7x28-fmj_descr">
 <text>5, 7x28 mm SS190-pistol cartridge, created in 1986 for the replacement of 9x19 mm Parabellum. Compared with the cartridge 9x19 mm, it provides greater shooting accuracy, less impact, greater effective range, armor penetration, and also has a lowered ricochet. This cartridge occupied a niche between pistol and intermediate (automatic) cartridges. the cartridge 5, 7x28 mm is used in the F18 P90 personal fire weapon and the FN Five-seveN pistol.</text>
-</string>
-<string id="ammo-5.7x28-ap">
+	</string>
+	<string id="ammo-5.7x28-ap">
 <text>Cartridges 5,7x28 mm SS195 JHP</text>
-</string>
-<string id="ammo-5.7x28-ap_s">
-	<text>SS195</text>
-</string>
-<string id="ammo-5.7x28-ap_descr">
+	</string>
+	<string id="ammo-5.7x28-ap_s">
+		<text>SS195</text>
+	</string>
+	<string id="ammo-5.7x28-ap_descr">
 <text>5,7x28 SS195 JHP-cartridge with an expansive bullet, has a smaller penetrating ability than the SS190, but a large stopping action and killing force.</text>
-</string>
-<string id="ammo-50-ae">
+	</string>
+	<string id="ammo-50-ae">
 <text>Ammo.50 Action Express</text>
-</string>
-<string id="ammo-50-ae_s">
-	<text>.50 AE</text>
-</string>
-<string id="ammo-50-ae_descr">
+	</string>
+	<string id="ammo-50-ae_s">
+		<text>.50 AE</text>
+	</string>
+	<string id="ammo-50-ae_descr">
 <text>. 50 Action Express (also 50 AE, 12. 7 x 33, 12, 7x32, 6 mm) is a cartridge developed in 1988 for the Israeli Desert Eagle pistol. One of the most powerful unitary pistol cartridges in the world. Has a blunt-ended bullet, which causes a huge stopping action of this cartridge.</text>
-</string>
-<string id="ammo-357">
+	</string>
+	<string id="ammo-357">
 <text>Cartridges.357 Magnum</text>
-</string>
-<string id="ammo-357_s">
+	</string>
+	<string id="ammo-357_s">
 <text>Cartridges.357 Magnum</text>
-</string>
-<string id="ammo-357_descr">
+	</string>
+	<string id="ammo-357_descr">
 <text>Magnum (from Magnus, from magnus-big, great)-a cartridge of increased power, compared to a regular cartridge of the same caliber. Also, weapons designed for this type of cartridge.</text>
-</string>
-<string id="ammo-11.43x23-fmj">
+	</string>
+	<string id="ammo-11.43x23-fmj">
 	<text>.45 ACP rounds</text>
-</string>
-<string id="ammo-11.43x23-fmj_s">
-<text>.45 ACP</text>
-</string>
-<string id="ammo-11.43x23-fmj_descr">
+	</string>
+	<string id="ammo-11.43x23-fmj_s">
+		<text>.45ACP</text>
+	</string>
+	<string id="ammo-11.43x23-fmj_descr">
 	<text>The .45 calibre full metal jacket round has enjoyed popularity for more than a hundred years thanks to its heavy bullet and a relatively small propelling charge. As a result, the bullet in this round is relatively slow but highly accurate and provides considerable stopping power.</text>
-</string>
-<string id="ammo-11.43x23-hydro">
+	</string>
+	<string id="ammo-11.43x23-hydro">
 	<text>.45 ACP Hydrashock rounds</text>
-</string>
-<string id="ammo-11.43x23-hydro_s">
+	</string>
+	<string id="ammo-11.43x23-hydro_s">
 <text>.45 Hydro</text>
-</string>
-<string id="ammo-11.43x23-hydro_descr">
+	</string>
+	<string id="ammo-11.43x23-hydro_descr">
 	<text>This unusual .45 ACP calibre round is comprised of a jacketed soft point bullet with an expanding hollow and a steel core.  It is a combination of jacketed expanding soft point and armour piercing bullets, benefiting, from the advantages of both and, suffering from their downsides.</text>
-</string>
-<string id="ammo-5.45x39-fmj">
+	</string>
+	<string id="ammo-5.45x39-fmj">
 	<text>5.45x39 mm rounds</text>
-</string>
-<string id="ammo-5.45x39-fmj_s">
+	</string>
+	<string id="ammo-5.45x39-fmj_s">
 <text>5.45x39</text>
-</string>
-<string id="ammo-5.45x39-fmj_descr">
+	</string>
+	<string id="ammo-5.45x39-fmj_descr">
 	<text>Military 5.45x39 7H10 calibre improved piercing round for automatic rifles of Warsaw Pact countries. Provides better accuracy than the 7.62 calibre round thanks to reduced recoil and a 100 meter increase in range.</text>
-</string>
-<string id="ammo-5.45x39-ap">
+	</string>
+	<string id="ammo-5.45x39-ap">
 	<text>5.45x39 mm AP rounds</text>
-</string>
-<string id="ammo-5.45x39-ap_s">
+	</string>
+	<string id="ammo-5.45x39-ap_s">
 	<text>5.45x39 AP</text>
-</string>
-<string id="ammo-5.45x39-ap_descr">
+	</string>
+	<string id="ammo-5.45x39-ap_descr">
 	<text>Military 5.45x39 7H22 calibre armour-piercing round for automatic rifles of Warsaw Pact countries. The bullet contains a hard-alloy armour piercing penetrator. Effective against body armour.</text>
-</string>
-<string id="ammo-5.56x45-ss190">
+	</string>
+	<string id="ammo-5.56x45-ss190">
 	<text>5.56x45 mm rounds</text>
-</string>
-<string id="ammo-5.56x45-ss190_s">
+	</string>
+	<string id="ammo-5.56x45-ss190_s">
 <text>5.56x45</text>
-</string>
-<string id="ammo-5.56x45-ss190_descr">
+	</string>
+	<string id="ammo-5.56x45-ss190_descr">
 	<text>A standard issue NATO 5.56x45 calibre round specially designed for accurate automatic fire. Provides good ballistic characteristics, having been designed on the basis of a hunting round. Widely known under its SS109 index.</text>
-</string>
-<string id="ammo-5.56x45-ap">
+	</string>
+	<string id="ammo-5.56x45-ap">
 	<text>5.56x45 mm AP rounds</text>
-</string>
-<string id="ammo-5.56x45-ap_s">
+	</string>
+	<string id="ammo-5.56x45-ap_s">
 	<text>5.56x45 mm AP</text>
-</string>
-<string id="ammo-5.56x45-ap_descr">
+	</string>
+	<string id="ammo-5.56x45-ap_descr">
 	<text>A common NATO military 5.56x45 calibre armour piercing round, known under its SS190/M855 index, widely used by Western security agencies and special services. Effective against body armour.</text>
-</string>
-<string id="ammo-9x39-sp5">
+	</string>
+	<string id="ammo-9x39-sp5">
 <text>Cartridges 9x39 mm SP-5</text>
-</string>
-<string id="ammo-9x39-sp5_s">
+	</string>
+	<string id="ammo-9x39-sp5_s">
 <text>SP-5</text>
-</string>
-<string id="ammo-9x39-sp5_descr">
-<text>Special sniper cartridge with the index 7ГЌ8. Has a subsonic flight speed, which makes it possible to use it in silent weapons during special operations. Thanks to the caliber is distinguished by a high stopping action, and due to a heavy bullet of a special design, it breaks most body armor on ranges up to 200 meters.</text>
-</string>
-<string id="ammo-9x39-pab9">
+	</string>
+	<string id="ammo-9x39-sp5_descr">
+<text>Special sniper cartridge with the index 7I8. Has a subsonic flight speed, which makes it possible to use it in silent weapons during special operations. Thanks to the caliber is distinguished by a high stopping action, and due to a heavy bullet of a special design, it breaks most body armor on ranges up to 200 meters.</text>
+	</string>
+	<string id="ammo-9x39-pab9">
 	<text>9x39 mm SP-5 rounds</text>
-</string>
-<string id="ammo-9x39-pab9_s">
+	</string>
+	<string id="ammo-9x39-pab9_s">
 	<text>9x39 mm SP-5</text>
-</string>
-<string id="ammo-9x39-pab9_descr">
+	</string>
+	<string id="ammo-9x39-pab9_descr">
 	<text>The SP-5 is a subsonic sniper round with a bimetallic casing. The round contains a steel core with a gap behind it that is filled with lead. Requires a silencer for stealth firing. Used by special services of Warsaw Pact countries.</text>
-</string>
-<string id="ammo-9x39-ap">
+	</string>
+	<string id="ammo-9x39-ap">
 	<text>9x39 mm SP-6 rounds</text>
-</string>
-<string id="ammo-9x39-ap_s">
+	</string>
+	<string id="ammo-9x39-ap_s">
 <text>9x39 SP-6</text>
-</string>
-<string id="ammo-9x39-ap_descr">
+	</string>
+	<string id="ammo-9x39-ap_descr">
 	<text>The SP-6 is a subsonic assault rifle round with a jacketed soft point bullet with a hard steel core that protrudes from the casing. Requires a silencer for stealth firing. Used by special services of Warsaw Pact countries. Effective against body armour.</text>
-</string>
-<string id="ammo-7.62x25-p">
+	</string>
+	<string id="ammo-7.62x25-p">
 <text>7.62x25 mm P</text>
-</string>
-<string id="ammo-7.62x25-p_s">
+	</string>
+	<string id="ammo-7.62x25-p_s">
 <text>Pst Gzh</text>
-</string>
-<string id="ammo-7.62x25-p_descr">
+	</string>
+	<string id="ammo-7.62x25-p_descr">
 <text>Soviet pistol cartridge caliber 7,62mm. A simple whole-shell bullet with a lead core.</text>
-</string>
-<string id="ammo-7.62x25-ps">
+	</string>
+	<string id="ammo-7.62x25-ps">
 <text>7.62x25 mm Pst</text>
-</string>
-<string id="ammo-7.62x25-ps_s">
+	</string>
+	<string id="ammo-7.62x25-ps_s">
 <text>PP GG</text>
-</string>
-<string id="ammo-7.62x25-ps_descr">
+	</string>
+	<string id="ammo-7.62x25-ps_descr">
 <text>Soviet pistol cartridge caliber 7,62mm. A bullet with a steel core, improved armor-piercing.</text>
-</string>
-<string id="ammo-7.62x39-fmj">
+	</string>
+	<string id="ammo-7.62x39-fmj">
 <text>7.62x39 mm PS</text>
-</string>
-<string id="ammo-7.62x39-fmj_s">
+	</string>
+	<string id="ammo-7.62x39-fmj_s">
 <text>PS</text>
-</string>
-<string id="ammo-7.62x39-fmj_descr">
-<text>the Soviet automatic cartridge of caliber 7,62 mm (index 57-ГЌ-231). A simple shell bullet with a steel core.</text>
-</string>
-<string id="ammo-7.62x39-ap">
+	</string>
+	<string id="ammo-7.62x39-fmj_descr">
+<text>the Soviet automatic cartridge of caliber 7,62 mm (index 57-I-231). A simple shell bullet with a steel core.</text>
+	</string>
+	<string id="ammo-7.62x39-ap">
 <text>7,62x39 mm BP 7N23</text>
-</string>
-<string id="ammo-7.62x39-ap_s">
+	</string>
+	<string id="ammo-7.62x39-ap_s">
 <text>BP</text>
-</string>
-<string id="ammo-7.62x39-ap_descr">
+	</string>
+	<string id="ammo-7.62x39-ap_descr">
 <text>Soviet armor-piercing automatic cartridge of caliber 7,62mm (index 7N23). Bullet with heat-strengthened core made of tool steel, improved armor-piercing.</text>
-</string>
-<string id="ammo-7.62x51-fmj">
+	</string>
+	<string id="ammo-7.62x51-fmj">
 <text>7.62x51 mm NATO SS77</text>
-</string>
-<string id="ammo-7.62x51-fmj_s">
-	<text>M80</text>
-</string>
-<string id="ammo-7.62x51-fmj_descr">
+	</string>
+	<string id="ammo-7.62x51-fmj_s">
+		<text>M80</text>
+	</string>
+	<string id="ammo-7.62x51-fmj_descr">
 <text>the rifle ammunition standard of NATO. the caliber is 7.62mm. A simple shell bullet with a lead core.</text>
-</string>
-<string id="ammo-7.62x51-ap">
+	</string>
+	<string id="ammo-7.62x51-ap">
 <text>7.62x51 mm NATO M61 AP</text>
-</string>
-<string id="ammo-7.62x51-ap_s">
-	<text>M61</text>
-</string>
-<string id="ammo-7.62x51-ap_descr">
+	</string>
+	<string id="ammo-7.62x51-ap_s">
+		<text>M61</text>
+	</string>
+	<string id="ammo-7.62x51-ap_descr">
 <text>Rifle armor piercing standard of NATO. the caliber is 7.62mm. A bullet with a steel core, improved armor-piercing.</text>
-</string>
-<string id="ammo-7.62x54-7h1">
+	</string>
+	<string id="ammo-7.62x54-7h1">
 <text>7.62x54 mm 7H1</text>
-</string>
-<string id="ammo-7.62x54-7h1_s">
+	</string>
+	<string id="ammo-7.62x54-7h1_s">
 <text>PS</text>
-</string>
-<string id="ammo-7.62x54-7h1_descr">
+	</string>
+	<string id="ammo-7.62x54-7h1_descr">
 <text>Full-time army cartridge 7.62x54 mm PS with an ordinary bullet (index 7N1). the cartridge bullet has a blunt-ended steel core. Cheap in the manufacture of a modification of the sniper cartridge for sniper rifles.</text>
-</string>
-<string id="ammo-7.62x54-7h14">
-	<text>7.62x54 mm 7H14 rounds</text>
-</string>
-<string id="ammo-7.62x54-7h14_descr">
+	</string>
+	<string id="ammo-7.62x54-7h14">
+		<text>7.62x54 mm 7H14 rounds</text>
+	</string>
+	<string id="ammo-7.62x54-7h14_s">
+		<text>7.62x54 7H1</text>
+	</string>
+	<string id="ammo-7.62x54-7h14_descr">
 	<text>A 7.62 calibre sniper round with a steel penetrator specially designed for the SVD. Unlike the machine gun round, the 7H14 provides tight groupings and excellent penetration characteristics.</text>
-</string>
-<string id="ammo-7.62x54-7h14_s">
-<text>7.62x54 7H1</text>
-</string>
-<string id="ammo-7.62x54-ap">
+	</string>
+	<string id="ammo-7.62x54-ap">
 	<text>7.62x54 mm PP rounds</text>
-</string>
-<string id="ammo-7.62x54-ap_s">
+	</string>
+	<string id="ammo-7.62x54-ap_s">
 <text>7.62x54 PP</text>
-</string>
-<string id="ammo-7.62x54-ap_descr">
+	</string>
+	<string id="ammo-7.62x54-ap_descr">
 <text>Cheap 7.62 calibre machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the RP-74 machine gun.</text>
-</string>
-<string id="ammo-8,6x70-fmj">
+	</string>
+	<string id="ammo-8,6x70-fmj">
 <text>Cartridges.338 Lapua Magnum</text>
-</string>
-<string id="ammo-8,6x70-fmj_s">
-	<text>.338</text>
-</string>
-<string id="ammo-8,6x70-fmj_descr">
+	</string>
+	<string id="ammo-8,6x70-fmj_s">
+		<text>.338</text>
+	</string>
+	<string id="ammo-8,6x70-fmj_descr">
 <text>It was created as a special sniper cartridge for shooting at great distances, but at the moment it is also widely used by hunters and shooters by sportsmen.</text>
-</string>
-<string id="ammo-gauss">
+	</string>
+	<string id="ammo-gauss">
 	<text>Batteries</text>
-</string>
-<string id="ammo-gauss_short">
+	</string>
+	<string id="ammo-gauss_short">
 	<text>Batteries</text>
-</string>
-<string id="ammo-gauss_descr">
+	</string>
+	<string id="ammo-gauss_descr">
 	<text>Batteries that use a encapsulated fragment of the Flash artefact as their power source. Manufactured using hi-tech equipment.</text>
-</string>
-<string id="ammo-gauss_cardan">
+	</string>
+	<string id="ammo-gauss_cardan">
 	<text>Homemade batteries</text>
-</string>
-<string id="ammo-gauss_cardan_descr">
+	</string>
+	<string id="ammo-gauss_cardan_descr">
 	<text>These lower-capacity cells use encapsulated fragments of the Flash artefact as their power source. Their lower capacity is due to makeshift production conditions and lack of specialized equipment.</text>
-</string>
-<string id="ammo-7.62x54-pkm">
-<text>Cartridges 7,62Гµ54 BP (tape)</text>
-</string>
-<string id="ammo-7.62x54-pkm_s">
+	</string>
+	<string id="ammo-7.62x54-pkm">
+<text>Cartridges 7,62o54 BP (tape)</text>
+	</string>
+	<string id="ammo-7.62x54-pkm_s">
 <text>BP</text>
-</string>
-<string id="ammo-7.62x54-pkm_descr">
+	</string>
+	<string id="ammo-7.62x54-pkm_descr">
 <text>A cartridge with a bullet of increased breakdown action. In the design of the bullet has an armor-piercing core of hardened tool steel. It is intended for the destruction of manpower, located behind light armored shelters, at ranges up to 500 m.</text>
-</string>
-<string id="ammo-og-7b">
+	</string>
+	<string id="ammo-og-7b">
 	<text>OG-7V warhead</text>
-</string>
-<string id="ammo-og-7b_s">
+	</string>
+	<string id="ammo-og-7b_s">
 	<text>OG-7V</text>
-</string>
-<string id="ammo-og-7b_descr">
+	</string>
+	<string id="ammo-og-7b_descr">
 	<text>Fragmentation warhead for anti-personnel warfare used with the RPG-7u grenade launcher. The main purpose of the warhead is to kill enemies in cover outside the range of hand grenades using the RPG-7u launcher.</text>
-</string>
-<string id="st_grenade_f1">
+	</string>
+	<string id="st_grenade_f1">
 <text>F1 Grenade</text>
-</string>
-<string id="st_grenade_f1_descr">
+	</string>
+	<string id="st_grenade_f1_descr">
 	<text>A defensive hand grenade, with fragments capable of piercing medium level body armour. The grenade has a 7 meter kill radius. Stalkers get F1 grenades from trading with the military, who write them off as having been used for fighting mutants.</text>
-</string>
-<string id="st_grenade_rgd5">
+	</string>
+	<string id="st_grenade_rgd5">
 	<text>RGD-5 grenade</text>
-</string>
-<string id="st_grenade_rgd5_descr">
+	</string>
+	<string id="st_grenade_rgd5_descr">
 	<text>An offensive hand grenade with a small kill zone of 5 meters. Often used by stalkers to "smoke out" mutants due to its relatively low cost.</text>
-</string>
-<string id="st_grenade_smoke">
+	</string>
+	<string id="st_grenade_smoke">
 <text>Smoke Grenade</text>
-</string>
-<string id="st_grenade_smoke_descr">
+	</string>
+	<string id="st_grenade_smoke_descr">
 	<text>A hand smoke grenade. Used to put up smoke screens. Once the grenade is thrown it takes 10 seconds for the smoke screen to expand.</text>
-</string>
-<string id="st_grenade_light_descr">
+	</string>
+	<string id="st_grenade_light_descr">
 <text>Chemical lighting grenade. Designed to illuminate areas during night combat, as well as to dazzle and disorientate the enemy. the action time is less than a minute.</text>
-</string>
-<string id="st_grenade_light">
+	</string>
+	<string id="st_grenade_light">
 <text>Grenade GL-1</text>
-</string>
-<string id="ammo-vog-25">
+	</string>
+	<string id="ammo-vog-25">
 	<text>VOG-25 grenade</text>
-</string>
-<string id="ammo-vog-25_s">
+	</string>
+	<string id="ammo-vog-25_s">
 <text>VOG-25</text>
-</string>
-<string id="ammo-vog-25_descr">
+	</string>
+	<string id="ammo-vog-25_descr">
 	<text>Regular fragmentation grenade for the GP-25 Koster under-barrel grenade launcher. This round has a 5 meter kill zone. The VOG-25 grenade is also used in the Tunder S14 complex and Bulldog 6 revolver-type grenade launcher.</text>
-</string>
-<string id="ammo-vog-25p">
+	</string>
+	<string id="ammo-vog-25p">
 <text>VOG Vision-25P</text>
-</string>
-<string id="ammo-vog-25p_s">
+	</string>
+	<string id="ammo-vog-25p_s">
 <text>VOG-25P</text>
-</string>
-<string id="ammo-vog-25p_descr">
+	</string>
+	<string id="ammo-vog-25p_descr">
 <text>40mm shot VOG-25P or the Foundling (7P24)-fragmentation grenade for grenade launchers, in which the main and main difference is in the head fuse, which ensures the bouncing of the grenade after impact on the ground and its rupture in the air, which increases its damaging effect.</text>
-</string>
-<string id="ammo-m209">
+	</string>
+	<string id="ammo-m209">
 	<text>M203 grenade</text>
-</string>
-<string id="ammo-m209_s">
+	</string>
+	<string id="ammo-m209_s">
 <text>M203</text>
-</string>
-<string id="ammo-m209_descr">
+	</string>
+	<string id="ammo-m209_descr">
 	<text>40 mm grenade for the M203 under-barrel grenade launcher. This round has a 5 meter kill zone. Also suitable for use in the FT-200M integrated grenade launcher.</text>
-</string>
-<string id="st_addon_scope_galil">
+	</string>
+	<string id="st_addon_scope_galil">
 <text>Sight for Galil</text>
-</string>
-<string id="st_addon_scope_galil_descr">
+	</string>
+	<string id="st_addon_scope_galil_descr">
 <text>Optical sight for the Israeli automaton IMI Galil.</text>
-</string>
-<string id="st_addon_scope_4x34">
+	</string>
+	<string id="st_addon_scope_4x34">
 	<text>4x34 scope</text>
-</string>
-<string id="st_addon_scope_4x34_descr">
+	</string>
+	<string id="st_addon_scope_4x34_descr">
 <text>Optical sights of permanent and variable magnification are installed on hunting rifled weapons and are designed to aim it at shooting. On the gun sights are mounted using special brackets.</text>
-</string>
-<string id="st_addon_scope_1p29">
+	</string>
+	<string id="st_addon_scope_1p29">
 <text>Sight USP-1 Tulip</text>
-</string>
-<string id="st_addon_scope_1p29s">
+	</string>
+	<string id="st_addon_scope_1p29s">
 <text>USP-1</text>
-</string>
-<string id="st_addon_scope_1p29_descr">
+	</string>
+	<string id="st_addon_scope_1p29_descr">
 <text>the unified rifle sight USP-1 is designed for targeting shooting from the AK-74N, AK-74M, AN-94 and RPK-74N and PKMN machine guns at daylight and at night for luminous and illuminated targets. 1P29- the index of the USP-1 sighting of the Main Artillery Directorate of the USSR Ministry of Defense. Created by in the framework of the ROC Tulip, from where it got its name.</text>
-</string>
-<string id="st_addon_scope_1pn93">
+	</string>
+	<string id="st_addon_scope_1pn93">
 <text>Sight 1PH93-4</text>
-</string>
-<string id="st_addon_scope_1pn93s">
-	<text>1ГЏГЌ93-4</text>
-</string>
-<string id="st_addon_scope_1pn93_descr">
-<text>1ГЏГЌ93 Kid-a series of Russian night sights designed to monitor the battlefield and conduct targeted fire in poor visibility. the series was developed in the 1990s in the Tochpribor CDB, the manufacturer of the Novosibirsk Instrument-Making Plant (Novosibirsk). Constructive the peculiarity of the devices is the modular scheme, which allowed the production of different types of sights with a minimum of costs for a wide range of small arms.</text>
-</string>
-<string id="st_addon_scope_kobra-ekp-1s-03">
+	</string>
+	<string id="st_addon_scope_1pn93s">
+	<text>1II93-4</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+<text>1II93 Kid-a series of Russian night sights designed to monitor the battlefield and conduct targeted fire in poor visibility. the series was developed in the 1990s in the Tochpribor CDB, the manufacturer of the Novosibirsk Instrument-Making Plant (Novosibirsk). Constructive the peculiarity of the devices is the modular scheme, which allowed the production of different types of sights with a minimum of costs for a wide range of small arms.</text>
+	</string>
+	<string id="st_addon_scope_kobra-ekp-1s-03">
 <text>Cobra sight ECP-1C-03</text>
-</string>
-<string id="st_addon_scope_kobra-ekp-1s-03s">
+	</string>
+	<string id="st_addon_scope_kobra-ekp-1s-03s">
 <text>EKP</text>
-</string>
-<string id="st_addon_scope_kobra_descr">
+	</string>
+	<string id="st_addon_scope_kobra_descr">
 <text>the Cobra sight provides a confident aiming in natural light conditions (bright sunny day, deep twilight and moonlight night) due to the presence of 16 levels of manual brightness adjustment of the aiming mark. the location of the aiming mark and the target in one plane allows aiming with one or two eyes, which creates an unlimited field of view for the shooter, and conduct an effective high-speed fire at rapidly moving, small and suddenly appearing for a short time purposes.</text>
-</string>
-<string id="st_addon-ekp-8-02">
+	</string>
+    <string id="st_addon-ekp-8-02">
 <text>Aim of the Cobra EKP-8-02</text>
-</string>
-<string id="st_addon-ekp-8-02s">
+    </string>
+    <string id="st_addon-ekp-8-02s">
 <text>EKP</text>
-</string>
-<string id="st_addon-ekp-8-02_descr">
+    </string>
+    <string id="st_addon-ekp-8-02_descr">
 <text>EKP-8-02 Cobra is an open collimator sight of the red dot type. It is designed to defeat rapidly moving targets and solve transient problems at close range in urban conditions under different lighting conditions. Provides a clear aiming with light from 104k to 2-10kilk (daylight, twilight and moonlight) from one or two eyes is very effective when firing from moving vehicles, and is also ideal for hitting fast moving, small and spontaneously appearing targets.</text>
-</string>
-<string id="st_addon_scope_eotech">
+    </string>
+	<string id="st_addon_scope_eotech">
 <text>EOTech sight</text>
-</string>
-<string id="st_addon_scope_eotechs">
-	<text>EOTech</text>
-</string>
-<string id="st_addon_scope_eotech_descr">
+	</string>
+	<string id="st_addon_scope_eotechs">
+		<text>EOTech</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
 <text>EO Tech is the world leader and the exclusive manufacturer of holographic sighting systems for small arms.</text>
-</string>
-<string id="st_addon_scope_c-more">
+	</string>
+	<string id="st_addon_scope_c-more">
 <text>C-more Railway Tactical</text>
-</string>
-<string id="st_addon_scope_c-mores">
-	<text>C-More</text>
-</string>
-<string id="st_addon_scope_c-more_descr">
+	</string>
+	<string id="st_addon_scope_c-mores">
+		<text>C-More</text>
+	</string>
+	<string id="st_addon_scope_c-more_descr">
 <text>Collimator sight of the open type C-More Railway can be instantly installed on the mount Weaver or Picatinny. Therefore, this sight can be used with almost any weapon-a shotgun, a rifle, a revolver, a crossbow, a paintball gun and an airsoft gun. the body of the sight is made from aluminum.</text>
-</string>
-<string id="st_addon_scope_docter_sight">
+	</string>
+	<string id="st_addon_scope_docter_sight">
 <text>DOCTER Sight</text>
-</string>
-<string id="st_addon_scope_docter_sights">
-	<text>DS</text>
-</string>
-<string id="st_addon_scope_docter_sight_descr">
+	</string>
+	<string id="st_addon_scope_docter_sights">
+		<text>DS</text>
+	</string>
+	<string id="st_addon_scope_docter_sight_descr">
 <text>DOCTER collimator sights are excellent optical sighting devices of modern design. Due to its small size and weight, as well as a compact non-ribbed design, these sights provide rich opportunities for both hunting and sports. Reliable performance, high optical power, attractive design and trouble-free operation even in extreme weather conditions make the DOCTER Sight sight irreplaceable.</text>
-</string>
-<string id="st_addon_scope_pk-a">
+	</string>
+	<string id="st_addon_scope_pk-a">
 <text>Sight of the PC-A</text>
-</string>
-<string id="st_addon_scope_pk-a_descr">
+	</string>
+	<string id="st_addon_scope_pk-a_descr">
 <text>PK-A collimator sight is a modern lightweight, hermetic, easy-to-use sight for hunting tiger carbines that have a side bar for installation of optical sights. the sight is intended for accurate targeting of AK74N, RPK74N, AKMN-1, RPKN-1 weapons when firing in various conditions illumination-in the daytime, at dusk, in conditions of poor visibility and rapidly changing illumination. the sight is hermetically sealed and filled with Doctor. nitrogen to prevent fogging of internal optical surfaces.</text>
-</string>
-<string id="st_addon_scope_acog">
+	</string>
+	<string id="st_addon_scope_acog">
 <text>ACOG sight</text>
-</string>
-<string id="st_addon_scope_acogs">
-	<text>ACOG</text>
-</string>
-<string id="st_addon_scope_acog_descr">
+	</string>
+	<string id="st_addon_scope_acogs">
+		<text>ACOG</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
 <text>4-fold optical sight for NATO rifles.</text>
-</string>
-<string id="st_addon_scope_ac10632">
+	</string>
+	<string id="st_addon_scope_ac10632">
 <text>Sight Barska ELECTRO SIGHT AC10632</text>
-</string>
-<string id="st_addon_scope_ac10632s">
-	<text>AC10632</text>
-</string>
-<string id="st_addon_scope_ac10632_descr">
+	</string>
+	<string id="st_addon_scope_ac10632s">
+		<text>AC10632</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
 <text>Collimator sight ELECTRO SIGHT 1x22x33 for quick aiming. Shockproof, suitable for all types of weapons with a Picatinny bar. Selecting the brightness level of the highlight of the aiming mark (7 steps) allows you to use the sight at different levels of illumination.</text>
-</string>
-<string id="st_addon_scope_ac11090">
+	</string>
+	<string id="st_addon_scope_ac11090">
 <text>Sight Barska RED DOT AC11090</text>
-</string>
-<string id="st_addon_scope_ac11090s">
-	<text>AC11090</text>
-</string>
-<string id="st_addon_scope_ac11090_descr">
+	</string>
+	<string id="st_addon_scope_ac11090s">
+		<text>AC11090</text>
+	</string>
+	<string id="st_addon_scope_ac11090_descr">
 <text>Closed collimating sight Barska RED DOT 2x30mm. Layered clearing optics, 100 %waterproof, resistant to fogging. Suitable for all weapons that have the Picatinni bar.</text>
-</string>
-<string id="st_addon_scope">
+	</string>
+	<string id="st_addon_scope">
 	<text>PSO-1m scope</text>
-</string>
-<string id="st_addon_scopes">
+	</string>
+	<string id="st_addon_scopes">
 <text>JI-1</text>
-</string>
-<string id="st_addon_scope_descr">
+	</string>
+	<string id="st_addon_scope_descr">
 <text>A widely used optical sight of Soviet production. To mount the weapon, a dovetail-type fastener is used.</text>
-</string>
-<string id="st_addon_scope_pso-1m2-01">
-<text>Sight PSO-1ГЊ2-01</text>
-</string>
-<string id="st_addon_scope_pso-1m2-01s">
+	</string>
+	<string id="st_addon_scope_pso-1m2-01">
+<text>Sight PSO-1I2-01</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01s">
 <text>PSO-1M2-01</text>
-</string>
-<string id="st_addon_scope_pso-1m2-01_descr">
-<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2ГђГ–63.</text>
-</string>
-<string id="st_addon_scope_x2.7">
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2?O63.</text>
+	</string>
+	<string id="st_addon_scope_x2.7">
 <text>Sight of PSU-1</text>
-</string>
-<string id="st_addon_scope_x2.7s">
+	</string>
+	<string id="st_addon_scope_x2.7s">
 <text>PSU-1</text>
-</string>
-<string id="st_addon_scope_x2.7_descr">
+	</string>
+	<string id="st_addon_scope_x2.7_descr">
 <text>Optical sight of fixed multiplicity (2.7 diopters). Optimized for medium-range combat, as well as for urban use. To mount the weapon, a dovetail-type fastener is used.</text>
-</string>
-<string id="st_addon_scope_night_vision">
+	</string>
+	<string id="st_addon_scope_night_vision">
 	<text>NSPU-3 scope</text>
-</string>
-<string id="st_addon_scope_night_visions">
+	</string>
+	<string id="st_addon_scope_night_visions">
 <text>1PH58</text>
-</string>
-<string id="st_addon_scope_night_vision_descr">
+	</string>
+	<string id="st_addon_scope_night_vision_descr">
 	<text>An image intensifier night vision 4x fixed zoom scope for combat in darkness. Attached to weapons by means of a dovetail mount.</text>
-</string>
-<string id="st_addon_scope_susat">
+	</string>
+	<string id="st_addon_scope_susat">
 	<text>SUSAT 4x scope</text>
-</string>
-<string id="st_addon_scope_susat_descr">
+	</string>
+	<string id="st_addon_scope_susat_descr">
 	<text>A 4x fixed zoom scope produced primarily in Western countries. Attached to weapons by means of the NATO-standard Picatinny rail. Often used for accurate fire from small arms at medium to long range.</text>
-</string>
-<string id="st_addon_scope_susat_x1.6">
+	</string>
+	<string id="st_addon_scope_susat_x1.6">
 	<text>SUSAT 1.6x scope</text>
-</string>
-<string id="st_addon_scope_susat_x1.6_descr">
+	</string>
+	<string id="st_addon_scope_susat_x1.6_descr">
 	<text>An optical SUSAT 1.6x scope for combat at short to medium range. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
-</string>
-<string id="st_addon_scope_susat_dusk">
+	</string>
+	<string id="st_addon_scope_susat_dusk">
 	<text>SUSAT Twilight x1.6 scope</text>
-</string>
-<string id="st_addon_scope_susat_dusk_descr">
+	</string>
+	<string id="st_addon_scope_susat_dusk_descr">
 	<text>An optical SUSAT 1.6x higher contrast scope for combat in reduced lighting conditions. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
-</string>
-<string id="st_addon_scope_susat_night_vision">
+	</string>
+	<string id="st_addon_scope_susat_night_vision">
 	<text>SUSAT Night x4 scope</text>
-</string>
-<string id="st_addon_scope_susat_night_vision_descr">
+	</string>
+	<string id="st_addon_scope_susat_night_vision_descr">
 	<text>A 4.0x fixed zoom scope with a night vision device for long range combat in darkness. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
-</string>
-<string id="st_addon_scope_susat_custom">
+	</string>
+	<string id="st_addon_scope_susat_custom">
 	<text>SUSAT Mera scope</text>
-</string>
-<string id="st_addon_scope_susat_custom_descr">
+	</string>
+	<string id="st_addon_scope_susat_custom_descr">
 	<text>An adjustable long-range 1.6-4x zoom scope that can use automatic adjustment to provide greater fire effectiveness. Attached to weapons by means of the NATO-standard Picatinny rail.</text>
-</string>
-<string id="st_addon_silencer">
+	</string>
+	<string id="st_addon_silencer">
 	<text>Silencer</text>
-</string>
-<string id="st_addon_silencers">
+	</string>
+	<string id="st_addon_silencers">
 <text>9mm</text>
-</string>
-<string id="st_addon_silencer_descr">
+	</string>
+	<string id="st_addon_silencer_descr">
 	<text>An effective silencer which can be modified on the go as required. The body of the silencer around the barrel contains a roll of fine brass mesh, while the front comprises a set of metal diaphragms with holes for the bullet to pass through. The set includes adaptors and sealants for most weapons. Normally used to thin out enemy ranks without drawing attention.</text>
-</string>
-<string id="st_addon_sil_6p9">
+	</string>
+	<string id="st_addon_sil_6p9">
 <text>Silencer 6P9</text>
-</string>
-<string id="st_addon_sil_6p9s">
+	</string>
+	<string id="st_addon_sil_6p9s">
 <text>6P9</text>
-</string>
-<string id="st_addon_sil_6p9_descr">
+	</string>
+	<string id="st_addon_sil_6p9_descr">
 <text>the device is silent shooting for the pistol PB (6P9).</text>
-</string>
-<string id="st_addon_sil_57">
+	</string>
+	<string id="st_addon_sil_57">
 <text>Silencer 5,7x28mm</text>
-</string>
-<string id="st_addon_sil_57">
-	<text>57x28</text>
-</string>
-<string id="st_addon_sil_57_descr">
+	</string>
+	<string id="st_addon_sil_57">
+		<text>57x28</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
 <text>the instrument of silent shooting for a pistol machine gun FN P90.</text>
-</string>
-<string id="st_addon_sil_9a91">
+	</string>
+	<string id="st_addon_sil_9a91">
 <text>Silencer for 9A-91/VSK-94</text>
-</string>
-<string id="st_addon_sil_9a91s">
+	</string>
+	<string id="st_addon_sil_9a91s">
 <text>9A-91/VSC-94</text>
-</string>
-<string id="st_addon_sil_9a91_descr">
+	</string>
+	<string id="st_addon_sil_9a91_descr">
 <text>the device of silent shooting for automatic machines 9A-91 and VSK-94.</text>
-</string>
-<string id="st_addon_sil_gemtech">
+	</string>
+	<string id="st_addon_sil_gemtech">
 <text>Silencer GemTech</text>
-</string>
-<string id="st_addon_sil_gemtechs">
-	<text>GemTech</text>
-</string>
-<string id="st_addon_sil_gemtech_descr">
+	</string>
+	<string id="st_addon_sil_gemtechs">
+		<text>GemTech</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
 <text>A silent shooting device for Glock and FN FNP pistols.</text>
-</string>
-<string id="st_addon_sil_vihr">
+	</string>
+	<string id="st_addon_sil_vihr">
 <text>Silencer for CP-3M</text>
-</string>
-<string id="st_addon_sil_vihr">
+	</string>
+	<string id="st_addon_sil_vihr">
 <text>SR-3M</text>
-</string>
-<string id="st_addon_sil_vihr_descr">
-<text>the device of silent shooting for automatic machine Г‘Гђ-3ГЊ.</text>
-</string>
-<string id="st_addon_sil_45">
+	</string>
+	<string id="st_addon_sil_vihr_descr">
+<text>the device of silent shooting for automatic machine N?-3I.</text>
+	</string>
+	<string id="st_addon_sil_45">
 <text>Muffler.45ACP</text>
-</string>
-<string id="st_addon_sil_45s">
-	<text>.45ACP</text>
-</string>
-<string id="st_addon_sil_45_descr">
+	</string>
+	<string id="st_addon_sil_45s">
+		<text>.45ACP</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
 <text>the device is silent shooting for pistols of the 45th caliber.</text>
-</string>
-<string id="st_addon_sil_atg">
+	</string>
+	<string id="st_addon_sil_atg">
 <text>Silencer ATG</text>
-</string>
-<string id="st_addon_sil_atgs">
+	</string>
+	<string id="st_addon_sil_atgs">
 <text>ATG</text>
-</string>
-<string id="st_addon_sil_atg_descr">
+	</string>
+	<string id="st_addon_sil_atg_descr">
 <text>Silencer tactical automatic (hereinafter-silencer ATG) is designed to reduce the sound and fire of the shot when firing from 5.56 mm Kalashnikov AK101 and AK102, as well as 7,62-mm Kalashnikov AK103 and AK104.</text>
-</string>
-<string id="st_addon_sil_tgp-a">
+	</string>
+	<string id="st_addon_sil_tgp-a">
 <text>Silencer TGP-A</text>
-</string>
-<string id="st_addon_sil_tgp-as">
+	</string>
+	<string id="st_addon_sil_tgp-as">
 <text>TGP-A</text>
-</string>
-<string id="st_addon_sil_tgp-a_descr">
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
 <text>the silencer is a flame arrester tactical TGP-A-5.45 for 5.45 mm AK automatic machine guns and RPK-74 machine guns. No rubber obturator in the silencer design and No need to use bullets with a subsonic bullet speed. However, the accuracy of firing at its installation is somewhat worse.</text>
-</string>
-<string id="st_addon_sil_pbs-1">
+	</string>
+	<string id="st_addon_sil_pbs-1">
 <text>Silencer PBS-1</text>
-</string>
-<string id="st_addon_sil_pbs-1s">
+	</string>
+	<string id="st_addon_sil_pbs-1s">
 <text>PBS-1</text>
-</string>
-<string id="st_addon_sil_pbs-1_descr">
+	</string>
+	<string id="st_addon_sil_pbs-1_descr">
 <text>PBS-1. the device for soundless and flameless shooting from Kalashnikov assault rifle of caliber 7,62 mm. When installing a silencer, the shooting is conducted by the US cartridges with the subsonic speed of the bullet.</text>
-</string>
-<string id="st_addon_sil_pbs-4">
+	</string>
+	<string id="st_addon_sil_pbs-4">
 <text>Silencer PBS-4</text>
-</string>
-<string id="st_addon_sil_pbs-4s">
+	</string>
+	<string id="st_addon_sil_pbs-4s">
 <text>PBS-4</text>
-</string>
-<string id="st_addon_sil_pbs-4_descr">
+	</string>
+	<string id="st_addon_sil_pbs-4_descr">
 <text>PBS-4. the device for soundless and flameless shooting from a 5.45-mm Kalashnikov assault rifle shortened (AKS-74U).</text>
-</string>
-<string id="st_addon_sil_kzrzp">
+	</string>
+	<string id="st_addon_sil_kzrzp">
 <text>Silencer KZRZPP</text>
-</string>
-<string id="st_addon_sil_kzrzps">
+	</string>
+	<string id="st_addon_sil_kzrzps">
 <text>CLRPP</text>
-</string>
-<string id="st_addon_sil_kzrzp_descr">
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
 <text>the device for soundless and flameless shooting from the SVD.</text>
-</string>
-<string id="st_addon_sil_nato">
+	</string>
+	<string id="st_addon_sil_nato">
 <text>NATO Muffler</text>
-</string>
-<string id="st_addon_sil_natos">
+	</string>
+	<string id="st_addon_sil_natos">
 <text>Rotor 43</text>
-</string>
-<string id="st_addon_sil_nato_descr">
+	</string>
+	<string id="st_addon_sil_nato_descr">
 <text>the device for soundless and flameless shooting for NATO-style assault rifles 5.56x45 caliber, as well as for pistols and pistols-machine guns caliber 11,43x23.</text>
-</string>
-<string id="st_addon_sil_sr25">
-	<text>SR-25 Silencer</text>
-</string>
-<string id="st_addon_sil_sr25">
-	<text>SR-25</text>
-</string>
-<string id="st_addon_sil_sr25_descr">
+	</string>
+	<string id="st_addon_sil_sr25">
+		<text>SR-25 Silencer</text>
+	</string>
+	<string id="st_addon_sil_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
 <text>the device for soundless and flameless shooting from a self-loading sniper rifle SR-25.</text>
-</string>
-<string id="st_grenade_launcher">
+	</string>
+	<string id="st_grenade_launcher">
 	<text>GP-25 Koster</text>
-</string>
-<string id="st_grenade_launcher_descr">
+	</string>
+	<string id="st_grenade_launcher_descr">
 	<text>A single shot, front loaded, rifled under-barrel grenade launcher for assault rifles made in Warsaw Pact countries. The firing mechanism is self-cocking, with a manual safety catch and automatic shot prevention if incorrectly installed onto a rifle. Uses VOG-25 grenades.</text>
-</string>
-<string id="st_grenade_launcher_m203">
-<text>M203</text>
-</string>
-<string id="st_grenade_launcher_m203_descr">
+	</string>
+	<string id="st_grenade_launcher_m203">
+		<text>M203</text>
+	</string>
+	<string id="st_grenade_launcher_m203_descr">
 	<text>A modified M203 grenade launcher that has been shortened by three inches, attached to weapons by means of a Picatinny Rail. Thanks to a changed mount, this grenade launcher is widely used around the world.</text>
-</string>
-<string id="st_grenade_launcher_ag36">
-	<text>AG36</text>
-</string>
-<string id="st_grenade_launcher_ag36_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] shot M209\n\n Grenade launcher,developed by the German arms concern Heckler and amp; Koch for the replacement of HK 79. the main platform for him is the HK G36 rifle.</text>
-</string>
-<string id="st_wpn_9a91">
-	<text>9A-91</text>
-</string>
-<string id="st_wpn_9a91_descr">
+	</string>
+	<string id="st_grenade_launcher_ag36">
+		<text>AG36</text>
+	</string>
+	<string id="st_grenade_launcher_ag36_descr">
+<text>\n %c[255,1,255,255] • %c[default] shot M209\n\n Grenade launcher,developed by the German arms concern Heckler and amp; Koch for the replacement of HK 79. the main platform for him is the HK G36 rifle.</text>
+	</string>
+	<string id="st_wpn_9a91">
+		<text>9A-91</text>
+	</string>
+	<string id="st_wpn_9a91_descr">
 <text>Automation 9A-91 is based on the removal of powder gases from the barrel channel. Locking is carried out by turning the shutter, on 4 fighting stops. USM-kurkovogo type, allows you to fire single and continuous Emissions.</text>
-</string>
-<string id="st_wpn_abakan">
+	</string>
+	<string id="st_wpn_abakan">
 	<text>AC-96/2</text>
-</string>
-<string id="st_wpn_abakan_descr">
+	</string>
+	<string id="st_wpn_abakan_descr">
 	<text>A modern assault rifle developed as a replacement for the ageing AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armour piercing capability.</text>
-</string>
-<string id="st_wpn_aek971">
+	</string>
+	<string id="st_wpn_aek971">
 <text>AEK-971</text>
-</string>
-<string id="st_wpn_aek971_descr">
+	</string>
+	<string id="st_wpn_aek971_descr">
 <text>the machine is made in accordance with the traditional layout scheme (front store position) and constructively largely repeats the Kalashnikov assault rifle-a rotary valve and automatic reloading mechanism based on a gas engine is used. the machine is designed for cartridges caliber 5, 45x39 mm, There are also variants of this machine for the cartridge 5, 56 mm NATO (AEK-972) and 7.62x39 mm (AEK-973).</text>
-</string>
-<string id="st_wpn_ak12">
+	</string>
+	<string id="st_wpn_ak12">
 <text>AK-12</text>
-</string>
-<string id="st_wpn_ak12_descr">
+	</string>
+	<string id="st_wpn_ak12_descr">
 <text>AK-12-Kalashnikov assault rifle model in 2012, a promising development of the Kalashnikov concern. the development of the new weapon was carried out in an initiative manner from June 2011 under the leadership of Izhmash Chief Designer Vladimir Viktorovich Zlobin on the basis of developments over the previous 10 years. In 2011, the assembly was completed and the first prototype of the fifth-generation Kalashnikov assault rifle with the working name AK-12 was launched.</text>
-</string>
-<string id="st_wpn_ak">
+	</string>
+	<string id="st_wpn_ak">
 <text>AK</text>
-</string>
-<string id="st_wpn_ak_descr">
+	</string>
+	<string id="st_wpn_ak_descr">
 <text>7, 62-mm Kalashnikov assault rifle (AK)-machine, adopted for service in the USSR in 1949. AK and its modifications are the most common small arms in the world. It is estimated that this type (including licensed and unlicensed copies, as well as third-party development on the basis of AK) belongs to up to 1/5 of all small firearms on the Earth.</text>
-</string>
-<string id="st_wpn_aks">
+	</string>
+	<string id="st_wpn_aks">
 <text>AKS</text>
-</string>
-<string id="st_wpn_aks_descr">
+	</string>
+	<string id="st_wpn_aks_descr">
 <text>AKS (Index GRAU-56-A-212M)-variant AK with a folding metal butt, intended for airborne troops. Was adopted simultaneously with AK. Originally produced with a stamped receiver, and since 1951-milled because of the high percentage of rejects during stamping.</text>
-</string>
-<string id="st_wpn_ak74">
+	</string>
+	<string id="st_wpn_ak74">
 <text>AK-74</text>
-</string>
-<string id="st_wpn_ak74_descr">
+	</string>
+	<string id="st_wpn_ak74_descr">
 <text>Kalashnikov Kalashnikov automatic caliber 5.45 mm, developed in 1970 by the designer MT Kalashnikov and adopted by the armed forces of the USSR in 1974. It is the further development of AKM. Development of AK-74 is associated with the transition to a new low-pulse cartridge 5.45x39 mm.</text>
-</string>
-<string id="st_wpn_ak74m">
+	</string>
+	<string id="st_wpn_ak74m">
 <text>AK-74M</text>
-</string>
-<string id="st_wpn_ak74m_camo">
+	</string>
+	<string id="st_wpn_ak74m_camo">
 <text>AK-74M (camouflage)</text>
-</string>
-<string id="st_wpn_ak74m_descr">
+	</string>
+	<string id="st_wpn_ak74m_descr">
 <text>AK-74M-AK-74 modernized. Equipped with a folding sideways plastic butt and a universal mount (dovetail bar) for attaching sights, both optical and night, to the left side of the receiver. Thus, the AK-74M replaced four models at once: AK-74, AKS-74, AK-74N and AKS-74N.</text>
-</string>
-<string id="st_wpn_ak101">
+	</string>
+	<string id="st_wpn_ak101">
 <text>AK-101</text>
-</string>
-<string id="st_wpn_ak101_descr">
+	</string>
+	<string id="st_wpn_ak101_descr">
 <text>For sale in the West and in the countries of the third world, two models of the new AK-101 (standard) Kalashnikov assault rifle and AK-102 (small-sized) were developed for the most common 5, 56 mm NATO small-shot cartridge SS 109. the most noticeable external difference between these machines is the shape of the plastic shop, much more direct than stores for Soviet cartridges of caliber 5, 45 or 7.62 mm.</text>
-</string>
-<string id="st_wpn_ak102">
+	</string>
+	<string id="st_wpn_ak102">
 <text>AK-102</text>
-</string>
-<string id="st_wpn_ak102_descr">
+	</string>
+	<string id="st_wpn_ak102_descr">
 <text>For sale in the West and in the countries of the third world, two models of the new AK-101 (standard) Kalashnikov assault rifle and AK-102 (small-sized) were developed for the most common 5, 56 mm NATO small-shot cartridge SS 109. the most noticeable external difference between these machines is the shape of the plastic shop, much more direct than stores for Soviet cartridges of caliber 5, 45 or 7.62 mm.</text>
-</string>
-<string id="st_wpn_ak103">
+	</string>
+	<string id="st_wpn_ak103">
 <text>AK-103</text>
-</string>
-<string id="st_wpn_ak103_descr">
+	</string>
+	<string id="st_wpn_ak103_descr">
 <text>AK103 is an export version of the AK-74M automatic machine, differing in the use of cartridges 5.56x45 mm (NATO standard SS109) and 7.62x39 mm (Soviet cartridge of the 1943 model), respectively. AK103 can use AK/AKM slot machines.</text>
-</string>
-<string id="st_wpn_ak104">
+	</string>
+	<string id="st_wpn_ak104">
 <text>AK-104</text>
-</string>
-<string id="st_wpn_ak104_descr">
+	</string>
+	<string id="st_wpn_ak104_descr">
 <text>AK104/AK105 are modifications of AK-103 and AK74M, respectively, with a shortened 101 mm barrel. Intermediate (between AK74M and AKC-74U) the length of the barrel allowed to reduce the size of the weapon, leaving the gas chamber at the same place relative to the state cut of the trunk as in AK74M, and not to transfer it back (as in the AKS-74U). This increased the unification of the entire 'hundredth' family.</text>
-</string>
-<string id="st_wpn_ak105">
+	</string>
+	<string id="st_wpn_ak105">
 <text>AK-105</text>
-</string>
-<string id="st_wpn_ak105_descr">
+	</string>
+	<string id="st_wpn_ak105_descr">
 <text>AK104/AK105 are modifications of AK-103 and AK74M, respectively, with a shortened 101 mm barrel. Intermediate (between AK74M and AKC-74U) the length of the barrel allowed to reduce the size of the weapon, leaving the gas chamber at the same place relative to the state cut of the trunk as in AK74M, and not to transfer it back (as in the AKS-74U). This increased the unification of the entire 'hundredth' family.</text>
-</string>
-<string id="st_wpn_akm">
+	</string>
+	<string id="st_wpn_akm">
 <text>AKM</text>
-</string>
-<string id="st_wpn_akm_raider">
+	</string>
+	<string id="st_wpn_akm_raider">
 <text>AKM (shabby)</text>
-</string>
-<string id="st_wpn_akm_descr">
+	</string>
+	<string id="st_wpn_akm_descr">
 <text>the machine, which replaced in 1959 in the armament of the Soviet Army AK and is its further development.</text>
-</string>
-<string id="st_wpn_akms">
+	</string>
+	<string id="st_wpn_akms">
 <text>AKMS</text>
-</string>
-<string id="st_wpn_akms_descr">
+	</string>
+	<string id="st_wpn_akms_descr">
 <text>Option AKM with a folding stock. the fixing system of the stock was changed with respect to the AKS (folded down-forward, under the receiver). the modification is specially designed for paratroopers.</text>
-</string>
-<string id="st_wpn_aks74">
+	</string>
+	<string id="st_wpn_aks74">
 <text>AKS-74</text>
-</string>
-<string id="st_wpn_aks74_descr">
+	</string>
+	<string id="st_wpn_aks74_descr">
 <text>AKS-74-version AK-74 with a folding sideways metal butt of a triangular shape. It is designed for use in airborne troops (an automatic machine with a non-folding butt cannot be conveniently and safely placed in a suspended parachute system).</text>
-</string>
-<string id="st_wpn_ak74u">
+	</string>
+	<string id="st_wpn_ak74u">
 <text>AKM-74/2U</text>
-</string>
-<string id="st_wpn_ak74u_descr">
+	</string>
+	<string id="st_wpn_ak74u_descr">
 <text>the shortened modification of the AK-74 assault rifle was developed in the late 1970s-early 1980s to arm the crews of combat vehicles, aircraft, guns, and paratroopers. It is also used in the Ministry of Internal Affairs and security structures due to its small size.</text>
-</string>
-<string id="st_wpn_ak74u_snag">
+	</string>
+	<string id="st_wpn_ak74u_snag">
 <text>AKS-74U Koryagi</text>
-</string>
-<string id="st_wpn_ak74u_snag_descr">
+	</string>
+	<string id="st_wpn_ak74u_snag_descr">
 <text>Upgraded version of AKS-74U with a collimator sight Cobra ECP-1S-03, silencer PBS-4 and magazine for 45 rounds.</text>
-</string>
-<string id="st_wpn_aug">
-	<text>Steyr AUG A1</text>
-</string>
-<string id="st_wpn_aug_descr">
+	</string>
+	<string id="st_wpn_aug">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_descr">
 <text>Steyr AUG (Armee Universal Gewehr-army universal rifle)-a small arms complex, issued in 1977 by the Austrian company Steyr-Daimler-Puch. In this rifle, the Bull-Pop layout is applied, in which the magazine and the gate assembly are located behind the control handle fire and trigger.</text>
-</string>
-<string id="st_wpn_l96a1">
-	<text>L96A1</text>
-</string>
-<string id="st_wpn_l96a1_descr">
+	</string>
+	<string id="st_wpn_l96a1">
+		<text>L96A1</text>
+	</string>
+	<string id="st_wpn_l96a1_descr">
 <text>the English-made sniper rifle developed by Accuracy International.</text>
-</string>
-<string id="st_wpn_m98b">
-	<text>Barrett M98B</text>
-</string>
-<string id="st_wpn_m98b_descr">
+	</string>
+	<string id="st_wpn_m98b">
+		<text>Barrett M98B</text>
+	</string>
+	<string id="st_wpn_m98b_descr">
 <text>the American sniper rifle manufactured by Barrett Firearms. Like its predecessor- the Barrett M98 (and never passed into the series rifle), the Bravo model is designed for a cartridge. 338 Lapua Magnum (size 8, 6x70 mm or 8, 58x70 mm), in the Zone, in an unknown way, it was changed to a cartridge 7.62x51.</text>
-</string>
-<string id="st_wpn_cz52">
-	<text>Cz-52</text>
-</string>
-<string id="st_wpn_cz52_descr">
+	</string>
+	<string id="st_wpn_cz52">
+		<text>Cz-52</text>
+	</string>
+	<string id="st_wpn_cz52_descr">
 <text>CZ vz.52-self-loading pistol, developed in the early 1950s for the Czechoslovak army. Pistol Cz52 was designed by designer Jan Kratochvil together with his brother Yaroslav, employees in the plant Ceska Zbrojovka in Strakonice.</text>
-</string>
-<string id="st_wpn_cz75">
-	<text>Cz-75</text>
-</string>
-<string id="st_wpn_cz75_descr">
+	</string>
+	<string id="st_wpn_cz75">
+		<text>Cz-75</text>
+	</string>
+	<string id="st_wpn_cz75_descr">
 <text>Cz-75-a pistol developed in Czechoslovakia in 1975. Has gained wide acceptance all over the world. In the Czech Republic, it is used mainly by the police (the army uses CZ 83).</text>
-</string>
-<string id="st_wpn_g3">
-	<text>HK G3</text>
-</string>
-<string id="st_wpn_g3_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] вЂў %c[default] NATO silencer\n\n HK G3-German automatic rifle,adopted by the army of the FRG in 1959. In 1995,it was replaced by a 5.56 mm NATO automatic machine HK G36.</text>
-</string>
-<string id="st_wpn_g3a3">
-	<text>HK G3A3</text>
-</string>
-<string id="st_wpn_g3a3_descr">
+	</string>
+	<string id="st_wpn_g3">
+		<text>HK G3</text>
+	</string>
+	<string id="st_wpn_g3_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] • %c[default] NATO silencer\n\n HK G3-German automatic rifle,adopted by the army of the FRG in 1959. In 1995,it was replaced by a 5.56 mm NATO automatic machine HK G36.</text>
+	</string>
+	<string id="st_wpn_g3a3">
+		<text>HK G3A3</text>
+	</string>
+	<string id="st_wpn_g3a3_descr">
 <text>HK G3-German automatic rifle, adopted by the army of the FRG in 1959. In 1995, it was replaced by a 5.56 mm NATO automatic machine HK G36. G3A3-a variant with a fixed butt and two variants of forehead (one-piece and perforated).</text>
-</string>
-<string id="st_wpn_g3sg1">
-	<text>HK G3SG1</text>
-</string>
-<string id="st_wpn_g3sg1_descr">
+	</string>
+	<string id="st_wpn_g3sg1">
+		<text>HK G3SG1</text>
+	</string>
+	<string id="st_wpn_g3sg1_descr">
 <text>the G3SG1 is a sniper version for the civilian and police sectors, in some models it has: an adjustable-cheek stock, folding bipods and a trigger mechanism with the ability to adjust traction.</text>
-</string>
-<string id="st_wpn_fn57">
-	<text>FN-57</text>
-</string>
-<string id="st_wpn_fn57_descr">
+	</string>
+	<string id="st_wpn_fn57">
+		<text>FN-57</text>
+	</string>
+	<string id="st_wpn_fn57_descr">
 <text>Self-loading pistol, designed and manufactured by the Belgian company Fabrique Nationale of Herstal. the name is a combination, on the one hand Five-seveN is 5-7 (5, 7 is the weapon caliber, which is.224), and on the other hand the first and last letter of the title, written with capital letters, is abbreviation of Fabrique Nationale.</text>
-</string>
-<string id="st_wpn_fnp45">
-	<text>FN FNP-45</text>
-</string>
-<string id="st_wpn_fnp45s">
-	<text>FNP</text>
-</string>
-<string id="st_wpn_fnp45_descr">
+	</string>
+	<string id="st_wpn_fnp45">
+		<text>FN FNP-45</text>
+	</string>
+	<string id="st_wpn_fnp45s">
+		<text>FNP</text>
+	</string>
+	<string id="st_wpn_fnp45_descr">
 <text>FN FNP is a self-loading pistol developed by FNH-USA (the American division of the Belgian company FN Herstal). Produced from the beginning of 2006.</text>
-</string>
-<string id="st_wpn_fnx45">
-	<text>FN FNX-45</text>
-</string>
-<string id="st_wpn_fnx45s">
-	<text>FNX</text>
-</string>
-<string id="st_wpn_fnx45_descr">
+	</string>
+	<string id="st_wpn_fnx45">
+		<text>FN FNX-45</text>
+	</string>
+	<string id="st_wpn_fnx45s">
+		<text>FNX</text>
+	</string>
+	<string id="st_wpn_fnx45_descr">
 <text>the FNX family of pistols is manufactured in the US by FNH USA, a local unit of the well-known Belgian company FN Herstal. FN FNX pistols were developed in 2007-2009 under the requirements of the US Joint Combat Pistol Program for developing a new pistol for the US Armed Forces. the program did not have this success, but the pistols created for its requirements were launched into the series for sale in the markets of police and civilian weapons in the US and abroad.</text>
-</string>
-<string id="st_wpn_mp443">
+	</string>
+	<string id="st_wpn_mp443">
 <text>MP-443 Grach</text>
-</string>
-<string id="st_wpn_mp443_descr">
+	</string>
+	<string id="st_wpn_mp443_descr">
 <text>the self-loading pistol of the Russian manufacture. Developed by a team of designers under the leadership of VA Yarygin, serially produced at the Izhevsk Mechanical Plant.</text>
-</string>
-<string id="st_wpn_tt33">
+	</string>
+	<string id="st_wpn_tt33">
 <text>TT-33</text>
-</string>
-<string id="st_wpn_tt33_descr">
+	</string>
+	<string id="st_wpn_tt33_descr">
 <text>Pistol arr. 1933 (TT, Tula, Tokarev, GRAU Index-56-A-132)- the first army self-loading pistol of the USSR, developed in 1930 by the Soviet designer Fyodor Vasilievich Tokarev.</text>
-</string>
-<string id="st_wpn_oc33">
-<text>OC-??33 Pernach</text>
-</string>
-<string id="st_wpn_oc33_descr">
-<text>OC-??33 Pernach is a Russian automatic pistol developed in the mid-1990s by a team of designers at the TsKIB SOO under the guidance of I. Ya. Stechkin for the replacement of an APS pistol. At the stage of development, the weapon was named AP PSBZ-2 (an automatic pistol designed by I. Ya. Stechkin, A.V. Balcer, AV Zinchenko).</text>
-</string>
-<string id="st_wpn_gsh18">
+	</string>
+	<string id="st_wpn_oc33">
+<text>OTs-33 'Pernach'</text>
+	</string>
+	<string id="st_wpn_oc33_descr">
+<text>OTs-33 'Pernach' is a Russian automatic pistol developed in the mid-1990s by a team of designers at the TsKIB SOO under the guidance of I. Ya. Stechkin for the replacement of an APS pistol. At the stage of development, the weapon was named AP PSBZ-2 (an automatic pistol designed by I. Ya. Stechkin, A.V. Balcer, AV Zinchenko).</text>
+	</string>
+	<string id="st_wpn_gsh18">
 <text>GSh-18</text>
-</string>
-<string id="st_wpn_gsh18_descr">
+	</string>
+	<string id="st_wpn_gsh18_descr">
 <text>GSh-18 is a Russian pistol developed in the late 1990s in the Tula Instrument Design Bureau. the name was given by the first letters of the names of the designers, under the guidance of which they were projected (Vasily Petrovich Griazev and Arcadiy Georgievich Shipunov) and the number 18, meaning capacity of the store.</text>
-</string>
-<string id="st_wpn_glock17">
-	<text>Glock 17</text>
-</string>
-<string id="st_wpn_glock17_descr">
+	</string>
+	<string id="st_wpn_glock17">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_descr">
 <text>Glock 17 is an Austrian pistol developed by Glock for the Austrian army. It became the first model of weapons developed by this firm. the resulting sample proved to be quite successful and convenient to use, thanks to which it was later adopted by the army Austria under the designation P80. Thanks to its fighting qualities and reliability it was widely used as a civilian self-defense weapon.</text>
-</string>
-<string id="st_wpn_glock19">
-	<text>Glock 19</text>
-</string>
-<string id="st_wpn_glock19_descr">
+	</string>
+	<string id="st_wpn_glock19">
+		<text>Glock 19</text>
+	</string>
+	<string id="st_wpn_glock19_descr">
 <text>In 1988, a compact version of the 17-Glock 19 model was introduced, created for the civilian weapons market, as well as for arming various special services and army officers. Of course, a compact version of a very successful full-size model should have become no less popular market of weapons. So it happened, Glock 19 very quickly began to enjoy immense popularity in the police and among ordinary citizens who buy compact pistols for concealed carrying for self-defense and sports shooting.</text>
-</string>
-<string id="st_wpn_saiga">
+	</string>
+	<string id="st_wpn_saiga">
 <text>Saiga-12K</text>
-</string>
-<string id="st_wpn_saiga_descr">
+	</string>
+	<string id="st_wpn_saiga_descr">
 <text>Saiga-12K, shortened self-loading rifle-smoothbore carbine. the application and pistol grip (and in some designs and forearm) are borrowed from the Kalashnikov assault rifle. In the design, a locking mechanism has been introduced, which does not allow you to remove the weapon from the fuse until flipped over the butt.</text>
-</string>
-<string id="st_wpn_rpk">
+	</string>
+	<string id="st_wpn_rpk">
 <text>PKK</text>
-</string>
-<string id="st_wpn_rpk_descr">
+	</string>
+	<string id="st_wpn_rpk_descr">
 <text>the PKK (Kalashnikov's Manual Machine Gun)-was created as a weapon to support the level of the rifle platoon based on the AKM assault rifle, and was in service with the Armed Forces of the USSR and many more countries. So far, it meets in the Russian Armed Forces and the Interior Ministry. In the Soviet Army, each infantry platoon (10 people) relied on one PKK. In the main in the Russian troops, the PKK was replaced by the PKK-74.</text>
-</string>
-<string id="st_wpn_rpk74">
+	</string>
+	<string id="st_wpn_rpk74">
 <text>RPK-74</text>
-</string>
-<string id="st_wpn_rpk74_descr">
+	</string>
+	<string id="st_wpn_rpk74_descr">
 <text>A manual machine gun designed to replace the RPK machine gun in the troops for the cartridge 7.62x39 mm within the framework of the small arms system for a small-size cartridge 5.45x39 mm. Adopted in 1974 with the AK-74.</text>
-</string>
-<string id="st_wpn_beretta">
+	</string>
+	<string id="st_wpn_beretta">
 	<text>Martha</text>
-</string>
-<string id="st_wpn_beretta_descr">
+	</string>
+	<string id="st_wpn_beretta_descr">
 	<text>Martha pistols enjoy the reputation of a relatively reliable, albeit somewhat cumbersome weapon, around the world. In service with armed forces and police across the ocean, as well as various military and law enforcement organisations worldwide.  The pistol is equally popular with members of the underworld, thanks to its powerful round and magazine capacity. Marthas found in the Zone are usually dated, probably from retired stock.</text>
-</string>
-<string id="st_wpn_m9">
-	<text>M9</text>
-</string>
-<string id="st_wpn_m9_descr">
+	</string>
+	<string id="st_wpn_m9">
+		<text>M9</text>
+	</string>
+	<string id="st_wpn_m9_descr">
 <text>M9-code name Beretta 92SB in the arsenal of the US Army. It is also popular with criminals thanks to a powerful patron and a capacious store. As a rule, not the newest models of this weapon fall into the Zone.</text>
-</string>
-<string id="st_wpn_bm16">
+	</string>
+	<string id="st_wpn_bm16">
 	<text>Sawed-off Shotgun</text>
-</string>
-<string id="st_wpn_bm16_descr">
+	</string>
+	<string id="st_wpn_bm16_descr">
 	<text>A sawed-off hunting shotgun with two side-by-side barrels, making it lighter and more compact than a full shotgun. One of the most popular weapons among bandits due to its combination of ease of concealment and extreme effectiveness in close combat.</text>
-</string>
-<string id="st_wpn_colt1911">
+	</string>
+	<string id="st_wpn_colt1911">
 	<text>Kora-919</text>
-</string>
-<string id="st_wpn_colt1911_descr">
+	</string>
+	<string id="st_wpn_colt1911_descr">
 	<text>An improved version of a classic automatic pistol, which passed all the major armed conflicts of the 20th century with flying colours and entered the new millennium with confidence. Produced by dozens if not hundreds of arms manufacturers around the world in both standard and modified configurations. The weapon's only drawback, its mediocre magazine capacity, is largely compensated by the hard-hitting ammo it uses.</text>
-</string>
-<string id="st_wpn_eagle">
+	</string>
+	<string id="st_wpn_eagle">
 	<text>Black Kite</text>
-</string>
-<string id="st_wpn_eagle_descr">
+	</string>
+	<string id="st_wpn_eagle_descr">
 	<text>The ultimate hand cannon - bulky, heavy and highly lethal. Developed as a specialized weapon for hunting medium-sized and large game, as well as for shooting competitions involving firing at steel body targets at distances over 50 meters. Its limited use in the Zone can be attributed to its price, size and weight, which are all double those of other pistols.</text>
-</string>
-<string id="st_wpn_eagle_nimble_descr">
+	</string>
+	<string id="st_wpn_eagle_nimble_descr">
 <text>the version of the Desert Eagle pistol with the Docter Sight collimator sight, a unique coloring and a compensator reducing the recoil.</text>
-</string>
-<string id="st_wpn_famas">
-	<text>FAMAS F1</text>
-</string>
-<string id="st_wpn_famas_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] вЂў %c[default] NATO silencer\n\n FAMAS-(assault rifle for the development of the MAS weapons company in Saint-Etienne) is a French 5.56 mm machine gun with a bollapap configuration. the unofficial name is the cleron.</text>
-</string>
-<string id="st_wpn_fn2000">
+	</string>
+	<string id="st_wpn_famas">
+		<text>FAMAS F1</text>
+	</string>
+	<string id="st_wpn_famas_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] • %c[default] NATO silencer\n\n FAMAS-(assault rifle for the development of the MAS weapons company in Saint-Etienne) is a French 5.56 mm machine gun with a bollapap configuration. the unofficial name is the cleron.</text>
+	</string>
+	<string id="st_wpn_fn2000">
 	<text>FT-200M</text>
-</string>
-<string id="st_wpn_fn2000_descr">
+	</string>
+	<string id="st_wpn_fn2000_descr">
 	<text>This futuristic-looking weapon with a bullpup layout is actually a mass produced modular system, comprising a rifle & grenade complex with a computerized fire control system and a 40-mm grenade launcher. Despite its bulky appearance, the weapon is highly ergonomic, easy to use and benefits from good technical characteristics.</text>
-</string>
-<string id="st_wpn_bizon">
+	</string>
+	<string id="st_wpn_bizon">
 <text>PP-19 Bison</text>
-</string>
-<string id="st_wpn_bizon_descr">
+	</string>
+	<string id="st_wpn_bizon_descr">
 <text>PP-19 Bison-pistol-machine gun 19 model, developed in 1993 by VM Kalashnikov (the son of the designer MT Kalashnikov) and Alexei Dragunov (the son of EF Dragunov), commissioned by the Ministry of Internal Affairs of the Russian Federation).</text>
-</string>
-<string id="st_wpn_p90">
-	<text>FN P90</text>
-</string>
-<string id="st_wpn_p90_descr">
+	</string>
+	<string id="st_wpn_p90">
+		<text>FN P90</text>
+	</string>
+	<string id="st_wpn_p90_descr">
 <text>FN P90-Belgian pistol-a machine gun (a personal weapon of self-defense), developed in 1986-1987 by FN Herstal. It was developed, first of all, for tankmen and drivers of military vehicles and cars. Has a progressive and convenient ergonomic design. Especially for P90 was developed cartridge type 5, 7x28 mm SS190, which has a high punching power and low ricochet.</text>
-</string>
-<string id="st_wpn_fort">
+	</string>
+	<string id="st_wpn_fort">
 <text>Fort-12</text>
-</string>
-<string id="st_wpn_fort_descr">
+	</string>
+	<string id="st_wpn_fort_descr">
 	<text>A Ukrainian-made pistol predominantly used by law enforcement organisations. Provides higher accuracy, better ergonomics and has a larger magazine than the PMm.  These pistols make it into the Zone in large numbers thanks to the sale of defective weapons, which suffer from technical miscalculations in early design models. Despite this, the pistol is in demand among stalkers thanks to its good combat characteristics.</text>
-</string>
-<string id="st_wpn_g36">
+	</string>
+	<string id="st_wpn_g36">
 	<text>GP37</text>
-</string>
-<string id="st_wpn_g36_descr">
+	</string>
+	<string id="st_wpn_g36_descr">
 	<text>A new addition to the Western-made assault rifle family, which differs significantly from previous models in the series built on an automatic foundation with a semi-open bolt assembly, this weapon is more like American automatic gas-operated assault rifles with a short-stroke gas piston system. These changes ensure that the rifle is a first-rate example of a modern weapon - lightweight, reliable and ergonomic.</text>
-</string>
-<string id="st_wpn_g36c">
-	<text>HK G36C</text>
-</string>
-<string id="st_wpn_g36c_descr">
+	</string>
+	<string id="st_wpn_g36c">
+		<text>HK G36C</text>
+	</string>
+	<string id="st_wpn_g36c_descr">
 <text>Extremely short version of the German rifle G36. the rifle was developed in 1996 by the German arms company Heckler and Koch.</text>
-</string>
-<string id="st_wpn_g36k">
-	<text>HK G36K</text>
-</string>
-<string id="st_wpn_g36k_descr">
+	</string>
+	<string id="st_wpn_g36k">
+		<text>HK G36K</text>
+	</string>
+	<string id="st_wpn_g36k_descr">
 <text>G36K (Kurz)-a shortened version of the G36 rifle, an automatic with a barrel length of 318 mm.</text>
-</string>
-<string id="st_wpn_gauss">
+	</string>
+	<string id="st_wpn_gauss">
 	<text>Gauss rifle</text>
-</string>
-<string id="st_wpn_gauss_descr">
+	</string>
+	<string id="st_wpn_gauss_descr">
 	<text>A super-accurate hi-tech weapon known as item 62, this rifle was developed in secret laboratories located inside the Zone. The weapon operates by accelerating bullets to extremely high speeds using a system of electromagnets, which provides incredible stopping power with virtually no recoil.  The weapon is powered by using encapsulated artefact fragments in the batteries.</text>
-</string>
-<string id="st_wpn_groza">
+	</string>
+	<string id="st_wpn_groza">
 	<text>Tunder S14</text>
-</string>
-<string id="st_wpn_groza_descr">
+	</string>
+	<string id="st_wpn_groza_descr">
 	<text>This assault rifle combined with a grenade launcher, which is similar to the AKM series, was specially developed for rapid response units. The main differences are its 9x39 calibre ammunition, bullpup layout and extensive configuration options. This weapon is highly valued by military stalkers due to its ability to kill enemies wearing body armour behind improvised cover at a distance during urban combat, as well as its excellent stopping power.</text>
-</string>
-<string id="st_wpn_hpsa">
+	</string>
+	<string id="st_wpn_hpsa">
 	<text>HPSS-1m</text>
-</string>
-<string id="st_wpn_hpsa_descr">
+	</string>
+	<string id="st_wpn_hpsa_descr">
 	<text>A modified model of a pistol from the first half of the 20th century, which is as reliable, powerful and accurate as the original. Pistols of this series deserve their reputation as one of the best handguns of the 20th century and are in great demand in the Zone.</text>
-</string>
-<string id="st_wpn_hk416">
-	<text>HK-416</text>
-</string>
-<string id="st_wpn_hk416_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] вЂў %c[default] M203 underbarrel grenade launcher\n\n\n %c[255,1,255,255] вЂў %c[default] NATO silencer\n\n HK416 is an automatic machine created by the German firm Heckler and amp; Koch based on the M4 carbine. Initially,the new weapon was to be a plug-in module for installation on any lower part of the receiver from M4 or M16 rifles,but later there were also full- automata. the name HK416 symbolizes continuity from the M4 and M16.</text>
-</string>
-<string id="st_wpn_l85">
+	</string>
+	<string id="st_wpn_hk416">
+		<text>HK-416</text>
+	</string>
+	<string id="st_wpn_hk416_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] • %c[default] M203 underbarrel grenade launcher\n\n\n %c[255,1,255,255] • %c[default] NATO silencer\n\n HK416 is an automatic machine created by the German firm Heckler and amp; Koch based on the M4 carbine. Initially,the new weapon was to be a plug-in module for installation on any lower part of the receiver from M4 or M16 rifles,but later there were also full- automata. the name HK416 symbolizes continuity from the M4 and M16.</text>
+	</string>
+	<string id="st_wpn_l85">
 	<text>IL 86</text>
-</string>
-<string id="st_wpn_l85_descr">
+	</string>
+	<string id="st_wpn_l85_descr">
 	<text>This rifle's considerable number of drawbacks caused most of these weapons to be modernized, with the retired stock making its way to the Zone via the black market. The rifle's main advantages are its built-in 4x scope, high single-shot accuracy and reliable upgrade technology. When the weapon is fired in bursts, its accuracy decreases significantly and the rifle's basic internal mechanisms become somewhat unreliable.</text>
-</string>
-<string id="st_wpn_lr300">
+	</string>
+	<string id="st_wpn_lr300">
 	<text>TRs 301</text>
-</string>
-<string id="st_wpn_lr300_descr">
+	</string>
+	<string id="st_wpn_lr300_descr">
 	<text>A new step in the development of this famous weapon family. The changes were made to the upper half of the steel construction comprising the barrel, gas tube and bolt assembly, reducing the weapon's weight, improving ergonomics and its gas system. The weapon is highly accurate, although its propensity to catch dirt makes it a poor choice for the Zone's difficult conditions.</text>
-</string>
-<string id="st_wpn_m590a1">
-	<text>Mossberg M590A1</text>
-</string>
-<string id="st_wpn_m590a1_descr">
+	</string>
+	<string id="st_wpn_m590a1">
+		<text>Mossberg M590A1</text>
+	</string>
+	<string id="st_wpn_m590a1_descr">
 <text>One of the most common multiply charged rifles with reloading movable forearm (pump guns). It was first released in 1962. Now it is produced in various modifications intended for hunting, police, guards and self-defense.</text>
-</string>
-<string id="st_wpn_m4">
-	<text>M4</text>
-</string>
-<string id="st_wpn_m4_descr">
+	</string>
+	<string id="st_wpn_m4">
+		<text>M4</text>
+	</string>
+	<string id="st_wpn_m4_descr">
 <text>the machine, created in the US on the basis of the M16A2 initially for arming the crews of combat vehicles and equipment calculations. Currently, the entire US Army is moving to it, as the greater convenience of the shortened carbine in modern conditions, when the bulk of the army is made up of motorized infantry, the crews combat vehicles and auxiliary troops, more than compensates for a rather insignificant decrease in its characteristics in comparison with the rifle.</text>
-</string>
-<string id="st_wpn_m4a1">
-	<text>M4A1</text>
-</string>
-<string id="st_wpn_m4a1_descr">
+	</string>
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
 <text>In 1996, by order of special operations forces based on the M16A3 rifle, the M4A1 carbine was developed, featuring a return to fully automatic fire instead of a 3-shot fire.</text>
-</string>
-<string id="st_wpn_m16">
-	<text>M16</text>
-</string>
-<string id="st_wpn_m16_descr">
+	</string>
+	<string id="st_wpn_m16">
+		<text>M16</text>
+	</string>
+	<string id="st_wpn_m16_descr">
 <text>M16 (official designation-Rifle, Caliber 5. 56 mm, M16)-American automatic rifle caliber 5, 56 mm, developed on the basis of the rifle AR-15 and adopted in service in the 1960s. M16 and its variants to date remain the main armament of the American infantry. This is one of the most common models of small arms in the world-more than 8 million copies were produced.</text>
-</string>
-<string id="st_wpn_m16a1">
-	<text>M16A1</text>
-</string>
-<string id="st_wpn_m16a1_descr">
+	</string>
+	<string id="st_wpn_m16a1">
+		<text>M16A1</text>
+	</string>
+	<string id="st_wpn_m16a1_descr">
 <text>M16A1-an improved version of the M16. the main differences: the appearance of the shutter sending mechanism and the improved buffer of the shutter stem (reduced the rate of fire to 750-850 rounds per minute and eliminated the bounce of the shutter and misfires), a more reliable flame arrester with closed slots, chrome plated coating of the closure (to exclude its corrosion), reduction of the cut length from 356 to 305 mm (improved stability of the bullet, but increased scattering at distances over 400 m), tide for bayonet mounting. Also, specially for the new rifle, a 30-charger magazine and a silencer designed for shooting conventional (rather than subsonic) cartridges. Were in the arsenal of the US Army from 1967 to 1985.</text>
-</string>
-<string id="st_wpn_m16a2">
-	<text>M16A2</text>
-</string>
-<string id="st_wpn_m16a2_descr">
+	</string>
+	<string id="st_wpn_m16a2">
+		<text>M16A2</text>
+	</string>
+	<string id="st_wpn_m16a2_descr">
 <text>M16A2-version of the rifle M16A1, adapted for the cartridge SS109/M855. Differences from the M16A1: strengthened barrel, improved sighting devices, marked up to 800 m, new fore and aft from the impact-resistant polyamide, replacement of the continuous fire mode with the cut-off mode after 3 shots, A new flame arrester with slots only at the top (thanks to which the arms were moved upwards). the new rifle began to be equipped with light plastic stores for 30 cartridges.</text>
-</string>
-<string id="st_wpn_m16a3">
-	<text>M16A3</text>
-</string>
-<string id="st_wpn_m16a3_descr">
+	</string>
+	<string id="st_wpn_m16a3">
+		<text>M16A3</text>
+	</string>
+	<string id="st_wpn_m16a3_descr">
 <text>M16A3-version of the M16A2 rifle with a continuous fire mode, is in armament in the fleet. Handle for carrying and sighting devices are identical to M16A2. Appeared in 1992 under the index M16A2E3.</text>
-</string>
-<string id="st_wpn_m16a4">
-	<text>M16A4</text>
-</string>
-<string id="st_wpn_m16a4_descr">
+	</string>
+	<string id="st_wpn_m16a4">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16a4_descr">
 <text>M16A4-version of the rifle M16A2. Above the receiver, instead of a carrying handle (which has become removable), a Picatinni type guide is installed. It is possible to install additional guides of the Picatinny type on the forearm.</text>
-</string>
-<string id="st_wpn_m16a4_camo">
+	</string>
+	<string id="st_wpn_m16a4_camo">
 <text>M16A4 (Camouflage)</text>
-</string>
-<string id="st_wpn_m16a4_camo_descr">
+	</string>
+	<string id="st_wpn_m16a4_camo_descr">
 <text>Option M16A4 with desert camouflage and a sight Leupold Mark4.</text>
-</string>
-<string id="st_wpn_mp5">
-<text>MP5</text>
-</string>
-<string id="st_wpn_mp5_descr">
+	</string>
+	<string id="st_wpn_mp5">
+		<text>MP5</text>
+	</string>
+	<string id="st_wpn_mp5_descr">
 	<text>This submachine gun has gained popularity around the world thanks to its reliability, ease of use and accuracy. Over the last few decades the Viper 5 was in service with special armed forces and police units worldwide. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone.</text>
-</string>
-<string id="st_wpn_ump45">
-	<text>UMP45</text>
-</string>
-<string id="st_wpn_ump45_descr">
+	</string>
+	<string id="st_wpn_ump45">
+		<text>UMP45</text>
+	</string>
+	<string id="st_wpn_ump45_descr">
 <text>HK UMP (German Universale Maschinenpistole)-a submachine gun developed by the German company Heckler and Koch in the 1990s as an addition to the family of HK MP5 submachine guns.</text>
-</string>
-<string id="st_wpn_mp5sd">
-	<text>MP5SD</text>
-</string>
-<string id="st_wpn_mp5sd_descr">
-	<text>MP5SD - ГЎГҐГ±ГёГіГ¬Г­Г»Г© ГўГ Г°ГЁГ Г­ГІ MP5 Г®ГЎГ°Г Г§Г¶Г  1974 ГЈГ®Г¤Г  Г± ГЁГ­ГІГҐГЈГ°ГЁГ°Г®ГўГ Г­Г­Г»Г¬ ГЏГЃГ‘.</text>
-</string>
-<string id="st_wpn_pp2000">
+	</string>
+	<string id="st_wpn_mp5sd">
+		<text>MP5SD</text>
+	</string>
+	<string id="st_wpn_mp5sd_descr">
+	<text>MP5SD - aanooiiue aa?eaio MP5 ia?acoa 1974 aiaa n eioaa?e?iaaiiui IAN.</text>
+	</string>
+	<string id="st_wpn_pp2000">
 <text>PP-2000</text>
-</string>
-<string id="st_wpn_pp2000_descr">
+	</string>
+	<string id="st_wpn_pp2000_descr">
 <text>PP-2000-Russian 9 mm submachine gun developed by the team of designers of Tula Instrument Design Bureau (academician VP Griazev, specialists BI Kuznetsov and AI Rasskazov). the PP-2000 is positioned as a weapon for law enforcement un its operating in urban conditions, and also as a personal weapon of self-defense for certain categories of servicemen.</text>
-</string>
-<string id="st_wpn_pb">
+	</string>
+	<string id="st_wpn_pb">
 	<text>PB-1s</text>
-</string>
-<string id="st_wpn_pb_descr">
+	</string>
+	<string id="st_wpn_pb_descr">
 	<text>This pistol was developed in the second half of the 20th century on the basis of the PMm for use by special forces and scouting units. The front of the pistol's barrel is covered with an integrated silencer, while the bolt mechanism is short, which prevents a back-moving spring from being located inside it, and it is therefore situated in the weapon's handle. Morally obsolete, the weapon is still effective in the right hands.</text>
-</string>
-<string id="st_wpn_pm">
+	</string>
+	<string id="st_wpn_pm">
 	<text>PMm</text>
-</string>
-<string id="st_wpn_pm_descr">
+	</string>
+	<string id="st_wpn_pm_descr">
 	<text>This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size.</text>
-</string>
-<string id="st_wpn_pmm">
+	</string>
+	<string id="st_wpn_pmm">
 <text>PMM</text>
-</string>
-<string id="st_wpn_pmm_descr">
+	</string>
+	<string id="st_wpn_pmm_descr">
 <text>9-mm Makarov pistol modernized PMM (GRAU-56-A-125M index) is a Russian pistol developed in the early 1990s in the framework of R & D Rook. Took part in the competition for a new army pistol under the designation Grach-3.</text>
-</string>
-<string id="st_wpn_protecta">
+	</string>
+	<string id="st_wpn_protecta">
 <text>Eliminator</text>
-</string>
-<string id="st_wpn_protecta_descr">
+	</string>
+	<string id="st_wpn_protecta_descr">
 	<text>A smoothbore combat revolver-type shotgun intended to provide extreme firepower for militarized units. The weapon benefits from a large magazine and a high effective rate of fire, but its bulkiness and considerable weight, combined with a long reload time, are the price to be paid for these advantages. Rare in the Zone and is used primarily to clear closed spaces of mutants.</text>
-</string>
-<string id="st_wpn_remington870">
-	<text>Remington 870</text>
-</string>
-<string id="st_wpn_remington870s">
-	<text>M870</text>
-</string>
-<string id="st_wpn_remington870_descr">
+	</string>
+	<string id="st_wpn_remington870">
+		<text>Remington 870</text>
+	</string>
+	<string id="st_wpn_remington870s">
+		<text>M870</text>
+	</string>
+	<string id="st_wpn_remington870_descr">
 <text>Remington 870- the American gun, first introduced in 1950 by the company Remington Arms. Due to its characteristic recharge is one of the most famous pump guns in the world. Produced in various modifications, it is suitable for both the military and police, both for hunters and athletes, as well as for self-defense.</text>
-</string>
-<string id="st_wpn_rg6">
+	</string>
+	<string id="st_wpn_rg6">
 	<text>Bulldog-6</text>
-</string>
-<string id="st_wpn_rg6_descr">
+	</string>
+	<string id="st_wpn_rg6_descr">
 	<text>This revolver-type grenade launcher uses six rifled front-loading barrels, identical to under-barrel launcher attachments. The drum is also front-loading. Widely used for rapid suppression of enemy firing positions and, when in the open, attacking defended fixed targets or fighting particularly tough monsters.</text>
-</string>
-<string id="st_wpn_pkm">
+	</string>
+	<string id="st_wpn_pkm">
 <text>PCM</text>
-</string>
-<string id="st_wpn_pkm_descr">
+	</string>
+	<string id="st_wpn_pkm_descr">
 <text>Manual modification of the army machine gun with tape feed. Despite the high mass and unsatisfactory accuracy of the battle, I found myself quite a wide application in the Zone. It is mainly used to suppress the superior in number of the enemy and during cleansing of the mutant lairs.</text>
-</string>
-<string id="st_wpn_rpg7">
+	</string>
+	<string id="st_wpn_rpg7">
 <text>RPG-7U</text>
-</string>
-<string id="st_wpn_rpg7_descr">
+	</string>
+	<string id="st_wpn_rpg7_descr">
 	<text>This grenade launcher from the 1960s made its way into the Zone from army depots. The weapon is a smoothbore single-shot recoilless launch system with an open-rear tube. Comes with a PGO-7 x2.7 optical scope. Although its huge size and weight make it an unlikely choice for stalkers, given its huge destructive power and ease of use, it has found admirers in the Zone.</text>
-</string>
-<string id="st_wpn_sig220">
-<text>SIG-Sauer P220</text>
-</string>
-<string id="st_wpn_sig226">
-	<text>SIG-Sauer P226</text>
-</string>
-<string id="st_wpn_sig220_descr">
+	</string>
+	<string id="st_wpn_sig220">
+		<text>SIG-Sauer P220</text>
+	</string>
+	<string id="st_wpn_sig226">
+		<text>SIG-Sauer P226</text>
+	</string>
+	<string id="st_wpn_sig220_descr">
 	<text>The only remaining mass produced model of a globally renowned pistol, this weapon has earned a reputation for its excellent ergonomics and accuracy, and while its magazine is relatively small, it benefits from powerful ammo and a mechanism that functions like a Swiss watch. Some believe the SIP-t M200 to be the best mass produced .45ACP calibre handgun there is and it has certainly got a following among experienced stalkers and mercenaries.</text>
-</string>
-<string id="st_wpn_sig550">
-<text>SIG SG-550</text>
-</string>
-<string id="st_wpn_sig550_descr">
+	</string>
+	<string id="st_wpn_sig550">
+		<text>SIG SG-550</text>
+	</string>
+	<string id="st_wpn_sig550_descr">
 	<text>A relatively new assault rifle that has quickly found admirers around the world, despite lacking a "trendy" design. Weapons of this series are one of the best in their class, renowned for their reliability, accuracy and ease of use.  Despite being relatively difficult to obtain in the Zone, this assault rifle is often ordered by experienced stalkers at considerable expense.</text>
-</string>
-<string id="st_wpn_sig550_strelok">
+	</string>
+	<string id="st_wpn_sig550_strelok">
 <text>SIG Shooter</text>
-</string>
-<string id="st_wpn_sig550_strelok_descr">
+	</string>
+	<string id="st_wpn_sig550_strelok_descr">
 	<text>A Swiss-made SGI-5k assault rifle. Although it is hardly new, it is clear that the previous owner took good care of it: the weapon has been taken apart and put back together, with every component fine-tuned for optimum performance, increasing stopping power. The letter "S" has been carved into the stock, along with 16 small notches.</text>
-</string>
-<string id="st_wpn_sig551">
-	<text>SIG SG-551</text>
-</string>
-<string id="st_wpn_sig550-551_descr">
+	</string>
+	<string id="st_wpn_sig551">
+		<text>SIG SG-551</text>
+	</string>
+	<string id="st_wpn_sig550-551_descr">
 <text>Representative of a new family of assault rifles. Due to its high reliability, accuracy of combat and ease of use, it is one of the best weapons of this class. In the Zone occurs infrequently and costs a lot of money; usually it is specially ordered for a seasoned stalker.</text>
-</string>
-<string id="st_wpn_sig552">
-	<text>SIG SG-552</text>
-</string>
-<string id="st_wpn_sig552_descr">
+	</string>
+	<string id="st_wpn_sig552">
+		<text>SIG SG-552</text>
+	</string>
+	<string id="st_wpn_sig552_descr">
 <text>SG-552 Commando-even more compact machine with a barrel 226 mm, designed for special police ulouse. Unlike SG 550, the return spring is behind the bolt frame and acts directly on it, and not on the piston rod. the machine has a modified flame arrester and can be equipped with Picatinny slats for installation of additional accessories.</text>
-</string>
-<string id="st_wpn_scar_light">
-	<text>FN SCAR-L</text>
-</string>
-<string id="st_wpn_scar_heavy">
-	<text>FN SCAR-H</text>
-</string>
-<string id="st_wpn_scar_descr">
+	</string>
+	<string id="st_wpn_scar_light">
+		<text>FN SCAR-L</text>
+	</string>
+	<string id="st_wpn_scar_heavy">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="st_wpn_scar_descr">
 <text>FN SCAR (English Special Operations Forces Combat Assault Rifle) is a weapon system developed by the US division of the Belgian company FN Herstal to participate in the competition for the creation of a new USSOCOM machine gun in 2004 year.</text>
-</string>
-<string id="st_wpn_spas12">
-<text>SPAS-12</text>
-</string>
-<string id="st_wpn_spas12_descr">
+	</string>
+	<string id="st_wpn_spas12">
+		<text>SPAS-12</text>
+	</string>
+	<string id="st_wpn_spas12_descr">
 	<text>This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants.</text>
-</string>
-<string id="st_wpn_sr25">
-	<text>SR-25</text>
-</string>
-<string id="st_wpn_sr25_descr">
+	</string>
+	<string id="st_wpn_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_wpn_sr25_descr">
 <text>SR-25 is a self-loading sniper rifle designed by Eugene Stoner in the 1990s based on the design of the AR-15 rifle.</text>
-</string>
-<string id="st_wpn_sv98">
+	</string>
+	<string id="st_wpn_sv98">
 <text>SV-98</text>
-</string>
-<string id="st_wpn_sv98_descr">
+	</string>
+	<string id="st_wpn_sv98_descr">
 <text>Russian sniper rifle shop, created in 1998-2000 gg. a team of designers under the leadership of Vladimir Stronsky and serially produced by the concern Izhmash. SV-98 is designed to defeat the emerging, moving, open and unmasked, unprotected and equipped means individual armor protection of enemy manpower at a range of up to 1000 m.</text>
-</string>
-<string id="st_wpn_svd">
+	</string>
+	<string id="st_wpn_svd">
 <text>SVD</text>
-</string>
-<string id="st_wpn_svd_descr">
+	</string>
+	<string id="st_wpn_svd_descr">
 	<text>An army sniper rifle that has been on the market for more than fifty years and has earned its reputation for exceptional reliability and ease of use. The SVDm-2 is normally used by the army to improve the effective range of its units, but stalkers respect this weapon for its armour-piercing properties, which allow it to penetrate mutant hide and army body armour.</text>
-</string>
-<string id="st_wpn_svu">
+	</string>
+	<string id="st_wpn_svu">
 <text>SVUmk-2</text>
-</string>
-<string id="st_wpn_svu_descr">
+	</string>
+	<string id="st_wpn_svu_descr">
 	<text>A modernized version of the SVDm-2 sniper rifle in a compact bullpup design made on the order of rapid response forces. It allows faster precision fire and is considerably lighter, while its single shot firing accuracy at short and medium range is similar to that of its predecessor. These qualities have earned it the admiration of countless stalkers.</text>
-</string>
-<string id="st_wpn_toz194">
+	</string>
+	<string id="st_wpn_toz194">
 <text>TOZ-194</text>
-</string>
-<string id="st_wpn_toz194_descr">
+	</string>
+	<string id="st_wpn_toz194_descr">
 <text>TOZ-194-Russian pump gun, developed in the mid-1990s on the basis of the design of the TOZ-94 gun. It is produced at the Tula Arms Plant.</text>
-</string>
-<string id="st_wpn_toz34">
+	</string>
+	<string id="st_wpn_toz34">
 <text>TOZ-34</text>
-</string>
-<string id="st_wpn_toz34_descr">
+	</string>
+	<string id="st_wpn_toz34_descr">
 	<text>This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone.</text>
-</string>
-<string id="st_wpn_toz66">
+	</string>
+	<string id="st_wpn_toz66">
 <text>TOZ-66 (bleed)</text>
-</string>
-<string id="st_wpn_toz66_descr">
+	</string>
+	<string id="st_wpn_toz66_descr">
 <text>Hunting double-barreled rifle TOZ-66 was produced from 1967 to 1978, it is intended for commercial hunting and amateur hunting. It is developed on the basis of the TOZ-63 gun and is distinguished by an enhanced receiver.</text>
-</string>
-<string id="st_wpn_toz66_full">
+	</string>
+	<string id="st_wpn_toz66_full">
 <text>TOZ-66</text>
-</string>
-<string id="st_wpn_toz66_full_descr">
+	</string>
+	<string id="st_wpn_toz66_full_descr">
 <text>Hunting double-barreled rifle TOZ-66 was produced from 1967 to 1978, it is intended for commercial hunting and amateur hunting. It is developed on the basis of the TOZ-63 gun and is distinguished by an enhanced receiver.</text>
-</string>
-<string id="st_wpn_umirotvoritel">
+	</string>
+	<string id="st_wpn_umirotvoritel">
 	<text>Unidentified weapon</text>
-</string>
-<string id="st_wpn_umirotvoritel_descr">
+	</string>
+	<string id="st_wpn_umirotvoritel_descr">
 	<text>An unknown weapon, the firing mechanism of which has not been established. The weapon appears faulty - squeezing the trigger doesn't do anything.</text>
-</string>
-<string id="st_wpn_vssk">
+	</string>
+	<string id="st_wpn_vssk">
 <text>VSKS Exhaust</text>
-</string>
-<string id="st_wpn_vssk_descr">
+	</string>
+	<string id="st_wpn_vssk_descr">
 <text>Exhaust (Rifle Sniper Special Large-caliber)-a silent large-caliber sniper rifle, made by the arrangement of bull-dads. the main purpose of VSKS is a low-noise and flameless defeat of lightly armored and unarmored equipment, as well as manpower in individual means of protection (including heavy bulletproof vests) at a range of up to 600 meters.</text>
-</string>
-<string id="st_wpn_vsk94">
+	</string>
+	<string id="st_wpn_vsk94">
 <text>VSC-94</text>
-</string>
-<string id="st_wpn_vsk94_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1M2-01\n\n\n %c[255,1,255,255] вЂў %c[default] Muffler for 9A-91/VSC-94\n\n VSK-94 (Army Sniper Complex,GRAU-6V8 Index) is a Russian sniper rifle created on the basis of a small automatic machine 9A-91 for conducting sniper noiseless and flameless fire.</text>
-</string>
-<string id="st_wpn_vepr">
+	</string>
+	<string id="st_wpn_vsk94_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1M2-01\n\n\n %c[255,1,255,255] • %c[default] Muffler for 9A-91/VSC-94\n\n VSK-94 (Army Sniper Complex,GRAU-6V8 Index) is a Russian sniper rifle created on the basis of a small automatic machine 9A-91 for conducting sniper noiseless and flameless fire.</text>
+	</string>
+	<string id="st_wpn_vepr">
 <text>Vepr-12 the Hammer</text>
-</string>
-<string id="st_wpn_vepr_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1\n\n\n %c[255,1,255,255] вЂў %c[default] Silencer PBS-1\n\n Vepr-12 the hammer is a Russian smoothbore self-loading carbine,developed on the basis of the construction of a Kalashnikov machine gun. Designed for hunting,sports competitions (usually for practical shooting in open class),self-defense,and use as a service weapon. Is a direct competitor to the Saiga-12 series.</text>
-</string>
-<string id="st_wpn_svt40">
+	</string>
+	<string id="st_wpn_vepr_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1\n\n\n %c[255,1,255,255] • %c[default] Silencer PBS-1\n\n Vepr-12 the hammer is a Russian smoothbore self-loading carbine,developed on the basis of the construction of a Kalashnikov machine gun. Designed for hunting,sports competitions (usually for practical shooting in open class),self-defense,and use as a service weapon. Is a direct competitor to the Saiga-12 series.</text>
+	</string>
+	<string id="st_wpn_svt40">
 <text>SVT-40</text>
-</string>
-<string id="st_wpn_svt40_descr">
+	</string>
+	<string id="st_wpn_svt40_descr">
 <text>7, 62-mm self-loading rifle of the Tokarev system of the 1940 model (SVT-40), as well as the Tokarev automatic rifle of the 1940 model- the modification of the Soviet self-loading rifle developed by FV Tokarev. SVT-38 was developed as a replacement for the automatic rifle Simonov and 26 February 1939 adopted the Red Army. the first CBT arr. 1938 was released on July 16, 1939. Since October 1, 1939, gross output began at Tula, and since 1940-at the Izhevsk Arms Factory.</text>
-</string>
-<string id="st_wpn_pkp">
+	</string>
+	<string id="st_wpn_pkp">
 <text>BCP Pecheneg</text>
-</string>
-<string id="st_wpn_pkp_descr">
+	</string>
+	<string id="st_wpn_pkp_descr">
 <text>7.62 mm machine gun PKC Pecheneg (GRAU-6P41 index) is a Russian single machine gun developed on the basis of PKM. Designed to engage the enemy's manpower, fire and transport vehicles, air targets. It was developed by TsNIItotmash.</text>
-</string>
-<string id="st_wpn_m249">
-	<text>M249</text>
-</string>
-<string id="st_wpn_m249_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n A hand machine gun caliber 5,56x45 mm manufactured by Fabrique Nationale (Belgium),mass production began in the 1980s. the development of this weapon was given to the promising designer Ernest Verviere,the creator of the machine gun FN MAG.</text>
-</string>
-<string id="st_wpn_m79">
-	<text>M79</text>
-</string>
-<string id="st_wpn_m79_descr">
+	</string>
+	<string id="st_wpn_m249">
+		<text>M249</text>
+	</string>
+	<string id="st_wpn_m249_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n A hand machine gun caliber 5,56x45 mm manufactured by Fabrique Nationale (Belgium),mass production began in the 1980s. the development of this weapon was given to the promising designer Ernest Verviere,the creator of the machine gun FN MAG.</text>
+	</string>
+	<string id="st_wpn_m79">
+		<text>M79</text>
+	</string>
+	<string id="st_wpn_m79_descr">
 <text>M79-single-shot 40 mm grenade launcher, adopted in service in 1961 by the US Army. Developed in the period 1951-1961 by the American corporation Springfield Arsenal (English Springfield Armory). the unofficial name is the elephant gun.</text>
-	</string>
-<string id="st_wpn_usp">
+        </string>
+	<string id="st_wpn_usp">
 	<text>UDP Compact</text>
-</string>
-<string id="st_wpn_usp_match">
-	<text>HK USP Match</text>
-</string>
-<string id="st_wpn_usp_descr">
-	<text>Impeccable reliability and durability combined with excellent accuracy are the main noteworthy features of this weapon. Its minor drawbacks include its considerable size, relatively high center of gravity and massive bolt, which make it difficult to conceal but do not outweigh the weapon's positive features. The weapon is especially popular with the Zone's veterans.</text>
-</string>
-<string id="st_wpn_val">
-	<text>SA Avalanche</text>
-</string>
-<string id="st_wpn_val_descr">
-	<text>A modified version of the silent Vintar BC sniper rifle, this assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39 calibre round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum.</text>
-</string>
-<string id="st_wpn_vihr">
-<text>SR-3 Vortex</text>
-</string>
-<string id="st_wpn_vihr_descr">
-<text>SR-3 Vortex is a compact Russian automaton, developed in Klimovsk by TsNIItotmash by designers A. D. Borisov and V. N. Levchenko in 1994. It was brought to the release by the designer AI Tashlykov and was put into serial production in 1996. It is created on the basis of a silent automatic machine AC Val, with which it is unified for basic details, which positively affects the production and operation of weapons.</text>
-</string>
-<string id="st_wpn_vintorez">
-	<text>Vintar BC</text>
-</string>
-<string id="st_wpn_vintorez_descr">
-	<text>A special military sniper rifle purpose-built for silent, flashless sniping during special operations where early detection of the shooter may be critical. The Vintar BC provides high armour-piercing capability and stopping power, as well as being equipped with an integrated sniper and optical scope. Highly rated by many stalkers despite its small magazine.</text>
-</string>
-<string id="st_wpn_walther">
-	<text>Walker P9m</text>
-</string>
-<string id="st_wpn_walther_descr">
-	<text>An excellent Western pistol known for its reliability, high capacity magazine and good accuracy, as well as being among the most ergonomic handguns in its class. One of the most widely used pistols in the Zone, both among professionals and rookies who can afford it.</text>
-</string>
-<string id="st_wpn_usas12">
-	<text>USAS-12</text>
-</string>
-<string id="st_wpn_usas12_descr">
-<text>USAS-12 is an automatic rifle designed by John Trevor in the late 1980s on the basis of the ideas of another American designer Maxwell Atchisson who created Atchisson Assault Shotgun.</text>
-</string>
-<string id="st_wpn_rpd">
-<text>RAP</text>
-</string>
-<string id="st_wpn_rpd_descr">
-<text>In 1944, on a competitive test sample came forward Degtyaryova design, known as the RD-44 machine gun with RD-44 to the end of the war were produced in small series and were tested in the armed forces. Soon after the war, a modernized version of this machine gun, adapted to become a standard cartridge 7.62x39 mm, was adopted by the Soviet Army as a Manual machine gun of the Degtyarev system (RPD).</text>
-</string>
-<string id="st_wpn_wincheaster1300">
-	<text>Chaser 13</text>
-</string>
-<string id="st_wpn_wincheaster1300_descr">
-	<text>A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anti-corrosion compound.</text>
-</string>
-<string id="st_wpn_mine_name">
-<text>Butterfly mine</text>
-</string>
-<string id="st_wpn_mine_descr">
-	<text>The PFM-1 is an anti-personnel mine which became infamous for causing large numbers of civilian casualties. Often referred to as a butterfly mine due to its unusual shape.</text>
-</string>
-<string id="st_addons_box">
-<text>Tool Remove sight</text>
-</string>
-<string id="st_addons_box_descr">
-<text>He takes off his gun on the gun.</text>
-</string>
-<string id="st_wpn_wa2000">
-	<text>Walther WA 2000</text>
-</string>
-<string id="st_wpn_wa2000_descr">
-<text>WA2000 (Walther Automat 2000) is a sniper rifle of the Bull-Pop configuration, developed by the gun company Walther. In total, 176 rifles were produced (where Nimble got it-that's another question).</text>
-</string>
-<string id="st_knife_survival">
-<text>Survival knife</text>
-</string>
-<string id="st_knife_survival_descr">
-	<text>ГЉГ®Г°Г®ГІГЄГЁГ© Г­ГҐГ±ГЄГ«Г Г¤Г­Г®Г© Г­Г®Г¦ ГўГ»Г¦ГЁГўГ Г­ГЁГї. Г…ГЈГ® Г«ГҐГЈГЄГ® Г±ГЄГ°Г»ГІГј ГЁГ§-Г§Г  Г­ГҐГЎГ®Г«ГјГёГ®ГЈГ® Г°Г Г§Г¬ГҐГ°Г . ГђГҐГ§ГЁГ­Г®ГўГ Гї Г°ГіГЄГ®ГїГІГј ГЇГ®Г§ГўГ®Г«ГїГҐГІ ГіГ«ГіГ·ГёГЁГІГј ГіГЇГ°Г ГўГ«ГїГҐГ¬Г®Г±ГІГј.</text>
-</string>
-<string id="st_knife_spetsnaz">
-<text>HP-2</text>
-</string>
-<string id="st_knife_spetsnaz_descr">
-<text>the knife of military production still Soviet times. ГЌГ°-2 is a variant of HPC-2, but without the firing mechanism.</text>
-</string>
-<string id="st_knife_tanto">
-<text>Tanto</text>
-</string>
-<string id="st_knife_tanto_descr">
-<text>Modern combat knife in the style of tanto. Tanto literally means a short knife, they appeared in Japan in the feudal era. the origin of this knife is unknown, as well as the brand on it.</text>
-</string>
-<string id="st_knife_colt">
-	<text>Colt 62316</text>
-</string>
-<string id="st_knife_colt_descr">
-<text>Colt 62316 is an American military bayonet M7, intended for attachment to a rifle or shotgun. Adopted in 1964, he first began serving in the war in Vietnam.</text>
-</string>
-<string id="st_knife_extrema">
-	<text>Extrema Ratio MK 2.1</text>
-</string>
-<string id="st_knife_extrema_descr">
-<text>Extrema Ratio MK 2.1 is a steel knife based on the historic USMC Ka-Bar. Designed and manufactured for the Italian military and special forces.</text>
-</string>
-<string id="st_knife_hunting">
-<text>Hunting knife</text>
-</string>
-<string id="st_knife_hunting_descr">
-<text>A modern camouflaged hunting knife. Approximately half a dozen teeth along the top of the blade makes it very difficult to remove it from the wound.</text>
-</string>
-<string id="st_addon_scope_1p29_detector">
-<text>Sight USP-1 Tulip (Adjustable multiplicity)</text>
-</string>
-<string id="st_addon_scope_1p29_detector_descr">
-<text>the unified rifle sight USP-1 is designed for targeting shooting from the AK-74N, AK-74M, AN-94 and RPK-74N and PKMN machine guns at daylight and at night for luminous and illuminated targets. 1P29- the index of the USP-1 sighting of the Main Artillery Directorate of the USSR Ministry of Defense. Created by in the framework of the ROC Tulip, from where it got its name. (one setting)</text>
-</string>
-<string id="st_addon_scope_pso-1m2-01_detector">
-<text>PSO sight-1ГЊ2-01 (Adjustable multiplicity)</text>
-</string>
-<string id="st_addon_scope_pso-1m2-01_detector_descr">
-<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2ГђГ–63. (one setting)</text>
-</string>
-<string id="st_addon_scope_acog_detector">
-<text>ACOG sight (Adjustable multiplicity)</text>
-</string>
-<string id="st_addon_scope_acog_detector_descr">
-<text>4-fold optical sight for NATO rifles. (one setting)</text>
-</string>
-<string id="st_wpn_m4a1-s">
-<text>M4A1 'Cyrex'</text>
-</string>
-<string id="st_wpn_m4a1-s_descr">
-<text>M4A1 with integrated silencer and unique coloring called 'Cyrex'.</text>
-</string>
-<string id="st_wpn_mn91">
-<text>Mosin rifle</text>
-</string>
-<string id="st_wpn_mn91_descr">
-<text>Rifle Mosin-Nagan arr. 1891/30 -Shop rifle, adopted by the Russian Imperial Army in 1891 and used by the armed forces of the Russian Empire, the USSR and many other countries. Technicians are not interested in upgrading these weapons.</text>
 	</string>
-<string id="st_wpn_m4a4_howl">
+	<string id="st_wpn_usp_match">
+		<text>HK USP Match</text>
+	</string>
+	<string id="st_wpn_usp_descr">
+	<text>Impeccable reliability and durability combined with excellent accuracy are the main noteworthy features of this weapon. Its minor drawbacks include its considerable size, relatively high center of gravity and massive bolt, which make it difficult to conceal but do not outweigh the weapon's positive features. The weapon is especially popular with the Zone's veterans.</text>
+	</string>
+	<string id="st_wpn_val">
+	<text>SA Avalanche</text>
+	</string>
+	<string id="st_wpn_val_descr">
+	<text>A modified version of the silent Vintar BC sniper rifle, this assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39 calibre round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum.</text>
+	</string>
+	<string id="st_wpn_vihr">
+<text>SR-3 Vortex</text>
+	</string>
+	<string id="st_wpn_vihr_descr">
+<text>SR-3 Vortex is a compact Russian automaton, developed in Klimovsk by TsNIItotmash by designers A. D. Borisov and V. N. Levchenko in 1994. It was brought to the release by the designer AI Tashlykov and was put into serial production in 1996. It is created on the basis of a silent automatic machine AC Val, with which it is unified for basic details, which positively affects the production and operation of weapons.</text>
+	</string>
+	<string id="st_wpn_vintorez">
+	<text>Vintar BC</text>
+	</string>
+	<string id="st_wpn_vintorez_descr">
+	<text>A special military sniper rifle purpose-built for silent, flashless sniping during special operations where early detection of the shooter may be critical. The Vintar BC provides high armour-piercing capability and stopping power, as well as being equipped with an integrated sniper and optical scope. Highly rated by many stalkers despite its small magazine.</text>
+	</string>
+	<string id="st_wpn_walther">
+	<text>Walker P9m</text>
+	</string>
+	<string id="st_wpn_walther_descr">
+	<text>An excellent Western pistol known for its reliability, high capacity magazine and good accuracy, as well as being among the most ergonomic handguns in its class. One of the most widely used pistols in the Zone, both among professionals and rookies who can afford it.</text>
+	</string>
+	<string id="st_wpn_usas12">
+		<text>USAS-12</text>
+	</string>
+	<string id="st_wpn_usas12_descr">
+<text>USAS-12 is an automatic rifle designed by John Trevor in the late 1980s on the basis of the ideas of another American designer Maxwell Atchisson who created Atchisson Assault Shotgun.</text>
+	</string>
+	<string id="st_wpn_rpd">
+<text>RAP</text>
+	</string>
+	<string id="st_wpn_rpd_descr">
+<text>In 1944, on a competitive test sample came forward Degtyaryova design, known as the RD-44 machine gun with RD-44 to the end of the war were produced in small series and were tested in the armed forces. Soon after the war, a modernized version of this machine gun, adapted to become a standard cartridge 7.62x39 mm, was adopted by the Soviet Army as a Manual machine gun of the Degtyarev system (RPD).</text>
+	</string>
+	<string id="st_wpn_wincheaster1300">
+	<text>Chaser 13</text>
+	</string>
+	<string id="st_wpn_wincheaster1300_descr">
+	<text>A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anti-corrosion compound.</text>
+	</string>
+	<string id="st_wpn_mine_name">
+<text>Butterfly mine</text>
+  	</string>
+  	<string id="st_wpn_mine_descr">
+	<text>The PFM-1 is an anti-personnel mine which became infamous for causing large numbers of civilian casualties. Often referred to as a butterfly mine due to its unusual shape.</text>
+  	</string>
+	<string id="st_addons_box">
+<text>Tool Remove sight</text>
+	</string>
+	<string id="st_addons_box_descr">
+<text>He takes off his gun on the gun.</text>
+    </string>
+	<string id="st_wpn_wa2000">
+		<text>Walther WA 2000</text>
+	</string>
+	<string id="st_wpn_wa2000_descr">
+<text>WA2000 (Walther Automat 2000) is a sniper rifle of the Bull-Pop configuration, developed by the gun company Walther. In total, 176 rifles were produced (where Nimble got it-that's another question).</text>
+	</string>
+    <string id="st_knife_survival">
+<text>Survival knife</text>
+    </string>
+    <string id="st_knife_survival_descr">
+	<text>Ei?ioeee ianeeaaiie ii? au?eaaiey. Aai eaaei ne?uou ec-ca iaaieuoiai ?acia?a. ?aceiiaay ?oeiyou iicaieyao oeo?oeou oi?aaeyaiinou.</text>
+    </string>
+    <string id="st_knife_spetsnaz">
+<text>HP-2</text>
+    </string>
+    <string id="st_knife_spetsnaz_descr">
+<text>the knife of military production still Soviet times. I?-2 is a variant of HPC-2, but without the firing mechanism.</text>
+    </string>
+    <string id="st_knife_tanto">
+<text>Tanto</text>
+    </string>
+    <string id="st_knife_tanto_descr">
+<text>Modern combat knife in the style of tanto. Tanto literally means a short knife, they appeared in Japan in the feudal era. the origin of this knife is unknown, as well as the brand on it.</text>
+    </string>
+    <string id="st_knife_colt">
+        <text>Colt 62316</text>
+    </string>
+    <string id="st_knife_colt_descr">
+<text>Colt 62316 is an American military bayonet M7, intended for attachment to a rifle or shotgun. Adopted in 1964, he first began serving in the war in Vietnam.</text>
+    </string>
+    <string id="st_knife_extrema">
+        <text>Extrema Ratio MK 2.1</text>
+    </string>
+    <string id="st_knife_extrema_descr">
+<text>Extrema Ratio MK 2.1 is a steel knife based on the historic USMC Ka-Bar. Designed and manufactured for the Italian military and special forces.</text>
+    </string>
+    <string id="st_knife_hunting">
+<text>Hunting knife</text>
+    </string>
+    <string id="st_knife_hunting_descr">
+<text>A modern camouflaged hunting knife. Approximately half a dozen teeth along the top of the blade makes it very difficult to remove it from the wound.</text>
+    </string>
+	<string id="st_addon_scope_1p29_detector">
+<text>Sight USP-1 Tulip (Adjustable multiplicity)</text>
+	</string>
+	<string id="st_addon_scope_1p29_detector_descr">
+<text>the unified rifle sight USP-1 is designed for targeting shooting from the AK-74N, AK-74M, AN-94 and RPK-74N and PKMN machine guns at daylight and at night for luminous and illuminated targets. 1P29- the index of the USP-1 sighting of the Main Artillery Directorate of the USSR Ministry of Defense. Created by in the framework of the ROC Tulip, from where it got its name. (one setting)</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_detector">
+<text>PSO sight-1I2-01 (Adjustable multiplicity)</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_detector_descr">
+<text>PSO-1M2-01-sight for aiming from a special sniper rifle (cut) VSS of 9 mm caliber and a special automatic device of 9 mm caliber. the aiming scales are designed for shooting from 100 m to 400 m (step 50 m). For shooting at dusk in the sights, the grid illumination is provided. As a power source at present, a standard AA battery is used instead of the battery 2?O63. (one setting)</text>
+	</string>
+	<string id="st_addon_scope_acog_detector">
+<text>ACOG sight (Adjustable multiplicity)</text>
+	</string>
+	<string id="st_addon_scope_acog_detector_descr">
+<text>4-fold optical sight for NATO rifles. (one setting)</text>
+	</string>
+	<string id="st_wpn_m4a1-s">
+<text>M4A1 'Cyrex'</text>
+	</string>
+	<string id="st_wpn_m4a1-s_descr">
+<text>M4A1 with integrated silencer and unique coloring called 'Cyrex'.</text>
+	</string>
+	<string id="st_wpn_mn91">
+<text>Mosin rifle</text>
+	</string>
+	<string id="st_wpn_mn91_descr">
+<text>Rifle Mosin-Nagan arr. 1891/30 -Shop rifle, adopted by the Russian Imperial Army in 1891 and used by the armed forces of the Russian Empire, the USSR and many other countries. Technicians are not interested in upgrading these weapons.</text>
+        </string>
+	<string id="st_wpn_m4a4_howl">
 <text>M4A4 'Howling'</text>
-</string>
-<string id="st_wpn_m4a4_howl_descr">
+	</string>
+	<string id="st_wpn_m4a4_howl_descr">
 <text>A unique M4 rifle with a hand-painted image of a grinning wolf.</text>
-</string>
-<string id="st_wpn_trg22">
-	<text>TRG-22</text>
-</string>
-<string id="st_wpn_trg22_descr">
+	</string>
+	<string id="st_wpn_trg22">
+		<text>TRG-22</text>
+	</string>
+	<string id="st_wpn_trg22_descr">
 <text>Sniper rifle with a longitudinally sliding shutter for the cartridge 7.62x51, developed by the Finnish company SAKO in Riihimaki. Sako TRG series rifles are highly accurate shooting and survivability, and are widely used by the power structures of European countries.</text>
-</string>
-<string id="st_wpn_svd_nimble">
+	</string>
+	<string id="st_wpn_svd_nimble">
 <text>SVDM</text>
-</string>
-<string id="st_wpn_svd_nimble_descr">
+	</string>
+	<string id="st_wpn_svd_nimble_descr">
 <text>the upgraded version of the sniper rifle, which as a result received not only a more modern design, but also increased its technical characteristics in comparison with the SVD.</text>
-</string>
-<string id="st_wpn_stg58">
-	<text>StG 58</text>
-</string>
-<string id="st_wpn_stg58_descr">
+	</string>
+	<string id="st_wpn_stg58">
+		<text>StG 58</text>
+	</string>
+	<string id="st_wpn_stg58_descr">
 <text>Sturmgewehr 58 (StG 58)-FAL assault rifle, manufactured under license from Steyr-Daimler-Puch and was previously a standard rifle of the Austrian army. It is adapted to NATO standards by the FAL rifle and is still used by the Austrian Armed Forces. the rifle was chosen based on the results competition in 1958, beating Spanish CETME and American AR-10.</text>
-</string>
-<string id="st_wpn_m60">
-	<text>M60</text>
-</string>
-<string id="st_wpn_m60_descr">
+	</string>
+	<string id="st_wpn_m60">
+		<text>M60</text>
+	</string>
+	<string id="st_wpn_m60_descr">
 <text>A manual caliber 7.62 machine gun with belt feed, developed in 1975. Adopted by each unit of the US Army, it also appeared on the black market, thus getting to the Zone.</text>
-</string>
-<string id="st_wpn_groza_nimble">
+	</string>
+	<string id="st_wpn_groza_nimble">
 <text>OC-Storm-2A</text>
-</string>
-<string id="st_wpn_groza_nimble_descr">
+	</string>
+	<string id="st_wpn_groza_nimble_descr">
 	<text>An experimental version of an assault rifle and grenade launcher system, a Russian modification of the standard Tunder S14, this weapon was specially designed for units operating in the Zone. Notable for its increased magazine capacity.</text>
-</string>
-<string id="st_wpn_groza1_descr">
+	</string>
+	<string id="st_wpn_groza1_descr">
 <text>Variant of the rifle-grenade launcher complex for the cartridge 7,62x39mm. Designed for the armament of rapid reaction ulouse. We highly value the military and stalkers for their ability to reliably defeat the protected by bulletproof vest or sheltered enemy.</text>
-</string>
-<string id="st_wpn_groza1">
+	</string>
+	<string id="st_wpn_groza1">
 <text>OC-??14-1A Thunderstorm-1</text>
-</string>
-<string id="st_wpn_m14">
-	<text>M14 EBR</text>
-</string>
-<string id="st_wpn_m14_descr">
+	</string>
+	<string id="st_wpn_m14">
+		<text>M14 EBR</text>
+	</string>
+	<string id="st_wpn_m14_descr">
 <text>Mark 14 EBR (Mk 14 Enhanced Battle Rifle, improved combat rifle) is an American Marksman rifle created by special operations of the US Navy based on the M14 rifle. It is used by a number of special forces of the Navy, including SEAL. the main differences from M14: a new box (the development of the company Smith Enterprises), a telescopic butt, a pistol grip, several Picatinny slats and some commercial components, for example a new precision barrel and a gas cylinder.</text>
-</string>
-<string id="st_wpn_hk417">
-	<text>H&K HK417</text>
-</string>
-<string id="st_wpn_hk417_descr">
+	</string>
+	<string id="st_wpn_hk417">
+		<text>H&K HK417</text>
+	</string>
+	<string id="st_wpn_hk417_descr">
 <text>HK417-automatic rifle of 7.62 mm caliber, created on the basis of HK416. the feature of the rifle is a modular design similar to that of the M16 automatic rifle, but differing in the gas escape system with a short stroke of the gas piston, as in the HK G36.</text>
-</string>
-<string id="st_wpn_vintorez_nimble">
+	</string>
+	<string id="st_wpn_vintorez_nimble">
 <text>Tide</text>
-</string>
-<string id="st_wpn_vintorez_nimble_descr">
+	</string>
+	<string id="st_wpn_vintorez_nimble_descr">
 	<text>A weapon made for military units on the basis of the silent sniper rifle. The rifle has higher stopping power than the Vintar BC, its predecessor, at the expense of its rate of fire, which allows the shooter to eliminate enemy forces one by one without revealing his position.</text>
-</string>
-<string id="st_wpn_sks">
-	<text>Г‘ГЉГ‘</text>
-</string>
-<string id="st_wpn_sks_descr">
+	</string>
+	<string id="st_wpn_sks">
+	<text>NEN</text>
+	</string>
+	<string id="st_wpn_sks_descr">
 <text>7.62-mm self-loading Simonov carbine (SCS, GRAU index-56-A-231, also known as SCS-45 abroad)-Soviet self-loading carbine designed by Sergei Simonov, adopted in 1949.</text>
-</string>
-<string id="st_wpn_ak12_762">
-	<text>AK-12 M43</text>
-</string>
-<string id="st_wpn_ak12_556">
-	<text>AK-12 M44</text>
-</string>
-<string id="st_wpn_m134">
+	</string>
+	<string id="st_wpn_ak12_762">
+		<text>AK-12 M43</text>
+	</string>
+	<string id="st_wpn_ak12_556">
+		<text>AK-12 M44</text>
+	</string>
+	<string id="st_wpn_m134">
 <text>Minigun M134</text>
-</string>
-<string id="st_wpn_m134_descr">
+	</string>
+	<string id="st_wpn_m134_descr">
 <text>the multi-barreled machine gun, which received the M134 index, was manufactured by GE. It was first used during the Vietnam War and showed its effectiveness. Used ammunition-cartridge 7.62 NATO. Drive the rotation of the block of trunks-electric. the rate of fire is regulated by the rheostat electric drive and varies from 3000 to 6000 rounds per minute.</text>
-</string>
-<string id="st_wpn_ace21">
-	<text>Galil ACE-21</text>
-</string>
-<string id="st_wpn_ace21_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] вЂў %c[default] NATO silencer\n\n Galil ACE is an Israeli family of automatic weapons,the further development of the Galil automaton (which in turn is a descendant of the Kalashnikov assault rifle).</text>
-</string>
-<string id="st_wpn_vityaz">
+	</string>
+	<string id="st_wpn_ace21">
+		<text>Galil ACE-21</text>
+	</string>
+	<string id="st_wpn_ace21_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] • %c[default] NATO silencer\n\n Galil ACE is an Israeli family of automatic weapons,the further development of the Galil automaton (which in turn is a descendant of the Kalashnikov assault rifle).</text>
+	</string>
+	<string id="st_wpn_vityaz">
 <text>PP-19-01 ' the Knight'</text>
-</string>
-<string id="st_wpn_vityaz_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] вЂў %c[default] Silencer PBS-1\n\n Option PP-19 with a 30-charge sector magazine for the cartridge 9x19 mm,developed in 2004. It is used for arming patrol and guard services,traffic police,internal security,and un its of the Ministry of Internal Affairs of the Russian Federation.</text>
-</string>
-<string id="st_wpn_mp412">
-	<text>MP-412 REX</text>
-</string>
-<string id="st_wpn_mp412_descr">
+	</string>
+	<string id="st_wpn_vityaz_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights ACOG,Barska ES AC10632,Barska Red Dot AC11090,C-more Railway Tactical,EOTech\n\n\n %c[255,1,255,255] • %c[default] Silencer PBS-1\n\n Option PP-19 with a 30-charge sector magazine for the cartridge 9x19 mm,developed in 2004. It is used for arming patrol and guard services,traffic police,internal security,and un its of the Ministry of Internal Affairs of the Russian Federation.</text>
+	</string>
+	<string id="st_wpn_mp412">
+		<text>MP-412 REX</text>
+	</string>
+	<string id="st_wpn_mp412_descr">
 <text>A Russian-made revolver for the cartridge 0. 45 ACP with a six-shot drum and an automatic ejector. It was intended for export (REX-Revolver for Export), but did not go into mass production. the revolver was developed in the late 1990s at the Izhevsk Mechanical Plant, the Russian Arms enterprise, which also developed and produced a well-known PM.</text>
-</string>
-<string id="st_wpn_fnc">
-	<text>FN FNC</text>
-</string>
-<string id="st_wpn_fnc_descr">
+	</string>
+	<string id="st_wpn_fnc">
+		<text>FN FNC</text>
+	</string>
+	<string id="st_wpn_fnc_descr">
 <text>FN FNC (Fabrique Nationale Carabine-FN carbine) is a Belgian machine created by the armory firm Fabrique Nationale de Herstal to replace the obsolete FN FAL, after failing with the first version of the weapon for a 5.56 mm NATO FN CAL small-pulse cartridge.</text>
-</string>
-<string id="st_wpn_mtar21">
-	<text>MTAR-21</text>
-</string>
-<string id="st_wpn_mtar21_descr">
+	</string>
+	<string id="st_wpn_mtar21">
+		<text>MTAR-21</text>
+	</string>
+	<string id="st_wpn_mtar21_descr">
 <text>the MTAR-21-carbine with the 'Bull-Dad' arrangement is an ultra-compact version of the standard TAR-21 Israeli army rifle. It has excellent ergonomics and is easy to handle, thanks to a length of only 590 mm. Designed for use in urban combat, when a standard rifle too cumbersome.</text>
-</string>
-<string id="st_wpn_ppsh41">
-	<text>ГЏГЏГ-41</text>
-</string>
-<string id="st_wpn_ppsh41_descr">
+	</string>
+	<string id="st_wpn_ppsh41">
+	<text>IIO-41</text>
+	</string>
+	<string id="st_wpn_ppsh41_descr">
 <text>7, 62-mm submachine gun of the 1941 model of the Shpagin system (PPSh)-a Soviet submachine gun developed in 1940 by designer GS Shpagin for a cartridge 7.62x25 mm TT and adopted for service by the Red Army on December 21, 1940. PPSh along with PPS-43 was the main pistol-a machine gun Soviet armed forces in the Great Patriotic War.</text>
-</string>
-<string id="st_wpn_toz34_nimble">
+	</string>
+	<string id="st_wpn_toz34_nimble">
 <text>TOZ-34 'Hunter'</text>
-</string>
-<string id="st_wpn_toz34_nimble_descr">
+	</string>
+	<string id="st_wpn_toz34_nimble_descr">
 <text>Unique TOZ-34 Gaunts with a Leupold Mark sight for shooting at long distances.</text>
-</string>
-<string id="st_wpn_trg42">
-	<text>TRG-42</text>
-</string>
-<string id="st_wpn_trg42_descr">
+	</string>
+	<string id="st_wpn_trg42">
+		<text>TRG-42</text>
+	</string>
+	<string id="st_wpn_trg42_descr">
 <text>Sniper rifle with a longitudinally sliding shutter for the cartridge.338 Lapua, developed by the Finnish company SAKO in Riihimaki. Sako TRG series rifles are highly accurate shooting and survivability, and are widely used by the power structures of European countries.</text>
-</string>
-<string id="st_wpn_l115a3">
-	<text>L115A3</text>
-</string>
-<string id="st_wpn_l115a3_descr">
+	</string>
+	<string id="st_wpn_l115a3">
+		<text>L115A3</text>
+	</string>
+    <string id="st_wpn_l115a3_descr">
 <text>Sniper rifle with a longitudinally sliding shutter for the cartridge. 338 Lapua. the first copies of the sniper rifle L115 began to arrive in the British army in early 2008. A quiet, almost inaudible shot and a huge range of the aiming shot make this rifle almost perfect sniper weapons. the effective range of the L115A3 is 1400 meters. Such an increase in the range of fire justified the choice of a 25-fold optical sight 'Schmidt and Bender' instead of a 12-fold sight, which is mounted on rifles L96. In this configuration it is capable of destroying the target with one shot at any temperature and even with a contaminated barrel.</text>
-			</string>
-<string id="st_wpn_mp7">
-	<text>H&K MP-7</text>
-</string>
-<string id="st_wpn_mp7_descr">
+                </string>
+	<string id="st_wpn_mp7">
+		<text>H&K MP-7</text>
+	</string>
+	<string id="st_wpn_mp7_descr">
 <text>the submachine gun MP-7 PDW (Personal Self Defense Gun), developed by Heckler and Koch, for the arming of servicemen who do not have a full-fledged submachine gun. According to the statistics provided by H and K, the efficiency of MP7 is two and a half times higher than that of the MP5K of 9x19 mm caliber by the purposes in bullet-proof vests, with half the return.</text>
-</string>
-<string id="st_addon_scope_pu">
+	</string>
+	<string id="st_addon_scope_pu">
 <text>Sight of PU</text>
-</string>
-<string id="st_addon_scope_pus">
+	</string>
+	<string id="st_addon_scope_pus">
 <text>PU</text>
-</string>
-<string id="st_addon_scope_pu_descr">
+	</string>
+	<string id="st_addon_scope_pu_descr">
 <text>PU (from the Shortened Sight) is a Soviet optical sight, originally created in 1940.</text>
-</string>
-<string id="st_wpn_aek973">
+	</string>
+	<string id="st_wpn_aek973">
 <text>AEK-973</text>
-</string>
-<string id="st_wpn_aek973_descr">
-<text>\n %c[255,1,255,255] вЂў %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1\n\n\n %c[255,1,255,255] вЂў %c[default] Grenade launcher GP-25\n\n\n %c[255,1,255,255] вЂў %c[default] silencer TGP-A\n\n the machine is made according to the traditional layout scheme (front store position) and constructively largely repeats the Kalashnikov assault rifle-a rotary valve and automatic reloading mechanism based on a gas engine is used. the machine is designed for cartridges caliber 7.62x39 mm,there are also variants of this machine for the cartridge 5,56 mm NATO (AEK-972) and 5,45x39 mm (AEK-971).</text>
-</string>
-<string id="st_9x39">
-	<text>9x39</text>
-</string>
-<string id="st_5x45">
-	<text>545x39</text>
-</string>
-<string id="st_5x56">
-	<text>556x45 NATO</text>
-</string>
-<string id="st_12g">
-	<text>12g</text>
-</string>
-<string id="st_762x51">
-	<text>762x51</text>
-</string>
-<string id="st_762x54">
-	<text>762x54R</text>
-</string>
-<string id="st_9x19">
-	<text>9x19 PARA</text>
-</string>
-<string id="st_9x18">
-	<text>9x18 PM</text>
-</string>
-<string id="st_762x39">
-	<text>762x39</text>
-</string>
-<string id="st_762x25">
-	<text>762x25</text>
-</string>
-<string id="st_43x23">
-	<text>43x23 HYDRA</text>
-</string>
-<string id="st_addon_scope_detector_descr">
-	<text>A 4x fixed zoom optical scope with a built-in heat visor used to identify heat sources typical of the human body. Designed for use by special forces. Attached to weapons by means of a dovetail mount.</text>
-</string>
-<string id="st_addon_scope_x2.7">
-	<text>PSU-1 scope</text>
-</string>
-<string id="st_addon_scope_x2.7_descr">
-	<text>A 2.7x optical scope for urban combat at medium range. Attached to weapons by means of a dovetail mount.</text>
-</string>
-<string id="st_wpn_desert_eagle_nimble">
-	<text>Steppe Eagle</text>
-</string>
-<string id="st_wpn_desert_eagle_nimble_descr">
-	<text>A hand-made pistol based on the Black Kite design. The components are finely tuned to achieve incredible accuracy for a handgun of this type.</text>
-</string>
-<string id="st_wpn_eagle">
-	<text>Black Kite</text>
-</string>
-<string id="st_wpn_mp5_nimble">
-	<text>Frasier</text>
-</string>
-<string id="st_wpn_mp5_nimble_descr">
-	<text>A submachine gun prototype based on the excellent Viper 5 model. Designed as a next generation close quarter combat weapon, it benefits from a higher calibre, rate of fire and accuracy.</text>
-</string>
-<string id="st_wpn_pkm_zulus">
-	<text>Zulu's RP-74</text>
-</string>
-<string id="st_wpn_pkm_zulus_descr">
-	<text>This weapon was previously owned by Zulu. Its special features include an enlarged ammo box and a particularly reliable retracting mechanism design. The modifications meant an increase in the weapon's weight, but that wasn't a problem for the last owner.</text>
-</string>
-<string id="st_wpn_pm_actor">
-	<text>Honorary PMm</text>
-</string>
-<string id="st_wpn_pm_actor_descr">
-	<text>An ancient PMm received by Degtyarev as a reward for "Successful execution of highly dangerous state orders, as well as valour and courage shown in the line of duty."</text>
-</string>
-<string id="st_wpn_rp">
-	<text>RP-74</text>
-</string>
-<string id="st_wpn_rp_descr">
-	<text>This belt-fed machine gun is a portable modification with a complex two-stage feeding system. Despite its weight and low precision, this LMG has found admirers in the Zone. Used primarily to fight off outnumbering enemy forces during faction conflicts and clear out mutant lairs.</text>
-</string>
-<string id="st_wpn_sig220_nimble">
-	<text>Alpine</text>
-</string>
-<string id="st_wpn_sig220_nimble_descr">
-	<text>A unique model of the SIP-t M200 handgun. Part of a small limited edition made for an unidentified special forces unit. The model benefits from an increased magazine capacity, a high durability steel barrel and an ultra-durable polymer receiver.</text>
-</string>
-<string id="st_wpn_spas12_m2">
-	<text>SPSA-AUT</text>
-</string>
-<string id="st_wpn_spas12_m2_descr">
-	<text>The SPSA-AUT self-cocking shotgun is made only in Duty workshops. This weapon is intended for fighting large groups of mutants. Its improved feeding mechanism ensures a high rate of fire and the magazine capacity has been increased to 10 rounds. Uses 12x70 calibre rounds.</text>
-</string>
-<string id="st_wpn_spas12_nimble">
-<text>Carabineer</text>
-</string>
-<string id="st_wpn_spas12_nimble_descr">
-	<text>An army shotgun designed specifically for assault units on the basis of the SPSA-14. Capable of automatic fire like its predecessor, but provides better recoil compensation thanks to a balanced shock free system.</text>
-</string>
-<string id="st_wpn_svu_nimble">
-<text>SVU2-A</text>
-</string>
-<string id="st_wpn_svu_nimble_descr">
-	<text>This shortened sniper rifle with an increase rate of fire is the next step in the evolution of the SVUmk-2 sniper rifle. This weapon used to belong to Max, the legendary guardian of Freedom.</text>
-</string>
-<string id="st_wpn_usp_nimble">
-<text>March</text>
-</string>
-<string id="st_wpn_usp_nimble_descr">
-	<text>A compact, large calibre pistol with short bolt movement and lightweight bolt assembly. Used to belong to a mercenary called Wolfhound. Appears to be a modified UDP Compact pistol.</text>
-</string>
-<string id="st_wpn_wincheaster1300_trapper">
-<text>Predator</text>
-</string>
-<string id="st_wpn_wincheaster1300_trapper_descr">
-	<text>A tailor-made pump-action shotgun which used to belong to Trapper. The hunter's only requirement in respect of his weapon was that it needed to kill predators in one shot. This philosophy was based on the belief that no matter how many people an animal had killed, it was still just an animal, and thus should not suffer.</text>
-</string>
-<string id="st_wpn_abakan_descr">
-	<text>A modern assault rifle developed as a replacement for the ageing AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armour piercing capability.</text>
-</string>
-<string id="st_addon_scope_detector">
-	<text>PSS-2x scope</text>
-</string>
+	</string>
+	<string id="st_wpn_aek973_descr">
+<text>\n %c[255,1,255,255] • %c[default] sights Cobra EKP-1S-03,Cobra EKP-8-02,1P29 Tulip,PSO-1\n\n\n %c[255,1,255,255] • %c[default] Grenade launcher GP-25\n\n\n %c[255,1,255,255] • %c[default] silencer TGP-A\n\n the machine is made according to the traditional layout scheme (front store position) and constructively largely repeats the Kalashnikov assault rifle-a rotary valve and automatic reloading mechanism based on a gas engine is used. the machine is designed for cartridges caliber 7.62x39 mm,there are also variants of this machine for the cartridge 5,56 mm NATO (AEK-972) and 5,45x39 mm (AEK-971).</text>
+	</string>
+	<string id="st_9x39">
+		<text>9x39</text>
+	</string>
+	<string id="st_5x45">
+		<text>545x39</text>
+	</string>
+	<string id="st_5x56">
+		<text>556x45 NATO</text>
+	</string>
+	<string id="st_12g">
+		<text>12g</text>
+	</string>
+	<string id="st_762x51">
+		<text>762x51</text>
+	</string>
+	<string id="st_762x54">
+		<text>762x54R</text>
+	</string>
+	<string id="st_9x19">
+		<text>9x19 PARA</text>
+	</string>
+	<string id="st_9x18">
+		<text>9x18 PM</text>
+	</string>
+	<string id="st_762x39">
+		<text>762x39</text>
+	</string>
+	<string id="st_762x25">
+		<text>762x25</text>
+	</string>
+	<string id="st_43x23">
+		<text>43x23 HYDRA</text>
+	</string>
 </string_table>

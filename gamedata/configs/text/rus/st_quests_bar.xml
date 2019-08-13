@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- bar_dolg_general_petrenko_stalker -->
+	<!-- DEFEND TERRITORY FOR DUTY TASK -->
 	<string id="bar_dolg_general_petrenko_stalker_task_1_name">
 		<text>Defend territory for Duty</text>
 	</string>
@@ -13,6 +13,7 @@
 	<string id="bar_dolg_general_petrenko_stalker_task_1_finish">
 		<text>Excellent work. You are a fine warrior.</text>
 	</string>
+	<!-- CAPTURE TERRITORY FOR DUTY TASK -->
 	<string id="bar_dolg_general_petrenko_stalker_task_2_name">
 		<text>Reclaim Duty Territory</text>
 	</string>
@@ -25,6 +26,7 @@
 	<string id="bar_dolg_general_petrenko_stalker_task_2_finish">
 		<text>The task is done? Good job.</text>
 	</string>
+	<!-- ASSASSINATION FOR DUTY TASK -->
 	<string id="bar_dolg_general_petrenko_stalker_task_3_name">
 		<text>Assassinate VIP</text>
 	</string>
@@ -53,6 +55,7 @@
 	<string id="bar_visitors_stalker_mechanic_task_1_fetch_finish">
 		<text>Cool dude...uh, sorry I can't pay you. I'll give you a good discount though, man!</text>
 	</string>
+	<!-- FIND LEVEL 2 TOOLKIT FOR MANGUN TASK -->
 	<string id="bar_visitors_stalker_mechanic_task_2_name">
 		<text>Find "%s"</text>
 	</string>
@@ -68,6 +71,7 @@
 	<string id="bar_visitors_stalker_mechanic_task_2_fetch_finish">
 		<text>Great...GREAT! Now maybe I can make some damn money. I'm gonna be BIG time, stalker...if I can just get my act together. I don't have much to offer you other then a discount. Sorry, bud.</text>
 	</string>
+	<!-- FIND LEVEL 3 TOOLKIT FOR MANGUN TASK -->
 	<string id="bar_visitors_stalker_mechanic_task_3_name">
 		<text>Find "%s"</text>
 	</string>

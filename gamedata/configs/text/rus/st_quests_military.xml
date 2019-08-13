@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-
-<!--===========================================================
-<
-< TEXT  STRINGS FOR TASKS ON MILITARY WAREHOUSES MAP
-<	CoC 1.4.08 - DoctorX Questlines 1.6
-<
-<	Modified by: DoctorX
-<	Last revised: October 07, 2016
-<
-<===========================================================-->
-
 <string_table>
-
-
 	<!-- FIND MUTANT MEAT FOR FREEDOM TASK -->
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_name">
 		<text>Procure "%s"</text>
@@ -29,8 +16,6 @@
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_fetch_finish">
 		<text>Great, you are a good hunter! I have payment for you.</text>
 	</string>
-
-
 	<!-- STOP ENEMY ASSAULT FOR FREEDOM TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
 		<text>Repel enemy assault</text>
@@ -44,9 +29,7 @@
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
 		<text>The task is done? Good.</text>
 	</string>
-
-
-
+	<!-- RECAPTURE TERRITORY FOR FREEDOM TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
 		<text>Recapture territory for Freedom</text>
 	</string>
@@ -59,10 +42,8 @@
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
 		<text>Excellent. Well done.</text>
 	</string>
-
-
-
-	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
+	<!-- ASSASSINATE MONOLITH FOR FREEDOM TASK -->
+        <string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
 		<text>Assassinate target</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
@@ -74,8 +55,6 @@
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
 		<text>Ah, you survived! Man, you've got a set on you. Great job.</text>
 	</string>
-
-
 	<!-- ASSASSINATE DUTY FOR FREEDOM TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_name">
 		<text>Assassinate target</text>
@@ -107,8 +86,6 @@
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_finish">
 		<text>Well done. This will go a long way in helping us defend the Zone. Here is the payment I promised.</text>
 	</string>
-
-
 	<!-- FIND LEVEL 1 TOOLS FOR SCREW TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_name">
 		<text>Find %s</text>
@@ -125,9 +102,7 @@
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_finish">
 		<text>Thanks, man! I knew there was a reason I asked you. You look like a man who can get shit done.</text>
 	</string>
-
-
-
+	<!-- FIND LEVEL 2 TOOLS FOR SCREW TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_name">
 		<text>Find %s</text>
 	</string>
@@ -143,9 +118,7 @@
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_finish">
 		<text>You keep this shit up, everyone around here is going to love you. Thanks, man.</text>
 	</string>
-
-
-
+	<!-- FIND LEVEL 3 TOOLS FOR SCREW TASK -->
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_name">
 		<text>Find %s</text>
 	</string>
@@ -161,6 +134,4 @@
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_finish">
 		<text>You keep this shit up, everyone around here is going to love you. Thanks, man.</text>
 	</string>
-
-
 </string_table>

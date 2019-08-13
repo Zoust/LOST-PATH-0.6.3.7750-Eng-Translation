@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-
-<!--===========================================================
-<
-< GENERAL TEXT  STRINGS FOR TASKS
-<	CoC 1.4.10 - DoctorX Questlines 1.6
-<
-<	Modified by: DoctorX
-<	Last revised: October 14, 2016
-<
-<===========================================================-->
-
 <string_table>
-
-
 	<!-- FIND SUPPLIES FOR STALKER, CLEAR SKY, DUTY, OR ECOG TASK -->
 	<string id="simulation_task_1_name">
 		<text>Procure %s</text>
@@ -29,8 +16,6 @@
 	<string id="simulation_task_1_fetch_finish">
 		<text>Great, man! Thanks!</text>
 	</string>
-
-
 	<!-- FIND SUPPLIES FOR FREEDOM OR MERC TASK -->
 	<string id="simulation_task_2_name">
 		<text>Procure %s</text>
@@ -47,8 +32,6 @@
 	<string id="simulation_task_2_fetch_finish">
 		<text>Awesome, man. Thanks!</text>
 	</string>
-
-
 	<!-- FIND MUTANT MEAT FOR STALKER, CLEAR SKY, MERC, FREEDOM, OR BANDIT TASK -->
 	<string id="simulation_task_3_name">
 		<text>Procure %s</text>
@@ -65,8 +48,6 @@
 	<string id="simulation_task_3_fetch_finish">
 		<text>Yes! I'm going to eat good tonight! Thank you, stalker. Here is your payment. Oh, and here: I have some ammo that doesn't fit my rifle. You can have it.</text>
 	</string>
-
-
 	<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_4_name">
 		<text>Find the %s artefact</text>
@@ -83,7 +64,6 @@
 	<string id="simulation_task_4_fetch_finish">
 		<text>Finally! You don't know how long I've been searching for this. Here, this is my finest rifle. I hate to part with it but it is well worth it to me.</text>
 	</string>
-	
 	<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_19_name">
 	<text>You need to find the artifact %s</text>
@@ -136,7 +116,7 @@
 	<text>Find weapons: %s</text>
 	</string>
 	<string id="simulation_task_36_text">
-	<text>The scientist needs a weapon: %s, in excellent condition.</text>
+	<text>the scientist needs a weapon: %s, in excellent condition.</text>
 	</string>
 	<string id="simulation_task_36_about">
 	<text>Young man, could you help get me a gun? And then we were given no idea what, even from the tuskans it's difficult to fight back, I'll be indebted to you!</text>
@@ -164,7 +144,58 @@
 	<string id="simulation_task_6_fetch_finish">
 		<text>Excellent! She's a beauty. Here, take this for your trouble.</text>
 	</string>
-
+	<!-- HOSTAGE RESCUE FOR STALKER TASK -->
+	<string id="simulation_task_7_name">
+		<text>Search and rescue</text>
+	</string>
+	<string id="simulation_task_7_text">
+		<text>A stalker's buddy was kidnapped by a gang of bandits. He asked me to try and rescue him.</text>
+	</string>
+	<string id="simulation_task_7_about">
+		<text>I could really use some help, man. My friend was mugged and taken hostage by some bandits. I really don't know what I should do. Do you think you can help me out and save my friend?</text>
+	</string>
+	<string id="simulation_task_7_finish">
+		<text>You did it! Thank you, stalker. It's good to see my friend back and alive! Here - for your trouble:</text>
+	</string>
+	<!-- HOSTAGE RESCUE FOR DUTY TASK -->
+	<string id="simulation_task_8_name">
+		<text>Search and rescue</text>
+	</string>
+	<string id="simulation_task_8_text">
+		<text>I've been tasked to rescue a member of Duty who is being held hostage.</text>
+	</string>
+	<string id="simulation_task_8_about">
+		<text>Stalker, our comrade was wounded and taken hostage! I'm in desperate need of someone capable enough to stage a rescue operation. Do you think you can help us out and save our friend?</text>
+	</string>
+	<string id="simulation_task_8_finish">
+		<text>Thank you, stalker. It's good to see you saved our fellow comrade! Here - for your trouble:</text>
+	</string>
+	<!-- HOSTAGE RESCUE FOR FREEDOM TASK -->
+	<string id="simulation_task_9_name">
+		<text>Search and rescue</text>
+	</string>
+	<string id="simulation_task_9_text">
+		<text>I've been tasked to rescue a member of Freedom who is being held hostage.</text>
+	</string>
+	<string id="simulation_task_9_about">
+		<text>Stalker, our comrade was wounded and taken hostage! I'm in desperate need of someone capable enough to stage a rescue operation. Do you think you can help us out and save our friend?</text>
+	</string>
+	<string id="simulation_task_9_finish">
+		<text>You did it! Thank you, stalker. It's good to see my friend back and alive! Here - for your trouble:</text>
+	</string>
+	<!-- HOSTAGE RESCUE FOR ECOG TASK -->
+	<string id="simulation_task_10_name">
+		<text>Search and rescue</text>
+	</string>
+	<string id="simulation_task_10_text">
+		<text>Rescue an ecologist from a group of bandits.</text>
+	</string>
+	<string id="simulation_task_10_about">
+		<text>Yes, please help! One of my colleagues was kidnapped. Can you help rescue him?</text>
+	</string>
+	<string id="simulation_task_10_finish">
+		<text>Thank you, stalker. It's good to see my colleague back! Please accept this as a reward.</text>
+	</string>
 	<!-- ASSASSINATION  FOR STALKER TASK -->
 	<string id="simulation_task_11_name">
 		<text>Reverse bounty hunt</text>
@@ -178,8 +209,6 @@
 	<string id="simulation_task_11_finish">
 		<text>Oh, thank you, stalker! Here's your payment. I can finally sleep for the first time in days!</text>
 	</string>
-
-
 	<!-- VENGEANCE  FOR STALKER TASK -->
 	<string id="simulation_task_12_name">
 		<text>Revenge killing</text>
@@ -295,17 +324,13 @@
 	<string id="simulation_task_18_finish">
 		<text>Great job. Here's the money I owe you.</text>
 	</string>
-
-
-
+	<!-- HOSTAGE INTERACTION  TEXT -->
 	<string id="hostage_companion_task_1_start_dialog_1">
 		<text>Wh-Who are you? Are you here to help me, stalker?</text>
 	</string>
 	<string id="hostage_companion_task_1_actor_reply">
 		<text>Come with me if you want to live!</text>
 	</string>
-
-
 	<!-- NIMBLE SPECIAL ORDER TEXT -->
 	<string id="esc_2_12_nimble_items_get_order_name">
 		<text>Special order: Collect the goods</text>
@@ -319,8 +344,6 @@
 	<string id="esc_2_12_nimble_items_wait_order_text">
 		<text>The order has been made, so now you should wait for Nimble to get the goods.</text>
 	</string>
-
-
 	<!-- SURGE HIDE MESSAGES -->
 	<string id="hide_from_surge_message">
 		<text>Attention! Emission imminent!</text>
@@ -337,8 +360,6 @@
 	<string id="hide_from_surge_name_2">
 		<text>Emission: Stay sheltered</text>
 	</string>
-
-
 	<!-- ATMOSFEAR RADIOACTIVE FALLOUT MESSAGES -->
 	<string id="hide_from_fallout_rad_message_caption">
 		<text>Attention!</text>
@@ -364,8 +385,6 @@
 	<string id="end_fallout_rad_message">
 		<text>Radioactive fallout has ended</text>
 	</string>
-
-
 	<!-- ATMOSFEAR CHEMICAL FALLOUT MESSAGES -->
 	<string id="hide_from_fallout_acid_message_caption">
 		<text>Attention!</text>
@@ -391,7 +410,6 @@
 	<string id="end_fallout_acid_message">
 		<text>Chemical fallout has ended</text>
 	</string>
-
 	<string id="simulation_task_20_name">
 	<text>Rescue operation</text>
 	</string>
@@ -476,10 +494,10 @@
 	<text>Destroy the enemy at the key point</text>
 	</string>
 	<string id="simulation_task_22_about">
-	<text>The infidels have captured one of our strongholds in the region, you need to beat them, will you help brother?</text>
+	<text>the infidels have captured one of our strongholds in the region, you need to beat them, will you help brother?</text>
 	</string>
 	<string id="simulation_task_22_finish">
-	<text>The point is behind us, the infidels have fallen, keep the reward:</text>
+	<text>the point is behind us, the infidels have fallen, keep the reward:</text>
         </string>
 
 	<string id="simulation_task_24_name">
@@ -556,7 +574,7 @@
 		<text>You should hide from the psi-storm.</text>
 	</string>
 	<string id="hide_from_psi_storm_descr_2_a">
-		<text>You shouldn't leave shelter during a psi-storm.</text>
+		<text>You shouldn't leave the shelter during a psi-storm.</text>
 	</string>
 	<string id="hide_from_psi_storm_name_1">
 		<text>Psi-storm: Find shelter</text>
@@ -592,7 +610,7 @@
 	<text>Freedom asked to avenge the death of a friend, who was killed by a dolgovetz.</text>
 	</string>
 	<string id="simulation_task_37_about">
-	<text>I need your help, one rotten Dutier killed my friend when he went to the raid, I even know where this bitch is, but I just cannot kill the whole camp he is in, I see you are a grated dude, and you can handle it with such a task, so how can you help? I will be very must.</text>
+	<text>I need your help, one rotten debtor killed my friend when he went to the raid, I even know where this bitch is, but I just cannot kill the whole camp he is in, I see you are a grated dude, and you can handle it with such a task, so how can you help? I will be very must.</text>
 	</string>
 	<string id="simulation_task_37_finish">
 	<text>A friend is now avenged, thank you man, here we receive from a pure heart:</text>
@@ -601,7 +619,7 @@
 	<text>Find %s</text>
 	</string>
 	<string id="simulation_task_41_text">
-	<text>Get cartridges for the commander of the 'Freedom' unit %s.</text>
+	<text>To get cartridges for the commander of the 'Freedom' unit %s.</text>
 	</string>
 	<string id="simulation_task_41_about">
 	<text>Listen to the Maine, help pliz, we have territorial fights here, and the cartridges of the detachment are running out! Can you get us ammo? In debt will not stay!</text>
@@ -611,56 +629,5 @@
 	</string>
 	<string id="simulation_task_41_fetch_finish">
 	<text>Thanks dude! He just won us out, here take a reward from us, as a token of gratitude!</text>
-	</string>
-	<string id="simulation_task_7_name">
-		<text>Search and rescue</text>
-	</string>
-	<string id="simulation_task_7_text">
-		<text>A stalker's buddy was kidnapped by a gang of bandits. He asked me to try and rescue him.</text>
-	</string>
-	<string id="simulation_task_7_about">
-		<text>I could really use some help, man. My friend was mugged and taken hostage by some bandits. I really don't know what I should do. Do you think you can help me out and save my friend?</text>
-	</string>
-	<string id="simulation_task_7_finish">
-		<text>You did it! Thank you, stalker. It's good to see my friend back and alive! Here - for your trouble:</text>
-	</string>
-	<!-- HOSTAGE RESCUE FOR DUTY TASK -->
-	<string id="simulation_task_8_name">
-		<text>Search and rescue</text>
-	</string>
-	<string id="simulation_task_8_text">
-		<text>I've been tasked to rescue a member of Duty who is being held hostage.</text>
-	</string>
-	<string id="simulation_task_8_about">
-		<text>Stalker, our comrade was wounded and taken hostage! I'm in desperate need of someone capable enough to stage a rescue operation. Do you think you can help us out and save our friend?</text>
-	</string>
-	<string id="simulation_task_8_finish">
-		<text>Thank you, stalker. It's good to see you saved our fellow comrade! Here - for your trouble:</text>
-	</string>
-	<!-- HOSTAGE RESCUE FOR FREEDOM TASK -->
-	<string id="simulation_task_9_name">
-		<text>Search and rescue</text>
-	</string>
-	<string id="simulation_task_9_text">
-		<text>I've been tasked to rescue a member of Freedom who is being held hostage.</text>
-	</string>
-	<string id="simulation_task_9_about">
-		<text>Stalker, our comrade was wounded and taken hostage! I'm in desperate need of someone capable enough to stage a rescue operation. Do you think you can help us out and save our friend?</text>
-	</string>
-	<string id="simulation_task_9_finish">
-		<text>You did it! Thank you, stalker. It's good to see my friend back and alive! Here - for your trouble:</text>
-	</string>
-	<!-- HOSTAGE RESCUE FOR ECOG TASK -->
-	<string id="simulation_task_10_name">
-		<text>Search and rescue</text>
-	</string>
-	<string id="simulation_task_10_text">
-		<text>Rescue an ecologist from a group of bandits.</text>
-	</string>
-	<string id="simulation_task_10_about">
-		<text>Yes, please help! One of my colleagues was kidnapped. Can you help rescue him?</text>
-	</string>
-	<string id="simulation_task_10_finish">
-		<text>Thank you, stalker. It's good to see my colleague back! Please accept this as a reward.</text>
 	</string>
 </string_table>

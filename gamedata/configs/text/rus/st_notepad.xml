@@ -3,7 +3,7 @@
 
 <!-- Êíîïêè -->
 <string id="pda_btn_rpg">
-	<text>Prorolling</text>
+	<text>Character</text>
 </string>
 <string id="pda_btn_1">
 	<text>More tab</text>
@@ -49,17 +49,17 @@
 
 
 <string id="pda_btn_factions">
-<text>Grouping</text>
+<text>Faction</text>
 </string>
 <string id="pda_btn_factions_hint">
-<text>Statistics groups.</text>
+<text>Faction statistics</text>
 </string>
 
 <string id="Next">
-<text>Forward</text>
+<text>Next</text>
 </string>
 <string id="Back">
-<text>Ago</text>
+<text>Previous</text>
 </string>
 
 
@@ -68,10 +68,13 @@
 <text>Location:</text>
 </string>
 <string id="pda_points">
-<text>the Power of groups:</text>
+<text>Faction strength:</text>
 </string>
 <string id="pda_base">
-<text>Number of databases:</text>
+	<text>Number of bases:</text>
+</string>
+<string id="pda_level">
+	<text>Level:</text>
 </string>
 <string id="pda_res">
 <text>resource Points:</text>
@@ -89,8 +92,13 @@
 <text>Enemies</text>
 </string>
 <string id="pda_friend_3">
-<text>Neutral</text>
+	<text>Neutral</text>
 </string>
-
+<string id="pda_friend_4">
+	<text>Positive</text>
+</string>
+<string id="pda_friend_5">
+	<text>Negative</text>
+</string>
 
 </string_table>
